@@ -10,7 +10,7 @@ The [Enterprise DevSecOps](mailto:devsecops@cdc.gov) team inherited [the documen
 | Github.com           | [cdcent]              | Public\* | [Boris Ning](mailto:devsecops@cdc.gov) |
 | Github.com           | [cdc-his]             | Public   | [Boris Ning](mailto:devsecops@cdc.gov) |
 | Github.com           | [cdc-data]            | Public   | [Boris Ning](mailto:devsecops@cdc.gov) |
-| Github.com           | [cdcai]               | Public   | [Boris Ning](mailto:devsecops@cdc.gov) |
+| Github.com           | [cdcai]               | Public   |                                        |
 | Github.com           | [cdcepi]              | Public   |                                        |
 | Github.com           | [epi-info]            | Public   |                                        |
 | Github.com           | [informaticslab]      | Public   |                                        |
