@@ -1,0 +1,307 @@
+{
+    "version": "2.0",
+    "agency": "Centers for Disease Control and Prevention",
+    "measurementType": {
+        "method": "projects"
+    },
+    "projects": [
+        {
+            "name": "cloud",
+            "organization": "cdcent",
+            "description": "Initial repo for CTF Cloud Ecosystem ",
+            "repositoryURL": "https://github.com/CDCGov/ShareIT-Act/instructions.pd",
+            "homepageURL": "",
+            "vcs": "git",
+            "repositoryVisibility": "private",
+            "status": "inactive",
+            "version": "N/A",
+            "laborHours": 7.0,
+            "languages": [
+                "HTML",
+                "CSS",
+                "Ruby"
+            ],
+            "date": {
+                "created": "2020-02-24T19:38:39+00:00",
+                "lastModified": "2023-01-20T13:54:46+00:00",
+                "metadataLastUpdated": "2025-05-10T23:02:42.619335+00:00"
+            },
+            "permissions": {
+                "usageType": "governmentWideReuse",
+                "licenses": [
+                    {
+                        "spdxID": "Apache-2.0",
+                        "name": "Apache License 2.0",
+                        "URL": "https://github.com/cdcent/cloud/blob/master/LICENSE"
+                    }
+                ]
+            },
+            "contact": {
+                "email": "shareit@cdc.gov"
+            },
+            "repo_id": 242826247,
+            "readme_url": "https://github.com/cdcent/cloud/blob/master/README.md",
+            "privateID": "github_242826247"
+        },
+        {
+            "name": "csels-hub",
+            "organization": "Center for Surveillance, Epidemiology, and Laboratory Services",
+            "description": "A personal project repository for testing, experimenting, and validating different scripts, workflows, and tools.\r\n\r\nThis repository contains example code snippets, automation scripts, infrastructure-as-code templates, and prototype projects.\r\nIt serves",
+            "repositoryURL": "https://github.com/CDCGov/ShareIT-Act/exempted_notice.pdf",
+            "homepageURL": "https://gitlab.com/cdcent/csels-hub",
+            "vcs": "git",
+            "repositoryVisibility": "private",
+            "status": "development",
+            "version": "N/A",
+            "laborHours": 2.5,
+            "date": {
+                "created": "2025-04-27T03:06:46.503000+00:00",
+                "lastModified": "2025-05-09T20:54:45.038000+00:00",
+                "metadataLastUpdated": "2025-05-10T23:02:42.619363+00:00"
+            },
+            "permissions": {
+                "usageType": "exemptNonCode",
+                "exemptionText": "Non-code repository (languages: [None detected])",
+                "licenses": []
+            },
+            "contact": {
+                "email": "shareit@cdc.gov"
+            },
+            "repo_id": 69325396,
+            "readme_url": "https://gitlab.com/cdcent/csels-hub/-/blob/master/README.md",
+            "privateID": "gitlab_69325396"
+        },
+        {
+            "name": "eDOTnonInfer",
+            "organization": "National Center for HIV, Viral Hepatitis, STD, and TB Prevention",
+            "description": "Evaluation of ipDOT and eDOT for TB treatment (CDC with NYC DoHMH)",
+            "repositoryURL": "https://github.com/CDCGov/ShareIT-Act/instructions.pd",
+            "homepageURL": "",
+            "vcs": "git",
+            "repositoryVisibility": "private",
+            "status": "inactive",
+            "version": "N/A",
+            "laborHours": 84.5,
+            "languages": [
+                "SAS",
+                "Rich Text Format"
+            ],
+            "tags": [
+                "tuberculosis",
+                "collaboration-external",
+                "rct",
+                "randomized-controlled-trials",
+                "clinic",
+                "clinical-research",
+                "nchhstp-dte",
+                "cdc",
+                "centers-for-disease-control",
+                "new-york-city",
+                "nyc-dohmh",
+                "nchhstp"
+            ],
+            "date": {
+                "created": "2020-04-10T19:21:33+00:00",
+                "lastModified": "2022-08-12T23:07:10+00:00",
+                "metadataLastUpdated": "2025-05-10T23:02:42.619339+00:00"
+            },
+            "permissions": {
+                "usageType": "governmentWideReuse",
+                "licenses": []
+            },
+            "contact": {
+                "email": "shareit@cdc.gov"
+            },
+            "repo_id": 254717441,
+            "readme_url": "https://github.com/cdcent/eDOTnonInfer/blob/dev/README.md",
+            "privateID": "github_254717441"
+        },
+        {
+            "name": "enterprise_practices",
+            "organization": "Office of the Chief Information Officer",
+            "description": "Collection of required and optional practices that we follow to improve usability of the cdcent organization.",
+            "repositoryURL": "https://github.com/CDCGov/ShareIT-Act/exempted_notice.pdf",
+            "homepageURL": "http://cdcent.github.io/enterprise_practices",
+            "vcs": "git",
+            "repositoryVisibility": "private",
+            "status": "development",
+            "version": "N/A",
+            "laborHours": 39.5,
+            "tags": [
+                "ocio",
+                "governance",
+                "templates",
+                "support"
+            ],
+            "date": {
+                "created": "2019-10-08T16:13:28+00:00",
+                "lastModified": "2025-05-02T13:28:32+00:00",
+                "metadataLastUpdated": "2025-05-10T23:02:42.619306+00:00"
+            },
+            "permissions": {
+                "usageType": "exemptNonCode",
+                "exemptionText": "Non-code repository (languages: [None detected])",
+                "licenses": [
+                    {
+                        "spdxID": "Apache-2.0",
+                        "name": "Apache License 2.0",
+                        "URL": "https://github.com/cdcent/enterprise_practices/blob/master/LICENSE"
+                    }
+                ]
+            },
+            "contact": {
+                "email": "shareit@cdc.gov"
+            },
+            "repo_id": 213692182,
+            "readme_url": "https://github.com/cdcent/enterprise_practices/blob/master/README.md",
+            "privateID": "github_213692182"
+        },
+        {
+            "name": "JScript",
+            "organization": "cdcent",
+            "description": "A repo to maintain code for the CDC implementations of Adobe Analytics and ForeSee as well as supporting metrics and survey code.",
+            "repositoryURL": "https://github.com/CDCGov/ShareIT-Act/instructions.pd",
+            "homepageURL": "",
+            "vcs": "git",
+            "repositoryVisibility": "private",
+            "status": "development",
+            "version": "N/A",
+            "laborHours": 325.5,
+            "languages": [
+                "JavaScript",
+                "PowerShell",
+                "Batchfile",
+                "HTML"
+            ],
+            "tags": [
+                "oadc",
+                "analytics",
+                "survey"
+            ],
+            "date": {
+                "created": "2020-05-14T17:51:31+00:00",
+                "lastModified": "2025-05-09T21:44:19+00:00",
+                "metadataLastUpdated": "2025-05-10T23:02:42.619344+00:00"
+            },
+            "permissions": {
+                "usageType": "governmentWideReuse",
+                "licenses": []
+            },
+            "contact": {
+                "email": "shareit@cdc.gov"
+            },
+            "repo_id": 263986199,
+            "readme_url": "https://github.com/cdcent/JScript/blob/master/README.md",
+            "privateID": "github_263986199"
+        },
+        {
+            "name": "mynodejs",
+            "organization": "National Center for Chronic Disease Prevention and Health Promotion (NCCDPHP)",
+            "description": "This repository serves as a personal sandbox for technical testing and proof-of-concept (PoC) activities.\r\nIt is intended for experimenting with new frameworks, validating scripts, evaluating cloud deployment patterns, and exploring integration workfl",
+            "repositoryURL": "https://github.com/CDCGov/ShareIT-Act/exempted_notice.pdf",
+            "homepageURL": "https://gitlab.com/cdcent/mynodejs",
+            "vcs": "git",
+            "repositoryVisibility": "private",
+            "status": "experimental",
+            "version": "0.1.0",
+            "laborHours": 2.0,
+            "languages": [
+                "JavaScript",
+                "Dockerfile"
+            ],
+            "tags": [
+                "data analysis",
+                "python",
+                "visualization"
+            ],
+            "date": {
+                "created": "2025-04-27T03:17:18.918000+00:00",
+                "lastModified": "2025-05-09T20:31:02.362000+00:00",
+                "metadataLastUpdated": "2025-05-10T23:02:42.619358+00:00"
+            },
+            "permissions": {
+                "usageType": "exemptByLaw",
+                "exemptionText": "This specific module interfaces with classified national security systems.",
+                "licenses": []
+            },
+            "contact": {
+                "email": "shareit@cdc.gov"
+            },
+            "contractNumber": "75D30123C12345",
+            "repo_id": 69325486,
+            "readme_url": "https://gitlab.com/cdcent/mynodejs/-/blob/master/README.md",
+            "privateID": "gitlab_69325486"
+        },
+        {
+            "name": "OADCAutomatedTesting",
+            "organization": "Office of the Associate Directory of Communications",
+            "description": "A collection of various NodeJS-based tests for presentation/CSS, APIs, and performance testing.",
+            "repositoryURL": "https://github.com/CDCGov/ShareIT-Act/instructions.pd",
+            "homepageURL": "",
+            "vcs": "git",
+            "repositoryVisibility": "private",
+            "status": "inactive",
+            "version": "N/A",
+            "laborHours": 34.0,
+            "languages": [
+                "JavaScript",
+                "Batchfile",
+                "HTML",
+                "PowerShell"
+            ],
+            "tags": [
+                "oadc",
+                "automated-testing"
+            ],
+            "date": {
+                "created": "2020-05-19T10:45:58+00:00",
+                "lastModified": "2022-05-20T20:47:34+00:00",
+                "metadataLastUpdated": "2025-05-10T23:02:42.619347+00:00"
+            },
+            "permissions": {
+                "usageType": "governmentWideReuse",
+                "licenses": []
+            },
+            "contact": {
+                "email": "shareit@cdc.gov"
+            },
+            "repo_id": 265219956,
+            "readme_url": "https://github.com/cdcent/OADCAutomatedTesting/blob/master/README.md",
+            "privateID": "github_265219956"
+        },
+        {
+            "name": "ocio-netpro",
+            "organization": "CSELS",
+            "description": "This repository serves as a personal sandbox for technical testing and proof-of-concept (PoC) activities.\r\nIt is intended for experimenting with new frameworks, validating scripts, evaluating cloud deployment patterns, and exploring integration workfl",
+            "repositoryURL": "https://github.com/CDCGov/ShareIT-Act/instructions.pd",
+            "homepageURL": "https://gitlab.com/cdcent/ocio-netpro",
+            "vcs": "git",
+            "repositoryVisibility": "private",
+            "status": "development",
+            "version": "1.0.0",
+            "laborHours": 2.0,
+            "languages": [
+                "C#"
+            ],
+            "tags": [
+                "python",
+                "visualization"
+            ],
+            "date": {
+                "created": "2025-04-27T03:19:32.371000+00:00",
+                "lastModified": "2025-05-03T00:13:23.098000+00:00",
+                "metadataLastUpdated": "2025-05-10T23:02:42.619354+00:00"
+            },
+            "permissions": {
+                "usageType": "governmentWideReuse",
+                "licenses": []
+            },
+            "contact": {
+                "email": "shareit@cdc.gov"
+            },
+            "repo_id": 69325503,
+            "readme_url": "https://gitlab.com/cdcent/ocio-netpro/-/blob/master/README.md",
+            "privateID": "gitlab_69325503"
+        }
+    ]
+}
