@@ -14,15 +14,15 @@ To help CDC developers, project teams, ADIs, and C/I/Os:
 
 ---
 
-## 🔍 What to Review
+## 🔍 How to Review Metadata
 
-1. Download and open the latest **`metadata_preview_table.html`** from this repository.
+1. Open the latest **[metadata_preview_table.html](metadata_preview_table.html)** file published in this repository.
 2. Search by:
    - Repository name
    - Org or CDC program
    - Contact email
-   - Exemption type
-3. Review fields such as:
+   - Exemption status
+3. Review key fields, including:
    - `Repository Name`
    - `Organization`
    - `Contact Email`
@@ -33,32 +33,40 @@ To help CDC developers, project teams, ADIs, and C/I/Os:
 
 ---
 
-## 🛠️ How to Make Changes
+## ✏️ How to Submit Changes
 
-- To correct metadata, edit the `README.md` file in your repository using approved override markers such as:
+There are two ways to update incorrect or missing metadata:
 
-  ```md
-  Org: NCCDPHP
-  Contact Email: your-team@cdc.gov
-  Exemption: exemptByMissionSystem
-  Exemption Justification: This model supports sensitive public health operations.
-  ```
+### 🛠️ 1. Edit Your `README.md` with Metadata Markers
 
-- Save and commit your changes to your repository before the preview window closes.
+To make your corrections **persistent across future scans**, update your repository’s `README.md` using structured override markers. These markers will override the AI scanner’s inferences.
+
+Example:
+
+```md
+Org: NCCDPHP  
+Contact Email: chronicdev@cdc.gov  
+Exemption: exemptByAgencySystem  
+Exemption Justification: This code is used only within CDC infrastructure and is not reusable externally.  
+```
+
+👉 See the full list of markers and usage examples in the [CDC Metadata Implementation Guide](https://docs.cdc.gov/docs/ea/codeshare/implementation-guide#readmemd-override-optional-markers).
+
+### 📝 2. Submit a Pull Request (PR) to this Repository
+
+If your repository is archived or you cannot directly edit it:
+- Fork this repository
+- Edit the `metadata_preview_table.html` or submit corrections via the Issues tab
+- Include your repository name and proposed correction(s) in the PR description
+- Label the PR as `metadata-fix`
 
 ---
 
-## 📤 Submitting Feedback or Questions
+## 🕒 Review Deadlines & Schedule
 
-- For metadata correction issues (e.g., archived repos or permissions), you may also open a GitHub Issue with the label `metadata-fix`.
-- Email questions or exemption clarifications to [shareit@cdc.gov](mailto:shareit@cdc.gov?subject=Feedback), and CC `#ea@cdc.gov` if responding to a formal request.
+Publishing occurs quarterly, and each preview window opens **30 days prior** to the publishing date. See the [Review Schedule](Updated_Review_Schedule_2025_2026.md) for all deadlines.
 
----
-
-## 📅 Review Schedule
-
-Review windows and deadlines are posted regularly on this repository.
-The `exempted_log.csv` file lists all repositories that were flagged as exempt—please validate any entries where exemption was auto-assigned.
+Exemptions auto-assigned by the AI scanner are also listed in `exempted_log.csv`. You will only be contacted directly if your repository is flagged with a potentially incorrect exemption that lacks justification.
 
 |   Year | Quarter   | Review Period               | Publishing Date   |
 |-------:|:----------|:----------------------------|:------------------|
@@ -68,3 +76,9 @@ The `exempted_log.csv` file lists all repositories that were flagged as exempt�
 |   2026 | Q2        | May 31, 2026 – Jun 30, 2026 | Jun 30, 2026      |
 |   2026 | Q3        | Aug 31, 2026 – Sep 30, 2026 | Sep 30, 2026      |
 |   2026 | Q4        | Dec 01, 2026 – Dec 31, 2026 | Dec 31, 2026      |
+
+---
+
+## 📤 Questions or Support
+
+Email [shareit@cdc.gov](mailto:shareit@cdc.gov?subject=Feedback) for help or clarification. Always CC `#ea@cdc.gov` if responding to a formal metadata correction request.
