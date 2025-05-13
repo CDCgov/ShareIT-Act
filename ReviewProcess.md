@@ -60,3 +60,11 @@ To help CDC developers, project teams, ADIs, and C/I/Os:
 Review windows and deadlines are posted regularly on this repository.
 The `exempted_log.csv` file lists all repositories that were flagged as exempt—please validate any entries where exemption was auto-assigned.
 
+|   Year | Quarter   | Review Period               | Publishing Date   |
+|-------:|:----------|:----------------------------|:------------------|
+|   2025 | Q3        | Jun 21, 2025 – Jul 21, 2025 | Jul 21, 2025      |
+|   2025 | Q4        | Dec 01, 2025 – Dec 31, 2025 | Dec 31, 2025      |
+|   2026 | Q1        | Mar 01, 2026 – Mar 31, 2026 | Mar 31, 2026      |
+|   2026 | Q2        | May 31, 2026 – Jun 30, 2026 | Jun 30, 2026      |
+|   2026 | Q3        | Aug 31, 2026 – Sep 30, 2026 | Sep 30, 2026      |
+|   2026 | Q4        | Dec 01, 2026 – Dec 31, 2026 | Dec 31, 2026      |
