@@ -74,15 +74,12 @@ Publishing occurs quarterly, and each preview window opens **30 days prior** to 
 
 Exemptions auto-assigned by the AI scanner are also listed in `exempted_log.csv`. You will only be contacted directly if your repository is flagged with a potentially incorrect exemption that lacks justification.
 
-|   Year | Quarter   | Review Period               | Publishing Date   |
-|-------:|:----------|:----------------------------|:------------------|
-|   2025 | Q3        | Jun 21, 2025 – Jul 21, 2025 | Jul 21, 2025      |
-|   2025 | Q4        | Dec 01, 2025 – Dec 31, 2025 | Dec 31, 2025      |
-|   2026 | Q1        | Mar 01, 2026 – Mar 31, 2026 | Mar 31, 2026      |
-|   2026 | Q2        | May 31, 2026 – Jun 30, 2026 | Jun 30, 2026      |
-|   2026 | Q3        | Aug 31, 2026 – Sep 30, 2026 | Sep 30, 2026      |
-|   2026 | Q4        | Dec 01, 2026 – Dec 31, 2026 | Dec 31, 2026      |
-
+|   Year | Cycle    | Review Period               | Publishing Date   |
+|-------:|:---------|:----------------------------|:------------------|
+|   2025 | Mid-Year | Jun 06, 2025 – Jul 21, 2025 | Jul 21, 2025      |
+|   2025 | Year-End | Nov 16, 2025 – Dec 31, 2025 | Dec 31, 2025      |
+|   2026 | Mid-Year | Jun 06, 2026 – Jul 21, 2026 | Jul 21, 2026      |
+|   2026 | Year-End | Nov 16, 2026 – Dec 31, 2026 | Dec 31, 2026      |
 ---
 
 ## 📤 Questions or Support
