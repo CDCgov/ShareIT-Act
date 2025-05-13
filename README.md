@@ -70,16 +70,16 @@ Exemption Justification: This code is used only within CDC infrastructure and is
 
 ## 🕒 Review Deadlines & Schedule
 
-Publishing occurs quarterly, and each preview window opens **30 days prior** to the publishing date. See below for the current schedule.
+Publishing occurs quarterly, and each preview window opens **45 days prior** to the publishing date. See below for the current schedule.
 
 Exemptions auto-assigned by the AI scanner are also listed in `exempted_log.csv`. You will only be contacted directly if your repository is flagged with a potentially incorrect exemption that lacks justification.
 
 |   Year | Cycle    | Review Period               | Publishing Date   |
 |-------:|:---------|:----------------------------|:------------------|
-|   2025 | Mid-Year | Jun 06, 2025 – Jul 21, 2025 | Jul 21, 2025      |
-|   2025 | Year-End | Nov 16, 2025 – Dec 31, 2025 | Dec 31, 2025      |
-|   2026 | Mid-Year | Jun 06, 2026 – Jul 21, 2026 | Jul 21, 2026      |
-|   2026 | Year-End | Nov 16, 2026 – Dec 31, 2026 | Dec 31, 2026      |
+|   2025 | Mid-Year | Jun 06, 2025 – Jul 18, 2025 | Jul 21, 2025      |
+|   2025 | Year-End | Nov 16, 2025 – Dec 28, 2025 | Dec 31, 2025      |
+|   2026 | Mid-Year | Jun 06, 2026 – Jul 18, 2026 | Jul 21, 2026      |
+|   2026 | Year-End | Nov 16, 2026 – Dec 28, 2026 | Dec 31, 2026      |
 ---
 
 ## 📤 Questions or Support
