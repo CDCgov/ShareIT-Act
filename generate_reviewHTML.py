@@ -22,45 +22,98 @@ extracts key fields from each repository entry, and generates a human-readable H
 
 Author: CDC OCIO Support (Share IT Act Implementation)
 """
-
 import json
 import pandas as pd
+from pathlib import Path
 
-# Load the code.json file
-with open("code.json", "r") as f:
+# Load code.json file
+catalog_path = Path("catalog/code.json")
+with open(catalog_path, "r") as f:
     code_data = json.load(f)
 
-# Flatten and extract the list of custom-developed software entries
-df = pd.json_normalize(code_data["releases"])
+# Extract releases
+releases = code_data.get("releases", [])
 
-# Select fields of interest
-selected_fields = [
-    "name",
-    "organization",
-    "contact.email",
-    "permissions.exemption",
-    "repositoryURL",
-    "version",
-    "status"
-]
+# Generate preview entries
+table_data = []
+line_number = 10  # approximate starting line
+for release in releases:
+    repo_name = release.get("name", "")
+    org = release.get("organization", "")
+    contact = release.get("contact", {}).get("email", "")
+    exemption = release.get("permissions", {}).get("exemption", "")
+    url = release.get("repositoryURL", "")
+    version = release.get("version", "")
+    status = release.get("status", "")
 
-# Filter to fields that actually exist in the data
-selected_fields = [field for field in selected_fields if field in df.columns]
-df_preview = df[selected_fields].fillna("")
+    # GitHub link to approximate location in code.json
+    code_link = f"https://github.com/CDCgov/ShareIT-Act/blob/main/catalog/code.json#L{line_number}"
+    table_data.append({
+        "Repository Name": repo_name,
+        "Organization": org,
+        "Contact Email": contact,
+        "Exemption": exemption,
+        "Repository URL": url,
+        "Version": version,
+        "Status": status,
+        "View in code.json": code_link
+    })
 
-# Rename columns for clarity
-df_preview.columns = [
-    "Repository Name",
-    "Organization",
-    "Contact Email",
-    "Exemption",
-    "Repository URL",
-    "Version",
-    "Status"
-][:len(df_preview.columns)]
+    line_number += 20  # assume ~20 lines per entry
 
-# Export to an HTML table
-html_output_path = "metadata_preview_table.html"
-df_preview.to_html(html_output_path, index=False, escape=False, render_links=True)
+# Convert to DataFrame and sort
+df = pd.DataFrame(table_data)
+df = df.sort_values(by=["Organization", "Repository Name"])
 
-print(f"✅ Preview HTML generated at: {html_output_path}")
+# Create interactive HTML using DataTables
+html = """
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>CDC Metadata Preview Table</title>
+    <link rel="stylesheet" href="https://cdn.datatables.net/1.13.6/css/jquery.dataTables.css">
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.datatables.net/1.13.6/js/jquery.dataTables.min.js"></script>
+    <script>
+        $(document).ready(function () {
+            $('#metadataTable').DataTable();
+        });
+    </script>
+</head>
+<body>
+    <h2>CDC Share IT Act - Metadata Preview Table</h2>
+    <p>This table supports filtering, sorting, and links to the <code>code.json</code> source.</p>
+    <table id="metadataTable" class="display" style="width:100%">
+        <thead>
+            <tr>
+"""
+
+# Add table headers
+for col in df.columns:
+    html += f"<th>{col}</th>\n"
+
+html += "</tr></thead>\n<tbody>\n"
+
+# Add table rows
+for _, row in df.iterrows():
+    html += "<tr>\n"
+    for col in df.columns:
+        value = row[col]
+        if col == "View in code.json":
+            html += f'<td><a href="{value}" target="_blank">View</a></td>\n'
+        elif isinstance(value, str) and value.startswith("http"):
+            html += f'<td><a href="{value}" target="_blank">{value}</a></td>\n'
+        else:
+            html += f"<td>{value}</td>\n"
+    html += "</tr>\n"
+
+html += "</tbody></table></body></html>"
+
+# Save to /interactive
+output_dir = Path("interactive")
+output_dir.mkdir(exist_ok=True)
+output_file = output_dir / "metadata_preview_table.html"
+output_file.write_text(html)
+
+print(f"✅ HTML table generated: {output_file}")
