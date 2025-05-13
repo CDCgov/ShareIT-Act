@@ -40,7 +40,7 @@ There are two complementary ways to ensure your metadata is accurate:
 ### 📝 1. Submit a Pull Request (PR) Directly to `code.json`
 
 If you identify incorrect metadata in the preview:
-- Fork this repository
+- [Fork this repository](./CONTRIBUTING_MetadataFix_PR.md)
 - Edit the `code.json` file to correct only the metadata related to your repository
 - In your PR, include:
   - The repository name and Org
