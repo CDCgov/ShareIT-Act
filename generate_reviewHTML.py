@@ -11,14 +11,22 @@ extracts key fields from each repository entry, and generates a human-readable H
   metadata entries by presenting the information in an easily navigable HTML table, rather than
   requiring manual inspection of a raw JSON file. This is particularly useful during preview periods
   when ensuring data accuracy.
+- This tool is designed for C/I/Os, ADIs, and project teams involved in the CDC's implementation of the
+  Federal Source Code Policy and the SHARE IT Act. It simplifies the review and validation of software
+  metadata entries by presenting the information in an easily navigable HTML table, rather than
+  requiring manual inspection of a raw JSON file. This is particularly useful during preview periods
+  when ensuring data accuracy.
 
 📥 Input:
 - A `code.json` file conforming to Federal Source Code Policy and SHARE IT Act metadata standards
   (must include a "releases" array). The script assumes this file is in the same directory by default,
   but an alternative path can be specified via the command line.
+- A `code.json` file conforming to Federal Source Code Policy and SHARE IT Act metadata standards
+  (must include a "releases" array). The script assumes this file is in the same directory by default,
+  but an alternative path can be specified via the command line.
 
 📤 Output:
-- An HTML file (e.g., `metadata_preview_table.html` by default) containing an interactive table
+- An HTML file (e.g., `index.html` by default) containing an interactive table
   of metadata records. This table allows users to:
     - Sort data by any column.
     - Search/filter records dynamically.
@@ -26,17 +34,36 @@ extracts key fields from each repository entry, and generates a human-readable H
 
 ✅ How to Use:
 To run the script from the command line:
-  1. Save the script as `generate_reviewHTML.py`.
-  2. Execute the script with: `python generate_reviewHTML.py [input_file] [-o output_file]`
-     -  `[input_file]` (optional): Path to the `code.json` file. Defaults to `catalog/code.json`.
-     -  `-o output_file` or `--output output_file` (optional): Specifies the output HTML file.
-        Defaults to `interactive/metadata_preview_table.html`.
+  Execute the script with: `python generate_reviewHTML.py [input__code_json_file] [-o output_html_file]`
+     -  `[input__code_json_file]` (optional): Path to the `code.json` file. Defaults to `catalog/code.json`.
+     -  `-o output_html_file` or `--output output_html_file` (optional): Specifies the output HTML file.
+        Defaults to `docs/index.html`.
+        
+ ==> EXAMPLE:  python generate_reviewHTML.py
+or ==> python generate_reviewHTML.py /catalog/code.json -o /docs/index.html
+
 
 Author: CDC OCIO Support (Share IT Act Implementation)
 """
 import json
 import pandas as pd
 from pathlib import Path
+import argparse
+from typing import List, Dict, Any
+
+def generate_html_table(code_json_path: Path, output_html_path: Path) -> None:
+    """
+    Reads a code.json file, extracts release information, and generates an HTML table.
+    """
+    try:
+        with open(code_json_path, "r", encoding="utf-8") as f:
+            code_data = json.load(f)
+    except FileNotFoundError:
+        print(f"❌ Error: Input file not found at {code_json_path}")
+        return
+    except json.JSONDecodeError:
+        print(f"❌ Error: Could not decode JSON from {code_json_path}. Please ensure it's valid JSON.")
+        return
 import argparse
 from typing import List, Dict, Any
 
@@ -64,7 +91,28 @@ def generate_html_table(code_json_path: Path, output_html_path: Path) -> None:
         output_html_path.write_text(empty_html_content, encoding="utf-8")
         print(f"✅ Empty HTML table generated: {output_html_path}")
         return
+    # Extract releases
+    releases: List[Dict[str, Any]] = code_data.get("releases", [])
+    if not releases:
+        print("ℹ️ No releases found in the code.json file.")
+        # Create an empty HTML file or handle as preferred
+        output_html_path.parent.mkdir(parents=True, exist_ok=True)
+        empty_html_content = create_html_document("<tbody><tr><td colspan='8'>No data available.</td></tr></tbody>")
+        output_html_path.write_text(empty_html_content, encoding="utf-8")
+        print(f"✅ Empty HTML table generated: {output_html_path}")
+        return
 
+    # Generate preview entries
+    table_data: List[Dict[str, str]] = []
+    line_number = 10  # approximate starting line for GitHub links
+    for release in releases:
+        repo_name = str(release.get("name", ""))
+        org = str(release.get("organization", ""))
+        contact = str(release.get("contact", {}).get("email", ""))
+        exemption = str(release.get("permissions", {}).get("exemption", ""))
+        url = str(release.get("repositoryURL", ""))
+        version = str(release.get("version", ""))
+        status = str(release.get("status", ""))
     # Generate preview entries
     table_data: List[Dict[str, str]] = []
     line_number = 10  # approximate starting line for GitHub links
@@ -101,7 +149,35 @@ def generate_html_table(code_json_path: Path, output_html_path: Path) -> None:
             "View in code.json": f'<a href="{code_link_url}" target="_blank">View (approx. L{line_number})</a>'
         })
         line_number += 20  # assume ~20 lines per entry; this remains an approximation
+        # GitHub link to approximate location in code.json
+        # Note: This line number is an approximation.
+        # For a more accurate link, the source code.json would need to be on GitHub
+        # and the path adjusted accordingly.
+        # Assuming the input code.json is the one in `CDCgov/ShareIT-Act/catalog/code.json`
+        # If using a local file not in that repo, this link might not be relevant or correct.
+        # Consider making the base GitHub URL configurable if this script is used with other code.json files.
+        code_link_path = code_json_path.name # Default to just the filename if not in a known repo structure
+        if "catalog/code.json" in str(code_json_path).replace("\\", "/"): # Make path comparison OS-agnostic
+            code_link_path = "catalog/code.json" # Or derive more accurately if possible
 
+        code_link_url = f"https://github.com/CDCgov/ShareIT-Act/blob/main/{code_link_path}#L{line_number}"
+        
+        table_data.append({
+            "Repository Name": repo_name,
+            "Organization": org,
+            "Contact Email": contact,
+            "Exemption": exemption,
+            "Repository URL": f'<a href="{url}" target="_blank">{url}</a>' if url.startswith("http") else url,
+            "Version": version,
+            "Status": status,
+            "View in code.json": f'<a href="{code_link_url}" target="_blank">View (approx. L{line_number})</a>'
+        })
+        line_number += 20  # assume ~20 lines per entry; this remains an approximation
+
+    # Convert to DataFrame and sort
+    df = pd.DataFrame(table_data)
+    if not df.empty:
+        df = df.sort_values(by=["Organization", "Repository Name"])
     # Convert to DataFrame and sort
     df = pd.DataFrame(table_data)
     if not df.empty:
@@ -165,8 +241,8 @@ if __name__ == "__main__":
         "--output",
         "-o",
         type=Path,
-        default=Path("interactive/metadata_preview_table.html"),
-        help="Path to the output HTML file (default: interactive/metadata_preview_table.html)"
+        default=Path("docs/index.html"),
+        help="Path to the output HTML file (default: docs/index.html)"
     )
     args = parser.parse_args()
 
