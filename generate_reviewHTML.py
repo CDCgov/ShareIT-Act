@@ -18,7 +18,7 @@ extracts key fields from each repository entry, and generates a human-readable H
   but an alternative path can be specified via the command line.
 
 📤 Output:
-- An HTML file (e.g., `metadata_preview_table.html` by default) containing an interactive table
+- An HTML file (e.g., `index.html` by default) containing an interactive table
   of metadata records. This table allows users to:
     - Sort data by any column.
     - Search/filter records dynamically.
@@ -26,11 +26,14 @@ extracts key fields from each repository entry, and generates a human-readable H
 
 ✅ How to Use:
 To run the script from the command line:
-  1. Save the script as `generate_reviewHTML.py`.
-  2. Execute the script with: `python generate_reviewHTML.py [input_file] [-o output_file]`
-     -  `[input_file]` (optional): Path to the `code.json` file. Defaults to `catalog/code.json`.
-     -  `-o output_file` or `--output output_file` (optional): Specifies the output HTML file.
-        Defaults to `interactive/metadata_preview_table.html`.
+  Execute the script with: `python generate_reviewHTML.py [input__code_json_file] [-o output_html_file]`
+     -  `[input__code_json_file]` (optional): Path to the `code.json` file. Defaults to `catalog/code.json`.
+     -  `-o output_html_file` or `--output output_html_file` (optional): Specifies the output HTML file.
+        Defaults to `docs/index.html`.
+        
+ ==> EXAMPLE:  python generate_reviewHTML.py
+or ==> python generate_reviewHTML.py /catalog/code.json -o /docs/index.html
+
 
 Author: CDC OCIO Support (Share IT Act Implementation)
 """
@@ -165,8 +168,8 @@ if __name__ == "__main__":
         "--output",
         "-o",
         type=Path,
-        default=Path("interactive/metadata_preview_table.html"),
-        help="Path to the output HTML file (default: interactive/metadata_preview_table.html)"
+        default=Path("docs/index.html"),
+        help="Path to the output HTML file (default: docs/index.html)"
     )
     args = parser.parse_args()
 
