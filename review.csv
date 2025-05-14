@@ -1,5 +1,0 @@
-Repository Name,Organization,Contact Email,Exemption,Repository URL,Version,Status,View in code.json
-covid-dashboard,CSELS,covidapps@cdc.gov,,https://github.com/CDCgov/covid-dashboard,2.4.3,Maintained,https://github.com/CDCgov/ShareIT-Act/blob/main/code.json#L102
-epi-model-builder,NCCDPHP,epi-devs@cdc.gov,,https://github.com/CDCgov/epi-model-builder,1.2.0,Maintained,https://github.com/CDCgov/ShareIT-Act/blob/main/code.json#L15
-case-reporter-pipeline,NCHHSTP,reporter-support@cdc.gov,exemptByMissionSystem,private,0.9.5,Prototype,https://github.com/CDCgov/ShareIT-Act/blob/main/code.json#L78
-survey-cleaner,NCIRD,surveytools@cdc.gov,exemptByLaw,private,3.0.1,Maintained,https://github.com/CDCgov/ShareIT-Act/blob/main/code.json#L45
