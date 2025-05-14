@@ -18,22 +18,12 @@ extracts key fields from each repository entry, and generates a human-readable H
   but an alternative path can be specified via the command line.
 
 📤 Output:
-- An HTML file (e.g., `index.html` by default) containing an interactive table
-  of metadata records. This table allows users to:
-    - Sort data by any column.
-    - Search/filter records dynamically.
-    - Click direct links to repository URLs and approximate locations within the input `code.json` file (on GitHub).
+- A file named `metadata_preview_table.html` with searchable and clickable metadata records.
 
 ✅ How to Use:
-To run the script from the command line:
-  Execute the script with: `python generate_reviewHTML.py [input__code_json_file] [-o output_html_file]`
-     -  `[input__code_json_file]` (optional): Path to the `code.json` file. Defaults to `catalog/code.json`.
-     -  `-o output_html_file` or `--output output_html_file` (optional): Specifies the output HTML file.
-        Defaults to `docs/index.html`.
-        
- ==> EXAMPLE:  python generate_reviewHTML.py
-or ==> python generate_reviewHTML.py /catalog/code.json -o /docs/index.html
-
+1. Place this script in the same folder as your `code.json` file.
+2. Run the script using Python 3.
+3. Open `metadata_preview_table.html` in any browser to review entries.
 
 Author: CDC OCIO Support (Share IT Act Implementation)
 """
@@ -110,67 +100,55 @@ def generate_html_table(code_json_path: Path, output_html_path: Path) -> None:
     if not df.empty:
         df = df.sort_values(by=["Organization", "Repository Name"])
 
-    # Generate HTML table from DataFrame
-    # We pre-formatted links, so escape=False is needed.
-    # index=False to avoid writing DataFrame index.
-    table_html = df.to_html(escape=False, index=False, table_id="metadataTable", classes="display", border=0)
-    
-    full_html_content = create_html_document(table_html)
+# Create interactive HTML using DataTables
+html = """
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>CDC Metadata Preview Table</title>
+    <link rel="stylesheet" href="https://cdn.datatables.net/1.13.6/css/jquery.dataTables.css">
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.datatables.net/1.13.6/js/jquery.dataTables.min.js"></script>
+    <script>
+        $(document).ready(function () {
+            $('#metadataTable').DataTable();
+        });
+    </script>
+</head>
+<body>
+    <h2>CDC Share IT Act - Metadata Preview Table</h2>
+    <p>This table supports filtering, sorting, and links to the <code>code.json</code> source.</p>
+    <table id="metadataTable" class="display" style="width:100%">
+        <thead>
+            <tr>
+"""
 
-    # Save to output file
-    output_html_path.parent.mkdir(parents=True, exist_ok=True) # Ensure directory exists
-    output_html_path.write_text(full_html_content, encoding="utf-8")
-    print(f"✅ HTML table generated: {output_html_path}")
+# Add table headers
+for col in df.columns:
+    html += f"<th>{col}</th>\n"
 
-def create_html_document(table_html_content: str) -> str:
-    """Creates the full HTML document string with DataTables integration."""
-    return f"""
-    <!DOCTYPE html>
-    <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <title>CDC Metadata Preview Table</title>
-        <link rel="stylesheet" href="https://cdn.datatables.net/1.13.6/css/jquery.dataTables.css">
-        <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
-        <script src="https://cdn.datatables.net/1.13.6/js/jquery.dataTables.min.js"></script>
-        <style>
-            body {{ font-family: sans-serif; margin: 20px; }}
-            table.dataTable th, table.dataTable td {{ padding: 8px; }}
-            table.dataTable th {{ background-color: #f2f2f2; }}
-        </style>
-        <script>
-            $(document).ready(function () {{
-                $('#metadataTable').DataTable({{
-                    "pageLength": 25
-                }});
-            }});
-        </script>
-    </head>
-    <body>
-        <h2>CDC Share IT Act - Metadata Preview Table</h2>
-        <p>This table supports filtering, sorting, and links to the <code>code.json</code> source. 
-        The "View in code.json" link points to an approximate line number on GitHub.</p>
-        {table_html_content}
-    </body>
-    </html>
-    """
+html += "</tr></thead>\n<tbody>\n"
 
-if __name__ == "__main__":
-    parser = argparse.ArgumentParser(description="Generate an HTML preview table from a code.json file.")
-    parser.add_argument(
-        "input_file",
-        type=Path,
-        nargs="?", # Makes the argument optional
-        default=Path("catalog/code.json"),
-        help="Path to the input code.json file (default: catalog/code.json)"
-    )
-    parser.add_argument(
-        "--output",
-        "-o",
-        type=Path,
-        default=Path("docs/index.html"),
-        help="Path to the output HTML file (default: docs/index.html)"
-    )
-    args = parser.parse_args()
+# Add table rows
+for _, row in df.iterrows():
+    html += "<tr>\n"
+    for col in df.columns:
+        value = row[col]
+        if col == "View in code.json":
+            html += f'<td><a href="{value}" target="_blank">View</a></td>\n'
+        elif isinstance(value, str) and value.startswith("http"):
+            html += f'<td><a href="{value}" target="_blank">{value}</a></td>\n'
+        else:
+            html += f"<td>{value}</td>\n"
+    html += "</tr>\n"
 
-    generate_html_table(args.input_file, args.output)
+html += "</tbody></table></body></html>"
+
+# Save to /interactive
+output_dir = Path("interactive")
+output_dir.mkdir(exist_ok=True)
+output_file = output_dir / "metadata_preview_table.html"
+output_file.write_text(html)
+
+print(f"✅ HTML table generated: {output_file}")
