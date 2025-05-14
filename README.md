@@ -85,4 +85,4 @@ Exemptions auto-assigned by the AI scanner are also listed in `exempted_log.csv`
 ## 📤 Questions or Support
 
 Email [shareit@cdc.gov](mailto:shareit@cdc.gov?subject=Feedback) for help or clarification. 
-Email [shareit@cdc.gov](mailto:shareit@cdc.gov?subject=Feedback) for help or clarification. 
+
