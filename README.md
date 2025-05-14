@@ -47,7 +47,6 @@ If you identify incorrect metadata in the preview:
   - A short explanation of the correction
   - Any related metadata line numbers or fields changed
 - Label your PR with `metadata-fix`
-- Optionally: also update **[metadata_preview_table](https://cdcgov.github.io/ShareIT-Act/index.html)** for review purposes
 
 > ⚠️ These changes will only apply to the current release preview unless made permanent.
 
