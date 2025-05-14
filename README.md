@@ -16,7 +16,7 @@ To help CDC developers, project teams, ADIs, and C/I/Os:
 
 ## 🔍 How to Review Metadata
 
-1. Open the latest **[metadata_preview_table.html](review.csv)** file published in this repository.
+1. Open the latest **[metadata_preview_table.html](https://cdcgov.github.io/ShareIT-Act/index.html)** file published in this repository.
 2. Search by:
    - Repository name
    - Org or CDC program
@@ -47,7 +47,7 @@ If you identify incorrect metadata in the preview:
   - A short explanation of the correction
   - Any related metadata line numbers or fields changed
 - Label your PR with `metadata-fix`
-- Optionally: also update `metadata_preview_table.html` for review purposes
+- Optionally: also update **[metadata_preview_table](https://cdcgov.github.io/ShareIT-Act/index.html)** for review purposes
 
 > ⚠️ These changes will only apply to the current release preview unless made permanent.
 
@@ -84,4 +84,4 @@ Exemptions auto-assigned by the AI scanner are also listed in `exempted_log.csv`
 
 ## 📤 Questions or Support
 
-Email [shareit@cdc.gov](mailto:shareit@cdc.gov?subject=Feedback) for help or clarification. Always CC `#ea@cdc.gov` if responding to a formal metadata correction request.
+Email [shareit@cdc.gov](mailto:shareit@cdc.gov?subject=Feedback) for help or clarification. 
