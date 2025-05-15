@@ -76,12 +76,7 @@ def analyze_json_structure(json_data):
     
     # If we found a list of repositories, analyze the first one
     if releases_data and len(releases_data) > 0:
-        sample = releases_data[0]
-        print("\nSample repository entry structure:")
-        pprint.pprint(sample, depth=2, compact=True)
-        
-        # Extract common fields we might be interested in
-        print("\nPotential mapping fields:")
+        sample = releases_data[0]        
         field_mapping = {}
         
         # Check for repository name
@@ -130,8 +125,8 @@ def analyze_json_structure(json_data):
                 field_mapping['Status'] = status_field
                 break
         
-        print("Suggested field mapping:")
-        pprint.pprint(field_mapping)
+#        print("Suggested field mapping:")
+#        pprint.pprint(field_mapping)
         
         return releases_key, field_mapping
     
