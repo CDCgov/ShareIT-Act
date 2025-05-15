@@ -16,6 +16,9 @@ extracts key fields from each repository entry, and generates a human-readable H
 - A `code.json` file conforming to Federal Source Code Policy and SHARE IT Act metadata standards.
   The script assumes this file is in the same directory by default, but an alternative path can be
   specified via the command line.
+- A `code.json` file conforming to Federal Source Code Policy and SHARE IT Act metadata standards.
+  The script assumes this file is in the same directory by default, but an alternative path can be
+  specified via the command line.
 
 📤 Output:
 - An HTML file (e.g., `index.html` by default) containing an interactive table
@@ -32,6 +35,7 @@ To run the script from the command line:
         Defaults to `docs/index.html`.
         
  ==> EXAMPLE:  python generate_reviewHTML.py
+or ==> python generate_reviewHTML.py catalog/code.json -o docs/index.html
 or ==> python generate_reviewHTML.py catalog/code.json -o docs/index.html
 
 
@@ -164,6 +168,13 @@ def generate_html_table(code_json_path: Path, output_html_path: Path) -> None:
             print(f"Absolute path attempted: {os.path.abspath(code_json_path)}")
             return
             
+        # Check if the file exists
+        if not os.path.exists(code_json_path):
+            print(f"❌ Error: Input file not found at {code_json_path}")
+            print(f"Current working directory: {os.getcwd()}")
+            print(f"Absolute path attempted: {os.path.abspath(code_json_path)}")
+            return
+            
         with open(code_json_path, "r", encoding="utf-8") as f:
             code_data = json.load(f)
     except FileNotFoundError:
@@ -173,6 +184,18 @@ def generate_html_table(code_json_path: Path, output_html_path: Path) -> None:
         print(f"❌ Error: Could not decode JSON from {code_json_path}. Please ensure it's valid JSON.")
         return
 
+    # Analyze the JSON structure to understand the schema
+    releases_key, field_mapping = analyze_json_structure(code_data)
+    
+    # Extract releases based on the analysis
+    if releases_key:
+        releases = code_data[releases_key]
+    elif isinstance(code_data, list):
+        releases = code_data
+    else:
+        # If we couldn't determine the structure, fall back to the original approach
+        releases = code_data.get("releases", [])
+    
     # Analyze the JSON structure to understand the schema
     releases_key, field_mapping = analyze_json_structure(code_data)
     
@@ -198,7 +221,30 @@ def generate_html_table(code_json_path: Path, output_html_path: Path) -> None:
     table_data: List[Dict[str, str]] = []
     line_number = 10  # approximate starting line for GitHub links
     
+    
     for release in releases:
+        # Use the field mapping from our analysis, or fall back to defaults
+        repo_name = str(get_nested_value(release, field_mapping.get('Repository Name', 'name')))
+        org = str(get_nested_value(release, field_mapping.get('Organization', 'organization')))
+        
+        # Handle contact email which might be nested
+        contact_path = field_mapping.get('Contact Email', 'contact.email')
+        if contact_path == 'contact.email':
+            contact = str(get_nested_value(release, contact_path))
+        else:
+            contact = str(get_nested_value(release, contact_path))
+        
+        # Handle exemption which might be nested
+        exemption_path = field_mapping.get('Exemption', 'permissions.exemption')
+        if exemption_path == 'permissions.exemption':
+            exemption = str(get_nested_value(release, exemption_path))
+        else:
+            exemption = str(get_nested_value(release, exemption_path))
+        
+        url = str(get_nested_value(release, field_mapping.get('Repository URL', 'repositoryURL')))
+        version = str(get_nested_value(release, field_mapping.get('Version', 'version')))
+        status = str(get_nested_value(release, field_mapping.get('Status', 'status')))
+
         # Use the field mapping from our analysis, or fall back to defaults
         repo_name = str(get_nested_value(release, field_mapping.get('Repository Name', 'name')))
         org = str(get_nested_value(release, field_mapping.get('Organization', 'organization')))
