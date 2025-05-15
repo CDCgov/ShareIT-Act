@@ -226,6 +226,8 @@ def generate_html_table(code_json_path: Path, output_html_path: Path) -> None:
         if "catalog/code.json" in str(code_json_path).replace("\\", "/"): # Make path comparison OS-agnostic
             code_link_path = "catalog/code.json" # Or derive more accurately if possible
 
+        repo_identifier = repo_name or url  # Use repository name or URL as identifier
+        line_number = find_entry_line_number(code_json_path, repo_identifier)
         code_link_url = f"https://github.com/CDCgov/ShareIT-Act/blob/main/{code_link_path}#L{line_number}"
         
         table_data.append({
