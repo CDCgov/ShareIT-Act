@@ -16,9 +16,6 @@ extracts key fields from each repository entry, and generates a human-readable H
 - A `code.json` file conforming to Federal Source Code Policy and SHARE IT Act metadata standards.
   The script assumes this file is in the same directory by default, but an alternative path can be
   specified via the command line.
-- A `code.json` file conforming to Federal Source Code Policy and SHARE IT Act metadata standards.
-  The script assumes this file is in the same directory by default, but an alternative path can be
-  specified via the command line.
 
 📤 Output:
 - An HTML file (e.g., `index.html` by default) containing an interactive table
@@ -36,7 +33,6 @@ To run the script from the command line:
         
  ==> EXAMPLE:  python generate_reviewHTML.py
 or ==> python generate_reviewHTML.py catalog/code.json -o docs/index.html
-or ==> python generate_reviewHTML.py catalog/code.json -o docs/index.html
 
 
 Author: CDC OCIO Support (Share IT Act Implementation)
@@ -52,26 +48,28 @@ import os
 def analyze_json_structure(json_data):
     """
     Analyzes the structure of the JSON data to help understand its schema.
+    Uses measurementType.method to determine the key for repository entries.
     """
     print("=== JSON Structure Analysis ===")
     
     # Check top-level keys
     print(f"Top-level keys: {list(json_data.keys())}")
     
-    # Look for the releases array or similar structure
+    # Look for the measurementType.method field to determine the key for repository entries
     releases_key = None
     releases_data = None
     
-    # Common keys that might contain repository data
-    possible_keys = ['releases', 'projects']
+    if 'measurementType' in json_data and isinstance(json_data['measurementType'], dict) and 'method' in json_data['measurementType']:
+        releases_key = json_data['measurementType']['method']
+        print(f"Found repository list key from measurementType.method: '{releases_key}'")
+        
+        if releases_key in json_data and isinstance(json_data[releases_key], list):
+            releases_data = json_data[releases_key]
+            print(f"Found {len(releases_data)} items under key: '{releases_key}'")
+        else:
+            print(f"Warning: Key '{releases_key}' from measurementType.method not found in data or is not a list")
     
-    for key in possible_keys:
-        if key in json_data and isinstance(json_data[key], list):
-            releases_key = key
-            releases_data = json_data[key]
-            print(f"Found potential repository list under key: '{key}' with {len(releases_data)} items")
-            break
-    
+    # Fallback to direct array if no measurementType.method or if the key wasn't found
     if not releases_key and isinstance(json_data, list):
         releases_data = json_data
         print(f"JSON appears to be a direct array with {len(releases_data)} items")
@@ -139,6 +137,43 @@ def analyze_json_structure(json_data):
     
     return None, {}
 
+def find_entry_line_number(code_json_path, entry_identifier):
+    """
+    Find the actual line number for a specific entry in the code.json file.
+    
+    Args:
+        code_json_path: Path to the code.json file
+        entry_identifier: A unique identifier for the entry (e.g., repository name or URL)
+        
+    Returns:
+        The approximate line number where the entry starts
+    """
+    try:
+        with open(code_json_path, 'r', encoding='utf-8') as f:
+            lines = f.readlines()
+            
+        # Convert the identifier to a string for comparison
+        identifier_str = str(entry_identifier).strip()
+        
+        for i, line in enumerate(lines):
+            # Look for lines containing the identifier
+            if identifier_str in line:
+                # Find the start of the entry (look for opening brace or bracket)
+                start_line = i
+                while start_line > 0:
+                    if '{' in lines[start_line] and ('"name"' in lines[start_line+1] or '"repositoryName"' in lines[start_line+1]):
+                        return start_line + 1  # Return the line number (1-indexed for GitHub)
+                    start_line -= 1
+                
+                # If we couldn't find the start, return the line with the identifier
+                return i + 1  # GitHub uses 1-indexed line numbers
+                
+        # If not found, return a default
+        return 1
+    except Exception as e:
+        print(f"Error finding line number: {e}")
+        return 1
+
 def get_nested_value(data, path):
     """
     Gets a value from a nested dictionary using a dot-separated path.
@@ -168,13 +203,6 @@ def generate_html_table(code_json_path: Path, output_html_path: Path) -> None:
             print(f"Absolute path attempted: {os.path.abspath(code_json_path)}")
             return
             
-        # Check if the file exists
-        if not os.path.exists(code_json_path):
-            print(f"❌ Error: Input file not found at {code_json_path}")
-            print(f"Current working directory: {os.getcwd()}")
-            print(f"Absolute path attempted: {os.path.abspath(code_json_path)}")
-            return
-            
         with open(code_json_path, "r", encoding="utf-8") as f:
             code_data = json.load(f)
     except FileNotFoundError:
@@ -188,19 +216,7 @@ def generate_html_table(code_json_path: Path, output_html_path: Path) -> None:
     releases_key, field_mapping = analyze_json_structure(code_data)
     
     # Extract releases based on the analysis
-    if releases_key:
-        releases = code_data[releases_key]
-    elif isinstance(code_data, list):
-        releases = code_data
-    else:
-        # If we couldn't determine the structure, fall back to the original approach
-        releases = code_data.get("releases", [])
-    
-    # Analyze the JSON structure to understand the schema
-    releases_key, field_mapping = analyze_json_structure(code_data)
-    
-    # Extract releases based on the analysis
-    if releases_key:
+    if releases_key and releases_key in code_data:
         releases = code_data[releases_key]
     elif isinstance(code_data, list):
         releases = code_data
@@ -219,32 +235,8 @@ def generate_html_table(code_json_path: Path, output_html_path: Path) -> None:
 
     # Generate preview entries
     table_data: List[Dict[str, str]] = []
-    line_number = 10  # approximate starting line for GitHub links
-    
     
     for release in releases:
-        # Use the field mapping from our analysis, or fall back to defaults
-        repo_name = str(get_nested_value(release, field_mapping.get('Repository Name', 'name')))
-        org = str(get_nested_value(release, field_mapping.get('Organization', 'organization')))
-        
-        # Handle contact email which might be nested
-        contact_path = field_mapping.get('Contact Email', 'contact.email')
-        if contact_path == 'contact.email':
-            contact = str(get_nested_value(release, contact_path))
-        else:
-            contact = str(get_nested_value(release, contact_path))
-        
-        # Handle exemption which might be nested
-        exemption_path = field_mapping.get('Exemption', 'permissions.exemption')
-        if exemption_path == 'permissions.exemption':
-            exemption = str(get_nested_value(release, exemption_path))
-        else:
-            exemption = str(get_nested_value(release, exemption_path))
-        
-        url = str(get_nested_value(release, field_mapping.get('Repository URL', 'repositoryURL')))
-        version = str(get_nested_value(release, field_mapping.get('Version', 'version')))
-        status = str(get_nested_value(release, field_mapping.get('Status', 'status')))
-
         # Use the field mapping from our analysis, or fall back to defaults
         repo_name = str(get_nested_value(release, field_mapping.get('Repository Name', 'name')))
         org = str(get_nested_value(release, field_mapping.get('Organization', 'organization')))
@@ -272,6 +264,7 @@ def generate_html_table(code_json_path: Path, output_html_path: Path) -> None:
         if "catalog/code.json" in str(code_json_path).replace("\\", "/"): # Make path comparison OS-agnostic
             code_link_path = "catalog/code.json" # Or derive more accurately if possible
 
+        # Find the actual line number for this entry
         repo_identifier = repo_name or url  # Use repository name or URL as identifier
         line_number = find_entry_line_number(code_json_path, repo_identifier)
         code_link_url = f"https://github.com/CDCgov/ShareIT-Act/blob/main/{code_link_path}#L{line_number}"
@@ -284,9 +277,8 @@ def generate_html_table(code_json_path: Path, output_html_path: Path) -> None:
             "Repository URL": f'<a href="{url}" target="_blank">{url}</a>' if url.startswith("http") else url,
             "Version": version,
             "Status": status,
-            "View in code.json": f'<a href="{code_link_url}" target="_blank">View (approx. L{line_number})</a>'
+            "View in code.json": f'<a href="{code_link_url}" target="_blank">View (L{line_number})</a>'
         })
-        line_number += 20  # assume ~20 lines per entry; this remains an approximation
 
     # Convert to DataFrame and sort
     df = pd.DataFrame(table_data)
@@ -332,7 +324,7 @@ def create_html_document(table_html_content: str) -> str:
     <body>
         <h2>CDC Share IT Act - Metadata Preview Table</h2>
         <p>This table supports filtering, sorting, and links to the <code>code.json</code> source. 
-        The "View in code.json" link points to an approximate line number on GitHub.</p>
+        The "View in code.json" link points to the line number on GitHub.</p>
         {table_html_content}
     </body>
     </html>
