@@ -49,11 +49,6 @@ def analyze_json_structure(json_data):
     """
     Analyzes the structure of the JSON data to help understand its schema.
     """
-    print("=== JSON Structure Analysis ===")
-    
-    # Check top-level keys
-    print(f"Top-level keys: {list(json_data.keys())}")
-    
     # Look for the releases array or similar structure
     releases_key = None
     releases_data = None
@@ -75,11 +70,8 @@ def analyze_json_structure(json_data):
     # If we found a list of repositories, analyze the first one
     if releases_data and len(releases_data) > 0:
         sample = releases_data[0]
-        print("\nSample repository entry structure:")
-        pprint.pprint(sample, depth=2, compact=True)
-        
+
         # Extract common fields we might be interested in
-        print("\nPotential mapping fields:")
         field_mapping = {}
         
         # Check for repository name
@@ -128,8 +120,8 @@ def analyze_json_structure(json_data):
                 field_mapping['Status'] = status_field
                 break
         
-        print("Suggested field mapping:")
-        pprint.pprint(field_mapping)
+ #       print("Suggested field mapping:")
+ #       pprint.pprint(field_mapping)
         
         return releases_key, field_mapping
     
