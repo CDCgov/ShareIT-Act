@@ -311,7 +311,9 @@ def create_html_document(table_html_content: str) -> str:
         <script>
             $(document).ready(function () {{
                 $('#metadataTable').DataTable({{
-                    "pageLength": 25
+                    "pageLength": 100,  // Increased from 25 to 100
+                    "lengthMenu": [10, 25, 50, 100, 250, 500, 1000, -1],  // Add option for "All" (-1)
+                    "lengthChange": true  // Ensure the dropdown is visible
                 }});
             }});
         </script>
@@ -321,6 +323,21 @@ def create_html_document(table_html_content: str) -> str:
         <p>This table supports filtering, sorting, and links to the <code>code.json</code> source. 
         The "View in code.json" link points to the line number on GitHub.</p>
         {table_html_content}
+        <p><small>Showing <span id="entry-count">0</span> of <span id="total-count">0</span> entries</small></p>
+        <script>
+            // Add a counter to show how many entries are displayed vs. total
+            $(document).ready(function() {{
+                var table = $('#metadataTable').DataTable();
+                $('#total-count').text(table.data().count());
+                
+                table.on('draw', function() {{
+                    $('#entry-count').text(table.page.info().recordsDisplay);
+                }});
+                
+                // Trigger initial count
+                $('#entry-count').text(table.page.info().recordsDisplay);
+            }});
+        </script>
     </body>
     </html>
     """
