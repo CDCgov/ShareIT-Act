@@ -41,6 +41,7 @@ import json
 import pandas as pd
 from pathlib import Path
 import html # Import the html module for escaping
+import html # Import the html module for escaping
 import argparse
 from typing import List, Dict, Any
 import os
@@ -89,6 +90,10 @@ def analyze_json_structure(json_data):
         # The actual fallback to 'agency' is handled in generate_html_table.
         if 'organization' in sample:
             field_mapping['Organization'] = 'organization'
+        # Check for organization - the primary field name to look for is "organization".
+        # The actual fallback to 'agency' is handled in generate_html_table.
+        if 'organization' in sample:
+            field_mapping['Organization'] = 'organization'
                 
         # Check for contact information
         if 'contact' in sample:
@@ -96,6 +101,7 @@ def analyze_json_structure(json_data):
                 field_mapping['Contact Email'] = 'contact.email'
             else:
                 field_mapping['Contact Email'] = 'contact'
+        elif 'email' in sample: # This was part of contact, but if exemption is removed, ensure correct indentation
         elif 'email' in sample: # This was part of contact, but if exemption is removed, ensure correct indentation
             field_mapping['Contact Email'] = 'email'
             
@@ -108,7 +114,13 @@ def analyze_json_structure(json_data):
         # Check for version - only look for 'version'
         if 'version' in sample:
             field_mapping['Version'] = 'version'
+        # Check for version - only look for 'version'
+        if 'version' in sample:
+            field_mapping['Version'] = 'version'
                 
+        # Check for status - only look for 'status'
+        if 'status' in sample:
+            field_mapping['Status'] = 'status'
         # Check for status - only look for 'status'
         if 'status' in sample:
             field_mapping['Status'] = 'status'
@@ -212,6 +224,7 @@ def generate_html_table(code_json_path: Path, output_html_path: Path) -> None:
         # Create an empty HTML file or handle as preferred
         output_html_path.parent.mkdir(parents=True, exist_ok=True)
         empty_html_content = create_html_document("<tbody><tr><td colspan='10'>No data available.</td></tr></tbody>")
+        empty_html_content = create_html_document("<tbody><tr><td colspan='10'>No data available.</td></tr></tbody>")
         output_html_path.write_text(empty_html_content, encoding="utf-8")
         print(f"✅ Empty HTML table generated: {output_html_path}")
         return
@@ -222,6 +235,13 @@ def generate_html_table(code_json_path: Path, output_html_path: Path) -> None:
     for release in releases:
         # Use the field mapping from our analysis, or fall back to defaults
         repo_name = str(get_nested_value(release, field_mapping.get('Repository Name', 'name')))
+        
+        # Determine Organization value:
+        # 1. Try the 'organization' field.
+        # 2. If 'organization' is empty or not found, try the 'agency' field.
+        org = str(get_nested_value(release, 'organization')) # Attempt to get from 'organization' field first
+        if not org: # If the value from 'organization' field is empty
+            org = str(get_nested_value(release, 'agency')) # Fallback to 'agency' field
         
         # Determine Organization value:
         # 1. Try the 'organization' field.
@@ -248,7 +268,7 @@ def generate_html_table(code_json_path: Path, output_html_path: Path) -> None:
             usage_type = permissions_data.get('usageType')
             if usage_type is not None: # Check if 'usageType' key actually exists
                 usage_type_str = str(usage_type)
-                if usage_type_str not in ["sourceCode", "governmentWideReuse"]:
+                if usage_type_str not in ["governmentWideReuse", "openSource"]:
                     exemption_value_to_display = usage_type_str
         # If not processed_via_usage_type (i.e., permissions.usageType was not found or not applicable),
         # exemption_value_to_display will remain "", which is the desired behavior.
@@ -275,8 +295,23 @@ def generate_html_table(code_json_path: Path, output_html_path: Path) -> None:
         elif "dev.azure.com" in repo_url_lower or ".visualstudio.com" in repo_url_lower: # ADO can have older URLs too
             platform = "ADO"
         
+        # Second, check based on repositoryURL content; this can make it Public even if not "openSource"
+        if 'ShareIT-Act/assets/' not in url: # Check the original URL string
+            is_public_value = "Y"
+        repo_url_lower = url.lower()
+        if "github.com" in repo_url_lower:
+            platform = "GitHub"
+        elif "gitlab.com" in repo_url_lower:
+            platform = "GitLab"
+        elif "dev.azure.com" in repo_url_lower or ".visualstudio.com" in repo_url_lower: # ADO can have older URLs too
+            platform = "ADO"
+        
         version = str(get_nested_value(release, field_mapping.get('Version', 'version')))
         status = str(get_nested_value(release, field_mapping.get('Status', 'status')))
+
+        # Escape values for use in HTML title attributes
+        escaped_repo_name = html.escape(repo_name)
+        escaped_org = html.escape(org)
 
         # Escape values for use in HTML title attributes
         escaped_repo_name = html.escape(repo_name)
@@ -285,6 +320,7 @@ def generate_html_table(code_json_path: Path, output_html_path: Path) -> None:
         # GitHub link to approximate location in code.json
         code_link_path = code_json_path.name # Default to just the filename if not in a known repo structure
         if "catalog/code.json" in str(code_json_path).replace("\\", "/"): # Make path comparison OS-agnostic
+            code_link_path = "catalog/code.json" 
             code_link_path = "catalog/code.json" 
 
         # Find the actual line number for this entry
@@ -295,7 +331,12 @@ def generate_html_table(code_json_path: Path, output_html_path: Path) -> None:
         table_data.append({
             "Repository Name": f'<span title="{escaped_repo_name}">{repo_name}</span>', # Wrap in span with title
             "Organization": f'<span title="{escaped_org}">{org}</span>',         # Wrap in span with title
+            "Repository Name": f'<span title="{escaped_repo_name}">{repo_name}</span>', # Wrap in span with title
+            "Organization": f'<span title="{escaped_org}">{org}</span>',         # Wrap in span with title
             "Contact Email": contact,
+            "Exemption": exemption_value_to_display,
+            "Public": is_public_value,
+            "Platform": platform,
             "Exemption": exemption_value_to_display,
             "Public": is_public_value,
             "Platform": platform,
@@ -336,7 +377,19 @@ def create_html_document(table_html_content: str) -> str:
         <style>
             body {{ font-family: sans-serif; margin: 20px; }}
             table.dataTable th, table.dataTable td {{ padding: 8px; vertical-align: top; }} /* Added vertical-align */
+            table.dataTable th, table.dataTable td {{ padding: 8px; vertical-align: top; }} /* Added vertical-align */
             table.dataTable th {{ background-color: #f2f2f2; }}
+            /* Set minimum width and no wrap for the Repository Name column (1st column) */
+            table.dataTable th:nth-child(1),
+            table.dataTable td:nth-child(1) {{
+                min-width: 10ch; /* Minimum width for 10 characters */
+                white-space: nowrap; /* Prevent text wrapping */
+            }}
+            /* Set minimum width for the Organization column (2nd column) */
+            table.dataTable th:nth-child(2),
+            table.dataTable td:nth-child(2) {{
+                min-width: 30ch;
+            }}
             /* Set minimum width and no wrap for the Repository Name column (1st column) */
             table.dataTable th:nth-child(1),
             table.dataTable td:nth-child(1) {{
