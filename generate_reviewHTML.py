@@ -102,7 +102,6 @@ def analyze_json_structure(json_data):
             else:
                 field_mapping['Contact Email'] = 'contact'
         elif 'email' in sample: # This was part of contact, but if exemption is removed, ensure correct indentation
-        elif 'email' in sample: # This was part of contact, but if exemption is removed, ensure correct indentation
             field_mapping['Contact Email'] = 'email'
             
         # Check for URL
