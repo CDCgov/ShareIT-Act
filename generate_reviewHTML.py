@@ -248,7 +248,7 @@ def generate_html_table(code_json_path: Path, output_html_path: Path) -> None:
             usage_type = permissions_data.get('usageType')
             if usage_type is not None: # Check if 'usageType' key actually exists
                 usage_type_str = str(usage_type)
-                if usage_type_str not in ["sourceCode", "governmentWideReuse"]:
+                if usage_type_str not in ["governmentWideReuse", "openSource"]:
                     exemption_value_to_display = usage_type_str
         # If not processed_via_usage_type (i.e., permissions.usageType was not found or not applicable),
         # exemption_value_to_display will remain "", which is the desired behavior.
