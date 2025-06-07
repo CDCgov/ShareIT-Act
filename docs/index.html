@@ -10,7 +10,19 @@
         <style>
             body { font-family: sans-serif; margin: 20px; }
             table.dataTable th, table.dataTable td { padding: 8px; vertical-align: top; } /* Added vertical-align */
+            table.dataTable th, table.dataTable td { padding: 8px; vertical-align: top; } /* Added vertical-align */
             table.dataTable th { background-color: #f2f2f2; }
+            /* Set minimum width and no wrap for the Repository Name column (1st column) */
+            table.dataTable th:nth-child(1),
+            table.dataTable td:nth-child(1) {
+                min-width: 10ch; /* Minimum width for 10 characters */
+                white-space: nowrap; /* Prevent text wrapping */
+            }
+            /* Set minimum width for the Organization column (2nd column) */
+            table.dataTable th:nth-child(2),
+            table.dataTable td:nth-child(2) {
+                min-width: 30ch;
+            }
             /* Set minimum width and no wrap for the Repository Name column (1st column) */
             table.dataTable th:nth-child(1),
             table.dataTable td:nth-child(1) {
@@ -57,7 +69,7 @@
       <td><span title="SAG_JSM">SAG_JSM</span></td>
       <td><span title="Agency for Toxic Substances and Disease Registry">Agency for Toxic Substances and Disease Registry</span></td>
       <td>sag-leadership@cdc.gov</td>
-      <td>openSource</td>
+      <td></td>
       <td>Y</td>
       <td>GitHub</td>
       <td><a href="https://github.com/CDCgov/SAG_JSM" target="_blank">https://github.com/CDCgov/SAG_JSM</a></td>
@@ -93,7 +105,7 @@
       <td><span title=".github">.github</span></td>
       <td><span title="CDC">CDC</span></td>
       <td>cdcinfo@cdc.gov</td>
-      <td>openSource</td>
+      <td></td>
       <td>Y</td>
       <td>GitHub</td>
       <td><a href="https://github.com/CDCgov/.github" target="_blank">https://github.com/CDCgov/.github</a></td>
@@ -237,7 +249,7 @@
       <td><span title="EPHTracking">EPHTracking</span></td>
       <td><span title="CDC">CDC</span></td>
       <td>ephtrackingsupport@cdc.gov</td>
-      <td>openSource</td>
+      <td></td>
       <td>Y</td>
       <td>GitHub</td>
       <td><a href="https://github.com/CDCgov/EPHTracking" target="_blank">https://github.com/CDCgov/EPHTracking</a></td>
@@ -273,7 +285,7 @@
       <td><span title="EpiSync">EpiSync</span></td>
       <td><span title="CDC">CDC</span></td>
       <td>cdcinfo@cdc.gov</td>
-      <td>openSource</td>
+      <td></td>
       <td>Y</td>
       <td>GitHub</td>
       <td><a href="https://github.com/CDCgov/EpiSync" target="_blank">https://github.com/CDCgov/EpiSync</a></td>
@@ -285,7 +297,7 @@
       <td><span title="FHIRSheets">FHIRSheets</span></td>
       <td><span title="CDC">CDC</span></td>
       <td>cdcinfo@cdc.gov</td>
-      <td>openSource</td>
+      <td></td>
       <td>Y</td>
       <td>GitHub</td>
       <td><a href="https://github.com/CDCgov/FHIRSheets" target="_blank">https://github.com/CDCgov/FHIRSheets</a></td>
@@ -321,7 +333,7 @@
       <td><span title="GaTech-Fall2017-Srinivasan-SocialDeterminant-GT-MKSM">GaTech-Fall2017-Srinivasan-SocialDeterminant-GT-MKSM</span></td>
       <td><span title="CDC">CDC</span></td>
       <td>cdcinfo@cdc.gov</td>
-      <td>openSource</td>
+      <td></td>
       <td>Y</td>
       <td>GitHub</td>
       <td><a href="https://github.com/CDCgov/GaTech-Fall2017-Srinivasan-SocialDeterminant-GT-MKSM" target="_blank">https://github.com/CDCgov/GaTech-Fall2017-Srinivasan-SocialDeterminant-GT-MKSM</a></td>
@@ -333,7 +345,7 @@
       <td><span title="HIVEntropy">HIVEntropy</span></td>
       <td><span title="CDC">CDC</span></td>
       <td>cdcinfo@cdc.gov</td>
-      <td>openSource</td>
+      <td></td>
       <td>Y</td>
       <td>GitHub</td>
       <td><a href="https://github.com/CDCgov/HIVEntropy" target="_blank">https://github.com/CDCgov/HIVEntropy</a></td>
@@ -345,7 +357,7 @@
       <td><span title="IMslide_1">IMslide_1</span></td>
       <td><span title="CDC">CDC</span></td>
       <td>cdcinfo@cdc.gov</td>
-      <td>openSource</td>
+      <td></td>
       <td>Y</td>
       <td>GitHub</td>
       <td><a href="https://github.com/CDCgov/IMslide_1" target="_blank">https://github.com/CDCgov/IMslide_1</a></td>
@@ -381,7 +393,7 @@
       <td><span title="MEBT">MEBT</span></td>
       <td><span title="CDC">CDC</span></td>
       <td>cdcinfo@cdc.gov</td>
-      <td>openSource</td>
+      <td></td>
       <td>Y</td>
       <td>GitHub</td>
       <td><a href="https://github.com/CDCgov/MEBT" target="_blank">https://github.com/CDCgov/MEBT</a></td>
@@ -405,7 +417,7 @@
       <td><span title="MTNAP">MTNAP</span></td>
       <td><span title="CDC">CDC</span></td>
       <td>cdcinfo@cdc.gov</td>
-      <td>openSource</td>
+      <td></td>
       <td>Y</td>
       <td>GitHub</td>
       <td><a href="https://github.com/CDCgov/MTNAP" target="_blank">https://github.com/CDCgov/MTNAP</a></td>
@@ -417,7 +429,7 @@
       <td><span title="NCBS">NCBS</span></td>
       <td><span title="CDC">CDC</span></td>
       <td>cdcinfo@cdc.gov</td>
-      <td>openSource</td>
+      <td></td>
       <td>Y</td>
       <td>GitHub</td>
       <td><a href="https://github.com/CDCgov/NCBS" target="_blank">https://github.com/CDCgov/NCBS</a></td>
@@ -441,7 +453,7 @@
       <td><span title="NEDSS-BusinessProcessManagement-Core">NEDSS-BusinessProcessManagement-Core</span></td>
       <td><span title="CDC">CDC</span></td>
       <td>cdcinfo@cdc.gov</td>
-      <td>openSource</td>
+      <td></td>
       <td>Y</td>
       <td>GitHub</td>
       <td><a href="https://github.com/CDCgov/NEDSS-BusinessProcessManagement-Core" target="_blank">https://github.com/CDCgov/NEDSS-BusinessProcessManagement-Core</a></td>
@@ -453,7 +465,7 @@
       <td><span title="NEDSS-DataAccess">NEDSS-DataAccess</span></td>
       <td><span title="CDC">CDC</span></td>
       <td>cdcinfo@cdc.gov</td>
-      <td>openSource</td>
+      <td></td>
       <td>Y</td>
       <td>GitHub</td>
       <td><a href="https://github.com/CDCgov/NEDSS-DataAccess" target="_blank">https://github.com/CDCgov/NEDSS-DataAccess</a></td>
@@ -465,7 +477,7 @@
       <td><span title="NEDSS-DataIngestion">NEDSS-DataIngestion</span></td>
       <td><span title="CDC">CDC</span></td>
       <td>cdcinfo@cdc.gov</td>
-      <td>openSource</td>
+      <td></td>
       <td>Y</td>
       <td>GitHub</td>
       <td><a href="https://github.com/CDCgov/NEDSS-DataIngestion" target="_blank">https://github.com/CDCgov/NEDSS-DataIngestion</a></td>
@@ -477,7 +489,7 @@
       <td><span title="NEDSS-DataIngestion-CLI">NEDSS-DataIngestion-CLI</span></td>
       <td><span title="CDC">CDC</span></td>
       <td>cdcinfo@cdc.gov</td>
-      <td>openSource</td>
+      <td></td>
       <td>Y</td>
       <td>GitHub</td>
       <td><a href="https://github.com/CDCgov/NEDSS-DataIngestion-CLI" target="_blank">https://github.com/CDCgov/NEDSS-DataIngestion-CLI</a></td>
@@ -501,7 +513,7 @@
       <td><span title="NEDSS-DataReporting">NEDSS-DataReporting</span></td>
       <td><span title="CDC">CDC</span></td>
       <td>cdcinfo@cdc.gov</td>
-      <td>openSource</td>
+      <td></td>
       <td>Y</td>
       <td>GitHub</td>
       <td><a href="https://github.com/CDCgov/NEDSS-DataReporting" target="_blank">https://github.com/CDCgov/NEDSS-DataReporting</a></td>
@@ -525,7 +537,7 @@
       <td><span title="NEDSS-Geocoding">NEDSS-Geocoding</span></td>
       <td><span title="CDC">CDC</span></td>
       <td>cdcinfo@cdc.gov</td>
-      <td>openSource</td>
+      <td></td>
       <td>Y</td>
       <td>GitHub</td>
       <td><a href="https://github.com/cdcent/NEDSS-Geocoding" target="_blank">https://github.com/cdcent/NEDSS-Geocoding</a></td>
@@ -537,7 +549,7 @@
       <td><span title="NEDSS-Helm">NEDSS-Helm</span></td>
       <td><span title="CDC">CDC</span></td>
       <td>cdcinfo@cdc.gov</td>
-      <td>openSource</td>
+      <td></td>
       <td>Y</td>
       <td>GitHub</td>
       <td><a href="https://github.com/CDCgov/NEDSS-Helm" target="_blank">https://github.com/CDCgov/NEDSS-Helm</a></td>
@@ -549,7 +561,7 @@
       <td><span title="NEDSS-Infrastructure">NEDSS-Infrastructure</span></td>
       <td><span title="CDC">CDC</span></td>
       <td>cdcinfo@cdc.gov</td>
-      <td>openSource</td>
+      <td></td>
       <td>Y</td>
       <td>GitHub</td>
       <td><a href="https://github.com/CDCgov/NEDSS-Infrastructure" target="_blank">https://github.com/CDCgov/NEDSS-Infrastructure</a></td>
@@ -573,7 +585,7 @@
       <td><span title="NEDSS-NNDSS">NEDSS-NNDSS</span></td>
       <td><span title="CDC">CDC</span></td>
       <td>cdcinfo@cdc.gov</td>
-      <td>openSource</td>
+      <td></td>
       <td>Y</td>
       <td>GitHub</td>
       <td><a href="https://github.com/CDCgov/NEDSS-NNDSS" target="_blank">https://github.com/CDCgov/NEDSS-NNDSS</a></td>
@@ -621,7 +633,7 @@
       <td><span title="NoroSurv">NoroSurv</span></td>
       <td><span title="CDC">CDC</span></td>
       <td>cdcinfo@cdc.gov</td>
-      <td>openSource</td>
+      <td></td>
       <td>Y</td>
       <td>GitHub</td>
       <td><a href="https://github.com/CDCgov/NoroSurv" target="_blank">https://github.com/CDCgov/NoroSurv</a></td>
@@ -657,7 +669,7 @@
       <td><span title="Predicting_TB_cluster_growth">Predicting_TB_cluster_growth</span></td>
       <td><span title="CDC">CDC</span></td>
       <td>cdcinfo@cdc.gov</td>
-      <td>openSource</td>
+      <td></td>
       <td>Y</td>
       <td>GitHub</td>
       <td><a href="https://github.com/CDCgov/Predicting_TB_cluster_growth" target="_blank">https://github.com/CDCgov/Predicting_TB_cluster_growth</a></td>
@@ -717,7 +729,7 @@
       <td><span title="SDP-CBR-Broker">SDP-CBR-Broker</span></td>
       <td><span title="CDC">CDC</span></td>
       <td>cdcinfo@cdc.gov</td>
-      <td>openSource</td>
+      <td></td>
       <td>Y</td>
       <td>GitHub</td>
       <td><a href="https://github.com/CDCgov/SDP-CBR-Broker" target="_blank">https://github.com/CDCgov/SDP-CBR-Broker</a></td>
@@ -729,7 +741,7 @@
       <td><span title="SDP-Jenkins">SDP-Jenkins</span></td>
       <td><span title="CDC">CDC</span></td>
       <td>cdcinfo@cdc.gov</td>
-      <td>openSource</td>
+      <td></td>
       <td>Y</td>
       <td>GitHub</td>
       <td><a href="https://github.com/CDCgov/SDP-Jenkins" target="_blank">https://github.com/CDCgov/SDP-Jenkins</a></td>
@@ -753,7 +765,7 @@
       <td><span title="SanitizeMe">SanitizeMe</span></td>
       <td><span title="CDC">CDC</span></td>
       <td>cdcinfo@cdc.gov</td>
-      <td>openSource</td>
+      <td></td>
       <td>Y</td>
       <td>GitHub</td>
       <td><a href="https://github.com/CDCgov/SanitizeMe" target="_blank">https://github.com/CDCgov/SanitizeMe</a></td>
@@ -765,7 +777,7 @@
       <td><span title="SanitizeMePaired">SanitizeMePaired</span></td>
       <td><span title="CDC">CDC</span></td>
       <td>cdcinfo@cdc.gov</td>
-      <td>openSource</td>
+      <td></td>
       <td>Y</td>
       <td>GitHub</td>
       <td><a href="https://github.com/CDCgov/SanitizeMePaired" target="_blank">https://github.com/CDCgov/SanitizeMePaired</a></td>
@@ -825,7 +837,7 @@
       <td><span title="VaccinePriceList">VaccinePriceList</span></td>
       <td><span title="CDC">CDC</span></td>
       <td>wqm6@cdc.gov</td>
-      <td>openSource</td>
+      <td></td>
       <td>Y</td>
       <td>GitHub</td>
       <td><a href="https://github.com/CDCgov/VaccinePriceList" target="_blank">https://github.com/CDCgov/VaccinePriceList</a></td>
@@ -897,7 +909,7 @@
       <td><span title="cdh-lava-react">cdh-lava-react</span></td>
       <td><span title="CDC">CDC</span></td>
       <td>cdcinfo@cdc.gov</td>
-      <td>openSource</td>
+      <td></td>
       <td>Y</td>
       <td>GitHub</td>
       <td><a href="https://github.com/CDCgov/cdh-lava-react" target="_blank">https://github.com/CDCgov/cdh-lava-react</a></td>
@@ -945,7 +957,7 @@
       <td><span title="concept-dictionary-manager">concept-dictionary-manager</span></td>
       <td><span title="CDC">CDC</span></td>
       <td>cdcinfo@cdc.gov</td>
-      <td>openSource</td>
+      <td></td>
       <td>Y</td>
       <td>GitHub</td>
       <td><a href="https://github.com/CDCgov/concept-dictionary-manager" target="_blank">https://github.com/CDCgov/concept-dictionary-manager</a></td>
@@ -981,7 +993,7 @@
       <td><span title="covid_case_privacy_review">covid_case_privacy_review</span></td>
       <td><span title="CDC">CDC</span></td>
       <td>cdcinfo@cdc.gov</td>
-      <td>openSource</td>
+      <td></td>
       <td>Y</td>
       <td>GitHub</td>
       <td><a href="https://github.com/CDCgov/covid_case_privacy_review" target="_blank">https://github.com/CDCgov/covid_case_privacy_review</a></td>
@@ -993,7 +1005,7 @@
       <td><span title="covidhub-reports">covidhub-reports</span></td>
       <td><span title="CDC">CDC</span></td>
       <td>cdcinfo@cdc.gov</td>
-      <td>openSource</td>
+      <td></td>
       <td>Y</td>
       <td>GitHub</td>
       <td><a href="https://github.com/CDCgov/covidhub-reports" target="_blank">https://github.com/CDCgov/covidhub-reports</a></td>
@@ -1005,7 +1017,7 @@
       <td><span title="covidhub-sandbox">covidhub-sandbox</span></td>
       <td><span title="CDC">CDC</span></td>
       <td>cdcinfo@cdc.gov</td>
-      <td>openSource</td>
+      <td></td>
       <td>Y</td>
       <td>GitHub</td>
       <td><a href="https://github.com/CDCgov/covidhub-sandbox" target="_blank">https://github.com/CDCgov/covidhub-sandbox</a></td>
@@ -1017,7 +1029,7 @@
       <td><span title="cs-sdk-dotnet">cs-sdk-dotnet</span></td>
       <td><span title="CDC">CDC</span></td>
       <td>cdcinfo@cdc.gov</td>
-      <td>openSource</td>
+      <td></td>
       <td>Y</td>
       <td>GitHub</td>
       <td><a href="https://github.com/CDCgov/cs-sdk-dotnet" target="_blank">https://github.com/CDCgov/cs-sdk-dotnet</a></td>
@@ -1029,7 +1041,7 @@
       <td><span title="ctf-terraform-examples">ctf-terraform-examples</span></td>
       <td><span title="CDC">CDC</span></td>
       <td>cdcinfo@cdc.gov</td>
-      <td>openSource</td>
+      <td></td>
       <td>Y</td>
       <td>GitHub</td>
       <td><a href="https://github.com/CDCgov/ctf-terraform-examples" target="_blank">https://github.com/CDCgov/ctf-terraform-examples</a></td>
@@ -1041,7 +1053,7 @@
       <td><span title="data-exchange-api-examples">data-exchange-api-examples</span></td>
       <td><span title="CDC">CDC</span></td>
       <td>cdcinfo@cdc.gov</td>
-      <td>openSource</td>
+      <td></td>
       <td>Y</td>
       <td>GitHub</td>
       <td><a href="https://github.com/CDCgov/data-exchange-api-examples" target="_blank">https://github.com/CDCgov/data-exchange-api-examples</a></td>
@@ -1089,7 +1101,7 @@
       <td><span title="data-exchange-upload">data-exchange-upload</span></td>
       <td><span title="CDC">CDC</span></td>
       <td>cdcinfo@cdc.gov</td>
-      <td>openSource</td>
+      <td></td>
       <td>Y</td>
       <td>GitHub</td>
       <td><a href="https://github.com/CDCgov/data-exchange-upload" target="_blank">https://github.com/CDCgov/data-exchange-upload</a></td>
@@ -1101,7 +1113,7 @@
       <td><span title="dibbs-azure">dibbs-azure</span></td>
       <td><span title="CDC">CDC</span></td>
       <td>cdcinfo@cdc.gov</td>
-      <td>openSource</td>
+      <td></td>
       <td>Y</td>
       <td>GitHub</td>
       <td><a href="https://github.com/CDCgov/dibbs-azure" target="_blank">https://github.com/CDCgov/dibbs-azure</a></td>
@@ -1113,7 +1125,7 @@
       <td><span title="dibbs-ecr-refiner">dibbs-ecr-refiner</span></td>
       <td><span title="CDC">CDC</span></td>
       <td>cdcinfo@cdc.gov</td>
-      <td>openSource</td>
+      <td></td>
       <td>Y</td>
       <td>GitHub</td>
       <td><a href="https://github.com/CDCgov/dibbs-ecr-refiner" target="_blank">https://github.com/CDCgov/dibbs-ecr-refiner</a></td>
@@ -1125,7 +1137,7 @@
       <td><span title="dibbs-product-demos">dibbs-product-demos</span></td>
       <td><span title="CDC">CDC</span></td>
       <td>cdcinfo@cdc.gov</td>
-      <td>openSource</td>
+      <td></td>
       <td>Y</td>
       <td>GitHub</td>
       <td><a href="https://github.com/CDCgov/dibbs-product-demos" target="_blank">https://github.com/CDCgov/dibbs-product-demos</a></td>
@@ -1149,7 +1161,7 @@
       <td><span title="dibbs-vm">dibbs-vm</span></td>
       <td><span title="CDC">CDC</span></td>
       <td>cdcinfo@cdc.gov</td>
-      <td>openSource</td>
+      <td></td>
       <td>Y</td>
       <td>GitHub</td>
       <td><a href="https://github.com/CDCgov/dibbs-vm" target="_blank">https://github.com/CDCgov/dibbs-vm</a></td>
@@ -1185,7 +1197,7 @@
       <td><span title="dstdp_dashboards">dstdp_dashboards</span></td>
       <td><span title="CDC">CDC</span></td>
       <td>cdcinfo@cdc.gov</td>
-      <td>openSource</td>
+      <td></td>
       <td>Y</td>
       <td>GitHub</td>
       <td><a href="https://github.com/CDCgov/dstdp_dashboards" target="_blank">https://github.com/CDCgov/dstdp_dashboards</a></td>
@@ -1293,7 +1305,7 @@
       <td><span title="eicr-anonymization">eicr-anonymization</span></td>
       <td><span title="CDC">CDC</span></td>
       <td>cdcinfo@cdc.gov</td>
-      <td>openSource</td>
+      <td></td>
       <td>Y</td>
       <td>GitHub</td>
       <td><a href="https://github.com/CDCgov/eicr-anonymization" target="_blank">https://github.com/CDCgov/eicr-anonymization</a></td>
@@ -1545,7 +1557,7 @@
       <td><span title="fdns-ui-react">fdns-ui-react</span></td>
       <td><span title="CDC">CDC</span></td>
       <td>cdcinfo@cdc.gov</td>
-      <td>openSource</td>
+      <td></td>
       <td>Y</td>
       <td>GitHub</td>
       <td><a href="https://github.com/CDCgov/fdns-ui-react" target="_blank">https://github.com/CDCgov/fdns-ui-react</a></td>
@@ -1593,7 +1605,7 @@
       <td><span title="hie-automation-tests">hie-automation-tests</span></td>
       <td><span title="CDC">CDC</span></td>
       <td>cdcinfo@cdc.gov</td>
-      <td>openSource</td>
+      <td></td>
       <td>Y</td>
       <td>GitHub</td>
       <td><a href="https://github.com/CDCgov/hie-automation-tests" target="_blank">https://github.com/CDCgov/hie-automation-tests</a></td>
@@ -1725,7 +1737,7 @@
       <td><span title="machine-learning-influenza-ferret-model">machine-learning-influenza-ferret-model</span></td>
       <td><span title="CDC">CDC</span></td>
       <td>cdcinfo@cdc.gov</td>
-      <td>openSource</td>
+      <td></td>
       <td>Y</td>
       <td>GitHub</td>
       <td><a href="https://github.com/CDCgov/machine-learning-influenza-ferret-model" target="_blank">https://github.com/CDCgov/machine-learning-influenza-ferret-model</a></td>
@@ -1785,7 +1797,7 @@
       <td><span title="nbbp">nbbp</span></td>
       <td><span title="CDC">CDC</span></td>
       <td>cdcinfo@cdc.gov</td>
-      <td>openSource</td>
+      <td></td>
       <td>Y</td>
       <td>GitHub</td>
       <td><a href="https://github.com/CDCgov/nbbp" target="_blank">https://github.com/CDCgov/nbbp</a></td>
@@ -1821,7 +1833,7 @@
       <td><span title="ocp-sonarqube">ocp-sonarqube</span></td>
       <td><span title="CDC">CDC</span></td>
       <td>cdcinfo@cdc.gov</td>
-      <td>openSource</td>
+      <td></td>
       <td>Y</td>
       <td>GitHub</td>
       <td><a href="https://github.com/CDCgov/ocp-sonarqube" target="_blank">https://github.com/CDCgov/ocp-sonarqube</a></td>
@@ -1845,7 +1857,7 @@
       <td><span title="openshift-fluentd-forwarder">openshift-fluentd-forwarder</span></td>
       <td><span title="CDC">CDC</span></td>
       <td>cdcinfo@cdc.gov</td>
-      <td>openSource</td>
+      <td></td>
       <td>Y</td>
       <td>GitHub</td>
       <td><a href="https://github.com/CDCgov/openshift-fluentd-forwarder" target="_blank">https://github.com/CDCgov/openshift-fluentd-forwarder</a></td>
@@ -1869,7 +1881,7 @@
       <td><span title="phdi-azure">phdi-azure</span></td>
       <td><span title="CDC">CDC</span></td>
       <td>cdcinfo@cdc.gov</td>
-      <td>openSource</td>
+      <td></td>
       <td>Y</td>
       <td>GitHub</td>
       <td><a href="https://github.com/CDCgov/phdi-azure" target="_blank">https://github.com/CDCgov/phdi-azure</a></td>
@@ -1881,7 +1893,7 @@
       <td><span title="phdi-google-cloud">phdi-google-cloud</span></td>
       <td><span title="CDC">CDC</span></td>
       <td>cdcinfo@cdc.gov</td>
-      <td>openSource</td>
+      <td></td>
       <td>Y</td>
       <td>GitHub</td>
       <td><a href="https://github.com/CDCgov/phdi-google-cloud" target="_blank">https://github.com/CDCgov/phdi-google-cloud</a></td>
@@ -1893,7 +1905,7 @@
       <td><span title="phdi-playground">phdi-playground</span></td>
       <td><span title="CDC">CDC</span></td>
       <td>cdcinfo@cdc.gov</td>
-      <td>openSource</td>
+      <td></td>
       <td>Y</td>
       <td>GitHub</td>
       <td><a href="https://github.com/CDCgov/phdi-playground" target="_blank">https://github.com/CDCgov/phdi-playground</a></td>
@@ -1929,7 +1941,7 @@
       <td><span title="polkapox">polkapox</span></td>
       <td><span title="CDC">CDC</span></td>
       <td>cdcinfo@cdc.gov</td>
-      <td>openSource</td>
+      <td></td>
       <td>Y</td>
       <td>GitHub</td>
       <td><a href="https://github.com/CDCgov/polkapox" target="_blank">https://github.com/CDCgov/polkapox</a></td>
@@ -1953,7 +1965,7 @@
       <td><span title="prime-kotlin-tsgenerator-plugin">prime-kotlin-tsgenerator-plugin</span></td>
       <td><span title="CDC">CDC</span></td>
       <td>cdcinfo@cdc.gov</td>
-      <td>openSource</td>
+      <td></td>
       <td>Y</td>
       <td>GitHub</td>
       <td><a href="https://github.com/CDCgov/prime-kotlin-tsgenerator-plugin" target="_blank">https://github.com/CDCgov/prime-kotlin-tsgenerator-plugin</a></td>
@@ -1965,7 +1977,7 @@
       <td><span title="prime-public-health-data-infrastructure">prime-public-health-data-infrastructure</span></td>
       <td><span title="CDC">CDC</span></td>
       <td>cdcinfo@cdc.gov</td>
-      <td>openSource</td>
+      <td></td>
       <td>Y</td>
       <td>GitHub</td>
       <td><a href="https://github.com/CDCgov/prime-public-health-data-infrastructure" target="_blank">https://github.com/CDCgov/prime-public-health-data-infrastructure</a></td>
@@ -1977,7 +1989,7 @@
       <td><span title="prime-simplereport">prime-simplereport</span></td>
       <td><span title="CDC">CDC</span></td>
       <td>cdcinfo@cdc.gov</td>
-      <td>openSource</td>
+      <td></td>
       <td>Y</td>
       <td>GitHub</td>
       <td><a href="https://github.com/CDCgov/prime-simplereport" target="_blank">https://github.com/CDCgov/prime-simplereport</a></td>
@@ -1989,7 +2001,7 @@
       <td><span title="prime-simplereport-site">prime-simplereport-site</span></td>
       <td><span title="CDC">CDC</span></td>
       <td>cdcinfo@cdc.gov</td>
-      <td>openSource</td>
+      <td></td>
       <td>Y</td>
       <td>GitHub</td>
       <td><a href="https://github.com/CDCgov/prime-simplereport-site" target="_blank">https://github.com/CDCgov/prime-simplereport-site</a></td>
@@ -2013,7 +2025,7 @@
       <td><span title="pyrenew-hew">pyrenew-hew</span></td>
       <td><span title="CDC">CDC</span></td>
       <td>cdcinfo@cdc.gov</td>
-      <td>openSource</td>
+      <td></td>
       <td>Y</td>
       <td>GitHub</td>
       <td><a href="https://github.com/CDCgov/pyrenew-hew" target="_blank">https://github.com/CDCgov/pyrenew-hew</a></td>
@@ -2049,7 +2061,7 @@
       <td><span title="s2i-ruby-vocab-builder">s2i-ruby-vocab-builder</span></td>
       <td><span title="CDC">CDC</span></td>
       <td>cdcinfo@cdc.gov</td>
-      <td>openSource</td>
+      <td></td>
       <td>Y</td>
       <td>GitHub</td>
       <td><a href="https://github.com/CDCgov/s2i-ruby-vocab-builder" target="_blank">https://github.com/CDCgov/s2i-ruby-vocab-builder</a></td>
@@ -2109,7 +2121,7 @@
       <td><span title="spheres-auspice-data">spheres-auspice-data</span></td>
       <td><span title="CDC">CDC</span></td>
       <td>cdcinfo@cdc.gov</td>
-      <td>openSource</td>
+      <td></td>
       <td>Y</td>
       <td>GitHub</td>
       <td><a href="https://github.com/CDCgov/spheres-auspice-data" target="_blank">https://github.com/CDCgov/spheres-auspice-data</a></td>
@@ -2193,7 +2205,7 @@
       <td><span title="tick_surveillance">tick_surveillance</span></td>
       <td><span title="CDC">CDC</span></td>
       <td>cdcinfo@cdc.gov</td>
-      <td>openSource</td>
+      <td></td>
       <td>Y</td>
       <td>GitHub</td>
       <td><a href="https://github.com/CDCgov/tick_surveillance" target="_blank">https://github.com/CDCgov/tick_surveillance</a></td>
@@ -2229,7 +2241,7 @@
       <td><span title="CFA">CFA</span></td>
       <td><span title="Center for Forecasting and Outbreak Analytics">Center for Forecasting and Outbreak Analytics</span></td>
       <td>cdcinfo@cdc.gov</td>
-      <td>openSource</td>
+      <td></td>
       <td>Y</td>
       <td>GitHub</td>
       <td><a href="https://github.com/CDCgov/CFA" target="_blank">https://github.com/CDCgov/CFA</a></td>
@@ -2253,7 +2265,7 @@
       <td><span title="DynODE">DynODE</span></td>
       <td><span title="Center for Forecasting and Outbreak Analytics">Center for Forecasting and Outbreak Analytics</span></td>
       <td>tjk3@cdc.gov</td>
-      <td>openSource</td>
+      <td></td>
       <td>Y</td>
       <td>GitHub</td>
       <td><a href="https://github.com/CDCgov/DynODE" target="_blank">https://github.com/CDCgov/DynODE</a></td>
@@ -2301,7 +2313,7 @@
       <td><span title="Rt-without-renewal">Rt-without-renewal</span></td>
       <td><span title="Center for Forecasting and Outbreak Analytics">Center for Forecasting and Outbreak Analytics</span></td>
       <td>cdcinfo@cdc.gov</td>
-      <td>openSource</td>
+      <td></td>
       <td>Y</td>
       <td>GitHub</td>
       <td><a href="https://github.com/CDCgov/Rt-without-renewal" target="_blank">https://github.com/CDCgov/Rt-without-renewal</a></td>
@@ -2313,7 +2325,7 @@
       <td><span title="abc-calibration-tools">abc-calibration-tools</span></td>
       <td><span title="Center for Forecasting and Outbreak Analytics">Center for Forecasting and Outbreak Analytics</span></td>
       <td>pwl3@cdc.gov</td>
-      <td>openSource</td>
+      <td></td>
       <td>Y</td>
       <td>GitHub</td>
       <td><a href="https://github.com/CDCgov/abc-calibration-tools" target="_blank">https://github.com/CDCgov/abc-calibration-tools</a></td>
@@ -2325,7 +2337,7 @@
       <td><span title="abm-python-wrappers">abm-python-wrappers</span></td>
       <td><span title="Center for Forecasting and Outbreak Analytics">Center for Forecasting and Outbreak Analytics</span></td>
       <td>cdcinfo@cdc.gov</td>
-      <td>openSource</td>
+      <td></td>
       <td>Y</td>
       <td>GitHub</td>
       <td><a href="https://github.com/CDCgov/abm-python-wrappers" target="_blank">https://github.com/CDCgov/abm-python-wrappers</a></td>
@@ -2481,7 +2493,7 @@
       <td><span title="cfa-config-generator">cfa-config-generator</span></td>
       <td><span title="Center for Forecasting and Outbreak Analytics">Center for Forecasting and Outbreak Analytics</span></td>
       <td>utb2@cdc.gov</td>
-      <td>openSource</td>
+      <td></td>
       <td>Y</td>
       <td>GitHub</td>
       <td><a href="https://github.com/CDCgov/cfa-config-generator" target="_blank">https://github.com/CDCgov/cfa-config-generator</a></td>
@@ -2493,7 +2505,7 @@
       <td><span title="cfa-config-management-cli">cfa-config-management-cli</span></td>
       <td><span title="Center for Forecasting and Outbreak Analytics">Center for Forecasting and Outbreak Analytics</span></td>
       <td>cdcinfo@cdc.gov</td>
-      <td>openSource</td>
+      <td></td>
       <td>Y</td>
       <td>GitHub</td>
       <td><a href="https://github.com/CDCgov/cfa-config-management-cli" target="_blank">https://github.com/CDCgov/cfa-config-management-cli</a></td>
@@ -2505,7 +2517,7 @@
       <td><span title="cfa-config-validation">cfa-config-validation</span></td>
       <td><span title="Center for Forecasting and Outbreak Analytics">Center for Forecasting and Outbreak Analytics</span></td>
       <td>cdcinfo@cdc.gov</td>
-      <td>openSource</td>
+      <td></td>
       <td>Y</td>
       <td>GitHub</td>
       <td><a href="https://github.com/CDCgov/cfa-config-validation" target="_blank">https://github.com/CDCgov/cfa-config-validation</a></td>
@@ -2565,7 +2577,7 @@
       <td><span title="cfa-epimodel-training">cfa-epimodel-training</span></td>
       <td><span title="Center for Forecasting and Outbreak Analytics">Center for Forecasting and Outbreak Analytics</span></td>
       <td>cdcinfo@cdc.gov</td>
-      <td>openSource</td>
+      <td></td>
       <td>Y</td>
       <td>GitHub</td>
       <td><a href="https://github.com/CDCgov/cfa-epimodel-training" target="_blank">https://github.com/CDCgov/cfa-epimodel-training</a></td>
@@ -2577,7 +2589,7 @@
       <td><span title="cfa-epinow2-pipeline">cfa-epinow2-pipeline</span></td>
       <td><span title="Center for Forecasting and Outbreak Analytics">Center for Forecasting and Outbreak Analytics</span></td>
       <td>cdcinfo@cdc.gov</td>
-      <td>openSource</td>
+      <td></td>
       <td>Y</td>
       <td>GitHub</td>
       <td><a href="https://github.com/CDCgov/cfa-epinow2-pipeline" target="_blank">https://github.com/CDCgov/cfa-epinow2-pipeline</a></td>
@@ -2625,7 +2637,7 @@
       <td><span title="cfa-gam-rt">cfa-gam-rt</span></td>
       <td><span title="Center for Forecasting and Outbreak Analytics">Center for Forecasting and Outbreak Analytics</span></td>
       <td>cdcinfo@cdc.gov</td>
-      <td>openSource</td>
+      <td></td>
       <td>Y</td>
       <td>GitHub</td>
       <td><a href="https://github.com/CDCgov/cfa-gam-rt" target="_blank">https://github.com/CDCgov/cfa-gam-rt</a></td>
@@ -2661,7 +2673,7 @@
       <td><span title="cfa-genomic-lag-effect">cfa-genomic-lag-effect</span></td>
       <td><span title="Center for Forecasting and Outbreak Analytics">Center for Forecasting and Outbreak Analytics</span></td>
       <td>cdcinfo@cdc.gov</td>
-      <td>openSource</td>
+      <td></td>
       <td>Y</td>
       <td>GitHub</td>
       <td><a href="https://github.com/CDCgov/cfa-genomic-lag-effect" target="_blank">https://github.com/CDCgov/cfa-genomic-lag-effect</a></td>
@@ -2697,7 +2709,7 @@
       <td><span title="cfa-immunization-uptake-projection">cfa-immunization-uptake-projection</span></td>
       <td><span title="Center for Forecasting and Outbreak Analytics">Center for Forecasting and Outbreak Analytics</span></td>
       <td>tec0@cdc.gov</td>
-      <td>openSource</td>
+      <td></td>
       <td>Y</td>
       <td>GitHub</td>
       <td><a href="https://github.com/CDCgov/cfa-immunization-uptake-projection" target="_blank">https://github.com/CDCgov/cfa-immunization-uptake-projection</a></td>
@@ -2841,7 +2853,7 @@
       <td><span title="cfa-ngm-widget">cfa-ngm-widget</span></td>
       <td><span title="Center for Forecasting and Outbreak Analytics">Center for Forecasting and Outbreak Analytics</span></td>
       <td>rzg0@cdc.gov</td>
-      <td>openSource</td>
+      <td></td>
       <td>Y</td>
       <td>GitHub</td>
       <td><a href="https://github.com/CDCgov/cfa-ngm-widget" target="_blank">https://github.com/CDCgov/cfa-ngm-widget</a></td>
@@ -2997,7 +3009,7 @@
       <td><span title="cfa-respnet-nowcasting-daily">cfa-respnet-nowcasting-daily</span></td>
       <td><span title="Center for Forecasting and Outbreak Analytics">Center for Forecasting and Outbreak Analytics</span></td>
       <td>cdcinfo@cdc.gov</td>
-      <td>openSource</td>
+      <td></td>
       <td>Y</td>
       <td>GitHub</td>
       <td><a href="https://github.com/CDCgov/cfa-respnet-nowcasting-daily" target="_blank">https://github.com/CDCgov/cfa-respnet-nowcasting-daily</a></td>
@@ -3009,7 +3021,7 @@
       <td><span title="cfa-ring-vax-widget">cfa-ring-vax-widget</span></td>
       <td><span title="Center for Forecasting and Outbreak Analytics">Center for Forecasting and Outbreak Analytics</span></td>
       <td>rzg0@cdc.gov</td>
-      <td>openSource</td>
+      <td></td>
       <td>Y</td>
       <td>GitHub</td>
       <td><a href="https://github.com/CDCgov/cfa-ring-vax-widget" target="_blank">https://github.com/CDCgov/cfa-ring-vax-widget</a></td>
@@ -3069,7 +3081,7 @@
       <td><span title="cfa-scoring-service">cfa-scoring-service</span></td>
       <td><span title="Center for Forecasting and Outbreak Analytics">Center for Forecasting and Outbreak Analytics</span></td>
       <td>cdcinfo@cdc.gov</td>
-      <td>openSource</td>
+      <td></td>
       <td>Y</td>
       <td>GitHub</td>
       <td><a href="https://github.com/CDCgov/cfa-scoring-service" target="_blank">https://github.com/CDCgov/cfa-scoring-service</a></td>
@@ -3081,7 +3093,7 @@
       <td><span title="cfa-sero-protection">cfa-sero-protection</span></td>
       <td><span title="Center for Forecasting and Outbreak Analytics">Center for Forecasting and Outbreak Analytics</span></td>
       <td>tec0@cdc.gov</td>
-      <td>openSource</td>
+      <td></td>
       <td>Y</td>
       <td>GitHub</td>
       <td><a href="https://github.com/CDCgov/cfa-sero-protection" target="_blank">https://github.com/CDCgov/cfa-sero-protection</a></td>
@@ -3141,7 +3153,7 @@
       <td><span title="cfa-tnd-ve-widget">cfa-tnd-ve-widget</span></td>
       <td><span title="Center for Forecasting and Outbreak Analytics">Center for Forecasting and Outbreak Analytics</span></td>
       <td>ulp7@cdc.gov</td>
-      <td>openSource</td>
+      <td></td>
       <td>Y</td>
       <td>GitHub</td>
       <td><a href="https://github.com/CDCgov/cfa-tnd-ve-widget" target="_blank">https://github.com/CDCgov/cfa-tnd-ve-widget</a></td>
@@ -3153,7 +3165,7 @@
       <td><span title="cfa-uw-modeling">cfa-uw-modeling</span></td>
       <td><span title="Center for Forecasting and Outbreak Analytics">Center for Forecasting and Outbreak Analytics</span></td>
       <td>ruu7@cdc.gov</td>
-      <td>openSource</td>
+      <td></td>
       <td>Y</td>
       <td>GitHub</td>
       <td><a href="https://github.com/CDCgov/cfa-uw-modeling" target="_blank">https://github.com/CDCgov/cfa-uw-modeling</a></td>
@@ -3177,7 +3189,7 @@
       <td><span title="cfa-viral-lineage-model">cfa-viral-lineage-model</span></td>
       <td><span title="Center for Forecasting and Outbreak Analytics">Center for Forecasting and Outbreak Analytics</span></td>
       <td>cdcinfo@cdc.gov</td>
-      <td>openSource</td>
+      <td></td>
       <td>Y</td>
       <td>GitHub</td>
       <td><a href="https://github.com/CDCgov/cfa-viral-lineage-model" target="_blank">https://github.com/CDCgov/cfa-viral-lineage-model</a></td>
@@ -3201,7 +3213,7 @@
       <td><span title="cfa_azure">cfa_azure</span></td>
       <td><span title="Center for Forecasting and Outbreak Analytics">Center for Forecasting and Outbreak Analytics</span></td>
       <td>cdcinfo@cdc.gov</td>
-      <td>openSource</td>
+      <td></td>
       <td>Y</td>
       <td>GitHub</td>
       <td><a href="https://github.com/CDCgov/cfa_azure" target="_blank">https://github.com/CDCgov/cfa_azure</a></td>
@@ -3213,7 +3225,7 @@
       <td><span title="cfasodapy">cfasodapy</span></td>
       <td><span title="Center for Forecasting and Outbreak Analytics">Center for Forecasting and Outbreak Analytics</span></td>
       <td>ulp7@cdc.gov</td>
-      <td>openSource</td>
+      <td></td>
       <td>Y</td>
       <td>GitHub</td>
       <td><a href="https://github.com/CDCgov/cfasodapy" target="_blank">https://github.com/CDCgov/cfasodapy</a></td>
@@ -3225,7 +3237,7 @@
       <td><span title="cfazuR">cfazuR</span></td>
       <td><span title="Center for Forecasting and Outbreak Analytics">Center for Forecasting and Outbreak Analytics</span></td>
       <td>pyv3@cdc.gov</td>
-      <td>openSource</td>
+      <td></td>
       <td>Y</td>
       <td>GitHub</td>
       <td><a href="https://github.com/CDCgov/cfazuR" target="_blank">https://github.com/CDCgov/cfazuR</a></td>
@@ -3237,7 +3249,7 @@
       <td><span title="childhood-immunization-demand-calculator">childhood-immunization-demand-calculator</span></td>
       <td><span title="Center for Forecasting and Outbreak Analytics">Center for Forecasting and Outbreak Analytics</span></td>
       <td>ulp7@cdc.gov</td>
-      <td>openSource</td>
+      <td></td>
       <td>Y</td>
       <td>GitHub</td>
       <td><a href="https://github.com/CDCgov/childhood-immunization-demand-calculator" target="_blank">https://github.com/CDCgov/childhood-immunization-demand-calculator</a></td>
@@ -3249,7 +3261,7 @@
       <td><span title="covid-vaccine-uptake-2023">covid-vaccine-uptake-2023</span></td>
       <td><span title="Center for Forecasting and Outbreak Analytics">Center for Forecasting and Outbreak Analytics</span></td>
       <td>ulp7@cdc.gov</td>
-      <td>openSource</td>
+      <td></td>
       <td>Y</td>
       <td>GitHub</td>
       <td><a href="https://github.com/CDCgov/covid-vaccine-uptake-2023" target="_blank">https://github.com/CDCgov/covid-vaccine-uptake-2023</a></td>
@@ -3285,7 +3297,7 @@
       <td><span title="forecasttools">forecasttools</span></td>
       <td><span title="Center for Forecasting and Outbreak Analytics">Center for Forecasting and Outbreak Analytics</span></td>
       <td>dzl1@cdc.gov</td>
-      <td>openSource</td>
+      <td></td>
       <td>Y</td>
       <td>GitHub</td>
       <td><a href="https://github.com/CDCgov/forecasttools" target="_blank">https://github.com/CDCgov/forecasttools</a></td>
@@ -3297,7 +3309,7 @@
       <td><span title="forecasttools-py">forecasttools-py</span></td>
       <td><span title="Center for Forecasting and Outbreak Analytics">Center for Forecasting and Outbreak Analytics</span></td>
       <td>cdcinfo@cdc.gov</td>
-      <td>openSource</td>
+      <td></td>
       <td>Y</td>
       <td>GitHub</td>
       <td><a href="https://github.com/CDCgov/forecasttools-py" target="_blank">https://github.com/CDCgov/forecasttools-py</a></td>
@@ -3309,7 +3321,7 @@
       <td><span title="griddleR">griddleR</span></td>
       <td><span title="Center for Forecasting and Outbreak Analytics">Center for Forecasting and Outbreak Analytics</span></td>
       <td>ulp7@cdc.gov</td>
-      <td>openSource</td>
+      <td></td>
       <td>Y</td>
       <td>GitHub</td>
       <td><a href="https://github.com/CDCgov/griddleR" target="_blank">https://github.com/CDCgov/griddleR</a></td>
@@ -3321,7 +3333,7 @@
       <td><span title="ixa-epi-isolation">ixa-epi-isolation</span></td>
       <td><span title="Center for Forecasting and Outbreak Analytics">Center for Forecasting and Outbreak Analytics</span></td>
       <td>cdcinfo@cdc.gov</td>
-      <td>openSource</td>
+      <td></td>
       <td>Y</td>
       <td>GitHub</td>
       <td><a href="https://github.com/CDCgov/ixa-epi-isolation" target="_blank">https://github.com/CDCgov/ixa-epi-isolation</a></td>
@@ -3369,7 +3381,7 @@
       <td><span title="measles-model-chicago-2024">measles-model-chicago-2024</span></td>
       <td><span title="Center for Forecasting and Outbreak Analytics">Center for Forecasting and Outbreak Analytics</span></td>
       <td>ulp7@cdc.gov</td>
-      <td>openSource</td>
+      <td></td>
       <td>Y</td>
       <td>GitHub</td>
       <td><a href="https://github.com/CDCgov/measles-model-chicago-2024" target="_blank">https://github.com/CDCgov/measles-model-chicago-2024</a></td>
@@ -3393,7 +3405,7 @@
       <td><span title="nis-py-api">nis-py-api</span></td>
       <td><span title="Center for Forecasting and Outbreak Analytics">Center for Forecasting and Outbreak Analytics</span></td>
       <td>ulp7@cdc.gov</td>
-      <td>openSource</td>
+      <td></td>
       <td>Y</td>
       <td>GitHub</td>
       <td><a href="https://github.com/CDCgov/nis-py-api" target="_blank">https://github.com/CDCgov/nis-py-api</a></td>
@@ -3429,7 +3441,7 @@
       <td><span title="pyrenew-flu-light">pyrenew-flu-light</span></td>
       <td><span title="Center for Forecasting and Outbreak Analytics">Center for Forecasting and Outbreak Analytics</span></td>
       <td>cdcinfo@cdc.gov</td>
-      <td>openSource</td>
+      <td></td>
       <td>Y</td>
       <td>GitHub</td>
       <td><a href="https://github.com/CDCgov/pyrenew-flu-light" target="_blank">https://github.com/CDCgov/pyrenew-flu-light</a></td>
@@ -3441,7 +3453,7 @@
       <td><span title="reedfrost">reedfrost</span></td>
       <td><span title="Center for Forecasting and Outbreak Analytics">Center for Forecasting and Outbreak Analytics</span></td>
       <td>ulp7@cdc.gov</td>
-      <td>openSource</td>
+      <td></td>
       <td>Y</td>
       <td>GitHub</td>
       <td><a href="https://github.com/CDCgov/reedfrost" target="_blank">https://github.com/CDCgov/reedfrost</a></td>
@@ -3453,7 +3465,7 @@
       <td><span title="scenarios-hpc-azure">scenarios-hpc-azure</span></td>
       <td><span title="Center for Forecasting and Outbreak Analytics">Center for Forecasting and Outbreak Analytics</span></td>
       <td>ah20@cdc.gov</td>
-      <td>openSource</td>
+      <td></td>
       <td>Y</td>
       <td>GitHub</td>
       <td><a href="https://github.com/CDCgov/scenarios-hpc-azure" target="_blank">https://github.com/CDCgov/scenarios-hpc-azure</a></td>
@@ -3465,7 +3477,7 @@
       <td><span title="seasoner">seasoner</span></td>
       <td><span title="Center for Forecasting and Outbreak Analytics">Center for Forecasting and Outbreak Analytics</span></td>
       <td>ulp7@cdc.gov</td>
-      <td>openSource</td>
+      <td></td>
       <td>Y</td>
       <td>GitHub</td>
       <td><a href="https://github.com/CDCgov/seasoner" target="_blank">https://github.com/CDCgov/seasoner</a></td>
@@ -3489,7 +3501,7 @@
       <td><span title="ww-inference-model">ww-inference-model</span></td>
       <td><span title="Center for Forecasting and Outbreak Analytics">Center for Forecasting and Outbreak Analytics</span></td>
       <td>cdcinfo@cdc.gov</td>
-      <td>openSource</td>
+      <td></td>
       <td>Y</td>
       <td>GitHub</td>
       <td><a href="https://github.com/CDCgov/ww-inference-model" target="_blank">https://github.com/CDCgov/ww-inference-model</a></td>
@@ -3525,7 +3537,7 @@
       <td><span title="AlignmentViewer">AlignmentViewer</span></td>
       <td><span title="Centers for Disease Control and Prevention">Centers for Disease Control and Prevention</span></td>
       <td>cdcinfo@cdc.gov</td>
-      <td>openSource</td>
+      <td></td>
       <td>Y</td>
       <td>GitHub</td>
       <td><a href="https://github.com/CDCgov/AlignmentViewer" target="_blank">https://github.com/CDCgov/AlignmentViewer</a></td>
@@ -3537,7 +3549,7 @@
       <td><span title="BART-Survival">BART-Survival</span></td>
       <td><span title="Centers for Disease Control and Prevention">Centers for Disease Control and Prevention</span></td>
       <td>cdcinfo@cdc.gov</td>
-      <td>openSource</td>
+      <td></td>
       <td>Y</td>
       <td>GitHub</td>
       <td><a href="https://github.com/CDCgov/BART-Survival" target="_blank">https://github.com/CDCgov/BART-Survival</a></td>
@@ -3549,7 +3561,7 @@
       <td><span title="BMGAP2">BMGAP2</span></td>
       <td><span title="Centers for Disease Control and Prevention">Centers for Disease Control and Prevention</span></td>
       <td>cdcinfo@cdc.gov</td>
-      <td>openSource</td>
+      <td></td>
       <td>Y</td>
       <td>GitHub</td>
       <td><a href="https://github.com/CDCgov/BMGAP2" target="_blank">https://github.com/CDCgov/BMGAP2</a></td>
@@ -3561,7 +3573,7 @@
       <td><span title="CDC-Data-Reconciliation-Tool">CDC-Data-Reconciliation-Tool</span></td>
       <td><span title="Centers for Disease Control and Prevention">Centers for Disease Control and Prevention</span></td>
       <td>cdcinfo@cdc.gov</td>
-      <td>openSource</td>
+      <td></td>
       <td>Y</td>
       <td>GitHub</td>
       <td><a href="https://github.com/CDCgov/CDC-Data-Reconciliation-Tool" target="_blank">https://github.com/CDCgov/CDC-Data-Reconciliation-Tool</a></td>
@@ -3573,7 +3585,7 @@
       <td><span title="CDC_IIS_Open_Tools">CDC_IIS_Open_Tools</span></td>
       <td><span title="Centers for Disease Control and Prevention">Centers for Disease Control and Prevention</span></td>
       <td>cdcinfo@cdc.gov</td>
-      <td>openSource</td>
+      <td></td>
       <td>Y</td>
       <td>GitHub</td>
       <td><a href="https://github.com/CDCgov/CDC_IIS_Open_Tools" target="_blank">https://github.com/CDCgov/CDC_IIS_Open_Tools</a></td>
@@ -3585,7 +3597,7 @@
       <td><span title="COVIDReportR_AShinyApp">COVIDReportR_AShinyApp</span></td>
       <td><span title="Centers for Disease Control and Prevention">Centers for Disease Control and Prevention</span></td>
       <td>cdcinfo@cdc.gov</td>
-      <td>openSource</td>
+      <td></td>
       <td>Y</td>
       <td>GitHub</td>
       <td><a href="https://github.com/CDCgov/COVIDReportR_AShinyApp" target="_blank">https://github.com/CDCgov/COVIDReportR_AShinyApp</a></td>
@@ -3597,7 +3609,7 @@
       <td><span title="CSV2FASTA">CSV2FASTA</span></td>
       <td><span title="Centers for Disease Control and Prevention">Centers for Disease Control and Prevention</span></td>
       <td>cdcinfo@cdc.gov</td>
-      <td>openSource</td>
+      <td></td>
       <td>Y</td>
       <td>GitHub</td>
       <td><a href="https://github.com/CDCgov/CSV2FASTA" target="_blank">https://github.com/CDCgov/CSV2FASTA</a></td>
@@ -3621,7 +3633,7 @@
       <td><span title="Crypto_gp60_Subtyping_Tool">Crypto_gp60_Subtyping_Tool</span></td>
       <td><span title="Centers for Disease Control and Prevention">Centers for Disease Control and Prevention</span></td>
       <td>qxu0@cdc.gov</td>
-      <td>openSource</td>
+      <td></td>
       <td>Y</td>
       <td>GitHub</td>
       <td><a href="https://github.com/CDCgov/Crypto_gp60_Subtyping_Tool" target="_blank">https://github.com/CDCgov/Crypto_gp60_Subtyping_Tool</a></td>
@@ -3633,7 +3645,7 @@
       <td><span title="CycloSync-collab">CycloSync-collab</span></td>
       <td><span title="Centers for Disease Control and Prevention">Centers for Disease Control and Prevention</span></td>
       <td>cdcinfo@cdc.gov</td>
-      <td>openSource</td>
+      <td></td>
       <td>Y</td>
       <td>GitHub</td>
       <td><a href="https://github.com/CDCgov/CycloSync-collab" target="_blank">https://github.com/CDCgov/CycloSync-collab</a></td>
@@ -3645,7 +3657,7 @@
       <td><span title="DemographySpawnR">DemographySpawnR</span></td>
       <td><span title="Centers for Disease Control and Prevention">Centers for Disease Control and Prevention</span></td>
       <td>cdcinfo@cdc.gov</td>
-      <td>openSource</td>
+      <td></td>
       <td>Y</td>
       <td>GitHub</td>
       <td><a href="https://github.com/CDCgov/DemographySpawnR" target="_blank">https://github.com/CDCgov/DemographySpawnR</a></td>
@@ -3657,7 +3669,7 @@
       <td><span title="EPHTrackR">EPHTrackR</span></td>
       <td><span title="Centers for Disease Control and Prevention">Centers for Disease Control and Prevention</span></td>
       <td>cdcinfo@cdc.gov</td>
-      <td>openSource</td>
+      <td></td>
       <td>Y</td>
       <td>GitHub</td>
       <td><a href="https://github.com/CDCgov/EPHTrackR" target="_blank">https://github.com/CDCgov/EPHTrackR</a></td>
@@ -3669,7 +3681,7 @@
       <td><span title="EPHTracking-RAD">EPHTracking-RAD</span></td>
       <td><span title="Centers for Disease Control and Prevention">Centers for Disease Control and Prevention</span></td>
       <td>trackingsupport@cdc.gov</td>
-      <td>openSource</td>
+      <td></td>
       <td>Y</td>
       <td>GitHub</td>
       <td><a href="https://github.com/CDCgov/EPHTracking-RAD" target="_blank">https://github.com/CDCgov/EPHTracking-RAD</a></td>
@@ -3681,7 +3693,7 @@
       <td><span title="EPHTracking-Subcounty">EPHTracking-Subcounty</span></td>
       <td><span title="Centers for Disease Control and Prevention">Centers for Disease Control and Prevention</span></td>
       <td>trackingsupport@cdc.gov</td>
-      <td>openSource</td>
+      <td></td>
       <td>Y</td>
       <td>GitHub</td>
       <td><a href="https://github.com/CDCgov/EPHTracking-Subcounty" target="_blank">https://github.com/CDCgov/EPHTracking-Subcounty</a></td>
@@ -3693,7 +3705,7 @@
       <td><span title="EPHTracking-XMLGenerator">EPHTracking-XMLGenerator</span></td>
       <td><span title="Centers for Disease Control and Prevention">Centers for Disease Control and Prevention</span></td>
       <td>cdcinfo@cdc.gov</td>
-      <td>openSource</td>
+      <td></td>
       <td>Y</td>
       <td>GitHub</td>
       <td><a href="https://github.com/CDCgov/EPHTracking-XMLGenerator" target="_blank">https://github.com/CDCgov/EPHTracking-XMLGenerator</a></td>
@@ -3705,7 +3717,7 @@
       <td><span title="F2017CDCLiaison">F2017CDCLiaison</span></td>
       <td><span title="Centers for Disease Control and Prevention">Centers for Disease Control and Prevention</span></td>
       <td>cdcinfo@cdc.gov</td>
-      <td>openSource</td>
+      <td></td>
       <td>Y</td>
       <td>GitHub</td>
       <td><a href="https://github.com/CDCgov/F2017CDCLiaison" target="_blank">https://github.com/CDCgov/F2017CDCLiaison</a></td>
@@ -3717,7 +3729,7 @@
       <td><span title="GRASP">GRASP</span></td>
       <td><span title="Centers for Disease Control and Prevention">Centers for Disease Control and Prevention</span></td>
       <td>cdcinfo@cdc.gov</td>
-      <td>openSource</td>
+      <td></td>
       <td>Y</td>
       <td>GitHub</td>
       <td><a href="https://github.com/CDCgov/GRASP" target="_blank">https://github.com/CDCgov/GRASP</a></td>
@@ -3729,7 +3741,7 @@
       <td><span title="GaTech-Fall2017-Davis-dohMPI-SPYNdoctors">GaTech-Fall2017-Davis-dohMPI-SPYNdoctors</span></td>
       <td><span title="Centers for Disease Control and Prevention">Centers for Disease Control and Prevention</span></td>
       <td>cdcinfo@cdc.gov</td>
-      <td>openSource</td>
+      <td></td>
       <td>Y</td>
       <td>GitHub</td>
       <td><a href="https://github.com/CDCgov/GaTech-Fall2017-Davis-dohMPI-SPYNdoctors" target="_blank">https://github.com/CDCgov/GaTech-Fall2017-Davis-dohMPI-SPYNdoctors</a></td>
@@ -3741,7 +3753,7 @@
       <td><span title="GaTech-Fall2017-Duncan-BirthCerts-iHealth">GaTech-Fall2017-Duncan-BirthCerts-iHealth</span></td>
       <td><span title="Centers for Disease Control and Prevention">Centers for Disease Control and Prevention</span></td>
       <td>cdcinfo@cdc.gov</td>
-      <td>openSource</td>
+      <td></td>
       <td>Y</td>
       <td>GitHub</td>
       <td><a href="https://github.com/CDCgov/GaTech-Fall2017-Duncan-BirthCerts-iHealth" target="_blank">https://github.com/CDCgov/GaTech-Fall2017-Duncan-BirthCerts-iHealth</a></td>
@@ -3753,7 +3765,7 @@
       <td><span title="GaTech-Fall2017-Goodman-HealthWeight-TeamScienceFreaks">GaTech-Fall2017-Goodman-HealthWeight-TeamScienceFreaks</span></td>
       <td><span title="Centers for Disease Control and Prevention">Centers for Disease Control and Prevention</span></td>
       <td>cdcinfo@cdc.gov</td>
-      <td>openSource</td>
+      <td></td>
       <td>Y</td>
       <td>GitHub</td>
       <td><a href="https://github.com/CDCgov/GaTech-Fall2017-Goodman-HealthWeight-TeamScienceFreaks" target="_blank">https://github.com/CDCgov/GaTech-Fall2017-Goodman-HealthWeight-TeamScienceFreaks</a></td>
@@ -3765,7 +3777,7 @@
       <td><span title="GaTech-Fall2017-Krupa-Concussion-FHIRStarters">GaTech-Fall2017-Krupa-Concussion-FHIRStarters</span></td>
       <td><span title="Centers for Disease Control and Prevention">Centers for Disease Control and Prevention</span></td>
       <td>cdcinfo@cdc.gov</td>
-      <td>openSource</td>
+      <td></td>
       <td>Y</td>
       <td>GitHub</td>
       <td><a href="https://github.com/CDCgov/GaTech-Fall2017-Krupa-Concussion-FHIRStarters" target="_blank">https://github.com/CDCgov/GaTech-Fall2017-Krupa-Concussion-FHIRStarters</a></td>
@@ -3777,7 +3789,7 @@
       <td><span title="GaTech-Fall2017-Srinivasan-ImproveAdherence-DEVSonFHIR">GaTech-Fall2017-Srinivasan-ImproveAdherence-DEVSonFHIR</span></td>
       <td><span title="Centers for Disease Control and Prevention">Centers for Disease Control and Prevention</span></td>
       <td>cdcinfo@cdc.gov</td>
-      <td>openSource</td>
+      <td></td>
       <td>Y</td>
       <td>GitHub</td>
       <td><a href="https://github.com/CDCgov/GaTech-Fall2017-Srinivasan-ImproveAdherence-DEVSonFHIR" target="_blank">https://github.com/CDCgov/GaTech-Fall2017-Srinivasan-ImproveAdherence-DEVSonFHIR</a></td>
@@ -3789,7 +3801,7 @@
       <td><span title="GaTech-Fall2017-Srinivasan-Stroke-Team1">GaTech-Fall2017-Srinivasan-Stroke-Team1</span></td>
       <td><span title="Centers for Disease Control and Prevention">Centers for Disease Control and Prevention</span></td>
       <td>cdcinfo@cdc.gov</td>
-      <td>openSource</td>
+      <td></td>
       <td>Y</td>
       <td>GitHub</td>
       <td><a href="https://github.com/CDCgov/GaTech-Fall2017-Srinivasan-Stroke-Team1" target="_blank">https://github.com/CDCgov/GaTech-Fall2017-Srinivasan-Stroke-Team1</a></td>
@@ -3801,7 +3813,7 @@
       <td><span title="GaTech-Fall2017-Wilmore-Breastfeeding-WeDidntStartTheFHIR">GaTech-Fall2017-Wilmore-Breastfeeding-WeDidntStartTheFHIR</span></td>
       <td><span title="Centers for Disease Control and Prevention">Centers for Disease Control and Prevention</span></td>
       <td>cdcinfo@cdc.gov</td>
-      <td>openSource</td>
+      <td></td>
       <td>Y</td>
       <td>GitHub</td>
       <td><a href="https://github.com/CDCgov/GaTech-Fall2017-Wilmore-Breastfeeding-WeDidntStartTheFHIR" target="_blank">https://github.com/CDCgov/GaTech-Fall2017-Wilmore-Breastfeeding-WeDidntStartTheFHIR</a></td>
@@ -3813,7 +3825,7 @@
       <td><span title="HantaNet">HantaNet</span></td>
       <td><span title="Centers for Disease Control and Prevention">Centers for Disease Control and Prevention</span></td>
       <td>vrw7@cdc.gov</td>
-      <td>openSource</td>
+      <td></td>
       <td>Y</td>
       <td>GitHub</td>
       <td><a href="https://github.com/CDCgov/HantaNet" target="_blank">https://github.com/CDCgov/HantaNet</a></td>
@@ -3837,7 +3849,7 @@
       <td><span title="MIRA-NF">MIRA-NF</span></td>
       <td><span title="Centers for Disease Control and Prevention">Centers for Disease Control and Prevention</span></td>
       <td>cdcinfo@cdc.gov</td>
-      <td>openSource</td>
+      <td></td>
       <td>Y</td>
       <td>GitHub</td>
       <td><a href="https://github.com/CDCgov/MIRA-NF" target="_blank">https://github.com/CDCgov/MIRA-NF</a></td>
@@ -3873,7 +3885,7 @@
       <td><span title="Mia_publication">Mia_publication</span></td>
       <td><span title="Centers for Disease Control and Prevention">Centers for Disease Control and Prevention</span></td>
       <td>cdcinfo@cdc.gov</td>
-      <td>openSource</td>
+      <td></td>
       <td>Y</td>
       <td>GitHub</td>
       <td><a href="https://github.com/CDCgov/Mia_publication" target="_blank">https://github.com/CDCgov/Mia_publication</a></td>
@@ -3885,7 +3897,7 @@
       <td><span title="MicrobeTraceNext">MicrobeTraceNext</span></td>
       <td><span title="Centers for Disease Control and Prevention">Centers for Disease Control and Prevention</span></td>
       <td>cdcinfo@cdc.gov</td>
-      <td>openSource</td>
+      <td></td>
       <td>Y</td>
       <td>GitHub</td>
       <td><a href="https://github.com/CDCgov/MicrobeTraceNext" target="_blank">https://github.com/CDCgov/MicrobeTraceNext</a></td>
@@ -3897,7 +3909,7 @@
       <td><span title="MicrobeTraceShiny">MicrobeTraceShiny</span></td>
       <td><span title="Centers for Disease Control and Prevention">Centers for Disease Control and Prevention</span></td>
       <td>cdcinfo@cdc.gov</td>
-      <td>openSource</td>
+      <td></td>
       <td>Y</td>
       <td>GitHub</td>
       <td><a href="https://github.com/CDCgov/MicrobeTraceShiny" target="_blank">https://github.com/CDCgov/MicrobeTraceShiny</a></td>
@@ -3909,7 +3921,7 @@
       <td><span title="Monitoring_COVID-19_Outcomes_by_Vaccination_Status_with_Aggregate_Data">Monitoring_COVID-19_Outcomes_by_Vaccination_Status_with_Aggregate_Data</span></td>
       <td><span title="Centers for Disease Control and Prevention">Centers for Disease Control and Prevention</span></td>
       <td>cdcinfo@cdc.gov</td>
-      <td>openSource</td>
+      <td></td>
       <td>Y</td>
       <td>GitHub</td>
       <td><a href="https://github.com/CDCgov/Monitoring_COVID-19_Outcomes_by_Vaccination_Status_with_Aggregate_Data" target="_blank">https://github.com/CDCgov/Monitoring_COVID-19_Outcomes_by_Vaccination_Status_with_Aggregate_Data</a></td>
@@ -3921,7 +3933,7 @@
       <td><span title="Mpox_AmpSeq">Mpox_AmpSeq</span></td>
       <td><span title="Centers for Disease Control and Prevention">Centers for Disease Control and Prevention</span></td>
       <td>cdcinfo@cdc.gov</td>
-      <td>openSource</td>
+      <td></td>
       <td>Y</td>
       <td>GitHub</td>
       <td><a href="https://github.com/CDCgov/Mpox_AmpSeq" target="_blank">https://github.com/CDCgov/Mpox_AmpSeq</a></td>
@@ -3933,7 +3945,7 @@
       <td><span title="MycoGene">MycoGene</span></td>
       <td><span title="Centers for Disease Control and Prevention">Centers for Disease Control and Prevention</span></td>
       <td>cdcinfo@cdc.gov</td>
-      <td>openSource</td>
+      <td></td>
       <td>Y</td>
       <td>GitHub</td>
       <td><a href="https://github.com/CDCgov/MycoGene" target="_blank">https://github.com/CDCgov/MycoGene</a></td>
@@ -3945,7 +3957,7 @@
       <td><span title="MycoGene_long">MycoGene_long</span></td>
       <td><span title="Centers for Disease Control and Prevention">Centers for Disease Control and Prevention</span></td>
       <td>cdcinfo@cdc.gov</td>
-      <td>openSource</td>
+      <td></td>
       <td>Y</td>
       <td>GitHub</td>
       <td><a href="https://github.com/CDCgov/MycoGene_long" target="_blank">https://github.com/CDCgov/MycoGene_long</a></td>
@@ -3957,7 +3969,7 @@
       <td><span title="MycoID">MycoID</span></td>
       <td><span title="Centers for Disease Control and Prevention">Centers for Disease Control and Prevention</span></td>
       <td>cdcinfo@cdc.gov</td>
-      <td>openSource</td>
+      <td></td>
       <td>Y</td>
       <td>GitHub</td>
       <td><a href="https://github.com/CDCgov/MycoID" target="_blank">https://github.com/CDCgov/MycoID</a></td>
@@ -3969,7 +3981,7 @@
       <td><span title="NEDSS-DataCompare">NEDSS-DataCompare</span></td>
       <td><span title="Centers for Disease Control and Prevention">Centers for Disease Control and Prevention</span></td>
       <td>cdcinfo@cdc.gov</td>
-      <td>openSource</td>
+      <td></td>
       <td>Y</td>
       <td>GitHub</td>
       <td><a href="https://github.com/CDCgov/NEDSS-DataCompare" target="_blank">https://github.com/CDCgov/NEDSS-DataCompare</a></td>
@@ -3981,7 +3993,7 @@
       <td><span title="NEDSS-NNDSS-Case-Notifications">NEDSS-NNDSS-Case-Notifications</span></td>
       <td><span title="Centers for Disease Control and Prevention">Centers for Disease Control and Prevention</span></td>
       <td>cdcinfo@cdc.gov</td>
-      <td>openSource</td>
+      <td></td>
       <td>Y</td>
       <td>GitHub</td>
       <td><a href="https://github.com/CDCgov/NEDSS-NNDSS-Case-Notifications" target="_blank">https://github.com/CDCgov/NEDSS-NNDSS-Case-Notifications</a></td>
@@ -3993,7 +4005,7 @@
       <td><span title="NLPWorkbench">NLPWorkbench</span></td>
       <td><span title="Centers for Disease Control and Prevention">Centers for Disease Control and Prevention</span></td>
       <td>cdcinfo@cdc.gov</td>
-      <td>openSource</td>
+      <td></td>
       <td>Y</td>
       <td>GitHub</td>
       <td><a href="https://github.com/CDCgov/NLPWorkbench" target="_blank">https://github.com/CDCgov/NLPWorkbench</a></td>
@@ -4005,7 +4017,7 @@
       <td><span title="NWSS">NWSS</span></td>
       <td><span title="Centers for Disease Control and Prevention">Centers for Disease Control and Prevention</span></td>
       <td>nwss@cdc.gov</td>
-      <td>openSource</td>
+      <td></td>
       <td>Y</td>
       <td>GitHub</td>
       <td><a href="https://github.com/CDCgov/NWSS" target="_blank">https://github.com/CDCgov/NWSS</a></td>
@@ -4017,7 +4029,7 @@
       <td><span title="ONT-Seq-analysis">ONT-Seq-analysis</span></td>
       <td><span title="Centers for Disease Control and Prevention">Centers for Disease Control and Prevention</span></td>
       <td>cdcinfo@cdc.gov</td>
-      <td>openSource</td>
+      <td></td>
       <td>Y</td>
       <td>GitHub</td>
       <td><a href="https://github.com/CDCgov/ONT-Seq-analysis" target="_blank">https://github.com/CDCgov/ONT-Seq-analysis</a></td>
@@ -4029,7 +4041,7 @@
       <td><span title="PASS-Python">PASS-Python</span></td>
       <td><span title="Centers for Disease Control and Prevention">Centers for Disease Control and Prevention</span></td>
       <td>cdcinfo@cdc.gov</td>
-      <td>openSource</td>
+      <td></td>
       <td>Y</td>
       <td>GitHub</td>
       <td><a href="https://github.com/CDCgov/PASS-Python" target="_blank">https://github.com/CDCgov/PASS-Python</a></td>
@@ -4041,7 +4053,7 @@
       <td><span title="PHFIC-Public-Health-FHIR-Implementation-Collaborative">PHFIC-Public-Health-FHIR-Implementation-Collaborative</span></td>
       <td><span title="Centers for Disease Control and Prevention">Centers for Disease Control and Prevention</span></td>
       <td>cdcinfo@cdc.gov</td>
-      <td>openSource</td>
+      <td></td>
       <td>Y</td>
       <td>GitHub</td>
       <td><a href="https://github.com/CDCgov/PHFIC-Public-Health-FHIR-Implementation-Collaborative" target="_blank">https://github.com/CDCgov/PHFIC-Public-Health-FHIR-Implementation-Collaborative</a></td>
@@ -4053,7 +4065,7 @@
       <td><span title="ParaSIGHT">ParaSIGHT</span></td>
       <td><span title="Centers for Disease Control and Prevention">Centers for Disease Control and Prevention</span></td>
       <td>cdcinfo@cdc.gov</td>
-      <td>openSource</td>
+      <td></td>
       <td>Y</td>
       <td>GitHub</td>
       <td><a href="https://github.com/CDCgov/ParaSIGHT" target="_blank">https://github.com/CDCgov/ParaSIGHT</a></td>
@@ -4065,7 +4077,7 @@
       <td><span title="PartnersPortal">PartnersPortal</span></td>
       <td><span title="Centers for Disease Control and Prevention">Centers for Disease Control and Prevention</span></td>
       <td>cdcinfo@cdc.gov</td>
-      <td>openSource</td>
+      <td></td>
       <td>Y</td>
       <td>GitHub</td>
       <td><a href="https://github.com/CDCgov/PartnersPortal" target="_blank">https://github.com/CDCgov/PartnersPortal</a></td>
@@ -4077,7 +4089,7 @@
       <td><span title="PhysicsTree">PhysicsTree</span></td>
       <td><span title="Centers for Disease Control and Prevention">Centers for Disease Control and Prevention</span></td>
       <td>cdcinfo@cdc.gov</td>
-      <td>openSource</td>
+      <td></td>
       <td>Y</td>
       <td>GitHub</td>
       <td><a href="https://github.com/CDCgov/PhysicsTree" target="_blank">https://github.com/CDCgov/PhysicsTree</a></td>
@@ -4089,7 +4101,7 @@
       <td><span title="PyRenew">PyRenew</span></td>
       <td><span title="Centers for Disease Control and Prevention">Centers for Disease Control and Prevention</span></td>
       <td>cdcinfo@cdc.gov</td>
-      <td>openSource</td>
+      <td></td>
       <td>Y</td>
       <td>GitHub</td>
       <td><a href="https://github.com/CDCgov/PyRenew" target="_blank">https://github.com/CDCgov/PyRenew</a></td>
@@ -4101,7 +4113,7 @@
       <td><span title="RANDS-pipeline">RANDS-pipeline</span></td>
       <td><span title="Centers for Disease Control and Prevention">Centers for Disease Control and Prevention</span></td>
       <td>cdcinfo@cdc.gov</td>
-      <td>openSource</td>
+      <td></td>
       <td>Y</td>
       <td>GitHub</td>
       <td><a href="https://github.com/CDCgov/RANDS-pipeline" target="_blank">https://github.com/CDCgov/RANDS-pipeline</a></td>
@@ -4113,7 +4125,7 @@
       <td><span title="RSTr">RSTr</span></td>
       <td><span title="Centers for Disease Control and Prevention">Centers for Disease Control and Prevention</span></td>
       <td>cdcinfo@cdc.gov</td>
-      <td>openSource</td>
+      <td></td>
       <td>Y</td>
       <td>GitHub</td>
       <td><a href="https://github.com/CDCgov/RSTr" target="_blank">https://github.com/CDCgov/RSTr</a></td>
@@ -4125,7 +4137,7 @@
       <td><span title="RadiationPreparedness">RadiationPreparedness</span></td>
       <td><span title="Centers for Disease Control and Prevention">Centers for Disease Control and Prevention</span></td>
       <td>cdcinfo@cdc.gov</td>
-      <td>openSource</td>
+      <td></td>
       <td>Y</td>
       <td>GitHub</td>
       <td><a href="https://github.com/CDCgov/RadiationPreparedness" target="_blank">https://github.com/CDCgov/RadiationPreparedness</a></td>
@@ -4137,7 +4149,7 @@
       <td><span title="RecordLinker">RecordLinker</span></td>
       <td><span title="Centers for Disease Control and Prevention">Centers for Disease Control and Prevention</span></td>
       <td>cdcinfo@cdc.gov</td>
-      <td>openSource</td>
+      <td></td>
       <td>Y</td>
       <td>GitHub</td>
       <td><a href="https://github.com/CDCgov/RecordLinker" target="_blank">https://github.com/CDCgov/RecordLinker</a></td>
@@ -4149,7 +4161,7 @@
       <td><span title="Rnssp">Rnssp</span></td>
       <td><span title="Centers for Disease Control and Prevention">Centers for Disease Control and Prevention</span></td>
       <td>gazondekon@cdc.gov</td>
-      <td>openSource</td>
+      <td></td>
       <td>Y</td>
       <td>GitHub</td>
       <td><a href="https://github.com/CDCgov/Rnssp" target="_blank">https://github.com/CDCgov/Rnssp</a></td>
@@ -4161,7 +4173,7 @@
       <td><span title="Rnssp-rmd-templates">Rnssp-rmd-templates</span></td>
       <td><span title="Centers for Disease Control and Prevention">Centers for Disease Control and Prevention</span></td>
       <td>gazondekon@cdc.gov</td>
-      <td>openSource</td>
+      <td></td>
       <td>Y</td>
       <td>GitHub</td>
       <td><a href="https://github.com/CDCgov/Rnssp-rmd-templates" target="_blank">https://github.com/CDCgov/Rnssp-rmd-templates</a></td>
@@ -4173,7 +4185,7 @@
       <td><span title="Rnssp-shiny-apps">Rnssp-shiny-apps</span></td>
       <td><span title="Centers for Disease Control and Prevention">Centers for Disease Control and Prevention</span></td>
       <td>gazondekon@cdc.gov</td>
-      <td>openSource</td>
+      <td></td>
       <td>Y</td>
       <td>GitHub</td>
       <td><a href="https://github.com/CDCgov/Rnssp-shiny-apps" target="_blank">https://github.com/CDCgov/Rnssp-shiny-apps</a></td>
@@ -4185,7 +4197,7 @@
       <td><span title="Rnssp-templates-docs">Rnssp-templates-docs</span></td>
       <td><span title="Centers for Disease Control and Prevention">Centers for Disease Control and Prevention</span></td>
       <td>gazondekon@cdc.gov</td>
-      <td>openSource</td>
+      <td></td>
       <td>Y</td>
       <td>GitHub</td>
       <td><a href="https://github.com/CDCgov/Rnssp-templates-docs" target="_blank">https://github.com/CDCgov/Rnssp-templates-docs</a></td>
@@ -4197,7 +4209,7 @@
       <td><span title="Rnssp-wasm">Rnssp-wasm</span></td>
       <td><span title="Centers for Disease Control and Prevention">Centers for Disease Control and Prevention</span></td>
       <td>gazondekon@cdc.gov</td>
-      <td>openSource</td>
+      <td></td>
       <td>Y</td>
       <td>GitHub</td>
       <td><a href="https://github.com/CDCgov/Rnssp-wasm" target="_blank">https://github.com/CDCgov/Rnssp-wasm</a></td>
@@ -4209,7 +4221,7 @@
       <td><span title="SARS-CoV-2_FRNTcalculations">SARS-CoV-2_FRNTcalculations</span></td>
       <td><span title="Centers for Disease Control and Prevention">Centers for Disease Control and Prevention</span></td>
       <td>cdcinfo@cdc.gov</td>
-      <td>openSource</td>
+      <td></td>
       <td>Y</td>
       <td>GitHub</td>
       <td><a href="https://github.com/CDCgov/SARS-CoV-2_FRNTcalculations" target="_blank">https://github.com/CDCgov/SARS-CoV-2_FRNTcalculations</a></td>
@@ -4221,7 +4233,7 @@
       <td><span title="SARS-CoV-2_Genomic_Surveillance">SARS-CoV-2_Genomic_Surveillance</span></td>
       <td><span title="Centers for Disease Control and Prevention">Centers for Disease Control and Prevention</span></td>
       <td>cdcinfo@cdc.gov</td>
-      <td>openSource</td>
+      <td></td>
       <td>Y</td>
       <td>GitHub</td>
       <td><a href="https://github.com/CDCgov/SARS-CoV-2_Genomic_Surveillance" target="_blank">https://github.com/CDCgov/SARS-CoV-2_Genomic_Surveillance</a></td>
@@ -4233,7 +4245,7 @@
       <td><span title="SDP">SDP</span></td>
       <td><span title="Centers for Disease Control and Prevention">Centers for Disease Control and Prevention</span></td>
       <td>cdcinfo@cdc.gov</td>
-      <td>openSource</td>
+      <td></td>
       <td>Y</td>
       <td>GitHub</td>
       <td><a href="https://github.com/CDCgov/SDP" target="_blank">https://github.com/CDCgov/SDP</a></td>
@@ -4245,7 +4257,7 @@
       <td><span title="SDP-CBR">SDP-CBR</span></td>
       <td><span title="Centers for Disease Control and Prevention">Centers for Disease Control and Prevention</span></td>
       <td>cdcinfo@cdc.gov</td>
-      <td>openSource</td>
+      <td></td>
       <td>Y</td>
       <td>GitHub</td>
       <td><a href="https://github.com/CDCgov/SDP-CBR" target="_blank">https://github.com/CDCgov/SDP-CBR</a></td>
@@ -4257,7 +4269,7 @@
       <td><span title="SDP-Slide-Test">SDP-Slide-Test</span></td>
       <td><span title="Centers for Disease Control and Prevention">Centers for Disease Control and Prevention</span></td>
       <td>cdcinfo@cdc.gov</td>
-      <td>openSource</td>
+      <td></td>
       <td>Y</td>
       <td>GitHub</td>
       <td><a href="https://github.com/CDCgov/SDP-Slide-Test" target="_blank">https://github.com/CDCgov/SDP-Slide-Test</a></td>
@@ -4269,7 +4281,7 @@
       <td><span title="STARC">STARC</span></td>
       <td><span title="Centers for Disease Control and Prevention">Centers for Disease Control and Prevention</span></td>
       <td>cdcinfo@cdc.gov</td>
-      <td>openSource</td>
+      <td></td>
       <td>Y</td>
       <td>GitHub</td>
       <td><a href="https://github.com/CDCgov/STARC" target="_blank">https://github.com/CDCgov/STARC</a></td>
@@ -4281,7 +4293,7 @@
       <td><span title="SaviR">SaviR</span></td>
       <td><span title="Centers for Disease Control and Prevention">Centers for Disease Control and Prevention</span></td>
       <td>cdcinfo@cdc.gov</td>
-      <td>openSource</td>
+      <td></td>
       <td>Y</td>
       <td>GitHub</td>
       <td><a href="https://github.com/CDCgov/SaviR" target="_blank">https://github.com/CDCgov/SaviR</a></td>
@@ -4293,7 +4305,7 @@
       <td><span title="SeqRuler">SeqRuler</span></td>
       <td><span title="Centers for Disease Control and Prevention">Centers for Disease Control and Prevention</span></td>
       <td>cdcinfo@cdc.gov</td>
-      <td>openSource</td>
+      <td></td>
       <td>Y</td>
       <td>GitHub</td>
       <td><a href="https://github.com/CDCgov/SeqRuler" target="_blank">https://github.com/CDCgov/SeqRuler</a></td>
@@ -4305,7 +4317,7 @@
       <td><span title="SeqSpawnR">SeqSpawnR</span></td>
       <td><span title="Centers for Disease Control and Prevention">Centers for Disease Control and Prevention</span></td>
       <td>cdcinfo@cdc.gov</td>
-      <td>openSource</td>
+      <td></td>
       <td>Y</td>
       <td>GitHub</td>
       <td><a href="https://github.com/CDCgov/SeqSpawnR" target="_blank">https://github.com/CDCgov/SeqSpawnR</a></td>
@@ -4317,7 +4329,7 @@
       <td><span title="ShinyGanttCharts">ShinyGanttCharts</span></td>
       <td><span title="Centers for Disease Control and Prevention">Centers for Disease Control and Prevention</span></td>
       <td>cdcinfo@cdc.gov</td>
-      <td>openSource</td>
+      <td></td>
       <td>Y</td>
       <td>GitHub</td>
       <td><a href="https://github.com/CDCgov/ShinyGanttCharts" target="_blank">https://github.com/CDCgov/ShinyGanttCharts</a></td>
@@ -4329,7 +4341,7 @@
       <td><span title="Syphilis_Record_Search_and_Review_Algorithm">Syphilis_Record_Search_and_Review_Algorithm</span></td>
       <td><span title="Centers for Disease Control and Prevention">Centers for Disease Control and Prevention</span></td>
       <td>skarki@cdc.gov</td>
-      <td>openSource</td>
+      <td></td>
       <td>Y</td>
       <td>GitHub</td>
       <td><a href="https://github.com/CDCgov/Syphilis_Record_Search_and_Review_Algorithm" target="_blank">https://github.com/CDCgov/Syphilis_Record_Search_and_Review_Algorithm</a></td>
@@ -4341,7 +4353,7 @@
       <td><span title="TB_molecular_epidemiology">TB_molecular_epidemiology</span></td>
       <td><span title="Centers for Disease Control and Prevention">Centers for Disease Control and Prevention</span></td>
       <td>cdcinfo@cdc.gov</td>
-      <td>openSource</td>
+      <td></td>
       <td>Y</td>
       <td>GitHub</td>
       <td><a href="https://github.com/CDCgov/TB_molecular_epidemiology" target="_blank">https://github.com/CDCgov/TB_molecular_epidemiology</a></td>
@@ -4353,7 +4365,7 @@
       <td><span title="TES_Toolkit">TES_Toolkit</span></td>
       <td><span title="Centers for Disease Control and Prevention">Centers for Disease Control and Prevention</span></td>
       <td>cdcinfo@cdc.gov</td>
-      <td>openSource</td>
+      <td></td>
       <td>Y</td>
       <td>GitHub</td>
       <td><a href="https://github.com/CDCgov/TES_Toolkit" target="_blank">https://github.com/CDCgov/TES_Toolkit</a></td>
@@ -4365,7 +4377,7 @@
       <td><span title="TableMerger">TableMerger</span></td>
       <td><span title="Centers for Disease Control and Prevention">Centers for Disease Control and Prevention</span></td>
       <td>cdcinfo@cdc.gov</td>
-      <td>openSource</td>
+      <td></td>
       <td>Y</td>
       <td>GitHub</td>
       <td><a href="https://github.com/CDCgov/TableMerger" target="_blank">https://github.com/CDCgov/TableMerger</a></td>
@@ -4377,7 +4389,7 @@
       <td><span title="TidyTree">TidyTree</span></td>
       <td><span title="Centers for Disease Control and Prevention">Centers for Disease Control and Prevention</span></td>
       <td>cdcinfo@cdc.gov</td>
-      <td>openSource</td>
+      <td></td>
       <td>Y</td>
       <td>GitHub</td>
       <td><a href="https://github.com/CDCgov/TidyTree" target="_blank">https://github.com/CDCgov/TidyTree</a></td>
@@ -4401,7 +4413,7 @@
       <td><span title="VitalConditions">VitalConditions</span></td>
       <td><span title="Centers for Disease Control and Prevention">Centers for Disease Control and Prevention</span></td>
       <td>cdcinfo@cdc.gov</td>
-      <td>openSource</td>
+      <td></td>
       <td>Y</td>
       <td>GitHub</td>
       <td><a href="https://github.com/CDCgov/VitalConditions" target="_blank">https://github.com/CDCgov/VitalConditions</a></td>
@@ -4413,7 +4425,7 @@
       <td><span title="WDPB_CryptoSSU">WDPB_CryptoSSU</span></td>
       <td><span title="Centers for Disease Control and Prevention">Centers for Disease Control and Prevention</span></td>
       <td>cdcinfo@cdc.gov</td>
-      <td>openSource</td>
+      <td></td>
       <td>Y</td>
       <td>GitHub</td>
       <td><a href="https://github.com/CDCgov/WDPB_CryptoSSU" target="_blank">https://github.com/CDCgov/WDPB_CryptoSSU</a></td>
@@ -4425,7 +4437,7 @@
       <td><span title="WDPB_CryptoSSUdata">WDPB_CryptoSSUdata</span></td>
       <td><span title="Centers for Disease Control and Prevention">Centers for Disease Control and Prevention</span></td>
       <td>cdcinfo@cdc.gov</td>
-      <td>openSource</td>
+      <td></td>
       <td>Y</td>
       <td>GitHub</td>
       <td><a href="https://github.com/CDCgov/WDPB_CryptoSSUdata" target="_blank">https://github.com/CDCgov/WDPB_CryptoSSUdata</a></td>
@@ -4437,7 +4449,7 @@
       <td><span title="WDPB_EMEL">WDPB_EMEL</span></td>
       <td><span title="Centers for Disease Control and Prevention">Centers for Disease Control and Prevention</span></td>
       <td>cdcinfo@cdc.gov</td>
-      <td>openSource</td>
+      <td></td>
       <td>Y</td>
       <td>GitHub</td>
       <td><a href="https://github.com/CDCgov/WDPB_EMEL" target="_blank">https://github.com/CDCgov/WDPB_EMEL</a></td>
@@ -4449,7 +4461,7 @@
       <td><span title="WaterGLASS">WaterGLASS</span></td>
       <td><span title="Centers for Disease Control and Prevention">Centers for Disease Control and Prevention</span></td>
       <td>cdcinfo@cdc.gov</td>
-      <td>openSource</td>
+      <td></td>
       <td>Y</td>
       <td>GitHub</td>
       <td><a href="https://github.com/CDCgov/WaterGLASS" target="_blank">https://github.com/CDCgov/WaterGLASS</a></td>
@@ -4461,7 +4473,7 @@
       <td><span title="aadiff">aadiff</span></td>
       <td><span title="Centers for Disease Control and Prevention">Centers for Disease Control and Prevention</span></td>
       <td>vfn4@cdc.gov</td>
-      <td>openSource</td>
+      <td></td>
       <td>Y</td>
       <td>GitHub</td>
       <td><a href="https://github.com/CDCgov/aadiff" target="_blank">https://github.com/CDCgov/aadiff</a></td>
@@ -4473,7 +4485,7 @@
       <td><span title="blockchainTB">blockchainTB</span></td>
       <td><span title="Centers for Disease Control and Prevention">Centers for Disease Control and Prevention</span></td>
       <td>cdcinfo@cdc.gov</td>
-      <td>openSource</td>
+      <td></td>
       <td>Y</td>
       <td>GitHub</td>
       <td><a href="https://github.com/CDCgov/blockchainTB" target="_blank">https://github.com/CDCgov/blockchainTB</a></td>
@@ -4485,7 +4497,7 @@
       <td><span title="bpertussis-ciwgs">bpertussis-ciwgs</span></td>
       <td><span title="Centers for Disease Control and Prevention">Centers for Disease Control and Prevention</span></td>
       <td>cdcinfo@cdc.gov</td>
-      <td>openSource</td>
+      <td></td>
       <td>Y</td>
       <td>GitHub</td>
       <td><a href="https://github.com/CDCgov/bpertussis-ciwgs" target="_blank">https://github.com/CDCgov/bpertussis-ciwgs</a></td>
@@ -4509,7 +4521,7 @@
       <td><span title="cdc-data-pipeline">cdc-data-pipeline</span></td>
       <td><span title="Centers for Disease Control and Prevention">Centers for Disease Control and Prevention</span></td>
       <td>cdcinfo@cdc.gov</td>
-      <td>openSource</td>
+      <td></td>
       <td>Y</td>
       <td>GitHub</td>
       <td><a href="https://github.com/CDCgov/cdc-data-pipeline" target="_blank">https://github.com/CDCgov/cdc-data-pipeline</a></td>
@@ -4701,7 +4713,7 @@
       <td><span title="cdc-open-viz">cdc-open-viz</span></td>
       <td><span title="Centers for Disease Control and Prevention">Centers for Disease Control and Prevention</span></td>
       <td>cdcinfo@cdc.gov</td>
-      <td>openSource</td>
+      <td></td>
       <td>Y</td>
       <td>GitHub</td>
       <td><a href="https://github.com/CDCgov/cdc-open-viz" target="_blank">https://github.com/CDCgov/cdc-open-viz</a></td>
@@ -4725,7 +4737,7 @@
       <td><span title="cdcgov.github.io">cdcgov.github.io</span></td>
       <td><span title="Centers for Disease Control and Prevention">Centers for Disease Control and Prevention</span></td>
       <td>cdcinfo@cdc.gov</td>
-      <td>openSource</td>
+      <td></td>
       <td>Y</td>
       <td>GitHub</td>
       <td><a href="https://github.com/CDCgov/cdcgov.github.io" target="_blank">https://github.com/CDCgov/cdcgov.github.io</a></td>
@@ -4749,7 +4761,7 @@
       <td><span title="cladecombiner">cladecombiner</span></td>
       <td><span title="Centers for Disease Control and Prevention">Centers for Disease Control and Prevention</span></td>
       <td>cdcinfo@cdc.gov</td>
-      <td>openSource</td>
+      <td></td>
       <td>Y</td>
       <td>GitHub</td>
       <td><a href="https://github.com/CDCgov/cladecombiner" target="_blank">https://github.com/CDCgov/cladecombiner</a></td>
@@ -4761,7 +4773,7 @@
       <td><span title="classifying-influenza-trends">classifying-influenza-trends</span></td>
       <td><span title="Centers for Disease Control and Prevention">Centers for Disease Control and Prevention</span></td>
       <td>cdcinfo@cdc.gov</td>
-      <td>openSource</td>
+      <td></td>
       <td>Y</td>
       <td>GitHub</td>
       <td><a href="https://github.com/CDCgov/classifying-influenza-trends" target="_blank">https://github.com/CDCgov/classifying-influenza-trends</a></td>
@@ -4785,7 +4797,7 @@
       <td><span title="covid19-forecast-hub">covid19-forecast-hub</span></td>
       <td><span title="Centers for Disease Control and Prevention">Centers for Disease Control and Prevention</span></td>
       <td>covidhub@cdc.gov</td>
-      <td>openSource</td>
+      <td></td>
       <td>Y</td>
       <td>GitHub</td>
       <td><a href="https://github.com/CDCgov/covid19-forecast-hub" target="_blank">https://github.com/CDCgov/covid19-forecast-hub</a></td>
@@ -4797,7 +4809,7 @@
       <td><span title="covid19_county_source_documentation">covid19_county_source_documentation</span></td>
       <td><span title="Centers for Disease Control and Prevention">Centers for Disease Control and Prevention</span></td>
       <td>cdcinfo@cdc.gov</td>
-      <td>openSource</td>
+      <td></td>
       <td>Y</td>
       <td>GitHub</td>
       <td><a href="https://github.com/CDCgov/covid19_county_source_documentation" target="_blank">https://github.com/CDCgov/covid19_county_source_documentation</a></td>
@@ -4809,7 +4821,7 @@
       <td><span title="covid_community_testing_sites">covid_community_testing_sites</span></td>
       <td><span title="Centers for Disease Control and Prevention">Centers for Disease Control and Prevention</span></td>
       <td>cdcinfo@cdc.gov</td>
-      <td>openSource</td>
+      <td></td>
       <td>Y</td>
       <td>GitHub</td>
       <td><a href="https://github.com/CDCgov/covid_community_testing_sites" target="_blank">https://github.com/CDCgov/covid_community_testing_sites</a></td>
@@ -4821,7 +4833,7 @@
       <td><span title="data-exchange">data-exchange</span></td>
       <td><span title="Centers for Disease Control and Prevention">Centers for Disease Control and Prevention</span></td>
       <td>cdcinfo@cdc.gov</td>
-      <td>openSource</td>
+      <td></td>
       <td>Y</td>
       <td>GitHub</td>
       <td><a href="https://github.com/CDCgov/data-exchange" target="_blank">https://github.com/CDCgov/data-exchange</a></td>
@@ -4833,7 +4845,7 @@
       <td><span title="data-exchange-csv">data-exchange-csv</span></td>
       <td><span title="Centers for Disease Control and Prevention">Centers for Disease Control and Prevention</span></td>
       <td>cdcinfo@cdc.gov</td>
-      <td>openSource</td>
+      <td></td>
       <td>Y</td>
       <td>GitHub</td>
       <td><a href="https://github.com/CDCgov/data-exchange-csv" target="_blank">https://github.com/CDCgov/data-exchange-csv</a></td>
@@ -4845,7 +4857,7 @@
       <td><span title="data-exchange-fhir">data-exchange-fhir</span></td>
       <td><span title="Centers for Disease Control and Prevention">Centers for Disease Control and Prevention</span></td>
       <td>cdcinfo@cdc.gov</td>
-      <td>openSource</td>
+      <td></td>
       <td>Y</td>
       <td>GitHub</td>
       <td><a href="https://github.com/CDCgov/data-exchange-fhir" target="_blank">https://github.com/CDCgov/data-exchange-fhir</a></td>
@@ -4857,7 +4869,7 @@
       <td><span title="data-exchange-processing-status">data-exchange-processing-status</span></td>
       <td><span title="Centers for Disease Control and Prevention">Centers for Disease Control and Prevention</span></td>
       <td>cdcinfo@cdc.gov</td>
-      <td>openSource</td>
+      <td></td>
       <td>Y</td>
       <td>GitHub</td>
       <td><a href="https://github.com/CDCgov/data-exchange-processing-status" target="_blank">https://github.com/CDCgov/data-exchange-processing-status</a></td>
@@ -4869,7 +4881,7 @@
       <td><span title="datasets-sars-cov-2">datasets-sars-cov-2</span></td>
       <td><span title="Centers for Disease Control and Prevention">Centers for Disease Control and Prevention</span></td>
       <td>cdcinfo@cdc.gov</td>
-      <td>openSource</td>
+      <td></td>
       <td>Y</td>
       <td>GitHub</td>
       <td><a href="https://github.com/CDCgov/datasets-sars-cov-2" target="_blank">https://github.com/CDCgov/datasets-sars-cov-2</a></td>
@@ -4881,7 +4893,7 @@
       <td><span title="dibbs-aws">dibbs-aws</span></td>
       <td><span title="Centers for Disease Control and Prevention">Centers for Disease Control and Prevention</span></td>
       <td>cdcinfo@cdc.gov</td>
-      <td>openSource</td>
+      <td></td>
       <td>Y</td>
       <td>GitHub</td>
       <td><a href="https://github.com/CDCgov/dibbs-aws" target="_blank">https://github.com/CDCgov/dibbs-aws</a></td>
@@ -4893,7 +4905,7 @@
       <td><span title="dibbs-ecr-viewer">dibbs-ecr-viewer</span></td>
       <td><span title="Centers for Disease Control and Prevention">Centers for Disease Control and Prevention</span></td>
       <td>cdcinfo@cdc.gov</td>
-      <td>openSource</td>
+      <td></td>
       <td>Y</td>
       <td>GitHub</td>
       <td><a href="https://github.com/CDCgov/dibbs-ecr-viewer" target="_blank">https://github.com/CDCgov/dibbs-ecr-viewer</a></td>
@@ -4905,7 +4917,7 @@
       <td><span title="dibbs-query-connector">dibbs-query-connector</span></td>
       <td><span title="Centers for Disease Control and Prevention">Centers for Disease Control and Prevention</span></td>
       <td>cdcinfo@cdc.gov</td>
-      <td>openSource</td>
+      <td></td>
       <td>Y</td>
       <td>GitHub</td>
       <td><a href="https://github.com/CDCgov/dibbs-query-connector" target="_blank">https://github.com/CDCgov/dibbs-query-connector</a></td>
@@ -4917,7 +4929,7 @@
       <td><span title="dibbs-star-wars-ecr-data">dibbs-star-wars-ecr-data</span></td>
       <td><span title="Centers for Disease Control and Prevention">Centers for Disease Control and Prevention</span></td>
       <td>cdcinfo@cdc.gov</td>
-      <td>openSource</td>
+      <td></td>
       <td>Y</td>
       <td>GitHub</td>
       <td><a href="https://github.com/CDCgov/dibbs-star-wars-ecr-data" target="_blank">https://github.com/CDCgov/dibbs-star-wars-ecr-data</a></td>
@@ -4929,7 +4941,7 @@
       <td><span title="digital-marketplace">digital-marketplace</span></td>
       <td><span title="Centers for Disease Control and Prevention">Centers for Disease Control and Prevention</span></td>
       <td>cdcinfo@cdc.gov</td>
-      <td>openSource</td>
+      <td></td>
       <td>Y</td>
       <td>GitHub</td>
       <td><a href="https://github.com/CDCgov/digital-marketplace" target="_blank">https://github.com/CDCgov/digital-marketplace</a></td>
@@ -4941,7 +4953,7 @@
       <td><span title="dstdp-cargos">dstdp-cargos</span></td>
       <td><span title="Centers for Disease Control and Prevention">Centers for Disease Control and Prevention</span></td>
       <td>cdcinfo@cdc.gov</td>
-      <td>openSource</td>
+      <td></td>
       <td>Y</td>
       <td>GitHub</td>
       <td><a href="https://github.com/CDCgov/dstdp-cargos" target="_blank">https://github.com/CDCgov/dstdp-cargos</a></td>
@@ -4953,7 +4965,7 @@
       <td><span title="dynode-web">dynode-web</span></td>
       <td><span title="Centers for Disease Control and Prevention">Centers for Disease Control and Prevention</span></td>
       <td>cdcinfo@cdc.gov</td>
-      <td>openSource</td>
+      <td></td>
       <td>Y</td>
       <td>GitHub</td>
       <td><a href="https://github.com/CDCgov/dynode-web" target="_blank">https://github.com/CDCgov/dynode-web</a></td>
@@ -4965,7 +4977,7 @@
       <td><span title="editMSA">editMSA</span></td>
       <td><span title="Centers for Disease Control and Prevention">Centers for Disease Control and Prevention</span></td>
       <td>22samuel%20shepard%22%3cvfn4@cdc.gov</td>
-      <td>openSource</td>
+      <td></td>
       <td>Y</td>
       <td>GitHub</td>
       <td><a href="https://github.com/CDCgov/editMSA" target="_blank">https://github.com/CDCgov/editMSA</a></td>
@@ -4989,7 +5001,7 @@
       <td><span title="fhir-validator">fhir-validator</span></td>
       <td><span title="Centers for Disease Control and Prevention">Centers for Disease Control and Prevention</span></td>
       <td>cdcinfo@cdc.gov</td>
-      <td>openSource</td>
+      <td></td>
       <td>Y</td>
       <td>GitHub</td>
       <td><a href="https://github.com/CDCgov/fhir-validator" target="_blank">https://github.com/CDCgov/fhir-validator</a></td>
@@ -5001,7 +5013,7 @@
       <td><span title="fileto">fileto</span></td>
       <td><span title="Centers for Disease Control and Prevention">Centers for Disease Control and Prevention</span></td>
       <td>cdcinfo@cdc.gov</td>
-      <td>openSource</td>
+      <td></td>
       <td>Y</td>
       <td>GitHub</td>
       <td><a href="https://github.com/CDCgov/fileto" target="_blank">https://github.com/CDCgov/fileto</a></td>
@@ -5013,7 +5025,7 @@
       <td><span title="flu-antiviral-model">flu-antiviral-model</span></td>
       <td><span title="Centers for Disease Control and Prevention">Centers for Disease Control and Prevention</span></td>
       <td>nqr2@cdc.gov</td>
-      <td>openSource</td>
+      <td></td>
       <td>Y</td>
       <td>GitHub</td>
       <td><a href="https://github.com/CDCgov/flu-antiviral-model" target="_blank">https://github.com/CDCgov/flu-antiviral-model</a></td>
@@ -5025,7 +5037,7 @@
       <td><span title="geocoding">geocoding</span></td>
       <td><span title="Centers for Disease Control and Prevention">Centers for Disease Control and Prevention</span></td>
       <td>cdcinfo@cdc.gov</td>
-      <td>openSource</td>
+      <td></td>
       <td>Y</td>
       <td>GitHub</td>
       <td><a href="https://github.com/CDCgov/geocoding" target="_blank">https://github.com/CDCgov/geocoding</a></td>
@@ -5049,7 +5061,7 @@
       <td><span title="hl7-mmg-validator-ktor">hl7-mmg-validator-ktor</span></td>
       <td><span title="Centers for Disease Control and Prevention">Centers for Disease Control and Prevention</span></td>
       <td>cdcinfo@cdc.gov</td>
-      <td>openSource</td>
+      <td></td>
       <td>Y</td>
       <td>GitHub</td>
       <td><a href="https://github.com/CDCgov/hl7-mmg-validator-ktor" target="_blank">https://github.com/CDCgov/hl7-mmg-validator-ktor</a></td>
@@ -5073,7 +5085,7 @@
       <td><span title="hl7v2-processes-rest">hl7v2-processes-rest</span></td>
       <td><span title="Centers for Disease Control and Prevention">Centers for Disease Control and Prevention</span></td>
       <td>cdcinfo@cdc.gov</td>
-      <td>openSource</td>
+      <td></td>
       <td>Y</td>
       <td>GitHub</td>
       <td><a href="https://github.com/CDCgov/hl7v2-processes-rest" target="_blank">https://github.com/CDCgov/hl7v2-processes-rest</a></td>
@@ -5085,7 +5097,7 @@
       <td><span title="hubverse-annotator">hubverse-annotator</span></td>
       <td><span title="Centers for Disease Control and Prevention">Centers for Disease Control and Prevention</span></td>
       <td>cdcinfo@cdc.gov</td>
-      <td>openSource</td>
+      <td></td>
       <td>Y</td>
       <td>GitHub</td>
       <td><a href="https://github.com/CDCgov/hubverse-annotator" target="_blank">https://github.com/CDCgov/hubverse-annotator</a></td>
@@ -5109,7 +5121,7 @@
       <td><span title="idspec">idspec</span></td>
       <td><span title="Centers for Disease Control and Prevention">Centers for Disease Control and Prevention</span></td>
       <td>cdcinfo@cdc.gov</td>
-      <td>openSource</td>
+      <td></td>
       <td>Y</td>
       <td>GitHub</td>
       <td><a href="https://github.com/CDCgov/idspec" target="_blank">https://github.com/CDCgov/idspec</a></td>
@@ -5121,7 +5133,7 @@
       <td><span title="influenza-cluster-us">influenza-cluster-us</span></td>
       <td><span title="Centers for Disease Control and Prevention">Centers for Disease Control and Prevention</span></td>
       <td>cdcinfo@cdc.gov</td>
-      <td>openSource</td>
+      <td></td>
       <td>Y</td>
       <td>GitHub</td>
       <td><a href="https://github.com/CDCgov/influenza-cluster-us" target="_blank">https://github.com/CDCgov/influenza-cluster-us</a></td>
@@ -5133,7 +5145,7 @@
       <td><span title="ixa">ixa</span></td>
       <td><span title="Centers for Disease Control and Prevention">Centers for Disease Control and Prevention</span></td>
       <td>cdcinfo@cdc.gov</td>
-      <td>openSource</td>
+      <td></td>
       <td>Y</td>
       <td>GitHub</td>
       <td><a href="https://github.com/CDCgov/ixa" target="_blank">https://github.com/CDCgov/ixa</a></td>
@@ -5145,7 +5157,7 @@
       <td><span title="lib-cloud-proxy">lib-cloud-proxy</span></td>
       <td><span title="Centers for Disease Control and Prevention">Centers for Disease Control and Prevention</span></td>
       <td>cdcinfo@cdc.gov</td>
-      <td>openSource</td>
+      <td></td>
       <td>Y</td>
       <td>GitHub</td>
       <td><a href="https://github.com/CDCgov/lib-cloud-proxy" target="_blank">https://github.com/CDCgov/lib-cloud-proxy</a></td>
@@ -5169,7 +5181,7 @@
       <td><span title="llv4">llv4</span></td>
       <td><span title="Centers for Disease Control and Prevention">Centers for Disease Control and Prevention</span></td>
       <td>cdcinfo@cdc.gov</td>
-      <td>openSource</td>
+      <td></td>
       <td>Y</td>
       <td>GitHub</td>
       <td><a href="https://github.com/CDCgov/llv4" target="_blank">https://github.com/CDCgov/llv4</a></td>
@@ -5181,7 +5193,7 @@
       <td><span title="mashwrapper">mashwrapper</span></td>
       <td><span title="Centers for Disease Control and Prevention">Centers for Disease Control and Prevention</span></td>
       <td>cdcinfo@cdc.gov</td>
-      <td>openSource</td>
+      <td></td>
       <td>Y</td>
       <td>GitHub</td>
       <td><a href="https://github.com/CDCgov/mashwrapper" target="_blank">https://github.com/CDCgov/mashwrapper</a></td>
@@ -5193,7 +5205,7 @@
       <td><span title="mdn">mdn</span></td>
       <td><span title="Centers for Disease Control and Prevention">Centers for Disease Control and Prevention</span></td>
       <td>cdcinfo@cdc.gov</td>
-      <td>openSource</td>
+      <td></td>
       <td>Y</td>
       <td>GitHub</td>
       <td><a href="https://github.com/CDCgov/mdn" target="_blank">https://github.com/CDCgov/mdn</a></td>
@@ -5205,7 +5217,7 @@
       <td><span title="mira-oxide">mira-oxide</span></td>
       <td><span title="Centers for Disease Control and Prevention">Centers for Disease Control and Prevention</span></td>
       <td>cdcinfo@cdc.gov</td>
-      <td>openSource</td>
+      <td></td>
       <td>Y</td>
       <td>GitHub</td>
       <td><a href="https://github.com/CDCgov/mira-oxide" target="_blank">https://github.com/CDCgov/mira-oxide</a></td>
@@ -5217,7 +5229,7 @@
       <td><span title="mycosnp">mycosnp</span></td>
       <td><span title="Centers for Disease Control and Prevention">Centers for Disease Control and Prevention</span></td>
       <td>cdcinfo@cdc.gov</td>
-      <td>openSource</td>
+      <td></td>
       <td>Y</td>
       <td>GitHub</td>
       <td><a href="https://github.com/CDCgov/mycosnp" target="_blank">https://github.com/CDCgov/mycosnp</a></td>
@@ -5229,7 +5241,7 @@
       <td><span title="mycosnp-bwa-pre-process">mycosnp-bwa-pre-process</span></td>
       <td><span title="Centers for Disease Control and Prevention">Centers for Disease Control and Prevention</span></td>
       <td>cdcinfo@cdc.gov</td>
-      <td>openSource</td>
+      <td></td>
       <td>Y</td>
       <td>GitHub</td>
       <td><a href="https://github.com/CDCgov/mycosnp-bwa-pre-process" target="_blank">https://github.com/CDCgov/mycosnp-bwa-pre-process</a></td>
@@ -5241,7 +5253,7 @@
       <td><span title="mycosnp-bwa-reference">mycosnp-bwa-reference</span></td>
       <td><span title="Centers for Disease Control and Prevention">Centers for Disease Control and Prevention</span></td>
       <td>cdcinfo@cdc.gov</td>
-      <td>openSource</td>
+      <td></td>
       <td>Y</td>
       <td>GitHub</td>
       <td><a href="https://github.com/CDCgov/mycosnp-bwa-reference" target="_blank">https://github.com/CDCgov/mycosnp-bwa-reference</a></td>
@@ -5253,7 +5265,7 @@
       <td><span title="mycosnp-gatk-variants">mycosnp-gatk-variants</span></td>
       <td><span title="Centers for Disease Control and Prevention">Centers for Disease Control and Prevention</span></td>
       <td>cdcinfo@cdc.gov</td>
-      <td>openSource</td>
+      <td></td>
       <td>Y</td>
       <td>GitHub</td>
       <td><a href="https://github.com/CDCgov/mycosnp-gatk-variants" target="_blank">https://github.com/CDCgov/mycosnp-gatk-variants</a></td>
@@ -5265,7 +5277,7 @@
       <td><span title="mycosnp-nf">mycosnp-nf</span></td>
       <td><span title="Centers for Disease Control and Prevention">Centers for Disease Control and Prevention</span></td>
       <td>cdcinfo@cdc.gov</td>
-      <td>openSource</td>
+      <td></td>
       <td>Y</td>
       <td>GitHub</td>
       <td><a href="https://github.com/CDCgov/mycosnp-nf" target="_blank">https://github.com/CDCgov/mycosnp-nf</a></td>
@@ -5289,7 +5301,7 @@
       <td><span title="neissflow">neissflow</span></td>
       <td><span title="Centers for Disease Control and Prevention">Centers for Disease Control and Prevention</span></td>
       <td>cdcinfo@cdc.gov</td>
-      <td>openSource</td>
+      <td></td>
       <td>Y</td>
       <td>GitHub</td>
       <td><a href="https://github.com/CDCgov/neissflow" target="_blank">https://github.com/CDCgov/neissflow</a></td>
@@ -5301,7 +5313,7 @@
       <td><span title="ngsqi-IMTool">ngsqi-IMTool</span></td>
       <td><span title="Centers for Disease Control and Prevention">Centers for Disease Control and Prevention</span></td>
       <td>cdcinfo@cdc.gov</td>
-      <td>openSource</td>
+      <td></td>
       <td>Y</td>
       <td>GitHub</td>
       <td><a href="https://github.com/CDCgov/ngsqi-IMTool" target="_blank">https://github.com/CDCgov/ngsqi-IMTool</a></td>
@@ -5313,7 +5325,7 @@
       <td><span title="ngsqi-astro">ngsqi-astro</span></td>
       <td><span title="Centers for Disease Control and Prevention">Centers for Disease Control and Prevention</span></td>
       <td>cdcinfo@cdc.gov</td>
-      <td>openSource</td>
+      <td></td>
       <td>Y</td>
       <td>GitHub</td>
       <td><a href="https://github.com/CDCgov/ngsqi-astro" target="_blank">https://github.com/CDCgov/ngsqi-astro</a></td>
@@ -5325,7 +5337,7 @@
       <td><span title="ngsqi-spores">ngsqi-spores</span></td>
       <td><span title="Centers for Disease Control and Prevention">Centers for Disease Control and Prevention</span></td>
       <td>cdcinfo@cdc.gov</td>
-      <td>openSource</td>
+      <td></td>
       <td>Y</td>
       <td>GitHub</td>
       <td><a href="https://github.com/CDCgov/ngsqi-spores" target="_blank">https://github.com/CDCgov/ngsqi-spores</a></td>
@@ -5361,7 +5373,7 @@
       <td><span title="open-science-repo">open-science-repo</span></td>
       <td><span title="Centers for Disease Control and Prevention">Centers for Disease Control and Prevention</span></td>
       <td>cdcinfo@cdc.gov</td>
-      <td>openSource</td>
+      <td></td>
       <td>Y</td>
       <td>GitHub</td>
       <td><a href="https://github.com/CDCgov/open-science-repo" target="_blank">https://github.com/CDCgov/open-science-repo</a></td>
@@ -5373,7 +5385,7 @@
       <td><span title="opencdc">opencdc</span></td>
       <td><span title="Centers for Disease Control and Prevention">Centers for Disease Control and Prevention</span></td>
       <td>cdcinfo@cdc.gov</td>
-      <td>openSource</td>
+      <td></td>
       <td>Y</td>
       <td>GitHub</td>
       <td><a href="https://github.com/CDCgov/opencdc" target="_blank">https://github.com/CDCgov/opencdc</a></td>
@@ -5385,7 +5397,7 @@
       <td><span title="patristic">patristic</span></td>
       <td><span title="Centers for Disease Control and Prevention">Centers for Disease Control and Prevention</span></td>
       <td>cdcinfo@cdc.gov</td>
-      <td>openSource</td>
+      <td></td>
       <td>Y</td>
       <td>GitHub</td>
       <td><a href="https://github.com/CDCgov/patristic" target="_blank">https://github.com/CDCgov/patristic</a></td>
@@ -5397,7 +5409,7 @@
       <td><span title="phdi-charts">phdi-charts</span></td>
       <td><span title="Centers for Disease Control and Prevention">Centers for Disease Control and Prevention</span></td>
       <td>cdcinfo@cdc.gov</td>
-      <td>openSource</td>
+      <td></td>
       <td>Y</td>
       <td>GitHub</td>
       <td><a href="https://github.com/CDCgov/phdi-charts" target="_blank">https://github.com/CDCgov/phdi-charts</a></td>
@@ -5409,7 +5421,7 @@
       <td><span title="phinvads-sync-util">phinvads-sync-util</span></td>
       <td><span title="Centers for Disease Control and Prevention">Centers for Disease Control and Prevention</span></td>
       <td>cdcinfo@cdc.gov</td>
-      <td>openSource</td>
+      <td></td>
       <td>Y</td>
       <td>GitHub</td>
       <td><a href="https://github.com/CDCgov/phinvads-sync-util" target="_blank">https://github.com/CDCgov/phinvads-sync-util</a></td>
@@ -5421,7 +5433,7 @@
       <td><span title="phoenix">phoenix</span></td>
       <td><span title="Centers for Disease Control and Prevention">Centers for Disease Control and Prevention</span></td>
       <td>cdcinfo@cdc.gov</td>
-      <td>openSource</td>
+      <td></td>
       <td>Y</td>
       <td>GitHub</td>
       <td><a href="https://github.com/CDCgov/phoenix" target="_blank">https://github.com/CDCgov/phoenix</a></td>
@@ -5433,7 +5445,7 @@
       <td><span title="pivotable">pivotable</span></td>
       <td><span title="Centers for Disease Control and Prevention">Centers for Disease Control and Prevention</span></td>
       <td>cdcinfo@cdc.gov</td>
-      <td>openSource</td>
+      <td></td>
       <td>Y</td>
       <td>GitHub</td>
       <td><a href="https://github.com/CDCgov/pivotable" target="_blank">https://github.com/CDCgov/pivotable</a></td>
@@ -5445,7 +5457,7 @@
       <td><span title="prime-devops">prime-devops</span></td>
       <td><span title="Centers for Disease Control and Prevention">Centers for Disease Control and Prevention</span></td>
       <td>cdcinfo@cdc.gov</td>
-      <td>openSource</td>
+      <td></td>
       <td>Y</td>
       <td>GitHub</td>
       <td><a href="https://github.com/CDCgov/prime-devops" target="_blank">https://github.com/CDCgov/prime-devops</a></td>
@@ -5457,7 +5469,7 @@
       <td><span title="prime-fhir-converter">prime-fhir-converter</span></td>
       <td><span title="Centers for Disease Control and Prevention">Centers for Disease Control and Prevention</span></td>
       <td>cdcinfo@cdc.gov</td>
-      <td>openSource</td>
+      <td></td>
       <td>Y</td>
       <td>GitHub</td>
       <td><a href="https://github.com/CDCgov/prime-fhir-converter" target="_blank">https://github.com/CDCgov/prime-fhir-converter</a></td>
@@ -5469,7 +5481,7 @@
       <td><span title="prime-field-teams">prime-field-teams</span></td>
       <td><span title="Centers for Disease Control and Prevention">Centers for Disease Control and Prevention</span></td>
       <td>cdcinfo@cdc.gov</td>
-      <td>openSource</td>
+      <td></td>
       <td>Y</td>
       <td>GitHub</td>
       <td><a href="https://github.com/CDCgov/prime-field-teams" target="_blank">https://github.com/CDCgov/prime-field-teams</a></td>
@@ -5481,7 +5493,7 @@
       <td><span title="prime-reportstream">prime-reportstream</span></td>
       <td><span title="Centers for Disease Control and Prevention">Centers for Disease Control and Prevention</span></td>
       <td>cdcinfo@cdc.gov</td>
-      <td>openSource</td>
+      <td></td>
       <td>Y</td>
       <td>GitHub</td>
       <td><a href="https://github.com/CDCgov/prime-reportstream" target="_blank">https://github.com/CDCgov/prime-reportstream</a></td>
@@ -5505,7 +5517,7 @@
       <td><span title="pvivax_ampliseq_analysis">pvivax_ampliseq_analysis</span></td>
       <td><span title="Centers for Disease Control and Prevention">Centers for Disease Control and Prevention</span></td>
       <td>malarialab@cdc.gov</td>
-      <td>openSource</td>
+      <td></td>
       <td>Y</td>
       <td>GitHub</td>
       <td><a href="https://github.com/CDCgov/pvivax_ampliseq_analysis" target="_blank">https://github.com/CDCgov/pvivax_ampliseq_analysis</a></td>
@@ -5517,7 +5529,7 @@
       <td><span title="pynssp">pynssp</span></td>
       <td><span title="Centers for Disease Control and Prevention">Centers for Disease Control and Prevention</span></td>
       <td>gazondekon@cdc.gov</td>
-      <td>openSource</td>
+      <td></td>
       <td>Y</td>
       <td>GitHub</td>
       <td><a href="https://github.com/CDCgov/pynssp" target="_blank">https://github.com/CDCgov/pynssp</a></td>
@@ -5529,7 +5541,7 @@
       <td><span title="rickettsia_lanei_analysis">rickettsia_lanei_analysis</span></td>
       <td><span title="Centers for Disease Control and Prevention">Centers for Disease Control and Prevention</span></td>
       <td>cdcinfo@cdc.gov</td>
-      <td>openSource</td>
+      <td></td>
       <td>Y</td>
       <td>GitHub</td>
       <td><a href="https://github.com/CDCgov/rickettsia_lanei_analysis" target="_blank">https://github.com/CDCgov/rickettsia_lanei_analysis</a></td>
@@ -5541,7 +5553,7 @@
       <td><span title="rmeta">rmeta</span></td>
       <td><span title="Centers for Disease Control and Prevention">Centers for Disease Control and Prevention</span></td>
       <td>cdcinfo@cdc.gov</td>
-      <td>openSource</td>
+      <td></td>
       <td>Y</td>
       <td>GitHub</td>
       <td><a href="https://github.com/CDCgov/rmeta" target="_blank">https://github.com/CDCgov/rmeta</a></td>
@@ -5565,7 +5577,7 @@
       <td><span title="shinyMBA">shinyMBA</span></td>
       <td><span title="Centers for Disease Control and Prevention">Centers for Disease Control and Prevention</span></td>
       <td>cdcinfo@cdc.gov</td>
-      <td>openSource</td>
+      <td></td>
       <td>Y</td>
       <td>GitHub</td>
       <td><a href="https://github.com/CDCgov/shinyMBA" target="_blank">https://github.com/CDCgov/shinyMBA</a></td>
@@ -5577,7 +5589,7 @@
       <td><span title="snpeffr">snpeffr</span></td>
       <td><span title="Centers for Disease Control and Prevention">Centers for Disease Control and Prevention</span></td>
       <td>cdcinfo@cdc.gov</td>
-      <td>openSource</td>
+      <td></td>
       <td>Y</td>
       <td>GitHub</td>
       <td><a href="https://github.com/CDCgov/snpeffr" target="_blank">https://github.com/CDCgov/snpeffr</a></td>
@@ -5589,7 +5601,7 @@
       <td><span title="spheres-augur-build">spheres-augur-build</span></td>
       <td><span title="Centers for Disease Control and Prevention">Centers for Disease Control and Prevention</span></td>
       <td>cdcinfo@cdc.gov</td>
-      <td>openSource</td>
+      <td></td>
       <td>Y</td>
       <td>GitHub</td>
       <td><a href="https://github.com/CDCgov/spheres-augur-build" target="_blank">https://github.com/CDCgov/spheres-augur-build</a></td>
@@ -5601,7 +5613,7 @@
       <td><span title="spnpipe-nf">spnpipe-nf</span></td>
       <td><span title="Centers for Disease Control and Prevention">Centers for Disease Control and Prevention</span></td>
       <td>cdcinfo@cdc.gov</td>
-      <td>openSource</td>
+      <td></td>
       <td>Y</td>
       <td>GitHub</td>
       <td><a href="https://github.com/CDCgov/spnpipe-nf" target="_blank">https://github.com/CDCgov/spnpipe-nf</a></td>
@@ -5625,7 +5637,7 @@
       <td><span title="template">template</span></td>
       <td><span title="Centers for Disease Control and Prevention">Centers for Disease Control and Prevention</span></td>
       <td>cdcinfo@cdc.gov</td>
-      <td>openSource</td>
+      <td></td>
       <td>Y</td>
       <td>GitHub</td>
       <td><a href="https://github.com/CDCgov/template" target="_blank">https://github.com/CDCgov/template</a></td>
@@ -5637,7 +5649,7 @@
       <td><span title="terraform-aws-dibbs-ecr-viewer">terraform-aws-dibbs-ecr-viewer</span></td>
       <td><span title="Centers for Disease Control and Prevention">Centers for Disease Control and Prevention</span></td>
       <td>cdcinfo@cdc.gov</td>
-      <td>openSource</td>
+      <td></td>
       <td>Y</td>
       <td>GitHub</td>
       <td><a href="https://github.com/CDCgov/terraform-aws-dibbs-ecr-viewer" target="_blank">https://github.com/CDCgov/terraform-aws-dibbs-ecr-viewer</a></td>
@@ -5649,7 +5661,7 @@
       <td><span title="terraform-azure-dibbs-ecr-viewer">terraform-azure-dibbs-ecr-viewer</span></td>
       <td><span title="Centers for Disease Control and Prevention">Centers for Disease Control and Prevention</span></td>
       <td>cdcinfo@cdc.gov</td>
-      <td>openSource</td>
+      <td></td>
       <td>Y</td>
       <td>GitHub</td>
       <td><a href="https://github.com/CDCgov/terraform-azure-dibbs-ecr-viewer" target="_blank">https://github.com/CDCgov/terraform-azure-dibbs-ecr-viewer</a></td>
@@ -5661,7 +5673,7 @@
       <td><span title="terraform-gcp-dibbs-ecr-viewer">terraform-gcp-dibbs-ecr-viewer</span></td>
       <td><span title="Centers for Disease Control and Prevention">Centers for Disease Control and Prevention</span></td>
       <td>cdcinfo@cdc.gov</td>
-      <td>openSource</td>
+      <td></td>
       <td>Y</td>
       <td>GitHub</td>
       <td><a href="https://github.com/CDCgov/terraform-gcp-dibbs-ecr-viewer" target="_blank">https://github.com/CDCgov/terraform-gcp-dibbs-ecr-viewer</a></td>
@@ -5673,7 +5685,7 @@
       <td><span title="tn93.js">tn93.js</span></td>
       <td><span title="Centers for Disease Control and Prevention">Centers for Disease Control and Prevention</span></td>
       <td>cdcinfo@cdc.gov</td>
-      <td>openSource</td>
+      <td></td>
       <td>Y</td>
       <td>GitHub</td>
       <td><a href="https://github.com/CDCgov/tn93.js" target="_blank">https://github.com/CDCgov/tn93.js</a></td>
@@ -5685,7 +5697,7 @@
       <td><span title="tostadas">tostadas</span></td>
       <td><span title="Centers for Disease Control and Prevention">Centers for Disease Control and Prevention</span></td>
       <td>cdcinfo@cdc.gov</td>
-      <td>openSource</td>
+      <td></td>
       <td>Y</td>
       <td>GitHub</td>
       <td><a href="https://github.com/CDCgov/tostadas" target="_blank">https://github.com/CDCgov/tostadas</a></td>
@@ -5709,7 +5721,7 @@
       <td><span title="vaccines-for-children-dashboard">vaccines-for-children-dashboard</span></td>
       <td><span title="Centers for Disease Control and Prevention">Centers for Disease Control and Prevention</span></td>
       <td>cdcinfo@cdc.gov</td>
-      <td>openSource</td>
+      <td></td>
       <td>Y</td>
       <td>GitHub</td>
       <td><a href="https://github.com/CDCgov/vaccines-for-children-dashboard" target="_blank">https://github.com/CDCgov/vaccines-for-children-dashboard</a></td>
@@ -5721,7 +5733,7 @@
       <td><span title="vapintr">vapintr</span></td>
       <td><span title="Centers for Disease Control and Prevention">Centers for Disease Control and Prevention</span></td>
       <td>cdcinfo@cdc.gov</td>
-      <td>openSource</td>
+      <td></td>
       <td>Y</td>
       <td>GitHub</td>
       <td><a href="https://github.com/CDCgov/vapintr" target="_blank">https://github.com/CDCgov/vapintr</a></td>
@@ -5733,7 +5745,7 @@
       <td><span title="varpipe_wgs">varpipe_wgs</span></td>
       <td><span title="Centers for Disease Control and Prevention">Centers for Disease Control and Prevention</span></td>
       <td>cdcinfo@cdc.gov</td>
-      <td>openSource</td>
+      <td></td>
       <td>Y</td>
       <td>GitHub</td>
       <td><a href="https://github.com/CDCgov/varpipe_wgs" target="_blank">https://github.com/CDCgov/varpipe_wgs</a></td>
@@ -5745,7 +5757,7 @@
       <td><span title="vivli-amr-dashboard">vivli-amr-dashboard</span></td>
       <td><span title="Centers for Disease Control and Prevention">Centers for Disease Control and Prevention</span></td>
       <td>cdcinfo@cdc.gov</td>
-      <td>openSource</td>
+      <td></td>
       <td>Y</td>
       <td>GitHub</td>
       <td><a href="https://github.com/CDCgov/vivli-amr-dashboard" target="_blank">https://github.com/CDCgov/vivli-amr-dashboard</a></td>
@@ -5757,7 +5769,7 @@
       <td><span title="vvpdb-ngs-tools">vvpdb-ngs-tools</span></td>
       <td><span title="Centers for Disease Control and Prevention">Centers for Disease Control and Prevention</span></td>
       <td>cdcinfo@cdc.gov</td>
-      <td>openSource</td>
+      <td></td>
       <td>Y</td>
       <td>GitHub</td>
       <td><a href="https://github.com/CDCgov/vvpdb-ngs-tools" target="_blank">https://github.com/CDCgov/vvpdb-ngs-tools</a></td>
@@ -5769,7 +5781,7 @@
       <td><span title="wastewater-informed-covid-forecasting">wastewater-informed-covid-forecasting</span></td>
       <td><span title="Centers for Disease Control and Prevention">Centers for Disease Control and Prevention</span></td>
       <td>cdcinfo@cdc.gov</td>
-      <td>openSource</td>
+      <td></td>
       <td>Y</td>
       <td>GitHub</td>
       <td><a href="https://github.com/CDCgov/wastewater-informed-covid-forecasting" target="_blank">https://github.com/CDCgov/wastewater-informed-covid-forecasting</a></td>
@@ -5793,7 +5805,7 @@
       <td><span title="xlr">xlr</span></td>
       <td><span title="Centers for Disease Control and Prevention">Centers for Disease Control and Prevention</span></td>
       <td>cdcinfo@cdc.gov</td>
-      <td>openSource</td>
+      <td></td>
       <td>Y</td>
       <td>GitHub</td>
       <td><a href="https://github.com/CDCgov/xlr" target="_blank">https://github.com/CDCgov/xlr</a></td>
@@ -5841,7 +5853,7 @@
       <td><span title="ShareIT-Act">ShareIT-Act</span></td>
       <td><span title="National Center for Chronic Disease Prevention and Health Promotion">National Center for Chronic Disease Prevention and Health Promotion</span></td>
       <td>chronicdev@cdc.gov</td>
-      <td>openSource</td>
+      <td></td>
       <td>Y</td>
       <td>GitHub</td>
       <td><a href="https://github.com/CDCgov/ShareIT-Act" target="_blank">https://github.com/CDCgov/ShareIT-Act</a></td>
@@ -5853,7 +5865,7 @@
       <td><span title="cancer-report-validator">cancer-report-validator</span></td>
       <td><span title="National Center for Chronic Disease Prevention and Health Promotion">National Center for Chronic Disease Prevention and Health Promotion</span></td>
       <td>cdcinfo@cdc.gov</td>
-      <td>openSource</td>
+      <td></td>
       <td>Y</td>
       <td>GitHub</td>
       <td><a href="https://github.com/CDCgov/cancer-report-validator" target="_blank">https://github.com/CDCgov/cancer-report-validator</a></td>
@@ -8169,7 +8181,7 @@
       <td><span title="mycetoma-systematic-review-2024">mycetoma-systematic-review-2024</span></td>
       <td><span title="National Center for Emerging and Zoonotic Infectious Diseases">National Center for Emerging and Zoonotic Infectious Diseases</span></td>
       <td>utg5@cdc.gov</td>
-      <td>openSource</td>
+      <td></td>
       <td>Y</td>
       <td>GitHub</td>
       <td><a href="https://github.com/CDCgov/mycetoma-systematic-review-2024" target="_blank">https://github.com/CDCgov/mycetoma-systematic-review-2024</a></td>
@@ -8277,7 +8289,7 @@
       <td><span title="NCHHSTP-DHP-DRB-Transmission-Burst-Analysis">NCHHSTP-DHP-DRB-Transmission-Burst-Analysis</span></td>
       <td><span title="National Center for HIV, Viral Hepatitis, STD, and TB Prevention">National Center for HIV, Viral Hepatitis, STD, and TB Prevention</span></td>
       <td>cdcinfo@cdc.gov</td>
-      <td>openSource</td>
+      <td></td>
       <td>Y</td>
       <td>GitHub</td>
       <td><a href="https://github.com/CDCgov/NCHHSTP-DHP-DRB-Transmission-Burst-Analysis" target="_blank">https://github.com/CDCgov/NCHHSTP-DHP-DRB-Transmission-Burst-Analysis</a></td>
@@ -8289,7 +8301,7 @@
       <td><span title="NCHHSTP-DTBE-Varpipe-WGS">NCHHSTP-DTBE-Varpipe-WGS</span></td>
       <td><span title="National Center for HIV, Viral Hepatitis, STD, and TB Prevention">National Center for HIV, Viral Hepatitis, STD, and TB Prevention</span></td>
       <td>cdcinfo@cdc.gov</td>
-      <td>openSource</td>
+      <td></td>
       <td>Y</td>
       <td>GitHub</td>
       <td><a href="https://github.com/CDCgov/NCHHSTP-DTBE-Varpipe-WGS" target="_blank">https://github.com/CDCgov/NCHHSTP-DTBE-Varpipe-WGS</a></td>
@@ -8361,7 +8373,7 @@
       <td><span title="National-Vital-Statistics-Mortality-Data">National-Vital-Statistics-Mortality-Data</span></td>
       <td><span title="National Center for Health Statistics">National Center for Health Statistics</span></td>
       <td>cdcinfo@cdc.gov</td>
-      <td>openSource</td>
+      <td></td>
       <td>Y</td>
       <td>GitHub</td>
       <td><a href="https://github.com/CDCgov/National-Vital-Statistics-Mortality-Data" target="_blank">https://github.com/CDCgov/National-Vital-Statistics-Mortality-Data</a></td>
@@ -8421,7 +8433,7 @@
       <td><span title="eMKF">eMKF</span></td>
       <td><span title="National Center for Health Statistics">National Center for Health Statistics</span></td>
       <td>cdcinfo@cdc.gov</td>
-      <td>openSource</td>
+      <td></td>
       <td>Y</td>
       <td>GitHub</td>
       <td><a href="https://github.com/CDCgov/eMKF" target="_blank">https://github.com/CDCgov/eMKF</a></td>
@@ -8433,7 +8445,7 @@
       <td><span title="excessdeathsCOVID19">excessdeathsCOVID19</span></td>
       <td><span title="National Center for Health Statistics">National Center for Health Statistics</span></td>
       <td>cdcinfo@cdc.gov</td>
-      <td>openSource</td>
+      <td></td>
       <td>Y</td>
       <td>GitHub</td>
       <td><a href="https://github.com/CDCgov/excessdeathsCOVID19" target="_blank">https://github.com/CDCgov/excessdeathsCOVID19</a></td>
@@ -8445,7 +8457,7 @@
       <td><span title="histo_svi_smithetal_2024">histo_svi_smithetal_2024</span></td>
       <td><span title="National Center for Health Statistics">National Center for Health Statistics</span></td>
       <td>cdcinfo@cdc.gov</td>
-      <td>openSource</td>
+      <td></td>
       <td>Y</td>
       <td>GitHub</td>
       <td><a href="https://github.com/CDCgov/histo_svi_smithetal_2024" target="_blank">https://github.com/CDCgov/histo_svi_smithetal_2024</a></td>
@@ -8457,7 +8469,7 @@
       <td><span title="importsurvey">importsurvey</span></td>
       <td><span title="National Center for Health Statistics">National Center for Health Statistics</span></td>
       <td>cdcinfo@cdc.gov</td>
-      <td>openSource</td>
+      <td></td>
       <td>Y</td>
       <td>GitHub</td>
       <td><a href="https://github.com/CDCgov/importsurvey" target="_blank">https://github.com/CDCgov/importsurvey</a></td>
@@ -8493,7 +8505,7 @@
       <td><span title="nchsdata">nchsdata</span></td>
       <td><span title="National Center for Health Statistics">National Center for Health Statistics</span></td>
       <td>cdcinfo@cdc.gov</td>
-      <td>openSource</td>
+      <td></td>
       <td>Y</td>
       <td>GitHub</td>
       <td><a href="https://github.com/CDCgov/nchsdata" target="_blank">https://github.com/CDCgov/nchsdata</a></td>
@@ -8505,7 +8517,7 @@
       <td><span title="stimulant_opioid_algorithm_clinical_notes">stimulant_opioid_algorithm_clinical_notes</span></td>
       <td><span title="National Center for Health Statistics">National Center for Health Statistics</span></td>
       <td>nadams2@cdc.gov</td>
-      <td>openSource</td>
+      <td></td>
       <td>Y</td>
       <td>GitHub</td>
       <td><a href="https://github.com/CDCgov/stimulant_opioid_algorithm_clinical_notes" target="_blank">https://github.com/CDCgov/stimulant_opioid_algorithm_clinical_notes</a></td>
@@ -8517,7 +8529,7 @@
       <td><span title="stimulant_opioid_algorithm_medical_codes_R">stimulant_opioid_algorithm_medical_codes_R</span></td>
       <td><span title="National Center for Health Statistics">National Center for Health Statistics</span></td>
       <td>sse6@cdc.gov</td>
-      <td>openSource</td>
+      <td></td>
       <td>Y</td>
       <td>GitHub</td>
       <td><a href="https://github.com/CDCgov/stimulant_opioid_algorithm_medical_codes_R" target="_blank">https://github.com/CDCgov/stimulant_opioid_algorithm_medical_codes_R</a></td>
@@ -8529,7 +8541,7 @@
       <td><span title="stimulant_opioid_algorithm_medical_codes_SAS">stimulant_opioid_algorithm_medical_codes_SAS</span></td>
       <td><span title="National Center for Health Statistics">National Center for Health Statistics</span></td>
       <td>sse6@cdc.gov</td>
-      <td>openSource</td>
+      <td></td>
       <td>Y</td>
       <td>GitHub</td>
       <td><a href="https://github.com/CDCgov/stimulant_opioid_algorithm_medical_codes_SAS" target="_blank">https://github.com/CDCgov/stimulant_opioid_algorithm_medical_codes_SAS</a></td>
@@ -8541,7 +8553,7 @@
       <td><span title="surveytable">surveytable</span></td>
       <td><span title="National Center for Health Statistics">National Center for Health Statistics</span></td>
       <td>cdcinfo@cdc.gov</td>
-      <td>openSource</td>
+      <td></td>
       <td>Y</td>
       <td>GitHub</td>
       <td><a href="https://github.com/CDCgov/surveytable" target="_blank">https://github.com/CDCgov/surveytable</a></td>
@@ -8565,7 +8577,7 @@
       <td><span title="clean-genes">clean-genes</span></td>
       <td><span title="National Center for Immunization and Respiratory Diseases">National Center for Immunization and Respiratory Diseases</span></td>
       <td>cdcinfo@cdc.gov</td>
-      <td>openSource</td>
+      <td></td>
       <td>Y</td>
       <td>GitHub</td>
       <td><a href="https://github.com/CDCgov/clean-genes" target="_blank">https://github.com/CDCgov/clean-genes</a></td>
@@ -8577,7 +8589,7 @@
       <td><span title="covid-generation_time-us">covid-generation_time-us</span></td>
       <td><span title="National Center for Immunization and Respiratory Diseases">National Center for Immunization and Respiratory Diseases</span></td>
       <td>louischan@cdc.gov</td>
-      <td>openSource</td>
+      <td></td>
       <td>Y</td>
       <td>GitHub</td>
       <td><a href="https://github.com/CDCgov/covid-generation_time-us" target="_blank">https://github.com/CDCgov/covid-generation_time-us</a></td>
@@ -8589,7 +8601,7 @@
       <td><span title="flu-nursing-home-model">flu-nursing-home-model</span></td>
       <td><span title="National Center for Immunization and Respiratory Diseases">National Center for Immunization and Respiratory Diseases</span></td>
       <td>run7@cdc.gov</td>
-      <td>openSource</td>
+      <td></td>
       <td>Y</td>
       <td>GitHub</td>
       <td><a href="https://github.com/CDCgov/flu-nursing-home-model" target="_blank">https://github.com/CDCgov/flu-nursing-home-model</a></td>
@@ -8601,7 +8613,7 @@
       <td><span title="flu-vaccine-model">flu-vaccine-model</span></td>
       <td><span title="National Center for Immunization and Respiratory Diseases">National Center for Immunization and Respiratory Diseases</span></td>
       <td>run7@cdc.gov</td>
-      <td>openSource</td>
+      <td></td>
       <td>Y</td>
       <td>GitHub</td>
       <td><a href="https://github.com/CDCgov/flu-vaccine-model" target="_blank">https://github.com/CDCgov/flu-vaccine-model</a></td>
@@ -8637,7 +8649,7 @@
       <td><span title="ifx-convert">ifx-convert</span></td>
       <td><span title="National Center for Immunization and Respiratory Diseases">National Center for Immunization and Respiratory Diseases</span></td>
       <td>vfn4@cdc.gov</td>
-      <td>openSource</td>
+      <td></td>
       <td>Y</td>
       <td>GitHub</td>
       <td><a href="https://github.com/CDCgov/ifx-convert" target="_blank">https://github.com/CDCgov/ifx-convert</a></td>
@@ -8649,7 +8661,7 @@
       <td><span title="influenza-generation_time-us">influenza-generation_time-us</span></td>
       <td><span title="National Center for Immunization and Respiratory Diseases">National Center for Immunization and Respiratory Diseases</span></td>
       <td>louischan@cdc.gov</td>
-      <td>openSource</td>
+      <td></td>
       <td>Y</td>
       <td>GitHub</td>
       <td><a href="https://github.com/CDCgov/influenza-generation_time-us" target="_blank">https://github.com/CDCgov/influenza-generation_time-us</a></td>
@@ -8685,7 +8697,7 @@
       <td><span title="irma-core">irma-core</span></td>
       <td><span title="National Center for Immunization and Respiratory Diseases">National Center for Immunization and Respiratory Diseases</span></td>
       <td>sshepard@cdc.gov</td>
-      <td>openSource</td>
+      <td></td>
       <td>Y</td>
       <td>GitHub</td>
       <td><a href="https://github.com/CDCgov/irma-core" target="_blank">https://github.com/CDCgov/irma-core</a></td>
@@ -8697,7 +8709,7 @@
       <td><span title="label">label</span></td>
       <td><span title="National Center for Immunization and Respiratory Diseases">National Center for Immunization and Respiratory Diseases</span></td>
       <td>sshepard@cdc.gov</td>
-      <td>openSource</td>
+      <td></td>
       <td>Y</td>
       <td>GitHub</td>
       <td><a href="https://github.com/CDCgov/label" target="_blank">https://github.com/CDCgov/label</a></td>
@@ -8721,7 +8733,7 @@
       <td><span title="ncird_vsd_covid_vax_coverage_analysis">ncird_vsd_covid_vax_coverage_analysis</span></td>
       <td><span title="National Center for Immunization and Respiratory Diseases">National Center for Immunization and Respiratory Diseases</span></td>
       <td>cdcinfo@cdc.gov</td>
-      <td>openSource</td>
+      <td></td>
       <td>Y</td>
       <td>GitHub</td>
       <td><a href="https://github.com/CDCgov/ncird_vsd_covid_vax_coverage_analysis" target="_blank">https://github.com/CDCgov/ncird_vsd_covid_vax_coverage_analysis</a></td>
@@ -8733,7 +8745,7 @@
       <td><span title="novel-flu-detection">novel-flu-detection</span></td>
       <td><span title="National Center for Immunization and Respiratory Diseases">National Center for Immunization and Respiratory Diseases</span></td>
       <td>run7@cdc.gov</td>
-      <td>openSource</td>
+      <td></td>
       <td>Y</td>
       <td>GitHub</td>
       <td><a href="https://github.com/CDCgov/novel-flu-detection" target="_blank">https://github.com/CDCgov/novel-flu-detection</a></td>
@@ -8745,7 +8757,7 @@
       <td><span title="seqsender">seqsender</span></td>
       <td><span title="National Center for Immunization and Respiratory Diseases">National Center for Immunization and Respiratory Diseases</span></td>
       <td>cdcinfo@cdc.gov</td>
-      <td>openSource</td>
+      <td></td>
       <td>Y</td>
       <td>GitHub</td>
       <td><a href="https://github.com/CDCgov/seqsender" target="_blank">https://github.com/CDCgov/seqsender</a></td>
@@ -8757,7 +8769,7 @@
       <td><span title="udf-bioutils">udf-bioutils</span></td>
       <td><span title="National Center for Immunization and Respiratory Diseases">National Center for Immunization and Respiratory Diseases</span></td>
       <td>22samuel%20shepard%22%3cvfn4@cdc.gov</td>
-      <td>openSource</td>
+      <td></td>
       <td>Y</td>
       <td>GitHub</td>
       <td><a href="https://github.com/CDCgov/udf-bioutils" target="_blank">https://github.com/CDCgov/udf-bioutils</a></td>
@@ -8781,7 +8793,7 @@
       <td><span title="zoe">zoe</span></td>
       <td><span title="National Center for Immunization and Respiratory Diseases">National Center for Immunization and Respiratory Diseases</span></td>
       <td>sshepard@cdc.gov</td>
-      <td>openSource</td>
+      <td></td>
       <td>Y</td>
       <td>GitHub</td>
       <td><a href="https://github.com/CDCgov/zoe" target="_blank">https://github.com/CDCgov/zoe</a></td>
@@ -8853,7 +8865,7 @@
       <td><span title="SET-NET">SET-NET</span></td>
       <td><span title="National Center on Birth Defects and Developmental Disabilities">National Center on Birth Defects and Developmental Disabilities</span></td>
       <td>cdcinfo@cdc.gov</td>
-      <td>openSource</td>
+      <td></td>
       <td>Y</td>
       <td>GitHub</td>
       <td><a href="https://github.com/CDCgov/SET-NET" target="_blank">https://github.com/CDCgov/SET-NET</a></td>
@@ -8985,7 +8997,7 @@
       <td><span title="pregnancycovidseverity">pregnancycovidseverity</span></td>
       <td><span title="National Center on Birth Defects and Developmental Disabilities">National Center on Birth Defects and Developmental Disabilities</span></td>
       <td>cdcinfo@cdc.gov</td>
-      <td>openSource</td>
+      <td></td>
       <td>Y</td>
       <td>GitHub</td>
       <td><a href="https://github.com/CDCgov/pregnancycovidseverity" target="_blank">https://github.com/CDCgov/pregnancycovidseverity</a></td>
@@ -8997,7 +9009,7 @@
       <td><span title="AMD-PGCoE">AMD-PGCoE</span></td>
       <td><span title="Office of Advanced Molecular Detection">Office of Advanced Molecular Detection</span></td>
       <td>cdcinfo@cdc.gov</td>
-      <td>openSource</td>
+      <td></td>
       <td>Y</td>
       <td>GitHub</td>
       <td><a href="https://github.com/CDCgov/AMD-PGCoE" target="_blank">https://github.com/CDCgov/AMD-PGCoE</a></td>
@@ -9009,7 +9021,7 @@
       <td><span title="AMDTower_demo">AMDTower_demo</span></td>
       <td><span title="Office of Advanced Molecular Detection">Office of Advanced Molecular Detection</span></td>
       <td>cdcinfo@cdc.gov</td>
-      <td>openSource</td>
+      <td></td>
       <td>Y</td>
       <td>GitHub</td>
       <td><a href="https://github.com/CDCgov/AMDTower_demo" target="_blank">https://github.com/CDCgov/AMDTower_demo</a></td>
@@ -9021,7 +9033,7 @@
       <td><span title="AMDTower_userguides">AMDTower_userguides</span></td>
       <td><span title="Office of Advanced Molecular Detection">Office of Advanced Molecular Detection</span></td>
       <td>cdcinfo@cdc.gov</td>
-      <td>openSource</td>
+      <td></td>
       <td>Y</td>
       <td>GitHub</td>
       <td><a href="https://github.com/CDCgov/AMDTower_userguides" target="_blank">https://github.com/CDCgov/AMDTower_userguides</a></td>
@@ -9033,7 +9045,7 @@
       <td><span title="BMGAP">BMGAP</span></td>
       <td><span title="Office of Advanced Molecular Detection">Office of Advanced Molecular Detection</span></td>
       <td>psa8@cdc.gov</td>
-      <td>openSource</td>
+      <td></td>
       <td>Y</td>
       <td>GitHub</td>
       <td><a href="https://github.com/CDCgov/BMGAP" target="_blank">https://github.com/CDCgov/BMGAP</a></td>
@@ -9045,7 +9057,7 @@
       <td><span title="FoodNetTrends">FoodNetTrends</span></td>
       <td><span title="Office of Advanced Molecular Detection">Office of Advanced Molecular Detection</span></td>
       <td>cdcinfo@cdc.gov</td>
-      <td>openSource</td>
+      <td></td>
       <td>Y</td>
       <td>GitHub</td>
       <td><a href="https://github.com/CDCgov/FoodNetTrends" target="_blank">https://github.com/CDCgov/FoodNetTrends</a></td>
@@ -9057,7 +9069,7 @@
       <td><span title="PoSE">PoSE</span></td>
       <td><span title="Office of Advanced Molecular Detection">Office of Advanced Molecular Detection</span></td>
       <td>cdcinfo@cdc.gov</td>
-      <td>openSource</td>
+      <td></td>
       <td>Y</td>
       <td>GitHub</td>
       <td><a href="https://github.com/CDCgov/PoSE" target="_blank">https://github.com/CDCgov/PoSE</a></td>
@@ -9069,7 +9081,7 @@
       <td><span title="SARS-CoV-2_Sequencing">SARS-CoV-2_Sequencing</span></td>
       <td><span title="Office of Advanced Molecular Detection">Office of Advanced Molecular Detection</span></td>
       <td>cdcinfo@cdc.gov</td>
-      <td>openSource</td>
+      <td></td>
       <td>Y</td>
       <td>GitHub</td>
       <td><a href="https://github.com/CDCgov/SARS-CoV-2_Sequencing" target="_blank">https://github.com/CDCgov/SARS-CoV-2_Sequencing</a></td>
@@ -9081,7 +9093,7 @@
       <td><span title="U50">U50</span></td>
       <td><span title="Office of Advanced Molecular Detection">Office of Advanced Molecular Detection</span></td>
       <td>cdcinfo@cdc.gov</td>
-      <td>openSource</td>
+      <td></td>
       <td>Y</td>
       <td>GitHub</td>
       <td><a href="https://github.com/CDCgov/U50" target="_blank">https://github.com/CDCgov/U50</a></td>
@@ -9093,7 +9105,7 @@
       <td><span title="aquascope">aquascope</span></td>
       <td><span title="Office of Advanced Molecular Detection">Office of Advanced Molecular Detection</span></td>
       <td>cdcinfo@cdc.gov</td>
-      <td>openSource</td>
+      <td></td>
       <td>Y</td>
       <td>GitHub</td>
       <td><a href="https://github.com/CDCgov/aquascope" target="_blank">https://github.com/CDCgov/aquascope</a></td>
@@ -9105,7 +9117,7 @@
       <td><span title="geneflow">geneflow</span></td>
       <td><span title="Office of Advanced Molecular Detection">Office of Advanced Molecular Detection</span></td>
       <td>oamdsupport@cdc.gov</td>
-      <td>openSource</td>
+      <td></td>
       <td>Y</td>
       <td>GitHub</td>
       <td><a href="https://github.com/CDCgov/geneflow" target="_blank">https://github.com/CDCgov/geneflow</a></td>
@@ -9117,7 +9129,7 @@
       <td><span title="geneflow-workflows">geneflow-workflows</span></td>
       <td><span title="Office of Advanced Molecular Detection">Office of Advanced Molecular Detection</span></td>
       <td>oamdsupport@cdc.gov</td>
-      <td>openSource</td>
+      <td></td>
       <td>Y</td>
       <td>GitHub</td>
       <td><a href="https://github.com/CDCgov/geneflow-workflows" target="_blank">https://github.com/CDCgov/geneflow-workflows</a></td>
@@ -9129,7 +9141,7 @@
       <td><span title="geneflow2">geneflow2</span></td>
       <td><span title="Office of Advanced Molecular Detection">Office of Advanced Molecular Detection</span></td>
       <td>oamdsupport@cdc.gov</td>
-      <td>openSource</td>
+      <td></td>
       <td>Y</td>
       <td>GitHub</td>
       <td><a href="https://github.com/CDCgov/geneflow2" target="_blank">https://github.com/CDCgov/geneflow2</a></td>
@@ -9381,7 +9393,7 @@
       <td><span title="oamd-bio-test-data">oamd-bio-test-data</span></td>
       <td><span title="Office of Advanced Molecular Detection">Office of Advanced Molecular Detection</span></td>
       <td>cdcinfo@cdc.gov</td>
-      <td>openSource</td>
+      <td></td>
       <td>Y</td>
       <td>GitHub</td>
       <td><a href="https://github.com/CDCgov/oamd-bio-test-data" target="_blank">https://github.com/CDCgov/oamd-bio-test-data</a></td>
@@ -9729,7 +9741,7 @@
       <td><span title="dibbs-cloud">dibbs-cloud</span></td>
       <td><span title="Office of Public Health Data, Surveillance, and Technology">Office of Public Health Data, Surveillance, and Technology</span></td>
       <td>cdcinfo@cdc.gov</td>
-      <td>openSource</td>
+      <td></td>
       <td>Y</td>
       <td>GitHub</td>
       <td><a href="https://github.com/CDCgov/dibbs-cloud" target="_blank">https://github.com/CDCgov/dibbs-cloud</a></td>
@@ -9837,7 +9849,7 @@
       <td><span title="OCIO-DEX-FHIR">OCIO-DEX-FHIR</span></td>
       <td><span title="Office of the Chief Information Officer">Office of the Chief Information Officer</span></td>
       <td>cdcinfo@cdc.gov</td>
-      <td>openSource</td>
+      <td></td>
       <td>Y</td>
       <td>GitHub</td>
       <td><a href="https://github.com/CDCgov/OCIO-DEX-FHIR" target="_blank">https://github.com/CDCgov/OCIO-DEX-FHIR</a></td>
@@ -9945,7 +9957,7 @@
       <td><span title="ocio-certificates">ocio-certificates</span></td>
       <td><span title="Office of the Chief Information Officer">Office of the Chief Information Officer</span></td>
       <td>cdcinfo@cdc.gov</td>
-      <td>openSource</td>
+      <td></td>
       <td>Y</td>
       <td>GitHub</td>
       <td><a href="https://github.com/CDCgov/ocio-certificates" target="_blank">https://github.com/CDCgov/ocio-certificates</a></td>
@@ -10125,7 +10137,7 @@
       <td><span title="jv-test">jv-test</span></td>
       <td><span title="cdcent">cdcent</span></td>
       <td>shareit@cdc.gov</td>
-      <td>openSource</td>
+      <td></td>
       <td>Y</td>
       <td>Unknown</td>
       <td><a href="https://cdcgov.github.io/ShareIT-Act/assets/files/instructions.pdf" target="_blank">https://cdcgov.github.io/ShareIT-Act/assets/files/instructions.pdf</a></td>
@@ -10137,7 +10149,7 @@
       <td><span title="lppsb-cbls-documentation">lppsb-cbls-documentation</span></td>
       <td><span title="cdcent">cdcent</span></td>
       <td>shareit@cdc.gov</td>
-      <td>openSource</td>
+      <td></td>
       <td>Y</td>
       <td>Unknown</td>
       <td><a href="https://cdcgov.github.io/ShareIT-Act/assets/files/instructions.pdf" target="_blank">https://cdcgov.github.io/ShareIT-Act/assets/files/instructions.pdf</a></td>
@@ -10149,7 +10161,7 @@
       <td><span title="ncbddd-dbdid-setnet-birth-defects-nlp">ncbddd-dbdid-setnet-birth-defects-nlp</span></td>
       <td><span title="cdcent">cdcent</span></td>
       <td>shareit@cdc.gov</td>
-      <td>openSource</td>
+      <td></td>
       <td>Y</td>
       <td>Unknown</td>
       <td><a href="https://cdcgov.github.io/ShareIT-Act/assets/files/instructions.pdf" target="_blank">https://cdcgov.github.io/ShareIT-Act/assets/files/instructions.pdf</a></td>
@@ -10161,7 +10173,7 @@
       <td><span title="ncbddd-dbdid-setnet-geospatial">ncbddd-dbdid-setnet-geospatial</span></td>
       <td><span title="cdcent">cdcent</span></td>
       <td>shareit@cdc.gov</td>
-      <td>openSource</td>
+      <td></td>
       <td>Y</td>
       <td>Unknown</td>
       <td><a href="https://cdcgov.github.io/ShareIT-Act/assets/files/instructions.pdf" target="_blank">https://cdcgov.github.io/ShareIT-Act/assets/files/instructions.pdf</a></td>
@@ -10173,7 +10185,7 @@
       <td><span title="nccdphp-ddt-dprpportal-dprp-automation">nccdphp-ddt-dprpportal-dprp-automation</span></td>
       <td><span title="cdcent">cdcent</span></td>
       <td>shareit@cdc.gov</td>
-      <td>openSource</td>
+      <td></td>
       <td>Y</td>
       <td>Unknown</td>
       <td><a href="https://cdcgov.github.io/ShareIT-Act/assets/files/instructions.pdf" target="_blank">https://cdcgov.github.io/ShareIT-Act/assets/files/instructions.pdf</a></td>
@@ -10185,7 +10197,7 @@
       <td><span title="nccdphp-drh-nass-pubops-get-nass-data">nccdphp-drh-nass-pubops-get-nass-data</span></td>
       <td><span title="cdcent">cdcent</span></td>
       <td>shareit@cdc.gov</td>
-      <td>openSource</td>
+      <td></td>
       <td>Y</td>
       <td>Unknown</td>
       <td><a href="https://cdcgov.github.io/ShareIT-Act/assets/files/instructions.pdf" target="_blank">https://cdcgov.github.io/ShareIT-Act/assets/files/instructions.pdf</a></td>
@@ -10197,7 +10209,7 @@
       <td><span title="nccdphp-drh-nass-pubops-transform-nass-data">nccdphp-drh-nass-pubops-transform-nass-data</span></td>
       <td><span title="cdcent">cdcent</span></td>
       <td>shareit@cdc.gov</td>
-      <td>openSource</td>
+      <td></td>
       <td>Y</td>
       <td>Unknown</td>
       <td><a href="https://cdcgov.github.io/ShareIT-Act/assets/files/instructions.pdf" target="_blank">https://cdcgov.github.io/ShareIT-Act/assets/files/instructions.pdf</a></td>
@@ -10209,7 +10221,7 @@
       <td><span title="nccdphp-drh-nass-pubops-validate-nass-data">nccdphp-drh-nass-pubops-validate-nass-data</span></td>
       <td><span title="cdcent">cdcent</span></td>
       <td>shareit@cdc.gov</td>
-      <td>openSource</td>
+      <td></td>
       <td>Y</td>
       <td>Unknown</td>
       <td><a href="https://cdcgov.github.io/ShareIT-Act/assets/files/instructions.pdf" target="_blank">https://cdcgov.github.io/ShareIT-Act/assets/files/instructions.pdf</a></td>
@@ -10221,7 +10233,7 @@
       <td><span title="nccdphp-od-cove-playwright-tests">nccdphp-od-cove-playwright-tests</span></td>
       <td><span title="cdcent">cdcent</span></td>
       <td>shareit@cdc.gov</td>
-      <td>openSource</td>
+      <td></td>
       <td>Y</td>
       <td>Unknown</td>
       <td><a href="https://cdcgov.github.io/ShareIT-Act/assets/files/instructions.pdf" target="_blank">https://cdcgov.github.io/ShareIT-Act/assets/files/instructions.pdf</a></td>
@@ -10233,7 +10245,7 @@
       <td><span title="nccdphp-od-it-planning-tool-planning-tool-ui">nccdphp-od-it-planning-tool-planning-tool-ui</span></td>
       <td><span title="cdcent">cdcent</span></td>
       <td>shareit@cdc.gov</td>
-      <td>openSource</td>
+      <td></td>
       <td>Y</td>
       <td>Unknown</td>
       <td><a href="https://cdcgov.github.io/ShareIT-Act/assets/files/instructions.pdf" target="_blank">https://cdcgov.github.io/ShareIT-Act/assets/files/instructions.pdf</a></td>
@@ -10245,7 +10257,7 @@
       <td><span title="nccdphp-od-surveillance-pubops-brfssdata">nccdphp-od-surveillance-pubops-brfssdata</span></td>
       <td><span title="cdcent">cdcent</span></td>
       <td>shareit@cdc.gov</td>
-      <td>openSource</td>
+      <td></td>
       <td>Y</td>
       <td>Unknown</td>
       <td><a href="https://cdcgov.github.io/ShareIT-Act/assets/files/instructions.pdf" target="_blank">https://cdcgov.github.io/ShareIT-Act/assets/files/instructions.pdf</a></td>
@@ -10257,7 +10269,7 @@
       <td><span title="nccdphp-osh-apps-dreammachine">nccdphp-osh-apps-dreammachine</span></td>
       <td><span title="cdcent">cdcent</span></td>
       <td>shareit@cdc.gov</td>
-      <td>openSource</td>
+      <td></td>
       <td>Y</td>
       <td>Unknown</td>
       <td><a href="https://cdcgov.github.io/ShareIT-Act/assets/files/instructions.pdf" target="_blank">https://cdcgov.github.io/ShareIT-Act/assets/files/instructions.pdf</a></td>
@@ -10269,7 +10281,7 @@
       <td><span title="nccdphp-osh-apps-gtss-gyts-sas">nccdphp-osh-apps-gtss-gyts-sas</span></td>
       <td><span title="cdcent">cdcent</span></td>
       <td>shareit@cdc.gov</td>
-      <td>openSource</td>
+      <td></td>
       <td>Y</td>
       <td>Unknown</td>
       <td><a href="https://cdcgov.github.io/ShareIT-Act/assets/files/instructions.pdf" target="_blank">https://cdcgov.github.io/ShareIT-Act/assets/files/instructions.pdf</a></td>
@@ -10281,7 +10293,7 @@
       <td><span title="CDC-Maps">CDC-Maps</span></td>
       <td><span title="cdcgov">cdcgov</span></td>
       <td>cdcinfo@cdc.gov</td>
-      <td>openSource</td>
+      <td></td>
       <td>Y</td>
       <td>GitHub</td>
       <td><a href="https://github.com/CDCgov/CDC-Maps" target="_blank">https://github.com/CDCgov/CDC-Maps</a></td>
@@ -10293,7 +10305,7 @@
       <td><span title="CFA_Techrepo">CFA_Techrepo</span></td>
       <td><span title="cdcgov">cdcgov</span></td>
       <td>cdcinfo@cdc.gov</td>
-      <td>openSource</td>
+      <td></td>
       <td>Y</td>
       <td>GitHub</td>
       <td><a href="https://github.com/CDCgov/CFA_Techrepo" target="_blank">https://github.com/CDCgov/CFA_Techrepo</a></td>
@@ -10305,7 +10317,7 @@
       <td><span title="Form-5034">Form-5034</span></td>
       <td><span title="cdcgov">cdcgov</span></td>
       <td>cdcinfo@cdc.gov</td>
-      <td>openSource</td>
+      <td></td>
       <td>Y</td>
       <td>GitHub</td>
       <td><a href="https://github.com/CDCgov/Form-5034" target="_blank">https://github.com/CDCgov/Form-5034</a></td>
@@ -10317,7 +10329,7 @@
       <td><span title="ITF_Power_BI">ITF_Power_BI</span></td>
       <td><span title="cdcgov">cdcgov</span></td>
       <td>cdcinfo@cdc.gov</td>
-      <td>openSource</td>
+      <td></td>
       <td>Y</td>
       <td>GitHub</td>
       <td><a href="https://github.com/CDCgov/ITF_Power_BI" target="_blank">https://github.com/CDCgov/ITF_Power_BI</a></td>
@@ -10329,7 +10341,7 @@
       <td><span title="LpSubP">LpSubP</span></td>
       <td><span title="cdcgov">cdcgov</span></td>
       <td>cdcinfo@cdc.gov</td>
-      <td>openSource</td>
+      <td></td>
       <td>Y</td>
       <td>GitHub</td>
       <td><a href="https://github.com/CDCgov/LpSubP" target="_blank">https://github.com/CDCgov/LpSubP</a></td>
@@ -10341,7 +10353,7 @@
       <td><span title="MicrobeTrace-Archive">MicrobeTrace-Archive</span></td>
       <td><span title="cdcgov">cdcgov</span></td>
       <td>cdcinfo@cdc.gov</td>
-      <td>openSource</td>
+      <td></td>
       <td>Y</td>
       <td>GitHub</td>
       <td><a href="https://github.com/CDCgov/MicrobeTrace-Archive" target="_blank">https://github.com/CDCgov/MicrobeTrace-Archive</a></td>
@@ -10353,7 +10365,7 @@
       <td><span title="NHSN-SANER">NHSN-SANER</span></td>
       <td><span title="cdcgov">cdcgov</span></td>
       <td>cdcinfo@cdc.gov</td>
-      <td>openSource</td>
+      <td></td>
       <td>Y</td>
       <td>GitHub</td>
       <td><a href="https://github.com/CDCgov/NHSN-SANER" target="_blank">https://github.com/CDCgov/NHSN-SANER</a></td>
@@ -10365,7 +10377,7 @@
       <td><span title="NeST-nf">NeST-nf</span></td>
       <td><span title="cdcgov">cdcgov</span></td>
       <td>cdcinfo@cdc.gov</td>
-      <td>openSource</td>
+      <td></td>
       <td>Y</td>
       <td>GitHub</td>
       <td><a href="https://github.com/CDCgov/NeST-nf" target="_blank">https://github.com/CDCgov/NeST-nf</a></td>
@@ -10377,7 +10389,7 @@
       <td><span title="Ocra">Ocra</span></td>
       <td><span title="cdcgov">cdcgov</span></td>
       <td>cdcinfo@cdc.gov</td>
-      <td>openSource</td>
+      <td></td>
       <td>Y</td>
       <td>GitHub</td>
       <td><a href="https://github.com/CDCgov/Ocra" target="_blank">https://github.com/CDCgov/Ocra</a></td>
@@ -10389,7 +10401,7 @@
       <td><span title="SDP-MLaaS">SDP-MLaaS</span></td>
       <td><span title="cdcgov">cdcgov</span></td>
       <td>cdcinfo@cdc.gov</td>
-      <td>openSource</td>
+      <td></td>
       <td>Y</td>
       <td>GitHub</td>
       <td><a href="https://github.com/CDCgov/SDP-MLaaS" target="_blank">https://github.com/CDCgov/SDP-MLaaS</a></td>
@@ -10401,7 +10413,7 @@
       <td><span title="SDP-Vocabulary-Service">SDP-Vocabulary-Service</span></td>
       <td><span title="cdcgov">cdcgov</span></td>
       <td>cdcinfo@cdc.gov</td>
-      <td>openSource</td>
+      <td></td>
       <td>Y</td>
       <td>GitHub</td>
       <td><a href="https://github.com/CDCgov/SDP-Vocabulary-Service" target="_blank">https://github.com/CDCgov/SDP-Vocabulary-Service</a></td>
@@ -10413,7 +10425,7 @@
       <td><span title="WDPB_CDS_PHL_Tools">WDPB_CDS_PHL_Tools</span></td>
       <td><span title="cdcgov">cdcgov</span></td>
       <td>cdcinfo@cdc.gov</td>
-      <td>openSource</td>
+      <td></td>
       <td>Y</td>
       <td>GitHub</td>
       <td><a href="https://github.com/CDCgov/WDPB_CDS_PHL_Tools" target="_blank">https://github.com/CDCgov/WDPB_CDS_PHL_Tools</a></td>
@@ -10425,7 +10437,7 @@
       <td><span title="blockchain-collab">blockchain-collab</span></td>
       <td><span title="cdcgov">cdcgov</span></td>
       <td>cdcinfo@cdc.gov</td>
-      <td>openSource</td>
+      <td></td>
       <td>Y</td>
       <td>GitHub</td>
       <td><a href="https://github.com/CDCgov/blockchain-collab" target="_blank">https://github.com/CDCgov/blockchain-collab</a></td>
@@ -10437,7 +10449,7 @@
       <td><span title="cdc-react">cdc-react</span></td>
       <td><span title="cdcgov">cdcgov</span></td>
       <td>cdcinfo@cdc.gov</td>
-      <td>openSource</td>
+      <td></td>
       <td>Y</td>
       <td>GitHub</td>
       <td><a href="https://github.com/CDCgov/cdc-react" target="_blank">https://github.com/CDCgov/cdc-react</a></td>
@@ -10449,7 +10461,7 @@
       <td><span title="cfa-resp-ode">cfa-resp-ode</span></td>
       <td><span title="cdcgov">cdcgov</span></td>
       <td>cdcinfo@cdc.gov</td>
-      <td>openSource</td>
+      <td></td>
       <td>Y</td>
       <td>GitHub</td>
       <td><a href="https://github.com/CDCgov/cfa-resp-ode" target="_blank">https://github.com/CDCgov/cfa-resp-ode</a></td>
@@ -10461,7 +10473,7 @@
       <td><span title="cfa-rt-postprocessing">cfa-rt-postprocessing</span></td>
       <td><span title="cdcgov">cdcgov</span></td>
       <td>cdcinfo@cdc.gov</td>
-      <td>openSource</td>
+      <td></td>
       <td>Y</td>
       <td>GitHub</td>
       <td><a href="https://github.com/CDCgov/cfa-rt-postprocessing" target="_blank">https://github.com/CDCgov/cfa-rt-postprocessing</a></td>
@@ -10473,7 +10485,7 @@
       <td><span title="covid19healthbot">covid19healthbot</span></td>
       <td><span title="cdcgov">cdcgov</span></td>
       <td>cdcinfo@cdc.gov</td>
-      <td>openSource</td>
+      <td></td>
       <td>Y</td>
       <td>GitHub</td>
       <td><a href="https://github.com/CDCgov/covid19healthbot" target="_blank">https://github.com/CDCgov/covid19healthbot</a></td>
@@ -10485,7 +10497,7 @@
       <td><span title="data-exchange-dbx">data-exchange-dbx</span></td>
       <td><span title="cdcgov">cdcgov</span></td>
       <td>cdcinfo@cdc.gov</td>
-      <td>openSource</td>
+      <td></td>
       <td>Y</td>
       <td>GitHub</td>
       <td><a href="https://github.com/CDCgov/data-exchange-dbx" target="_blank">https://github.com/CDCgov/data-exchange-dbx</a></td>
@@ -10497,7 +10509,7 @@
       <td><span title="data-exchange-event-sync">data-exchange-event-sync</span></td>
       <td><span title="cdcgov">cdcgov</span></td>
       <td>cdcinfo@cdc.gov</td>
-      <td>openSource</td>
+      <td></td>
       <td>Y</td>
       <td>GitHub</td>
       <td><a href="https://github.com/CDCgov/data-exchange-event-sync" target="_blank">https://github.com/CDCgov/data-exchange-event-sync</a></td>
@@ -10509,7 +10521,7 @@
       <td><span title="data-exchange-hl7">data-exchange-hl7</span></td>
       <td><span title="cdcgov">cdcgov</span></td>
       <td>cdcinfo@cdc.gov</td>
-      <td>openSource</td>
+      <td></td>
       <td>Y</td>
       <td>GitHub</td>
       <td><a href="https://github.com/CDCgov/data-exchange-hl7" target="_blank">https://github.com/CDCgov/data-exchange-hl7</a></td>
@@ -10521,7 +10533,7 @@
       <td><span title="data-exchange-hl7-dbx">data-exchange-hl7-dbx</span></td>
       <td><span title="cdcgov">cdcgov</span></td>
       <td>cdcinfo@cdc.gov</td>
-      <td>openSource</td>
+      <td></td>
       <td>Y</td>
       <td>GitHub</td>
       <td><a href="https://github.com/CDCgov/data-exchange-hl7-dbx" target="_blank">https://github.com/CDCgov/data-exchange-hl7-dbx</a></td>
@@ -10533,7 +10545,7 @@
       <td><span title="data-exchange-messages">data-exchange-messages</span></td>
       <td><span title="cdcgov">cdcgov</span></td>
       <td>cdcinfo@cdc.gov</td>
-      <td>openSource</td>
+      <td></td>
       <td>Y</td>
       <td>GitHub</td>
       <td><a href="https://github.com/CDCgov/data-exchange-messages" target="_blank">https://github.com/CDCgov/data-exchange-messages</a></td>
@@ -10545,7 +10557,7 @@
       <td><span title="data-exchange-portal">data-exchange-portal</span></td>
       <td><span title="cdcgov">cdcgov</span></td>
       <td>cdcinfo@cdc.gov</td>
-      <td>openSource</td>
+      <td></td>
       <td>Y</td>
       <td>GitHub</td>
       <td><a href="https://github.com/CDCgov/data-exchange-portal" target="_blank">https://github.com/CDCgov/data-exchange-portal</a></td>
@@ -10557,7 +10569,7 @@
       <td><span title="data-exchange-routing">data-exchange-routing</span></td>
       <td><span title="cdcgov">cdcgov</span></td>
       <td>cdcinfo@cdc.gov</td>
-      <td>openSource</td>
+      <td></td>
       <td>Y</td>
       <td>GitHub</td>
       <td><a href="https://github.com/CDCgov/data-exchange-routing" target="_blank">https://github.com/CDCgov/data-exchange-routing</a></td>
@@ -10569,7 +10581,7 @@
       <td><span title="data-exchange-validation-csv">data-exchange-validation-csv</span></td>
       <td><span title="cdcgov">cdcgov</span></td>
       <td>cdcinfo@cdc.gov</td>
-      <td>openSource</td>
+      <td></td>
       <td>Y</td>
       <td>GitHub</td>
       <td><a href="https://github.com/CDCgov/data-exchange-validation-csv" target="_blank">https://github.com/CDCgov/data-exchange-validation-csv</a></td>
@@ -10581,7 +10593,7 @@
       <td><span title="data-exchange-validation-xml">data-exchange-validation-xml</span></td>
       <td><span title="cdcgov">cdcgov</span></td>
       <td>cdcinfo@cdc.gov</td>
-      <td>openSource</td>
+      <td></td>
       <td>Y</td>
       <td>GitHub</td>
       <td><a href="https://github.com/CDCgov/data-exchange-validation-xml" target="_blank">https://github.com/CDCgov/data-exchange-validation-xml</a></td>
@@ -10593,7 +10605,7 @@
       <td><span title="docker-maven">docker-maven</span></td>
       <td><span title="cdcgov">cdcgov</span></td>
       <td>cdcinfo@cdc.gov</td>
-      <td>openSource</td>
+      <td></td>
       <td>Y</td>
       <td>GitHub</td>
       <td><a href="https://github.com/CDCgov/docker-maven" target="_blank">https://github.com/CDCgov/docker-maven</a></td>
@@ -10605,7 +10617,7 @@
       <td><span title="ex-ui-hl7-combiner">ex-ui-hl7-combiner</span></td>
       <td><span title="cdcgov">cdcgov</span></td>
       <td>cdcinfo@cdc.gov</td>
-      <td>openSource</td>
+      <td></td>
       <td>Y</td>
       <td>GitHub</td>
       <td><a href="https://github.com/CDCgov/ex-ui-hl7-combiner" target="_blank">https://github.com/CDCgov/ex-ui-hl7-combiner</a></td>
@@ -10617,7 +10629,7 @@
       <td><span title="fdns">fdns</span></td>
       <td><span title="cdcgov">cdcgov</span></td>
       <td>cdcinfo@cdc.gov</td>
-      <td>openSource</td>
+      <td></td>
       <td>Y</td>
       <td>GitHub</td>
       <td><a href="https://github.com/CDCgov/fdns" target="_blank">https://github.com/CDCgov/fdns</a></td>
@@ -10629,7 +10641,7 @@
       <td><span title="fdns-java-sdk">fdns-java-sdk</span></td>
       <td><span title="cdcgov">cdcgov</span></td>
       <td>cdcinfo@cdc.gov</td>
-      <td>openSource</td>
+      <td></td>
       <td>Y</td>
       <td>GitHub</td>
       <td><a href="https://github.com/CDCgov/fdns-java-sdk" target="_blank">https://github.com/CDCgov/fdns-java-sdk</a></td>
@@ -10641,7 +10653,7 @@
       <td><span title="fdns-js-sdk">fdns-js-sdk</span></td>
       <td><span title="cdcgov">cdcgov</span></td>
       <td>cdcinfo@cdc.gov</td>
-      <td>openSource</td>
+      <td></td>
       <td>Y</td>
       <td>GitHub</td>
       <td><a href="https://github.com/CDCgov/fdns-js-sdk" target="_blank">https://github.com/CDCgov/fdns-js-sdk</a></td>
@@ -10653,7 +10665,7 @@
       <td><span title="fdns-kafka-library">fdns-kafka-library</span></td>
       <td><span title="cdcgov">cdcgov</span></td>
       <td>cdcinfo@cdc.gov</td>
-      <td>openSource</td>
+      <td></td>
       <td>Y</td>
       <td>GitHub</td>
       <td><a href="https://github.com/CDCgov/fdns-kafka-library" target="_blank">https://github.com/CDCgov/fdns-kafka-library</a></td>
@@ -10665,7 +10677,7 @@
       <td><span title="fdns-ms-cda-utils">fdns-ms-cda-utils</span></td>
       <td><span title="cdcgov">cdcgov</span></td>
       <td>cdcinfo@cdc.gov</td>
-      <td>openSource</td>
+      <td></td>
       <td>Y</td>
       <td>GitHub</td>
       <td><a href="https://github.com/CDCgov/fdns-ms-cda-utils" target="_blank">https://github.com/CDCgov/fdns-ms-cda-utils</a></td>
@@ -10677,7 +10689,7 @@
       <td><span title="fdns-ms-combiner">fdns-ms-combiner</span></td>
       <td><span title="cdcgov">cdcgov</span></td>
       <td>cdcinfo@cdc.gov</td>
-      <td>openSource</td>
+      <td></td>
       <td>Y</td>
       <td>GitHub</td>
       <td><a href="https://github.com/CDCgov/fdns-ms-combiner" target="_blank">https://github.com/CDCgov/fdns-ms-combiner</a></td>
@@ -10689,7 +10701,7 @@
       <td><span title="fdns-ms-crypto">fdns-ms-crypto</span></td>
       <td><span title="cdcgov">cdcgov</span></td>
       <td>cdcinfo@cdc.gov</td>
-      <td>openSource</td>
+      <td></td>
       <td>Y</td>
       <td>GitHub</td>
       <td><a href="https://github.com/CDCgov/fdns-ms-crypto" target="_blank">https://github.com/CDCgov/fdns-ms-crypto</a></td>
@@ -10701,7 +10713,7 @@
       <td><span title="fdns-ms-gateway">fdns-ms-gateway</span></td>
       <td><span title="cdcgov">cdcgov</span></td>
       <td>cdcinfo@cdc.gov</td>
-      <td>openSource</td>
+      <td></td>
       <td>Y</td>
       <td>GitHub</td>
       <td><a href="https://github.com/CDCgov/fdns-ms-gateway" target="_blank">https://github.com/CDCgov/fdns-ms-gateway</a></td>
@@ -10713,7 +10725,7 @@
       <td><span title="fdns-ms-hl7-utils">fdns-ms-hl7-utils</span></td>
       <td><span title="cdcgov">cdcgov</span></td>
       <td>cdcinfo@cdc.gov</td>
-      <td>openSource</td>
+      <td></td>
       <td>Y</td>
       <td>GitHub</td>
       <td><a href="https://github.com/CDCgov/fdns-ms-hl7-utils" target="_blank">https://github.com/CDCgov/fdns-ms-hl7-utils</a></td>
@@ -10725,7 +10737,7 @@
       <td><span title="fdns-ms-indexing">fdns-ms-indexing</span></td>
       <td><span title="cdcgov">cdcgov</span></td>
       <td>cdcinfo@cdc.gov</td>
-      <td>openSource</td>
+      <td></td>
       <td>Y</td>
       <td>GitHub</td>
       <td><a href="https://github.com/CDCgov/fdns-ms-indexing" target="_blank">https://github.com/CDCgov/fdns-ms-indexing</a></td>
@@ -10737,7 +10749,7 @@
       <td><span title="fdns-ms-msft-utils">fdns-ms-msft-utils</span></td>
       <td><span title="cdcgov">cdcgov</span></td>
       <td>cdcinfo@cdc.gov</td>
-      <td>openSource</td>
+      <td></td>
       <td>Y</td>
       <td>GitHub</td>
       <td><a href="https://github.com/CDCgov/fdns-ms-msft-utils" target="_blank">https://github.com/CDCgov/fdns-ms-msft-utils</a></td>
@@ -10749,7 +10761,7 @@
       <td><span title="fdns-ms-object">fdns-ms-object</span></td>
       <td><span title="cdcgov">cdcgov</span></td>
       <td>cdcinfo@cdc.gov</td>
-      <td>openSource</td>
+      <td></td>
       <td>Y</td>
       <td>GitHub</td>
       <td><a href="https://github.com/CDCgov/fdns-ms-object" target="_blank">https://github.com/CDCgov/fdns-ms-object</a></td>
@@ -10761,7 +10773,7 @@
       <td><span title="fdns-ms-reporting">fdns-ms-reporting</span></td>
       <td><span title="cdcgov">cdcgov</span></td>
       <td>cdcinfo@cdc.gov</td>
-      <td>openSource</td>
+      <td></td>
       <td>Y</td>
       <td>GitHub</td>
       <td><a href="https://github.com/CDCgov/fdns-ms-reporting" target="_blank">https://github.com/CDCgov/fdns-ms-reporting</a></td>
@@ -10773,7 +10785,7 @@
       <td><span title="fdns-ms-reporting-kafka">fdns-ms-reporting-kafka</span></td>
       <td><span title="cdcgov">cdcgov</span></td>
       <td>cdcinfo@cdc.gov</td>
-      <td>openSource</td>
+      <td></td>
       <td>Y</td>
       <td>GitHub</td>
       <td><a href="https://github.com/CDCgov/fdns-ms-reporting-kafka" target="_blank">https://github.com/CDCgov/fdns-ms-reporting-kafka</a></td>
@@ -10785,7 +10797,7 @@
       <td><span title="fdns-ms-rules">fdns-ms-rules</span></td>
       <td><span title="cdcgov">cdcgov</span></td>
       <td>cdcinfo@cdc.gov</td>
-      <td>openSource</td>
+      <td></td>
       <td>Y</td>
       <td>GitHub</td>
       <td><a href="https://github.com/CDCgov/fdns-ms-rules" target="_blank">https://github.com/CDCgov/fdns-ms-rules</a></td>
@@ -10797,7 +10809,7 @@
       <td><span title="fdns-ms-storage">fdns-ms-storage</span></td>
       <td><span title="cdcgov">cdcgov</span></td>
       <td>cdcinfo@cdc.gov</td>
-      <td>openSource</td>
+      <td></td>
       <td>Y</td>
       <td>GitHub</td>
       <td><a href="https://github.com/CDCgov/fdns-ms-storage" target="_blank">https://github.com/CDCgov/fdns-ms-storage</a></td>
@@ -10809,7 +10821,7 @@
       <td><span title="fdns-ms-stubbing">fdns-ms-stubbing</span></td>
       <td><span title="cdcgov">cdcgov</span></td>
       <td>cdcinfo@cdc.gov</td>
-      <td>openSource</td>
+      <td></td>
       <td>Y</td>
       <td>GitHub</td>
       <td><a href="https://github.com/CDCgov/fdns-ms-stubbing" target="_blank">https://github.com/CDCgov/fdns-ms-stubbing</a></td>
@@ -10821,7 +10833,7 @@
       <td><span title="fdns-rules-engine">fdns-rules-engine</span></td>
       <td><span title="cdcgov">cdcgov</span></td>
       <td>cdcinfo@cdc.gov</td>
-      <td>openSource</td>
+      <td></td>
       <td>Y</td>
       <td>GitHub</td>
       <td><a href="https://github.com/CDCgov/fdns-rules-engine" target="_blank">https://github.com/CDCgov/fdns-rules-engine</a></td>
@@ -10833,7 +10845,7 @@
       <td><span title="fdns-ui">fdns-ui</span></td>
       <td><span title="cdcgov">cdcgov</span></td>
       <td>cdcinfo@cdc.gov</td>
-      <td>openSource</td>
+      <td></td>
       <td>Y</td>
       <td>GitHub</td>
       <td><a href="https://github.com/CDCgov/fdns-ui" target="_blank">https://github.com/CDCgov/fdns-ui</a></td>
@@ -10845,7 +10857,7 @@
       <td><span title="fdns-ui-react-docs">fdns-ui-react-docs</span></td>
       <td><span title="cdcgov">cdcgov</span></td>
       <td>cdcinfo@cdc.gov</td>
-      <td>openSource</td>
+      <td></td>
       <td>Y</td>
       <td>GitHub</td>
       <td><a href="https://github.com/CDCgov/fdns-ui-react-docs" target="_blank">https://github.com/CDCgov/fdns-ui-react-docs</a></td>
@@ -10857,7 +10869,7 @@
       <td><span title="legionella_pneumophila_SBT_analysis">legionella_pneumophila_SBT_analysis</span></td>
       <td><span title="cdcgov">cdcgov</span></td>
       <td>cdcinfo@cdc.gov</td>
-      <td>openSource</td>
+      <td></td>
       <td>Y</td>
       <td>GitHub</td>
       <td><a href="https://github.com/CDCgov/legionella_pneumophila_SBT_analysis" target="_blank">https://github.com/CDCgov/legionella_pneumophila_SBT_analysis</a></td>
@@ -10869,7 +10881,7 @@
       <td><span title="legionella_pneumophila_genomics">legionella_pneumophila_genomics</span></td>
       <td><span title="cdcgov">cdcgov</span></td>
       <td>cdcinfo@cdc.gov</td>
-      <td>openSource</td>
+      <td></td>
       <td>Y</td>
       <td>GitHub</td>
       <td><a href="https://github.com/CDCgov/legionella_pneumophila_genomics" target="_blank">https://github.com/CDCgov/legionella_pneumophila_genomics</a></td>
@@ -10881,7 +10893,7 @@
       <td><span title="legionella_pneumophila_genomics_speciesID">legionella_pneumophila_genomics_speciesID</span></td>
       <td><span title="cdcgov">cdcgov</span></td>
       <td>cdcinfo@cdc.gov</td>
-      <td>openSource</td>
+      <td></td>
       <td>Y</td>
       <td>GitHub</td>
       <td><a href="https://github.com/CDCgov/legionella_pneumophila_genomics_speciesID" target="_blank">https://github.com/CDCgov/legionella_pneumophila_genomics_speciesID</a></td>
@@ -10893,7 +10905,7 @@
       <td><span title="maven-repository">maven-repository</span></td>
       <td><span title="cdcgov">cdcgov</span></td>
       <td>cdcinfo@cdc.gov</td>
-      <td>openSource</td>
+      <td></td>
       <td>Y</td>
       <td>GitHub</td>
       <td><a href="https://github.com/CDCgov/maven-repository" target="_blank">https://github.com/CDCgov/maven-repository</a></td>
@@ -10905,7 +10917,7 @@
       <td><span title="mmgat">mmgat</span></td>
       <td><span title="cdcgov">cdcgov</span></td>
       <td>cdcinfo@cdc.gov</td>
-      <td>openSource</td>
+      <td></td>
       <td>Y</td>
       <td>GitHub</td>
       <td><a href="https://github.com/CDCgov/mmgat" target="_blank">https://github.com/CDCgov/mmgat</a></td>
@@ -10917,7 +10929,7 @@
       <td><span title="phin-vads-db">phin-vads-db</span></td>
       <td><span title="cdcgov">cdcgov</span></td>
       <td>cdcinfo@cdc.gov</td>
-      <td>openSource</td>
+      <td></td>
       <td>Y</td>
       <td>GitHub</td>
       <td><a href="https://github.com/CDCgov/phin-vads-db" target="_blank">https://github.com/CDCgov/phin-vads-db</a></td>
@@ -10929,7 +10941,7 @@
       <td><span title="phinvads-go">phinvads-go</span></td>
       <td><span title="cdcgov">cdcgov</span></td>
       <td>cdcinfo@cdc.gov</td>
-      <td>openSource</td>
+      <td></td>
       <td>Y</td>
       <td>GitHub</td>
       <td><a href="https://github.com/CDCgov/phinvads-go" target="_blank">https://github.com/CDCgov/phinvads-go</a></td>
@@ -10941,7 +10953,7 @@
       <td><span title="phlip">phlip</span></td>
       <td><span title="cdcgov">cdcgov</span></td>
       <td>cdcinfo@cdc.gov</td>
-      <td>openSource</td>
+      <td></td>
       <td>Y</td>
       <td>GitHub</td>
       <td><a href="https://github.com/CDCgov/phlip" target="_blank">https://github.com/CDCgov/phlip</a></td>
@@ -10953,7 +10965,7 @@
       <td><span title="phlip-backend">phlip-backend</span></td>
       <td><span title="cdcgov">cdcgov</span></td>
       <td>cdcinfo@cdc.gov</td>
-      <td>openSource</td>
+      <td></td>
       <td>Y</td>
       <td>GitHub</td>
       <td><a href="https://github.com/CDCgov/phlip-backend" target="_blank">https://github.com/CDCgov/phlip-backend</a></td>
@@ -10965,7 +10977,7 @@
       <td><span title="phlip-doc-management">phlip-doc-management</span></td>
       <td><span title="cdcgov">cdcgov</span></td>
       <td>cdcinfo@cdc.gov</td>
-      <td>openSource</td>
+      <td></td>
       <td>Y</td>
       <td>GitHub</td>
       <td><a href="https://github.com/CDCgov/phlip-doc-management" target="_blank">https://github.com/CDCgov/phlip-doc-management</a></td>
@@ -10977,7 +10989,7 @@
       <td><span title="prime-central">prime-central</span></td>
       <td><span title="cdcgov">cdcgov</span></td>
       <td>cdcinfo@cdc.gov</td>
-      <td>openSource</td>
+      <td></td>
       <td>Y</td>
       <td>GitHub</td>
       <td><a href="https://github.com/CDCgov/prime-central" target="_blank">https://github.com/CDCgov/prime-central</a></td>
@@ -10989,7 +11001,7 @@
       <td><span title="prime-data-input-api">prime-data-input-api</span></td>
       <td><span title="cdcgov">cdcgov</span></td>
       <td>cdcinfo@cdc.gov</td>
-      <td>openSource</td>
+      <td></td>
       <td>Y</td>
       <td>GitHub</td>
       <td><a href="https://github.com/CDCgov/prime-data-input-api" target="_blank">https://github.com/CDCgov/prime-data-input-api</a></td>
@@ -11001,7 +11013,7 @@
       <td><span title="rabbitmq">rabbitmq</span></td>
       <td><span title="cdcgov">cdcgov</span></td>
       <td>cdcinfo@cdc.gov</td>
-      <td>openSource</td>
+      <td></td>
       <td>Y</td>
       <td>GitHub</td>
       <td><a href="https://github.com/CDCgov/rabbitmq" target="_blank">https://github.com/CDCgov/rabbitmq</a></td>
@@ -11013,7 +11025,7 @@
       <td><span title="react-starter-kit">react-starter-kit</span></td>
       <td><span title="cdcgov">cdcgov</span></td>
       <td>cdcinfo@cdc.gov</td>
-      <td>openSource</td>
+      <td></td>
       <td>Y</td>
       <td>GitHub</td>
       <td><a href="https://github.com/CDCgov/react-starter-kit" target="_blank">https://github.com/CDCgov/react-starter-kit</a></td>
@@ -11025,7 +11037,7 @@
       <td><span title="reportstream-sftp-ingestion">reportstream-sftp-ingestion</span></td>
       <td><span title="cdcgov">cdcgov</span></td>
       <td>cdcinfo@cdc.gov</td>
-      <td>openSource</td>
+      <td></td>
       <td>Y</td>
       <td>GitHub</td>
       <td><a href="https://github.com/CDCgov/reportstream-sftp-ingestion" target="_blank">https://github.com/CDCgov/reportstream-sftp-ingestion</a></td>
@@ -11037,7 +11049,7 @@
       <td><span title="sbt-maven-test">sbt-maven-test</span></td>
       <td><span title="cdcgov">cdcgov</span></td>
       <td>cdcinfo@cdc.gov</td>
-      <td>openSource</td>
+      <td></td>
       <td>Y</td>
       <td>GitHub</td>
       <td><a href="https://github.com/CDCgov/sbt-maven-test" target="_blank">https://github.com/CDCgov/sbt-maven-test</a></td>
@@ -11049,7 +11061,7 @@
       <td><span title="spatialwwinference">spatialwwinference</span></td>
       <td><span title="cdcgov">cdcgov</span></td>
       <td>cdcinfo@cdc.gov</td>
-      <td>openSource</td>
+      <td></td>
       <td>Y</td>
       <td>GitHub</td>
       <td><a href="https://github.com/CDCgov/spatialwwinference" target="_blank">https://github.com/CDCgov/spatialwwinference</a></td>
@@ -11061,7 +11073,7 @@
       <td><span title="springfox-swagger-ui">springfox-swagger-ui</span></td>
       <td><span title="cdcgov">cdcgov</span></td>
       <td>cdcinfo@cdc.gov</td>
-      <td>openSource</td>
+      <td></td>
       <td>Y</td>
       <td>GitHub</td>
       <td><a href="https://github.com/CDCgov/springfox-swagger-ui" target="_blank">https://github.com/CDCgov/springfox-swagger-ui</a></td>
@@ -11073,7 +11085,7 @@
       <td><span title="test-dictionary-service">test-dictionary-service</span></td>
       <td><span title="cdcgov">cdcgov</span></td>
       <td>cdcinfo@cdc.gov</td>
-      <td>openSource</td>
+      <td></td>
       <td>Y</td>
       <td>GitHub</td>
       <td><a href="https://github.com/CDCgov/test-dictionary-service" target="_blank">https://github.com/CDCgov/test-dictionary-service</a></td>
@@ -11085,7 +11097,7 @@
       <td><span title="trusted-intermediary">trusted-intermediary</span></td>
       <td><span title="cdcgov">cdcgov</span></td>
       <td>cdcinfo@cdc.gov</td>
-      <td>openSource</td>
+      <td></td>
       <td>Y</td>
       <td>GitHub</td>
       <td><a href="https://github.com/CDCgov/trusted-intermediary" target="_blank">https://github.com/CDCgov/trusted-intermediary</a></td>
@@ -11097,7 +11109,7 @@
       <td><span title="vr-mine-rescue-training">vr-mine-rescue-training</span></td>
       <td><span title="cdcgov">cdcgov</span></td>
       <td>cdcinfo@cdc.gov</td>
-      <td>openSource</td>
+      <td></td>
       <td>Y</td>
       <td>GitHub</td>
       <td><a href="https://github.com/CDCgov/vr-mine-rescue-training" target="_blank">https://github.com/CDCgov/vr-mine-rescue-training</a></td>
