@@ -335,7 +335,6 @@ def create_html_document(table_html_content: str, releases_list: List[Dict[str, 
             .close-modal-btn:hover, .close-modal-btn:focus {{ color:black; text-decoration:none; }}
             #modalJsonContent {{ white-space:pre-wrap; word-wrap:break-word; background-color:#f0f0f0; padding:10px; border-radius:5px; max-height: 50vh; overflow-y: auto; }}
             #modalTitle {{ margin: 0; }}
-            }}
         </style>
         <script>
             $(document).ready(function () {{
