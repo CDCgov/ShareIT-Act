@@ -1,5 +1,5 @@
 """
-CDC Share IT Act – Metadata Review HTML Generator
+CDC Share IT Act - Metadata Review HTML Generator
 --------------------------------------------------
 
 This script reads a `code.json` metadata file (structured according to the Federal Source Code Policy and SHARE IT Act),
