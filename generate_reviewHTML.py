@@ -1,5 +1,5 @@
 """
-CDC Share IT Act – Metadata Review HTML Generator
+CDC Share IT Act - Metadata Review HTML Generator
 --------------------------------------------------
 
 This script reads a `code.json` metadata file (structured according to the Federal Source Code Policy and SHARE IT Act),
@@ -40,7 +40,6 @@ Author: CDC OCIO Support (Share IT Act Implementation)
 import json
 import pandas as pd
 from pathlib import Path
-import html # Import the html module for escaping
 import html # Import the html module for escaping
 import argparse
 from typing import List, Dict, Any
@@ -90,10 +89,6 @@ def analyze_json_structure(json_data):
         # The actual fallback to 'agency' is handled in generate_html_table.
         if 'organization' in sample:
             field_mapping['Organization'] = 'organization'
-        # Check for organization - the primary field name to look for is "organization".
-        # The actual fallback to 'agency' is handled in generate_html_table.
-        if 'organization' in sample:
-            field_mapping['Organization'] = 'organization'
                 
         # Check for contact information
         if 'contact' in sample:
@@ -113,13 +108,7 @@ def analyze_json_structure(json_data):
         # Check for version - only look for 'version'
         if 'version' in sample:
             field_mapping['Version'] = 'version'
-        # Check for version - only look for 'version'
-        if 'version' in sample:
-            field_mapping['Version'] = 'version'
                 
-        # Check for status - only look for 'status'
-        if 'status' in sample:
-            field_mapping['Status'] = 'status'
         # Check for status - only look for 'status'
         if 'status' in sample:
             field_mapping['Status'] = 'status'
@@ -130,43 +119,6 @@ def analyze_json_structure(json_data):
         return releases_key, field_mapping
     
     return None, {}
-
-def find_entry_line_number(code_json_path, entry_identifier):
-    """
-    Find the actual line number for a specific entry in the code.json file.
-    
-    Args:
-        code_json_path: Path to the code.json file
-        entry_identifier: A unique identifier for the entry (e.g., repository name or URL)
-        
-    Returns:
-        The approximate line number where the entry starts
-    """
-    try:
-        with open(code_json_path, 'r', encoding='utf-8') as f:
-            lines = f.readlines()
-            
-        # Convert the identifier to a string for comparison
-        identifier_str = str(entry_identifier).strip()
-        
-        for i, line in enumerate(lines):
-            # Look for lines containing the identifier
-            if identifier_str in line:
-                # Find the start of the entry (look for opening brace or bracket)
-                start_line = i
-                while start_line > 0:
-                    if '{' in lines[start_line] and ('"name"' in lines[start_line+1] or '"repositoryName"' in lines[start_line+1]):
-                        return start_line + 1  # Return the line number (1-indexed for GitHub)
-                    start_line -= 1
-                
-                # If we couldn't find the start, return the line with the identifier
-                return i + 1  # GitHub uses 1-indexed line numbers
-                
-        # If not found, return a default
-        return 1
-    except Exception as e:
-        print(f"Error finding line number: {e}")
-        return 1
 
 def get_nested_value(data, path):
     """
@@ -221,26 +173,20 @@ def generate_html_table(code_json_path: Path, output_html_path: Path) -> None:
     if not releases:
         print("ℹ️ No releases found in the code.json file.")
         # Create an empty HTML file or handle as preferred
-        output_html_path.parent.mkdir(parents=True, exist_ok=True)
-        empty_html_content = create_html_document("<tbody><tr><td colspan='10'>No data available.</td></tr></tbody>")
-        empty_html_content = create_html_document("<tbody><tr><td colspan='10'>No data available.</td></tr></tbody>")
+        output_html_path.parent.mkdir(parents=True, exist_ok=True) # Ensure directory exists
+        empty_html_content = create_html_document("<tbody><tr><td colspan='9'>No data available.</td></tr></tbody>") # Adjusted colspan
         output_html_path.write_text(empty_html_content, encoding="utf-8")
         print(f"✅ Empty HTML table generated: {output_html_path}")
         return
 
     # Generate preview entries
-    table_data: List[Dict[str, str]] = []
+    table_data: List[Dict[str, Any]] = []
+    all_releases_for_js: List[Dict[str, Any]] = []
     
-    for release in releases:
+    for idx, release in enumerate(releases):
+        all_releases_for_js.append(release) # Store the full release object for JS
         # Use the field mapping from our analysis, or fall back to defaults
         repo_name = str(get_nested_value(release, field_mapping.get('Repository Name', 'name')))
-        
-        # Determine Organization value:
-        # 1. Try the 'organization' field.
-        # 2. If 'organization' is empty or not found, try the 'agency' field.
-        org = str(get_nested_value(release, 'organization')) # Attempt to get from 'organization' field first
-        if not org: # If the value from 'organization' field is empty
-            org = str(get_nested_value(release, 'agency')) # Fallback to 'agency' field
         
         # Determine Organization value:
         # 1. Try the 'organization' field.
@@ -294,55 +240,27 @@ def generate_html_table(code_json_path: Path, output_html_path: Path) -> None:
         elif "dev.azure.com" in repo_url_lower or ".visualstudio.com" in repo_url_lower: # ADO can have older URLs too
             platform = "ADO"
         
-        # Second, check based on repositoryURL content; this can make it Public even if not "openSource"
-        if 'ShareIT-Act/assets/' not in url: # Check the original URL string
-            is_public_value = "Y"
-        repo_url_lower = url.lower()
-        if "github.com" in repo_url_lower:
-            platform = "GitHub"
-        elif "gitlab.com" in repo_url_lower:
-            platform = "GitLab"
-        elif "dev.azure.com" in repo_url_lower or ".visualstudio.com" in repo_url_lower: # ADO can have older URLs too
-            platform = "ADO"
-        
         version = str(get_nested_value(release, field_mapping.get('Version', 'version')))
         status = str(get_nested_value(release, field_mapping.get('Status', 'status')))
 
         # Escape values for use in HTML title attributes
         escaped_repo_name = html.escape(repo_name)
         escaped_org = html.escape(org)
-
-        # Escape values for use in HTML title attributes
-        escaped_repo_name = html.escape(repo_name)
-        escaped_org = html.escape(org)
-
-        # GitHub link to approximate location in code.json
-        code_link_path = code_json_path.name # Default to just the filename if not in a known repo structure
-        if "catalog/code.json" in str(code_json_path).replace("\\", "/"): # Make path comparison OS-agnostic
-            code_link_path = "catalog/code.json" 
-            code_link_path = "catalog/code.json" 
-
-        # Find the actual line number for this entry
-        repo_identifier = repo_name or url  # Use repository name or URL as identifier
-        line_number = find_entry_line_number(code_json_path, repo_identifier)
-        code_link_url = f"https://github.com/CDCgov/ShareIT-Act/blob/main/{code_link_path}#L{line_number}"
+        
+        # Action button for viewing details and suggesting changes
+        actions_button = f'<button class="view-details-btn" data-release-index="{idx}">View Details</button>'
         
         table_data.append({
-            "Repository Name": f'<span title="{escaped_repo_name}">{repo_name}</span>', # Wrap in span with title
-            "Organization": f'<span title="{escaped_org}">{org}</span>',         # Wrap in span with title
             "Repository Name": f'<span title="{escaped_repo_name}">{repo_name}</span>', # Wrap in span with title
             "Organization": f'<span title="{escaped_org}">{org}</span>',         # Wrap in span with title
             "Contact Email": contact,
             "Exemption": exemption_value_to_display,
             "Public": is_public_value,
             "Platform": platform,
-            "Exemption": exemption_value_to_display,
-            "Public": is_public_value,
-            "Platform": platform,
             "Repository URL": f'<a href="{url}" target="_blank">{url}</a>' if url.startswith("http") else url,
             "Version": version,
             "Status": status,
-            "View in code.json": f'<a href="{code_link_url}" target="_blank">View (L{line_number})</a>'
+            "Actions": actions_button # New column for actions
         })
 
     # Convert to DataFrame and sort
@@ -351,19 +269,38 @@ def generate_html_table(code_json_path: Path, output_html_path: Path) -> None:
         df = df.sort_values(by=["Organization", "Repository Name"])
 
     # Generate HTML table from DataFrame
-    # We pre-formatted links, so escape=False is needed.
-    # index=False to avoid writing DataFrame index.
-    table_html = df.to_html(escape=False, index=False, table_id="metadataTable", classes="display", border=0)
+    if not df.empty:
+        # Ensure the 'Actions' column is included if it exists
+        column_order = [
+            "Repository Name", "Organization", "Contact Email", "Exemption", 
+            "Public", "Platform", "Repository URL", "Version", "Status", "Actions"
+        ]
+        # Filter to existing columns in df to prevent errors if a column is missing
+        df_columns = [col for col in column_order if col in df.columns]
+        df_display = df[df_columns]
+        table_html = df_display.to_html(escape=False, index=False, table_id="metadataTable", classes="display", border=0)
+    else:
+        # Define column headers for an empty table to maintain structure
+        empty_headers = ["Repository Name", "Organization", "Contact Email", "Exemption", "Public", "Platform", "Repository URL", "Version", "Status", "Actions"]
+        table_html = f"<table id='metadataTable' class='display'><thead><tr><th>{'</th><th>'.join(empty_headers)}</th></tr></thead><tbody><tr><td colspan='{len(empty_headers)}'>No data available.</td></tr></tbody></table>"
+
     
-    full_html_content = create_html_document(table_html)
+    full_html_content = create_html_document(table_html, all_releases_for_js)
 
     # Save to output file
     output_html_path.parent.mkdir(parents=True, exist_ok=True) # Ensure directory exists
     output_html_path.write_text(full_html_content, encoding="utf-8")
     print(f"✅ HTML table generated: {output_html_path}")
 
-def create_html_document(table_html_content: str) -> str:
+def create_html_document(table_html_content: str, releases_list: List[Dict[str, Any]] = None) -> str:
     """Creates the full HTML document string with DataTables integration."""
+    releases_json_script = ""
+    if releases_list is None:
+        releases_list = [] # Ensure releases_list is always a list for json.dumps
+    # It's good practice to ensure all data passed to json.dumps is serializable.
+    # For this script, 'release' objects are typically dicts from JSON, so they should be fine.
+    releases_json_script = f"<script>\n  const allReleasesData = {json.dumps(releases_list)};\n</script>"
+
     return f"""
     <!DOCTYPE html>
     <html lang="en">
@@ -375,7 +312,6 @@ def create_html_document(table_html_content: str) -> str:
         <script src="https://cdn.datatables.net/1.13.6/js/jquery.dataTables.min.js"></script>
         <style>
             body {{ font-family: sans-serif; margin: 20px; }}
-            table.dataTable th, table.dataTable td {{ padding: 8px; vertical-align: top; }} /* Added vertical-align */
             table.dataTable th, table.dataTable td {{ padding: 8px; vertical-align: top; }} /* Added vertical-align */
             table.dataTable th {{ background-color: #f2f2f2; }}
             /* Set minimum width and no wrap for the Repository Name column (1st column) */
@@ -389,17 +325,16 @@ def create_html_document(table_html_content: str) -> str:
             table.dataTable td:nth-child(2) {{
                 min-width: 30ch;
             }}
-            /* Set minimum width and no wrap for the Repository Name column (1st column) */
-            table.dataTable th:nth-child(1),
-            table.dataTable td:nth-child(1) {{
-                min-width: 10ch; /* Minimum width for 10 characters */
-                white-space: nowrap; /* Prevent text wrapping */
-            }}
-            /* Set minimum width for the Organization column (2nd column) */
-            table.dataTable th:nth-child(2),
-            table.dataTable td:nth-child(2) {{
-                min-width: 30ch;
-            }}
+            /* Modal styles */
+            .modal {{ display:none; position:fixed; z-index:1000; left:0; top:0; width:100%; height:100%; overflow:auto; background-color:rgba(0,0,0,0.4); }}
+            .modal-content {{ background-color:#fefefe; margin:5% auto; padding:20px; border:1px solid #888; width:80%; max-height:85vh; display:flex; flex-direction:column; border-radius: 5px; }}
+            .modal-header {{ display:flex; justify-content:space-between; align-items:center; border-bottom: 1px solid #eee; padding-bottom: 10px; }}
+            .modal-body {{ flex-grow:1; overflow-y:auto; margin-top:15px; margin-bottom:15px; }}
+            .modal-footer {{ text-align:right; border-top: 1px solid #eee; padding-top: 10px; }}
+            .close-modal-btn {{ color:#aaa; font-size:28px; font-weight:bold; cursor:pointer; }}
+            .close-modal-btn:hover, .close-modal-btn:focus {{ color:black; text-decoration:none; }}
+            #modalJsonContent {{ white-space:pre-wrap; word-wrap:break-word; background-color:#f0f0f0; padding:10px; border-radius:5px; max-height: 50vh; overflow-y: auto; }}
+            #modalTitle {{ margin: 0; }}
         </style>
         <script>
             $(document).ready(function () {{
@@ -410,11 +345,58 @@ def create_html_document(table_html_content: str) -> str:
                 }});
             }});
         </script>
+        {releases_json_script}
+        <script>
+            $(document).ready(function () {{
+                var modal = $('#detailsModal');
+                var modalJsonContent = $('#modalJsonContent');
+                var modalTitle = $('#modalTitle');
+                var currentReleaseForModal = null;
+
+                // Use event delegation for dynamically added buttons if DataTables redraws rows
+                $('#metadataTable').on('click', '.view-details-btn', function() {{
+                    var releaseIndex = parseInt($(this).data('release-index'));
+                    currentReleaseForModal = allReleasesData[releaseIndex];
+                    if (currentReleaseForModal) {{
+                        modalTitle.text('Details for: ' + (currentReleaseForModal.name || 'N/A'));
+                        modalJsonContent.text(JSON.stringify(currentReleaseForModal, null, 2));
+                        modal.show();
+                    }}
+                }});
+
+                $('.close-modal-btn').click(function() {{
+                    modal.hide();
+                    currentReleaseForModal = null;
+                }});
+
+                $(window).click(function(event) {{
+                    if (event.target == modal[0]) {{ // Check if the click is on the modal backdrop
+                        modal.hide();
+                        currentReleaseForModal = null;
+                    }}
+                }});
+
+                $('#suggestChangeBtn').click(function() {{
+                    if (!currentReleaseForModal) return;
+
+                    const repoName = currentReleaseForModal.name || 'Unknown Repository';
+                    const repoURL = currentReleaseForModal.repositoryURL || 'N/A'; // Assuming repositoryURL exists
+                    const fullJson = JSON.stringify(currentReleaseForModal, null, 2);
+
+                    const issueTitle = encodeURIComponent(`Metadata Change Suggestion for: ${{repoName}}`);
+                    const issueBodyTemplate = `**Project Name:** ${{repoName}}\\n**Repository URL:** ${{repoURL}}\\n\\n**Describe the change(s) you are suggesting:**\\n\\n*   **Field to Change:** (e.g., \`contact.email\`, \`status\`, \`description\`)\\n*   **Current Value:** (Please copy from the JSON below or the table)\\n*   **Suggested New Value:**\\n*   **Reason for Change:**\\n\\n---\\n**Full JSON for this entry (for reference):**\\n\`\`\`json\\n${{fullJson}}\\n\`\`\`\`;
+                    const issueBody = encodeURIComponent(issueBodyTemplate.trim());
+                    const githubRepoUrl = "https://github.com/CDCgov/ShareIT-Act"; // Make this configurable if needed
+                    const githubIssueUrl = `${{githubRepoUrl}}/issues/new?title=${{issueTitle}}&body=${{issueBody}}`;
+                    
+                    window.open(githubIssueUrl, '_blank');
+                }});
+            }});
+        </script>
     </head>
     <body>
         <h2>CDC Share IT Act - Metadata Preview Table</h2>
-        <p>This table supports filtering, sorting, and links to the <code>code.json</code> source. 
-        The "View in code.json" link points to the line number on GitHub.</p>
+        <p>This table supports filtering and sorting. Click "View Details" to see the full metadata for an entry and to suggest changes.</p>
         {table_html_content}
         <p><small>Showing <span id="entry-count">0</span> of <span id="total-count">0</span> entries</small></p>
         <script>
@@ -431,6 +413,22 @@ def create_html_document(table_html_content: str) -> str:
                 $('#entry-count').text(table.page.info().recordsDisplay);
             }});
         </script>
+        <!-- Modal HTML structure -->
+        <div id="detailsModal" class="modal">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h3 id="modalTitle">Project Details</h3>
+              <span class="close-modal-btn">&times;</span>
+            </div>
+            <div class="modal-body">
+                <h4>Full Metadata Record:</h4>
+                <pre id="modalJsonContent"></pre>
+            </div>
+            <div class="modal-footer">
+              <button id="suggestChangeBtn" class="btn btn-primary">Suggest Change via GitHub Issue</button>
+            </div>
+          </div>
+        </div>
     </body>
     </html>
     """
