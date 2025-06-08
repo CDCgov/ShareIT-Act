@@ -140,9 +140,6 @@
                  <button id="suggestChangeBtn" class="bg-blue-600 text-white font-bold py-2 px-4 rounded-lg hover:bg-blue-700 transition-colors">
                     Suggest Change via Issue
                 </button>
-                <button id="editOnGithubBtn" class="bg-gray-800 text-white font-bold py-2 px-4 rounded-lg hover:bg-black transition-colors">
-                    Edit on GitHub & Create PR
-                </button>
             </div>
         </div>
     </div>
@@ -328,10 +325,10 @@ $(document).ready(function() {
         window.open(`${GITHUB_REPO_URL}/issues/new?title=${issueTitle}&body=${issueBody}`, '_blank');
     });
     
-    $('#editOnGithubBtn').on('click', function() {
-        if (!currentReleaseForModal) return;
-        window.open(`${GITHUB_REPO_URL}/edit/main/${GITHUB_FILE_PATH}`, '_blank');
-    });
+
+
+
+
 
     // --- Initial Load ---
     loadAndProcessData();
