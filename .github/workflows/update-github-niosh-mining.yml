@@ -30,7 +30,7 @@ jobs:
 
       - name: Running backup script
         run: |
-          uv run python main.py niosh-mining
+          uv run python main.py --org niosh-mining --output data/raw
 
       - name: Commit and push changes
         if: github.ref == 'refs/heads/main'

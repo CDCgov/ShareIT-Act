@@ -1,4 +1,3 @@
-from src.codejson import CodeJson
 from src.config import Config
 from src.repository import Repository
 from src.sanitize import Sanitizer
@@ -20,26 +19,26 @@ def main():
   parser.add_argument('--org', required=True, help='GitHub organization name')
   parser.add_argument('--output', help='Output directory path')
   args = parser.parse_args()
-  
+
   org_name = args.org
   now = datetime.now().strftime("%Y-%m-%dT%H-%M-%S")
   print(now)
-  
+
   errors, isVerified = Config().verify()
   if errors or not isVerified:
     print(f'Exiting due to bad credentials in configuration: {errors}')
     sys.exit(1)
-    
+
   credentials = Config().credentials()
   if args.output:
     credentials['raw_data_dir'] = args.output
   elif credentials.get('raw_data_dir') == 'data/raw':
     credentials['raw_data_dir'] = str(Path(__file__).parent.absolute() / 'data/raw')
   print(f'Raw data directory: {credentials["raw_data_dir"]}')
-  
+
   credentials['github_org'] = org_name
   repos = Repository().get_repos(credentials)
-  
+
   sanitizer = Sanitizer()
   sanitized_data = []
   for repo in repos:
