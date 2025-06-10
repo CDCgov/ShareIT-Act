@@ -16,7 +16,7 @@ To help CDC developers, project teams, ADIs, and C/I/Os:
 
 ## 🔍 How to Review Metadata
 
-1. Open the latest **[metadata_preview_table.html](review.csv)** file published in this repository.
+1. Open the latest **[metadata_preview_table.html](https://cdcgov.github.io/ShareIT-Act/index.html)** file published in this repository.
 2. Search by:
    - Repository name
    - Org or CDC program
@@ -35,25 +35,18 @@ To help CDC developers, project teams, ADIs, and C/I/Os:
 
 ## ✏️ How to Submit Changes
 
-There are two complementary ways to ensure your metadata is accurate:
+There are **two** ways to ensure your metadata is accurate:
 
-### 📝 1. Submit a Pull Request (PR) Directly to `code.json`
+### 🚀 1. Use the Interactive Metadata Browser (Recommended)
 
-If you identify incorrect metadata in the preview:
-- [Fork this repository](./CONTRIBUTING_MetadataFix_PR.md)
-- Edit the `code.json` file to correct only the metadata related to your repository
-- In your PR, include:
-  - The repository name and Org
-  - A short explanation of the correction
-  - Any related metadata line numbers or fields changed
-- Label your PR with `metadata-fix`
-- Optionally: also update `metadata_preview_table.html` for review purposes
+1. Open the **[CDC Metadata Browser](https://cdcgov.github.io/ShareIT-Act/index.html)**
+2. Search for your repository and click **"Details"**
+3. Click **"Suggest Change via Issue"** to open a pre-filled GitHub issue with your repository's metadata
+4. Describe what needs to be changed and submit the issue
 
-> ⚠️ These changes will only apply to the current release preview unless made permanent.
+### 🛠️ 2. Update Your `README.md` with Metadata Markers (For Permanent Changes)
 
-### 🛠️ 2. Update Your `README.md` with Metadata Markers
-
-To ensure your corrections are **persistent across future scans**, update your repository’s `README.md` using structured override markers. These markers instruct the scanner to always pull the correct values during metadata generation.
+To ensure your corrections are **persistent across future scans**, update your repository's `README.md` using structured override markers. These markers instruct the scanner to always pull the correct values during metadata generation.
 
 Example:
 
@@ -84,4 +77,5 @@ Exemptions auto-assigned by the AI scanner are also listed in `exempted_log.csv`
 
 ## 📤 Questions or Support
 
-Email [shareit@cdc.gov](mailto:shareit@cdc.gov?subject=Feedback) for help or clarification. Always CC `#ea@cdc.gov` if responding to a formal metadata correction request.
+Email [shareit@cdc.gov](mailto:shareit@cdc.gov?subject=Feedback) for help or clarification. 
+
