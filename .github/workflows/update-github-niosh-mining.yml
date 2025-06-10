@@ -1,15 +1,19 @@
-name: Github Pull - NIOSH Mining
+name: Github Update - NIOSH Mining
 
 on:
   push:
     branches:
       - main
   schedule:
-    - cron: '16 12 * * *' # Every day at 12:16 UTC
+    - cron: "16 12 * * SAT" # Every SAT at 12:16 UTC
   workflow_dispatch:
 
+concurrency:
+  group: ${{ github.workflow }}
+  cancel-in-progress: true
+
 jobs:
-  pull-github-niosh-mining:
+  update-github-niosh-mining:
     runs-on: ubuntu-latest
     permissions:
       contents: write # Write access is needed to push changes back to the repository
@@ -26,7 +30,7 @@ jobs:
 
       - name: Running backup script
         run: |
-          uv run python main.py data/raw/
+          uv run python main.py niosh-mining
 
       - name: Commit and push changes
         if: github.ref == 'refs/heads/main'
@@ -36,6 +40,6 @@ jobs:
           git config --local user.name "github-actions[bot]"
           git add data/raw/
           if ! git diff-index --quiet HEAD; then
-            git commit -m "Nightly update of raw code.json changes - $(date +'%Y-%m-%d')"
+            git commit -m "Weekly update of raw code.json changes - $(date +'%Y-%m-%d')"
             git push -u origin main
           fi

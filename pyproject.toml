@@ -8,3 +8,8 @@ dependencies = [
     "pygithub>=2.6.1",
     "python-dotenv>=1.1.0",
 ]
+
+[dependency-groups]
+dev = [
+    "pre-commit>=4.2.0",
+]
