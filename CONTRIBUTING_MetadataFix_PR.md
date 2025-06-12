@@ -48,10 +48,10 @@ This guide explains how to submit metadata corrections to the CDC Share IT Act r
 If you'd like your metadata fix to **persist across future scans**, also update your repository’s `README.md` file using override markers such as:
 
 ```md
-Org: NCCDPHP  
-Contact Email: chronicdev@cdc.gov  
-Exemption: exemptByAgencySystem  
-Exemption Justification: This code is internal to CDC and not intended for reuse.  
+Org: NCCDPHP
+Contact Email: chronicdev@cdc.gov
+Exemption: exemptByAgencySystem
+Exemption Justification: This code is internal to CDC and not intended for reuse.
 ```
 
 📘 [View override marker documentation](https://docs.cdc.gov/docs/ea/codeshare/implementation-guide#readmemd-override-optional-markers)
@@ -66,5 +66,5 @@ You do **not** need write access to submit PRs. Your submission will be reviewed
 
 ## 🆘 Questions?
 
-Email: [shareit@cdc.gov](mailto:shareit@cdc.gov?subject=Metadata%20Correction%20Help)  
+Email: [shareit@cdc.gov](mailto:shareit@cdc.gov?subject=Metadata%20Correction%20Help)
 Always CC: `#ea@cdc.gov` if responding to a formal metadata correction request.
