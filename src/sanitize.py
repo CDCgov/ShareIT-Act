@@ -1,6 +1,5 @@
-import base64
-from github.GithubException import UnknownObjectException
 from datetime import datetime
+from github.GithubException import UnknownObjectException
 
 class Sanitizer:
   def __init__(self):
@@ -32,16 +31,19 @@ class Sanitizer:
           "URL": "https://www.apache.org/licenses/LICENSE-2.0"
         })
 
-      readme_content = None
       readme_url = ""
+      # readme_content = None
       try:
         readme = repo.get_readme()
         readme_url = readme.html_url
-        b = base64.b64decode(readme.content)
-        try: readme_content = b.decode('utf-8')
-        except UnicodeDecodeError:
-          try: readme_content = b.decode('latin-1')
-          except Exception: readme_content = b.decode('utf-8', errors='ignore')
+        # b = base64.b64decode(readme.content)
+        # try:
+        #   readme_content = b.decode('utf-8')
+        # except UnicodeDecodeError:
+        #   try:
+        #     readme_content = b.decode('latin-1')
+        #   except Exception:
+        #     readme_content = b.decode('utf-8', errors='ignore')
       except UnknownObjectException:
         pass
       except Exception as e:
