@@ -14,4 +14,3 @@ class Repository:
     for repo in g.get_organization(credentials.get('github_org')).get_repos(type='all'):
       repos.append(repo)
     return repos
-

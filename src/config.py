@@ -22,7 +22,7 @@ class Config:
       'github_org': os.environ.get('GH_ORG', ''),
       'github_app_id': app_id,
       'github_app_installation_id': installation_id,
-      'github_app_private_key': os.environ.get('GH_PRIVATE_KEY', '')
+      'github_app_private_key': os.environ.get('GH_APP_PRIVATE_KEY', '')
     }
 
   def verify(self):
