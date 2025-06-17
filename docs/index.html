@@ -6,10 +6,10 @@
     <title>CDC Metadata Browser</title>
     <!-- Tailwind CSS for modern styling -->
     <script src="https://cdn.tailwindcss.com"></script>
-    
+
     <!-- DataTables (Responsive Extension Removed) -->
     <link rel="stylesheet" href="https://cdn.datatables.net/2.0.8/css/dataTables.tailwindcss.min.css">
-    
+
     <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
     <script src="https://cdn.datatables.net/2.0.8/js/dataTables.min.js"></script>
     <script src="https://cdn.datatables.net/2.0.8/js/dataTables.tailwindcss.min.js"></script>
@@ -74,7 +74,7 @@
         }
 
         /* --- RESPONSIVE TABLE CONSTRAINTS --- */
-        
+
         /* Table container */
         #tableContainer {
             margin-left: 0.5rem !important;
@@ -83,28 +83,28 @@
             overflow-y: visible !important;
             -webkit-overflow-scrolling: touch;
         }
-        
+
         /* Set table layout to fixed for predictable column widths */
         #metadataTable {
             table-layout: fixed;
             width: 100%;
         }
-        
+
         /* Style the horizontal scrollbar */
         #tableContainer::-webkit-scrollbar {
             height: 8px;
         }
-        
+
         #tableContainer::-webkit-scrollbar-track {
             background: #f1f5f9;
             border-radius: 4px;
         }
-        
+
         #tableContainer::-webkit-scrollbar-thumb {
             background: #cbd5e1;
             border-radius: 4px;
         }
-        
+
         #tableContainer::-webkit-scrollbar-thumb:hover {
             background: #94a3b8;
         }
@@ -131,7 +131,7 @@
         /* --- AESTHETIC IMPROVEMENTS --- */
 
         /* Style DataTables inputs and pagination for a clean, white background */
-        .dt-search input, 
+        .dt-search input,
         .dt-length select,
         .dt-paging .dt-paging-button {
             background-color: white !important;
@@ -158,12 +158,12 @@
         table.dataTable tbody tr {
             background-color: white !important;
         }
-        
+
         /* Add a subtle hover effect to rows */
         table.dataTable tbody tr:hover {
             background-color: #f9fafb !important; /* Tailwind bg-gray-50 */
         }
-        
+
         /* Utility class for truncating text in table cells */
         .dt-truncate {
             white-space: nowrap;
@@ -171,7 +171,7 @@
             text-overflow: ellipsis;
             cursor: default;
         }
-        
+
     </style>
     <!-- Use Google Fonts for better typography -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -196,7 +196,7 @@
             <div id="loader"></div>
             <p id="loadingStatus" class="mt-4 text-gray-600 font-medium">Loading metadata...</p>
         </div>
-        
+
         <!-- Table container enables "last resort" scrolling on very small screens -->
         <div id="tableContainer" class="hidden overflow-x-auto bg-white p-4 rounded-lg shadow-md">
             <table id="metadataTable" class="display" style="width:100%">
@@ -232,8 +232,8 @@
 // CONFIGURATION
 // =================================================================================
 const CODE_JSON_PATH = './catalog/code.json';
-const GITHUB_REPO_URL = 'https://github.com/CDCgov/ShareIT-Act'; 
-const GITHUB_FILE_PATH = 'docs/catalog/code.json';  
+const GITHUB_REPO_URL = 'https://github.com/CDCgov/ShareIT-Act';
+const GITHUB_FILE_PATH = 'docs/catalog/code.json';
 // =================================================================================
 
 // Main function to fetch and render data
@@ -282,23 +282,23 @@ $(document).ready(function() {
                 $('#loader').hide();
                 return;
             }
-            
+
             allReleasesData = releases;
-            
+
             const tableData = releases.map((release, index) => {
                 const repoName = getNestedValue(release, 'name', 'N/A');
                 let org = getNestedValue(release, 'organization', getNestedValue(release, 'agency', 'N/A'));
                 const contact = getNestedValue(release, 'contact.email', getNestedValue(release, 'contact', 'N/A'));
                 const usageType = getNestedValue(release, 'permissions.usageType', '');
                 const exemption = (usageType && !['governmentWideReuse', 'openSource'].includes(usageType)) ? usageType : '';
-                
+
                 const repoURL = getNestedValue(release, 'repositoryURL', '');
                 const privateId = getNestedValue(release, 'privateID', ''); // Directly use 'privateID'
                 const repoVisibility = getNestedValue(release, 'repositoryVisibility', '').toLowerCase();
                 const readmeUrl = getNestedValue(release, 'readme_url', '');
-                
+
                 let isPublic = (usageType === 'openSource' || (repoURL && !repoURL.includes('ShareIT-Act/assets/'))) ? 'Y' : 'N';
-                
+
                 let platform = 'Unknown';
 
                 if (privateId) { // Check if privateId has a truthy value (not empty string)
@@ -312,7 +312,7 @@ $(document).ready(function() {
                         platform = detectPlatformFromString(readmeUrl);
                     }
                 }
-                
+
                 return {
                     'Repository Name': repoName,
                     'Organization': org,
@@ -359,15 +359,15 @@ $(document).ready(function() {
             ],
             columnDefs: [
                 {
-                    targets: '_all', 
+                    targets: '_all',
                     render: function(data, type, row, meta) {
                         if (meta.col === 8) {
                              return data;
                         }
 
                         if (type === 'display') {
-                            const url = (typeof data === 'string' && data.startsWith('http')) 
-                                ? `<a href="${data}" target="_blank" rel="noopener noreferrer" class="text-blue-600 hover:underline">${data}</a>` 
+                            const url = (typeof data === 'string' && data.startsWith('http'))
+                                ? `<a href="${data}" target="_blank" rel="noopener noreferrer" class="text-blue-600 hover:underline">${data}</a>`
                                 : data;
                             return `<div class="dt-truncate" title="${data}">${url}</div>`;
                         }
@@ -385,7 +385,7 @@ $(document).ready(function() {
             pageLength: 50,   // Default number of rows per page (as per current file content)
             lengthMenu: [10, 25, 50, 100, 250], // Available page lengths (as per current file content)
             language: {
-                search: "", 
+                search: "",
                 searchPlaceholder: "Search records...",
             },
             layout: {
@@ -395,7 +395,7 @@ $(document).ready(function() {
                 bottomEnd: 'paging'
             }
         });
-        
+
         // --- Event Listeners ---
         $('#metadataTable tbody').on('click', '.view-details-btn', function() {
             const releaseIndex = $(this).data('release-index');
@@ -413,13 +413,13 @@ $(document).ready(function() {
         $('#detailsModal').addClass('hidden');
         currentReleaseForModal = null;
     }
-    
+
     $(document).keydown(function(event) {
         if (event.key === "Escape") {
             closeModal();
         }
     });
-    
+
     $('#detailsModal').on('click', function(event) {
         if (event.target === this) {
             closeModal();
@@ -435,7 +435,7 @@ $(document).ready(function() {
         const issueBody = encodeURIComponent(`**Project Name:** ${repoName}\n**Repository URL:** ${repoURL}\n\n**Describe the change(s):**\n\n---\n**Full JSON record:**\n\`\`\`json\n${fullJson}\n\`\`\``);
         window.open(`${GITHUB_REPO_URL}/issues/new?title=${issueTitle}&body=${issueBody}`, '_blank');
     });
-    
+
 
 
 

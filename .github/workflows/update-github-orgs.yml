@@ -1,0 +1,92 @@
+name: Github Org Update
+
+on:
+  push:
+    branches:
+      - main
+  workflow_dispatch:
+
+concurrency:
+  group: ${{ github.workflow }}
+  cancel-in-progress: true
+
+jobs:
+  update-github-org:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: read
+    strategy:
+      matrix:
+        org: [
+            # cdc-data,
+            # cdc-his,
+            # cdcai,
+            # cdcent,
+            # cdcepi,
+            # cdcgov,
+            # informaticslab,
+            niosh-mining,
+          ]
+      fail-fast: false # continues on update failure,
+      max-parallel: 1
+    environment: org-${{ matrix.org }}
+    steps:
+      - uses: actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683 # v4.2.2
+        with:
+          fetch-depth: 0
+          persist-credentials: true
+
+      - name: Install the latest version of uv
+        uses: astral-sh/setup-uv@0c5e2b8115b80b4c7c5ddf6ffdd634974642d182 # v5.4.1
+        with:
+          version: "latest"
+
+      - name: Running backup script
+        env:
+          GH_ORG: ${{ secrets.GH_ORG }}
+          GH_APP_ID: ${{ secrets.GH_APP_ID }}
+          GH_APP_INSTALLATION_ID: ${{ secrets.GH_APP_INSTALLATION_ID }}
+          GH_APP_PRIVATE_KEY: ${{ secrets.GH_APP_PRIVATE_KEY }}
+        run: |
+          uv run python main.py --org ${{ matrix.org }} --output data/raw
+
+      - name: Upload raw data files
+        uses: actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02 # v4.6.2
+        with:
+          name: raw-data-${{ matrix.org }}
+          path: data/raw/
+          retention-days: 1
+
+  commit-changes:
+    needs: update-github-org
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683 # v4.2.2
+        with:
+          fetch-depth: 0
+          persist-credentials: true
+
+      - name: Create data directories
+        run: mkdir -p data/raw
+
+      - name: Download all raw data artifacts
+        uses: actions/download-artifact@d3f86a106a0bac45b974a628896c90dbdf5c8093 # v4.3.0
+        with:
+          path: artifacts
+          pattern: raw-data-*
+          merge-multiple: true
+
+      - name: Copy artifacts to data directory
+        run: |
+          # Copy all files from artifacts to data/raw
+          cp -R artifacts/* data/raw/
+
+          # List files for verification
+          echo "Files in data/raw:"
+          ls -la data/raw/
+
+      - name: Commit and push changes
+        run: |
+          git status

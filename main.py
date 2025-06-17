@@ -1,0 +1,55 @@
+from src.config import Config
+from src.repository import Repository
+from src.sanitize import Sanitizer
+
+from datetime import datetime
+from pathlib import Path
+import sys
+import json
+import argparse
+
+###############################################################
+## The intention is to provide a simple interface to update
+## us with existing repositories in a Github organization, and
+## then sanitize the data to a common format such as code.json
+## to provide the user with all of the known repositories.
+###############################################################
+def main():
+  parser = argparse.ArgumentParser(description='Process GitHub organization')
+  parser.add_argument('--org', required=True, help='GitHub organization name')
+  parser.add_argument('--output', help='Output directory path')
+  args = parser.parse_args()
+
+  org_name = args.org
+  now = datetime.now().strftime("%Y-%m-%dT%H-%M-%S")
+  print(now)
+
+  errors, isVerified = Config().verify()
+  if errors or not isVerified:
+    print(f'Exiting due to bad credentials in configuration: {errors}')
+    sys.exit(1)
+
+  credentials = Config().credentials()
+  if args.output:
+    credentials['raw_data_dir'] = args.output
+  elif credentials.get('raw_data_dir') == 'data/raw':
+    credentials['raw_data_dir'] = str(Path(__file__).parent.absolute() / 'data/raw')
+  print(f'Raw data directory: {credentials["raw_data_dir"]}')
+
+  credentials['github_org'] = org_name
+  repos = Repository().get_repos(credentials)
+
+  sanitizer = Sanitizer()
+  sanitized_data = []
+  for repo in repos:
+    data = sanitizer.get_repository_metadata(repo)
+    sanitized_data.append(data)
+  output_dir = Path(credentials["raw_data_dir"])
+  output_dir.mkdir(parents=True, exist_ok=True)
+  output_file = output_dir / f"repo-{org_name}.json"
+  with open(output_file, 'w') as f:
+    json.dump(sanitized_data, f, indent=2)
+  print(f"Data saved to {output_file}")
+
+if __name__ == "__main__":
+  main()
