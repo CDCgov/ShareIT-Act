@@ -13,3 +13,8 @@ repos:
     hooks:
       - id: ruff
         exclude: ^data/raw/,^env/,^docs/
+  - repo: https://github.com/gitleaks/gitleaks
+    rev: v8.27.2
+    hooks:
+      - id: gitleaks
+        exclude: ^data/raw/,^env/
