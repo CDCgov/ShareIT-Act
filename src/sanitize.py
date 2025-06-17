@@ -20,7 +20,7 @@ class Sanitizer:
         if lang_dict:
           languages = list(lang_dict.keys())
       except Exception as e:
-        print(f"Error fetching languages for {repo.full_name}: {e}", exc_info=True)
+        print(f"Error fetching languages for {repo.full_name}: {e}")
 
       licenses = []
       if repo.license:
@@ -47,7 +47,7 @@ class Sanitizer:
       except UnknownObjectException:
         pass
       except Exception as e:
-        print(f"Error fetching README for {repo.name}: {e}", exc_info=True)
+        print(f"Error fetching README for {repo.name}: {e}")
 
       try:
         topics = repo.get_topics()
@@ -86,5 +86,5 @@ class Sanitizer:
         "privateID": str(repo.private)
       }
     except Exception as e:
-      print(f"Failed processing repository {repo.full_name}: {e}", exc_info=True)
+      print(f"Failed processing repository {repo.full_name}: {e}")
       return None
