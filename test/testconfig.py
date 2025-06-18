@@ -7,11 +7,12 @@ class TestConfig:
     config.credentials = MagicMock(return_value={
       "github_app_id": "12345",
       "github_app_installation_id": "67890",
-      "github_app_private_key": "some-private-key",
+      "github_app_private_key": "-----BEGIN RSA PRIVATE KEY-----",
       "github_org": "test-org"
     })
 
     errors, is_valid = config.verify()
+    print(errors)
     assert is_valid is True
     assert len(errors) == 0
 
