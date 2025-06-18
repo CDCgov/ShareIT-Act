@@ -48,5 +48,8 @@ def main():
     json.dump(sanitized_data, f, indent=2)
   print(f"Data saved to {output_file}")
 
+  now = datetime.now().strftime("%Y-%m-%dT%H-%M-%S")
+  print(f"Completed processing at {now}")
+
 if __name__ == "__main__":
   main()
