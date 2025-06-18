@@ -16,11 +16,9 @@ import argparse
 ###############################################################
 def main():
   parser = argparse.ArgumentParser(description='Process GitHub organization')
-  parser.add_argument('--org', required=True, help='GitHub organization name')
   parser.add_argument('--output', help='Output directory path')
   args = parser.parse_args()
 
-  org_name = args.org
   now = datetime.now().strftime("%Y-%m-%dT%H-%M-%S")
   print(now)
 
@@ -35,8 +33,7 @@ def main():
   elif credentials.get('raw_data_dir') == 'data/raw':
     credentials['raw_data_dir'] = str(Path(__file__).parent.absolute() / 'data/raw')
   print(f'Raw data directory: {credentials["raw_data_dir"]}')
-
-  credentials['github_org'] = org_name
+  org_name = credentials.get('github_org', '')
   repos = Repository().get_repos(credentials)
 
   sanitizer = Sanitizer()
