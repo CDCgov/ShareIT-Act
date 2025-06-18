@@ -51,7 +51,7 @@ jobs:
           GH_APP_INSTALLATION_ID: ${{ secrets.GH_APP_INSTALLATION_ID }}
           GH_APP_PRIVATE_KEY: ${{ secrets.GH_APP_PRIVATE_KEY }}
         run: |
-          uv run python main.py --org ${{ matrix.org }} --output data/raw
+          uv run python main.py --output data/raw
 
       - name: Upload raw data files
         uses: actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02 # v4.6.2
