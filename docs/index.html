@@ -338,13 +338,11 @@ $(document).ready(function() {
                 let org = getNestedValue(release, 'organization', getNestedValue(release, 'agency', 'N/A'));
                 const contact = getNestedValue(release, 'contact.email', getNestedValue(release, 'contact', 'N/A'));
                 const usageType = getNestedValue(release, 'permissions.usageType', '');
-                const exemption = (usageType && !['governmentWideReuse', 'openSource'].includes(usageType)) ? usageType : '';
-                
+                const exemption = (usageType && !['governmentWideReuse', 'openSource'].includes(usageType)) ? usageType : '';        
                 const repoURL = getNestedValue(release, 'repositoryURL', '');
                 const privateId = getNestedValue(release, 'privateID', ''); // Directly use 'privateID'
                 const repoVisibility = getNestedValue(release, 'repositoryVisibility', '').toLowerCase();
-                const readmeUrl = getNestedValue(release, 'readme_url', '');
-                
+                const readmeUrl = getNestedValue(release, 'readme_url', '');             
                 let isPublic = (usageType === 'openSource' || (repoURL && !repoURL.includes('ShareIT-Act/assets/'))) ? 'Y' : 'N';
                 
                 let platform = 'Unknown';
