@@ -20,7 +20,7 @@ def main():
   args = parser.parse_args()
 
   now = datetime.now().strftime("%Y-%m-%dT%H-%M-%S")
-  print(now)
+  print(f"Process starting: {now}")
 
   errors, isVerified = Config().verify()
   if errors or not isVerified:
@@ -28,6 +28,7 @@ def main():
     sys.exit(1)
 
   credentials = Config().credentials()
+  print(f'Targeting GitHub organization: https://github.com/{credentials.get("github_org", "")}')
   if args.output:
     credentials['raw_data_dir'] = args.output
   elif credentials.get('raw_data_dir') == 'data/raw':
@@ -47,6 +48,9 @@ def main():
   with open(output_file, 'w') as f:
     json.dump(sanitized_data, f, indent=2)
   print(f"Data saved to {output_file}")
+
+  now = datetime.now().strftime("%Y-%m-%dT%H-%M-%S")
+  print(f"Completed processing at {now}")
 
 if __name__ == "__main__":
   main()
