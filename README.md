@@ -44,10 +44,10 @@ This is the **most direct and permanent method** for correcting your **Organizat
 1.  In your repository, open the `README.md` file for editing.
 2.  Add one or more of the following markers in the file, each on its own line. Place them rather closer to the top of the file to facilitate the scanner processing these.  Example:
 ```md
-Org: NCCDPHP  
-Contact Email: chronicdev@cdc.gov  
-Exemption: exemptByAgencySystem  
-Exemption Justification: This code is used only within CDC infrastructure and is not reusable externally.  
+Org: NCCDPHP
+Contact Email: chronicdev@cdc.gov
+Exemption: exemptByAgencySystem
+Exemption Justification: This code is used only within CDC infrastructure and is not reusable externally.
 ```
 3.  Commit this change to your repository's default branch.
 👉 For a complete list of available markers, please see the [CDC Metadata Implementation Guide](https://docs.cdc.gov/docs/ea/codeshare/implementation-guide#readmemd-override-optional-markers).
@@ -80,5 +80,4 @@ Exemptions auto-assigned by the AI scanner are also listed in `exempted_log.csv`
 
 ## 📤 Questions or Support
 
-Email [shareit@cdc.gov](mailto:shareit@cdc.gov?subject=Feedback) for help or clarification. 
-
+Email [shareit@cdc.gov](mailto:shareit@cdc.gov?subject=Feedback) for help or clarification.

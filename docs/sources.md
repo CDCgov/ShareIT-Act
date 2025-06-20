@@ -24,9 +24,9 @@ The [Enterprise DevSecOps](mailto:devsecops@cdc.gov) team inherited [the documen
 - `Public*` means that there are internal and private repositories hosted in a publicly hosted domain (ex. Github.com).
 - `Internal` means it is hosted internal and only accessible through CDC network.
 
-## Depreciated
+## Deprecated
 
-These Code Server Instances are depreciated and no longer used.
+These Code Server Instances are Deprecated and no longer used.
 
 | Code Server Instance          | Organization | URL                                    | CDC Internal |
 | ----------------------------- | ------------ | -------------------------------------- | ------------ |
