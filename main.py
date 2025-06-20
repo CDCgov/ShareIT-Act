@@ -28,6 +28,7 @@ def main():
     sys.exit(1)
 
   credentials = Config().credentials()
+  print(f'Targeting GitHub organization: https://github.com/{credentials.get("github_org", "")}')
   if args.output:
     credentials['raw_data_dir'] = args.output
   elif credentials.get('raw_data_dir') == 'data/raw':
