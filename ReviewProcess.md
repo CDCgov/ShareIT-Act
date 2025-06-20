@@ -58,10 +58,10 @@ To ensure your corrections are **persistent across future scans**, update your r
 Example:
 
 ```md
-Org: NCCDPHP  
-Contact Email: chronicdev@cdc.gov  
-Exemption: exemptByAgencySystem  
-Exemption Justification: This code is used only within CDC infrastructure and is not reusable externally.  
+Org: NCCDPHP
+Contact Email: chronicdev@cdc.gov
+Exemption: exemptByAgencySystem
+Exemption Justification: This code is used only within CDC infrastructure and is not reusable externally.
 ```
 
 👉 See the full list of markers and usage examples in the [CDC Metadata Implementation Guide](https://docs.cdc.gov/docs/ea/codeshare/implementation-guide#readmemd-override-optional-markers).
