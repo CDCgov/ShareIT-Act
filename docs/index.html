@@ -193,13 +193,11 @@
     <div class="container mx-auto p-4 md:p-8">
         <!-- Loading Indicator -->
         <div id="loadingState" class="flex flex-col items-center justify-center p-10 bg-white rounded-lg shadow-md ">
-        <div id="loadingState" class="flex flex-col items-center justify-center p-10 bg-white rounded-lg shadow-md ">
             <div id="loader"></div>
             <p id="loadingStatus" class="mt-4 text-gray-600 font-medium">Loading metadata...</p>
         </div>
         
         <!-- Table container enables "last resort" scrolling on very small screens -->
-        <div id="tableContainer" class="hidden bg-white p-4 rounded-lg shadow-md">
         <div id="tableContainer" class="hidden bg-white p-4 rounded-lg shadow-md">
             <table id="metadataTable" class="display" style="width:100%">
                 <!-- Table headers will be populated by DataTables -->
@@ -252,9 +250,9 @@
                 <div class="bg-gray-100 p-4 rounded-md my-4">
                     <h5 class="font-semibold">Example:</h5>
                     <pre class="bg-transparent p-0"><code>Org: NCCDPHP
-Contact Email: chronicdev@cdc.gov
+Contact Email: chronic-shareit@cdc.gov
 Exemption: exemptByAgencySystem
-Exemption Justification: This code is used only within CDC infrastructure and is not reusable externally.</code></pre>
+Exemption Justification: This code is used only within CDC infrastructure.</code></pre>
                 </div>
                 <p>Once you commit this change to your repository's default branch, the metadata will be automatically updated during the next scan cycle.</p>
                 <p class="mt-4">
@@ -286,11 +284,6 @@ $(document).ready(function() {
     let allReleasesData = [];
     let dataTableInstance = null;
     let currentReleaseForModal = null;
-
-    // --- Button Visibility ---
-    if (!ENABLE_ISSUE_SUGGESTION) {
-        $('#suggestChangeBtn').hide();
-    }
 
     // --- Button Visibility ---
     if (!ENABLE_ISSUE_SUGGESTION) {
@@ -466,7 +459,6 @@ $(document).ready(function() {
     // --- Modal Functionality ---
     window.closeModal = function() {
         $('.modal').addClass('hidden'); // Close all modals
-        $('.modal').addClass('hidden'); // Close all modals
         currentReleaseForModal = null;
     }
 
@@ -477,15 +469,9 @@ $(document).ready(function() {
     });
     
     $('.modal').on('click', function(event) {
-    
-    $('.modal').on('click', function(event) {
         if (event.target === this) {
             closeModal();
         }
-    });
-
-    $('#selfServiceChangeBtn').on('click', function() {
-        $('#instructionsModal').removeClass('hidden');
     });
 
     $('#selfServiceChangeBtn').on('click', function() {
