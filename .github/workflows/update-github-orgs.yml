@@ -21,16 +21,16 @@ jobs:
     strategy:
       matrix:
         org: [
-            # cdc-data,
-            # cdc-his,
-            # cdcai,
+            cdc-data,
+            cdc-his,
+            cdcai,
             # cdcent,
-            # cdcepi,
-            # cdcgov,
+            cdcepi,
+            cdcgov,
             informaticslab,
-            # niosh-mining,
+            niosh-mining,
           ]
-      fail-fast: false # continues on update failure,
+      fail-fast: false # continues on update failure
       max-parallel: 1
     environment: org-${{ matrix.org }}
     steps:
