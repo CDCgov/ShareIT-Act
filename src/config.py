@@ -11,7 +11,6 @@ class Config:
       app_id = int(app_id) if app_id else 0
     except ValueError:
       app_id = 0
-
     try:
       installation_id = int(installation_id) if installation_id else 0
     except ValueError:
@@ -22,33 +21,36 @@ class Config:
       'github_app_id': app_id,
       'github_app_installation_id': installation_id,
       'github_app_private_key': os.environ.get('GH_APP_PRIVATE_KEY', ''),
-      'github_pat': os.environ.get('GH_PAT_TOKEN', '')
+      'github_token': os.environ.get('GH_PAT_TOKEN', '')
     }
 
   def verify_github_credentials(self, config):
     errors = []
-    using_app = False
-    using_pat = False
-    if any(key in config for key in ['github_app_id', 'github_app_installation_id', 'github_app_private_key']):
-      using_app = True
-      if 'github_app_id' not in config or not config['github_app_id']:
-        errors.append("GitHub App ID is missing")
-      if 'github_app_installation_id' not in config or not config['github_app_installation_id']:
-        errors.append("GitHub App Installation ID is missing")
-      if 'github_app_private_key' not in config or not config['github_app_private_key']:
-        errors.append("GitHub App Private Key is missing")
-      elif not config['github_app_private_key'].strip().startswith('-----BEGIN RSA PRIVATE KEY-----'):
-        errors.append("GitHub App Private Key is invalid (must be a valid RSA private key)")
     if 'github_token' in config and config['github_token']:
-      using_pat = True
       if not config['github_token'].startswith(('ghp_', 'github_pat_')):
         errors.append("GitHub token appears to be invalid (should start with 'ghp_' or 'github_pat_')")
-    if using_app and using_pat:
-      errors.append("Both GitHub App and Personal Access Token configured. Please use only one authentication method.")
-    if not using_app and not using_pat:
+      else:
+        return [], True
+
+    has_app_id = 'github_app_id' in config and config['github_app_id']
+    has_installation_id = 'github_app_installation_id' in config and config['github_app_installation_id']
+    has_private_key = 'github_app_private_key' in config and config['github_app_private_key']
+    if has_app_id and has_installation_id and has_private_key:
+      if not config['github_app_private_key'].strip().startswith('-----BEGIN RSA PRIVATE KEY-----'):
+        errors.append("GitHub App Private Key is invalid (must be a valid RSA private key)")
+      else:
+        return [], True
+
+    if has_app_id or has_installation_id or has_private_key:
+      if not has_app_id:
+        errors.append("GitHub App ID is missing")
+      if not has_installation_id:
+        errors.append("GitHub App Installation ID is missing")
+      if not has_private_key:
+        errors.append("GitHub App Private Key is missing")
+    if not errors:
       errors.append("No GitHub authentication configured. Please provide either GitHub App credentials or a Personal Access Token.")
-    is_valid = len(errors) == 0
-    return errors, is_valid
+    return errors, False
 
   def verify(self):
     config = self.credentials()

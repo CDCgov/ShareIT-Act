@@ -24,7 +24,6 @@ class TestConfig:
     })
 
     errors, is_valid = config.verify()
-
     assert is_valid is True
     assert len(errors) == 0
 
@@ -91,9 +90,7 @@ class TestConfig:
     })
 
     errors, is_valid = config.verify()
-
-    assert is_valid is False
-    assert "Both GitHub App and Personal Access Token configured. Please use only one authentication method." in errors
+    assert is_valid is True
 
   def test_verify_none_configured(self):
     config = Config()
