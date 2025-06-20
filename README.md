@@ -16,7 +16,7 @@ To help CDC developers, project teams, ADIs, and C/I/Os:
 
 ## 🔍 How to Review Metadata
 
-1. Open the latest **[metadata_preview_table.html](https://cdcgov.github.io/ShareIT-Act/index.html)** file published in this repository.
+1. Open the latest **[CDC Metadata Browser](https://cdcgov.github.io/ShareIT-Act/index.html)** file published in this repository.
 2. Search by:
    - Repository name
    - Org or CDC program
@@ -35,30 +35,33 @@ To help CDC developers, project teams, ADIs, and C/I/Os:
 
 ## ✏️ How to Submit Changes
 
-There are **two** ways to ensure your metadata is accurate:
+There are two primary ways to ensure your metadata is accurate, depending on the type of change.
+ 
+### 🚀 1. Update Your `README.md` (Recommended for Org, Email, & Exemptions)
+ 
+This is the **most direct and permanent method** for correcting your **Organization**, **Contact Email**, or **Exemption** status. The automated scanner will use these markers to override incorrect values on the next scan.
 
-### 🚀 1. Use the Interactive Metadata Browser (Recommended)
-
-1. Open the **[CDC Metadata Browser](https://cdcgov.github.io/ShareIT-Act/index.html)**
-2. Search for your repository and click **"Details"**
-3. Click **"Suggest Change via Issue"** to open a pre-filled GitHub issue with your repository's metadata
-4. Describe what needs to be changed and submit the issue
-
-### 🛠️ 2. Update Your `README.md` with Metadata Markers (For Permanent Changes)
-
-To ensure your corrections are **persistent across future scans**, update your repository's `README.md` using structured override markers. These markers instruct the scanner to always pull the correct values during metadata generation.
-
-Example:
-
+1.  In your repository, open the `README.md` file for editing.
+2.  Add one or more of the following markers in the file, each on its own line. Place them rather closer to the top of the file to facilitate the scanner processing these.  Example:
 ```md
 Org: NCCDPHP
 Contact Email: chronicdev@cdc.gov
 Exemption: exemptByAgencySystem
 Exemption Justification: This code is used only within CDC infrastructure and is not reusable externally.
 ```
+3.  Commit this change to your repository's default branch.
+👉 For a complete list of available markers, please see the [CDC Metadata Implementation Guide](https://docs.cdc.gov/docs/ea/codeshare/implementation-guide#readmemd-override-optional-markers).
 
-👉 See the full list of markers and usage examples in the [CDC Metadata Implementation Guide](https://docs.cdc.gov/docs/ea/codeshare/implementation-guide#readmemd-override-optional-markers).
-
+### 🛠️ 2. Use the Interactive Metadata Browser (For All Other Changes)
+ 
+For changes to any other metadata field, you can suggest an update by creating a GitHub issue directly from the browser.
+ 
+1.  Open the **[CDC Metadata Browser](https://cdcgov.github.io/ShareIT-Act/index.html)**.
+2.  Search for your repository and click the **"Details"** button.
+3.  In the pop-up window, click **"Update Metadata via README"** to see instructions for the most common changes. For other changes, click **"Suggest Other Change via Issue"** (if enabled) to open a pre-filled GitHub issue.
+4.  Describe the changes you need and submit the issue for review.
+ 
+*Note: This button may be disabled if the support team is not currently accepting issue-based suggestions.*
 ---
 
 ## 🕒 Review Deadlines & Schedule
