@@ -20,7 +20,7 @@ def main():
   args = parser.parse_args()
 
   now = datetime.now().strftime("%Y-%m-%dT%H-%M-%S")
-  print(now)
+  print(f"Process starting: {now}")
 
   errors, isVerified = Config().verify()
   if errors or not isVerified:

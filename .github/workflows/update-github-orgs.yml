@@ -27,8 +27,8 @@ jobs:
             # cdcent,
             # cdcepi,
             # cdcgov,
-            # informaticslab,
-            niosh-mining,
+            informaticslab,
+            # niosh-mining,
           ]
       fail-fast: false # continues on update failure,
       max-parallel: 1
