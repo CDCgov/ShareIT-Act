@@ -1,6 +1,7 @@
 from src.config import Config
 from src.repository import Repository
 from src.sanitize import Sanitizer
+from src.combine import Combine
 
 from datetime import datetime
 from pathlib import Path
@@ -17,10 +18,21 @@ import argparse
 def main():
   parser = argparse.ArgumentParser(description='Process GitHub organization')
   parser.add_argument('--output', help='Output directory path')
+  parser.add_argument('--combine', action='store_true', help='Combine all JSON files in data/raw directory')
   args = parser.parse_args()
 
   now = datetime.now().strftime("%Y-%m-%dT%H-%M-%S")
   print(f"Process starting: {now}")
+
+  if args.combine:
+    credentials = Config().credentials()
+    input_dir = credentials.get('raw_data_dir', 'data/raw')
+    if input_dir == 'data/raw':
+      input_dir = str(Path(__file__).parent.absolute() / 'data/raw')
+    Combine().combine_json_files(input_dir, args.output)
+    now = datetime.now().strftime("%Y-%m-%dT%H-%M-%S")
+    print(f"Completed processing at {now}")
+    return
 
   errors, isVerified = Config().verify()
   if errors or not isVerified:
