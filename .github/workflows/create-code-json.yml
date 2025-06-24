@@ -1,0 +1,64 @@
+name: Create Code JSON
+
+on:
+  push:
+    branches:
+      - main
+    paths:
+      - "data/raw/**"
+  workflow_dispatch:
+
+concurrency:
+  group: ${{ github.workflow }}
+  cancel-in-progress: true
+
+jobs:
+  update-github-org:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: read
+    steps:
+      - uses: actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683 # v4.2.2
+        with:
+          fetch-depth: 0
+          persist-credentials: false
+
+      - name: Install the latest version of uv
+        uses: astral-sh/setup-uv@0c5e2b8115b80b4c7c5ddf6ffdd634974642d182 # v5.4.1
+        with:
+          version: "latest"
+
+      - name: Install dependencies
+        run: uv pip install -r requirements.txt
+
+      - name: Running combine script
+        run: |
+          uv run python main.py --combine --output data/
+
+      - name: Upload code.json file
+        uses: actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02 # v4.6.2
+        with:
+          name: code-json
+          path: data/code.json
+          retention-days: 1
+
+  commit-changes:
+    needs: update-github-org
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683 # v4.2.2
+        with:
+          fetch-depth: 0
+          persist-credentials: true
+
+      - name: Download code.json artifact
+        uses: actions/download-artifact@d3f86a106a0bac45b974a628896c90dbdf5c8093 # v4.3.0
+        with:
+          name: code-json
+          path: data/
+
+      - name: Commit and push changes
+        run: |
+          git status
