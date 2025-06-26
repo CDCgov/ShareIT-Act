@@ -9,6 +9,7 @@ dependencies = [
     "python-dateutil>=2.9.0.post0",
     "python-dotenv>=1.1.0",
     "python-gitlab>=6.0.0",
+    "pytz>=2025.2",
     "requests[socks]>=2.32.4",
 ]
 

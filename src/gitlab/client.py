@@ -2,11 +2,19 @@ import base64
 import dateutil.parser
 import gitlab
 import requests
+import pytz
+from datetime import datetime
 
 from typing import Dict, List, Any
 
+import urllib3
+urllib3.disable_warnings()
+
 class GitlabClient:
-  def __init__(self, url: str = "https://gitlab.com", token: str = None, socks_proxy: str = None, verify_ssl: bool = True):
+  def __init__(self, url: str = "https://gitlab.com",
+               token: str = None,
+               socks_proxy: str = None,
+               verify_ssl: bool = True):
     self.url = url
     self.token = token
     self.socks_proxy = socks_proxy
@@ -23,20 +31,18 @@ class GitlabClient:
 
   def get_all_repos(self) -> List[Dict[str, Any]]:
     try:
-      all_groups = self.gl.groups.list(all=True)
+      print("Fetching all accessible projects (repositories)...")
+      all_projects = self.gl.projects.list(all=True)
+      print(f"Total accessible repositories: {len(all_projects)}")
       all_repos = []
-
-      for group in all_groups:
-        print(f"Fetching repositories from group: {group.name} (ID: {group.id})")
-        try:
-          projects = group.projects.list(all=True, include_subgroups=True)
-          for project in projects:
-            metadata = self.get_repository_metadata(project.id)
-            if metadata:
-              all_repos.append(metadata)
-        except Exception as e:
-          print(f"Error fetching projects from group {group.name}: {e}")
-
+      repo_count = 0
+      for project in all_projects:
+        print(f"Processing repository: {project.name} (ID: {project.id})")
+        metadata = self.get_repository_metadata(project.id)
+        if metadata:
+          all_repos.append(metadata)
+          repo_count += 1
+        print(f"Processed repositories: {repo_count} from project ID {project.id} - {project.name}")
       return all_repos
     except Exception as e:
       print(f"Error fetching all GitLab repositories: {e}")
@@ -49,6 +55,7 @@ class GitlabClient:
 
     try:
       group = self.gl.groups.get(group_id)
+      print(f"Fetching repositories from group: {group.name} (ID: {group.id})")
       projects = group.projects.list(all=True, include_subgroups=True)
       return [self.get_repository_metadata(project.id) for project in projects]
     except Exception as e:
@@ -68,7 +75,7 @@ class GitlabClient:
       if project.last_activity_at:
         last_activity_at_dt = dateutil.parser.parse(project.last_activity_at)
 
-      readme_content = ""
+      # readme_content = ""
       readme_html_url = None
       try:
         readme = project.repository_tree(path="", ref=project.default_branch, all=True, recursive=False, search="README")
@@ -77,7 +84,7 @@ class GitlabClient:
           readme_path = readme_file.get("path")
           readme_html_url = f"{project.web_url}/-/blob/{project.default_branch}/{readme_path}"
           raw_file = project.files.get(file_path=readme_path, ref=project.default_branch)
-          readme_content = base64.b64decode(raw_file.content).decode('utf-8', errors='replace')
+          # readme_content = base64.b64decode(raw_file.content).decode('utf-8', errors='replace')
       except:
         pass
 
@@ -102,13 +109,16 @@ class GitlabClient:
         pass
 
       licenses_list = []
-      if project.license:
-        license_name = project.license.get("name", "")
-        if license_name:
-          licenses_list.append({
-            "name": license_name,
-            "URL": f"{project.web_url}/-/blob/{project.default_branch}/LICENSE"
-          })
+      try:
+        if hasattr(project, 'license') and project.license:
+          license_name = project.license.get("name", "")
+          if license_name:
+            licenses_list.append({
+              "name": license_name,
+              "URL": f"{project.web_url}/-/blob/{project.default_branch}/LICENSE"
+            })
+      except:
+        pass
 
       visibility_status = "private"
       if project.visibility == "public":
@@ -140,7 +150,7 @@ class GitlabClient:
         },
         "contact": {},
         "contractNumber": None,
-        "readme_content": readme_content,
+        # "readme_content": readme_content,
         "_codeowners_content": codeowners_content,
         "_api_tags": repo_tags,
         "archived": project.archived
@@ -164,27 +174,37 @@ def main():
 
   import json
   from pathlib import Path
+
+  tz = pytz.timezone('UTC')
+  start_time = datetime.now(tz)
+  print(f"Process starting at: {start_time.isoformat()}")
+
   gitlab_client = GitlabClient(url=args.url, token=args.token, socks_proxy=args.socks_proxy, verify_ssl=not args.no_verify_ssl)
 
   if args.all:
     print("Fetching repositories from all accessible groups...")
     repos = gitlab_client.get_all_repos()
+    print(f"Found {len(repos)} total repositories")
   elif args.group_id:
     print(f"Fetching repositories from GitLab group {args.group_id}...")
     config = {"gitlab_group_id": args.group_id}
     repos = gitlab_client.get_repos(config)
+    print(f"Found {len(repos)} total repositories")
   else:
     print("Error: Either --group-id or --all must be specified")
     return
 
-  print(f"Found {len(repos)} repositories")
+
 
   output_path = Path(args.output)
   with open(output_path, 'w') as f:
     json.dump(repos, f, indent=2)
 
+  end_time = datetime.now(tz)
+  duration = end_time - start_time
   print(f"Repository metadata saved to {output_path}")
+  print(f"Process completed at: {end_time.isoformat()}")
+  print(f"Total execution time: {duration}")
 
 if __name__ == "__main__":
   main()
-
