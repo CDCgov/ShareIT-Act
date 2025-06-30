@@ -164,7 +164,7 @@ def main():
 
   parser = argparse.ArgumentParser(description='Fetch GitLab repository metadata')
   parser.add_argument('--url', default='https://gitlab.com', help='GitLab instance URL')
-  parser.add_argument('--token', required=True, help='GitLab personal access token')
+  parser.add_argument('--token', required=False, help='GitLab personal access token')
   parser.add_argument('--group-id', help='GitLab group ID (optional if --all is used)')
   parser.add_argument('--all', action='store_true', help='Fetch repositories from all accessible groups')
   parser.add_argument('--socks-proxy', help='SOCKS proxy URL (e.g., socks5h://127.0.0.1:1080)')
@@ -179,6 +179,14 @@ def main():
   start_time = datetime.now(tz)
   print(f"Process starting at: {start_time.isoformat()}")
 
+  if not args.token:
+    from dotenv import load_dotenv
+    load_dotenv()
+    import os
+    args.token = os.environ.get('GITLAB_TOKEN', '')
+    if not args.token:
+      print("Error: GitLab token is required. Please provide it via --token or set GITLAB_TOKEN environment variable.")
+      return
   gitlab_client = GitlabClient(url=args.url, token=args.token, socks_proxy=args.socks_proxy, verify_ssl=not args.no_verify_ssl)
 
   if args.all:
