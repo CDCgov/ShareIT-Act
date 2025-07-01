@@ -1,3 +1,7 @@
+import argparse
+import sys
+import json
+
 from src.config import Config
 from src.repository import Repository
 from src.sanitize import Sanitizer
@@ -5,9 +9,6 @@ from src.combine import Combine
 
 from datetime import datetime
 from pathlib import Path
-import sys
-import json
-import argparse
 
 ###############################################################
 ## The intention is to provide a simple interface to update
