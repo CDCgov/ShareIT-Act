@@ -24,7 +24,7 @@ jobs:
             cdc-data,
             cdc-his,
             cdcai,
-            # cdcent,
+            cdcent,
             cdcepi,
             cdcgov,
             informaticslab,
@@ -91,6 +91,32 @@ jobs:
           echo "Files in data/raw:"
           ls -la data/raw/
 
+      - uses: actions/create-github-app-token@df432ceedc7162793a195dd1713ff69aefc7379e # v2.0.6
+        id: app-token
+        with:
+          app-id: ${{ vars.GIT_APP_OCIO_SHAREIT_APP_ID }}
+          private-key: ${{ secrets.GIT_APP_OCIO_SHAREIT_PRIVATE_KEY }}
+
       - name: Commit and push changes
+        if: github.ref == 'refs/heads/main'
+        env:
+          GH_TOKEN: ${{ steps.app-token.outputs.token }}
         run: |
           git status
+
+      # This is commented out as we're waiting for approval to push this information.
+      # - name: Commit and push changes
+      #   if: github.ref == 'refs/heads/main'
+      #   env:
+      #     GH_TOKEN: ${{ steps.app-token.outputs.token }}
+      #   run: |
+      #     git config --global user.email "${{ vars.GIT_APP_OCIO_SHAREIT_APP_ID }}+${{ vars.GIT_APP_OCIO_SHAREIT_APP_NAME }}[bot]@users.noreply.github.com"
+      #     git config --global user.name "${{ vars.GIT_APP_OCIO_SHAREIT_APP_NAME }}[bot]"
+      #     git config remote.origin.url 'https://${{ vars.GIT_APP_OCIO_SHAREIT_APP_ID }}:${{ env.GH_TOKEN }}@github.com/cdcgov/shareit-act.git'
+      #     git add data/raw/*
+      #     if ! git diff-index --quiet HEAD; then
+      #       git commit --allow-empty -m "Automate update of raw repository - $(date +'%Y-%m-%d')"
+      #       git pull --rebase origin main
+      #       git push
+      #     fi
+
