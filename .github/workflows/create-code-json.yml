@@ -15,7 +15,7 @@ concurrency:
   cancel-in-progress: true
 
 jobs:
-  update-github-org:
+  combine-data:
     runs-on: ubuntu-latest
     permissions:
       contents: read
