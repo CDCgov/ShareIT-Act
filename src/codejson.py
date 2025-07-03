@@ -100,8 +100,8 @@ class CodeJson:
 
   def get_repository_url(self, is_public, is_exempt=False):
     """
-    For Public Repositories: The URL is the direct, publicly accessible link to the repository.
-    For Private or Internal Repositories: The URL is intentionally replaced.
+    For public repositories: The URL is the direct and publicly accessible link to the repository.
+    For private or internal repositories: The URL is intentionally replaced.
     If the repository is exempt, the URL points to https://github.com/CDCgov/ShareIT-Act/blob/main/docs/assets/files/code_exempted.pdf
     If the repository is not exempt (eg. governmentWideReuse), the URL points to a standard instructions page: https://github.com/CDCgov/ShareIT-Act/blob/main/docs/assets/files/instructions.pdf
     """
