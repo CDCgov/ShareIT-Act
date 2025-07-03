@@ -30,9 +30,6 @@ jobs:
         with:
           version: "latest"
 
-      - name: Install dependencies
-        run: uv pip install -r requirements.txt
-
       - name: Running combine script
         run: |
           uv run python main.py --combine --output data/
