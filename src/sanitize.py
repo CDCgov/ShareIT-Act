@@ -77,11 +77,18 @@ class Sanitizer:
         usage_type = "exemptByCIO"
         exemption_text = "It's an internal repository."
 
+      if usage_type in ("openSource", "governmentWideReuse"):
+        repository_url = repo.html_url
+      elif usage_type == "exemptByCIO":
+        repository_url = "https://github.com/CDCgov/ShareIT-Act/blob/main/docs/assets/files/code_exempted.pdf"
+      else:
+        repository_url = "https://github.com/CDCgov/ShareIT-Act/blob/main/docs/assets/files/instructions.pdf"
+
       return {
         "name": repo.name,
         "description": repo.description or "",
         "organization": repo.owner.login,
-        "repositoryURL": repo.html_url,
+        "repositoryURL": repository_url,
         "homepageURL": repo.homepage or repo.html_url,
         "vcs": "git",
         "repositoryVisibility": repo_visibility,
@@ -106,7 +113,8 @@ class Sanitizer:
         },
         "repo_id": repo.id,
         "readme_url": readme_url,
-        "privateID": f"github_{repo.id}"
+        "privateID": f"github_{repo.id}",
+        "_url": repo.html_url
       }
     except Exception as e:
       print(f"Failed processing repository {repo.full_name}: {e}")
