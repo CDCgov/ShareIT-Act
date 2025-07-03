@@ -30,7 +30,7 @@ jobs:
         with:
           version: "latest"
 
-      - name: Running combine script
+      - name: Running combine script to create code.json
         run: |
           uv run python main.py --combine --output data/
 
@@ -40,6 +40,10 @@ jobs:
           name: code-json
           path: data/code.json
           retention-days: 1
+
+      - name: Running combine script to create privateid-mapping.csv
+        run: |
+          uv run python main.py --generate-csv
 
       - name: Upload private id mapping file
         uses: actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02 # v4.6.2
