@@ -15,7 +15,7 @@ concurrency:
   cancel-in-progress: true
 
 jobs:
-  update-github-org:
+  combine-data:
     runs-on: ubuntu-latest
     permissions:
       contents: read
@@ -30,7 +30,7 @@ jobs:
         with:
           version: "latest"
 
-      - name: Running combine script
+      - name: Running combine script to create code.json
         run: |
           uv run python main.py --combine --output data/
 
@@ -40,6 +40,10 @@ jobs:
           name: code-json
           path: data/code.json
           retention-days: 1
+
+      - name: Running combine script to create privateid-mapping.csv
+        run: |
+          uv run python main.py --generate-csv
 
       - name: Upload private id mapping file
         uses: actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02 # v4.6.2
@@ -84,7 +88,7 @@ jobs:
         run: |
           git config --global user.email "${{ vars.GIT_APP_OCIO_SHAREIT_APP_ID }}+${{ vars.GIT_APP_OCIO_SHAREIT_APP_NAME }}[bot]@users.noreply.github.com"
           git config --global user.name "${{ vars.GIT_APP_OCIO_SHAREIT_APP_NAME }}[bot]"
-          git config remote.origin.url 'https://${{ vars.GIT_APP_OCIO_SHAREIT_APP_ID }}:${{ env.GH_TOKEN }}@github.com/cdcgov/shareit-act.git'
+          git config remote.origin.url 'https://${{ vars.GIT_APP_OCIO_SHAREIT_APP_ID }}:${{ env.GH_TOKEN }}@github.com/CDCgov/ShareIT-Act.git'
           git add data/code.json
           git add data/privateid_mapping.csv
           if ! git diff-index --quiet HEAD; then
