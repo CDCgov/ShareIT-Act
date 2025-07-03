@@ -111,7 +111,7 @@ jobs:
         run: |
           git config --global user.email "${{ vars.GIT_APP_OCIO_SHAREIT_APP_ID }}+${{ vars.GIT_APP_OCIO_SHAREIT_APP_NAME }}[bot]@users.noreply.github.com"
           git config --global user.name "${{ vars.GIT_APP_OCIO_SHAREIT_APP_NAME }}[bot]"
-          git config remote.origin.url 'https://${{ vars.GIT_APP_OCIO_SHAREIT_APP_ID }}:${{ env.GH_TOKEN }}@github.com/cdcgov/shareit-act.git'
+          git config remote.origin.url 'https://${{ vars.GIT_APP_OCIO_SHAREIT_APP_ID }}:${{ env.GH_TOKEN }}@github.com/CDCgov/ShareIT-Act.git'
           git add data/raw/*
           if ! git diff-index --quiet HEAD; then
             git commit --allow-empty -m "Automate update of raw repository - $(date +'%Y-%m-%d')"
