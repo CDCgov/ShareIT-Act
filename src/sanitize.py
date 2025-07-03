@@ -70,7 +70,7 @@ class Sanitizer:
         "date": {
           "created": created_at_iso,
           "lastModified": pushed_at_iso,
-          "metadataLastUpdated": datetime.utcnow().isoformat()
+          "metadataLastUpdated": datetime.now().strftime("%Y-%m-%dT%H-%M-%S")
         },
         "permissions": {
           "usageType": "",
@@ -78,12 +78,12 @@ class Sanitizer:
           "licenses": [{ "name": lic["name"] } for lic in licenses]
         },
         "contact": {
-          "email": "",
-          "name": "Centers for Disease Control and Prevention"
+          "email": "shareit@cdc.gov",
+          "name": "Centers for Disease Control and Prevention (CDC)"
         },
         "repo_id": repo.id,
         "readme_url": readme_url,
-        "privateID": str(repo.private)
+        "privateID": f"github_{repo.id}"
       }
     except Exception as e:
       print(f"Failed processing repository {repo.full_name}: {e}")

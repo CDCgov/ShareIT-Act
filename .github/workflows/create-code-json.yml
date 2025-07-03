@@ -44,6 +44,13 @@ jobs:
           path: data/code.json
           retention-days: 1
 
+      - name: Upload private id mapping file
+        uses: actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02 # v4.6.2
+        with:
+          name: privateid-mapping
+          path: data/privateid_mapping.csv
+          retention-days: 1
+
   commit-changes:
     needs: update-github-org
     runs-on: ubuntu-latest
@@ -61,6 +68,12 @@ jobs:
           name: code-json
           path: data/
 
+      - name: Download code.json artifact
+        uses: actions/download-artifact@d3f86a106a0bac45b974a628896c90dbdf5c8093 # v4.3.0
+        with:
+          name: privateid-mapping
+          path: data/
+
       - uses: actions/create-github-app-token@df432ceedc7162793a195dd1713ff69aefc7379e # v2.0.6
         id: app-token
         with:
@@ -76,6 +89,7 @@ jobs:
           git config --global user.name "${{ vars.GIT_APP_OCIO_SHAREIT_APP_NAME }}[bot]"
           git config remote.origin.url 'https://${{ vars.GIT_APP_OCIO_SHAREIT_APP_ID }}:${{ env.GH_TOKEN }}@github.com/cdcgov/shareit-act.git'
           git add data/code.json
+          git add data/privateid_mapping.csv
           if ! git diff-index --quiet HEAD; then
             git commit --allow-empty -m "Automate update of code.json - $(date +'%Y-%m-%d')"
             git pull --rebase origin main

@@ -1,3 +1,11 @@
+
+"""
+This module includes a set of rules defined by the CDC Enterprise Architecture (EA) team on
+how to populate the code.json metadata for a given repository.
+
+The rules are listed as comments in each function to provide context on how the values
+are derived or inferred.
+"""
 class CodeJson:
 
   def get_header(self):
@@ -69,26 +77,34 @@ class CodeJson:
 
   def get_usage_type(self, is_public, licenseType, has_license=False):
     """
-    For Public Repositories:
-    If a license file is detected, usageType is set to openSource.
+    For public repositories:
+    If a license file is provided, the usageType is set to openSource.
     If no license is found, it defaults to governmentWideReuse.
 
-    For Private or Internal Repositories: The tool follows a strict order of checks to determine if an exemption applies. If an exemption is found, the process stops and applies it.
-    1. Manual README Marker: It first looks for Exemption: and Exemption justification: markers in the README.md file. If found, these values are used directly. This is the highest-priority check.
-    2. Non-Code Check: If no manual marker is found, it checks the repository's programming languages. If the repo contains only non-code content (like Markdown, text, HTML/CSS, shell scripts, etc.), usageType is set to exemptNonCode.
-    3. AI Exploratory Check: If the repo is not exempt yet and AI is enabled, it asks the AI if the repository's primary purpose is experimental, a demo, a tutorial, or a proof-of-concept. If so, it's exempted (usually as exemptByCIO) with a justification explaining why.
-    4. AI General Exemption Check: If still not exempt and AI is enabled, it asks the AI to check for other specific exemptions based on the repository's name, description, and README content.
+    For private or internal repositories:
+    We follow these steps in order on determining usageType:
+    1. We look for the words "exemption" and "exemption justification" markers in the README.md file.
+       If they exist, usageType is set to the exemption, and the text for the justification ends up with exemptionText.
+    2. We checks the repository's programming languages. If the repo contains only non-code content (like Markdown, text, HTML/CSS, shell scripts, etc.), usageType is set to exemptNonCode.
+    3. AI Exploratory Check: If we can use AI to infer on the repository, we'll prompt the AI to verify whether the repository's primary purpose is experimental, a demo, a tutorial, or a proof-of-concept. If so, it's exempted (usually as exemptByCIO) with a justification explaining why.
+    4. AI General Exemption Check: If we can use AI to infer on the repository, we'lll prompt the AI to verify for other specific exemptions based on the repository's name, description, and README content.
     5. Default: If none of the above conditions are met, the usageType defaults to governmentWideReuse.
     """
     return "governmentWideReuse"
 
   def get_exemption_text(self):
     """
-    This is a reason for exemption and only populated if the usage_type is an exemption.
+    This is a reason for exemption and only populated if the usageType is an exemption.
     """
     pass
 
   def get_repository_url(self, is_public, is_exempt=False):
+    """
+    For Public Repositories: The URL is the direct, publicly accessible link to the repository.
+    For Private or Internal Repositories: The URL is intentionally replaced.
+    If the repository is exempt, the URL points to https://github.com/CDCgov/ShareIT-Act/blob/main/docs/assets/files/code_exempted.pdf
+    If the repository is not exempt (eg. governmentWideReuse), the URL points to a standard instructions page: https://github.com/CDCgov/ShareIT-Act/blob/main/docs/assets/files/instructions.pdf
+    """
     pass
 
   def get_organization(self):
@@ -104,10 +120,10 @@ class CodeJson:
   def get_private_id(self, git_instance, id):
     """
     A unique identifier for the repository within its hosting platform.
-    For GitHub, this is the github_repository_id (an integer).
-    For GitLab, it's the gitlab_project_id (also an integer).
+    For GitHub, this is the github_<repository_id> (an integer).
+    For GitLab, it's the gitlab_<project_id> (also an integer).
     """
-    pass
+    return f"{git_instance}_{id}"
 
   def get_description(self):
     """
@@ -119,10 +135,9 @@ class CodeJson:
   def get_contact_email(self):
     """
     For Public Repositories: It searches for a @cdc.gov email address in the following order of priority:
-    On a Contact: line in the README.md.
-    In the CODEOWNERS file.
-    Anywhere else in the README.md.
-    If no email is found, it defaults to the DEFAULT_CONTACT_EMAIL from the configuration.
+    1. Find the email in the README.md file.
+    2. Find the email in the CODEOWNERS file.
+    3. If no email is found, it defaults to shareit@cdc.gov.
     For Private or Internal Repositories: It always uses the PRIVATE_REPO_CONTACT_EMAIL from the configuration for consistency and privacy.
     """
     return "shareit@cdc.gov"
@@ -146,6 +161,3 @@ class CodeJson:
     development: The default status if none of the above apply.
     """
     return "N/A"
-
-  def get_license(self):
-    pass
