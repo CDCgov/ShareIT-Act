@@ -146,18 +146,10 @@ class CodeJson:
     """
     The repository status is inferred with the following precedence:
     archived: If the repository is marked as "archived" on the platform.
-    From README: If a Status: marker (e.g., Status: Maintained) is found in the README.md.
     inactive: If the repository has not been modified in over 2 years.
     development: The default status if none of the above apply.
     """
     return "development"
 
   def get_version(self):
-    """
-    The repository status is inferred with the following precedence:
-    archived: If the repository is marked as "archived" on the platform.
-    From README: If a Status: marker (e.g., Status: Maintained) is found in the README.md.
-    inactive: If the repository has not been modified in over 2 years.
-    development: The default status if none of the above apply.
-    """
     return "N/A"

@@ -1,4 +1,4 @@
-from datetime import datetime
+from datetime import datetime, timezone
 from github.GithubException import UnknownObjectException
 
 class Sanitizer:
@@ -54,6 +54,29 @@ class Sanitizer:
       except Exception:
         topics = []
 
+      status = "development"
+      now = datetime.now(timezone.utc)
+      pushed_at = repo.pushed_at
+      if pushed_at and pushed_at.tzinfo is None:
+        pushed_at = pushed_at.replace(tzinfo=timezone.utc)
+      if getattr(repo, "archived", False):
+        status = "archived"
+      elif pushed_at and (now - pushed_at).days > 730:
+        status = "inactive"
+
+      is_public = not repo.private
+      has_license = bool(repo.license)
+      if is_public:
+        if has_license:
+          usage_type = "openSource"
+          exemption_text = ""
+        else:
+          usage_type = "governmentWideReuse"
+          exemption_text = ""
+      else:
+        usage_type = "exemptByCIO"
+        exemption_text = "It's an internal repository."
+
       return {
         "name": repo.name,
         "description": repo.description or "",
@@ -62,7 +85,7 @@ class Sanitizer:
         "homepageURL": repo.homepage or repo.html_url,
         "vcs": "git",
         "repositoryVisibility": repo_visibility,
-        "status": "development",
+        "status": status,
         "version": "N/A",
         "laborHours": 0,
         "languages": languages,
@@ -73,8 +96,8 @@ class Sanitizer:
           "metadataLastUpdated": datetime.now().strftime("%Y-%m-%dT%H-%M-%S")
         },
         "permissions": {
-          "usageType": "",
-          "exemptionText": "",
+          "usageType": usage_type,
+          "exemptionText": exemption_text,
           "licenses": [{ "name": lic["name"] } for lic in licenses]
         },
         "contact": {
