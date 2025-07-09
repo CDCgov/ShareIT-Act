@@ -1,5 +1,6 @@
 
 from typing import Dict, List, Any
+from datetime import datetime, timezone
 
 import base64
 import dateutil.parser
@@ -12,6 +13,13 @@ class GitlabClient:
                socks_proxy: str = None,
                verify_ssl: bool = True):
     self.url = url
+    clean_url = url.replace("https://", "").replace("http://", "")
+    if clean_url.endswith("git.biotech.cdc.gov"):
+      self.private_id_prefix = "gitlab-biotech"
+    elif clean_url.endswith("git.cdc.gov"):
+      self.private_id_prefix = "gitlab-cdc"
+    else:
+      self.private_id_prefix = "gitlab"
     self.token = token
     self.socks_proxy = socks_proxy
     session = None
@@ -103,7 +111,6 @@ class GitlabClient:
       except Exception as e:
         print(f"Error searching for CODEOWNERS for project ID {project_id}: {e}")
 
-
       repo_tags = []
       try:
         tags = project.tags.list(all=True)
@@ -129,15 +136,47 @@ class GitlabClient:
 
       topic_tags = project.topics if hasattr(project, "topics") else []
 
+      status = "development"
+      now = datetime.now(timezone.utc)
+      pushed_at = last_activity_at_dt
+      if pushed_at and pushed_at.tzinfo is None:
+        pushed_at = pushed_at.replace(tzinfo=timezone.utc)
+      if getattr(project, "archived", False):
+        status = "archived"
+      elif pushed_at and (now - pushed_at).days > 730:
+        status = "inactive"
+
+      is_public = project.visibility == "public"
+      has_license = hasattr(project, 'license') and bool(project.license)
+      if is_public:
+        if has_license:
+          usage_type = "openSource"
+          exemption_text = ""
+        else:
+          usage_type = "governmentWideReuse"
+          exemption_text = ""
+      else:
+        usage_type = "exemptByCIO"
+        exemption_text = "It's an internal repository."
+
+      if usage_type in ("openSource", "governmentWideReuse"):
+        repository_url = project.web_url
+      elif usage_type == "exemptByCIO":
+        repository_url = "https://cdcgov.github.io/ShareIT-Act/assets/files/code_exempted.pdf"
+      else:
+        repository_url = "https://cdcgov.github.io/ShareIT-Act/assets/files/instructions.pdf"
+
       return {
+        "repo_id": project.id,
         "description": project.description,
-        "repositoryURL": project.web_url,
+        "platform": "gitlab",
+        "repositoryURL": repository_url,
         "homepageURL": project.web_url,
-        "downloadURL": None,
+        "downloadURL": "",
         "readme_url": readme_html_url,
         "vcs": "git",
         "repositoryVisibility": visibility_status,
-        "status": "development",
+        "status": status,
         "version": "N/A",
         "laborHours": 0,
         "languages": list(languages.keys()),
@@ -147,16 +186,17 @@ class GitlabClient:
           "lastModified": last_activity_at_dt.isoformat() if last_activity_at_dt else None,
         },
         "permissions": {
-          "usageType": None,
-          "exemptionText": None,
+          "usageType": usage_type,
+          "exemptionText": exemption_text,
           "licenses": licenses_list
         },
         "contact": {},
-        "contractNumber": None,
-        # "readme_content": readme_content,
+        "contractNumber": "",
         "_codeowners_content": codeowners_content,
         "_api_tags": repo_tags,
-        "archived": project.archived
+        "archived": project.archived,
+        "private_id": f"{self.private_id_prefix}_{project.id}",
+        "_url": project.web_url
       }
     except Exception as e:
       print(f"Error fetching repository metadata for project ID {project_id}: {e}")
