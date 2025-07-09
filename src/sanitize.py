@@ -80,9 +80,11 @@ class Sanitizer:
       if usage_type in ("openSource", "governmentWideReuse"):
         repository_url = repo.html_url
       elif usage_type == "exemptByCIO":
-        repository_url = "https://github.com/CDCgov/ShareIT-Act/blob/main/docs/assets/files/code_exempted.pdf"
+        repository_url = "https://cdcgov.github.io/ShareIT-Act/assets/files/code_exempted.pdf"
       else:
-        repository_url = "https://github.com/CDCgov/ShareIT-Act/blob/main/docs/assets/files/instructions.pdf"
+        repository_url = "https://cdcgov.github.io/ShareIT-Act/assets/files/instructions.pdf"
+
+      email = "" if is_public else "shareit@cdc.gov"
 
       return {
         "name": repo.name,
@@ -108,7 +110,7 @@ class Sanitizer:
           "licenses": [{ "name": lic["name"] } for lic in licenses]
         },
         "contact": {
-          "email": "shareit@cdc.gov",
+          "email": email,
           "name": "Centers for Disease Control and Prevention (CDC)"
         },
         "repo_id": repo.id,

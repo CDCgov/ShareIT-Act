@@ -102,7 +102,7 @@ class CodeJson:
     """
     For public repositories: The URL is the direct and publicly accessible link to the repository.
     For private or internal repositories: The URL is intentionally replaced.
-    If the repository is exempt, the URL points to https://github.com/CDCgov/ShareIT-Act/blob/main/docs/assets/files/code_exempted.pdf
+    If the repository is exempt, the URL points to https://cdcgov.github.io/ShareIT-Act/assets/files/code_exempted.pdf
     If the repository is not exempt (eg. governmentWideReuse), the URL points to a standard instructions page: https://github.com/CDCgov/ShareIT-Act/blob/main/docs/assets/files/instructions.pdf
     """
     pass
