@@ -39,8 +39,17 @@ class Combine:
     output_path.mkdir(parents=True, exist_ok=True)
     output_file = output_path / "code.json"
 
+    data = {
+      "version": "2.0",
+      "agency": "CDC",
+      "measurementType": {
+          "method": "projects"
+      },
+      "projects": combined_data
+    }
+
     with open(output_file, 'w') as f:
-      json.dump(combined_data, f, indent=2)
+      json.dump(data, f, indent=2)
 
     print(f"Combined data saved to {output_file}")
     print(f"Total repositories: {len(combined_data)}")
