@@ -10,10 +10,6 @@ on:
       - "data/**"
   workflow_dispatch:
 
-concurrency:
-  group: ${{ github.workflow }}-${{ matrix.org }}
-  cancel-in-progress: true
-
 jobs:
   update-github-org:
     runs-on: ubuntu-latest
