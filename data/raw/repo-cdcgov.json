@@ -18328,4 +18328,114 @@
     "privateID": "github_1009195513",
     "_url": "https://github.com/CDCgov/EITPM-Hub"
   }
+]hub.com/CDCgov/EITPM-Hub"
+  },
+  {
+    "name": "cfa-subgroup-imputer",
+    "description": "",
+    "organization": "CDCgov",
+    "repositoryURL": "https://github.com/CDCgov/cfa-subgroup-imputer",
+    "homepageURL": "https://github.com/CDCgov/cfa-subgroup-imputer",
+    "vcs": "git",
+    "repositoryVisibility": "public",
+    "status": "development",
+    "version": "N/A",
+    "laborHours": 0,
+    "languages": [],
+    "tags": [],
+    "date": {
+      "created": "2025-07-07T15:31:18+00:00",
+      "lastModified": "2025-07-08T17:48:51+00:00",
+      "metadataLastUpdated": "2025-07-09T01-49-11"
+    },
+    "permissions": {
+      "usageType": "openSource",
+      "exemptionText": "",
+      "licenses": [
+        {
+          "name": "Apache License 2.0"
+        }
+      ]
+    },
+    "contact": {
+      "email": "shareit@cdc.gov",
+      "name": "Centers for Disease Control and Prevention (CDC)"
+    },
+    "repo_id": 1015494959,
+    "readme_url": "https://github.com/CDCgov/cfa-subgroup-imputer/blob/main/README.md",
+    "privateID": "github_1015494959",
+    "_url": "https://github.com/CDCgov/cfa-subgroup-imputer"
+  },
+  {
+    "name": "cfa-cloudops",
+    "description": "",
+    "organization": "CDCgov",
+    "repositoryURL": "https://github.com/CDCgov/cfa-cloudops",
+    "homepageURL": "https://github.com/CDCgov/cfa-cloudops",
+    "vcs": "git",
+    "repositoryVisibility": "public",
+    "status": "development",
+    "version": "N/A",
+    "laborHours": 0,
+    "languages": [],
+    "tags": [],
+    "date": {
+      "created": "2025-07-07T19:13:11+00:00",
+      "lastModified": "2025-07-09T01:26:01+00:00",
+      "metadataLastUpdated": "2025-07-09T01-49-12"
+    },
+    "permissions": {
+      "usageType": "openSource",
+      "exemptionText": "",
+      "licenses": [
+        {
+          "name": "Apache License 2.0"
+        }
+      ]
+    },
+    "contact": {
+      "email": "shareit@cdc.gov",
+      "name": "Centers for Disease Control and Prevention (CDC)"
+    },
+    "repo_id": 1015613866,
+    "readme_url": "https://github.com/CDCgov/cfa-cloudops/blob/main/README.md",
+    "privateID": "github_1015613866",
+    "_url": "https://github.com/CDCgov/cfa-cloudops"
+  },
+  {
+    "name": "nccdphp-drh-mmria",
+    "description": "",
+    "organization": "CDCgov",
+    "repositoryURL": "https://github.com/CDCgov/nccdphp-drh-mmria",
+    "homepageURL": "https://github.com/CDCgov/nccdphp-drh-mmria",
+    "vcs": "git",
+    "repositoryVisibility": "public",
+    "status": "development",
+    "version": "N/A",
+    "laborHours": 0,
+    "languages": [],
+    "tags": [],
+    "date": {
+      "created": "2025-07-08T15:30:56+00:00",
+      "lastModified": "2025-07-08T15:30:58+00:00",
+      "metadataLastUpdated": "2025-07-09T01-49-13"
+    },
+    "permissions": {
+      "usageType": "openSource",
+      "exemptionText": "",
+      "licenses": [
+        {
+          "name": "Apache License 2.0"
+        }
+      ]
+    },
+    "contact": {
+      "email": "shareit@cdc.gov",
+      "name": "Centers for Disease Control and Prevention (CDC)"
+    },
+    "repo_id": 1016166415,
+    "readme_url": "https://github.com/CDCgov/nccdphp-drh-mmria/blob/main/README.md",
+    "privateID": "github_1016166415",
+    "_url": "https://github.com/CDCgov/nccdphp-drh-mmria"
+  }
 ]
