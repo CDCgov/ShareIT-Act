@@ -75,6 +75,10 @@ jobs:
           name: privateid-mapping
           path: data/
 
+      - name: Copy code.json to another data directory
+        run: |
+          cp data/code.json docs/catalog/code.json
+
       - uses: actions/create-github-app-token@df432ceedc7162793a195dd1713ff69aefc7379e # v2.0.6
         id: app-token
         with:
@@ -90,6 +94,7 @@ jobs:
           git config --global user.name "${{ vars.GIT_APP_OCIO_SHAREIT_APP_NAME }}[bot]"
           git config remote.origin.url 'https://${{ vars.GIT_APP_OCIO_SHAREIT_APP_ID }}:${{ env.GH_TOKEN }}@github.com/CDCgov/ShareIT-Act.git'
           git add data/code.json
+          git add docs/catalog/code.json
           git add data/privateid_mapping.csv
           if ! git diff-index --quiet HEAD; then
             git commit --allow-empty -m "Automate update of code.json - $(date +'%Y-%m-%d')"
