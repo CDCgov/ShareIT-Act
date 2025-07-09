@@ -3,7 +3,7 @@
     "name": "covid_case_restricted_detailed",
     "description": "Deidentified COVID-19 detailed case data with state made available after accepting RIDURA.",
     "organization": "cdc-data",
-    "repositoryURL": "https://github.com/CDCgov/ShareIT-Act/blob/main/docs/assets/files/code_exempted.pdf",
+    "repositoryURL": "https://cdcgov.github.io/ShareIT-Act/assets/files/code_exempted.pdf",
     "homepageURL": "https://www.cdc.gov/covid-data-tracker/index.html",
     "vcs": "git",
     "repositoryVisibility": "private",
@@ -23,7 +23,7 @@
     "date": {
       "created": "2020-05-07T16:20:58+00:00",
       "lastModified": "2024-07-09T14:12:47+00:00",
-      "metadataLastUpdated": "2025-07-09T02-16-18"
+      "metadataLastUpdated": "2025-07-09T14-05-03"
     },
     "permissions": {
       "usageType": "exemptByCIO",
@@ -40,14 +40,14 @@
     },
     "repo_id": 262100631,
     "readme_url": "https://github.com/cdc-data/covid_case_restricted_detailed/blob/master/readme.md",
-    "privateID": "github_262100631",
+    "private_id": "github_262100631",
     "_url": "https://github.com/cdc-data/covid_case_restricted_detailed"
   },
   {
     "name": "covid_case_restricted_limited",
     "description": "Deidentified COVID-19 limited case data with state made available after accepting RIDURA.",
     "organization": "cdc-data",
-    "repositoryURL": "https://github.com/CDCgov/ShareIT-Act/blob/main/docs/assets/files/code_exempted.pdf",
+    "repositoryURL": "https://cdcgov.github.io/ShareIT-Act/assets/files/code_exempted.pdf",
     "homepageURL": "https://www.cdc.gov/covid-data-tracker/index.html",
     "vcs": "git",
     "repositoryVisibility": "private",
@@ -61,7 +61,7 @@
     "date": {
       "created": "2020-05-07T16:22:50+00:00",
       "lastModified": "2020-06-27T20:40:21+00:00",
-      "metadataLastUpdated": "2025-07-09T02-16-19"
+      "metadataLastUpdated": "2025-07-09T14-05-04"
     },
     "permissions": {
       "usageType": "exemptByCIO",
@@ -78,14 +78,14 @@
     },
     "repo_id": 262101079,
     "readme_url": "https://github.com/cdc-data/covid_case_restricted_limited/blob/master/readme.md",
-    "privateID": "github_262101079",
+    "private_id": "github_262101079",
     "_url": "https://github.com/cdc-data/covid_case_restricted_limited"
   },
   {
     "name": "covid_massc_restricted",
     "description": "Nationwide Commercial Laboratory Seroprevalence Survey Restricted Access Deidentified Detailed Data",
     "organization": "cdc-data",
-    "repositoryURL": "https://github.com/CDCgov/ShareIT-Act/blob/main/docs/assets/files/code_exempted.pdf",
+    "repositoryURL": "https://cdcgov.github.io/ShareIT-Act/assets/files/code_exempted.pdf",
     "homepageURL": "https://github.com/cdc-data/covid_massc_restricted",
     "vcs": "git",
     "repositoryVisibility": "private",
@@ -97,7 +97,7 @@
     "date": {
       "created": "2021-10-06T14:23:14+00:00",
       "lastModified": "2021-10-06T14:23:15+00:00",
-      "metadataLastUpdated": "2025-07-09T02-16-21"
+      "metadataLastUpdated": "2025-07-09T14-05-05"
     },
     "permissions": {
       "usageType": "exemptByCIO",
@@ -114,7 +114,7 @@
     },
     "repo_id": 414243401,
     "readme_url": "https://github.com/cdc-data/covid_massc_restricted/blob/master/README.md",
-    "privateID": "github_414243401",
+    "private_id": "github_414243401",
     "_url": "https://github.com/cdc-data/covid_massc_restricted"
   }
 ]
