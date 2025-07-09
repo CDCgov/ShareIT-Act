@@ -113,7 +113,7 @@ class Sanitizer:
         },
         "repo_id": repo.id,
         "readme_url": readme_url,
-        "privateID": f"github_{repo.id}",
+        "private_id": f"github_{repo.id}",
         "_url": repo.html_url
       }
     except Exception as e:

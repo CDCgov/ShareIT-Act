@@ -31,7 +31,7 @@ def generate_privateid_csv(code_json_path, csv_path):
         rows.append(row)
 
   new_rows = []
-  for repo in code_data:
+  for repo in code_data.get('projects', []):
     if not isinstance(repo, dict):
       continue
     repo_id = repo.get("repo_id")
@@ -40,6 +40,8 @@ def generate_privateid_csv(code_json_path, csv_path):
     private_id = f"github_{repo_id}"
     if private_id in existing_ids:
       continue
+    if repo.get("platform", "") == "AzureDevOps":
+      private_id = f"azuredevops_{repo_id}"
     repo_url = repo.get("repositoryURL", "")
     repo_name = repo_url.rstrip("/").split("/")[-1]
     org = repo.get("organization", "") or (repo_url.rstrip("/").split("/")[-2] if "/" in repo_url else "")
