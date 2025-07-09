@@ -162,9 +162,9 @@ class GitlabClient:
       if usage_type in ("openSource", "governmentWideReuse"):
         repository_url = project.web_url
       elif usage_type == "exemptByCIO":
-        repository_url = "https://github.com/CDCgov/ShareIT-Act/blob/main/docs/assets/files/code_exempted.pdf"
+        repository_url = "https://cdcgov.github.io/ShareIT-Act/assets/files/code_exempted.pdf"
       else:
-        repository_url = "https://github.com/CDCgov/ShareIT-Act/blob/main/docs/assets/files/instructions.pdf"
+        repository_url = "https://cdcgov.github.io/ShareIT-Act/assets/files/instructions.pdf"
 
       return {
         "repo_id": project.id,
