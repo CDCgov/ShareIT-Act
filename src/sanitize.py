@@ -84,6 +84,8 @@ class Sanitizer:
       else:
         repository_url = "https://github.com/CDCgov/ShareIT-Act/blob/main/docs/assets/files/instructions.pdf"
 
+      email = "" if is_public else "shareit@cdc.gov"
+
       return {
         "name": repo.name,
         "description": repo.description or "",
@@ -108,7 +110,7 @@ class Sanitizer:
           "licenses": [{ "name": lic["name"] } for lic in licenses]
         },
         "contact": {
-          "email": "shareit@cdc.gov",
+          "email": email,
           "name": "Centers for Disease Control and Prevention (CDC)"
         },
         "repo_id": repo.id,
