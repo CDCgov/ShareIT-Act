@@ -126,7 +126,8 @@ def main():
   sanitized_data = []
   for repo in repos:
     data = sanitizer.get_repository_metadata(repo)
-    sanitized_data.append(data)
+    if data:
+      sanitized_data.append(data)
   output_dir = Path(credentials["raw_data_dir"])
   output_dir.mkdir(parents=True, exist_ok=True)
   output_file = output_dir / f"repo-{org_name}.json"
