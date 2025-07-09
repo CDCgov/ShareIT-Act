@@ -7,8 +7,7 @@ on:
     paths-ignore:
       - "**/*.md"
       - "docs/**"
-      - "data/code.json"
-      - "data/privateid_mapping.csv"
+      - "data/**"
   workflow_dispatch:
 
 concurrency:
@@ -60,7 +59,7 @@ jobs:
         uses: actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02 # v4.6.2
         with:
           name: raw-data-${{ matrix.org }}
-          path: data/raw/
+          path: data/raw/repo-${{ matrix.org }}.json
           retention-days: 1
 
   commit-changes:
