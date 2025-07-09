@@ -1,0 +1,142 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "CDC Share IT Act Code.json Schema",
+  "description": "Schema for validating the structure and content of code.json metadata.",
+  "type": "object",
+  "required": ["version", "agency", "measurementType", "projects"],
+  "properties": {
+    "version": {
+      "type": "string",
+      "description": "Version of the code.json schema."
+    },
+    "agency": {
+      "type": "string",
+      "description": "The agency name (e.g., CDC)."
+    },
+    "measurementType": {
+      "type": "object",
+      "required": ["method"],
+      "properties": {
+        "method": {
+          "type": "string",
+          "description": "Method of measurement (e.g., projects)."
+        }
+      }
+    },
+    "projects": {
+      "type": "array",
+      "description": "List of software projects.",
+      "items": {
+        "type": "object",
+        "required": ["name", "organization", "repositoryURL", "status", "permissions", "contact"],
+        "properties": {
+          "name": {
+            "type": "string",
+            "description": "Name of the repository/project."
+          },
+          "organization": {
+            "type": "string",
+            "description": "Organization responsible for the project."
+          },
+          "description": {
+            "type": "string",
+            "description": "Brief description of the project."
+          },
+          "repositoryURL": {
+            "type": "string",
+            "format": "uri",
+            "description": "URL of the project's code repository."
+          },
+          "homepageURL": {
+            "type": "string",
+            "format": "uri",
+            "description": "URL of the project's homepage (if any)."
+          },
+          "readme_url": {
+            "type": "string",
+            "format": "uri",
+            "description": "URL of the project's README.md file."
+          },
+          "vcs": {
+            "type": "string",
+            "enum": ["git"],
+            "description": "Version control system used."
+          },
+          "repositoryVisibility": {
+            "type": "string",
+            "enum": ["public", "private"],
+            "description": "Visibility of the repository."
+          },
+          "status": {
+            "type": "string",
+            "enum": ["development", "inactive", "archived"],
+            "description": "Current status of the project."
+          },
+          "version": {
+            "type": "string",
+            "description": "Version of the software."
+          },
+          "laborHours": {
+            "type": "number",
+            "minimum": 0,
+            "description": "Estimated labor hours."
+          },
+          "languages": {
+            "type": "array",
+            "items": { "type": "string" },
+            "description": "Programming languages used."
+          },
+          "tags": {
+            "type": "array",
+            "items": { "type": "string" },
+            "description": "Keywords or tags associated with the project."
+          },
+          "date": {
+            "type": "object",
+            "properties": {
+              "created": { "type": "string", "format": "date-time" },
+              "lastModified": { "type": "string", "format": "date-time" },
+              "metadataLastUpdated": { "type": "string", "format": "date-time" }
+            }
+          },
+          "permissions": {
+            "type": "object",
+            "required": ["usageType"],
+            "properties": {
+              "usageType": {
+                "type": "string",
+                "enum": ["openSource", "governmentWideReuse", "exemptByAgencySystem", "exemptByCIO", "exemptByLaw", "exemptNonCode"],
+                "description": "Usage type of the code."
+              },
+              "licenses": {
+                "type": "array",
+                "items": {
+                  "type": "object",
+                  "properties": {
+                    "spdxID": { "type": "string" },
+                    "name": { "type": "string" },
+                    "URL": { "type": "string", "format": "uri" }
+                  }
+                }
+              },
+              "exemptionText": {
+                "type": "string",
+                "description": "Justification for exemption, if applicable."
+              }
+            }
+          },
+          "contact": {
+            "type": "object",
+            "properties": {
+              "email": { "type": "string", "format": "email" }
+            }
+          },
+          "privateID": {
+            "type": "string",
+            "description": "Internal private ID for the repository."
+          }
+        }
+      }
+    }
+  }
+}
