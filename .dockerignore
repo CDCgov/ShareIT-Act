@@ -1,7 +1,0 @@
-# Ignore directories and files from the Docker build context for security and efficiency.
-__pycache__/
-*.pyc
-*.pem
-data/
-secure/
-.env
