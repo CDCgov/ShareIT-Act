@@ -29,7 +29,7 @@ jobs:
             niosh-mining,
           ]
       fail-fast: false # continues on update failure
-      max-parallel: 1
+      max-parallel: 2
     environment: org-${{ matrix.org }}
     steps:
       - uses: actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683 # v4.2.2

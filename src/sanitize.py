@@ -1,123 +1,98 @@
+import base64
+
 from datetime import datetime, timezone
 from github.GithubException import UnknownObjectException
+from src.inference import Inference
 
 class Sanitizer:
-  def __init__(self):
-    pass
+
+  def get_file_content(self, repo, file_path):
+    """
+    A best effort approach to fetch and decodes the content of a file from the repository.
+    If there's no data, or if the file is not found, it returns None.
+
+    Args:
+        repo: The PyGithub Repository object.
+        file_path: The path to the file in the repository (e.g., 'README.md').
+
+    Returns:
+        The decoded file content as a string, or None if not found or on error.
+    """
+    try:
+      content_item = repo.get_contents(file_path)
+      return base64.b64decode(content_item.content).decode('utf-8', errors='ignore')
+    except UnknownObjectException:
+      return None  # File not found is a normal case
+    except Exception as e:
+      print(f"Error fetching '{file_path}' for {repo.full_name}: {e}")
+      return None
 
   def get_repository_metadata(self, repo) -> str:
     if repo.fork:
       print(f"Skipping forked repository: {repo.full_name}")
       return None
 
+    # Skip empty repositories to avoid errors when fetching contents.
+    if repo.size == 0:
+      print(f"Skipping empty repository: {repo.full_name}")
+      return None
+
     try:
-      created_at_iso = repo.created_at.isoformat() if repo.created_at else ""
-      pushed_at_iso = repo.pushed_at.isoformat() if repo.pushed_at else ""
-      repo_visibility = "private" if repo.private else "public"
-      languages = []
-      try:
-        lang_dict = repo.get_languages()
-        if lang_dict:
-          languages = list(lang_dict.keys())
-      except Exception as e:
-        print(f"Error fetching languages for {repo.full_name}: {e}")
+      inference = Inference()
+      readme_content = self.get_file_content(repo, 'README.md')
+      codeowners_content = self.get_file_content(repo, 'CODEOWNERS')
 
-      licenses = []
-      if repo.license:
-        licenses.append({ "name": repo.license.name })
-      if not licenses:
-        licenses.append({
-          "name": "Apache License 2.0",
-          "URL": "https://www.apache.org/licenses/LICENSE-2.0"
-        })
+      languages = list(repo.get_languages().keys())
+      usage_type, exemption_text, repository_url = inference.infer_usage_and_url(
+        repo.private,
+        repo.license,
+        repo.html_url,
+        readme_content,
+        languages)
+      status = inference.infer_status(repo.archived, repo.pushed_at, readme_content)
+      organization = inference.infer_organization(repo.name, readme_content)
+      contact_email = inference.infer_contact_email(repo.private, readme_content, codeowners_content)
+      version = inference.infer_version(repo.get_tags(), readme_content)
 
-      readme_url = ""
-      # readme_content = None
-      try:
-        readme = repo.get_readme()
-        readme_url = readme.html_url
-        # b = base64.b64decode(readme.content)
-        # try:
-        #   readme_content = b.decode('utf-8')
-        # except UnicodeDecodeError:
-        #   try:
-        #     readme_content = b.decode('latin-1')
-        #   except Exception:
-        #     readme_content = b.decode('utf-8', errors='ignore')
-      except UnknownObjectException:
-        pass
-      except Exception as e:
-        print(f"Error fetching README for {repo.name}: {e}")
-
-      try:
-        topics = repo.get_topics()
-      except Exception:
-        topics = []
-
-      status = "development"
-      now = datetime.now(timezone.utc)
-      pushed_at = repo.pushed_at
-      if pushed_at and pushed_at.tzinfo is None:
-        pushed_at = pushed_at.replace(tzinfo=timezone.utc)
-      if getattr(repo, "archived", False):
-        status = "archived"
-      elif pushed_at and (now - pushed_at).days > 730:
-        status = "inactive"
-
-      is_public = not repo.private
-      has_license = bool(repo.license)
-      if is_public:
-        if has_license:
-          usage_type = "openSource"
-          exemption_text = ""
-        else:
-          usage_type = "governmentWideReuse"
-          exemption_text = ""
-      else:
-        usage_type = "exemptByCIO"
-        exemption_text = "It's an internal repository."
-
-      if usage_type in ("openSource", "governmentWideReuse"):
-        repository_url = repo.html_url
-      elif usage_type == "exemptByCIO":
-        repository_url = "https://cdcgov.github.io/ShareIT-Act/assets/files/code_exempted.pdf"
-      else:
-        repository_url = "https://cdcgov.github.io/ShareIT-Act/assets/files/instructions.pdf"
-
-      email = "" if is_public else "shareit@cdc.gov"
-
-      return {
+      # --- Assemble the final metadata object ---
+      metadata = {
         "name": repo.name,
+        "organization": organization,
         "description": repo.description or "",
-        "organization": repo.owner.login,
-        "repositoryURL": repository_url,
-        "homepageURL": repo.homepage or repo.html_url,
-        "vcs": "git",
-        "repositoryVisibility": repo_visibility,
-        "status": status,
-        "version": "N/A",
+        "version": version,
         "laborHours": 0,
+        "status": status,
+        "vcs": "git",
+        "homepageURL": repo.homepage or "",
+        "repositoryURL": repository_url,
+        "repositoryVisibility": "private" if repo.private else "public",
         "languages": languages,
-        "tags": topics,
+        "tags": repo.get_topics(),
+        "contact": {
+          "email": contact_email
+        },
         "date": {
-          "created": created_at_iso,
-          "lastModified": pushed_at_iso,
-          "metadataLastUpdated": datetime.now().strftime("%Y-%m-%dT%H-%M-%S")
+          "created": repo.created_at.isoformat(),
+          "lastModified": repo.pushed_at.isoformat(),
+          "metadataLastUpdated": datetime.now(timezone.utc).isoformat()
         },
         "permissions": {
           "usageType": usage_type,
-          "exemptionText": exemption_text,
-          "licenses": [{ "name": lic["name"] } for lic in licenses]
-        },
-        "contact": {
-          "email": email,
-          "name": "Centers for Disease Control and Prevention (CDC)"
+          "licenses": [{"name": repo.license.name}] if repo.license else []
         },
         "repo_id": repo.id,
-        "readme_url": readme_url,
         "private_id": f"github_{repo.id}",
         "_url": repo.html_url
       }
+
+      if exemption_text:
+        metadata["permissions"]["exemptionText"] = exemption_text
+
+      if repo.private:
+        metadata["privateID"] = f"github_{repo.id}"
+
+      return metadata
+
     except Exception as e:
       print(f"Failed processing repository {repo.full_name}: {e}")
       return None
