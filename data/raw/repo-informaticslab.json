@@ -1,0 +1,3453 @@
+[
+  {
+    "name": "site",
+    "description": "Joomla installation for main Lab web site",
+    "organization": "informaticslab",
+    "repositoryURL": "https://github.com/informaticslab/site",
+    "homepageURL": "www.phiresearchlab.org",
+    "vcs": "git",
+    "repositoryVisibility": "public",
+    "status": "archived",
+    "version": "N/A",
+    "laborHours": 0,
+    "languages": [
+      "PHP",
+      "JavaScript",
+      "CSS",
+      "Perl",
+      "OCaml",
+      "Python",
+      "Shell",
+      "CoffeeScript",
+      "XSLT",
+      "C",
+      "Erlang",
+      "R",
+      "D",
+      "Logos"
+    ],
+    "tags": [],
+    "date": {
+      "created": "2012-06-05T19:35:07+00:00",
+      "lastModified": "2014-12-03T13:05:38+00:00",
+      "metadataLastUpdated": "2025-07-09T15-02-32"
+    },
+    "permissions": {
+      "usageType": "governmentWideReuse",
+      "exemptionText": "",
+      "licenses": [
+        {
+          "name": "Apache License 2.0"
+        }
+      ]
+    },
+    "contact": {
+      "email": "",
+      "name": "Centers for Disease Control and Prevention (CDC)"
+    },
+    "repo_id": 4564539,
+    "readme_url": "https://github.com/informaticslab/site/blob/master/README.md",
+    "private_id": "github_4564539",
+    "_url": "https://github.com/informaticslab/site"
+  },
+  {
+    "name": "code",
+    "description": "HTML site for code - very basic.",
+    "organization": "informaticslab",
+    "repositoryURL": "https://github.com/informaticslab/code",
+    "homepageURL": "code.phiresearchlab.org",
+    "vcs": "git",
+    "repositoryVisibility": "public",
+    "status": "archived",
+    "version": "N/A",
+    "laborHours": 0,
+    "languages": [
+      "CSS"
+    ],
+    "tags": [],
+    "date": {
+      "created": "2012-06-05T19:38:12+00:00",
+      "lastModified": "2013-11-06T15:52:07+00:00",
+      "metadataLastUpdated": "2025-07-09T15-02-33"
+    },
+    "permissions": {
+      "usageType": "governmentWideReuse",
+      "exemptionText": "",
+      "licenses": [
+        {
+          "name": "Apache License 2.0"
+        }
+      ]
+    },
+    "contact": {
+      "email": "",
+      "name": "Centers for Disease Control and Prevention (CDC)"
+    },
+    "repo_id": 4564574,
+    "readme_url": "https://github.com/informaticslab/code/blob/master/README.md",
+    "private_id": "github_4564574",
+    "_url": "https://github.com/informaticslab/code"
+  },
+  {
+    "name": "lab-graphics",
+    "description": "Graphical elements used by CDC R&D Lab",
+    "organization": "informaticslab",
+    "repositoryURL": "https://github.com/informaticslab/lab-graphics",
+    "homepageURL": "https://github.com/informaticslab/lab-graphics",
+    "vcs": "git",
+    "repositoryVisibility": "public",
+    "status": "archived",
+    "version": "N/A",
+    "laborHours": 0,
+    "languages": [],
+    "tags": [],
+    "date": {
+      "created": "2012-11-29T20:04:37+00:00",
+      "lastModified": "2014-04-03T16:04:25+00:00",
+      "metadataLastUpdated": "2025-07-09T15-02-34"
+    },
+    "permissions": {
+      "usageType": "governmentWideReuse",
+      "exemptionText": "",
+      "licenses": [
+        {
+          "name": "Apache License 2.0"
+        }
+      ]
+    },
+    "contact": {
+      "email": "",
+      "name": "Centers for Disease Control and Prevention (CDC)"
+    },
+    "repo_id": 6927629,
+    "readme_url": "https://github.com/informaticslab/lab-graphics/blob/master/README.md",
+    "private_id": "github_6927629",
+    "_url": "https://github.com/informaticslab/lab-graphics"
+  },
+  {
+    "name": "rpms",
+    "description": "CDC R&D Lab Research Project Management System",
+    "organization": "informaticslab",
+    "repositoryURL": "https://github.com/informaticslab/rpms",
+    "homepageURL": "https://github.com/informaticslab/rpms",
+    "vcs": "git",
+    "repositoryVisibility": "public",
+    "status": "archived",
+    "version": "N/A",
+    "laborHours": 0,
+    "languages": [
+      "PHP",
+      "JavaScript",
+      "CSS"
+    ],
+    "tags": [],
+    "date": {
+      "created": "2012-11-29T22:12:18+00:00",
+      "lastModified": "2013-10-01T18:52:27+00:00",
+      "metadataLastUpdated": "2025-07-09T15-02-35"
+    },
+    "permissions": {
+      "usageType": "governmentWideReuse",
+      "exemptionText": "",
+      "licenses": [
+        {
+          "name": "Apache License 2.0"
+        }
+      ]
+    },
+    "contact": {
+      "email": "",
+      "name": "Centers for Disease Control and Prevention (CDC)"
+    },
+    "repo_id": 6929432,
+    "readme_url": "https://github.com/informaticslab/rpms/blob/master/README.md",
+    "private_id": "github_6929432",
+    "_url": "https://github.com/informaticslab/rpms"
+  },
+  {
+    "name": "ptt-advisor",
+    "description": "PTT Advisor iOS app to provide clinical decision support for prolonged partial thromboplastin time (PTT).",
+    "organization": "informaticslab",
+    "repositoryURL": "https://github.com/informaticslab/ptt-advisor",
+    "homepageURL": "https://github.com/informaticslab/ptt-advisor",
+    "vcs": "git",
+    "repositoryVisibility": "public",
+    "status": "archived",
+    "version": "N/A",
+    "laborHours": 0,
+    "languages": [
+      "Objective-C",
+      "HTML"
+    ],
+    "tags": [],
+    "date": {
+      "created": "2012-11-29T22:40:03+00:00",
+      "lastModified": "2016-11-15T19:09:54+00:00",
+      "metadataLastUpdated": "2025-07-09T15-02-36"
+    },
+    "permissions": {
+      "usageType": "governmentWideReuse",
+      "exemptionText": "",
+      "licenses": [
+        {
+          "name": "Apache License 2.0"
+        }
+      ]
+    },
+    "contact": {
+      "email": "",
+      "name": "Centers for Disease Control and Prevention (CDC)"
+    },
+    "repo_id": 6929805,
+    "readme_url": "https://github.com/informaticslab/ptt-advisor/blob/master/README.md",
+    "private_id": "github_6929805",
+    "_url": "https://github.com/informaticslab/ptt-advisor"
+  },
+  {
+    "name": "shirly",
+    "description": "Cross-Platform prototype app to display the 2010 CDC STD Guidelines",
+    "organization": "informaticslab",
+    "repositoryURL": "https://github.com/informaticslab/shirly",
+    "homepageURL": "https://github.com/informaticslab/shirly",
+    "vcs": "git",
+    "repositoryVisibility": "public",
+    "status": "archived",
+    "version": "N/A",
+    "laborHours": 0,
+    "languages": [
+      "Objective-C",
+      "Python",
+      "CSS",
+      "Shell",
+      "C",
+      "JavaScript",
+      "C++",
+      "Java"
+    ],
+    "tags": [],
+    "date": {
+      "created": "2012-11-29T22:56:50+00:00",
+      "lastModified": "2014-02-25T15:54:08+00:00",
+      "metadataLastUpdated": "2025-07-09T15-02-38"
+    },
+    "permissions": {
+      "usageType": "governmentWideReuse",
+      "exemptionText": "",
+      "licenses": [
+        {
+          "name": "Apache License 2.0"
+        }
+      ]
+    },
+    "contact": {
+      "email": "",
+      "name": "Centers for Disease Control and Prevention (CDC)"
+    },
+    "repo_id": 6930025,
+    "readme_url": "https://github.com/informaticslab/shirly/blob/master/README.md",
+    "private_id": "github_6930025",
+    "_url": "https://github.com/informaticslab/shirly"
+  },
+  {
+    "name": "phtweet",
+    "description": "Twitter monitoring for public health situational awareness.",
+    "organization": "informaticslab",
+    "repositoryURL": "https://github.com/informaticslab/phtweet",
+    "homepageURL": "https://github.com/informaticslab/phtweet",
+    "vcs": "git",
+    "repositoryVisibility": "public",
+    "status": "archived",
+    "version": "N/A",
+    "laborHours": 0,
+    "languages": [
+      "Java"
+    ],
+    "tags": [],
+    "date": {
+      "created": "2012-11-30T14:34:34+00:00",
+      "lastModified": "2012-11-30T14:46:24+00:00",
+      "metadataLastUpdated": "2025-07-09T15-02-39"
+    },
+    "permissions": {
+      "usageType": "governmentWideReuse",
+      "exemptionText": "",
+      "licenses": [
+        {
+          "name": "Apache License 2.0"
+        }
+      ]
+    },
+    "contact": {
+      "email": "",
+      "name": "Centers for Disease Control and Prevention (CDC)"
+    },
+    "repo_id": 6940340,
+    "readme_url": "https://github.com/informaticslab/phtweet/blob/master/README.md",
+    "private_id": "github_6940340",
+    "_url": "https://github.com/informaticslab/phtweet"
+  },
+  {
+    "name": "clip",
+    "description": "Central Line Insertion Practices (CLIP) adherence monitoring iPad app prototype",
+    "organization": "informaticslab",
+    "repositoryURL": "https://github.com/informaticslab/clip",
+    "homepageURL": "https://github.com/informaticslab/clip",
+    "vcs": "git",
+    "repositoryVisibility": "public",
+    "status": "archived",
+    "version": "N/A",
+    "laborHours": 0,
+    "languages": [
+      "Objective-C"
+    ],
+    "tags": [],
+    "date": {
+      "created": "2012-11-30T14:51:50+00:00",
+      "lastModified": "2014-10-15T14:30:54+00:00",
+      "metadataLastUpdated": "2025-07-09T15-02-40"
+    },
+    "permissions": {
+      "usageType": "openSource",
+      "exemptionText": "",
+      "licenses": [
+        {
+          "name": "Apache License 2.0"
+        }
+      ]
+    },
+    "contact": {
+      "email": "",
+      "name": "Centers for Disease Control and Prevention (CDC)"
+    },
+    "repo_id": 6940591,
+    "readme_url": "https://github.com/informaticslab/clip/blob/master/README.md",
+    "private_id": "github_6940591",
+    "_url": "https://github.com/informaticslab/clip"
+  },
+  {
+    "name": "healthnews",
+    "description": "Visualization tool for public health related news surveillance.",
+    "organization": "informaticslab",
+    "repositoryURL": "https://github.com/informaticslab/healthnews",
+    "homepageURL": "https://github.com/informaticslab/healthnews",
+    "vcs": "git",
+    "repositoryVisibility": "public",
+    "status": "archived",
+    "version": "N/A",
+    "laborHours": 0,
+    "languages": [
+      "HTML",
+      "JavaScript",
+      "Java",
+      "CSS"
+    ],
+    "tags": [],
+    "date": {
+      "created": "2012-11-30T16:10:06+00:00",
+      "lastModified": "2015-04-02T14:34:20+00:00",
+      "metadataLastUpdated": "2025-07-09T15-02-41"
+    },
+    "permissions": {
+      "usageType": "governmentWideReuse",
+      "exemptionText": "",
+      "licenses": [
+        {
+          "name": "Apache License 2.0"
+        }
+      ]
+    },
+    "contact": {
+      "email": "",
+      "name": "Centers for Disease Control and Prevention (CDC)"
+    },
+    "repo_id": 6941757,
+    "readme_url": "https://github.com/informaticslab/healthnews/blob/master/README.md",
+    "private_id": "github_6941757",
+    "_url": "https://github.com/informaticslab/healthnews"
+  },
+  {
+    "name": "commsphere-gwt",
+    "description": "Web prototype for coordinating public health event communications",
+    "organization": "informaticslab",
+    "repositoryURL": "https://github.com/informaticslab/commsphere-gwt",
+    "homepageURL": "https://github.com/informaticslab/commsphere-gwt",
+    "vcs": "git",
+    "repositoryVisibility": "public",
+    "status": "archived",
+    "version": "N/A",
+    "laborHours": 0,
+    "languages": [
+      "Java"
+    ],
+    "tags": [],
+    "date": {
+      "created": "2012-11-30T16:34:49+00:00",
+      "lastModified": "2012-11-30T16:44:27+00:00",
+      "metadataLastUpdated": "2025-07-09T15-02-43"
+    },
+    "permissions": {
+      "usageType": "governmentWideReuse",
+      "exemptionText": "",
+      "licenses": [
+        {
+          "name": "Apache License 2.0"
+        }
+      ]
+    },
+    "contact": {
+      "email": "",
+      "name": "Centers for Disease Control and Prevention (CDC)"
+    },
+    "repo_id": 6942110,
+    "readme_url": "https://github.com/informaticslab/commsphere-gwt/blob/master/README.md",
+    "private_id": "github_6942110",
+    "_url": "https://github.com/informaticslab/commsphere-gwt"
+  },
+  {
+    "name": "samwise",
+    "description": "Health literacity assessment prototype",
+    "organization": "informaticslab",
+    "repositoryURL": "https://github.com/informaticslab/samwise",
+    "homepageURL": "https://github.com/informaticslab/samwise",
+    "vcs": "git",
+    "repositoryVisibility": "public",
+    "status": "archived",
+    "version": "N/A",
+    "laborHours": 0,
+    "languages": [
+      "Java"
+    ],
+    "tags": [],
+    "date": {
+      "created": "2012-11-30T16:39:16+00:00",
+      "lastModified": "2012-11-30T16:50:13+00:00",
+      "metadataLastUpdated": "2025-07-09T15-02-44"
+    },
+    "permissions": {
+      "usageType": "governmentWideReuse",
+      "exemptionText": "",
+      "licenses": [
+        {
+          "name": "Apache License 2.0"
+        }
+      ]
+    },
+    "contact": {
+      "email": "",
+      "name": "Centers for Disease Control and Prevention (CDC)"
+    },
+    "repo_id": 6942167,
+    "readme_url": "https://github.com/informaticslab/samwise/blob/master/README.md",
+    "private_id": "github_6942167",
+    "_url": "https://github.com/informaticslab/samwise"
+  },
+  {
+    "name": "vrminesim",
+    "description": "Mobile Virtual Reality Mine Safety Training iPad Prototype",
+    "organization": "informaticslab",
+    "repositoryURL": "https://github.com/informaticslab/vrminesim",
+    "homepageURL": "https://github.com/informaticslab/vrminesim",
+    "vcs": "git",
+    "repositoryVisibility": "public",
+    "status": "archived",
+    "version": "N/A",
+    "laborHours": 0,
+    "languages": [],
+    "tags": [],
+    "date": {
+      "created": "2012-11-30T17:01:59+00:00",
+      "lastModified": "2012-11-30T17:12:24+00:00",
+      "metadataLastUpdated": "2025-07-09T15-02-45"
+    },
+    "permissions": {
+      "usageType": "openSource",
+      "exemptionText": "",
+      "licenses": [
+        {
+          "name": "Apache License 2.0"
+        }
+      ]
+    },
+    "contact": {
+      "email": "",
+      "name": "Centers for Disease Control and Prevention (CDC)"
+    },
+    "repo_id": 6942512,
+    "readme_url": "https://github.com/informaticslab/vrminesim/blob/master/README.md",
+    "private_id": "github_6942512",
+    "_url": "https://github.com/informaticslab/vrminesim"
+  },
+  {
+    "name": "nomenclature",
+    "description": "Web prototype to demonstrate related laboratory ordering terms",
+    "organization": "informaticslab",
+    "repositoryURL": "https://github.com/informaticslab/nomenclature",
+    "homepageURL": "https://github.com/informaticslab/nomenclature",
+    "vcs": "git",
+    "repositoryVisibility": "public",
+    "status": "archived",
+    "version": "N/A",
+    "laborHours": 0,
+    "languages": [
+      "Java"
+    ],
+    "tags": [],
+    "date": {
+      "created": "2012-11-30T17:22:21+00:00",
+      "lastModified": "2012-11-30T17:26:49+00:00",
+      "metadataLastUpdated": "2025-07-09T15-02-46"
+    },
+    "permissions": {
+      "usageType": "governmentWideReuse",
+      "exemptionText": "",
+      "licenses": [
+        {
+          "name": "Apache License 2.0"
+        }
+      ]
+    },
+    "contact": {
+      "email": "",
+      "name": "Centers for Disease Control and Prevention (CDC)"
+    },
+    "repo_id": 6942778,
+    "readme_url": "https://github.com/informaticslab/nomenclature/blob/master/README.md",
+    "private_id": "github_6942778",
+    "_url": "https://github.com/informaticslab/nomenclature"
+  },
+  {
+    "name": "toxguide",
+    "description": "Toxic Substance Quick Reference Guides for the iPhone Prototype",
+    "organization": "informaticslab",
+    "repositoryURL": "https://github.com/informaticslab/toxguide",
+    "homepageURL": "https://github.com/informaticslab/toxguide",
+    "vcs": "git",
+    "repositoryVisibility": "public",
+    "status": "archived",
+    "version": "N/A",
+    "laborHours": 0,
+    "languages": [
+      "Objective-C"
+    ],
+    "tags": [],
+    "date": {
+      "created": "2012-11-30T17:27:56+00:00",
+      "lastModified": "2013-08-14T13:06:31+00:00",
+      "metadataLastUpdated": "2025-07-09T15-02-47"
+    },
+    "permissions": {
+      "usageType": "openSource",
+      "exemptionText": "",
+      "licenses": [
+        {
+          "name": "Apache License 2.0"
+        }
+      ]
+    },
+    "contact": {
+      "email": "",
+      "name": "Centers for Disease Control and Prevention (CDC)"
+    },
+    "repo_id": 6942855,
+    "readme_url": "https://github.com/informaticslab/toxguide/blob/master/README.md",
+    "private_id": "github_6942855",
+    "_url": "https://github.com/informaticslab/toxguide"
+  },
+  {
+    "name": "phix",
+    "description": "Public Health Information eXchange",
+    "organization": "informaticslab",
+    "repositoryURL": "https://github.com/informaticslab/phix",
+    "homepageURL": "https://github.com/informaticslab/phix",
+    "vcs": "git",
+    "repositoryVisibility": "public",
+    "status": "archived",
+    "version": "N/A",
+    "laborHours": 0,
+    "languages": [],
+    "tags": [],
+    "date": {
+      "created": "2012-11-30T17:37:52+00:00",
+      "lastModified": "2012-11-30T18:09:03+00:00",
+      "metadataLastUpdated": "2025-07-09T15-02-49"
+    },
+    "permissions": {
+      "usageType": "openSource",
+      "exemptionText": "",
+      "licenses": [
+        {
+          "name": "Apache License 2.0"
+        }
+      ]
+    },
+    "contact": {
+      "email": "",
+      "name": "Centers for Disease Control and Prevention (CDC)"
+    },
+    "repo_id": 6943004,
+    "readme_url": "https://github.com/informaticslab/phix/blob/master/README.md",
+    "private_id": "github_6943004",
+    "_url": "https://github.com/informaticslab/phix"
+  },
+  {
+    "name": "mmwr-nav",
+    "description": "MMWR Navigator iPad Prototype",
+    "organization": "informaticslab",
+    "repositoryURL": "https://github.com/informaticslab/mmwr-nav",
+    "homepageURL": "https://github.com/informaticslab/mmwr-nav",
+    "vcs": "git",
+    "repositoryVisibility": "public",
+    "status": "archived",
+    "version": "N/A",
+    "laborHours": 0,
+    "languages": [
+      "Objective-C",
+      "Shell"
+    ],
+    "tags": [],
+    "date": {
+      "created": "2012-11-30T18:00:43+00:00",
+      "lastModified": "2014-10-15T18:30:43+00:00",
+      "metadataLastUpdated": "2025-07-09T15-02-50"
+    },
+    "permissions": {
+      "usageType": "openSource",
+      "exemptionText": "",
+      "licenses": [
+        {
+          "name": "Apache License 2.0"
+        }
+      ]
+    },
+    "contact": {
+      "email": "",
+      "name": "Centers for Disease Control and Prevention (CDC)"
+    },
+    "repo_id": 6943309,
+    "readme_url": "https://github.com/informaticslab/mmwr-nav/blob/master/README.md",
+    "private_id": "github_6943309",
+    "_url": "https://github.com/informaticslab/mmwr-nav"
+  },
+  {
+    "name": "mmwr-map",
+    "description": "MMWR Map Navigator Prototype",
+    "organization": "informaticslab",
+    "repositoryURL": "https://github.com/informaticslab/mmwr-map",
+    "homepageURL": "https://github.com/informaticslab/mmwr-map",
+    "vcs": "git",
+    "repositoryVisibility": "public",
+    "status": "archived",
+    "version": "N/A",
+    "laborHours": 0,
+    "languages": [
+      "Objective-C"
+    ],
+    "tags": [],
+    "date": {
+      "created": "2012-11-30T18:14:34+00:00",
+      "lastModified": "2014-10-15T12:35:31+00:00",
+      "metadataLastUpdated": "2025-07-09T15-02-51"
+    },
+    "permissions": {
+      "usageType": "openSource",
+      "exemptionText": "",
+      "licenses": [
+        {
+          "name": "Apache License 2.0"
+        }
+      ]
+    },
+    "contact": {
+      "email": "",
+      "name": "Centers for Disease Control and Prevention (CDC)"
+    },
+    "repo_id": 6943480,
+    "readme_url": "https://github.com/informaticslab/mmwr-map/blob/master/README.md",
+    "private_id": "github_6943480",
+    "_url": "https://github.com/informaticslab/mmwr-map"
+  },
+  {
+    "name": "respguide",
+    "description": "NIOSH Facepiece Respirator Guide Prototype",
+    "organization": "informaticslab",
+    "repositoryURL": "https://github.com/informaticslab/respguide",
+    "homepageURL": "https://github.com/informaticslab/respguide",
+    "vcs": "git",
+    "repositoryVisibility": "public",
+    "status": "archived",
+    "version": "N/A",
+    "laborHours": 0,
+    "languages": [
+      "Objective-C",
+      "CSS"
+    ],
+    "tags": [],
+    "date": {
+      "created": "2012-11-30T18:27:23+00:00",
+      "lastModified": "2013-08-14T12:43:25+00:00",
+      "metadataLastUpdated": "2025-07-09T15-02-52"
+    },
+    "permissions": {
+      "usageType": "openSource",
+      "exemptionText": "",
+      "licenses": [
+        {
+          "name": "Apache License 2.0"
+        }
+      ]
+    },
+    "contact": {
+      "email": "",
+      "name": "Centers for Disease Control and Prevention (CDC)"
+    },
+    "repo_id": 6943667,
+    "readme_url": "https://github.com/informaticslab/respguide/blob/master/README.md",
+    "private_id": "github_6943667",
+    "_url": "https://github.com/informaticslab/respguide"
+  },
+  {
+    "name": "std1",
+    "description": "STD Guide, Version 1 prototype",
+    "organization": "informaticslab",
+    "repositoryURL": "https://github.com/informaticslab/std1",
+    "homepageURL": "https://github.com/informaticslab/std1",
+    "vcs": "git",
+    "repositoryVisibility": "public",
+    "status": "archived",
+    "version": "N/A",
+    "laborHours": 0,
+    "languages": [
+      "Objective-C"
+    ],
+    "tags": [],
+    "date": {
+      "created": "2012-11-30T18:37:54+00:00",
+      "lastModified": "2013-08-23T21:53:30+00:00",
+      "metadataLastUpdated": "2025-07-09T15-02-53"
+    },
+    "permissions": {
+      "usageType": "governmentWideReuse",
+      "exemptionText": "",
+      "licenses": [
+        {
+          "name": "Apache License 2.0"
+        }
+      ]
+    },
+    "contact": {
+      "email": "",
+      "name": "Centers for Disease Control and Prevention (CDC)"
+    },
+    "repo_id": 6943811,
+    "readme_url": "https://github.com/informaticslab/std1/blob/master/README.md",
+    "private_id": "github_6943811",
+    "_url": "https://github.com/informaticslab/std1"
+  },
+  {
+    "name": "std2",
+    "description": "STD Guide iPhone Prototype, Version 2",
+    "organization": "informaticslab",
+    "repositoryURL": "https://github.com/informaticslab/std2",
+    "homepageURL": "https://github.com/informaticslab/std2",
+    "vcs": "git",
+    "repositoryVisibility": "public",
+    "status": "archived",
+    "version": "N/A",
+    "laborHours": 0,
+    "languages": [
+      "Objective-C",
+      "CSS"
+    ],
+    "tags": [],
+    "date": {
+      "created": "2012-11-30T18:44:05+00:00",
+      "lastModified": "2013-08-23T21:56:14+00:00",
+      "metadataLastUpdated": "2025-07-09T15-02-55"
+    },
+    "permissions": {
+      "usageType": "openSource",
+      "exemptionText": "",
+      "licenses": [
+        {
+          "name": "Apache License 2.0"
+        }
+      ]
+    },
+    "contact": {
+      "email": "",
+      "name": "Centers for Disease Control and Prevention (CDC)"
+    },
+    "repo_id": 6943896,
+    "readme_url": "https://github.com/informaticslab/std2/blob/master/README.md",
+    "private_id": "github_6943896",
+    "_url": "https://github.com/informaticslab/std2"
+  },
+  {
+    "name": "mobile-framework-testing-apps",
+    "description": "Set of small prototypes to test cross-platform developer tools.",
+    "organization": "informaticslab",
+    "repositoryURL": "https://github.com/informaticslab/mobile-framework-testing-apps",
+    "homepageURL": "https://github.com/informaticslab/mobile-framework-testing-apps",
+    "vcs": "git",
+    "repositoryVisibility": "public",
+    "status": "archived",
+    "version": "N/A",
+    "laborHours": 0,
+    "languages": [
+      "JavaScript",
+      "Objective-C",
+      "Shell",
+      "Ruby",
+      "Python"
+    ],
+    "tags": [],
+    "date": {
+      "created": "2012-11-30T18:48:12+00:00",
+      "lastModified": "2012-11-30T18:59:31+00:00",
+      "metadataLastUpdated": "2025-07-09T15-02-56"
+    },
+    "permissions": {
+      "usageType": "governmentWideReuse",
+      "exemptionText": "",
+      "licenses": [
+        {
+          "name": "Apache License 2.0"
+        }
+      ]
+    },
+    "contact": {
+      "email": "",
+      "name": "Centers for Disease Control and Prevention (CDC)"
+    },
+    "repo_id": 6943949,
+    "readme_url": "https://github.com/informaticslab/mobile-framework-testing-apps/blob/master/README.md",
+    "private_id": "github_6943949",
+    "_url": "https://github.com/informaticslab/mobile-framework-testing-apps"
+  },
+  {
+    "name": "informaticslab.github.com",
+    "description": "Pages repo",
+    "organization": "informaticslab",
+    "repositoryURL": "https://github.com/informaticslab/informaticslab.github.com",
+    "homepageURL": "https://github.com/informaticslab/informaticslab.github.com",
+    "vcs": "git",
+    "repositoryVisibility": "public",
+    "status": "archived",
+    "version": "N/A",
+    "laborHours": 0,
+    "languages": [
+      "CSS",
+      "JavaScript"
+    ],
+    "tags": [],
+    "date": {
+      "created": "2012-12-07T00:59:52+00:00",
+      "lastModified": "2014-03-31T21:41:48+00:00",
+      "metadataLastUpdated": "2025-07-09T15-02-57"
+    },
+    "permissions": {
+      "usageType": "governmentWideReuse",
+      "exemptionText": "",
+      "licenses": [
+        {
+          "name": "Apache License 2.0"
+        }
+      ]
+    },
+    "contact": {
+      "email": "",
+      "name": "Centers for Disease Control and Prevention (CDC)"
+    },
+    "repo_id": 7045622,
+    "readme_url": "https://github.com/informaticslab/informaticslab.github.com/blob/master/README.md",
+    "private_id": "github_7045622",
+    "_url": "https://github.com/informaticslab/informaticslab.github.com"
+  },
+  {
+    "name": "pedigree",
+    "description": "Family Heath iPhone App prototype",
+    "organization": "informaticslab",
+    "repositoryURL": "https://github.com/informaticslab/pedigree",
+    "homepageURL": "https://github.com/informaticslab/pedigree",
+    "vcs": "git",
+    "repositoryVisibility": "public",
+    "status": "archived",
+    "version": "N/A",
+    "laborHours": 0,
+    "languages": [
+      "Objective-C",
+      "C"
+    ],
+    "tags": [],
+    "date": {
+      "created": "2013-03-21T13:47:43+00:00",
+      "lastModified": "2014-04-15T20:30:09+00:00",
+      "metadataLastUpdated": "2025-07-09T15-02-58"
+    },
+    "permissions": {
+      "usageType": "governmentWideReuse",
+      "exemptionText": "",
+      "licenses": [
+        {
+          "name": "Apache License 2.0"
+        }
+      ]
+    },
+    "contact": {
+      "email": "",
+      "name": "Centers for Disease Control and Prevention (CDC)"
+    },
+    "repo_id": 8929735,
+    "readme_url": "https://github.com/informaticslab/pedigree/blob/master/README.md",
+    "private_id": "github_8929735",
+    "_url": "https://github.com/informaticslab/pedigree"
+  },
+  {
+    "name": "retro",
+    "description": "HIV Risk Assessment Tool prototype",
+    "organization": "informaticslab",
+    "repositoryURL": "https://github.com/informaticslab/retro",
+    "homepageURL": "https://github.com/informaticslab/retro",
+    "vcs": "git",
+    "repositoryVisibility": "public",
+    "status": "archived",
+    "version": "N/A",
+    "laborHours": 0,
+    "languages": [
+      "Objective-C"
+    ],
+    "tags": [],
+    "date": {
+      "created": "2013-07-03T14:27:21+00:00",
+      "lastModified": "2014-05-02T15:22:51+00:00",
+      "metadataLastUpdated": "2025-07-09T15-02-59"
+    },
+    "permissions": {
+      "usageType": "governmentWideReuse",
+      "exemptionText": "",
+      "licenses": [
+        {
+          "name": "Apache License 2.0"
+        }
+      ]
+    },
+    "contact": {
+      "email": "",
+      "name": "Centers for Disease Control and Prevention (CDC)"
+    },
+    "repo_id": 11152746,
+    "readme_url": "https://github.com/informaticslab/retro/blob/master/README.md",
+    "private_id": "github_11152746",
+    "_url": "https://github.com/informaticslab/retro"
+  },
+  {
+    "name": "bluebird",
+    "description": "Guided twitter messages for surveillance prototype.",
+    "organization": "informaticslab",
+    "repositoryURL": "https://github.com/informaticslab/bluebird",
+    "homepageURL": "https://github.com/informaticslab/bluebird",
+    "vcs": "git",
+    "repositoryVisibility": "public",
+    "status": "archived",
+    "version": "N/A",
+    "laborHours": 0,
+    "languages": [
+      "Objective-C"
+    ],
+    "tags": [],
+    "date": {
+      "created": "2013-08-28T20:17:24+00:00",
+      "lastModified": "2014-10-15T11:56:45+00:00",
+      "metadataLastUpdated": "2025-07-09T15-03-01"
+    },
+    "permissions": {
+      "usageType": "governmentWideReuse",
+      "exemptionText": "",
+      "licenses": [
+        {
+          "name": "Apache License 2.0"
+        }
+      ]
+    },
+    "contact": {
+      "email": "",
+      "name": "Centers for Disease Control and Prevention (CDC)"
+    },
+    "repo_id": 12443639,
+    "readme_url": "https://github.com/informaticslab/bluebird/blob/master/README.md",
+    "private_id": "github_12443639",
+    "_url": "https://github.com/informaticslab/bluebird"
+  },
+  {
+    "name": "photon",
+    "description": "",
+    "organization": "informaticslab",
+    "repositoryURL": "https://github.com/informaticslab/photon",
+    "homepageURL": "https://github.com/informaticslab/photon",
+    "vcs": "git",
+    "repositoryVisibility": "public",
+    "status": "archived",
+    "version": "N/A",
+    "laborHours": 0,
+    "languages": [
+      "Objective-C",
+      "HTML"
+    ],
+    "tags": [],
+    "date": {
+      "created": "2013-11-01T14:24:46+00:00",
+      "lastModified": "2017-12-29T14:09:49+00:00",
+      "metadataLastUpdated": "2025-07-09T15-03-02"
+    },
+    "permissions": {
+      "usageType": "governmentWideReuse",
+      "exemptionText": "",
+      "licenses": [
+        {
+          "name": "Apache License 2.0"
+        }
+      ]
+    },
+    "contact": {
+      "email": "",
+      "name": "Centers for Disease Control and Prevention (CDC)"
+    },
+    "repo_id": 14044908,
+    "readme_url": "https://github.com/informaticslab/photon/blob/master/README.md",
+    "private_id": "github_14044908",
+    "_url": "https://github.com/informaticslab/photon"
+  },
+  {
+    "name": "lydia-jqm",
+    "description": "Second generation STD mobile app using jQuery Mobile",
+    "organization": "informaticslab",
+    "repositoryURL": "https://github.com/informaticslab/lydia-jqm",
+    "homepageURL": "https://github.com/informaticslab/lydia-jqm",
+    "vcs": "git",
+    "repositoryVisibility": "public",
+    "status": "archived",
+    "version": "N/A",
+    "laborHours": 0,
+    "languages": [
+      "JavaScript",
+      "Java",
+      "CSS",
+      "Objective-C",
+      "Python",
+      "D",
+      "Shell",
+      "C++",
+      "C#",
+      "AppleScript",
+      "C"
+    ],
+    "tags": [],
+    "date": {
+      "created": "2014-06-30T14:18:42+00:00",
+      "lastModified": "2014-06-30T14:40:06+00:00",
+      "metadataLastUpdated": "2025-07-09T15-03-03"
+    },
+    "permissions": {
+      "usageType": "governmentWideReuse",
+      "exemptionText": "",
+      "licenses": [
+        {
+          "name": "Apache License 2.0"
+        }
+      ]
+    },
+    "contact": {
+      "email": "",
+      "name": "Centers for Disease Control and Prevention (CDC)"
+    },
+    "repo_id": 21353662,
+    "readme_url": "https://github.com/informaticslab/lydia-jqm/blob/master/README.md",
+    "private_id": "github_21353662",
+    "_url": "https://github.com/informaticslab/lydia-jqm"
+  },
+  {
+    "name": "lydia-droid",
+    "description": "2014 STD Treatment Guide for Android",
+    "organization": "informaticslab",
+    "repositoryURL": "https://github.com/informaticslab/lydia-droid",
+    "homepageURL": "https://github.com/informaticslab/lydia-droid",
+    "vcs": "git",
+    "repositoryVisibility": "public",
+    "status": "archived",
+    "version": "N/A",
+    "laborHours": 0,
+    "languages": [
+      "HTML",
+      "Java",
+      "CSS",
+      "Shell"
+    ],
+    "tags": [],
+    "date": {
+      "created": "2014-06-30T15:07:44+00:00",
+      "lastModified": "2019-07-26T16:53:53+00:00",
+      "metadataLastUpdated": "2025-07-09T15-03-04"
+    },
+    "permissions": {
+      "usageType": "governmentWideReuse",
+      "exemptionText": "",
+      "licenses": [
+        {
+          "name": "Apache License 2.0"
+        }
+      ]
+    },
+    "contact": {
+      "email": "",
+      "name": "Centers for Disease Control and Prevention (CDC)"
+    },
+    "repo_id": 21355363,
+    "readme_url": "https://github.com/informaticslab/lydia-droid/blob/master/README.md",
+    "private_id": "github_21355363",
+    "_url": "https://github.com/informaticslab/lydia-droid"
+  },
+  {
+    "name": "lydia-py",
+    "description": "Python script to generate HTML and JSON content",
+    "organization": "informaticslab",
+    "repositoryURL": "https://github.com/informaticslab/lydia-py",
+    "homepageURL": "https://github.com/informaticslab/lydia-py",
+    "vcs": "git",
+    "repositoryVisibility": "public",
+    "status": "archived",
+    "version": "N/A",
+    "laborHours": 0,
+    "languages": [
+      "Python"
+    ],
+    "tags": [],
+    "date": {
+      "created": "2014-07-14T14:01:29+00:00",
+      "lastModified": "2017-10-19T21:07:53+00:00",
+      "metadataLastUpdated": "2025-07-09T15-03-06"
+    },
+    "permissions": {
+      "usageType": "governmentWideReuse",
+      "exemptionText": "",
+      "licenses": [
+        {
+          "name": "Apache License 2.0"
+        }
+      ]
+    },
+    "contact": {
+      "email": "",
+      "name": "Centers for Disease Control and Prevention (CDC)"
+    },
+    "repo_id": 21821543,
+    "readme_url": "https://github.com/informaticslab/lydia-py/blob/master/README.md",
+    "private_id": "github_21821543",
+    "_url": "https://github.com/informaticslab/lydia-py"
+  },
+  {
+    "name": "lydia-ios",
+    "description": "Lydia Project Mobile App for iOS",
+    "organization": "informaticslab",
+    "repositoryURL": "https://github.com/informaticslab/lydia-ios",
+    "homepageURL": "https://github.com/informaticslab/lydia-ios",
+    "vcs": "git",
+    "repositoryVisibility": "public",
+    "status": "archived",
+    "version": "N/A",
+    "laborHours": 0,
+    "languages": [
+      "HTML",
+      "Swift",
+      "Objective-C",
+      "CSS",
+      "Shell"
+    ],
+    "tags": [],
+    "date": {
+      "created": "2014-08-07T18:52:52+00:00",
+      "lastModified": "2017-12-29T14:10:55+00:00",
+      "metadataLastUpdated": "2025-07-09T15-03-07"
+    },
+    "permissions": {
+      "usageType": "governmentWideReuse",
+      "exemptionText": "",
+      "licenses": [
+        {
+          "name": "Apache License 2.0"
+        }
+      ]
+    },
+    "contact": {
+      "email": "",
+      "name": "Centers for Disease Control and Prevention (CDC)"
+    },
+    "repo_id": 22732743,
+    "readme_url": "https://github.com/informaticslab/lydia-ios/blob/master/README.md",
+    "private_id": "github_22732743",
+    "_url": "https://github.com/informaticslab/lydia-ios"
+  },
+  {
+    "name": "iiu-glass",
+    "description": "A Google Glass starter app",
+    "organization": "informaticslab",
+    "repositoryURL": "https://github.com/informaticslab/iiu-glass",
+    "homepageURL": "https://github.com/informaticslab/iiu-glass",
+    "vcs": "git",
+    "repositoryVisibility": "public",
+    "status": "archived",
+    "version": "N/A",
+    "laborHours": 0,
+    "languages": [
+      "Java",
+      "Groovy"
+    ],
+    "tags": [],
+    "date": {
+      "created": "2014-08-27T11:11:44+00:00",
+      "lastModified": "2014-08-27T11:20:59+00:00",
+      "metadataLastUpdated": "2025-07-09T15-03-08"
+    },
+    "permissions": {
+      "usageType": "governmentWideReuse",
+      "exemptionText": "",
+      "licenses": [
+        {
+          "name": "Apache License 2.0"
+        }
+      ]
+    },
+    "contact": {
+      "email": "",
+      "name": "Centers for Disease Control and Prevention (CDC)"
+    },
+    "repo_id": 23386812,
+    "readme_url": "https://github.com/informaticslab/iiu-glass/blob/master/README.md",
+    "private_id": "github_23386812",
+    "_url": "https://github.com/informaticslab/iiu-glass"
+  },
+  {
+    "name": "photon-droid",
+    "description": "MMWR Express App for Android",
+    "organization": "informaticslab",
+    "repositoryURL": "https://github.com/informaticslab/photon-droid",
+    "homepageURL": "https://github.com/informaticslab/photon-droid",
+    "vcs": "git",
+    "repositoryVisibility": "public",
+    "status": "archived",
+    "version": "N/A",
+    "laborHours": 0,
+    "languages": [
+      "Java",
+      "HTML"
+    ],
+    "tags": [],
+    "date": {
+      "created": "2014-08-28T14:11:35+00:00",
+      "lastModified": "2018-12-10T14:56:55+00:00",
+      "metadataLastUpdated": "2025-07-09T15-03-09"
+    },
+    "permissions": {
+      "usageType": "governmentWideReuse",
+      "exemptionText": "",
+      "licenses": [
+        {
+          "name": "Apache License 2.0"
+        }
+      ]
+    },
+    "contact": {
+      "email": "",
+      "name": "Centers for Disease Control and Prevention (CDC)"
+    },
+    "repo_id": 23430336,
+    "readme_url": "https://github.com/informaticslab/photon-droid/blob/master/README.md",
+    "private_id": "github_23430336",
+    "_url": "https://github.com/informaticslab/photon-droid"
+  },
+  {
+    "name": "ebolocatemp-ios",
+    "description": "",
+    "organization": "informaticslab",
+    "repositoryURL": "https://github.com/informaticslab/ebolocatemp-ios",
+    "homepageURL": "https://github.com/informaticslab/ebolocatemp-ios",
+    "vcs": "git",
+    "repositoryVisibility": "public",
+    "status": "archived",
+    "version": "N/A",
+    "laborHours": 0,
+    "languages": [
+      "Objective-C",
+      "C"
+    ],
+    "tags": [],
+    "date": {
+      "created": "2014-10-08T15:36:36+00:00",
+      "lastModified": "2014-10-10T14:59:13+00:00",
+      "metadataLastUpdated": "2025-07-09T15-03-10"
+    },
+    "permissions": {
+      "usageType": "governmentWideReuse",
+      "exemptionText": "",
+      "licenses": [
+        {
+          "name": "Apache License 2.0"
+        }
+      ]
+    },
+    "contact": {
+      "email": "",
+      "name": "Centers for Disease Control and Prevention (CDC)"
+    },
+    "repo_id": 24947470,
+    "readme_url": "https://github.com/informaticslab/ebolocatemp-ios/blob/master/README.md",
+    "private_id": "github_24947470",
+    "_url": "https://github.com/informaticslab/ebolocatemp-ios"
+  },
+  {
+    "name": "VAECalc",
+    "description": "",
+    "organization": "informaticslab",
+    "repositoryURL": "https://github.com/informaticslab/VAECalc",
+    "homepageURL": "https://github.com/informaticslab/VAECalc",
+    "vcs": "git",
+    "repositoryVisibility": "public",
+    "status": "archived",
+    "version": "N/A",
+    "laborHours": 0,
+    "languages": [],
+    "tags": [],
+    "date": {
+      "created": "2014-10-08T17:04:47+00:00",
+      "lastModified": "2014-10-08T17:04:48+00:00",
+      "metadataLastUpdated": "2025-07-09T15-03-12"
+    },
+    "permissions": {
+      "usageType": "governmentWideReuse",
+      "exemptionText": "",
+      "licenses": [
+        {
+          "name": "Apache License 2.0"
+        }
+      ]
+    },
+    "contact": {
+      "email": "",
+      "name": "Centers for Disease Control and Prevention (CDC)"
+    },
+    "repo_id": 24951144,
+    "readme_url": "https://github.com/informaticslab/VAECalc/blob/master/README.md",
+    "private_id": "github_24951144",
+    "_url": "https://github.com/informaticslab/VAECalc"
+  },
+  {
+    "name": "LabSafe",
+    "description": "",
+    "organization": "informaticslab",
+    "repositoryURL": "https://github.com/informaticslab/LabSafe",
+    "homepageURL": "https://github.com/informaticslab/LabSafe",
+    "vcs": "git",
+    "repositoryVisibility": "public",
+    "status": "archived",
+    "version": "N/A",
+    "laborHours": 0,
+    "languages": [],
+    "tags": [],
+    "date": {
+      "created": "2014-10-15T13:37:07+00:00",
+      "lastModified": "2014-10-15T13:37:07+00:00",
+      "metadataLastUpdated": "2025-07-09T15-03-13"
+    },
+    "permissions": {
+      "usageType": "governmentWideReuse",
+      "exemptionText": "",
+      "licenses": [
+        {
+          "name": "Apache License 2.0"
+        }
+      ]
+    },
+    "contact": {
+      "email": "",
+      "name": "Centers for Disease Control and Prevention (CDC)"
+    },
+    "repo_id": 25256109,
+    "readme_url": "https://github.com/informaticslab/LabSafe/blob/master/README.md",
+    "private_id": "github_25256109",
+    "_url": "https://github.com/informaticslab/LabSafe"
+  },
+  {
+    "name": "cardboard",
+    "description": "Repository for nifty cardboard code",
+    "organization": "informaticslab",
+    "repositoryURL": "https://github.com/informaticslab/cardboard",
+    "homepageURL": "https://github.com/informaticslab/cardboard",
+    "vcs": "git",
+    "repositoryVisibility": "public",
+    "status": "archived",
+    "version": "N/A",
+    "laborHours": 0,
+    "languages": [
+      "C#",
+      "GLSL",
+      "Objective-C++",
+      "Objective-C"
+    ],
+    "tags": [],
+    "date": {
+      "created": "2014-10-22T18:55:48+00:00",
+      "lastModified": "2016-05-16T19:02:19+00:00",
+      "metadataLastUpdated": "2025-07-09T15-03-14"
+    },
+    "permissions": {
+      "usageType": "openSource",
+      "exemptionText": "",
+      "licenses": [
+        {
+          "name": "Apache License 2.0"
+        }
+      ]
+    },
+    "contact": {
+      "email": "",
+      "name": "Centers for Disease Control and Prevention (CDC)"
+    },
+    "repo_id": 25598638,
+    "readme_url": "https://github.com/informaticslab/cardboard/blob/master/README.md",
+    "private_id": "github_25598638",
+    "_url": "https://github.com/informaticslab/cardboard"
+  },
+  {
+    "name": "AppLabSite",
+    "description": "Tracking code for the IIU applab website",
+    "organization": "informaticslab",
+    "repositoryURL": "https://github.com/informaticslab/AppLabSite",
+    "homepageURL": "https://github.com/informaticslab/AppLabSite",
+    "vcs": "git",
+    "repositoryVisibility": "public",
+    "status": "archived",
+    "version": "N/A",
+    "laborHours": 0,
+    "languages": [
+      "PHP",
+      "JavaScript",
+      "CSS"
+    ],
+    "tags": [],
+    "date": {
+      "created": "2014-10-22T19:25:32+00:00",
+      "lastModified": "2014-11-12T16:47:21+00:00",
+      "metadataLastUpdated": "2025-07-09T15-03-15"
+    },
+    "permissions": {
+      "usageType": "openSource",
+      "exemptionText": "",
+      "licenses": [
+        {
+          "name": "Apache License 2.0"
+        }
+      ]
+    },
+    "contact": {
+      "email": "",
+      "name": "Centers for Disease Control and Prevention (CDC)"
+    },
+    "repo_id": 25599988,
+    "readme_url": "https://github.com/informaticslab/AppLabSite/blob/master/README.md",
+    "private_id": "github_25599988",
+    "_url": "https://github.com/informaticslab/AppLabSite"
+  },
+  {
+    "name": "sitemon",
+    "description": "Monitor sites and servers",
+    "organization": "informaticslab",
+    "repositoryURL": "https://github.com/informaticslab/sitemon",
+    "homepageURL": "https://github.com/informaticslab/sitemon",
+    "vcs": "git",
+    "repositoryVisibility": "public",
+    "status": "archived",
+    "version": "N/A",
+    "laborHours": 0,
+    "languages": [
+      "Python"
+    ],
+    "tags": [],
+    "date": {
+      "created": "2014-11-29T14:37:39+00:00",
+      "lastModified": "2016-02-01T18:23:50+00:00",
+      "metadataLastUpdated": "2025-07-09T15-03-17"
+    },
+    "permissions": {
+      "usageType": "governmentWideReuse",
+      "exemptionText": "",
+      "licenses": [
+        {
+          "name": "Apache License 2.0"
+        }
+      ]
+    },
+    "contact": {
+      "email": "",
+      "name": "Centers for Disease Control and Prevention (CDC)"
+    },
+    "repo_id": 27304714,
+    "readme_url": "https://github.com/informaticslab/sitemon/blob/master/README.md",
+    "private_id": "github_27304714",
+    "_url": "https://github.com/informaticslab/sitemon"
+  },
+  {
+    "name": "umlsoapnode",
+    "description": "UMLS SOAP access via NodeJS",
+    "organization": "informaticslab",
+    "repositoryURL": "https://github.com/informaticslab/umlsoapnode",
+    "homepageURL": "https://github.com/informaticslab/umlsoapnode",
+    "vcs": "git",
+    "repositoryVisibility": "public",
+    "status": "archived",
+    "version": "N/A",
+    "laborHours": 0,
+    "languages": [
+      "JavaScript"
+    ],
+    "tags": [],
+    "date": {
+      "created": "2014-12-03T18:43:45+00:00",
+      "lastModified": "2014-12-03T19:28:08+00:00",
+      "metadataLastUpdated": "2025-07-09T15-03-18"
+    },
+    "permissions": {
+      "usageType": "governmentWideReuse",
+      "exemptionText": "",
+      "licenses": [
+        {
+          "name": "Apache License 2.0"
+        }
+      ]
+    },
+    "contact": {
+      "email": "",
+      "name": "Centers for Disease Control and Prevention (CDC)"
+    },
+    "repo_id": 27501967,
+    "readme_url": "https://github.com/informaticslab/umlsoapnode/blob/master/README.md",
+    "private_id": "github_27501967",
+    "_url": "https://github.com/informaticslab/umlsoapnode"
+  },
+  {
+    "name": "umlsoapjava",
+    "description": "Library for connecting to UMLS metathesaurus in Java",
+    "organization": "informaticslab",
+    "repositoryURL": "https://github.com/informaticslab/umlsoapjava",
+    "homepageURL": "https://github.com/informaticslab/umlsoapjava",
+    "vcs": "git",
+    "repositoryVisibility": "public",
+    "status": "archived",
+    "version": "N/A",
+    "laborHours": 0,
+    "languages": [
+      "Java"
+    ],
+    "tags": [],
+    "date": {
+      "created": "2014-12-04T17:30:18+00:00",
+      "lastModified": "2014-12-05T14:16:44+00:00",
+      "metadataLastUpdated": "2025-07-09T15-03-19"
+    },
+    "permissions": {
+      "usageType": "governmentWideReuse",
+      "exemptionText": "",
+      "licenses": [
+        {
+          "name": "Apache License 2.0"
+        }
+      ]
+    },
+    "contact": {
+      "email": "",
+      "name": "Centers for Disease Control and Prevention (CDC)"
+    },
+    "repo_id": 27551723,
+    "readme_url": "https://github.com/informaticslab/umlsoapjava/blob/master/README.md",
+    "private_id": "github_27551723",
+    "_url": "https://github.com/informaticslab/umlsoapjava"
+  },
+  {
+    "name": "applab",
+    "description": "Website for Mobile Apps using Bootstrap",
+    "organization": "informaticslab",
+    "repositoryURL": "https://github.com/informaticslab/applab",
+    "homepageURL": "https://github.com/informaticslab/applab",
+    "vcs": "git",
+    "repositoryVisibility": "public",
+    "status": "archived",
+    "version": "N/A",
+    "laborHours": 0,
+    "languages": [
+      "PHP",
+      "CSS",
+      "JavaScript"
+    ],
+    "tags": [],
+    "date": {
+      "created": "2014-12-16T13:55:53+00:00",
+      "lastModified": "2014-12-17T12:21:48+00:00",
+      "metadataLastUpdated": "2025-07-09T15-03-20"
+    },
+    "permissions": {
+      "usageType": "governmentWideReuse",
+      "exemptionText": "",
+      "licenses": [
+        {
+          "name": "Apache License 2.0"
+        }
+      ]
+    },
+    "contact": {
+      "email": "",
+      "name": "Centers for Disease Control and Prevention (CDC)"
+    },
+    "repo_id": 28089221,
+    "readme_url": "https://github.com/informaticslab/applab/blob/master/README.md",
+    "private_id": "github_28089221",
+    "_url": "https://github.com/informaticslab/applab"
+  },
+  {
+    "name": "wp-applab",
+    "description": "WordPress version of App Lab",
+    "organization": "informaticslab",
+    "repositoryURL": "https://github.com/informaticslab/wp-applab",
+    "homepageURL": "https://github.com/informaticslab/wp-applab",
+    "vcs": "git",
+    "repositoryVisibility": "public",
+    "status": "archived",
+    "version": "N/A",
+    "laborHours": 0,
+    "languages": [
+      "PHP",
+      "CSS",
+      "Shell"
+    ],
+    "tags": [],
+    "date": {
+      "created": "2015-01-23T17:56:32+00:00",
+      "lastModified": "2016-01-11T22:38:39+00:00",
+      "metadataLastUpdated": "2025-07-09T15-03-21"
+    },
+    "permissions": {
+      "usageType": "governmentWideReuse",
+      "exemptionText": "",
+      "licenses": [
+        {
+          "name": "Apache License 2.0"
+        }
+      ]
+    },
+    "contact": {
+      "email": "",
+      "name": "Centers for Disease Control and Prevention (CDC)"
+    },
+    "repo_id": 29745261,
+    "readme_url": "https://github.com/informaticslab/wp-applab/blob/master/README.md",
+    "private_id": "github_29745261",
+    "_url": "https://github.com/informaticslab/wp-applab"
+  },
+  {
+    "name": "lifeguard",
+    "description": "Location based app for iOS.",
+    "organization": "informaticslab",
+    "repositoryURL": "https://github.com/informaticslab/lifeguard",
+    "homepageURL": "https://github.com/informaticslab/lifeguard",
+    "vcs": "git",
+    "repositoryVisibility": "public",
+    "status": "archived",
+    "version": "N/A",
+    "laborHours": 0,
+    "languages": [
+      "Objective-C",
+      "HTML",
+      "C"
+    ],
+    "tags": [],
+    "date": {
+      "created": "2015-04-06T12:54:20+00:00",
+      "lastModified": "2017-10-05T11:02:25+00:00",
+      "metadataLastUpdated": "2025-07-09T15-03-22"
+    },
+    "permissions": {
+      "usageType": "governmentWideReuse",
+      "exemptionText": "",
+      "licenses": [
+        {
+          "name": "Apache License 2.0"
+        }
+      ]
+    },
+    "contact": {
+      "email": "",
+      "name": "Centers for Disease Control and Prevention (CDC)"
+    },
+    "repo_id": 33481843,
+    "readme_url": "https://github.com/informaticslab/lifeguard/blob/master/README.md",
+    "private_id": "github_33481843",
+    "_url": "https://github.com/informaticslab/lifeguard"
+  },
+  {
+    "name": "commSphere-yo",
+    "description": "",
+    "organization": "informaticslab",
+    "repositoryURL": "https://github.com/informaticslab/commSphere-yo",
+    "homepageURL": "https://github.com/informaticslab/commSphere-yo",
+    "vcs": "git",
+    "repositoryVisibility": "public",
+    "status": "archived",
+    "version": "N/A",
+    "laborHours": 0,
+    "languages": [
+      "JavaScript",
+      "ApacheConf",
+      "HTML",
+      "CSS"
+    ],
+    "tags": [],
+    "date": {
+      "created": "2015-04-08T18:41:42+00:00",
+      "lastModified": "2015-04-13T16:24:10+00:00",
+      "metadataLastUpdated": "2025-07-09T15-03-24"
+    },
+    "permissions": {
+      "usageType": "openSource",
+      "exemptionText": "",
+      "licenses": [
+        {
+          "name": "Apache License 2.0"
+        }
+      ]
+    },
+    "contact": {
+      "email": "",
+      "name": "Centers for Disease Control and Prevention (CDC)"
+    },
+    "repo_id": 33625272,
+    "readme_url": "https://github.com/informaticslab/commSphere-yo/blob/master/README.md",
+    "private_id": "github_33625272",
+    "_url": "https://github.com/informaticslab/commSphere-yo"
+  },
+  {
+    "name": "deathreport-android",
+    "description": "Death reporting reference app for Android",
+    "organization": "informaticslab",
+    "repositoryURL": "https://github.com/informaticslab/deathreport-android",
+    "homepageURL": "https://github.com/informaticslab/deathreport-android",
+    "vcs": "git",
+    "repositoryVisibility": "public",
+    "status": "archived",
+    "version": "N/A",
+    "laborHours": 0,
+    "languages": [
+      "Java"
+    ],
+    "tags": [],
+    "date": {
+      "created": "2015-04-14T19:50:22+00:00",
+      "lastModified": "2015-04-16T23:57:41+00:00",
+      "metadataLastUpdated": "2025-07-09T15-03-25"
+    },
+    "permissions": {
+      "usageType": "openSource",
+      "exemptionText": "",
+      "licenses": [
+        {
+          "name": "Apache License 2.0"
+        }
+      ]
+    },
+    "contact": {
+      "email": "",
+      "name": "Centers for Disease Control and Prevention (CDC)"
+    },
+    "repo_id": 33953454,
+    "readme_url": "https://github.com/informaticslab/deathreport-android/blob/master/README.md",
+    "private_id": "github_33953454",
+    "_url": "https://github.com/informaticslab/deathreport-android"
+  },
+  {
+    "name": "commsphere",
+    "description": "surround",
+    "organization": "informaticslab",
+    "repositoryURL": "https://github.com/informaticslab/commsphere",
+    "homepageURL": "https://github.com/informaticslab/commsphere",
+    "vcs": "git",
+    "repositoryVisibility": "public",
+    "status": "archived",
+    "version": "N/A",
+    "laborHours": 0,
+    "languages": [
+      "JavaScript",
+      "HTML",
+      "CSS"
+    ],
+    "tags": [],
+    "date": {
+      "created": "2015-04-15T15:00:39+00:00",
+      "lastModified": "2016-10-17T14:41:50+00:00",
+      "metadataLastUpdated": "2025-07-09T15-03-26"
+    },
+    "permissions": {
+      "usageType": "openSource",
+      "exemptionText": "",
+      "licenses": [
+        {
+          "name": "Apache License 2.0"
+        }
+      ]
+    },
+    "contact": {
+      "email": "",
+      "name": "Centers for Disease Control and Prevention (CDC)"
+    },
+    "repo_id": 34000539,
+    "readme_url": "https://github.com/informaticslab/commsphere/blob/develop/README.md",
+    "private_id": "github_34000539",
+    "_url": "https://github.com/informaticslab/commsphere"
+  },
+  {
+    "name": "pptgen",
+    "description": "An apache poi/tomcat/maven prototype for generating pptx from a website.",
+    "organization": "informaticslab",
+    "repositoryURL": "https://github.com/informaticslab/pptgen",
+    "homepageURL": "https://github.com/informaticslab/pptgen",
+    "vcs": "git",
+    "repositoryVisibility": "public",
+    "status": "archived",
+    "version": "N/A",
+    "laborHours": 0,
+    "languages": [
+      "Java",
+      "CSS"
+    ],
+    "tags": [],
+    "date": {
+      "created": "2015-07-09T20:14:43+00:00",
+      "lastModified": "2015-07-17T19:03:09+00:00",
+      "metadataLastUpdated": "2025-07-09T15-03-27"
+    },
+    "permissions": {
+      "usageType": "governmentWideReuse",
+      "exemptionText": "",
+      "licenses": [
+        {
+          "name": "Apache License 2.0"
+        }
+      ]
+    },
+    "contact": {
+      "email": "",
+      "name": "Centers for Disease Control and Prevention (CDC)"
+    },
+    "repo_id": 38842924,
+    "readme_url": "https://github.com/informaticslab/pptgen/blob/develop/README.md",
+    "private_id": "github_38842924",
+    "_url": "https://github.com/informaticslab/pptgen"
+  },
+  {
+    "name": "iiu-mean-boilerplate",
+    "description": "",
+    "organization": "informaticslab",
+    "repositoryURL": "https://github.com/informaticslab/iiu-mean-boilerplate",
+    "homepageURL": "https://github.com/informaticslab/iiu-mean-boilerplate",
+    "vcs": "git",
+    "repositoryVisibility": "public",
+    "status": "archived",
+    "version": "N/A",
+    "laborHours": 0,
+    "languages": [
+      "CSS",
+      "JavaScript",
+      "HTML"
+    ],
+    "tags": [],
+    "date": {
+      "created": "2015-07-20T19:58:42+00:00",
+      "lastModified": "2015-07-20T20:01:25+00:00",
+      "metadataLastUpdated": "2025-07-09T15-03-28"
+    },
+    "permissions": {
+      "usageType": "openSource",
+      "exemptionText": "",
+      "licenses": [
+        {
+          "name": "Apache License 2.0"
+        }
+      ]
+    },
+    "contact": {
+      "email": "",
+      "name": "Centers for Disease Control and Prevention (CDC)"
+    },
+    "repo_id": 39405526,
+    "readme_url": "https://github.com/informaticslab/iiu-mean-boilerplate/blob/master/README.md",
+    "private_id": "github_39405526",
+    "_url": "https://github.com/informaticslab/iiu-mean-boilerplate"
+  },
+  {
+    "name": "mmwrcase",
+    "description": "",
+    "organization": "informaticslab",
+    "repositoryURL": "https://github.com/informaticslab/mmwrcase",
+    "homepageURL": "https://github.com/informaticslab/mmwrcase",
+    "vcs": "git",
+    "repositoryVisibility": "public",
+    "status": "archived",
+    "version": "N/A",
+    "laborHours": 0,
+    "languages": [
+      "JavaScript",
+      "HTML",
+      "CSS"
+    ],
+    "tags": [],
+    "date": {
+      "created": "2015-08-05T18:26:19+00:00",
+      "lastModified": "2017-10-03T18:32:00+00:00",
+      "metadataLastUpdated": "2025-07-09T15-03-30"
+    },
+    "permissions": {
+      "usageType": "openSource",
+      "exemptionText": "",
+      "licenses": [
+        {
+          "name": "Apache License 2.0"
+        }
+      ]
+    },
+    "contact": {
+      "email": "",
+      "name": "Centers for Disease Control and Prevention (CDC)"
+    },
+    "repo_id": 40262092,
+    "readme_url": "https://github.com/informaticslab/mmwrcase/blob/master/README.md",
+    "private_id": "github_40262092",
+    "_url": "https://github.com/informaticslab/mmwrcase"
+  },
+  {
+    "name": "umlsite",
+    "description": "An apache tomcat/maven for accessing the UMLS Metathesaurus.",
+    "organization": "informaticslab",
+    "repositoryURL": "https://github.com/informaticslab/umlsite",
+    "homepageURL": "https://github.com/informaticslab/umlsite",
+    "vcs": "git",
+    "repositoryVisibility": "public",
+    "status": "archived",
+    "version": "N/A",
+    "laborHours": 0,
+    "languages": [
+      "Java",
+      "CSS"
+    ],
+    "tags": [],
+    "date": {
+      "created": "2015-08-10T21:45:57+00:00",
+      "lastModified": "2015-08-21T15:12:16+00:00",
+      "metadataLastUpdated": "2025-07-09T15-03-31"
+    },
+    "permissions": {
+      "usageType": "governmentWideReuse",
+      "exemptionText": "",
+      "licenses": [
+        {
+          "name": "Apache License 2.0"
+        }
+      ]
+    },
+    "contact": {
+      "email": "",
+      "name": "Centers for Disease Control and Prevention (CDC)"
+    },
+    "repo_id": 40507746,
+    "readme_url": "https://github.com/informaticslab/umlsite/blob/master/README.md",
+    "private_id": "github_40507746",
+    "_url": "https://github.com/informaticslab/umlsite"
+  },
+  {
+    "name": "anubis",
+    "description": "Google Polymer Death Reportng Certification Guideline",
+    "organization": "informaticslab",
+    "repositoryURL": "https://github.com/informaticslab/anubis",
+    "homepageURL": "https://github.com/informaticslab/anubis",
+    "vcs": "git",
+    "repositoryVisibility": "public",
+    "status": "archived",
+    "version": "N/A",
+    "laborHours": 0,
+    "languages": [
+      "HTML",
+      "JavaScript"
+    ],
+    "tags": [],
+    "date": {
+      "created": "2015-08-31T18:29:35+00:00",
+      "lastModified": "2016-10-31T20:17:11+00:00",
+      "metadataLastUpdated": "2025-07-09T15-03-32"
+    },
+    "permissions": {
+      "usageType": "governmentWideReuse",
+      "exemptionText": "",
+      "licenses": [
+        {
+          "name": "Apache License 2.0"
+        }
+      ]
+    },
+    "contact": {
+      "email": "",
+      "name": "Centers for Disease Control and Prevention (CDC)"
+    },
+    "repo_id": 41693031,
+    "readme_url": "https://github.com/informaticslab/anubis/blob/master/README.md",
+    "private_id": "github_41693031",
+    "_url": "https://github.com/informaticslab/anubis"
+  },
+  {
+    "name": "jupiter",
+    "description": "apollo with powerful new extensions",
+    "organization": "informaticslab",
+    "repositoryURL": "https://github.com/informaticslab/jupiter",
+    "homepageURL": "https://github.com/informaticslab/jupiter",
+    "vcs": "git",
+    "repositoryVisibility": "public",
+    "status": "archived",
+    "version": "N/A",
+    "laborHours": 0,
+    "languages": [
+      "HTML",
+      "JavaScript",
+      "CSS"
+    ],
+    "tags": [],
+    "date": {
+      "created": "2015-09-21T18:25:23+00:00",
+      "lastModified": "2017-06-13T15:59:38+00:00",
+      "metadataLastUpdated": "2025-07-09T15-03-33"
+    },
+    "permissions": {
+      "usageType": "openSource",
+      "exemptionText": "",
+      "licenses": [
+        {
+          "name": "Apache License 2.0"
+        }
+      ]
+    },
+    "contact": {
+      "email": "",
+      "name": "Centers for Disease Control and Prevention (CDC)"
+    },
+    "repo_id": 42885563,
+    "readme_url": "https://github.com/informaticslab/jupiter/blob/master/README.md",
+    "private_id": "github_42885563",
+    "_url": "https://github.com/informaticslab/jupiter"
+  },
+  {
+    "name": "UMLServer",
+    "description": "A little Node/Express server that will serve anyone asking (primarily Jupiter) some UMLS term data from a MySQL database.",
+    "organization": "informaticslab",
+    "repositoryURL": "https://github.com/informaticslab/UMLServer",
+    "homepageURL": "https://github.com/informaticslab/UMLServer",
+    "vcs": "git",
+    "repositoryVisibility": "public",
+    "status": "archived",
+    "version": "N/A",
+    "laborHours": 0,
+    "languages": [
+      "JavaScript"
+    ],
+    "tags": [],
+    "date": {
+      "created": "2015-10-15T15:51:37+00:00",
+      "lastModified": "2017-01-31T19:48:46+00:00",
+      "metadataLastUpdated": "2025-07-09T15-03-34"
+    },
+    "permissions": {
+      "usageType": "openSource",
+      "exemptionText": "",
+      "licenses": [
+        {
+          "name": "Apache License 2.0"
+        }
+      ]
+    },
+    "contact": {
+      "email": "",
+      "name": "Centers for Disease Control and Prevention (CDC)"
+    },
+    "repo_id": 44328545,
+    "readme_url": "https://github.com/informaticslab/UMLServer/blob/master/README.md",
+    "private_id": "github_44328545",
+    "_url": "https://github.com/informaticslab/UMLServer"
+  },
+  {
+    "name": "W5HProto",
+    "description": "An android wear prototype application pulling mostly from STD Guide.",
+    "organization": "informaticslab",
+    "repositoryURL": "https://github.com/informaticslab/W5HProto",
+    "homepageURL": "https://github.com/informaticslab/W5HProto",
+    "vcs": "git",
+    "repositoryVisibility": "public",
+    "status": "archived",
+    "version": "N/A",
+    "laborHours": 0,
+    "languages": [
+      "Java",
+      "CSS",
+      "HTML"
+    ],
+    "tags": [],
+    "date": {
+      "created": "2016-01-21T15:44:52+00:00",
+      "lastModified": "2016-01-21T20:21:45+00:00",
+      "metadataLastUpdated": "2025-07-09T15-03-36"
+    },
+    "permissions": {
+      "usageType": "governmentWideReuse",
+      "exemptionText": "",
+      "licenses": [
+        {
+          "name": "Apache License 2.0"
+        }
+      ]
+    },
+    "contact": {
+      "email": "",
+      "name": "Centers for Disease Control and Prevention (CDC)"
+    },
+    "repo_id": 50117593,
+    "readme_url": "https://github.com/informaticslab/W5HProto/blob/master/README.md",
+    "private_id": "github_50117593",
+    "_url": "https://github.com/informaticslab/W5HProto"
+  },
+  {
+    "name": "lydia-watchkit",
+    "description": "Apple Watch prototype of STD Tx Guide",
+    "organization": "informaticslab",
+    "repositoryURL": "https://github.com/informaticslab/lydia-watchkit",
+    "homepageURL": "https://github.com/informaticslab/lydia-watchkit",
+    "vcs": "git",
+    "repositoryVisibility": "public",
+    "status": "archived",
+    "version": "N/A",
+    "laborHours": 0,
+    "languages": [
+      "Swift"
+    ],
+    "tags": [],
+    "date": {
+      "created": "2016-01-21T17:30:37+00:00",
+      "lastModified": "2016-01-21T17:38:48+00:00",
+      "metadataLastUpdated": "2025-07-09T15-03-37"
+    },
+    "permissions": {
+      "usageType": "governmentWideReuse",
+      "exemptionText": "",
+      "licenses": [
+        {
+          "name": "Apache License 2.0"
+        }
+      ]
+    },
+    "contact": {
+      "email": "",
+      "name": "Centers for Disease Control and Prevention (CDC)"
+    },
+    "repo_id": 50124288,
+    "readme_url": "https://github.com/informaticslab/lydia-watchkit/blob/master/README.md",
+    "private_id": "github_50124288",
+    "_url": "https://github.com/informaticslab/lydia-watchkit"
+  },
+  {
+    "name": "AngularTwo",
+    "description": "Testing code for Angular 2.0",
+    "organization": "informaticslab",
+    "repositoryURL": "https://github.com/informaticslab/AngularTwo",
+    "homepageURL": "https://github.com/informaticslab/AngularTwo",
+    "vcs": "git",
+    "repositoryVisibility": "public",
+    "status": "archived",
+    "version": "N/A",
+    "laborHours": 0,
+    "languages": [
+      "JavaScript",
+      "TypeScript",
+      "HTML"
+    ],
+    "tags": [],
+    "date": {
+      "created": "2016-01-27T21:39:36+00:00",
+      "lastModified": "2016-01-28T17:04:57+00:00",
+      "metadataLastUpdated": "2025-07-09T15-03-38"
+    },
+    "permissions": {
+      "usageType": "governmentWideReuse",
+      "exemptionText": "",
+      "licenses": [
+        {
+          "name": "Apache License 2.0"
+        }
+      ]
+    },
+    "contact": {
+      "email": "",
+      "name": "Centers for Disease Control and Prevention (CDC)"
+    },
+    "repo_id": 50539674,
+    "readme_url": "",
+    "private_id": "github_50539674",
+    "_url": "https://github.com/informaticslab/AngularTwo"
+  },
+  {
+    "name": "zika-prototype",
+    "description": "",
+    "organization": "informaticslab",
+    "repositoryURL": "https://github.com/informaticslab/zika-prototype",
+    "homepageURL": "https://github.com/informaticslab/zika-prototype",
+    "vcs": "git",
+    "repositoryVisibility": "public",
+    "status": "archived",
+    "version": "N/A",
+    "laborHours": 0,
+    "languages": [
+      "JavaScript",
+      "HTML",
+      "CSS",
+      "ASP"
+    ],
+    "tags": [],
+    "date": {
+      "created": "2016-02-22T20:43:13+00:00",
+      "lastModified": "2016-02-23T15:33:29+00:00",
+      "metadataLastUpdated": "2025-07-09T15-03-39"
+    },
+    "permissions": {
+      "usageType": "governmentWideReuse",
+      "exemptionText": "",
+      "licenses": [
+        {
+          "name": "Apache License 2.0"
+        }
+      ]
+    },
+    "contact": {
+      "email": "",
+      "name": "Centers for Disease Control and Prevention (CDC)"
+    },
+    "repo_id": 52304199,
+    "readme_url": "",
+    "private_id": "github_52304199",
+    "_url": "https://github.com/informaticslab/zika-prototype"
+  },
+  {
+    "name": "sauron",
+    "description": "",
+    "organization": "informaticslab",
+    "repositoryURL": "https://github.com/informaticslab/sauron",
+    "homepageURL": "https://github.com/informaticslab/sauron",
+    "vcs": "git",
+    "repositoryVisibility": "public",
+    "status": "archived",
+    "version": "N/A",
+    "laborHours": 0,
+    "languages": [
+      "JavaScript",
+      "TypeScript",
+      "CSS",
+      "HTML"
+    ],
+    "tags": [],
+    "date": {
+      "created": "2016-03-25T14:56:18+00:00",
+      "lastModified": "2016-10-17T17:43:33+00:00",
+      "metadataLastUpdated": "2025-07-09T15-03-40"
+    },
+    "permissions": {
+      "usageType": "openSource",
+      "exemptionText": "",
+      "licenses": [
+        {
+          "name": "Apache License 2.0"
+        }
+      ]
+    },
+    "contact": {
+      "email": "",
+      "name": "Centers for Disease Control and Prevention (CDC)"
+    },
+    "repo_id": 54725667,
+    "readme_url": "https://github.com/informaticslab/sauron/blob/master/README.md",
+    "private_id": "github_54725667",
+    "_url": "https://github.com/informaticslab/sauron"
+  },
+  {
+    "name": "iiu-health",
+    "description": "A prototype to explore the use of HealthKit and ResearchKit",
+    "organization": "informaticslab",
+    "repositoryURL": "https://github.com/informaticslab/iiu-health",
+    "homepageURL": "https://github.com/informaticslab/iiu-health",
+    "vcs": "git",
+    "repositoryVisibility": "public",
+    "status": "archived",
+    "version": "N/A",
+    "laborHours": 0,
+    "languages": [
+      "Swift",
+      "Shell"
+    ],
+    "tags": [],
+    "date": {
+      "created": "2016-04-14T12:11:13+00:00",
+      "lastModified": "2016-05-19T20:31:58+00:00",
+      "metadataLastUpdated": "2025-07-09T15-03-42"
+    },
+    "permissions": {
+      "usageType": "governmentWideReuse",
+      "exemptionText": "",
+      "licenses": [
+        {
+          "name": "Apache License 2.0"
+        }
+      ]
+    },
+    "contact": {
+      "email": "",
+      "name": "Centers for Disease Control and Prevention (CDC)"
+    },
+    "repo_id": 56234452,
+    "readme_url": "https://github.com/informaticslab/iiu-health/blob/master/README.md",
+    "private_id": "github_56234452",
+    "_url": "https://github.com/informaticslab/iiu-health"
+  },
+  {
+    "name": "JiraCalendar",
+    "description": "The Jira Calendar plugin",
+    "organization": "informaticslab",
+    "repositoryURL": "https://github.com/informaticslab/JiraCalendar",
+    "homepageURL": "https://github.com/informaticslab/JiraCalendar",
+    "vcs": "git",
+    "repositoryVisibility": "public",
+    "status": "archived",
+    "version": "N/A",
+    "laborHours": 0,
+    "languages": [
+      "Java"
+    ],
+    "tags": [],
+    "date": {
+      "created": "2016-04-21T15:14:54+00:00",
+      "lastModified": "2016-04-22T19:30:39+00:00",
+      "metadataLastUpdated": "2025-07-09T15-03-43"
+    },
+    "permissions": {
+      "usageType": "openSource",
+      "exemptionText": "",
+      "licenses": [
+        {
+          "name": "Other"
+        }
+      ]
+    },
+    "contact": {
+      "email": "",
+      "name": "Centers for Disease Control and Prevention (CDC)"
+    },
+    "repo_id": 56784040,
+    "readme_url": "https://github.com/informaticslab/JiraCalendar/blob/master/README.md",
+    "private_id": "github_56784040",
+    "_url": "https://github.com/informaticslab/JiraCalendar"
+  },
+  {
+    "name": "tempmon",
+    "description": "",
+    "organization": "informaticslab",
+    "repositoryURL": "https://github.com/informaticslab/tempmon",
+    "homepageURL": "https://github.com/informaticslab/tempmon",
+    "vcs": "git",
+    "repositoryVisibility": "public",
+    "status": "archived",
+    "version": "N/A",
+    "laborHours": 0,
+    "languages": [
+      "JavaScript"
+    ],
+    "tags": [],
+    "date": {
+      "created": "2016-05-04T19:14:58+00:00",
+      "lastModified": "2016-05-11T13:00:54+00:00",
+      "metadataLastUpdated": "2025-07-09T15-03-44"
+    },
+    "permissions": {
+      "usageType": "governmentWideReuse",
+      "exemptionText": "",
+      "licenses": [
+        {
+          "name": "Apache License 2.0"
+        }
+      ]
+    },
+    "contact": {
+      "email": "",
+      "name": "Centers for Disease Control and Prevention (CDC)"
+    },
+    "repo_id": 58077818,
+    "readme_url": "",
+    "private_id": "github_58077818",
+    "_url": "https://github.com/informaticslab/tempmon"
+  },
+  {
+    "name": "ServiceDeskJiraDashboardPlugin",
+    "description": "A plugin for the Jira Service Desk dashboard",
+    "organization": "informaticslab",
+    "repositoryURL": "https://github.com/informaticslab/ServiceDeskJiraDashboardPlugin",
+    "homepageURL": "https://github.com/informaticslab/ServiceDeskJiraDashboardPlugin",
+    "vcs": "git",
+    "repositoryVisibility": "public",
+    "status": "archived",
+    "version": "N/A",
+    "laborHours": 0,
+    "languages": [
+      "Java"
+    ],
+    "tags": [],
+    "date": {
+      "created": "2016-05-06T19:02:27+00:00",
+      "lastModified": "2016-05-09T19:07:29+00:00",
+      "metadataLastUpdated": "2025-07-09T15-03-45"
+    },
+    "permissions": {
+      "usageType": "openSource",
+      "exemptionText": "",
+      "licenses": [
+        {
+          "name": "Other"
+        }
+      ]
+    },
+    "contact": {
+      "email": "",
+      "name": "Centers for Disease Control and Prevention (CDC)"
+    },
+    "repo_id": 58228919,
+    "readme_url": "https://github.com/informaticslab/ServiceDeskJiraDashboardPlugin/blob/master/README",
+    "private_id": "github_58228919",
+    "_url": "https://github.com/informaticslab/ServiceDeskJiraDashboardPlugin"
+  },
+  {
+    "name": "InfrastructureJiraPlugin",
+    "description": "",
+    "organization": "informaticslab",
+    "repositoryURL": "https://github.com/informaticslab/InfrastructureJiraPlugin",
+    "homepageURL": "https://github.com/informaticslab/InfrastructureJiraPlugin",
+    "vcs": "git",
+    "repositoryVisibility": "public",
+    "status": "archived",
+    "version": "N/A",
+    "laborHours": 0,
+    "languages": [],
+    "tags": [],
+    "date": {
+      "created": "2016-05-06T19:03:13+00:00",
+      "lastModified": "2016-05-06T19:03:13+00:00",
+      "metadataLastUpdated": "2025-07-09T15-03-47"
+    },
+    "permissions": {
+      "usageType": "governmentWideReuse",
+      "exemptionText": "",
+      "licenses": [
+        {
+          "name": "Apache License 2.0"
+        }
+      ]
+    },
+    "contact": {
+      "email": "",
+      "name": "Centers for Disease Control and Prevention (CDC)"
+    },
+    "repo_id": 58228958,
+    "readme_url": "",
+    "private_id": "github_58228958",
+    "_url": "https://github.com/informaticslab/InfrastructureJiraPlugin"
+  },
+  {
+    "name": "MCMS",
+    "description": "The IIU mobile content management system",
+    "organization": "informaticslab",
+    "repositoryURL": "https://github.com/informaticslab/MCMS",
+    "homepageURL": "https://github.com/informaticslab/MCMS",
+    "vcs": "git",
+    "repositoryVisibility": "public",
+    "status": "archived",
+    "version": "N/A",
+    "laborHours": 0,
+    "languages": [],
+    "tags": [],
+    "date": {
+      "created": "2016-05-11T15:42:38+00:00",
+      "lastModified": "2016-05-27T17:04:27+00:00",
+      "metadataLastUpdated": "2025-07-09T15-03-48"
+    },
+    "permissions": {
+      "usageType": "governmentWideReuse",
+      "exemptionText": "",
+      "licenses": [
+        {
+          "name": "Apache License 2.0"
+        }
+      ]
+    },
+    "contact": {
+      "email": "",
+      "name": "Centers for Disease Control and Prevention (CDC)"
+    },
+    "repo_id": 58558313,
+    "readme_url": "https://github.com/informaticslab/MCMS/blob/master/README.md",
+    "private_id": "github_58558313",
+    "_url": "https://github.com/informaticslab/MCMS"
+  },
+  {
+    "name": "iiu-carekit",
+    "description": "Example project for using Apple's CareKit",
+    "organization": "informaticslab",
+    "repositoryURL": "https://github.com/informaticslab/iiu-carekit",
+    "homepageURL": "https://github.com/informaticslab/iiu-carekit",
+    "vcs": "git",
+    "repositoryVisibility": "public",
+    "status": "archived",
+    "version": "N/A",
+    "laborHours": 0,
+    "languages": [
+      "Swift"
+    ],
+    "tags": [],
+    "date": {
+      "created": "2016-06-03T13:01:49+00:00",
+      "lastModified": "2016-06-03T13:04:06+00:00",
+      "metadataLastUpdated": "2025-07-09T15-03-49"
+    },
+    "permissions": {
+      "usageType": "governmentWideReuse",
+      "exemptionText": "",
+      "licenses": [
+        {
+          "name": "Apache License 2.0"
+        }
+      ]
+    },
+    "contact": {
+      "email": "",
+      "name": "Centers for Disease Control and Prevention (CDC)"
+    },
+    "repo_id": 60348004,
+    "readme_url": "https://github.com/informaticslab/iiu-carekit/blob/master/README.md",
+    "private_id": "github_60348004",
+    "_url": "https://github.com/informaticslab/iiu-carekit"
+  },
+  {
+    "name": "zika-risk-assessment",
+    "description": "",
+    "organization": "informaticslab",
+    "repositoryURL": "https://github.com/informaticslab/zika-risk-assessment",
+    "homepageURL": "https://github.com/informaticslab/zika-risk-assessment",
+    "vcs": "git",
+    "repositoryVisibility": "public",
+    "status": "archived",
+    "version": "N/A",
+    "laborHours": 0,
+    "languages": [
+      "HTML",
+      "JavaScript",
+      "CSS"
+    ],
+    "tags": [],
+    "date": {
+      "created": "2016-06-13T15:03:19+00:00",
+      "lastModified": "2018-02-06T21:35:16+00:00",
+      "metadataLastUpdated": "2025-07-09T15-03-50"
+    },
+    "permissions": {
+      "usageType": "governmentWideReuse",
+      "exemptionText": "",
+      "licenses": [
+        {
+          "name": "Apache License 2.0"
+        }
+      ]
+    },
+    "contact": {
+      "email": "",
+      "name": "Centers for Disease Control and Prevention (CDC)"
+    },
+    "repo_id": 61045678,
+    "readme_url": "https://github.com/informaticslab/zika-risk-assessment/blob/master/README.md",
+    "private_id": "github_61045678",
+    "_url": "https://github.com/informaticslab/zika-risk-assessment"
+  },
+  {
+    "name": "yoda",
+    "description": "Elastic Showcase",
+    "organization": "informaticslab",
+    "repositoryURL": "https://github.com/informaticslab/yoda",
+    "homepageURL": "https://github.com/informaticslab/yoda",
+    "vcs": "git",
+    "repositoryVisibility": "public",
+    "status": "archived",
+    "version": "N/A",
+    "laborHours": 0,
+    "languages": [
+      "JavaScript",
+      "CSS",
+      "HTML"
+    ],
+    "tags": [],
+    "date": {
+      "created": "2016-07-04T19:19:59+00:00",
+      "lastModified": "2017-10-03T19:32:07+00:00",
+      "metadataLastUpdated": "2025-07-09T15-03-51"
+    },
+    "permissions": {
+      "usageType": "governmentWideReuse",
+      "exemptionText": "",
+      "licenses": [
+        {
+          "name": "Apache License 2.0"
+        }
+      ]
+    },
+    "contact": {
+      "email": "",
+      "name": "Centers for Disease Control and Prevention (CDC)"
+    },
+    "repo_id": 62583431,
+    "readme_url": "https://github.com/informaticslab/yoda/blob/elastic-showcase/README.md",
+    "private_id": "github_62583431",
+    "_url": "https://github.com/informaticslab/yoda"
+  },
+  {
+    "name": "zika-pregnancy-testing",
+    "description": "",
+    "organization": "informaticslab",
+    "repositoryURL": "https://github.com/informaticslab/zika-pregnancy-testing",
+    "homepageURL": "https://github.com/informaticslab/zika-pregnancy-testing",
+    "vcs": "git",
+    "repositoryVisibility": "public",
+    "status": "archived",
+    "version": "N/A",
+    "laborHours": 0,
+    "languages": [
+      "JavaScript",
+      "HTML",
+      "CSS"
+    ],
+    "tags": [],
+    "date": {
+      "created": "2016-08-24T18:30:13+00:00",
+      "lastModified": "2017-11-17T15:40:38+00:00",
+      "metadataLastUpdated": "2025-07-09T15-03-53"
+    },
+    "permissions": {
+      "usageType": "governmentWideReuse",
+      "exemptionText": "",
+      "licenses": [
+        {
+          "name": "Apache License 2.0"
+        }
+      ]
+    },
+    "contact": {
+      "email": "",
+      "name": "Centers for Disease Control and Prevention (CDC)"
+    },
+    "repo_id": 66489463,
+    "readme_url": "",
+    "private_id": "github_66489463",
+    "_url": "https://github.com/informaticslab/zika-pregnancy-testing"
+  },
+  {
+    "name": "STDX",
+    "description": "STD app built with Xamarin",
+    "organization": "informaticslab",
+    "repositoryURL": "https://github.com/informaticslab/STDX",
+    "homepageURL": "https://github.com/informaticslab/STDX",
+    "vcs": "git",
+    "repositoryVisibility": "public",
+    "status": "archived",
+    "version": "N/A",
+    "laborHours": 0,
+    "languages": [
+      "C#"
+    ],
+    "tags": [],
+    "date": {
+      "created": "2016-09-16T12:00:56+00:00",
+      "lastModified": "2016-09-16T12:01:29+00:00",
+      "metadataLastUpdated": "2025-07-09T15-03-54"
+    },
+    "permissions": {
+      "usageType": "governmentWideReuse",
+      "exemptionText": "",
+      "licenses": [
+        {
+          "name": "Apache License 2.0"
+        }
+      ]
+    },
+    "contact": {
+      "email": "",
+      "name": "Centers for Disease Control and Prevention (CDC)"
+    },
+    "repo_id": 68376216,
+    "readme_url": "",
+    "private_id": "github_68376216",
+    "_url": "https://github.com/informaticslab/STDX"
+  },
+  {
+    "name": "cdcInfoAdhocRequest",
+    "description": "",
+    "organization": "informaticslab",
+    "repositoryURL": "https://github.com/informaticslab/cdcInfoAdhocRequest",
+    "homepageURL": "https://github.com/informaticslab/cdcInfoAdhocRequest",
+    "vcs": "git",
+    "repositoryVisibility": "public",
+    "status": "archived",
+    "version": "N/A",
+    "laborHours": 0,
+    "languages": [],
+    "tags": [],
+    "date": {
+      "created": "2016-09-22T18:44:12+00:00",
+      "lastModified": "2016-09-22T18:44:13+00:00",
+      "metadataLastUpdated": "2025-07-09T15-03-55"
+    },
+    "permissions": {
+      "usageType": "governmentWideReuse",
+      "exemptionText": "",
+      "licenses": [
+        {
+          "name": "Apache License 2.0"
+        }
+      ]
+    },
+    "contact": {
+      "email": "",
+      "name": "Centers for Disease Control and Prevention (CDC)"
+    },
+    "repo_id": 68951460,
+    "readme_url": "",
+    "private_id": "github_68951460",
+    "_url": "https://github.com/informaticslab/cdcInfoAdhocRequest"
+  },
+  {
+    "name": "sitecat",
+    "description": "A SiteCatalyst-like Flask/Python web app",
+    "organization": "informaticslab",
+    "repositoryURL": "https://github.com/informaticslab/sitecat",
+    "homepageURL": "https://github.com/informaticslab/sitecat",
+    "vcs": "git",
+    "repositoryVisibility": "public",
+    "status": "archived",
+    "version": "N/A",
+    "laborHours": 0,
+    "languages": [],
+    "tags": [],
+    "date": {
+      "created": "2016-09-28T19:27:07+00:00",
+      "lastModified": "2016-09-28T19:29:16+00:00",
+      "metadataLastUpdated": "2025-07-09T15-03-56"
+    },
+    "permissions": {
+      "usageType": "governmentWideReuse",
+      "exemptionText": "",
+      "licenses": [
+        {
+          "name": "Apache License 2.0"
+        }
+      ]
+    },
+    "contact": {
+      "email": "",
+      "name": "Centers for Disease Control and Prevention (CDC)"
+    },
+    "repo_id": 69496609,
+    "readme_url": "",
+    "private_id": "github_69496609",
+    "_url": "https://github.com/informaticslab/sitecat"
+  },
+  {
+    "name": "labmonitor",
+    "description": "",
+    "organization": "informaticslab",
+    "repositoryURL": "https://github.com/informaticslab/labmonitor",
+    "homepageURL": "https://github.com/informaticslab/labmonitor",
+    "vcs": "git",
+    "repositoryVisibility": "public",
+    "status": "archived",
+    "version": "N/A",
+    "laborHours": 0,
+    "languages": [
+      "JavaScript"
+    ],
+    "tags": [],
+    "date": {
+      "created": "2016-11-01T02:43:02+00:00",
+      "lastModified": "2016-11-02T14:09:25+00:00",
+      "metadataLastUpdated": "2025-07-09T15-03-57"
+    },
+    "permissions": {
+      "usageType": "openSource",
+      "exemptionText": "",
+      "licenses": [
+        {
+          "name": "MIT License"
+        }
+      ]
+    },
+    "contact": {
+      "email": "",
+      "name": "Centers for Disease Control and Prevention (CDC)"
+    },
+    "repo_id": 72497528,
+    "readme_url": "https://github.com/informaticslab/labmonitor/blob/master/README.md",
+    "private_id": "github_72497528",
+    "_url": "https://github.com/informaticslab/labmonitor"
+  },
+  {
+    "name": "Anubis2",
+    "description": "",
+    "organization": "informaticslab",
+    "repositoryURL": "https://github.com/informaticslab/Anubis2",
+    "homepageURL": "https://github.com/informaticslab/Anubis2",
+    "vcs": "git",
+    "repositoryVisibility": "public",
+    "status": "archived",
+    "version": "N/A",
+    "laborHours": 0,
+    "languages": [
+      "HTML",
+      "CSS",
+      "JavaScript"
+    ],
+    "tags": [],
+    "date": {
+      "created": "2016-11-07T17:12:56+00:00",
+      "lastModified": "2016-11-14T21:39:55+00:00",
+      "metadataLastUpdated": "2025-07-09T15-03-59"
+    },
+    "permissions": {
+      "usageType": "governmentWideReuse",
+      "exemptionText": "",
+      "licenses": [
+        {
+          "name": "Apache License 2.0"
+        }
+      ]
+    },
+    "contact": {
+      "email": "",
+      "name": "Centers for Disease Control and Prevention (CDC)"
+    },
+    "repo_id": 73102336,
+    "readme_url": "https://github.com/informaticslab/Anubis2/blob/master/README.md",
+    "private_id": "github_73102336",
+    "_url": "https://github.com/informaticslab/Anubis2"
+  },
+  {
+    "name": "converter",
+    "description": "A node/npm/mocha/chai testbed",
+    "organization": "informaticslab",
+    "repositoryURL": "https://github.com/informaticslab/converter",
+    "homepageURL": "https://github.com/informaticslab/converter",
+    "vcs": "git",
+    "repositoryVisibility": "public",
+    "status": "archived",
+    "version": "N/A",
+    "laborHours": 0,
+    "languages": [
+      "JavaScript"
+    ],
+    "tags": [],
+    "date": {
+      "created": "2016-11-14T19:13:45+00:00",
+      "lastModified": "2016-11-16T16:25:55+00:00",
+      "metadataLastUpdated": "2025-07-09T15-04-00"
+    },
+    "permissions": {
+      "usageType": "governmentWideReuse",
+      "exemptionText": "",
+      "licenses": [
+        {
+          "name": "Apache License 2.0"
+        }
+      ]
+    },
+    "contact": {
+      "email": "",
+      "name": "Centers for Disease Control and Prevention (CDC)"
+    },
+    "repo_id": 73738278,
+    "readme_url": "",
+    "private_id": "github_73738278",
+    "_url": "https://github.com/informaticslab/converter"
+  },
+  {
+    "name": "lifeguard-flask",
+    "description": "A Lifeguard backend test server built with Python and Flask",
+    "organization": "informaticslab",
+    "repositoryURL": "https://github.com/informaticslab/lifeguard-flask",
+    "homepageURL": "https://github.com/informaticslab/lifeguard-flask",
+    "vcs": "git",
+    "repositoryVisibility": "public",
+    "status": "archived",
+    "version": "N/A",
+    "laborHours": 0,
+    "languages": [
+      "HTML",
+      "Python",
+      "CSS"
+    ],
+    "tags": [],
+    "date": {
+      "created": "2016-11-28T15:58:36+00:00",
+      "lastModified": "2018-10-07T21:56:54+00:00",
+      "metadataLastUpdated": "2025-07-09T15-04-01"
+    },
+    "permissions": {
+      "usageType": "governmentWideReuse",
+      "exemptionText": "",
+      "licenses": [
+        {
+          "name": "Apache License 2.0"
+        }
+      ]
+    },
+    "contact": {
+      "email": "",
+      "name": "Centers for Disease Control and Prevention (CDC)"
+    },
+    "repo_id": 74989305,
+    "readme_url": "",
+    "private_id": "github_74989305",
+    "_url": "https://github.com/informaticslab/lifeguard-flask"
+  },
+  {
+    "name": "elastic-showcase",
+    "description": "Angular application to showcase what the IIU has learned from building an application with elasticsearch.",
+    "organization": "informaticslab",
+    "repositoryURL": "https://github.com/informaticslab/elastic-showcase",
+    "homepageURL": "https://github.com/informaticslab/elastic-showcase",
+    "vcs": "git",
+    "repositoryVisibility": "public",
+    "status": "archived",
+    "version": "N/A",
+    "laborHours": 0,
+    "languages": [
+      "JavaScript",
+      "CSS",
+      "HTML"
+    ],
+    "tags": [],
+    "date": {
+      "created": "2016-11-28T18:33:49+00:00",
+      "lastModified": "2018-06-19T18:34:24+00:00",
+      "metadataLastUpdated": "2025-07-09T15-04-02"
+    },
+    "permissions": {
+      "usageType": "governmentWideReuse",
+      "exemptionText": "",
+      "licenses": [
+        {
+          "name": "Apache License 2.0"
+        }
+      ]
+    },
+    "contact": {
+      "email": "",
+      "name": "Centers for Disease Control and Prevention (CDC)"
+    },
+    "repo_id": 75002609,
+    "readme_url": "https://github.com/informaticslab/elastic-showcase/blob/master/README.md",
+    "private_id": "github_75002609",
+    "_url": "https://github.com/informaticslab/elastic-showcase"
+  },
+  {
+    "name": "AnubisPWA",
+    "description": "",
+    "organization": "informaticslab",
+    "repositoryURL": "https://github.com/informaticslab/AnubisPWA",
+    "homepageURL": "https://github.com/informaticslab/AnubisPWA",
+    "vcs": "git",
+    "repositoryVisibility": "public",
+    "status": "archived",
+    "version": "N/A",
+    "laborHours": 0,
+    "languages": [
+      "HTML",
+      "CSS",
+      "JavaScript"
+    ],
+    "tags": [],
+    "date": {
+      "created": "2016-11-30T21:35:09+00:00",
+      "lastModified": "2017-09-25T18:48:12+00:00",
+      "metadataLastUpdated": "2025-07-09T15-04-04"
+    },
+    "permissions": {
+      "usageType": "governmentWideReuse",
+      "exemptionText": "",
+      "licenses": [
+        {
+          "name": "Apache License 2.0"
+        }
+      ]
+    },
+    "contact": {
+      "email": "",
+      "name": "Centers for Disease Control and Prevention (CDC)"
+    },
+    "repo_id": 75229220,
+    "readme_url": "https://github.com/informaticslab/AnubisPWA/blob/master/README.md",
+    "private_id": "github_75229220",
+    "_url": "https://github.com/informaticslab/AnubisPWA"
+  },
+  {
+    "name": "iiu-angular-starter",
+    "description": "Angular 1.X Project Starter",
+    "organization": "informaticslab",
+    "repositoryURL": "https://github.com/informaticslab/iiu-angular-starter",
+    "homepageURL": "https://github.com/informaticslab/iiu-angular-starter",
+    "vcs": "git",
+    "repositoryVisibility": "public",
+    "status": "archived",
+    "version": "N/A",
+    "laborHours": 0,
+    "languages": [
+      "JavaScript",
+      "HTML",
+      "CSS"
+    ],
+    "tags": [],
+    "date": {
+      "created": "2017-01-27T17:15:22+00:00",
+      "lastModified": "2017-02-09T19:47:15+00:00",
+      "metadataLastUpdated": "2025-07-09T15-04-05"
+    },
+    "permissions": {
+      "usageType": "openSource",
+      "exemptionText": "",
+      "licenses": [
+        {
+          "name": "Apache License 2.0"
+        }
+      ]
+    },
+    "contact": {
+      "email": "",
+      "name": "Centers for Disease Control and Prevention (CDC)"
+    },
+    "repo_id": 80228205,
+    "readme_url": "https://github.com/informaticslab/iiu-angular-starter/blob/master/README.md",
+    "private_id": "github_80228205",
+    "_url": "https://github.com/informaticslab/iiu-angular-starter"
+  },
+  {
+    "name": "mester2",
+    "description": "",
+    "organization": "informaticslab",
+    "repositoryURL": "https://github.com/informaticslab/mester2",
+    "homepageURL": "https://github.com/informaticslab/mester2",
+    "vcs": "git",
+    "repositoryVisibility": "public",
+    "status": "archived",
+    "version": "N/A",
+    "laborHours": 0,
+    "languages": [
+      "Swift"
+    ],
+    "tags": [],
+    "date": {
+      "created": "2017-01-27T21:08:33+00:00",
+      "lastModified": "2019-07-23T20:13:15+00:00",
+      "metadataLastUpdated": "2025-07-09T15-04-06"
+    },
+    "permissions": {
+      "usageType": "governmentWideReuse",
+      "exemptionText": "",
+      "licenses": [
+        {
+          "name": "Apache License 2.0"
+        }
+      ]
+    },
+    "contact": {
+      "email": "",
+      "name": "Centers for Disease Control and Prevention (CDC)"
+    },
+    "repo_id": 80246090,
+    "readme_url": "",
+    "private_id": "github_80246090",
+    "_url": "https://github.com/informaticslab/mester2"
+  },
+  {
+    "name": "mester2-droid",
+    "description": "",
+    "organization": "informaticslab",
+    "repositoryURL": "https://github.com/informaticslab/mester2-droid",
+    "homepageURL": "https://github.com/informaticslab/mester2-droid",
+    "vcs": "git",
+    "repositoryVisibility": "public",
+    "status": "archived",
+    "version": "N/A",
+    "laborHours": 0,
+    "languages": [
+      "Java"
+    ],
+    "tags": [],
+    "date": {
+      "created": "2017-03-24T22:17:42+00:00",
+      "lastModified": "2017-03-27T19:08:09+00:00",
+      "metadataLastUpdated": "2025-07-09T15-04-07"
+    },
+    "permissions": {
+      "usageType": "governmentWideReuse",
+      "exemptionText": "",
+      "licenses": [
+        {
+          "name": "Apache License 2.0"
+        }
+      ]
+    },
+    "contact": {
+      "email": "",
+      "name": "Centers for Disease Control and Prevention (CDC)"
+    },
+    "repo_id": 86115070,
+    "readme_url": "",
+    "private_id": "github_86115070",
+    "_url": "https://github.com/informaticslab/mester2-droid"
+  },
+  {
+    "name": "pytron",
+    "description": "A Raspberry Pi based Display Controller",
+    "organization": "informaticslab",
+    "repositoryURL": "https://github.com/informaticslab/pytron",
+    "homepageURL": "https://github.com/informaticslab/pytron",
+    "vcs": "git",
+    "repositoryVisibility": "public",
+    "status": "archived",
+    "version": "N/A",
+    "laborHours": 0,
+    "languages": [
+      "Python",
+      "Shell"
+    ],
+    "tags": [],
+    "date": {
+      "created": "2017-04-04T18:48:37+00:00",
+      "lastModified": "2017-05-19T19:06:29+00:00",
+      "metadataLastUpdated": "2025-07-09T15-04-08"
+    },
+    "permissions": {
+      "usageType": "governmentWideReuse",
+      "exemptionText": "",
+      "licenses": [
+        {
+          "name": "Apache License 2.0"
+        }
+      ]
+    },
+    "contact": {
+      "email": "",
+      "name": "Centers for Disease Control and Prevention (CDC)"
+    },
+    "repo_id": 87223358,
+    "readme_url": "",
+    "private_id": "github_87223358",
+    "_url": "https://github.com/informaticslab/pytron"
+  },
+  {
+    "name": "appl-py-dock",
+    "description": "App Lab using Django and Docker",
+    "organization": "informaticslab",
+    "repositoryURL": "https://github.com/informaticslab/appl-py-dock",
+    "homepageURL": "https://github.com/informaticslab/appl-py-dock",
+    "vcs": "git",
+    "repositoryVisibility": "public",
+    "status": "archived",
+    "version": "N/A",
+    "laborHours": 0,
+    "languages": [
+      "CSS",
+      "JavaScript",
+      "HTML",
+      "Python",
+      "Shell"
+    ],
+    "tags": [],
+    "date": {
+      "created": "2017-06-12T19:28:22+00:00",
+      "lastModified": "2017-06-15T14:19:20+00:00",
+      "metadataLastUpdated": "2025-07-09T15-04-10"
+    },
+    "permissions": {
+      "usageType": "governmentWideReuse",
+      "exemptionText": "",
+      "licenses": [
+        {
+          "name": "Apache License 2.0"
+        }
+      ]
+    },
+    "contact": {
+      "email": "",
+      "name": "Centers for Disease Control and Prevention (CDC)"
+    },
+    "repo_id": 94132780,
+    "readme_url": "",
+    "private_id": "github_94132780",
+    "_url": "https://github.com/informaticslab/appl-py-dock"
+  },
+  {
+    "name": "science-clips-search",
+    "description": "",
+    "organization": "informaticslab",
+    "repositoryURL": "https://github.com/informaticslab/science-clips-search",
+    "homepageURL": "https://github.com/informaticslab/science-clips-search",
+    "vcs": "git",
+    "repositoryVisibility": "public",
+    "status": "archived",
+    "version": "N/A",
+    "laborHours": 0,
+    "languages": [
+      "HTML",
+      "JavaScript",
+      "CSS"
+    ],
+    "tags": [],
+    "date": {
+      "created": "2017-06-30T15:44:00+00:00",
+      "lastModified": "2017-08-03T01:37:12+00:00",
+      "metadataLastUpdated": "2025-07-09T15-04-11"
+    },
+    "permissions": {
+      "usageType": "governmentWideReuse",
+      "exemptionText": "",
+      "licenses": [
+        {
+          "name": "Apache License 2.0"
+        }
+      ]
+    },
+    "contact": {
+      "email": "",
+      "name": "Centers for Disease Control and Prevention (CDC)"
+    },
+    "repo_id": 95902600,
+    "readme_url": "",
+    "private_id": "github_95902600",
+    "_url": "https://github.com/informaticslab/science-clips-search"
+  },
+  {
+    "name": "esquire-frontend",
+    "description": "",
+    "organization": "informaticslab",
+    "repositoryURL": "https://github.com/informaticslab/esquire-frontend",
+    "homepageURL": "https://github.com/informaticslab/esquire-frontend",
+    "vcs": "git",
+    "repositoryVisibility": "public",
+    "status": "archived",
+    "version": "N/A",
+    "laborHours": 0,
+    "languages": [
+      "JavaScript",
+      "HTML"
+    ],
+    "tags": [],
+    "date": {
+      "created": "2017-08-28T13:10:01+00:00",
+      "lastModified": "2017-11-29T16:49:02+00:00",
+      "metadataLastUpdated": "2025-07-09T15-04-12"
+    },
+    "permissions": {
+      "usageType": "openSource",
+      "exemptionText": "",
+      "licenses": [
+        {
+          "name": "Apache License 2.0"
+        }
+      ]
+    },
+    "contact": {
+      "email": "",
+      "name": "Centers for Disease Control and Prevention (CDC)"
+    },
+    "repo_id": 101644296,
+    "readme_url": "https://github.com/informaticslab/esquire-frontend/blob/master/README.md",
+    "private_id": "github_101644296",
+    "_url": "https://github.com/informaticslab/esquire-frontend"
+  },
+  {
+    "name": "esq-backend-vsts-test",
+    "description": "",
+    "organization": "informaticslab",
+    "repositoryURL": "https://github.com/informaticslab/esq-backend-vsts-test",
+    "homepageURL": "https://github.com/informaticslab/esq-backend-vsts-test",
+    "vcs": "git",
+    "repositoryVisibility": "public",
+    "status": "archived",
+    "version": "N/A",
+    "laborHours": 0,
+    "languages": [],
+    "tags": [],
+    "date": {
+      "created": "2017-08-31T20:11:24+00:00",
+      "lastModified": "2017-08-31T20:11:25+00:00",
+      "metadataLastUpdated": "2025-07-09T15-04-13"
+    },
+    "permissions": {
+      "usageType": "governmentWideReuse",
+      "exemptionText": "",
+      "licenses": [
+        {
+          "name": "Apache License 2.0"
+        }
+      ]
+    },
+    "contact": {
+      "email": "",
+      "name": "Centers for Disease Control and Prevention (CDC)"
+    },
+    "repo_id": 102040775,
+    "readme_url": "",
+    "private_id": "github_102040775",
+    "_url": "https://github.com/informaticslab/esq-backend-vsts-test"
+  },
+  {
+    "name": "esquire1",
+    "description": "First generation code for Esquire project ",
+    "organization": "informaticslab",
+    "repositoryURL": "https://github.com/informaticslab/esquire1",
+    "homepageURL": "https://github.com/informaticslab/esquire1",
+    "vcs": "git",
+    "repositoryVisibility": "public",
+    "status": "archived",
+    "version": "N/A",
+    "laborHours": 0,
+    "languages": [
+      "JavaScript",
+      "C#",
+      "Shell",
+      "HTML"
+    ],
+    "tags": [],
+    "date": {
+      "created": "2017-10-13T13:27:29+00:00",
+      "lastModified": "2017-11-01T13:31:35+00:00",
+      "metadataLastUpdated": "2025-07-09T15-04-14"
+    },
+    "permissions": {
+      "usageType": "governmentWideReuse",
+      "exemptionText": "",
+      "licenses": [
+        {
+          "name": "Apache License 2.0"
+        }
+      ]
+    },
+    "contact": {
+      "email": "",
+      "name": "Centers for Disease Control and Prevention (CDC)"
+    },
+    "repo_id": 106827747,
+    "readme_url": "https://github.com/informaticslab/esquire1/blob/master/README.md",
+    "private_id": "github_106827747",
+    "_url": "https://github.com/informaticslab/esquire1"
+  },
+  {
+    "name": "508-Extension",
+    "description": "Chrome Extension for testing 508 Web Accessibility",
+    "organization": "informaticslab",
+    "repositoryURL": "https://github.com/informaticslab/508-Extension",
+    "homepageURL": "https://github.com/informaticslab/508-Extension",
+    "vcs": "git",
+    "repositoryVisibility": "public",
+    "status": "archived",
+    "version": "N/A",
+    "laborHours": 0,
+    "languages": [
+      "JavaScript",
+      "HTML",
+      "CSS"
+    ],
+    "tags": [],
+    "date": {
+      "created": "2017-12-22T16:04:37+00:00",
+      "lastModified": "2017-12-22T20:06:25+00:00",
+      "metadataLastUpdated": "2025-07-09T15-04-16"
+    },
+    "permissions": {
+      "usageType": "governmentWideReuse",
+      "exemptionText": "",
+      "licenses": [
+        {
+          "name": "Apache License 2.0"
+        }
+      ]
+    },
+    "contact": {
+      "email": "",
+      "name": "Centers for Disease Control and Prevention (CDC)"
+    },
+    "repo_id": 115130378,
+    "readme_url": "https://github.com/informaticslab/508-Extension/blob/master/README.md",
+    "private_id": "github_115130378",
+    "_url": "https://github.com/informaticslab/508-Extension"
+  },
+  {
+    "name": "SimAEN",
+    "description": "A predictive health analytics engine developed by MIT Lincoln Labs",
+    "organization": "informaticslab",
+    "repositoryURL": "https://github.com/informaticslab/SimAEN",
+    "homepageURL": "https://github.com/informaticslab/SimAEN",
+    "vcs": "git",
+    "repositoryVisibility": "public",
+    "status": "archived",
+    "version": "N/A",
+    "laborHours": 0,
+    "languages": [
+      "TypeScript",
+      "Python",
+      "CSS",
+      "HTML",
+      "JavaScript",
+      "Shell",
+      "Dockerfile"
+    ],
+    "tags": [],
+    "date": {
+      "created": "2021-08-20T14:06:34+00:00",
+      "lastModified": "2023-01-11T18:30:57+00:00",
+      "metadataLastUpdated": "2025-07-09T15-04-17"
+    },
+    "permissions": {
+      "usageType": "governmentWideReuse",
+      "exemptionText": "",
+      "licenses": [
+        {
+          "name": "Apache License 2.0"
+        }
+      ]
+    },
+    "contact": {
+      "email": "",
+      "name": "Centers for Disease Control and Prevention (CDC)"
+    },
+    "repo_id": 398296768,
+    "readme_url": "https://github.com/informaticslab/SimAEN/blob/main/README.md",
+    "private_id": "github_398296768",
+    "_url": "https://github.com/informaticslab/SimAEN"
+  }
+]
