@@ -1,15 +1,15 @@
 [
   {
     "name": "ETORRS",
+    "organization": "CDC",
     "description": "",
-    "organization": "CDC-HIS",
-    "repositoryURL": "https://cdcgov.github.io/ShareIT-Act/assets/files/code_exempted.pdf",
-    "homepageURL": "https://github.com/CDC-HIS/ETORRS",
-    "vcs": "git",
-    "repositoryVisibility": "private",
-    "status": "inactive",
     "version": "N/A",
     "laborHours": 0,
+    "status": "inactive",
+    "vcs": "git",
+    "homepageURL": "",
+    "repositoryURL": "https://cdcgov.github.io/ShareIT-Act/assets/files/instructions.pdf",
+    "repositoryVisibility": "private",
     "languages": [
       "JavaScript",
       "C#",
@@ -18,76 +18,34 @@
       "CSS"
     ],
     "tags": [],
+    "contact": {
+      "email": "shareit@cdc.gov"
+    },
     "date": {
       "created": "2018-04-02T11:07:22+00:00",
       "lastModified": "2022-08-19T06:57:46+00:00",
-      "metadataLastUpdated": "2025-07-09T14-05-23"
+      "metadataLastUpdated": "2025-07-11T14:13:04.757723+00:00"
     },
     "permissions": {
-      "usageType": "exemptByCIO",
-      "exemptionText": "It's an internal repository.",
-      "licenses": [
-        {
-          "name": "Apache License 2.0"
-        }
-      ]
-    },
-    "contact": {
-      "email": "shareit@cdc.gov",
-      "name": "Centers for Disease Control and Prevention (CDC)"
+      "usageType": "governmentWideReuse",
+      "licenses": []
     },
     "repo_id": 127745175,
-    "readme_url": "https://github.com/CDC-HIS/ETORRS/blob/master/README.md",
     "private_id": "github_127745175",
-    "_url": "https://github.com/CDC-HIS/ETORRS"
-  },
-  {
-    "name": "HIV-CBS",
-    "description": "",
-    "organization": "CDC-HIS",
-    "repositoryURL": "https://cdcgov.github.io/ShareIT-Act/assets/files/code_exempted.pdf",
-    "homepageURL": "https://github.com/CDC-HIS/HIV-CBS",
-    "vcs": "git",
-    "repositoryVisibility": "private",
-    "status": "inactive",
-    "version": "N/A",
-    "laborHours": 0,
-    "languages": [],
-    "tags": [],
-    "date": {
-      "created": "2019-06-06T07:23:20+00:00",
-      "lastModified": "2019-06-06T07:23:21+00:00",
-      "metadataLastUpdated": "2025-07-09T14-05-24"
-    },
-    "permissions": {
-      "usageType": "exemptByCIO",
-      "exemptionText": "It's an internal repository.",
-      "licenses": [
-        {
-          "name": "Apache License 2.0"
-        }
-      ]
-    },
-    "contact": {
-      "email": "shareit@cdc.gov",
-      "name": "Centers for Disease Control and Prevention (CDC)"
-    },
-    "repo_id": 190534745,
-    "readme_url": "",
-    "private_id": "github_190534745",
-    "_url": "https://github.com/CDC-HIS/HIV-CBS"
+    "_url": "https://github.com/CDC-HIS/ETORRS",
+    "privateID": "github_127745175"
   },
   {
     "name": "EMR-ART-Artifacts",
+    "organization": "CDC",
     "description": "",
-    "organization": "CDC-HIS",
-    "repositoryURL": "https://cdcgov.github.io/ShareIT-Act/assets/files/code_exempted.pdf",
-    "homepageURL": "https://github.com/CDC-HIS/EMR-ART-Artifacts",
-    "vcs": "git",
-    "repositoryVisibility": "private",
-    "status": "inactive",
     "version": "N/A",
     "laborHours": 0,
+    "status": "inactive",
+    "vcs": "git",
+    "homepageURL": "",
+    "repositoryURL": "https://cdcgov.github.io/ShareIT-Act/assets/files/instructions.pdf",
+    "repositoryVisibility": "private",
     "languages": [
       "C#",
       "JavaScript",
@@ -107,76 +65,65 @@
       "C"
     ],
     "tags": [],
+    "contact": {
+      "email": "shareit@cdc.gov"
+    },
     "date": {
       "created": "2020-09-02T12:02:10+00:00",
       "lastModified": "2022-08-19T10:53:30+00:00",
-      "metadataLastUpdated": "2025-07-09T14-05-26"
+      "metadataLastUpdated": "2025-07-11T14:13:06.868352+00:00"
     },
     "permissions": {
-      "usageType": "exemptByCIO",
-      "exemptionText": "It's an internal repository.",
-      "licenses": [
-        {
-          "name": "Apache License 2.0"
-        }
-      ]
-    },
-    "contact": {
-      "email": "shareit@cdc.gov",
-      "name": "Centers for Disease Control and Prevention (CDC)"
+      "usageType": "governmentWideReuse",
+      "licenses": []
     },
     "repo_id": 292270940,
-    "readme_url": "https://github.com/CDC-HIS/EMR-ART-Artifacts/blob/master/README.md",
     "private_id": "github_292270940",
-    "_url": "https://github.com/CDC-HIS/EMR-ART-Artifacts"
+    "_url": "https://github.com/CDC-HIS/EMR-ART-Artifacts",
+    "privateID": "github_292270940"
   },
   {
     "name": "MPI",
+    "organization": "CDC",
     "description": "",
-    "organization": "CDC-HIS",
-    "repositoryURL": "https://cdcgov.github.io/ShareIT-Act/assets/files/code_exempted.pdf",
-    "homepageURL": "https://github.com/CDC-HIS/MPI",
-    "vcs": "git",
-    "repositoryVisibility": "private",
-    "status": "inactive",
     "version": "N/A",
     "laborHours": 0,
+    "status": "inactive",
+    "vcs": "git",
+    "homepageURL": "",
+    "repositoryURL": "https://cdcgov.github.io/ShareIT-Act/assets/files/code_exempted.pdf",
+    "repositoryVisibility": "private",
     "languages": [],
     "tags": [],
+    "contact": {
+      "email": "shareit@cdc.gov"
+    },
     "date": {
       "created": "2021-11-12T06:45:32+00:00",
       "lastModified": "2022-08-19T10:58:23+00:00",
-      "metadataLastUpdated": "2025-07-09T14-05-27"
+      "metadataLastUpdated": "2025-07-11T14:13:08.890742+00:00"
     },
     "permissions": {
       "usageType": "exemptByCIO",
-      "exemptionText": "It's an internal repository.",
-      "licenses": [
-        {
-          "name": "Apache License 2.0"
-        }
-      ]
-    },
-    "contact": {
-      "email": "shareit@cdc.gov",
-      "name": "Centers for Disease Control and Prevention (CDC)"
+      "licenses": [],
+      "exemptionText": "Repository contains no code or only non-code assets like documentation and configuration."
     },
     "repo_id": 427259593,
-    "readme_url": "",
     "private_id": "github_427259593",
-    "_url": "https://github.com/CDC-HIS/MPI"
+    "_url": "https://github.com/CDC-HIS/MPI",
+    "privateID": "github_427259593"
   },
   {
     "name": "CDR",
+    "organization": "CDC",
     "description": "",
-    "organization": "CDC-HIS",
-    "repositoryURL": "https://cdcgov.github.io/ShareIT-Act/assets/files/code_exempted.pdf",
-    "homepageURL": "https://github.com/CDC-HIS/CDR",
-    "vcs": "git",
-    "repositoryVisibility": "private",
-    "status": "inactive",
     "version": "N/A",
     "laborHours": 0,
+    "status": "inactive",
+    "vcs": "git",
+    "homepageURL": "",
+    "repositoryURL": "https://cdcgov.github.io/ShareIT-Act/assets/files/instructions.pdf",
+    "repositoryVisibility": "private",
     "languages": [
       "C#",
       "TSQL",
@@ -185,112 +132,100 @@
       "Batchfile"
     ],
     "tags": [],
+    "contact": {
+      "email": "shareit@cdc.gov"
+    },
     "date": {
       "created": "2021-11-12T06:47:28+00:00",
       "lastModified": "2022-08-19T09:11:50+00:00",
-      "metadataLastUpdated": "2025-07-09T14-05-29"
+      "metadataLastUpdated": "2025-07-11T14:13:11.000531+00:00"
     },
     "permissions": {
-      "usageType": "exemptByCIO",
-      "exemptionText": "It's an internal repository.",
-      "licenses": [
-        {
-          "name": "Apache License 2.0"
-        }
-      ]
-    },
-    "contact": {
-      "email": "shareit@cdc.gov",
-      "name": "Centers for Disease Control and Prevention (CDC)"
+      "usageType": "governmentWideReuse",
+      "licenses": []
     },
     "repo_id": 427260096,
-    "readme_url": "",
     "private_id": "github_427260096",
-    "_url": "https://github.com/CDC-HIS/CDR"
+    "_url": "https://github.com/CDC-HIS/CDR",
+    "privateID": "github_427260096"
   },
   {
     "name": "files-and-resources",
+    "organization": "CDC",
     "description": "Contains all guidance documents and resources for Ethiopia EMR",
-    "organization": "CDC-HIS",
-    "repositoryURL": "https://cdcgov.github.io/ShareIT-Act/assets/files/code_exempted.pdf",
-    "homepageURL": "https://github.com/CDC-HIS/files-and-resources",
-    "vcs": "git",
-    "repositoryVisibility": "private",
-    "status": "inactive",
     "version": "N/A",
     "laborHours": 0,
+    "status": "inactive",
+    "vcs": "git",
+    "homepageURL": "",
+    "repositoryURL": "https://cdcgov.github.io/ShareIT-Act/assets/files/code_exempted.pdf",
+    "repositoryVisibility": "private",
     "languages": [],
     "tags": [],
+    "contact": {
+      "email": "shareit@cdc.gov"
+    },
     "date": {
       "created": "2022-04-28T13:42:15+00:00",
       "lastModified": "2022-05-06T07:53:54+00:00",
-      "metadataLastUpdated": "2025-07-09T14-05-31"
+      "metadataLastUpdated": "2025-07-11T14:13:13.046558+00:00"
     },
     "permissions": {
       "usageType": "exemptByCIO",
-      "exemptionText": "It's an internal repository.",
-      "licenses": [
-        {
-          "name": "Apache License 2.0"
-        }
-      ]
-    },
-    "contact": {
-      "email": "shareit@cdc.gov",
-      "name": "Centers for Disease Control and Prevention (CDC)"
+      "licenses": [],
+      "exemptionText": "Repository contains no code or only non-code assets like documentation and configuration."
     },
     "repo_id": 486610848,
-    "readme_url": "https://github.com/CDC-HIS/files-and-resources/blob/main/README.md",
     "private_id": "github_486610848",
-    "_url": "https://github.com/CDC-HIS/files-and-resources"
+    "_url": "https://github.com/CDC-HIS/files-and-resources",
+    "privateID": "github_486610848"
   },
   {
     "name": "ETHIOHRI-Milestones-and-Issues",
+    "organization": "CDC",
     "description": "Any task or issue related to O3&OHRI onboarding & initial setup.",
-    "organization": "CDC-HIS",
-    "repositoryURL": "https://cdcgov.github.io/ShareIT-Act/assets/files/code_exempted.pdf",
-    "homepageURL": "https://github.com/CDC-HIS/ETHIOHRI-Milestones-and-Issues",
-    "vcs": "git",
-    "repositoryVisibility": "private",
-    "status": "inactive",
     "version": "N/A",
     "laborHours": 0,
+    "status": "inactive",
+    "vcs": "git",
+    "homepageURL": "",
+    "repositoryURL": "https://cdcgov.github.io/ShareIT-Act/assets/files/code_exempted.pdf",
+    "repositoryVisibility": "private",
     "languages": [],
     "tags": [],
+    "contact": {
+      "email": "shareit@cdc.gov"
+    },
     "date": {
       "created": "2022-05-02T21:25:58+00:00",
       "lastModified": "2022-05-03T15:42:35+00:00",
-      "metadataLastUpdated": "2025-07-09T14-05-32"
+      "metadataLastUpdated": "2025-07-11T14:13:15.025725+00:00"
     },
     "permissions": {
       "usageType": "exemptByCIO",
-      "exemptionText": "It's an internal repository.",
       "licenses": [
         {
           "name": "Mozilla Public License 2.0"
         }
-      ]
-    },
-    "contact": {
-      "email": "shareit@cdc.gov",
-      "name": "Centers for Disease Control and Prevention (CDC)"
+      ],
+      "exemptionText": "Repository contains no code or only non-code assets like documentation and configuration."
     },
     "repo_id": 487995273,
-    "readme_url": "https://github.com/CDC-HIS/ETHIOHRI-Milestones-and-Issues/blob/main/README.md",
     "private_id": "github_487995273",
-    "_url": "https://github.com/CDC-HIS/ETHIOHRI-Milestones-and-Issues"
+    "_url": "https://github.com/CDC-HIS/ETHIOHRI-Milestones-and-Issues",
+    "privateID": "github_487995273"
   },
   {
     "name": "openmrs-esm-ethiohri",
+    "organization": "CDC",
     "description": "A custom microfrontend for Ethiopia's integration into OHRI",
-    "organization": "CDC-HIS",
-    "repositoryURL": "https://github.com/CDC-HIS/openmrs-esm-ethiohri",
-    "homepageURL": "https://github.com/CDC-HIS/openmrs-esm-ethiohri",
-    "vcs": "git",
-    "repositoryVisibility": "public",
-    "status": "development",
-    "version": "N/A",
+    "version": "1.0.1",
     "laborHours": 0,
+    "status": "development",
+    "vcs": "git",
+    "homepageURL": "",
+    "repositoryURL": "https://github.com/CDC-HIS/openmrs-esm-ethiohri",
+    "repositoryVisibility": "public",
     "languages": [
       "TypeScript",
       "SCSS",
@@ -298,76 +233,37 @@
       "Shell"
     ],
     "tags": [],
+    "contact": {
+      "email": "cdcinfo@cdc.gov"
+    },
     "date": {
       "created": "2022-05-03T08:03:32+00:00",
-      "lastModified": "2025-07-03T07:19:37+00:00",
-      "metadataLastUpdated": "2025-07-09T14-05-34"
+      "lastModified": "2025-07-11T09:34:58+00:00",
+      "metadataLastUpdated": "2025-07-11T14:13:16.900952+00:00"
     },
     "permissions": {
       "usageType": "openSource",
-      "exemptionText": "",
       "licenses": [
         {
           "name": "Other"
         }
       ]
     },
-    "contact": {
-      "email": "",
-      "name": "Centers for Disease Control and Prevention (CDC)"
-    },
     "repo_id": 488124581,
-    "readme_url": "https://github.com/CDC-HIS/openmrs-esm-ethiohri/blob/master/README.md",
     "private_id": "github_488124581",
     "_url": "https://github.com/CDC-HIS/openmrs-esm-ethiohri"
   },
   {
-    "name": "EthiOHRI-MVP-Milestones-Issues",
-    "description": "",
-    "organization": "CDC-HIS",
-    "repositoryURL": "https://cdcgov.github.io/ShareIT-Act/assets/files/code_exempted.pdf",
-    "homepageURL": "https://github.com/CDC-HIS/EthiOHRI-MVP-Milestones-Issues",
-    "vcs": "git",
-    "repositoryVisibility": "private",
-    "status": "inactive",
-    "version": "N/A",
-    "laborHours": 0,
-    "languages": [],
-    "tags": [],
-    "date": {
-      "created": "2022-06-09T07:46:53+00:00",
-      "lastModified": "2022-06-09T07:46:54+00:00",
-      "metadataLastUpdated": "2025-07-09T14-05-35"
-    },
-    "permissions": {
-      "usageType": "exemptByCIO",
-      "exemptionText": "It's an internal repository.",
-      "licenses": [
-        {
-          "name": "Apache License 2.0"
-        }
-      ]
-    },
-    "contact": {
-      "email": "shareit@cdc.gov",
-      "name": "Centers for Disease Control and Prevention (CDC)"
-    },
-    "repo_id": 501554984,
-    "readme_url": "https://github.com/CDC-HIS/EthiOHRI-MVP-Milestones-Issues/blob/main/README.md",
-    "private_id": "github_501554984",
-    "_url": "https://github.com/CDC-HIS/EthiOHRI-MVP-Milestones-Issues"
-  },
-  {
     "name": "ephi_cbs_redcap",
+    "organization": "CDC",
     "description": "This repository contain artifacts related to cbs implemenation at EPHI. It contains redcap code, customization and related documentations.",
-    "organization": "CDC-HIS",
-    "repositoryURL": "https://cdcgov.github.io/ShareIT-Act/assets/files/code_exempted.pdf",
-    "homepageURL": "https://github.com/CDC-HIS/ephi_cbs_redcap",
-    "vcs": "git",
-    "repositoryVisibility": "private",
-    "status": "inactive",
     "version": "N/A",
     "laborHours": 0,
+    "status": "inactive",
+    "vcs": "git",
+    "homepageURL": "",
+    "repositoryURL": "https://cdcgov.github.io/ShareIT-Act/assets/files/instructions.pdf",
+    "repositoryVisibility": "private",
     "languages": [
       "PHP",
       "JavaScript",
@@ -385,40 +281,34 @@
       "Batchfile"
     ],
     "tags": [],
+    "contact": {
+      "email": "shareit@cdc.gov"
+    },
     "date": {
       "created": "2022-08-19T07:10:31+00:00",
       "lastModified": "2022-08-19T07:27:59+00:00",
-      "metadataLastUpdated": "2025-07-09T14-05-37"
+      "metadataLastUpdated": "2025-07-11T14:13:18.953006+00:00"
     },
     "permissions": {
-      "usageType": "exemptByCIO",
-      "exemptionText": "It's an internal repository.",
-      "licenses": [
-        {
-          "name": "Apache License 2.0"
-        }
-      ]
-    },
-    "contact": {
-      "email": "shareit@cdc.gov",
-      "name": "Centers for Disease Control and Prevention (CDC)"
+      "usageType": "governmentWideReuse",
+      "licenses": []
     },
     "repo_id": 526500351,
-    "readme_url": "https://github.com/CDC-HIS/ephi_cbs_redcap/blob/main/README.md",
     "private_id": "github_526500351",
-    "_url": "https://github.com/CDC-HIS/ephi_cbs_redcap"
+    "_url": "https://github.com/CDC-HIS/ephi_cbs_redcap",
+    "privateID": "github_526500351"
   },
   {
     "name": "sms_service",
+    "organization": "CDC",
     "description": "",
-    "organization": "CDC-HIS",
-    "repositoryURL": "https://cdcgov.github.io/ShareIT-Act/assets/files/code_exempted.pdf",
-    "homepageURL": "https://github.com/CDC-HIS/sms_service",
-    "vcs": "git",
-    "repositoryVisibility": "private",
-    "status": "inactive",
     "version": "N/A",
     "laborHours": 0,
+    "status": "inactive",
+    "vcs": "git",
+    "homepageURL": "",
+    "repositoryURL": "https://cdcgov.github.io/ShareIT-Act/assets/files/instructions.pdf",
+    "repositoryVisibility": "private",
     "languages": [
       "C#",
       "NSIS",
@@ -426,120 +316,101 @@
       "Batchfile"
     ],
     "tags": [],
+    "contact": {
+      "email": "shareit@cdc.gov"
+    },
     "date": {
       "created": "2022-08-19T09:12:53+00:00",
       "lastModified": "2022-08-19T10:43:39+00:00",
-      "metadataLastUpdated": "2025-07-09T14-05-38"
+      "metadataLastUpdated": "2025-07-11T14:13:20.973890+00:00"
     },
     "permissions": {
-      "usageType": "exemptByCIO",
-      "exemptionText": "It's an internal repository.",
-      "licenses": [
-        {
-          "name": "Apache License 2.0"
-        }
-      ]
-    },
-    "contact": {
-      "email": "shareit@cdc.gov",
-      "name": "Centers for Disease Control and Prevention (CDC)"
+      "usageType": "governmentWideReuse",
+      "licenses": []
     },
     "repo_id": 526538677,
-    "readme_url": "",
     "private_id": "github_526538677",
-    "_url": "https://github.com/CDC-HIS/sms_service"
+    "_url": "https://github.com/CDC-HIS/sms_service",
+    "privateID": "github_526538677"
   },
   {
     "name": "lcbs_services",
+    "organization": "CDC",
     "description": "",
-    "organization": "CDC-HIS",
-    "repositoryURL": "https://cdcgov.github.io/ShareIT-Act/assets/files/code_exempted.pdf",
-    "homepageURL": "https://github.com/CDC-HIS/lcbs_services",
-    "vcs": "git",
-    "repositoryVisibility": "private",
-    "status": "inactive",
     "version": "N/A",
     "laborHours": 0,
+    "status": "inactive",
+    "vcs": "git",
+    "homepageURL": "",
+    "repositoryURL": "https://cdcgov.github.io/ShareIT-Act/assets/files/instructions.pdf",
+    "repositoryVisibility": "private",
     "languages": [
       "C#",
       "TSQL",
       "NSIS"
     ],
     "tags": [],
+    "contact": {
+      "email": "shareit@cdc.gov"
+    },
     "date": {
       "created": "2022-08-19T10:44:41+00:00",
       "lastModified": "2022-08-19T10:52:31+00:00",
-      "metadataLastUpdated": "2025-07-09T14-05-40"
+      "metadataLastUpdated": "2025-07-11T14:13:22.968129+00:00"
     },
     "permissions": {
-      "usageType": "exemptByCIO",
-      "exemptionText": "It's an internal repository.",
-      "licenses": [
-        {
-          "name": "Apache License 2.0"
-        }
-      ]
-    },
-    "contact": {
-      "email": "shareit@cdc.gov",
-      "name": "Centers for Disease Control and Prevention (CDC)"
+      "usageType": "governmentWideReuse",
+      "licenses": []
     },
     "repo_id": 526567275,
-    "readme_url": "",
     "private_id": "github_526567275",
-    "_url": "https://github.com/CDC-HIS/lcbs_services"
+    "_url": "https://github.com/CDC-HIS/lcbs_services",
+    "privateID": "github_526567275"
   },
   {
     "name": "openmrs-module-ethiohrireporting",
+    "organization": "CDC",
     "description": "",
-    "organization": "CDC-HIS",
-    "repositoryURL": "https://github.com/CDC-HIS/openmrs-module-ethiohrireporting",
-    "homepageURL": "https://github.com/CDC-HIS/openmrs-module-ethiohrireporting",
-    "vcs": "git",
-    "repositoryVisibility": "public",
-    "status": "development",
     "version": "N/A",
     "laborHours": 0,
+    "status": "development",
+    "vcs": "git",
+    "homepageURL": "",
+    "repositoryURL": "https://github.com/CDC-HIS/openmrs-module-ethiohrireporting",
+    "repositoryVisibility": "public",
     "languages": [
       "Java",
       "JavaScript",
       "CSS"
     ],
     "tags": [],
+    "contact": {
+      "email": "cdcinfo@cdc.gov"
+    },
     "date": {
       "created": "2022-11-29T07:01:48+00:00",
       "lastModified": "2025-07-02T12:17:18+00:00",
-      "metadataLastUpdated": "2025-07-09T14-05-42"
+      "metadataLastUpdated": "2025-07-11T14:13:24.913233+00:00"
     },
     "permissions": {
       "usageType": "governmentWideReuse",
-      "exemptionText": "",
-      "licenses": [
-        {
-          "name": "Apache License 2.0"
-        }
-      ]
-    },
-    "contact": {
-      "email": "",
-      "name": "Centers for Disease Control and Prevention (CDC)"
+      "licenses": []
     },
     "repo_id": 571919833,
-    "readme_url": "https://github.com/CDC-HIS/openmrs-module-ethiohrireporting/blob/master/README.md",
     "private_id": "github_571919833",
     "_url": "https://github.com/CDC-HIS/openmrs-module-ethiohrireporting"
   },
   {
     "name": "Openmrs-Reporting",
+    "organization": "CDC",
     "description": "",
-    "organization": "CDC-HIS",
-    "repositoryURL": "https://cdcgov.github.io/ShareIT-Act/assets/files/code_exempted.pdf",
-    "homepageURL": "https://github.com/CDC-HIS/Openmrs-Reporting",
-    "vcs": "git",
-    "repositoryVisibility": "private",
-    "status": "development",
     "version": "N/A",
     "laborHours": 0,
+    "status": "development",
+    "vcs": "git",
+    "homepageURL": "",
+    "repositoryURL": "https://cdcgov.github.io/ShareIT-Act/assets/files/instructions.pdf",
+    "repositoryVisibility": "private",
     "languages": [
       "Java",
       "JavaScript",
@@ -547,78 +418,69 @@
       "Groovy"
     ],
     "tags": [],
+    "contact": {
+      "email": "shareit@cdc.gov"
+    },
     "date": {
       "created": "2023-04-18T08:02:43+00:00",
       "lastModified": "2024-05-31T07:03:03+00:00",
-      "metadataLastUpdated": "2025-07-09T14-05-43"
+      "metadataLastUpdated": "2025-07-11T14:13:26.902782+00:00"
     },
     "permissions": {
-      "usageType": "exemptByCIO",
-      "exemptionText": "It's an internal repository.",
+      "usageType": "governmentWideReuse",
       "licenses": [
         {
           "name": "Other"
         }
       ]
     },
-    "contact": {
-      "email": "shareit@cdc.gov",
-      "name": "Centers for Disease Control and Prevention (CDC)"
-    },
     "repo_id": 629388328,
-    "readme_url": "https://github.com/CDC-HIS/Openmrs-Reporting/blob/master/README.md",
     "private_id": "github_629388328",
-    "_url": "https://github.com/CDC-HIS/Openmrs-Reporting"
+    "_url": "https://github.com/CDC-HIS/Openmrs-Reporting",
+    "privateID": "github_629388328"
   },
   {
     "name": "openmrs-module-ethiohrireports",
+    "organization": "CDC",
     "description": "OpenMRS module for Packaging OHRI Reports powered by the Reporting Module",
-    "organization": "CDC-HIS",
-    "repositoryURL": "https://github.com/CDC-HIS/openmrs-module-ethiohrireports",
-    "homepageURL": "https://github.com/CDC-HIS/openmrs-module-ethiohrireports",
-    "vcs": "git",
-    "repositoryVisibility": "public",
-    "status": "inactive",
     "version": "N/A",
     "laborHours": 0,
+    "status": "inactive",
+    "vcs": "git",
+    "homepageURL": "",
+    "repositoryURL": "https://github.com/CDC-HIS/openmrs-module-ethiohrireports",
+    "repositoryVisibility": "public",
     "languages": [
       "Java"
     ],
     "tags": [],
+    "contact": {
+      "email": "cdcinfo@cdc.gov"
+    },
     "date": {
       "created": "2023-05-18T12:43:25+00:00",
       "lastModified": "2023-05-18T12:46:22+00:00",
-      "metadataLastUpdated": "2025-07-09T14-05-45"
+      "metadataLastUpdated": "2025-07-11T14:13:28.754946+00:00"
     },
     "permissions": {
       "usageType": "governmentWideReuse",
-      "exemptionText": "",
-      "licenses": [
-        {
-          "name": "Apache License 2.0"
-        }
-      ]
-    },
-    "contact": {
-      "email": "",
-      "name": "Centers for Disease Control and Prevention (CDC)"
+      "licenses": []
     },
     "repo_id": 642379381,
-    "readme_url": "https://github.com/CDC-HIS/openmrs-module-ethiohrireports/blob/mamba_imp/README.md",
     "private_id": "github_642379381",
     "_url": "https://github.com/CDC-HIS/openmrs-module-ethiohrireports"
   },
   {
     "name": "PTQIT",
+    "organization": "CDC",
     "description": "",
-    "organization": "CDC-HIS",
-    "repositoryURL": "https://cdcgov.github.io/ShareIT-Act/assets/files/code_exempted.pdf",
-    "homepageURL": "https://github.com/CDC-HIS/PTQIT",
-    "vcs": "git",
-    "repositoryVisibility": "private",
-    "status": "development",
     "version": "N/A",
     "laborHours": 0,
+    "status": "development",
+    "vcs": "git",
+    "homepageURL": "",
+    "repositoryURL": "https://cdcgov.github.io/ShareIT-Act/assets/files/instructions.pdf",
+    "repositoryVisibility": "private",
     "languages": [
       "ASP.NET",
       "JavaScript",
@@ -630,40 +492,34 @@
       "Classic ASP"
     ],
     "tags": [],
+    "contact": {
+      "email": "shareit@cdc.gov"
+    },
     "date": {
       "created": "2023-09-22T06:32:26+00:00",
       "lastModified": "2023-09-25T07:43:24+00:00",
-      "metadataLastUpdated": "2025-07-09T14-05-46"
+      "metadataLastUpdated": "2025-07-11T14:13:30.739116+00:00"
     },
     "permissions": {
-      "usageType": "exemptByCIO",
-      "exemptionText": "It's an internal repository.",
-      "licenses": [
-        {
-          "name": "Apache License 2.0"
-        }
-      ]
-    },
-    "contact": {
-      "email": "shareit@cdc.gov",
-      "name": "Centers for Disease Control and Prevention (CDC)"
+      "usageType": "governmentWideReuse",
+      "licenses": []
     },
     "repo_id": 695002624,
-    "readme_url": "https://github.com/CDC-HIS/PTQIT/blob/main/README.md",
     "private_id": "github_695002624",
-    "_url": "https://github.com/CDC-HIS/PTQIT"
+    "_url": "https://github.com/CDC-HIS/PTQIT",
+    "privateID": "github_695002624"
   },
   {
     "name": "openmrs-esm-icap",
+    "organization": "CDC",
     "description": "",
-    "organization": "CDC-HIS",
-    "repositoryURL": "https://cdcgov.github.io/ShareIT-Act/assets/files/code_exempted.pdf",
-    "homepageURL": "https://github.com/CDC-HIS/openmrs-esm-icap",
-    "vcs": "git",
-    "repositoryVisibility": "private",
-    "status": "development",
     "version": "N/A",
     "laborHours": 0,
+    "status": "development",
+    "vcs": "git",
+    "homepageURL": "",
+    "repositoryURL": "https://cdcgov.github.io/ShareIT-Act/assets/files/instructions.pdf",
+    "repositoryVisibility": "private",
     "languages": [
       "TypeScript",
       "JavaScript",
@@ -672,154 +528,137 @@
       "Dockerfile"
     ],
     "tags": [],
+    "contact": {
+      "email": "shareit@cdc.gov"
+    },
     "date": {
       "created": "2024-03-21T08:18:46+00:00",
       "lastModified": "2024-03-22T08:27:48+00:00",
-      "metadataLastUpdated": "2025-07-09T14-05-48"
+      "metadataLastUpdated": "2025-07-11T14:13:32.853668+00:00"
     },
     "permissions": {
-      "usageType": "exemptByCIO",
-      "exemptionText": "It's an internal repository.",
+      "usageType": "governmentWideReuse",
       "licenses": [
         {
           "name": "Other"
         }
       ]
     },
-    "contact": {
-      "email": "shareit@cdc.gov",
-      "name": "Centers for Disease Control and Prevention (CDC)"
-    },
     "repo_id": 775349799,
-    "readme_url": "https://github.com/CDC-HIS/openmrs-esm-icap/blob/master/README.md",
     "private_id": "github_775349799",
-    "_url": "https://github.com/CDC-HIS/openmrs-esm-icap"
+    "_url": "https://github.com/CDC-HIS/openmrs-esm-icap",
+    "privateID": "github_775349799"
   },
   {
     "name": "openmrs-eip",
+    "organization": "CDC",
     "description": "",
-    "organization": "CDC-HIS",
-    "repositoryURL": "https://cdcgov.github.io/ShareIT-Act/assets/files/code_exempted.pdf",
-    "homepageURL": "https://github.com/CDC-HIS/openmrs-eip",
-    "vcs": "git",
-    "repositoryVisibility": "private",
-    "status": "development",
     "version": "N/A",
     "laborHours": 0,
+    "status": "development",
+    "vcs": "git",
+    "homepageURL": "",
+    "repositoryURL": "https://cdcgov.github.io/ShareIT-Act/assets/files/instructions.pdf",
+    "repositoryVisibility": "private",
     "languages": [
       "Java"
     ],
     "tags": [],
+    "contact": {
+      "email": "shareit@cdc.gov"
+    },
     "date": {
       "created": "2024-03-27T08:54:37+00:00",
       "lastModified": "2024-04-04T05:20:06+00:00",
-      "metadataLastUpdated": "2025-07-09T14-05-50"
+      "metadataLastUpdated": "2025-07-11T14:13:34.884115+00:00"
     },
     "permissions": {
-      "usageType": "exemptByCIO",
-      "exemptionText": "It's an internal repository.",
-      "licenses": [
-        {
-          "name": "Apache License 2.0"
-        }
-      ]
-    },
-    "contact": {
-      "email": "shareit@cdc.gov",
-      "name": "Centers for Disease Control and Prevention (CDC)"
+      "usageType": "governmentWideReuse",
+      "licenses": []
     },
     "repo_id": 778190327,
-    "readme_url": "https://github.com/CDC-HIS/openmrs-eip/blob/main/README.md",
     "private_id": "github_778190327",
-    "_url": "https://github.com/CDC-HIS/openmrs-eip"
+    "_url": "https://github.com/CDC-HIS/openmrs-eip",
+    "privateID": "github_778190327"
   },
   {
     "name": "Ethio-Integration",
+    "organization": "CDC",
     "description": "",
-    "organization": "CDC-HIS",
-    "repositoryURL": "https://cdcgov.github.io/ShareIT-Act/assets/files/code_exempted.pdf",
-    "homepageURL": "https://github.com/CDC-HIS/Ethio-Integration",
-    "vcs": "git",
-    "repositoryVisibility": "private",
-    "status": "development",
     "version": "N/A",
     "laborHours": 0,
+    "status": "development",
+    "vcs": "git",
+    "homepageURL": "",
+    "repositoryURL": "https://cdcgov.github.io/ShareIT-Act/assets/files/instructions.pdf",
+    "repositoryVisibility": "private",
     "languages": [
       "Java"
     ],
     "tags": [],
+    "contact": {
+      "email": "shareit@cdc.gov"
+    },
     "date": {
       "created": "2024-04-08T13:54:02+00:00",
       "lastModified": "2024-04-23T10:53:12+00:00",
-      "metadataLastUpdated": "2025-07-09T14-05-51"
+      "metadataLastUpdated": "2025-07-11T14:13:36.873059+00:00"
     },
     "permissions": {
-      "usageType": "exemptByCIO",
-      "exemptionText": "It's an internal repository.",
-      "licenses": [
-        {
-          "name": "Apache License 2.0"
-        }
-      ]
-    },
-    "contact": {
-      "email": "shareit@cdc.gov",
-      "name": "Centers for Disease Control and Prevention (CDC)"
+      "usageType": "governmentWideReuse",
+      "licenses": []
     },
     "repo_id": 783750388,
-    "readme_url": "https://github.com/CDC-HIS/Ethio-Integration/blob/main/README.md",
     "private_id": "github_783750388",
-    "_url": "https://github.com/CDC-HIS/Ethio-Integration"
+    "_url": "https://github.com/CDC-HIS/Ethio-Integration",
+    "privateID": "github_783750388"
   },
   {
     "name": "eip-openmrs-redcap",
+    "organization": "CDC",
     "description": "Apache camel routes that integrate OpenMRS and REDCap",
-    "organization": "CDC-HIS",
-    "repositoryURL": "https://github.com/CDC-HIS/eip-openmrs-redcap",
-    "homepageURL": "https://github.com/CDC-HIS/eip-openmrs-redcap",
-    "vcs": "git",
-    "repositoryVisibility": "public",
-    "status": "development",
     "version": "N/A",
     "laborHours": 0,
+    "status": "development",
+    "vcs": "git",
+    "homepageURL": "",
+    "repositoryURL": "https://github.com/CDC-HIS/eip-openmrs-redcap",
+    "repositoryVisibility": "public",
     "languages": [
       "Java"
     ],
     "tags": [],
+    "contact": {
+      "email": "cdcinfo@cdc.gov"
+    },
     "date": {
       "created": "2024-07-17T09:06:42+00:00",
       "lastModified": "2024-07-30T06:37:15+00:00",
-      "metadataLastUpdated": "2025-07-09T14-05-53"
+      "metadataLastUpdated": "2025-07-11T14:13:38.773738+00:00"
     },
     "permissions": {
       "usageType": "openSource",
-      "exemptionText": "",
       "licenses": [
         {
           "name": "Apache License 2.0"
         }
       ]
     },
-    "contact": {
-      "email": "",
-      "name": "Centers for Disease Control and Prevention (CDC)"
-    },
     "repo_id": 829925207,
-    "readme_url": "https://github.com/CDC-HIS/eip-openmrs-redcap/blob/main/README.md",
     "private_id": "github_829925207",
     "_url": "https://github.com/CDC-HIS/eip-openmrs-redcap"
   },
   {
     "name": "eip-ettors-openmrs",
+    "organization": "CDC",
     "description": "Apache Camel routes that integrates ETTORS and OpenMRS",
-    "organization": "CDC-HIS",
-    "repositoryURL": "https://github.com/CDC-HIS/eip-ettors-openmrs",
-    "homepageURL": "https://github.com/CDC-HIS/eip-ettors-openmrs",
-    "vcs": "git",
-    "repositoryVisibility": "public",
-    "status": "development",
     "version": "N/A",
     "laborHours": 0,
+    "status": "development",
+    "vcs": "git",
+    "homepageURL": "",
+    "repositoryURL": "https://github.com/CDC-HIS/eip-ettors-openmrs",
+    "repositoryVisibility": "public",
     "languages": [
       "Java"
     ],
@@ -828,40 +667,37 @@
       "fhir",
       "integrations"
     ],
+    "contact": {
+      "email": "cdcinfo@cdc.gov"
+    },
     "date": {
       "created": "2024-07-17T11:02:56+00:00",
       "lastModified": "2024-07-25T07:55:11+00:00",
-      "metadataLastUpdated": "2025-07-09T14-05-54"
+      "metadataLastUpdated": "2025-07-11T14:13:40.693443+00:00"
     },
     "permissions": {
       "usageType": "openSource",
-      "exemptionText": "",
       "licenses": [
         {
           "name": "Apache License 2.0"
         }
       ]
     },
-    "contact": {
-      "email": "",
-      "name": "Centers for Disease Control and Prevention (CDC)"
-    },
     "repo_id": 829971966,
-    "readme_url": "https://github.com/CDC-HIS/eip-ettors-openmrs/blob/main/README.md",
     "private_id": "github_829971966",
     "_url": "https://github.com/CDC-HIS/eip-ettors-openmrs"
   },
   {
     "name": "openmrs-esm-ethio-emr",
+    "organization": "CDC",
     "description": "",
-    "organization": "CDC-HIS",
-    "repositoryURL": "https://github.com/CDC-HIS/openmrs-esm-ethio-emr",
-    "homepageURL": "https://github.com/CDC-HIS/openmrs-esm-ethio-emr",
-    "vcs": "git",
-    "repositoryVisibility": "public",
-    "status": "development",
     "version": "N/A",
     "laborHours": 0,
+    "status": "development",
+    "vcs": "git",
+    "homepageURL": "",
+    "repositoryURL": "https://github.com/CDC-HIS/openmrs-esm-ethio-emr",
+    "repositoryVisibility": "public",
     "languages": [
       "TypeScript",
       "JavaScript",
@@ -870,40 +706,37 @@
       "Dockerfile"
     ],
     "tags": [],
+    "contact": {
+      "email": "cdcinfo@cdc.gov"
+    },
     "date": {
       "created": "2024-07-25T11:25:29+00:00",
       "lastModified": "2024-07-25T11:28:19+00:00",
-      "metadataLastUpdated": "2025-07-09T14-05-56"
+      "metadataLastUpdated": "2025-07-11T14:13:42.676757+00:00"
     },
     "permissions": {
       "usageType": "openSource",
-      "exemptionText": "",
       "licenses": [
         {
           "name": "Other"
         }
       ]
     },
-    "contact": {
-      "email": "",
-      "name": "Centers for Disease Control and Prevention (CDC)"
-    },
     "repo_id": 833600060,
-    "readme_url": "https://github.com/CDC-HIS/openmrs-esm-ethio-emr/blob/main/README.md",
     "private_id": "github_833600060",
     "_url": "https://github.com/CDC-HIS/openmrs-esm-ethio-emr"
   },
   {
     "name": "openmrs-esm-ethio-hiv",
+    "organization": "CDC",
     "description": "",
-    "organization": "CDC-HIS",
-    "repositoryURL": "https://github.com/CDC-HIS/openmrs-esm-ethio-hiv",
-    "homepageURL": "https://github.com/CDC-HIS/openmrs-esm-ethio-hiv",
-    "vcs": "git",
-    "repositoryVisibility": "public",
-    "status": "development",
     "version": "N/A",
     "laborHours": 0,
+    "status": "development",
+    "vcs": "git",
+    "homepageURL": "",
+    "repositoryURL": "https://github.com/CDC-HIS/openmrs-esm-ethio-hiv",
+    "repositoryVisibility": "public",
     "languages": [
       "TypeScript",
       "JavaScript",
@@ -912,118 +745,106 @@
       "Dockerfile"
     ],
     "tags": [],
+    "contact": {
+      "email": "cdcinfo@cdc.gov"
+    },
     "date": {
       "created": "2024-07-25T11:55:23+00:00",
       "lastModified": "2024-10-22T17:20:35+00:00",
-      "metadataLastUpdated": "2025-07-09T14-05-57"
+      "metadataLastUpdated": "2025-07-11T14:13:44.748782+00:00"
     },
     "permissions": {
       "usageType": "openSource",
-      "exemptionText": "",
       "licenses": [
         {
           "name": "Other"
         }
       ]
     },
-    "contact": {
-      "email": "",
-      "name": "Centers for Disease Control and Prevention (CDC)"
-    },
     "repo_id": 833611859,
-    "readme_url": "https://github.com/CDC-HIS/openmrs-esm-ethio-hiv/blob/main/README.md",
     "private_id": "github_833611859",
     "_url": "https://github.com/CDC-HIS/openmrs-esm-ethio-hiv"
   },
   {
     "name": "openmrs-module-ethiori-mamba",
+    "organization": "CDC",
     "description": "",
-    "organization": "CDC-HIS",
-    "repositoryURL": "https://github.com/CDC-HIS/openmrs-module-ethiori-mamba",
-    "homepageURL": "https://github.com/CDC-HIS/openmrs-module-ethiori-mamba",
-    "vcs": "git",
-    "repositoryVisibility": "public",
-    "status": "development",
     "version": "N/A",
     "laborHours": 0,
+    "status": "development",
+    "vcs": "git",
+    "homepageURL": "",
+    "repositoryURL": "https://github.com/CDC-HIS/openmrs-module-ethiori-mamba",
+    "repositoryVisibility": "public",
     "languages": [
       "Java",
       "JavaScript",
       "CSS"
     ],
     "tags": [],
+    "contact": {
+      "email": "cdcinfo@cdc.gov"
+    },
     "date": {
       "created": "2024-08-12T06:29:34+00:00",
-      "lastModified": "2025-07-02T11:24:47+00:00",
-      "metadataLastUpdated": "2025-07-09T14-05-59"
+      "lastModified": "2025-07-11T08:28:36+00:00",
+      "metadataLastUpdated": "2025-07-11T14:13:46.622287+00:00"
     },
     "permissions": {
       "usageType": "openSource",
-      "exemptionText": "",
       "licenses": [
         {
           "name": "Other"
         }
       ]
     },
-    "contact": {
-      "email": "",
-      "name": "Centers for Disease Control and Prevention (CDC)"
-    },
     "repo_id": 841307760,
-    "readme_url": "https://github.com/CDC-HIS/openmrs-module-ethiori-mamba/blob/master/README.md",
     "private_id": "github_841307760",
     "_url": "https://github.com/CDC-HIS/openmrs-module-ethiori-mamba"
   },
   {
     "name": "EthiOhriApi",
+    "organization": "CDC",
     "description": "",
-    "organization": "CDC-HIS",
-    "repositoryURL": "https://cdcgov.github.io/ShareIT-Act/assets/files/code_exempted.pdf",
-    "homepageURL": "https://github.com/CDC-HIS/EthiOhriApi",
-    "vcs": "git",
-    "repositoryVisibility": "private",
-    "status": "development",
     "version": "N/A",
     "laborHours": 0,
+    "status": "development",
+    "vcs": "git",
+    "homepageURL": "",
+    "repositoryURL": "https://cdcgov.github.io/ShareIT-Act/assets/files/instructions.pdf",
+    "repositoryVisibility": "private",
     "languages": [
       "Java"
     ],
     "tags": [],
+    "contact": {
+      "email": "shareit@cdc.gov"
+    },
     "date": {
       "created": "2024-10-30T05:42:10+00:00",
       "lastModified": "2025-06-05T14:17:26+00:00",
-      "metadataLastUpdated": "2025-07-09T14-06-00"
+      "metadataLastUpdated": "2025-07-11T14:13:48.613796+00:00"
     },
     "permissions": {
-      "usageType": "exemptByCIO",
-      "exemptionText": "It's an internal repository.",
-      "licenses": [
-        {
-          "name": "Apache License 2.0"
-        }
-      ]
-    },
-    "contact": {
-      "email": "shareit@cdc.gov",
-      "name": "Centers for Disease Control and Prevention (CDC)"
+      "usageType": "governmentWideReuse",
+      "licenses": []
     },
     "repo_id": 880660332,
-    "readme_url": "https://github.com/CDC-HIS/EthiOhriApi/blob/main/README.md",
     "private_id": "github_880660332",
-    "_url": "https://github.com/CDC-HIS/EthiOhriApi"
+    "_url": "https://github.com/CDC-HIS/EthiOhriApi",
+    "privateID": "github_880660332"
   },
   {
     "name": "openmrs-esm-viral-load",
+    "organization": "CDC",
     "description": "",
-    "organization": "CDC-HIS",
-    "repositoryURL": "https://github.com/CDC-HIS/openmrs-esm-viral-load",
-    "homepageURL": "https://github.com/CDC-HIS/openmrs-esm-viral-load",
-    "vcs": "git",
-    "repositoryVisibility": "public",
-    "status": "development",
     "version": "N/A",
     "laborHours": 0,
+    "status": "development",
+    "vcs": "git",
+    "homepageURL": "",
+    "repositoryURL": "https://github.com/CDC-HIS/openmrs-esm-viral-load",
+    "repositoryVisibility": "public",
     "languages": [
       "TypeScript",
       "SCSS",
@@ -1032,345 +853,293 @@
       "Dockerfile"
     ],
     "tags": [],
+    "contact": {
+      "email": "cdcinfo@cdc.gov"
+    },
     "date": {
       "created": "2024-11-05T07:46:00+00:00",
       "lastModified": "2024-12-24T15:04:10+00:00",
-      "metadataLastUpdated": "2025-07-09T14-06-02"
+      "metadataLastUpdated": "2025-07-11T14:13:50.592246+00:00"
     },
     "permissions": {
       "usageType": "openSource",
-      "exemptionText": "",
       "licenses": [
         {
           "name": "Other"
         }
       ]
     },
-    "contact": {
-      "email": "",
-      "name": "Centers for Disease Control and Prevention (CDC)"
-    },
     "repo_id": 883570889,
-    "readme_url": "https://github.com/CDC-HIS/openmrs-esm-viral-load/blob/main/README.md",
     "private_id": "github_883570889",
     "_url": "https://github.com/CDC-HIS/openmrs-esm-viral-load"
   },
   {
     "name": "aop",
+    "organization": "CDC",
     "description": "",
-    "organization": "CDC-HIS",
-    "repositoryURL": "https://cdcgov.github.io/ShareIT-Act/assets/files/code_exempted.pdf",
-    "homepageURL": "https://github.com/CDC-HIS/aop",
-    "vcs": "git",
-    "repositoryVisibility": "private",
-    "status": "development",
     "version": "N/A",
     "laborHours": 0,
+    "status": "development",
+    "vcs": "git",
+    "homepageURL": "",
+    "repositoryURL": "https://cdcgov.github.io/ShareIT-Act/assets/files/instructions.pdf",
+    "repositoryVisibility": "private",
     "languages": [
       "Java"
     ],
     "tags": [],
+    "contact": {
+      "email": "shareit@cdc.gov"
+    },
     "date": {
       "created": "2024-11-05T08:06:24+00:00",
       "lastModified": "2025-06-11T08:08:23+00:00",
-      "metadataLastUpdated": "2025-07-09T14-06-04"
+      "metadataLastUpdated": "2025-07-11T14:13:52.692254+00:00"
     },
     "permissions": {
-      "usageType": "exemptByCIO",
-      "exemptionText": "It's an internal repository.",
-      "licenses": [
-        {
-          "name": "Apache License 2.0"
-        }
-      ]
-    },
-    "contact": {
-      "email": "shareit@cdc.gov",
-      "name": "Centers for Disease Control and Prevention (CDC)"
+      "usageType": "governmentWideReuse",
+      "licenses": []
     },
     "repo_id": 883579273,
-    "readme_url": "https://github.com/CDC-HIS/aop/blob/main/README.md",
     "private_id": "github_883579273",
-    "_url": "https://github.com/CDC-HIS/aop"
+    "_url": "https://github.com/CDC-HIS/aop",
+    "privateID": "github_883579273"
   },
   {
     "name": "data-import-tool",
+    "organization": "CDC",
     "description": "Data Import tool for AggregateDB",
-    "organization": "CDC-HIS",
-    "repositoryURL": "https://github.com/CDC-HIS/data-import-tool",
-    "homepageURL": "https://github.com/CDC-HIS/data-import-tool",
-    "vcs": "git",
-    "repositoryVisibility": "public",
-    "status": "development",
     "version": "N/A",
     "laborHours": 0,
+    "status": "development",
+    "vcs": "git",
+    "homepageURL": "",
+    "repositoryURL": "https://github.com/CDC-HIS/data-import-tool",
+    "repositoryVisibility": "public",
     "languages": [
       "Python"
     ],
     "tags": [],
+    "contact": {
+      "email": "cdcinfo@cdc.gov"
+    },
     "date": {
       "created": "2024-11-06T13:14:55+00:00",
       "lastModified": "2025-05-19T14:10:48+00:00",
-      "metadataLastUpdated": "2025-07-09T14-06-06"
+      "metadataLastUpdated": "2025-07-11T14:13:54.711219+00:00"
     },
     "permissions": {
       "usageType": "governmentWideReuse",
-      "exemptionText": "",
-      "licenses": [
-        {
-          "name": "Apache License 2.0"
-        }
-      ]
-    },
-    "contact": {
-      "email": "",
-      "name": "Centers for Disease Control and Prevention (CDC)"
+      "licenses": []
     },
     "repo_id": 884276147,
-    "readme_url": "https://github.com/CDC-HIS/data-import-tool/blob/main/README.md",
     "private_id": "github_884276147",
     "_url": "https://github.com/CDC-HIS/data-import-tool"
   },
   {
     "name": "auto-cleanup",
+    "organization": "CDC",
     "description": "",
-    "organization": "CDC-HIS",
-    "repositoryURL": "https://cdcgov.github.io/ShareIT-Act/assets/files/code_exempted.pdf",
-    "homepageURL": "https://github.com/CDC-HIS/auto-cleanup",
-    "vcs": "git",
-    "repositoryVisibility": "private",
-    "status": "development",
     "version": "N/A",
     "laborHours": 0,
+    "status": "development",
+    "vcs": "git",
+    "homepageURL": "",
+    "repositoryURL": "https://cdcgov.github.io/ShareIT-Act/assets/files/instructions.pdf",
+    "repositoryVisibility": "private",
     "languages": [
       "JavaScript",
       "CSS",
       "Shell"
     ],
     "tags": [],
+    "contact": {
+      "email": "shareit@cdc.gov"
+    },
     "date": {
       "created": "2024-11-20T07:07:15+00:00",
       "lastModified": "2024-11-20T07:10:05+00:00",
-      "metadataLastUpdated": "2025-07-09T14-06-07"
+      "metadataLastUpdated": "2025-07-11T14:13:56.734206+00:00"
     },
     "permissions": {
-      "usageType": "exemptByCIO",
-      "exemptionText": "It's an internal repository.",
-      "licenses": [
-        {
-          "name": "Apache License 2.0"
-        }
-      ]
-    },
-    "contact": {
-      "email": "shareit@cdc.gov",
-      "name": "Centers for Disease Control and Prevention (CDC)"
+      "usageType": "governmentWideReuse",
+      "licenses": []
     },
     "repo_id": 891347930,
-    "readme_url": "https://github.com/CDC-HIS/auto-cleanup/blob/main/README.md",
     "private_id": "github_891347930",
-    "_url": "https://github.com/CDC-HIS/auto-cleanup"
+    "_url": "https://github.com/CDC-HIS/auto-cleanup",
+    "privateID": "github_891347930"
   },
   {
     "name": "EthiOhri-Integration",
+    "organization": "CDC",
     "description": "Essential Configurations and Guidelines for Systems Integrating with Ethiohri.",
-    "organization": "CDC-HIS",
-    "repositoryURL": "https://cdcgov.github.io/ShareIT-Act/assets/files/code_exempted.pdf",
-    "homepageURL": "https://github.com/CDC-HIS/EthiOhri-Integration",
-    "vcs": "git",
-    "repositoryVisibility": "private",
-    "status": "development",
     "version": "N/A",
     "laborHours": 0,
+    "status": "development",
+    "vcs": "git",
+    "homepageURL": "",
+    "repositoryURL": "https://cdcgov.github.io/ShareIT-Act/assets/files/code_exempted.pdf",
+    "repositoryVisibility": "private",
     "languages": [],
     "tags": [],
+    "contact": {
+      "email": "shareit@cdc.gov"
+    },
     "date": {
       "created": "2024-11-21T07:06:34+00:00",
       "lastModified": "2025-03-10T09:15:24+00:00",
-      "metadataLastUpdated": "2025-07-09T14-06-09"
+      "metadataLastUpdated": "2025-07-11T14:13:58.807221+00:00"
     },
     "permissions": {
       "usageType": "exemptByCIO",
-      "exemptionText": "It's an internal repository.",
-      "licenses": [
-        {
-          "name": "Apache License 2.0"
-        }
-      ]
-    },
-    "contact": {
-      "email": "shareit@cdc.gov",
-      "name": "Centers for Disease Control and Prevention (CDC)"
+      "licenses": [],
+      "exemptionText": "Repository contains no code or only non-code assets like documentation and configuration."
     },
     "repo_id": 891908090,
-    "readme_url": "https://github.com/CDC-HIS/EthiOhri-Integration/blob/main/README.md",
     "private_id": "github_891908090",
-    "_url": "https://github.com/CDC-HIS/EthiOhri-Integration"
+    "_url": "https://github.com/CDC-HIS/EthiOhri-Integration",
+    "privateID": "github_891908090"
   },
   {
     "name": "datagrip",
+    "organization": "CDC",
     "description": "",
-    "organization": "CDC-HIS",
-    "repositoryURL": "https://cdcgov.github.io/ShareIT-Act/assets/files/code_exempted.pdf",
-    "homepageURL": "https://github.com/CDC-HIS/datagrip",
-    "vcs": "git",
-    "repositoryVisibility": "private",
-    "status": "development",
     "version": "N/A",
     "laborHours": 0,
+    "status": "development",
+    "vcs": "git",
+    "homepageURL": "",
+    "repositoryURL": "https://cdcgov.github.io/ShareIT-Act/assets/files/instructions.pdf",
+    "repositoryVisibility": "private",
     "languages": [
       "TSQL",
       "Shell"
     ],
     "tags": [],
+    "contact": {
+      "email": "shareit@cdc.gov"
+    },
     "date": {
       "created": "2024-11-28T07:30:35+00:00",
       "lastModified": "2025-04-23T14:00:52+00:00",
-      "metadataLastUpdated": "2025-07-09T14-06-10"
+      "metadataLastUpdated": "2025-07-11T14:14:00.791346+00:00"
     },
     "permissions": {
-      "usageType": "exemptByCIO",
-      "exemptionText": "It's an internal repository.",
-      "licenses": [
-        {
-          "name": "Apache License 2.0"
-        }
-      ]
-    },
-    "contact": {
-      "email": "shareit@cdc.gov",
-      "name": "Centers for Disease Control and Prevention (CDC)"
+      "usageType": "governmentWideReuse",
+      "licenses": []
     },
     "repo_id": 895426801,
-    "readme_url": "",
     "private_id": "github_895426801",
-    "_url": "https://github.com/CDC-HIS/datagrip"
+    "_url": "https://github.com/CDC-HIS/datagrip",
+    "privateID": "github_895426801"
   },
   {
     "name": "ethiohri-bahmni-integration",
+    "organization": "CDC",
     "description": "",
-    "organization": "CDC-HIS",
-    "repositoryURL": "https://cdcgov.github.io/ShareIT-Act/assets/files/code_exempted.pdf",
-    "homepageURL": "https://github.com/CDC-HIS/ethiohri-bahmni-integration",
-    "vcs": "git",
-    "repositoryVisibility": "private",
-    "status": "development",
     "version": "N/A",
     "laborHours": 0,
+    "status": "development",
+    "vcs": "git",
+    "homepageURL": "",
+    "repositoryURL": "https://cdcgov.github.io/ShareIT-Act/assets/files/instructions.pdf",
+    "repositoryVisibility": "private",
     "languages": [
       "Java"
     ],
     "tags": [],
+    "contact": {
+      "email": "shareit@cdc.gov"
+    },
     "date": {
       "created": "2024-11-29T09:17:52+00:00",
       "lastModified": "2025-01-28T11:24:38+00:00",
-      "metadataLastUpdated": "2025-07-09T14-06-12"
+      "metadataLastUpdated": "2025-07-11T14:14:02.815237+00:00"
     },
     "permissions": {
-      "usageType": "exemptByCIO",
-      "exemptionText": "It's an internal repository.",
-      "licenses": [
-        {
-          "name": "Apache License 2.0"
-        }
-      ]
-    },
-    "contact": {
-      "email": "shareit@cdc.gov",
-      "name": "Centers for Disease Control and Prevention (CDC)"
+      "usageType": "governmentWideReuse",
+      "licenses": []
     },
     "repo_id": 895962946,
-    "readme_url": "",
     "private_id": "github_895962946",
-    "_url": "https://github.com/CDC-HIS/ethiohri-bahmni-integration"
+    "_url": "https://github.com/CDC-HIS/ethiohri-bahmni-integration",
+    "privateID": "github_895962946"
   },
   {
     "name": "data-export-tool",
+    "organization": "CDC",
     "description": "Data Extraction tool for Ethiohri ",
-    "organization": "CDC-HIS",
-    "repositoryURL": "https://github.com/CDC-HIS/data-export-tool",
-    "homepageURL": "https://github.com/CDC-HIS/data-export-tool",
-    "vcs": "git",
-    "repositoryVisibility": "public",
-    "status": "development",
     "version": "N/A",
     "laborHours": 0,
+    "status": "development",
+    "vcs": "git",
+    "homepageURL": "",
+    "repositoryURL": "https://github.com/CDC-HIS/data-export-tool",
+    "repositoryVisibility": "public",
     "languages": [
       "Python"
     ],
     "tags": [],
+    "contact": {
+      "email": "cdcinfo@cdc.gov"
+    },
     "date": {
       "created": "2024-12-09T13:59:33+00:00",
       "lastModified": "2025-06-30T07:43:43+00:00",
-      "metadataLastUpdated": "2025-07-09T14-06-13"
+      "metadataLastUpdated": "2025-07-11T14:14:04.737499+00:00"
     },
     "permissions": {
       "usageType": "governmentWideReuse",
-      "exemptionText": "",
-      "licenses": [
-        {
-          "name": "Apache License 2.0"
-        }
-      ]
-    },
-    "contact": {
-      "email": "",
-      "name": "Centers for Disease Control and Prevention (CDC)"
+      "licenses": []
     },
     "repo_id": 900804807,
-    "readme_url": "https://github.com/CDC-HIS/data-export-tool/blob/main/README.md",
     "private_id": "github_900804807",
     "_url": "https://github.com/CDC-HIS/data-export-tool"
   },
   {
     "name": "bahmni-ethiohri-integration",
+    "organization": "CDC",
     "description": "",
-    "organization": "CDC-HIS",
-    "repositoryURL": "https://cdcgov.github.io/ShareIT-Act/assets/files/code_exempted.pdf",
-    "homepageURL": "https://github.com/CDC-HIS/bahmni-ethiohri-integration",
-    "vcs": "git",
-    "repositoryVisibility": "private",
-    "status": "development",
     "version": "N/A",
     "laborHours": 0,
+    "status": "development",
+    "vcs": "git",
+    "homepageURL": "",
+    "repositoryURL": "https://cdcgov.github.io/ShareIT-Act/assets/files/instructions.pdf",
+    "repositoryVisibility": "private",
     "languages": [
       "Java"
     ],
     "tags": [],
+    "contact": {
+      "email": "shareit@cdc.gov"
+    },
     "date": {
       "created": "2024-12-18T07:46:01+00:00",
       "lastModified": "2025-01-23T07:09:34+00:00",
-      "metadataLastUpdated": "2025-07-09T14-06-15"
+      "metadataLastUpdated": "2025-07-11T14:14:06.799551+00:00"
     },
     "permissions": {
-      "usageType": "exemptByCIO",
-      "exemptionText": "It's an internal repository.",
-      "licenses": [
-        {
-          "name": "Apache License 2.0"
-        }
-      ]
-    },
-    "contact": {
-      "email": "shareit@cdc.gov",
-      "name": "Centers for Disease Control and Prevention (CDC)"
+      "usageType": "governmentWideReuse",
+      "licenses": []
     },
     "repo_id": 905119407,
-    "readme_url": "",
     "private_id": "github_905119407",
-    "_url": "https://github.com/CDC-HIS/bahmni-ethiohri-integration"
+    "_url": "https://github.com/CDC-HIS/bahmni-ethiohri-integration",
+    "privateID": "github_905119407"
   },
   {
     "name": "openmrs-esm-ethio-summary",
+    "organization": "CDC",
     "description": "",
-    "organization": "CDC-HIS",
-    "repositoryURL": "https://github.com/CDC-HIS/openmrs-esm-ethio-summary",
-    "homepageURL": "https://github.com/CDC-HIS/openmrs-esm-ethio-summary",
-    "vcs": "git",
-    "repositoryVisibility": "public",
-    "status": "development",
     "version": "N/A",
     "laborHours": 0,
+    "status": "development",
+    "vcs": "git",
+    "homepageURL": "",
+    "repositoryURL": "https://github.com/CDC-HIS/openmrs-esm-ethio-summary",
+    "repositoryVisibility": "public",
     "languages": [
       "TypeScript",
       "JavaScript",
@@ -1379,40 +1148,37 @@
       "Dockerfile"
     ],
     "tags": [],
+    "contact": {
+      "email": "cdcinfo@cdc.gov"
+    },
     "date": {
       "created": "2024-12-19T07:15:49+00:00",
       "lastModified": "2025-01-03T09:07:52+00:00",
-      "metadataLastUpdated": "2025-07-09T14-06-17"
+      "metadataLastUpdated": "2025-07-11T14:14:08.782018+00:00"
     },
     "permissions": {
       "usageType": "openSource",
-      "exemptionText": "",
       "licenses": [
         {
           "name": "Other"
         }
       ]
     },
-    "contact": {
-      "email": "",
-      "name": "Centers for Disease Control and Prevention (CDC)"
-    },
     "repo_id": 905611202,
-    "readme_url": "https://github.com/CDC-HIS/openmrs-esm-ethio-summary/blob/main/README.md",
     "private_id": "github_905611202",
     "_url": "https://github.com/CDC-HIS/openmrs-esm-ethio-summary"
   },
   {
     "name": "openmrs-esm-linked-to-art",
+    "organization": "CDC",
     "description": "",
-    "organization": "CDC-HIS",
-    "repositoryURL": "https://github.com/CDC-HIS/openmrs-esm-linked-to-art",
-    "homepageURL": "https://github.com/CDC-HIS/openmrs-esm-linked-to-art",
-    "vcs": "git",
-    "repositoryVisibility": "public",
-    "status": "development",
     "version": "N/A",
     "laborHours": 0,
+    "status": "development",
+    "vcs": "git",
+    "homepageURL": "",
+    "repositoryURL": "https://github.com/CDC-HIS/openmrs-esm-linked-to-art",
+    "repositoryVisibility": "public",
     "languages": [
       "TypeScript",
       "JavaScript",
@@ -1421,78 +1187,69 @@
       "Dockerfile"
     ],
     "tags": [],
+    "contact": {
+      "email": "cdcinfo@cdc.gov"
+    },
     "date": {
       "created": "2025-01-01T07:17:50+00:00",
       "lastModified": "2025-01-15T12:59:02+00:00",
-      "metadataLastUpdated": "2025-07-09T14-06-18"
+      "metadataLastUpdated": "2025-07-11T14:14:10.675249+00:00"
     },
     "permissions": {
       "usageType": "openSource",
-      "exemptionText": "",
       "licenses": [
         {
           "name": "Other"
         }
       ]
     },
-    "contact": {
-      "email": "",
-      "name": "Centers for Disease Control and Prevention (CDC)"
-    },
     "repo_id": 910718317,
-    "readme_url": "https://github.com/CDC-HIS/openmrs-esm-linked-to-art/blob/main/README.md",
     "private_id": "github_910718317",
     "_url": "https://github.com/CDC-HIS/openmrs-esm-linked-to-art"
   },
   {
     "name": "lcbs-importer",
+    "organization": "CDC",
     "description": "",
-    "organization": "CDC-HIS",
-    "repositoryURL": "https://cdcgov.github.io/ShareIT-Act/assets/files/code_exempted.pdf",
-    "homepageURL": "https://github.com/CDC-HIS/lcbs-importer",
-    "vcs": "git",
-    "repositoryVisibility": "private",
-    "status": "development",
     "version": "N/A",
     "laborHours": 0,
+    "status": "development",
+    "vcs": "git",
+    "homepageURL": "",
+    "repositoryURL": "https://cdcgov.github.io/ShareIT-Act/assets/files/instructions.pdf",
+    "repositoryVisibility": "private",
     "languages": [
       "Java"
     ],
     "tags": [],
+    "contact": {
+      "email": "shareit@cdc.gov"
+    },
     "date": {
       "created": "2025-01-17T12:11:37+00:00",
       "lastModified": "2025-04-25T07:04:47+00:00",
-      "metadataLastUpdated": "2025-07-09T14-06-20"
+      "metadataLastUpdated": "2025-07-11T14:14:12.742926+00:00"
     },
     "permissions": {
-      "usageType": "exemptByCIO",
-      "exemptionText": "It's an internal repository.",
-      "licenses": [
-        {
-          "name": "Apache License 2.0"
-        }
-      ]
-    },
-    "contact": {
-      "email": "shareit@cdc.gov",
-      "name": "Centers for Disease Control and Prevention (CDC)"
+      "usageType": "governmentWideReuse",
+      "licenses": []
     },
     "repo_id": 918181702,
-    "readme_url": "",
     "private_id": "github_918181702",
-    "_url": "https://github.com/CDC-HIS/lcbs-importer"
+    "_url": "https://github.com/CDC-HIS/lcbs-importer",
+    "privateID": "github_918181702"
   },
   {
     "name": "openmrs-esm-ethio-template-app",
+    "organization": "CDC",
     "description": "",
-    "organization": "CDC-HIS",
-    "repositoryURL": "https://github.com/CDC-HIS/openmrs-esm-ethio-template-app",
-    "homepageURL": "https://github.com/CDC-HIS/openmrs-esm-ethio-template-app",
-    "vcs": "git",
-    "repositoryVisibility": "public",
-    "status": "development",
     "version": "N/A",
     "laborHours": 0,
+    "status": "development",
+    "vcs": "git",
+    "homepageURL": "",
+    "repositoryURL": "https://github.com/CDC-HIS/openmrs-esm-ethio-template-app",
+    "repositoryVisibility": "public",
     "languages": [
       "TypeScript",
       "JavaScript",
@@ -1501,40 +1258,37 @@
       "Dockerfile"
     ],
     "tags": [],
+    "contact": {
+      "email": "cdcinfo@cdc.gov"
+    },
     "date": {
       "created": "2025-02-25T10:00:21+00:00",
       "lastModified": "2025-02-25T10:09:27+00:00",
-      "metadataLastUpdated": "2025-07-09T14-06-21"
+      "metadataLastUpdated": "2025-07-11T14:14:14.665055+00:00"
     },
     "permissions": {
       "usageType": "openSource",
-      "exemptionText": "",
       "licenses": [
         {
           "name": "Other"
         }
       ]
     },
-    "contact": {
-      "email": "",
-      "name": "Centers for Disease Control and Prevention (CDC)"
-    },
     "repo_id": 938663122,
-    "readme_url": "https://github.com/CDC-HIS/openmrs-esm-ethio-template-app/blob/main/README.md",
     "private_id": "github_938663122",
     "_url": "https://github.com/CDC-HIS/openmrs-esm-ethio-template-app"
   },
   {
     "name": "openmrs-esm-ethiohri-kpp",
+    "organization": "CDC",
     "description": "",
-    "organization": "CDC-HIS",
-    "repositoryURL": "https://cdcgov.github.io/ShareIT-Act/assets/files/code_exempted.pdf",
-    "homepageURL": "https://github.com/CDC-HIS/openmrs-esm-ethiohri-kpp",
-    "vcs": "git",
-    "repositoryVisibility": "private",
-    "status": "development",
     "version": "N/A",
     "laborHours": 0,
+    "status": "development",
+    "vcs": "git",
+    "homepageURL": "",
+    "repositoryURL": "https://cdcgov.github.io/ShareIT-Act/assets/files/instructions.pdf",
+    "repositoryVisibility": "private",
     "languages": [
       "TypeScript",
       "JavaScript",
@@ -1543,190 +1297,165 @@
       "Dockerfile"
     ],
     "tags": [],
+    "contact": {
+      "email": "shareit@cdc.gov"
+    },
     "date": {
       "created": "2025-03-04T06:55:58+00:00",
-      "lastModified": "2025-07-09T11:13:23+00:00",
-      "metadataLastUpdated": "2025-07-09T14-06-23"
+      "lastModified": "2025-07-11T13:26:02+00:00",
+      "metadataLastUpdated": "2025-07-11T14:14:16.716949+00:00"
     },
     "permissions": {
-      "usageType": "exemptByCIO",
-      "exemptionText": "It's an internal repository.",
+      "usageType": "governmentWideReuse",
       "licenses": [
         {
           "name": "Other"
         }
       ]
     },
-    "contact": {
-      "email": "shareit@cdc.gov",
-      "name": "Centers for Disease Control and Prevention (CDC)"
-    },
     "repo_id": 942476267,
-    "readme_url": "https://github.com/CDC-HIS/openmrs-esm-ethiohri-kpp/blob/main/README.md",
     "private_id": "github_942476267",
-    "_url": "https://github.com/CDC-HIS/openmrs-esm-ethiohri-kpp"
+    "_url": "https://github.com/CDC-HIS/openmrs-esm-ethiohri-kpp",
+    "privateID": "github_942476267"
   },
   {
     "name": "lcbs-processor",
+    "organization": "CDC",
     "description": "",
-    "organization": "CDC-HIS",
-    "repositoryURL": "https://cdcgov.github.io/ShareIT-Act/assets/files/code_exempted.pdf",
-    "homepageURL": "https://github.com/CDC-HIS/lcbs-processor",
-    "vcs": "git",
-    "repositoryVisibility": "private",
-    "status": "development",
     "version": "N/A",
     "laborHours": 0,
+    "status": "development",
+    "vcs": "git",
+    "homepageURL": "",
+    "repositoryURL": "https://cdcgov.github.io/ShareIT-Act/assets/files/instructions.pdf",
+    "repositoryVisibility": "private",
     "languages": [
       "Java"
     ],
     "tags": [],
+    "contact": {
+      "email": "shareit@cdc.gov"
+    },
     "date": {
       "created": "2025-03-04T11:26:22+00:00",
       "lastModified": "2025-03-21T11:05:46+00:00",
-      "metadataLastUpdated": "2025-07-09T14-06-24"
+      "metadataLastUpdated": "2025-07-11T14:14:18.756119+00:00"
     },
     "permissions": {
-      "usageType": "exemptByCIO",
-      "exemptionText": "It's an internal repository.",
-      "licenses": [
-        {
-          "name": "Apache License 2.0"
-        }
-      ]
-    },
-    "contact": {
-      "email": "shareit@cdc.gov",
-      "name": "Centers for Disease Control and Prevention (CDC)"
+      "usageType": "governmentWideReuse",
+      "licenses": []
     },
     "repo_id": 942608019,
-    "readme_url": "",
     "private_id": "github_942608019",
-    "_url": "https://github.com/CDC-HIS/lcbs-processor"
+    "_url": "https://github.com/CDC-HIS/lcbs-processor",
+    "privateID": "github_942608019"
   },
   {
     "name": "lcbs-dispatcher",
+    "organization": "CDC",
     "description": "",
-    "organization": "CDC-HIS",
-    "repositoryURL": "https://cdcgov.github.io/ShareIT-Act/assets/files/code_exempted.pdf",
-    "homepageURL": "https://github.com/CDC-HIS/lcbs-dispatcher",
-    "vcs": "git",
-    "repositoryVisibility": "private",
-    "status": "development",
     "version": "N/A",
     "laborHours": 0,
+    "status": "development",
+    "vcs": "git",
+    "homepageURL": "",
+    "repositoryURL": "https://cdcgov.github.io/ShareIT-Act/assets/files/instructions.pdf",
+    "repositoryVisibility": "private",
     "languages": [
       "Java"
     ],
     "tags": [],
+    "contact": {
+      "email": "shareit@cdc.gov"
+    },
     "date": {
       "created": "2025-03-18T07:23:33+00:00",
       "lastModified": "2025-04-25T07:06:41+00:00",
-      "metadataLastUpdated": "2025-07-09T14-06-26"
+      "metadataLastUpdated": "2025-07-11T14:14:20.851356+00:00"
     },
     "permissions": {
-      "usageType": "exemptByCIO",
-      "exemptionText": "It's an internal repository.",
-      "licenses": [
-        {
-          "name": "Apache License 2.0"
-        }
-      ]
-    },
-    "contact": {
-      "email": "shareit@cdc.gov",
-      "name": "Centers for Disease Control and Prevention (CDC)"
+      "usageType": "governmentWideReuse",
+      "licenses": []
     },
     "repo_id": 950452433,
-    "readme_url": "",
     "private_id": "github_950452433",
-    "_url": "https://github.com/CDC-HIS/lcbs-dispatcher"
+    "_url": "https://github.com/CDC-HIS/lcbs-dispatcher",
+    "privateID": "github_950452433"
   },
   {
     "name": "etorrs-integration",
+    "organization": "CDC",
     "description": "",
-    "organization": "CDC-HIS",
-    "repositoryURL": "https://cdcgov.github.io/ShareIT-Act/assets/files/code_exempted.pdf",
-    "homepageURL": "https://github.com/CDC-HIS/etorrs-integration",
-    "vcs": "git",
-    "repositoryVisibility": "private",
-    "status": "development",
     "version": "N/A",
     "laborHours": 0,
+    "status": "development",
+    "vcs": "git",
+    "homepageURL": "",
+    "repositoryURL": "https://cdcgov.github.io/ShareIT-Act/assets/files/instructions.pdf",
+    "repositoryVisibility": "private",
     "languages": [
       "Java"
     ],
     "tags": [],
+    "contact": {
+      "email": "shareit@cdc.gov"
+    },
     "date": {
       "created": "2025-03-27T11:17:15+00:00",
       "lastModified": "2025-04-07T12:58:43+00:00",
-      "metadataLastUpdated": "2025-07-09T14-06-28"
+      "metadataLastUpdated": "2025-07-11T14:14:22.921971+00:00"
     },
     "permissions": {
-      "usageType": "exemptByCIO",
-      "exemptionText": "It's an internal repository.",
-      "licenses": [
-        {
-          "name": "Apache License 2.0"
-        }
-      ]
-    },
-    "contact": {
-      "email": "shareit@cdc.gov",
-      "name": "Centers for Disease Control and Prevention (CDC)"
+      "usageType": "governmentWideReuse",
+      "licenses": []
     },
     "repo_id": 955894253,
-    "readme_url": "",
     "private_id": "github_955894253",
-    "_url": "https://github.com/CDC-HIS/etorrs-integration"
+    "_url": "https://github.com/CDC-HIS/etorrs-integration",
+    "privateID": "github_955894253"
   },
   {
     "name": "HIV-_TB_related_R_R_tools_4_3_25",
+    "organization": "CDC",
     "description": "",
-    "organization": "CDC-HIS",
-    "repositoryURL": "https://cdcgov.github.io/ShareIT-Act/assets/files/code_exempted.pdf",
-    "homepageURL": "https://github.com/CDC-HIS/HIV-_TB_related_R_R_tools_4_3_25",
-    "vcs": "git",
-    "repositoryVisibility": "private",
-    "status": "development",
     "version": "N/A",
     "laborHours": 0,
+    "status": "development",
+    "vcs": "git",
+    "homepageURL": "",
+    "repositoryURL": "https://cdcgov.github.io/ShareIT-Act/assets/files/code_exempted.pdf",
+    "repositoryVisibility": "private",
     "languages": [],
     "tags": [],
+    "contact": {
+      "email": "shareit@cdc.gov"
+    },
     "date": {
       "created": "2025-04-03T13:42:47+00:00",
       "lastModified": "2025-04-03T14:06:43+00:00",
-      "metadataLastUpdated": "2025-07-09T14-06-29"
+      "metadataLastUpdated": "2025-07-11T14:14:24.942740+00:00"
     },
     "permissions": {
       "usageType": "exemptByCIO",
-      "exemptionText": "It's an internal repository.",
-      "licenses": [
-        {
-          "name": "Apache License 2.0"
-        }
-      ]
-    },
-    "contact": {
-      "email": "shareit@cdc.gov",
-      "name": "Centers for Disease Control and Prevention (CDC)"
+      "licenses": [],
+      "exemptionText": "Repository contains no code or only non-code assets like documentation and configuration."
     },
     "repo_id": 959871978,
-    "readme_url": "https://github.com/CDC-HIS/HIV-_TB_related_R_R_tools_4_3_25/blob/master/README.md",
     "private_id": "github_959871978",
-    "_url": "https://github.com/CDC-HIS/HIV-_TB_related_R_R_tools_4_3_25"
+    "_url": "https://github.com/CDC-HIS/HIV-_TB_related_R_R_tools_4_3_25",
+    "privateID": "github_959871978"
   },
   {
     "name": "openmrs-esm-ethiohri-intake",
+    "organization": "CDC",
     "description": "",
-    "organization": "CDC-HIS",
-    "repositoryURL": "https://cdcgov.github.io/ShareIT-Act/assets/files/code_exempted.pdf",
-    "homepageURL": "https://github.com/CDC-HIS/openmrs-esm-ethiohri-intake",
-    "vcs": "git",
-    "repositoryVisibility": "private",
-    "status": "development",
     "version": "N/A",
     "laborHours": 0,
+    "status": "development",
+    "vcs": "git",
+    "homepageURL": "",
+    "repositoryURL": "https://cdcgov.github.io/ShareIT-Act/assets/files/instructions.pdf",
+    "repositoryVisibility": "private",
     "languages": [
       "TypeScript",
       "SCSS",
@@ -1735,116 +1464,102 @@
       "Dockerfile"
     ],
     "tags": [],
+    "contact": {
+      "email": "shareit@cdc.gov"
+    },
     "date": {
       "created": "2025-04-15T06:21:27+00:00",
       "lastModified": "2025-07-01T14:01:43+00:00",
-      "metadataLastUpdated": "2025-07-09T14-06-31"
+      "metadataLastUpdated": "2025-07-11T14:14:27.143728+00:00"
     },
     "permissions": {
-      "usageType": "exemptByCIO",
-      "exemptionText": "It's an internal repository.",
+      "usageType": "governmentWideReuse",
       "licenses": [
         {
           "name": "Other"
         }
       ]
     },
-    "contact": {
-      "email": "shareit@cdc.gov",
-      "name": "Centers for Disease Control and Prevention (CDC)"
-    },
     "repo_id": 966578387,
-    "readme_url": "https://github.com/CDC-HIS/openmrs-esm-ethiohri-intake/blob/main/README.md",
     "private_id": "github_966578387",
-    "_url": "https://github.com/CDC-HIS/openmrs-esm-ethiohri-intake"
+    "_url": "https://github.com/CDC-HIS/openmrs-esm-ethiohri-intake",
+    "privateID": "github_966578387"
   },
   {
     "name": "cdr-processor",
+    "organization": "CDC",
     "description": "",
-    "organization": "CDC-HIS",
-    "repositoryURL": "https://cdcgov.github.io/ShareIT-Act/assets/files/code_exempted.pdf",
-    "homepageURL": "https://github.com/CDC-HIS/cdr-processor",
-    "vcs": "git",
-    "repositoryVisibility": "private",
-    "status": "development",
     "version": "N/A",
     "laborHours": 0,
+    "status": "development",
+    "vcs": "git",
+    "homepageURL": "",
+    "repositoryURL": "https://cdcgov.github.io/ShareIT-Act/assets/files/instructions.pdf",
+    "repositoryVisibility": "private",
     "languages": [
       "Java"
     ],
     "tags": [],
+    "contact": {
+      "email": "shareit@cdc.gov"
+    },
     "date": {
       "created": "2025-04-23T08:00:27+00:00",
       "lastModified": "2025-06-26T13:51:29+00:00",
-      "metadataLastUpdated": "2025-07-09T14-06-33"
+      "metadataLastUpdated": "2025-07-11T14:14:29.148559+00:00"
     },
     "permissions": {
-      "usageType": "exemptByCIO",
-      "exemptionText": "It's an internal repository.",
-      "licenses": [
-        {
-          "name": "Apache License 2.0"
-        }
-      ]
-    },
-    "contact": {
-      "email": "shareit@cdc.gov",
-      "name": "Centers for Disease Control and Prevention (CDC)"
+      "usageType": "governmentWideReuse",
+      "licenses": []
     },
     "repo_id": 971232979,
-    "readme_url": "",
     "private_id": "github_971232979",
-    "_url": "https://github.com/CDC-HIS/cdr-processor"
+    "_url": "https://github.com/CDC-HIS/cdr-processor",
+    "privateID": "github_971232979"
   },
   {
     "name": "ethiohri-helper",
+    "organization": "CDC",
     "description": "",
-    "organization": "CDC-HIS",
-    "repositoryURL": "https://cdcgov.github.io/ShareIT-Act/assets/files/code_exempted.pdf",
-    "homepageURL": "https://github.com/CDC-HIS/ethiohri-helper",
-    "vcs": "git",
-    "repositoryVisibility": "private",
-    "status": "development",
     "version": "N/A",
     "laborHours": 0,
+    "status": "development",
+    "vcs": "git",
+    "homepageURL": "",
+    "repositoryURL": "https://cdcgov.github.io/ShareIT-Act/assets/files/instructions.pdf",
+    "repositoryVisibility": "private",
     "languages": [
       "Java"
     ],
     "tags": [],
+    "contact": {
+      "email": "shareit@cdc.gov"
+    },
     "date": {
       "created": "2025-05-13T06:07:58+00:00",
       "lastModified": "2025-06-30T10:01:23+00:00",
-      "metadataLastUpdated": "2025-07-09T14-06-34"
+      "metadataLastUpdated": "2025-07-11T14:14:31.233630+00:00"
     },
     "permissions": {
-      "usageType": "exemptByCIO",
-      "exemptionText": "It's an internal repository.",
-      "licenses": [
-        {
-          "name": "Apache License 2.0"
-        }
-      ]
-    },
-    "contact": {
-      "email": "shareit@cdc.gov",
-      "name": "Centers for Disease Control and Prevention (CDC)"
+      "usageType": "governmentWideReuse",
+      "licenses": []
     },
     "repo_id": 982596198,
-    "readme_url": "https://github.com/CDC-HIS/ethiohri-helper/blob/main/README.md",
     "private_id": "github_982596198",
-    "_url": "https://github.com/CDC-HIS/ethiohri-helper"
+    "_url": "https://github.com/CDC-HIS/ethiohri-helper",
+    "privateID": "github_982596198"
   },
   {
     "name": "openmrs-esm-ethiohri-transfer-out",
+    "organization": "CDC",
     "description": "",
-    "organization": "CDC-HIS",
-    "repositoryURL": "https://cdcgov.github.io/ShareIT-Act/assets/files/code_exempted.pdf",
-    "homepageURL": "https://github.com/CDC-HIS/openmrs-esm-ethiohri-transfer-out",
-    "vcs": "git",
-    "repositoryVisibility": "private",
-    "status": "development",
     "version": "N/A",
     "laborHours": 0,
+    "status": "development",
+    "vcs": "git",
+    "homepageURL": "",
+    "repositoryURL": "https://cdcgov.github.io/ShareIT-Act/assets/files/instructions.pdf",
+    "repositoryVisibility": "private",
     "languages": [
       "TypeScript",
       "SCSS",
@@ -1853,40 +1568,38 @@
       "Dockerfile"
     ],
     "tags": [],
+    "contact": {
+      "email": "shareit@cdc.gov"
+    },
     "date": {
       "created": "2025-05-16T08:57:55+00:00",
       "lastModified": "2025-05-26T12:07:57+00:00",
-      "metadataLastUpdated": "2025-07-09T14-06-36"
+      "metadataLastUpdated": "2025-07-11T14:14:33.370712+00:00"
     },
     "permissions": {
-      "usageType": "exemptByCIO",
-      "exemptionText": "It's an internal repository.",
+      "usageType": "governmentWideReuse",
       "licenses": [
         {
           "name": "Other"
         }
       ]
     },
-    "contact": {
-      "email": "shareit@cdc.gov",
-      "name": "Centers for Disease Control and Prevention (CDC)"
-    },
     "repo_id": 984637505,
-    "readme_url": "https://github.com/CDC-HIS/openmrs-esm-ethiohri-transfer-out/blob/main/README.md",
     "private_id": "github_984637505",
-    "_url": "https://github.com/CDC-HIS/openmrs-esm-ethiohri-transfer-out"
+    "_url": "https://github.com/CDC-HIS/openmrs-esm-ethiohri-transfer-out",
+    "privateID": "github_984637505"
   },
   {
     "name": "openmrs-esm-ethiohri-pep",
+    "organization": "CDC",
     "description": "",
-    "organization": "CDC-HIS",
-    "repositoryURL": "https://cdcgov.github.io/ShareIT-Act/assets/files/code_exempted.pdf",
-    "homepageURL": "https://github.com/CDC-HIS/openmrs-esm-ethiohri-pep",
-    "vcs": "git",
-    "repositoryVisibility": "private",
-    "status": "development",
     "version": "N/A",
     "laborHours": 0,
+    "status": "development",
+    "vcs": "git",
+    "homepageURL": "",
+    "repositoryURL": "https://cdcgov.github.io/ShareIT-Act/assets/files/instructions.pdf",
+    "repositoryVisibility": "private",
     "languages": [
       "TypeScript",
       "SCSS",
@@ -1895,78 +1608,71 @@
       "Dockerfile"
     ],
     "tags": [],
+    "contact": {
+      "email": "shareit@cdc.gov"
+    },
     "date": {
       "created": "2025-05-23T06:41:46+00:00",
       "lastModified": "2025-06-12T08:02:50+00:00",
-      "metadataLastUpdated": "2025-07-09T14-06-38"
+      "metadataLastUpdated": "2025-07-11T14:14:35.426076+00:00"
     },
     "permissions": {
-      "usageType": "exemptByCIO",
-      "exemptionText": "It's an internal repository.",
+      "usageType": "governmentWideReuse",
       "licenses": [
         {
           "name": "Other"
         }
       ]
     },
-    "contact": {
-      "email": "shareit@cdc.gov",
-      "name": "Centers for Disease Control and Prevention (CDC)"
-    },
     "repo_id": 988838360,
-    "readme_url": "https://github.com/CDC-HIS/openmrs-esm-ethiohri-pep/blob/main/README.md",
     "private_id": "github_988838360",
-    "_url": "https://github.com/CDC-HIS/openmrs-esm-ethiohri-pep"
+    "_url": "https://github.com/CDC-HIS/openmrs-esm-ethiohri-pep",
+    "privateID": "github_988838360"
   },
   {
     "name": "ethiohri-frontend-config",
+    "organization": "CDC",
     "description": "",
-    "organization": "CDC-HIS",
-    "repositoryURL": "https://cdcgov.github.io/ShareIT-Act/assets/files/code_exempted.pdf",
-    "homepageURL": "https://github.com/CDC-HIS/ethiohri-frontend-config",
-    "vcs": "git",
-    "repositoryVisibility": "private",
-    "status": "development",
     "version": "N/A",
     "laborHours": 0,
+    "status": "development",
+    "vcs": "git",
+    "homepageURL": "",
+    "repositoryURL": "https://cdcgov.github.io/ShareIT-Act/assets/files/code_exempted.pdf",
+    "repositoryVisibility": "private",
     "languages": [
       "Shell"
     ],
     "tags": [],
+    "contact": {
+      "email": "shareit@cdc.gov"
+    },
     "date": {
       "created": "2025-06-03T12:47:26+00:00",
       "lastModified": "2025-06-03T12:49:37+00:00",
-      "metadataLastUpdated": "2025-07-09T14-06-39"
+      "metadataLastUpdated": "2025-07-11T14:14:37.457957+00:00"
     },
     "permissions": {
       "usageType": "exemptByCIO",
-      "exemptionText": "It's an internal repository.",
-      "licenses": [
-        {
-          "name": "Apache License 2.0"
-        }
-      ]
-    },
-    "contact": {
-      "email": "shareit@cdc.gov",
-      "name": "Centers for Disease Control and Prevention (CDC)"
+      "licenses": [],
+      "exemptionText": "Repository contains no code or only non-code assets like documentation and configuration."
     },
     "repo_id": 995411017,
-    "readme_url": "",
     "private_id": "github_995411017",
-    "_url": "https://github.com/CDC-HIS/ethiohri-frontend-config"
+    "_url": "https://github.com/CDC-HIS/ethiohri-frontend-config",
+    "privateID": "github_995411017"
   },
   {
     "name": "openmrs-esm-ethiohri-ncd",
+    "organization": "CDC",
     "description": "",
-    "organization": "CDC-HIS",
-    "repositoryURL": "https://cdcgov.github.io/ShareIT-Act/assets/files/code_exempted.pdf",
-    "homepageURL": "https://github.com/CDC-HIS/openmrs-esm-ethiohri-ncd",
-    "vcs": "git",
-    "repositoryVisibility": "private",
-    "status": "development",
     "version": "N/A",
     "laborHours": 0,
+    "status": "development",
+    "vcs": "git",
+    "homepageURL": "",
+    "repositoryURL": "https://cdcgov.github.io/ShareIT-Act/assets/files/instructions.pdf",
+    "repositoryVisibility": "private",
     "languages": [
       "TypeScript",
       "SCSS",
@@ -1975,65 +1681,57 @@
       "Dockerfile"
     ],
     "tags": [],
+    "contact": {
+      "email": "shareit@cdc.gov"
+    },
     "date": {
       "created": "2025-06-26T08:53:58+00:00",
       "lastModified": "2025-06-26T08:57:06+00:00",
-      "metadataLastUpdated": "2025-07-09T14-06-41"
+      "metadataLastUpdated": "2025-07-11T14:14:39.465887+00:00"
     },
     "permissions": {
-      "usageType": "exemptByCIO",
-      "exemptionText": "It's an internal repository.",
+      "usageType": "governmentWideReuse",
       "licenses": [
         {
           "name": "Other"
         }
       ]
     },
-    "contact": {
-      "email": "shareit@cdc.gov",
-      "name": "Centers for Disease Control and Prevention (CDC)"
-    },
     "repo_id": 1008892533,
-    "readme_url": "https://github.com/CDC-HIS/openmrs-esm-ethiohri-ncd/blob/main/README.md",
     "private_id": "github_1008892533",
-    "_url": "https://github.com/CDC-HIS/openmrs-esm-ethiohri-ncd"
+    "_url": "https://github.com/CDC-HIS/openmrs-esm-ethiohri-ncd",
+    "privateID": "github_1008892533"
   },
   {
     "name": "cdr-dispatcher",
+    "organization": "CDC",
     "description": "",
-    "organization": "CDC-HIS",
-    "repositoryURL": "https://cdcgov.github.io/ShareIT-Act/assets/files/code_exempted.pdf",
-    "homepageURL": "https://github.com/CDC-HIS/cdr-dispatcher",
-    "vcs": "git",
-    "repositoryVisibility": "private",
-    "status": "development",
     "version": "N/A",
     "laborHours": 0,
+    "status": "development",
+    "vcs": "git",
+    "homepageURL": "",
+    "repositoryURL": "https://cdcgov.github.io/ShareIT-Act/assets/files/instructions.pdf",
+    "repositoryVisibility": "private",
     "languages": [
       "Java"
     ],
     "tags": [],
+    "contact": {
+      "email": "shareit@cdc.gov"
+    },
     "date": {
       "created": "2025-07-03T08:29:07+00:00",
       "lastModified": "2025-07-03T08:36:17+00:00",
-      "metadataLastUpdated": "2025-07-09T14-06-42"
+      "metadataLastUpdated": "2025-07-11T14:14:41.408579+00:00"
     },
     "permissions": {
-      "usageType": "exemptByCIO",
-      "exemptionText": "It's an internal repository.",
-      "licenses": [
-        {
-          "name": "Apache License 2.0"
-        }
-      ]
-    },
-    "contact": {
-      "email": "shareit@cdc.gov",
-      "name": "Centers for Disease Control and Prevention (CDC)"
+      "usageType": "governmentWideReuse",
+      "licenses": []
     },
     "repo_id": 1013017044,
-    "readme_url": "",
     "private_id": "github_1013017044",
-    "_url": "https://github.com/CDC-HIS/cdr-dispatcher"
+    "_url": "https://github.com/CDC-HIS/cdr-dispatcher",
+    "privateID": "github_1013017044"
   }
 ]

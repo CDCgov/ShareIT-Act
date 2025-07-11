@@ -1,15 +1,15 @@
 [
   {
     "name": "premier_analysis",
+    "organization": "CDC",
     "description": "A deep learning project predicting hyperinflammatory syndrome among COVID-19 patients using EHR data. ",
-    "organization": "cdcai",
-    "repositoryURL": "https://github.com/cdcai/premier_analysis",
-    "homepageURL": "https://github.com/cdcai/premier_analysis",
-    "vcs": "git",
-    "repositoryVisibility": "public",
-    "status": "development",
     "version": "N/A",
     "laborHours": 0,
+    "status": "development",
+    "vcs": "git",
+    "homepageURL": "",
+    "repositoryURL": "https://github.com/cdcai/premier_analysis",
+    "repositoryVisibility": "public",
     "languages": [
       "Jupyter Notebook",
       "Python",
@@ -22,452 +22,333 @@
       "ehr-data",
       "usg-artificial-intelligence"
     ],
+    "contact": {
+      "email": "cdcinfo@cdc.gov"
+    },
     "date": {
       "created": "2020-10-01T18:19:43+00:00",
       "lastModified": "2025-04-29T16:41:18+00:00",
-      "metadataLastUpdated": "2025-07-09T14-07-01"
+      "metadataLastUpdated": "2025-07-11T14:13:26.043602+00:00"
     },
     "permissions": {
       "usageType": "governmentWideReuse",
-      "exemptionText": "",
-      "licenses": [
-        {
-          "name": "Apache License 2.0"
-        }
-      ]
-    },
-    "contact": {
-      "email": "",
-      "name": "Centers for Disease Control and Prevention (CDC)"
+      "licenses": []
     },
     "repo_id": 300380501,
-    "readme_url": "https://github.com/cdcai/premier_analysis/blob/master/README.md",
     "private_id": "github_300380501",
     "_url": "https://github.com/cdcai/premier_analysis"
   },
   {
     "name": "zsl-vaccine",
+    "organization": "CDC",
     "description": "",
-    "organization": "cdcai",
-    "repositoryURL": "https://github.com/cdcai/zsl-vaccine",
-    "homepageURL": "https://github.com/cdcai/zsl-vaccine",
-    "vcs": "git",
-    "repositoryVisibility": "public",
-    "status": "inactive",
     "version": "N/A",
     "laborHours": 0,
+    "status": "inactive",
+    "vcs": "git",
+    "homepageURL": "",
+    "repositoryURL": "https://github.com/cdcai/zsl-vaccine",
+    "repositoryVisibility": "public",
     "languages": [
       "Jupyter Notebook"
     ],
     "tags": [],
+    "contact": {
+      "email": "cdcinfo@cdc.gov"
+    },
     "date": {
       "created": "2022-04-21T13:08:30+00:00",
       "lastModified": "2022-04-25T17:42:26+00:00",
-      "metadataLastUpdated": "2025-07-09T14-07-02"
+      "metadataLastUpdated": "2025-07-11T14:13:27.940742+00:00"
     },
     "permissions": {
       "usageType": "openSource",
-      "exemptionText": "",
       "licenses": [
         {
           "name": "Apache License 2.0"
         }
       ]
     },
-    "contact": {
-      "email": "",
-      "name": "Centers for Disease Control and Prevention (CDC)"
-    },
     "repo_id": 484055614,
-    "readme_url": "https://github.com/cdcai/zsl-vaccine/blob/master/README.md",
     "private_id": "github_484055614",
     "_url": "https://github.com/cdcai/zsl-vaccine"
   },
   {
-    "name": "AFS",
-    "description": "",
-    "organization": "cdcai",
-    "repositoryURL": "https://github.com/cdcai/AFS",
-    "homepageURL": "https://github.com/cdcai/AFS",
-    "vcs": "git",
-    "repositoryVisibility": "public",
-    "status": "inactive",
-    "version": "N/A",
-    "laborHours": 0,
-    "languages": [],
-    "tags": [],
-    "date": {
-      "created": "2023-02-09T19:00:01+00:00",
-      "lastModified": "2023-02-09T19:00:01+00:00",
-      "metadataLastUpdated": "2025-07-09T14-07-04"
-    },
-    "permissions": {
-      "usageType": "governmentWideReuse",
-      "exemptionText": "",
-      "licenses": [
-        {
-          "name": "Apache License 2.0"
-        }
-      ]
-    },
-    "contact": {
-      "email": "",
-      "name": "Centers for Disease Control and Prevention (CDC)"
-    },
-    "repo_id": 599729444,
-    "readme_url": "",
-    "private_id": "github_599729444",
-    "_url": "https://github.com/cdcai/AFS"
-  },
-  {
     "name": "cfa",
+    "organization": "CDC",
     "description": "",
-    "organization": "cdcai",
-    "repositoryURL": "https://github.com/cdcai/cfa",
-    "homepageURL": "https://github.com/cdcai/cfa",
-    "vcs": "git",
-    "repositoryVisibility": "public",
-    "status": "development",
     "version": "N/A",
     "laborHours": 0,
+    "status": "development",
+    "vcs": "git",
+    "homepageURL": "",
+    "repositoryURL": "https://github.com/cdcai/cfa",
+    "repositoryVisibility": "public",
     "languages": [],
     "tags": [],
+    "contact": {
+      "email": "cdcinfo@cdc.gov"
+    },
     "date": {
       "created": "2023-08-16T17:36:17+00:00",
       "lastModified": "2023-08-16T17:36:19+00:00",
-      "metadataLastUpdated": "2025-07-09T14-07-05"
+      "metadataLastUpdated": "2025-07-11T14:13:29.890426+00:00"
     },
     "permissions": {
       "usageType": "openSource",
-      "exemptionText": "",
       "licenses": [
         {
           "name": "Apache License 2.0"
         }
       ]
     },
-    "contact": {
-      "email": "",
-      "name": "Centers for Disease Control and Prevention (CDC)"
-    },
     "repo_id": 679373832,
-    "readme_url": "https://github.com/cdcai/cfa/blob/main/README.md",
     "private_id": "github_679373832",
     "_url": "https://github.com/cdcai/cfa"
   },
   {
-    "name": "cfa_vap_login_instructions",
-    "description": "",
-    "organization": "cdcai",
-    "repositoryURL": "https://github.com/cdcai/cfa_vap_login_instructions",
-    "homepageURL": "https://github.com/cdcai/cfa_vap_login_instructions",
-    "vcs": "git",
-    "repositoryVisibility": "public",
-    "status": "development",
-    "version": "N/A",
-    "laborHours": 0,
-    "languages": [],
-    "tags": [],
-    "date": {
-      "created": "2023-10-26T14:06:55+00:00",
-      "lastModified": "2023-10-26T14:06:55+00:00",
-      "metadataLastUpdated": "2025-07-09T14-07-06"
-    },
-    "permissions": {
-      "usageType": "governmentWideReuse",
-      "exemptionText": "",
-      "licenses": [
-        {
-          "name": "Apache License 2.0"
-        }
-      ]
-    },
-    "contact": {
-      "email": "",
-      "name": "Centers for Disease Control and Prevention (CDC)"
-    },
-    "repo_id": 710345377,
-    "readme_url": "https://github.com/cdcai/cfa_vap_login_instructions/blob/master/README.md",
-    "private_id": "github_710345377",
-    "_url": "https://github.com/cdcai/cfa_vap_login_instructions"
-  },
-  {
     "name": "cfa_vap_access_instructions",
+    "organization": "CDC",
     "description": "",
-    "organization": "cdcai",
-    "repositoryURL": "https://cdcgov.github.io/ShareIT-Act/assets/files/code_exempted.pdf",
-    "homepageURL": "https://github.com/cdcai/cfa_vap_access_instructions",
-    "vcs": "git",
-    "repositoryVisibility": "private",
-    "status": "development",
     "version": "N/A",
     "laborHours": 0,
+    "status": "development",
+    "vcs": "git",
+    "homepageURL": "",
+    "repositoryURL": "https://cdcgov.github.io/ShareIT-Act/assets/files/code_exempted.pdf",
+    "repositoryVisibility": "private",
     "languages": [],
     "tags": [],
+    "contact": {
+      "email": "shareit@cdc.gov"
+    },
     "date": {
       "created": "2023-11-02T16:15:10+00:00",
       "lastModified": "2024-02-15T16:58:48+00:00",
-      "metadataLastUpdated": "2025-07-09T14-07-07"
+      "metadataLastUpdated": "2025-07-11T14:13:31.884901+00:00"
     },
     "permissions": {
       "usageType": "exemptByCIO",
-      "exemptionText": "It's an internal repository.",
-      "licenses": [
-        {
-          "name": "Apache License 2.0"
-        }
-      ]
-    },
-    "contact": {
-      "email": "shareit@cdc.gov",
-      "name": "Centers for Disease Control and Prevention (CDC)"
+      "licenses": [],
+      "exemptionText": "Repository contains no code or only non-code assets like documentation and configuration."
     },
     "repo_id": 713490349,
-    "readme_url": "https://github.com/cdcai/cfa_vap_access_instructions/blob/master/README.md",
     "private_id": "github_713490349",
-    "_url": "https://github.com/cdcai/cfa_vap_access_instructions"
+    "_url": "https://github.com/cdcai/cfa_vap_access_instructions",
+    "privateID": "github_713490349"
   },
   {
     "name": "cdc-journal-embeddings",
+    "organization": "Centers for Disease Control and Prevention",
     "description": "Mixtral 8x7B - LangChain - ChromaDB -powered model informed from CDC publications",
-    "organization": "cdcai",
-    "repositoryURL": "https://cdcgov.github.io/ShareIT-Act/assets/files/code_exempted.pdf",
-    "homepageURL": "https://github.com/cdcai/cdc-journal-embeddings",
-    "vcs": "git",
-    "repositoryVisibility": "private",
-    "status": "development",
     "version": "N/A",
     "laborHours": 0,
+    "status": "development",
+    "vcs": "git",
+    "homepageURL": "",
+    "repositoryURL": "https://cdcgov.github.io/ShareIT-Act/assets/files/instructions.pdf",
+    "repositoryVisibility": "private",
     "languages": [
       "Python"
     ],
     "tags": [],
+    "contact": {
+      "email": "shareit@cdc.gov"
+    },
     "date": {
       "created": "2023-12-19T20:38:19+00:00",
       "lastModified": "2024-06-07T14:56:58+00:00",
-      "metadataLastUpdated": "2025-07-09T14-07-09"
+      "metadataLastUpdated": "2025-07-11T14:13:33.845077+00:00"
     },
     "permissions": {
-      "usageType": "exemptByCIO",
-      "exemptionText": "It's an internal repository.",
+      "usageType": "governmentWideReuse",
       "licenses": [
         {
           "name": "Apache License 2.0"
         }
       ]
     },
-    "contact": {
-      "email": "shareit@cdc.gov",
-      "name": "Centers for Disease Control and Prevention (CDC)"
-    },
     "repo_id": 733658002,
-    "readme_url": "https://github.com/cdcai/cdc-journal-embeddings/blob/master/README.md",
     "private_id": "github_733658002",
-    "_url": "https://github.com/cdcai/cdc-journal-embeddings"
+    "_url": "https://github.com/cdcai/cdc-journal-embeddings",
+    "privateID": "github_733658002"
   },
   {
     "name": "outbreak_thematic_analysis",
+    "organization": "CDC",
     "description": "",
-    "organization": "cdcai",
-    "repositoryURL": "https://cdcgov.github.io/ShareIT-Act/assets/files/code_exempted.pdf",
-    "homepageURL": "https://github.com/cdcai/outbreak_thematic_analysis",
-    "vcs": "git",
-    "repositoryVisibility": "private",
-    "status": "development",
     "version": "N/A",
     "laborHours": 0,
+    "status": "development",
+    "vcs": "git",
+    "homepageURL": "",
+    "repositoryURL": "https://cdcgov.github.io/ShareIT-Act/assets/files/instructions.pdf",
+    "repositoryVisibility": "private",
     "languages": [
       "Python",
       "R"
     ],
     "tags": [],
+    "contact": {
+      "email": "shareit@cdc.gov"
+    },
     "date": {
       "created": "2024-02-23T19:20:44+00:00",
       "lastModified": "2025-05-01T14:11:01+00:00",
-      "metadataLastUpdated": "2025-07-09T14-07-10"
+      "metadataLastUpdated": "2025-07-11T14:13:35.806010+00:00"
     },
     "permissions": {
-      "usageType": "exemptByCIO",
-      "exemptionText": "It's an internal repository.",
-      "licenses": [
-        {
-          "name": "Apache License 2.0"
-        }
-      ]
-    },
-    "contact": {
-      "email": "shareit@cdc.gov",
-      "name": "Centers for Disease Control and Prevention (CDC)"
+      "usageType": "governmentWideReuse",
+      "licenses": []
     },
     "repo_id": 762435314,
-    "readme_url": "https://github.com/cdcai/outbreak_thematic_analysis/blob/master/README.md",
     "private_id": "github_762435314",
-    "_url": "https://github.com/cdcai/outbreak_thematic_analysis"
+    "_url": "https://github.com/cdcai/outbreak_thematic_analysis",
+    "privateID": "github_762435314"
   },
   {
     "name": "agents",
+    "organization": "CDC",
     "description": "Investigating how language agents can solve complex Public Health problems",
-    "organization": "cdcai",
-    "repositoryURL": "https://github.com/cdcai/agents",
-    "homepageURL": "https://github.com/cdcai/agents",
-    "vcs": "git",
-    "repositoryVisibility": "public",
-    "status": "development",
-    "version": "N/A",
+    "version": "0.3.3",
     "laborHours": 0,
+    "status": "development",
+    "vcs": "git",
+    "homepageURL": "",
+    "repositoryURL": "https://github.com/cdcai/agents",
+    "repositoryVisibility": "public",
     "languages": [
       "Python"
     ],
     "tags": [],
+    "contact": {
+      "email": "cdcinfo@cdc.gov"
+    },
     "date": {
       "created": "2024-05-30T18:46:29+00:00",
       "lastModified": "2025-07-03T21:56:32+00:00",
-      "metadataLastUpdated": "2025-07-09T14-07-11"
+      "metadataLastUpdated": "2025-07-11T14:13:37.628374+00:00"
     },
     "permissions": {
       "usageType": "governmentWideReuse",
-      "exemptionText": "",
-      "licenses": [
-        {
-          "name": "Apache License 2.0"
-        }
-      ]
-    },
-    "contact": {
-      "email": "",
-      "name": "Centers for Disease Control and Prevention (CDC)"
+      "licenses": []
     },
     "repo_id": 808284901,
-    "readme_url": "https://github.com/cdcai/agents/blob/master/README.md",
     "private_id": "github_808284901",
     "_url": "https://github.com/cdcai/agents"
   },
   {
     "name": "webster",
+    "organization": "CDC",
     "description": "Streamlit app for using LLMs to create data dictionaries",
-    "organization": "cdcai",
-    "repositoryURL": "https://cdcgov.github.io/ShareIT-Act/assets/files/code_exempted.pdf",
-    "homepageURL": "https://github.com/cdcai/webster",
-    "vcs": "git",
-    "repositoryVisibility": "private",
-    "status": "development",
     "version": "N/A",
     "laborHours": 0,
+    "status": "development",
+    "vcs": "git",
+    "homepageURL": "",
+    "repositoryURL": "https://cdcgov.github.io/ShareIT-Act/assets/files/instructions.pdf",
+    "repositoryVisibility": "private",
     "languages": [
       "Python"
     ],
     "tags": [],
+    "contact": {
+      "email": "shareit@cdc.gov"
+    },
     "date": {
       "created": "2024-06-04T14:00:46+00:00",
       "lastModified": "2025-05-20T14:50:49+00:00",
-      "metadataLastUpdated": "2025-07-09T14-07-13"
+      "metadataLastUpdated": "2025-07-11T14:13:39.584029+00:00"
     },
     "permissions": {
-      "usageType": "exemptByCIO",
-      "exemptionText": "It's an internal repository.",
+      "usageType": "governmentWideReuse",
       "licenses": [
         {
           "name": "Apache License 2.0"
         }
       ]
     },
-    "contact": {
-      "email": "shareit@cdc.gov",
-      "name": "Centers for Disease Control and Prevention (CDC)"
-    },
     "repo_id": 810341058,
-    "readme_url": "https://github.com/cdcai/webster/blob/master/README.md",
     "private_id": "github_810341058",
-    "_url": "https://github.com/cdcai/webster"
+    "_url": "https://github.com/cdcai/webster",
+    "privateID": "github_810341058"
   },
   {
     "name": "NEISS-CADES-ML",
+    "organization": "CDC",
     "description": "ML Project using data from the National Electronic Injury Surveillance System-Cooperative Adverse Drug Event Surveillance",
-    "organization": "cdcai",
-    "repositoryURL": "https://cdcgov.github.io/ShareIT-Act/assets/files/code_exempted.pdf",
-    "homepageURL": "https://github.com/cdcai/NEISS-CADES-ML",
-    "vcs": "git",
-    "repositoryVisibility": "private",
-    "status": "development",
     "version": "N/A",
     "laborHours": 0,
+    "status": "development",
+    "vcs": "git",
+    "homepageURL": "",
+    "repositoryURL": "https://cdcgov.github.io/ShareIT-Act/assets/files/instructions.pdf",
+    "repositoryVisibility": "private",
     "languages": [
       "Python",
       "R"
     ],
     "tags": [],
+    "contact": {
+      "email": "shareit@cdc.gov"
+    },
     "date": {
       "created": "2024-09-12T16:06:55+00:00",
       "lastModified": "2025-05-07T17:43:41+00:00",
-      "metadataLastUpdated": "2025-07-09T14-07-14"
+      "metadataLastUpdated": "2025-07-11T14:13:41.560373+00:00"
     },
     "permissions": {
-      "usageType": "exemptByCIO",
-      "exemptionText": "It's an internal repository.",
-      "licenses": [
-        {
-          "name": "Apache License 2.0"
-        }
-      ]
-    },
-    "contact": {
-      "email": "shareit@cdc.gov",
-      "name": "Centers for Disease Control and Prevention (CDC)"
+      "usageType": "governmentWideReuse",
+      "licenses": []
     },
     "repo_id": 856464136,
-    "readme_url": "https://github.com/cdcai/NEISS-CADES-ML/blob/master/README.md",
     "private_id": "github_856464136",
-    "_url": "https://github.com/cdcai/NEISS-CADES-ML"
+    "_url": "https://github.com/cdcai/NEISS-CADES-ML",
+    "privateID": "github_856464136"
   },
   {
     "name": "sdoh_prediction",
+    "organization": "CDC",
     "description": "",
-    "organization": "cdcai",
-    "repositoryURL": "https://cdcgov.github.io/ShareIT-Act/assets/files/code_exempted.pdf",
-    "homepageURL": "https://github.com/cdcai/sdoh_prediction",
-    "vcs": "git",
-    "repositoryVisibility": "private",
-    "status": "development",
     "version": "N/A",
     "laborHours": 0,
+    "status": "development",
+    "vcs": "git",
+    "homepageURL": "",
+    "repositoryURL": "https://cdcgov.github.io/ShareIT-Act/assets/files/instructions.pdf",
+    "repositoryVisibility": "private",
     "languages": [
       "Python"
     ],
     "tags": [],
+    "contact": {
+      "email": "shareit@cdc.gov"
+    },
     "date": {
       "created": "2024-12-06T16:53:22+00:00",
       "lastModified": "2024-12-06T16:54:34+00:00",
-      "metadataLastUpdated": "2025-07-09T14-07-15"
+      "metadataLastUpdated": "2025-07-11T14:13:43.686870+00:00"
     },
     "permissions": {
-      "usageType": "exemptByCIO",
-      "exemptionText": "It's an internal repository.",
-      "licenses": [
-        {
-          "name": "Apache License 2.0"
-        }
-      ]
-    },
-    "contact": {
-      "email": "shareit@cdc.gov",
-      "name": "Centers for Disease Control and Prevention (CDC)"
+      "usageType": "governmentWideReuse",
+      "licenses": []
     },
     "repo_id": 899625434,
-    "readme_url": "",
     "private_id": "github_899625434",
-    "_url": "https://github.com/cdcai/sdoh_prediction"
+    "_url": "https://github.com/cdcai/sdoh_prediction",
+    "privateID": "github_899625434"
   },
   {
     "name": "analysis-bertopic-cdc-publications",
+    "organization": "Centers for Disease Control and Prevention",
     "description": "Code, data, and results associated with a preprint describing CDC science from 2014-2023.",
-    "organization": "cdcai",
-    "repositoryURL": "https://github.com/cdcai/analysis-bertopic-cdc-publications",
-    "homepageURL": "https://github.com/cdcai/analysis-bertopic-cdc-publications",
-    "vcs": "git",
-    "repositoryVisibility": "public",
-    "status": "development",
     "version": "N/A",
     "laborHours": 0,
+    "status": "development",
+    "vcs": "git",
+    "homepageURL": "",
+    "repositoryURL": "https://github.com/cdcai/analysis-bertopic-cdc-publications",
+    "repositoryVisibility": "public",
     "languages": [
       "HTML",
       "Jupyter Notebook"
@@ -478,142 +359,121 @@
       "natural-language-processing",
       "public-health"
     ],
+    "contact": {
+      "email": "cdcinfo@cdc.gov"
+    },
     "date": {
       "created": "2025-03-05T15:53:31+00:00",
       "lastModified": "2025-03-11T12:16:14+00:00",
-      "metadataLastUpdated": "2025-07-09T14-07-16"
+      "metadataLastUpdated": "2025-07-11T14:13:45.570123+00:00"
     },
     "permissions": {
       "usageType": "openSource",
-      "exemptionText": "",
       "licenses": [
         {
           "name": "Apache License 2.0"
         }
       ]
     },
-    "contact": {
-      "email": "",
-      "name": "Centers for Disease Control and Prevention (CDC)"
-    },
     "repo_id": 943374530,
-    "readme_url": "https://github.com/cdcai/analysis-bertopic-cdc-publications/blob/main/README.md",
     "private_id": "github_943374530",
     "_url": "https://github.com/cdcai/analysis-bertopic-cdc-publications"
   },
   {
     "name": "EIP_Agentic_RAG",
+    "organization": "CDC",
     "description": "Multi-agent RAG with reasoning",
-    "organization": "cdcai",
-    "repositoryURL": "https://cdcgov.github.io/ShareIT-Act/assets/files/code_exempted.pdf",
-    "homepageURL": "https://github.com/cdcai/EIP_Agentic_RAG",
-    "vcs": "git",
-    "repositoryVisibility": "private",
-    "status": "development",
     "version": "N/A",
     "laborHours": 0,
+    "status": "development",
+    "vcs": "git",
+    "homepageURL": "",
+    "repositoryURL": "https://cdcgov.github.io/ShareIT-Act/assets/files/instructions.pdf",
+    "repositoryVisibility": "private",
     "languages": [
       "Python"
     ],
     "tags": [],
+    "contact": {
+      "email": "shareit@cdc.gov"
+    },
     "date": {
       "created": "2025-04-28T23:54:42+00:00",
       "lastModified": "2025-05-16T14:22:50+00:00",
-      "metadataLastUpdated": "2025-07-09T14-07-18"
+      "metadataLastUpdated": "2025-07-11T14:13:47.512575+00:00"
     },
     "permissions": {
-      "usageType": "exemptByCIO",
-      "exemptionText": "It's an internal repository.",
-      "licenses": [
-        {
-          "name": "Apache License 2.0"
-        }
-      ]
-    },
-    "contact": {
-      "email": "shareit@cdc.gov",
-      "name": "Centers for Disease Control and Prevention (CDC)"
+      "usageType": "governmentWideReuse",
+      "licenses": []
     },
     "repo_id": 974538105,
-    "readme_url": "https://github.com/cdcai/EIP_Agentic_RAG/blob/master/README.md",
     "private_id": "github_974538105",
-    "_url": "https://github.com/cdcai/EIP_Agentic_RAG"
+    "_url": "https://github.com/cdcai/EIP_Agentic_RAG",
+    "privateID": "github_974538105"
   },
   {
     "name": "vaers_meddra",
+    "organization": "CDC",
     "description": "",
-    "organization": "cdcai",
-    "repositoryURL": "https://cdcgov.github.io/ShareIT-Act/assets/files/code_exempted.pdf",
-    "homepageURL": "https://github.com/cdcai/vaers_meddra",
-    "vcs": "git",
-    "repositoryVisibility": "private",
-    "status": "development",
     "version": "N/A",
     "laborHours": 0,
+    "status": "development",
+    "vcs": "git",
+    "homepageURL": "",
+    "repositoryURL": "https://cdcgov.github.io/ShareIT-Act/assets/files/instructions.pdf",
+    "repositoryVisibility": "private",
     "languages": [
       "Python"
     ],
     "tags": [],
+    "contact": {
+      "email": "shareit@cdc.gov"
+    },
     "date": {
       "created": "2025-05-06T17:00:52+00:00",
       "lastModified": "2025-06-25T15:36:17+00:00",
-      "metadataLastUpdated": "2025-07-09T14-07-19"
+      "metadataLastUpdated": "2025-07-11T14:13:49.557581+00:00"
     },
     "permissions": {
-      "usageType": "exemptByCIO",
-      "exemptionText": "It's an internal repository.",
-      "licenses": [
-        {
-          "name": "Apache License 2.0"
-        }
-      ]
-    },
-    "contact": {
-      "email": "shareit@cdc.gov",
-      "name": "Centers for Disease Control and Prevention (CDC)"
+      "usageType": "governmentWideReuse",
+      "licenses": []
     },
     "repo_id": 978890004,
-    "readme_url": "https://github.com/cdcai/vaers_meddra/blob/master/README.md",
     "private_id": "github_978890004",
-    "_url": "https://github.com/cdcai/vaers_meddra"
+    "_url": "https://github.com/cdcai/vaers_meddra",
+    "privateID": "github_978890004"
   },
   {
     "name": "must_scan",
+    "organization": "CDC",
     "description": "MUST Scanner/Indexer",
-    "organization": "cdcai",
-    "repositoryURL": "https://cdcgov.github.io/ShareIT-Act/assets/files/code_exempted.pdf",
-    "homepageURL": "https://github.com/cdcai/must_scan",
-    "vcs": "git",
-    "repositoryVisibility": "private",
-    "status": "development",
     "version": "N/A",
     "laborHours": 0,
+    "status": "development",
+    "vcs": "git",
+    "homepageURL": "",
+    "repositoryURL": "https://cdcgov.github.io/ShareIT-Act/assets/files/instructions.pdf",
+    "repositoryVisibility": "private",
     "languages": [
       "Python",
       "C#"
     ],
     "tags": [],
+    "contact": {
+      "email": "shareit@cdc.gov"
+    },
     "date": {
       "created": "2025-05-20T16:51:15+00:00",
       "lastModified": "2025-05-20T19:13:36+00:00",
-      "metadataLastUpdated": "2025-07-09T14-07-20"
+      "metadataLastUpdated": "2025-07-11T14:13:51.700132+00:00"
     },
     "permissions": {
-      "usageType": "exemptByCIO",
-      "exemptionText": "It's an internal repository.",
-      "licenses": [
-        {
-          "name": "Apache License 2.0"
-        }
-      ]
-    },
-    "contact": {
-      "email": "shareit@cdc.gov",
-      "name": "Centers for Disease Control and Prevention (CDC)"
+      "usageType": "governmentWideReuse",
+      "licenses": []
     },
     "repo_id": 987155137,
-    "readme_url": "https://github.com/cdcai/must_scan/blob/master/README.md",
     "private_id": "github_987155137",
-    "_url": "https://github.com/cdcai/must_scan"
+    "_url": "https://github.com/cdcai/must_scan",
+    "privateID": "github_987155137"
   }
 ]

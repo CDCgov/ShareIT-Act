@@ -1,51 +1,44 @@
 [
   {
     "name": "about",
+    "organization": "CDC",
     "description": "About page for NIOSH mining",
-    "organization": "niosh-mining",
-    "repositoryURL": "https://github.com/niosh-mining/about",
-    "homepageURL": "https://github.com/niosh-mining/about",
-    "vcs": "git",
-    "repositoryVisibility": "public",
-    "status": "inactive",
     "version": "N/A",
     "laborHours": 0,
+    "status": "inactive",
+    "vcs": "git",
+    "homepageURL": "",
+    "repositoryURL": "https://github.com/niosh-mining/about",
+    "repositoryVisibility": "public",
     "languages": [],
     "tags": [],
+    "contact": {
+      "email": "mining@cdc.gov"
+    },
     "date": {
       "created": "2017-12-09T00:13:21+00:00",
       "lastModified": "2021-07-02T17:09:06+00:00",
-      "metadataLastUpdated": "2025-07-09T15-04-42"
+      "metadataLastUpdated": "2025-07-11T14:35:07.863199+00:00"
     },
     "permissions": {
       "usageType": "governmentWideReuse",
-      "exemptionText": "",
-      "licenses": [
-        {
-          "name": "Apache License 2.0"
-        }
-      ]
-    },
-    "contact": {
-      "email": "",
-      "name": "Centers for Disease Control and Prevention (CDC)"
+      "licenses": []
     },
     "repo_id": 113628570,
-    "readme_url": "https://github.com/niosh-mining/about/blob/master/README.md",
     "private_id": "github_113628570",
     "_url": "https://github.com/niosh-mining/about"
   },
   {
     "name": "hazardrecognitionwebsite",
+    "organization": "CDC",
     "description": "The Hazard Recognition Challenge allows you to perform a virtual workplace examination. Your goal is to find as many hazards as possible at a work location.",
-    "organization": "niosh-mining",
-    "repositoryURL": "https://github.com/niosh-mining/hazardrecognitionwebsite",
-    "homepageURL": "https://wwwn.cdc.gov/niosh-mining/HazRec",
-    "vcs": "git",
-    "repositoryVisibility": "public",
-    "status": "inactive",
     "version": "N/A",
     "laborHours": 0,
+    "status": "inactive",
+    "vcs": "git",
+    "homepageURL": "https://wwwn.cdc.gov/niosh-mining/HazRec",
+    "repositoryURL": "https://github.com/niosh-mining/hazardrecognitionwebsite",
+    "repositoryVisibility": "public",
     "languages": [
       "JavaScript",
       "HTML",
@@ -66,114 +59,95 @@
       "training",
       "krpano"
     ],
+    "contact": {
+      "email": "mining@cdc.gov"
+    },
     "date": {
       "created": "2018-05-04T16:15:09+00:00",
       "lastModified": "2022-06-27T18:53:32+00:00",
-      "metadataLastUpdated": "2025-07-09T15-04-43"
+      "metadataLastUpdated": "2025-07-11T14:35:10.336467+00:00"
     },
     "permissions": {
       "usageType": "governmentWideReuse",
-      "exemptionText": "",
-      "licenses": [
-        {
-          "name": "Apache License 2.0"
-        }
-      ]
-    },
-    "contact": {
-      "email": "",
-      "name": "Centers for Disease Control and Prevention (CDC)"
+      "licenses": []
     },
     "repo_id": 132162722,
-    "readme_url": "https://github.com/niosh-mining/hazardrecognitionwebsite/blob/master/README.md",
     "private_id": "github_132162722",
     "_url": "https://github.com/niosh-mining/hazardrecognitionwebsite"
   },
   {
     "name": "FOS-Deadweight-Ground-Support-Design-",
+    "organization": "CDC",
     "description": "After Pakalnis (2008) Methodology Towards Ground Support.  1/2 and 1/3 Span Deadweight Wedge ",
-    "organization": "niosh-mining",
-    "repositoryURL": "https://cdcgov.github.io/ShareIT-Act/assets/files/code_exempted.pdf",
-    "homepageURL": "https://github.com/niosh-mining/FOS-Deadweight-Ground-Support-Design-",
-    "vcs": "git",
-    "repositoryVisibility": "private",
-    "status": "inactive",
     "version": "N/A",
     "laborHours": 0,
+    "status": "inactive",
+    "vcs": "git",
+    "homepageURL": "",
+    "repositoryURL": "https://cdcgov.github.io/ShareIT-Act/assets/files/code_exempted.pdf",
+    "repositoryVisibility": "private",
     "languages": [],
     "tags": [],
+    "contact": {
+      "email": "shareit@cdc.gov"
+    },
     "date": {
       "created": "2018-06-14T18:43:00+00:00",
       "lastModified": "2018-06-16T00:35:15+00:00",
-      "metadataLastUpdated": "2025-07-09T15-04-49"
+      "metadataLastUpdated": "2025-07-11T14:35:12.787234+00:00"
     },
     "permissions": {
       "usageType": "exemptByCIO",
-      "exemptionText": "It's an internal repository.",
-      "licenses": [
-        {
-          "name": "Apache License 2.0"
-        }
-      ]
-    },
-    "contact": {
-      "email": "shareit@cdc.gov",
-      "name": "Centers for Disease Control and Prevention (CDC)"
+      "licenses": [],
+      "exemptionText": "Repository contains no code or only non-code assets like documentation and configuration."
     },
     "repo_id": 137395932,
-    "readme_url": "https://github.com/niosh-mining/FOS-Deadweight-Ground-Support-Design-/blob/master/Readme.md",
     "private_id": "github_137395932",
-    "_url": "https://github.com/niosh-mining/FOS-Deadweight-Ground-Support-Design-"
+    "_url": "https://github.com/niosh-mining/FOS-Deadweight-Ground-Support-Design-",
+    "privateID": "github_137395932"
   },
   {
     "name": "fast",
+    "organization": "CDC",
     "description": "Field Assessment of Silica Tool",
-    "organization": "niosh-mining",
-    "repositoryURL": "https://github.com/niosh-mining/fast",
-    "homepageURL": "https://github.com/niosh-mining/fast",
-    "vcs": "git",
-    "repositoryVisibility": "public",
-    "status": "inactive",
     "version": "N/A",
     "laborHours": 0,
+    "status": "inactive",
+    "vcs": "git",
+    "homepageURL": "",
+    "repositoryURL": "https://github.com/niosh-mining/fast",
+    "repositoryVisibility": "public",
     "languages": [
       "TSQL"
     ],
     "tags": [],
+    "contact": {
+      "email": "mining@cdc.gov"
+    },
     "date": {
       "created": "2018-07-20T16:27:27+00:00",
       "lastModified": "2021-06-04T15:39:11+00:00",
-      "metadataLastUpdated": "2025-07-09T15-04-51"
+      "metadataLastUpdated": "2025-07-11T14:35:15.254277+00:00"
     },
     "permissions": {
       "usageType": "governmentWideReuse",
-      "exemptionText": "",
-      "licenses": [
-        {
-          "name": "Apache License 2.0"
-        }
-      ]
-    },
-    "contact": {
-      "email": "",
-      "name": "Centers for Disease Control and Prevention (CDC)"
+      "licenses": []
     },
     "repo_id": 141734399,
-    "readme_url": "https://github.com/niosh-mining/fast/blob/master/README.md",
     "private_id": "github_141734399",
     "_url": "https://github.com/niosh-mining/fast"
   },
   {
     "name": "obsplus",
+    "organization": "CDC",
     "description": "A Pandas-Centric ObsPy Expansion Pack",
-    "organization": "niosh-mining",
-    "repositoryURL": "https://github.com/niosh-mining/obsplus",
-    "homepageURL": "https://github.com/niosh-mining/obsplus",
-    "vcs": "git",
-    "repositoryVisibility": "public",
-    "status": "development",
-    "version": "N/A",
+    "version": "0.3.2",
     "laborHours": 0,
+    "status": "development",
+    "vcs": "git",
+    "homepageURL": "",
+    "repositoryURL": "https://github.com/niosh-mining/obsplus",
+    "repositoryVisibility": "public",
     "languages": [
       "Python",
       "Jupyter Notebook",
@@ -183,267 +157,238 @@
       "seismology",
       "pandas"
     ],
+    "contact": {
+      "email": "cdcinfo@cdc.gov"
+    },
     "date": {
       "created": "2018-10-25T20:13:13+00:00",
       "lastModified": "2025-06-11T16:36:10+00:00",
-      "metadataLastUpdated": "2025-07-09T15-04-52"
+      "metadataLastUpdated": "2025-07-11T14:35:17.725052+00:00"
     },
     "permissions": {
       "usageType": "openSource",
-      "exemptionText": "",
       "licenses": [
         {
           "name": "GNU Lesser General Public License v3.0"
         }
       ]
     },
-    "contact": {
-      "email": "",
-      "name": "Centers for Disease Control and Prevention (CDC)"
-    },
     "repo_id": 154731511,
-    "readme_url": "https://github.com/niosh-mining/obsplus/blob/master/README.rst",
     "private_id": "github_154731511",
     "_url": "https://github.com/niosh-mining/obsplus"
   },
   {
     "name": "opsdata",
+    "organization": "CDC",
     "description": "A template for creating ObsPlus datasets",
-    "organization": "niosh-mining",
-    "repositoryURL": "https://github.com/niosh-mining/opsdata",
-    "homepageURL": "https://github.com/niosh-mining/opsdata",
-    "vcs": "git",
-    "repositoryVisibility": "public",
-    "status": "inactive",
     "version": "N/A",
     "laborHours": 0,
+    "status": "inactive",
+    "vcs": "git",
+    "homepageURL": "",
+    "repositoryURL": "https://github.com/niosh-mining/opsdata",
+    "repositoryVisibility": "public",
     "languages": [
       "Python"
     ],
     "tags": [],
+    "contact": {
+      "email": "cdcinfo@cdc.gov"
+    },
     "date": {
       "created": "2020-02-21T01:24:19+00:00",
       "lastModified": "2020-07-09T16:39:38+00:00",
-      "metadataLastUpdated": "2025-07-09T15-04-53"
+      "metadataLastUpdated": "2025-07-11T14:35:20.209843+00:00"
     },
     "permissions": {
       "usageType": "openSource",
-      "exemptionText": "",
       "licenses": [
         {
           "name": "BSD 3-Clause \"New\" or \"Revised\" License"
         }
       ]
     },
-    "contact": {
-      "email": "",
-      "name": "Centers for Disease Control and Prevention (CDC)"
-    },
     "repo_id": 242027972,
-    "readme_url": "https://github.com/niosh-mining/opsdata/blob/master/README.md",
     "private_id": "github_242027972",
     "_url": "https://github.com/niosh-mining/opsdata"
   },
   {
     "name": "heatstresspvt",
+    "organization": "CDC",
     "description": "",
-    "organization": "niosh-mining",
-    "repositoryURL": "https://cdcgov.github.io/ShareIT-Act/assets/files/code_exempted.pdf",
-    "homepageURL": "https://github.com/niosh-mining/heatstresspvt",
-    "vcs": "git",
-    "repositoryVisibility": "private",
-    "status": "inactive",
     "version": "N/A",
     "laborHours": 0,
+    "status": "inactive",
+    "vcs": "git",
+    "homepageURL": "",
+    "repositoryURL": "https://cdcgov.github.io/ShareIT-Act/assets/files/instructions.pdf",
+    "repositoryVisibility": "private",
     "languages": [
       "C#"
     ],
     "tags": [],
+    "contact": {
+      "email": "shareit@cdc.gov"
+    },
     "date": {
       "created": "2020-06-02T18:43:03+00:00",
       "lastModified": "2020-07-16T07:35:01+00:00",
-      "metadataLastUpdated": "2025-07-09T15-04-54"
+      "metadataLastUpdated": "2025-07-11T14:35:22.730447+00:00"
     },
     "permissions": {
-      "usageType": "exemptByCIO",
-      "exemptionText": "It's an internal repository.",
-      "licenses": [
-        {
-          "name": "Apache License 2.0"
-        }
-      ]
-    },
-    "contact": {
-      "email": "shareit@cdc.gov",
-      "name": "Centers for Disease Control and Prevention (CDC)"
+      "usageType": "governmentWideReuse",
+      "licenses": []
     },
     "repo_id": 268881270,
-    "readme_url": "https://github.com/niosh-mining/heatstresspvt/blob/master/README.md",
     "private_id": "github_268881270",
-    "_url": "https://github.com/niosh-mining/heatstresspvt"
+    "_url": "https://github.com/niosh-mining/heatstresspvt",
+    "privateID": "github_268881270"
   },
   {
     "name": "seisdev",
+    "organization": "CDC",
     "description": "A meta repo for organizing development of seismic software",
-    "organization": "niosh-mining",
-    "repositoryURL": "https://cdcgov.github.io/ShareIT-Act/assets/files/code_exempted.pdf",
-    "homepageURL": "https://github.com/niosh-mining/seisdev",
-    "vcs": "git",
-    "repositoryVisibility": "private",
-    "status": "inactive",
     "version": "N/A",
     "laborHours": 0,
+    "status": "inactive",
+    "vcs": "git",
+    "homepageURL": "",
+    "repositoryURL": "https://cdcgov.github.io/ShareIT-Act/assets/files/instructions.pdf",
+    "repositoryVisibility": "private",
     "languages": [
       "Python"
     ],
     "tags": [],
+    "contact": {
+      "email": "shareit@cdc.gov"
+    },
     "date": {
       "created": "2020-10-26T16:21:38+00:00",
       "lastModified": "2021-05-17T22:00:23+00:00",
-      "metadataLastUpdated": "2025-07-09T15-04-56"
+      "metadataLastUpdated": "2025-07-11T14:35:25.261176+00:00"
     },
     "permissions": {
-      "usageType": "exemptByCIO",
-      "exemptionText": "It's an internal repository.",
-      "licenses": [
-        {
-          "name": "Apache License 2.0"
-        }
-      ]
-    },
-    "contact": {
-      "email": "shareit@cdc.gov",
-      "name": "Centers for Disease Control and Prevention (CDC)"
+      "usageType": "governmentWideReuse",
+      "licenses": []
     },
     "repo_id": 307433752,
-    "readme_url": "https://github.com/niosh-mining/seisdev/blob/main/README.md",
     "private_id": "github_307433752",
-    "_url": "https://github.com/niosh-mining/seisdev"
+    "_url": "https://github.com/niosh-mining/seisdev",
+    "privateID": "github_307433752"
   },
   {
     "name": "fis",
+    "organization": "CDC",
     "description": "A (F)ramework for (I)nduced (S)eismicity",
-    "organization": "niosh-mining",
-    "repositoryURL": "https://cdcgov.github.io/ShareIT-Act/assets/files/code_exempted.pdf",
-    "homepageURL": "https://github.com/niosh-mining/fis",
-    "vcs": "git",
-    "repositoryVisibility": "private",
-    "status": "development",
     "version": "N/A",
     "laborHours": 0,
+    "status": "development",
+    "vcs": "git",
+    "homepageURL": "",
+    "repositoryURL": "https://cdcgov.github.io/ShareIT-Act/assets/files/instructions.pdf",
+    "repositoryVisibility": "private",
     "languages": [
       "Python",
       "Jupyter Notebook"
     ],
     "tags": [],
+    "contact": {
+      "email": "shareit@cdc.gov"
+    },
     "date": {
       "created": "2021-02-25T21:30:48+00:00",
       "lastModified": "2024-03-05T00:50:32+00:00",
-      "metadataLastUpdated": "2025-07-09T15-04-57"
+      "metadataLastUpdated": "2025-07-11T14:35:27.773411+00:00"
     },
     "permissions": {
-      "usageType": "exemptByCIO",
-      "exemptionText": "It's an internal repository.",
+      "usageType": "governmentWideReuse",
       "licenses": [
         {
           "name": "Other"
         }
       ]
     },
-    "contact": {
-      "email": "shareit@cdc.gov",
-      "name": "Centers for Disease Control and Prevention (CDC)"
-    },
     "repo_id": 342384265,
-    "readme_url": "https://github.com/niosh-mining/fis/blob/master/README.md",
     "private_id": "github_342384265",
-    "_url": "https://github.com/niosh-mining/fis"
+    "_url": "https://github.com/niosh-mining/fis",
+    "privateID": "github_342384265"
   },
   {
     "name": "seiscraft",
+    "organization": "CDC",
     "description": "A workbench for visualizing and interpreting mining induced seismicity",
-    "organization": "niosh-mining",
-    "repositoryURL": "https://cdcgov.github.io/ShareIT-Act/assets/files/code_exempted.pdf",
-    "homepageURL": "https://github.com/niosh-mining/seiscraft",
-    "vcs": "git",
-    "repositoryVisibility": "private",
-    "status": "inactive",
     "version": "N/A",
     "laborHours": 0,
+    "status": "inactive",
+    "vcs": "git",
+    "homepageURL": "",
+    "repositoryURL": "https://cdcgov.github.io/ShareIT-Act/assets/files/instructions.pdf",
+    "repositoryVisibility": "private",
     "languages": [
       "Python"
     ],
     "tags": [],
+    "contact": {
+      "email": "shareit@cdc.gov"
+    },
     "date": {
       "created": "2021-02-25T21:33:09+00:00",
       "lastModified": "2022-04-26T20:02:28+00:00",
-      "metadataLastUpdated": "2025-07-09T15-04-58"
+      "metadataLastUpdated": "2025-07-11T14:35:30.209447+00:00"
     },
     "permissions": {
-      "usageType": "exemptByCIO",
-      "exemptionText": "It's an internal repository.",
+      "usageType": "governmentWideReuse",
       "licenses": [
         {
           "name": "Other"
         }
       ]
     },
-    "contact": {
-      "email": "shareit@cdc.gov",
-      "name": "Centers for Disease Control and Prevention (CDC)"
-    },
     "repo_id": 342384839,
-    "readme_url": "https://github.com/niosh-mining/seiscraft/blob/master/README.md",
     "private_id": "github_342384839",
-    "_url": "https://github.com/niosh-mining/seiscraft"
+    "_url": "https://github.com/niosh-mining/seiscraft",
+    "privateID": "github_342384839"
   },
   {
     "name": "fisdata",
+    "organization": "CDC",
     "description": "A repo for storing small data files associated with the fis package.",
-    "organization": "niosh-mining",
-    "repositoryURL": "https://github.com/niosh-mining/fisdata",
-    "homepageURL": "https://github.com/niosh-mining/fisdata",
-    "vcs": "git",
-    "repositoryVisibility": "public",
-    "status": "inactive",
     "version": "N/A",
     "laborHours": 0,
+    "status": "inactive",
+    "vcs": "git",
+    "homepageURL": "",
+    "repositoryURL": "https://github.com/niosh-mining/fisdata",
+    "repositoryVisibility": "public",
     "languages": [],
     "tags": [],
+    "contact": {
+      "email": "cdcinfo@cdc.gov"
+    },
     "date": {
       "created": "2021-06-28T18:43:53+00:00",
       "lastModified": "2021-07-02T17:02:35+00:00",
-      "metadataLastUpdated": "2025-07-09T15-04-59"
+      "metadataLastUpdated": "2025-07-11T14:35:32.745109+00:00"
     },
     "permissions": {
       "usageType": "governmentWideReuse",
-      "exemptionText": "",
-      "licenses": [
-        {
-          "name": "Apache License 2.0"
-        }
-      ]
-    },
-    "contact": {
-      "email": "",
-      "name": "Centers for Disease Control and Prevention (CDC)"
+      "licenses": []
     },
     "repo_id": 381130344,
-    "readme_url": "https://github.com/niosh-mining/fisdata/blob/master/readme.md",
     "private_id": "github_381130344",
     "_url": "https://github.com/niosh-mining/fisdata"
   },
   {
     "name": "evade",
+    "organization": "CDC",
     "description": "",
-    "organization": "niosh-mining",
-    "repositoryURL": "https://cdcgov.github.io/ShareIT-Act/assets/files/code_exempted.pdf",
-    "homepageURL": "https://github.com/niosh-mining/evade",
-    "vcs": "git",
-    "repositoryVisibility": "private",
-    "status": "inactive",
     "version": "N/A",
     "laborHours": 0,
+    "status": "inactive",
+    "vcs": "git",
+    "homepageURL": "",
+    "repositoryURL": "https://cdcgov.github.io/ShareIT-Act/assets/files/instructions.pdf",
+    "repositoryVisibility": "private",
     "languages": [
       "Rich Text Format",
       "HTML",
@@ -454,40 +399,34 @@
       "C"
     ],
     "tags": [],
+    "contact": {
+      "email": "shareit@cdc.gov"
+    },
     "date": {
       "created": "2021-10-22T12:39:18+00:00",
       "lastModified": "2023-03-16T17:45:12+00:00",
-      "metadataLastUpdated": "2025-07-09T15-05-01"
+      "metadataLastUpdated": "2025-07-11T14:35:35.268663+00:00"
     },
     "permissions": {
-      "usageType": "exemptByCIO",
-      "exemptionText": "It's an internal repository.",
-      "licenses": [
-        {
-          "name": "Apache License 2.0"
-        }
-      ]
-    },
-    "contact": {
-      "email": "shareit@cdc.gov",
-      "name": "Centers for Disease Control and Prevention (CDC)"
+      "usageType": "governmentWideReuse",
+      "licenses": []
     },
     "repo_id": 420093487,
-    "readme_url": "https://github.com/niosh-mining/evade/blob/master/README.md",
     "private_id": "github_420093487",
-    "_url": "https://github.com/niosh-mining/evade"
+    "_url": "https://github.com/niosh-mining/evade",
+    "privateID": "github_420093487"
   },
   {
     "name": "spick",
+    "organization": "CDC",
     "description": "seismic processing software",
-    "organization": "niosh-mining",
-    "repositoryURL": "https://cdcgov.github.io/ShareIT-Act/assets/files/code_exempted.pdf",
-    "homepageURL": "https://github.com/niosh-mining/spick",
-    "vcs": "git",
-    "repositoryVisibility": "private",
-    "status": "development",
     "version": "N/A",
     "laborHours": 0,
+    "status": "development",
+    "vcs": "git",
+    "homepageURL": "",
+    "repositoryURL": "https://cdcgov.github.io/ShareIT-Act/assets/files/instructions.pdf",
+    "repositoryVisibility": "private",
     "languages": [
       "Python",
       "C",
@@ -500,195 +439,181 @@
       "MAXScript"
     ],
     "tags": [],
+    "contact": {
+      "email": "shareit@cdc.gov"
+    },
     "date": {
       "created": "2023-05-11T17:11:45+00:00",
       "lastModified": "2025-05-12T22:18:10+00:00",
-      "metadataLastUpdated": "2025-07-09T15-05-02"
+      "metadataLastUpdated": "2025-07-11T14:35:37.740572+00:00"
     },
     "permissions": {
-      "usageType": "exemptByCIO",
-      "exemptionText": "It's an internal repository.",
-      "licenses": [
-        {
-          "name": "Apache License 2.0"
-        }
-      ]
-    },
-    "contact": {
-      "email": "shareit@cdc.gov",
-      "name": "Centers for Disease Control and Prevention (CDC)"
+      "usageType": "governmentWideReuse",
+      "licenses": []
     },
     "repo_id": 639542816,
-    "readme_url": "https://github.com/niosh-mining/spick/blob/master/README.md",
     "private_id": "github_639542816",
-    "_url": "https://github.com/niosh-mining/spick"
+    "_url": "https://github.com/niosh-mining/spick",
+    "privateID": "github_639542816"
   },
   {
     "name": "pytaska",
+    "organization": "CDC",
     "description": "A pythonic interface to itasca software",
-    "organization": "niosh-mining",
-    "repositoryURL": "https://cdcgov.github.io/ShareIT-Act/assets/files/code_exempted.pdf",
-    "homepageURL": "https://github.com/niosh-mining/pytaska",
-    "vcs": "git",
-    "repositoryVisibility": "private",
-    "status": "development",
     "version": "N/A",
     "laborHours": 0,
+    "status": "development",
+    "vcs": "git",
+    "homepageURL": "",
+    "repositoryURL": "https://cdcgov.github.io/ShareIT-Act/assets/files/instructions.pdf",
+    "repositoryVisibility": "private",
     "languages": [
       "Python",
       "Shell"
     ],
     "tags": [],
+    "contact": {
+      "email": "shareit@cdc.gov"
+    },
     "date": {
       "created": "2024-08-21T22:46:55+00:00",
       "lastModified": "2025-03-19T18:58:15+00:00",
-      "metadataLastUpdated": "2025-07-09T15-05-03"
+      "metadataLastUpdated": "2025-07-11T14:35:40.210636+00:00"
     },
     "permissions": {
-      "usageType": "exemptByCIO",
-      "exemptionText": "It's an internal repository.",
+      "usageType": "governmentWideReuse",
       "licenses": [
         {
           "name": "Other"
         }
       ]
     },
-    "contact": {
-      "email": "shareit@cdc.gov",
-      "name": "Centers for Disease Control and Prevention (CDC)"
-    },
     "repo_id": 845773819,
-    "readme_url": "https://github.com/niosh-mining/pytaska/blob/main/readme.md",
     "private_id": "github_845773819",
-    "_url": "https://github.com/niosh-mining/pytaska"
+    "_url": "https://github.com/niosh-mining/pytaska",
+    "privateID": "github_845773819"
   },
   {
     "name": "coalpick",
+    "organization": "CDC",
     "description": "A repo for making phase picks on coal mine data",
-    "organization": "niosh-mining",
-    "repositoryURL": "https://cdcgov.github.io/ShareIT-Act/assets/files/code_exempted.pdf",
-    "homepageURL": "https://github.com/niosh-mining/coalpick",
-    "vcs": "git",
-    "repositoryVisibility": "private",
-    "status": "development",
     "version": "N/A",
     "laborHours": 0,
+    "status": "development",
+    "vcs": "git",
+    "homepageURL": "",
+    "repositoryURL": "https://cdcgov.github.io/ShareIT-Act/assets/files/instructions.pdf",
+    "repositoryVisibility": "private",
     "languages": [
       "Jupyter Notebook",
       "Python"
     ],
     "tags": [],
+    "contact": {
+      "email": "shareit@cdc.gov"
+    },
     "date": {
       "created": "2024-11-05T23:27:41+00:00",
       "lastModified": "2025-01-28T20:37:17+00:00",
-      "metadataLastUpdated": "2025-07-09T15-05-05"
+      "metadataLastUpdated": "2025-07-11T14:35:42.654509+00:00"
     },
     "permissions": {
-      "usageType": "exemptByCIO",
-      "exemptionText": "It's an internal repository.",
+      "usageType": "governmentWideReuse",
       "licenses": [
         {
           "name": "GNU General Public License v3.0"
         }
       ]
     },
-    "contact": {
-      "email": "shareit@cdc.gov",
-      "name": "Centers for Disease Control and Prevention (CDC)"
-    },
     "repo_id": 883982911,
-    "readme_url": "https://github.com/niosh-mining/coalpick/blob/main/README.md",
     "private_id": "github_883982911",
-    "_url": "https://github.com/niosh-mining/coalpick"
+    "_url": "https://github.com/niosh-mining/coalpick",
+    "privateID": "github_883982911"
   },
   {
     "name": "imspy",
+    "organization": "CDC",
     "description": "Utilities for working with institute of mine seismology (IMS) data.",
-    "organization": "niosh-mining",
-    "repositoryURL": "https://cdcgov.github.io/ShareIT-Act/assets/files/code_exempted.pdf",
-    "homepageURL": "https://github.com/niosh-mining/imspy",
-    "vcs": "git",
-    "repositoryVisibility": "private",
-    "status": "development",
     "version": "N/A",
     "laborHours": 0,
+    "status": "development",
+    "vcs": "git",
+    "homepageURL": "",
+    "repositoryURL": "https://cdcgov.github.io/ShareIT-Act/assets/files/instructions.pdf",
+    "repositoryVisibility": "private",
     "languages": [
       "AGS Script",
       "Python"
     ],
     "tags": [],
+    "contact": {
+      "email": "shareit@cdc.gov"
+    },
     "date": {
       "created": "2025-03-25T23:36:23+00:00",
       "lastModified": "2025-06-18T17:57:54+00:00",
-      "metadataLastUpdated": "2025-07-09T15-05-06"
+      "metadataLastUpdated": "2025-07-11T14:35:45.120308+00:00"
     },
     "permissions": {
-      "usageType": "exemptByCIO",
-      "exemptionText": "It's an internal repository.",
+      "usageType": "governmentWideReuse",
       "licenses": [
         {
           "name": "Other"
         }
       ]
     },
-    "contact": {
-      "email": "shareit@cdc.gov",
-      "name": "Centers for Disease Control and Prevention (CDC)"
-    },
     "repo_id": 954986555,
-    "readme_url": "https://github.com/niosh-mining/imspy/blob/main/README.md",
     "private_id": "github_954986555",
-    "_url": "https://github.com/niosh-mining/imspy"
+    "_url": "https://github.com/niosh-mining/imspy",
+    "privateID": "github_954986555"
   },
   {
     "name": "srpo",
+    "organization": "CDC",
     "description": "simple remote python objects",
-    "organization": "niosh-mining",
-    "repositoryURL": "https://cdcgov.github.io/ShareIT-Act/assets/files/code_exempted.pdf",
-    "homepageURL": "https://github.com/niosh-mining/srpo",
-    "vcs": "git",
-    "repositoryVisibility": "private",
-    "status": "development",
     "version": "N/A",
     "laborHours": 0,
+    "status": "development",
+    "vcs": "git",
+    "homepageURL": "",
+    "repositoryURL": "https://cdcgov.github.io/ShareIT-Act/assets/files/instructions.pdf",
+    "repositoryVisibility": "private",
     "languages": [
       "Python"
     ],
     "tags": [],
+    "contact": {
+      "email": "shareit@cdc.gov"
+    },
     "date": {
       "created": "2025-04-23T22:13:53+00:00",
       "lastModified": "2025-04-23T22:14:03+00:00",
-      "metadataLastUpdated": "2025-07-09T15-05-07"
+      "metadataLastUpdated": "2025-07-11T14:35:47.526453+00:00"
     },
     "permissions": {
-      "usageType": "exemptByCIO",
-      "exemptionText": "It's an internal repository.",
+      "usageType": "governmentWideReuse",
       "licenses": [
         {
           "name": "Other"
         }
       ]
     },
-    "contact": {
-      "email": "shareit@cdc.gov",
-      "name": "Centers for Disease Control and Prevention (CDC)"
-    },
     "repo_id": 971673709,
-    "readme_url": "https://github.com/niosh-mining/srpo/blob/master/README.md",
     "private_id": "github_971673709",
-    "_url": "https://github.com/niosh-mining/srpo"
+    "_url": "https://github.com/niosh-mining/srpo",
+    "privateID": "github_971673709"
   },
   {
     "name": "pypoinverse",
+    "organization": "CDC",
     "description": "hypoinverse python wrapper",
-    "organization": "niosh-mining",
-    "repositoryURL": "https://cdcgov.github.io/ShareIT-Act/assets/files/code_exempted.pdf",
-    "homepageURL": "https://github.com/niosh-mining/pypoinverse",
-    "vcs": "git",
-    "repositoryVisibility": "private",
-    "status": "development",
     "version": "N/A",
     "laborHours": 0,
+    "status": "development",
+    "vcs": "git",
+    "homepageURL": "",
+    "repositoryURL": "https://cdcgov.github.io/ShareIT-Act/assets/files/instructions.pdf",
+    "repositoryVisibility": "private",
     "languages": [
       "Fortran",
       "Python",
@@ -696,116 +621,102 @@
       "Makefile"
     ],
     "tags": [],
+    "contact": {
+      "email": "shareit@cdc.gov"
+    },
     "date": {
       "created": "2025-04-23T22:16:00+00:00",
       "lastModified": "2025-04-23T22:16:28+00:00",
-      "metadataLastUpdated": "2025-07-09T15-05-09"
+      "metadataLastUpdated": "2025-07-11T14:35:50.054427+00:00"
     },
     "permissions": {
-      "usageType": "exemptByCIO",
-      "exemptionText": "It's an internal repository.",
-      "licenses": [
-        {
-          "name": "Apache License 2.0"
-        }
-      ]
-    },
-    "contact": {
-      "email": "shareit@cdc.gov",
-      "name": "Centers for Disease Control and Prevention (CDC)"
+      "usageType": "governmentWideReuse",
+      "licenses": []
     },
     "repo_id": 971674454,
-    "readme_url": "https://github.com/niosh-mining/pypoinverse/blob/master/README.txt",
     "private_id": "github_971674454",
-    "_url": "https://github.com/niosh-mining/pypoinverse"
+    "_url": "https://github.com/niosh-mining/pypoinverse",
+    "privateID": "github_971674454"
   },
   {
     "name": "fanopy",
+    "organization": "CDC",
     "description": "utils for working with fairfield node data",
-    "organization": "niosh-mining",
-    "repositoryURL": "https://cdcgov.github.io/ShareIT-Act/assets/files/code_exempted.pdf",
-    "homepageURL": "https://github.com/niosh-mining/fanopy",
-    "vcs": "git",
-    "repositoryVisibility": "private",
-    "status": "development",
     "version": "N/A",
     "laborHours": 0,
+    "status": "development",
+    "vcs": "git",
+    "homepageURL": "",
+    "repositoryURL": "https://cdcgov.github.io/ShareIT-Act/assets/files/instructions.pdf",
+    "repositoryVisibility": "private",
     "languages": [
       "Python"
     ],
     "tags": [],
+    "contact": {
+      "email": "shareit@cdc.gov"
+    },
     "date": {
       "created": "2025-04-23T22:18:27+00:00",
       "lastModified": "2025-04-23T22:18:57+00:00",
-      "metadataLastUpdated": "2025-07-09T15-05-10"
+      "metadataLastUpdated": "2025-07-11T14:35:52.581563+00:00"
     },
     "permissions": {
-      "usageType": "exemptByCIO",
-      "exemptionText": "It's an internal repository.",
+      "usageType": "governmentWideReuse",
       "licenses": [
         {
           "name": "Other"
         }
       ]
     },
-    "contact": {
-      "email": "shareit@cdc.gov",
-      "name": "Centers for Disease Control and Prevention (CDC)"
-    },
     "repo_id": 971675249,
-    "readme_url": "https://github.com/niosh-mining/fanopy/blob/master/README.md",
     "private_id": "github_971675249",
-    "_url": "https://github.com/niosh-mining/fanopy"
+    "_url": "https://github.com/niosh-mining/fanopy",
+    "privateID": "github_971675249"
   },
   {
     "name": "archiver",
+    "organization": "CDC",
     "description": "A package for archiving mseed files",
-    "organization": "niosh-mining",
-    "repositoryURL": "https://cdcgov.github.io/ShareIT-Act/assets/files/code_exempted.pdf",
-    "homepageURL": "https://github.com/niosh-mining/archiver",
-    "vcs": "git",
-    "repositoryVisibility": "private",
-    "status": "development",
     "version": "N/A",
     "laborHours": 0,
+    "status": "development",
+    "vcs": "git",
+    "homepageURL": "",
+    "repositoryURL": "https://cdcgov.github.io/ShareIT-Act/assets/files/instructions.pdf",
+    "repositoryVisibility": "private",
     "languages": [
       "Python"
     ],
     "tags": [],
+    "contact": {
+      "email": "shareit@cdc.gov"
+    },
     "date": {
       "created": "2025-04-23T22:23:43+00:00",
       "lastModified": "2025-04-23T22:24:01+00:00",
-      "metadataLastUpdated": "2025-07-09T15-05-11"
+      "metadataLastUpdated": "2025-07-11T14:35:55.047783+00:00"
     },
     "permissions": {
-      "usageType": "exemptByCIO",
-      "exemptionText": "It's an internal repository.",
-      "licenses": [
-        {
-          "name": "Apache License 2.0"
-        }
-      ]
-    },
-    "contact": {
-      "email": "shareit@cdc.gov",
-      "name": "Centers for Disease Control and Prevention (CDC)"
+      "usageType": "governmentWideReuse",
+      "licenses": []
     },
     "repo_id": 971676922,
-    "readme_url": "https://github.com/niosh-mining/archiver/blob/master/README.md",
     "private_id": "github_971676922",
-    "_url": "https://github.com/niosh-mining/archiver"
+    "_url": "https://github.com/niosh-mining/archiver",
+    "privateID": "github_971676922"
   },
   {
     "name": "nllpy",
+    "organization": "CDC",
     "description": "A python wrapper around Anthony Lomax's NonLinLoc",
-    "organization": "niosh-mining",
-    "repositoryURL": "https://cdcgov.github.io/ShareIT-Act/assets/files/code_exempted.pdf",
-    "homepageURL": "https://github.com/niosh-mining/nllpy",
-    "vcs": "git",
-    "repositoryVisibility": "private",
-    "status": "development",
     "version": "N/A",
     "laborHours": 0,
+    "status": "development",
+    "vcs": "git",
+    "homepageURL": "",
+    "repositoryURL": "https://cdcgov.github.io/ShareIT-Act/assets/files/instructions.pdf",
+    "repositoryVisibility": "private",
     "languages": [
       "C",
       "Python",
@@ -813,78 +724,70 @@
       "Makefile"
     ],
     "tags": [],
+    "contact": {
+      "email": "shareit@cdc.gov"
+    },
     "date": {
       "created": "2025-04-23T22:24:55+00:00",
       "lastModified": "2025-04-23T23:12:20+00:00",
-      "metadataLastUpdated": "2025-07-09T15-05-12"
+      "metadataLastUpdated": "2025-07-11T14:35:57.532250+00:00"
     },
     "permissions": {
-      "usageType": "exemptByCIO",
-      "exemptionText": "It's an internal repository.",
-      "licenses": [
-        {
-          "name": "Apache License 2.0"
-        }
-      ]
-    },
-    "contact": {
-      "email": "shareit@cdc.gov",
-      "name": "Centers for Disease Control and Prevention (CDC)"
+      "usageType": "governmentWideReuse",
+      "licenses": []
     },
     "repo_id": 971677350,
-    "readme_url": "",
     "private_id": "github_971677350",
-    "_url": "https://github.com/niosh-mining/nllpy"
+    "_url": "https://github.com/niosh-mining/nllpy",
+    "privateID": "github_971677350"
   },
   {
     "name": "yodel",
+    "organization": "CDC",
     "description": "A python package to make Guralp's Scream more pleasant",
-    "organization": "niosh-mining",
-    "repositoryURL": "https://cdcgov.github.io/ShareIT-Act/assets/files/code_exempted.pdf",
-    "homepageURL": "https://github.com/niosh-mining/yodel",
-    "vcs": "git",
-    "repositoryVisibility": "private",
-    "status": "development",
     "version": "N/A",
     "laborHours": 0,
+    "status": "development",
+    "vcs": "git",
+    "homepageURL": "",
+    "repositoryURL": "https://cdcgov.github.io/ShareIT-Act/assets/files/instructions.pdf",
+    "repositoryVisibility": "private",
     "languages": [
       "Python"
     ],
     "tags": [],
+    "contact": {
+      "email": "shareit@cdc.gov"
+    },
     "date": {
       "created": "2025-04-23T22:26:21+00:00",
       "lastModified": "2025-04-23T22:26:42+00:00",
-      "metadataLastUpdated": "2025-07-09T15-05-14"
+      "metadataLastUpdated": "2025-07-11T14:35:59.934239+00:00"
     },
     "permissions": {
-      "usageType": "exemptByCIO",
-      "exemptionText": "It's an internal repository.",
+      "usageType": "governmentWideReuse",
       "licenses": [
         {
           "name": "Other"
         }
       ]
     },
-    "contact": {
-      "email": "shareit@cdc.gov",
-      "name": "Centers for Disease Control and Prevention (CDC)"
-    },
     "repo_id": 971677789,
-    "readme_url": "https://github.com/niosh-mining/yodel/blob/master/README.rst",
     "private_id": "github_971677789",
-    "_url": "https://github.com/niosh-mining/yodel"
+    "_url": "https://github.com/niosh-mining/yodel",
+    "privateID": "github_971677789"
   },
   {
     "name": "sviz",
+    "organization": "CDC",
     "description": "seismic visualization stuff",
-    "organization": "niosh-mining",
-    "repositoryURL": "https://cdcgov.github.io/ShareIT-Act/assets/files/code_exempted.pdf",
-    "homepageURL": "https://github.com/niosh-mining/sviz",
-    "vcs": "git",
-    "repositoryVisibility": "private",
-    "status": "development",
     "version": "N/A",
     "laborHours": 0,
+    "status": "development",
+    "vcs": "git",
+    "homepageURL": "",
+    "repositoryURL": "https://cdcgov.github.io/ShareIT-Act/assets/files/instructions.pdf",
+    "repositoryVisibility": "private",
     "languages": [
       "Python",
       "HTML",
@@ -892,417 +795,351 @@
       "CSS"
     ],
     "tags": [],
+    "contact": {
+      "email": "shareit@cdc.gov"
+    },
     "date": {
       "created": "2025-04-23T23:12:00+00:00",
       "lastModified": "2025-04-23T23:12:46+00:00",
-      "metadataLastUpdated": "2025-07-09T15-05-15"
+      "metadataLastUpdated": "2025-07-11T14:36:02.407158+00:00"
     },
     "permissions": {
-      "usageType": "exemptByCIO",
-      "exemptionText": "It's an internal repository.",
-      "licenses": [
-        {
-          "name": "Apache License 2.0"
-        }
-      ]
-    },
-    "contact": {
-      "email": "shareit@cdc.gov",
-      "name": "Centers for Disease Control and Prevention (CDC)"
+      "usageType": "governmentWideReuse",
+      "licenses": []
     },
     "repo_id": 971692454,
-    "readme_url": "https://github.com/niosh-mining/sviz/blob/master/README.txt",
     "private_id": "github_971692454",
-    "_url": "https://github.com/niosh-mining/sviz"
+    "_url": "https://github.com/niosh-mining/sviz",
+    "privateID": "github_971692454"
   },
   {
     "name": "seisflow",
+    "organization": "CDC",
     "description": "A simple data pipeline package",
-    "organization": "niosh-mining",
-    "repositoryURL": "https://cdcgov.github.io/ShareIT-Act/assets/files/code_exempted.pdf",
-    "homepageURL": "https://github.com/niosh-mining/seisflow",
-    "vcs": "git",
-    "repositoryVisibility": "private",
-    "status": "development",
     "version": "N/A",
     "laborHours": 0,
+    "status": "development",
+    "vcs": "git",
+    "homepageURL": "",
+    "repositoryURL": "https://cdcgov.github.io/ShareIT-Act/assets/files/instructions.pdf",
+    "repositoryVisibility": "private",
     "languages": [
       "Python",
       "Arc"
     ],
     "tags": [],
+    "contact": {
+      "email": "shareit@cdc.gov"
+    },
     "date": {
       "created": "2025-04-23T23:15:36+00:00",
       "lastModified": "2025-04-23T23:16:24+00:00",
-      "metadataLastUpdated": "2025-07-09T15-05-16"
+      "metadataLastUpdated": "2025-07-11T14:36:04.840605+00:00"
     },
     "permissions": {
-      "usageType": "exemptByCIO",
-      "exemptionText": "It's an internal repository.",
-      "licenses": [
-        {
-          "name": "Apache License 2.0"
-        }
-      ]
-    },
-    "contact": {
-      "email": "shareit@cdc.gov",
-      "name": "Centers for Disease Control and Prevention (CDC)"
+      "usageType": "governmentWideReuse",
+      "licenses": []
     },
     "repo_id": 971693543,
-    "readme_url": "",
     "private_id": "github_971693543",
-    "_url": "https://github.com/niosh-mining/seisflow"
+    "_url": "https://github.com/niosh-mining/seisflow",
+    "privateID": "github_971693543"
   },
   {
     "name": "swave",
+    "organization": "CDC",
     "description": "A seismic processing framework",
-    "organization": "niosh-mining",
-    "repositoryURL": "https://cdcgov.github.io/ShareIT-Act/assets/files/code_exempted.pdf",
-    "homepageURL": "https://github.com/niosh-mining/swave",
-    "vcs": "git",
-    "repositoryVisibility": "private",
-    "status": "development",
     "version": "N/A",
     "laborHours": 0,
+    "status": "development",
+    "vcs": "git",
+    "homepageURL": "",
+    "repositoryURL": "https://cdcgov.github.io/ShareIT-Act/assets/files/instructions.pdf",
+    "repositoryVisibility": "private",
     "languages": [
       "HTML",
       "Python"
     ],
     "tags": [],
+    "contact": {
+      "email": "shareit@cdc.gov"
+    },
     "date": {
       "created": "2025-04-23T23:19:53+00:00",
       "lastModified": "2025-04-23T23:20:19+00:00",
-      "metadataLastUpdated": "2025-07-09T15-05-17"
+      "metadataLastUpdated": "2025-07-11T14:36:07.379310+00:00"
     },
     "permissions": {
-      "usageType": "exemptByCIO",
-      "exemptionText": "It's an internal repository.",
-      "licenses": [
-        {
-          "name": "Apache License 2.0"
-        }
-      ]
-    },
-    "contact": {
-      "email": "shareit@cdc.gov",
-      "name": "Centers for Disease Control and Prevention (CDC)"
+      "usageType": "governmentWideReuse",
+      "licenses": []
     },
     "repo_id": 971694745,
-    "readme_url": "",
     "private_id": "github_971694745",
-    "_url": "https://github.com/niosh-mining/swave"
+    "_url": "https://github.com/niosh-mining/swave",
+    "privateID": "github_971694745"
   },
   {
     "name": "nllpy_kedro",
+    "organization": "CDC",
     "description": "Kedro nodes and pipelines for nllpy",
-    "organization": "niosh-mining",
-    "repositoryURL": "https://cdcgov.github.io/ShareIT-Act/assets/files/code_exempted.pdf",
-    "homepageURL": "https://github.com/niosh-mining/nllpy_kedro",
-    "vcs": "git",
-    "repositoryVisibility": "private",
-    "status": "development",
     "version": "N/A",
     "laborHours": 0,
+    "status": "development",
+    "vcs": "git",
+    "homepageURL": "",
+    "repositoryURL": "https://cdcgov.github.io/ShareIT-Act/assets/files/instructions.pdf",
+    "repositoryVisibility": "private",
     "languages": [
       "Python",
       "Roff",
       "PowerBuilder"
     ],
     "tags": [],
+    "contact": {
+      "email": "shareit@cdc.gov"
+    },
     "date": {
       "created": "2025-04-23T23:20:53+00:00",
       "lastModified": "2025-04-23T23:25:44+00:00",
-      "metadataLastUpdated": "2025-07-09T15-05-18"
+      "metadataLastUpdated": "2025-07-11T14:36:09.864682+00:00"
     },
     "permissions": {
-      "usageType": "exemptByCIO",
-      "exemptionText": "It's an internal repository.",
-      "licenses": [
-        {
-          "name": "Apache License 2.0"
-        }
-      ]
-    },
-    "contact": {
-      "email": "shareit@cdc.gov",
-      "name": "Centers for Disease Control and Prevention (CDC)"
+      "usageType": "governmentWideReuse",
+      "licenses": []
     },
     "repo_id": 971694998,
-    "readme_url": "https://github.com/niosh-mining/nllpy_kedro/blob/master/README.md",
     "private_id": "github_971694998",
-    "_url": "https://github.com/niosh-mining/nllpy_kedro"
+    "_url": "https://github.com/niosh-mining/nllpy_kedro",
+    "privateID": "github_971694998"
   },
   {
     "name": "focpy",
+    "organization": "CDC",
     "description": "python code for focal mechanisms",
-    "organization": "niosh-mining",
-    "repositoryURL": "https://cdcgov.github.io/ShareIT-Act/assets/files/code_exempted.pdf",
-    "homepageURL": "https://github.com/niosh-mining/focpy",
-    "vcs": "git",
-    "repositoryVisibility": "private",
-    "status": "development",
     "version": "N/A",
     "laborHours": 0,
+    "status": "development",
+    "vcs": "git",
+    "homepageURL": "",
+    "repositoryURL": "https://cdcgov.github.io/ShareIT-Act/assets/files/instructions.pdf",
+    "repositoryVisibility": "private",
     "languages": [
       "Python",
       "Jupyter Notebook"
     ],
     "tags": [],
+    "contact": {
+      "email": "shareit@cdc.gov"
+    },
     "date": {
       "created": "2025-04-23T23:21:50+00:00",
       "lastModified": "2025-04-23T23:22:22+00:00",
-      "metadataLastUpdated": "2025-07-09T15-05-20"
+      "metadataLastUpdated": "2025-07-11T14:36:12.432742+00:00"
     },
     "permissions": {
-      "usageType": "exemptByCIO",
-      "exemptionText": "It's an internal repository.",
-      "licenses": [
-        {
-          "name": "Apache License 2.0"
-        }
-      ]
-    },
-    "contact": {
-      "email": "shareit@cdc.gov",
-      "name": "Centers for Disease Control and Prevention (CDC)"
+      "usageType": "governmentWideReuse",
+      "licenses": []
     },
     "repo_id": 971695276,
-    "readme_url": "",
     "private_id": "github_971695276",
-    "_url": "https://github.com/niosh-mining/focpy"
+    "_url": "https://github.com/niosh-mining/focpy",
+    "privateID": "github_971695276"
   },
   {
     "name": "magpy",
+    "organization": "CDC",
     "description": "python code for calculating seismic magnitudes",
-    "organization": "niosh-mining",
-    "repositoryURL": "https://cdcgov.github.io/ShareIT-Act/assets/files/code_exempted.pdf",
-    "homepageURL": "https://github.com/niosh-mining/magpy",
-    "vcs": "git",
-    "repositoryVisibility": "private",
-    "status": "development",
     "version": "N/A",
     "laborHours": 0,
+    "status": "development",
+    "vcs": "git",
+    "homepageURL": "",
+    "repositoryURL": "https://cdcgov.github.io/ShareIT-Act/assets/files/instructions.pdf",
+    "repositoryVisibility": "private",
     "languages": [
       "Jupyter Notebook",
       "Python"
     ],
     "tags": [],
+    "contact": {
+      "email": "shareit@cdc.gov"
+    },
     "date": {
       "created": "2025-04-23T23:24:06+00:00",
       "lastModified": "2025-04-23T23:24:48+00:00",
-      "metadataLastUpdated": "2025-07-09T15-05-21"
+      "metadataLastUpdated": "2025-07-11T14:36:14.973683+00:00"
     },
     "permissions": {
-      "usageType": "exemptByCIO",
-      "exemptionText": "It's an internal repository.",
-      "licenses": [
-        {
-          "name": "Apache License 2.0"
-        }
-      ]
-    },
-    "contact": {
-      "email": "shareit@cdc.gov",
-      "name": "Centers for Disease Control and Prevention (CDC)"
+      "usageType": "governmentWideReuse",
+      "licenses": []
     },
     "repo_id": 971695958,
-    "readme_url": "",
     "private_id": "github_971695958",
-    "_url": "https://github.com/niosh-mining/magpy"
+    "_url": "https://github.com/niosh-mining/magpy",
+    "privateID": "github_971695958"
   },
   {
     "name": "pygrid",
+    "organization": "CDC",
     "description": "A library for working with grid-like data",
-    "organization": "niosh-mining",
-    "repositoryURL": "https://cdcgov.github.io/ShareIT-Act/assets/files/code_exempted.pdf",
-    "homepageURL": "https://github.com/niosh-mining/pygrid",
-    "vcs": "git",
-    "repositoryVisibility": "private",
-    "status": "development",
     "version": "N/A",
     "laborHours": 0,
+    "status": "development",
+    "vcs": "git",
+    "homepageURL": "",
+    "repositoryURL": "https://cdcgov.github.io/ShareIT-Act/assets/files/instructions.pdf",
+    "repositoryVisibility": "private",
     "languages": [
       "Python"
     ],
     "tags": [],
+    "contact": {
+      "email": "shareit@cdc.gov"
+    },
     "date": {
       "created": "2025-04-23T23:28:02+00:00",
       "lastModified": "2025-04-23T23:32:18+00:00",
-      "metadataLastUpdated": "2025-07-09T15-05-22"
+      "metadataLastUpdated": "2025-07-11T14:36:17.488471+00:00"
     },
     "permissions": {
-      "usageType": "exemptByCIO",
-      "exemptionText": "It's an internal repository.",
-      "licenses": [
-        {
-          "name": "Apache License 2.0"
-        }
-      ]
-    },
-    "contact": {
-      "email": "shareit@cdc.gov",
-      "name": "Centers for Disease Control and Prevention (CDC)"
+      "usageType": "governmentWideReuse",
+      "licenses": []
     },
     "repo_id": 971697135,
-    "readme_url": "https://github.com/niosh-mining/pygrid/blob/master/README.md",
     "private_id": "github_971697135",
-    "_url": "https://github.com/niosh-mining/pygrid"
+    "_url": "https://github.com/niosh-mining/pygrid",
+    "privateID": "github_971697135"
   },
   {
     "name": "seistats",
+    "organization": "CDC",
     "description": "A library for plotting statistics about earthquake catalogs",
-    "organization": "niosh-mining",
-    "repositoryURL": "https://cdcgov.github.io/ShareIT-Act/assets/files/code_exempted.pdf",
-    "homepageURL": "https://github.com/niosh-mining/seistats",
-    "vcs": "git",
-    "repositoryVisibility": "private",
-    "status": "development",
     "version": "N/A",
     "laborHours": 0,
+    "status": "development",
+    "vcs": "git",
+    "homepageURL": "",
+    "repositoryURL": "https://cdcgov.github.io/ShareIT-Act/assets/files/instructions.pdf",
+    "repositoryVisibility": "private",
     "languages": [
       "Python"
     ],
     "tags": [],
+    "contact": {
+      "email": "shareit@cdc.gov"
+    },
     "date": {
       "created": "2025-04-23T23:42:19+00:00",
       "lastModified": "2025-04-23T23:43:17+00:00",
-      "metadataLastUpdated": "2025-07-09T15-05-23"
+      "metadataLastUpdated": "2025-07-11T14:36:19.877310+00:00"
     },
     "permissions": {
-      "usageType": "exemptByCIO",
-      "exemptionText": "It's an internal repository.",
-      "licenses": [
-        {
-          "name": "Apache License 2.0"
-        }
-      ]
-    },
-    "contact": {
-      "email": "shareit@cdc.gov",
-      "name": "Centers for Disease Control and Prevention (CDC)"
+      "usageType": "governmentWideReuse",
+      "licenses": []
     },
     "repo_id": 971701124,
-    "readme_url": "",
     "private_id": "github_971701124",
-    "_url": "https://github.com/niosh-mining/seistats"
+    "_url": "https://github.com/niosh-mining/seistats",
+    "privateID": "github_971701124"
   },
   {
     "name": "seisutils",
+    "organization": "CDC",
     "description": "A hodgepodge of utilities for working with seismic data",
-    "organization": "niosh-mining",
-    "repositoryURL": "https://cdcgov.github.io/ShareIT-Act/assets/files/code_exempted.pdf",
-    "homepageURL": "https://github.com/niosh-mining/seisutils",
-    "vcs": "git",
-    "repositoryVisibility": "private",
-    "status": "development",
     "version": "N/A",
     "laborHours": 0,
+    "status": "development",
+    "vcs": "git",
+    "homepageURL": "",
+    "repositoryURL": "https://cdcgov.github.io/ShareIT-Act/assets/files/instructions.pdf",
+    "repositoryVisibility": "private",
     "languages": [
       "Python",
       "Shell"
     ],
     "tags": [],
+    "contact": {
+      "email": "shareit@cdc.gov"
+    },
     "date": {
       "created": "2025-04-24T00:03:52+00:00",
       "lastModified": "2025-04-24T00:04:43+00:00",
-      "metadataLastUpdated": "2025-07-09T15-05-25"
+      "metadataLastUpdated": "2025-07-11T14:36:22.387314+00:00"
     },
     "permissions": {
-      "usageType": "exemptByCIO",
-      "exemptionText": "It's an internal repository.",
-      "licenses": [
-        {
-          "name": "Apache License 2.0"
-        }
-      ]
-    },
-    "contact": {
-      "email": "shareit@cdc.gov",
-      "name": "Centers for Disease Control and Prevention (CDC)"
+      "usageType": "governmentWideReuse",
+      "licenses": []
     },
     "repo_id": 971707359,
-    "readme_url": "https://github.com/niosh-mining/seisutils/blob/main/README.md",
     "private_id": "github_971707359",
-    "_url": "https://github.com/niosh-mining/seisutils"
+    "_url": "https://github.com/niosh-mining/seisutils",
+    "privateID": "github_971707359"
   },
   {
     "name": "elkshake",
+    "organization": "CDC",
     "description": "Elk Creek data and code",
-    "organization": "niosh-mining",
-    "repositoryURL": "https://cdcgov.github.io/ShareIT-Act/assets/files/code_exempted.pdf",
-    "homepageURL": "https://github.com/niosh-mining/elkshake",
-    "vcs": "git",
-    "repositoryVisibility": "private",
-    "status": "development",
     "version": "N/A",
     "laborHours": 0,
+    "status": "development",
+    "vcs": "git",
+    "homepageURL": "",
+    "repositoryURL": "https://cdcgov.github.io/ShareIT-Act/assets/files/instructions.pdf",
+    "repositoryVisibility": "private",
     "languages": [
       "Python",
       "QML",
       "Jupyter Notebook"
     ],
     "tags": [],
+    "contact": {
+      "email": "shareit@cdc.gov"
+    },
     "date": {
       "created": "2025-06-03T00:05:37+00:00",
       "lastModified": "2025-06-04T21:13:54+00:00",
-      "metadataLastUpdated": "2025-07-09T15-05-26"
+      "metadataLastUpdated": "2025-07-11T14:36:24.807786+00:00"
     },
     "permissions": {
-      "usageType": "exemptByCIO",
-      "exemptionText": "It's an internal repository.",
-      "licenses": [
-        {
-          "name": "Apache License 2.0"
-        }
-      ]
-    },
-    "contact": {
-      "email": "shareit@cdc.gov",
-      "name": "Centers for Disease Control and Prevention (CDC)"
+      "usageType": "governmentWideReuse",
+      "licenses": []
     },
     "repo_id": 995081181,
-    "readme_url": "",
     "private_id": "github_995081181",
-    "_url": "https://github.com/niosh-mining/elkshake"
+    "_url": "https://github.com/niosh-mining/elkshake",
+    "privateID": "github_995081181"
   },
   {
     "name": "elkcreek",
+    "organization": "CDC",
     "description": "The Elk Creek dataset and example code",
-    "organization": "niosh-mining",
-    "repositoryURL": "https://cdcgov.github.io/ShareIT-Act/assets/files/code_exempted.pdf",
-    "homepageURL": "https://github.com/niosh-mining/elkcreek",
-    "vcs": "git",
-    "repositoryVisibility": "private",
-    "status": "development",
     "version": "N/A",
     "laborHours": 0,
+    "status": "development",
+    "vcs": "git",
+    "homepageURL": "",
+    "repositoryURL": "https://cdcgov.github.io/ShareIT-Act/assets/files/instructions.pdf",
+    "repositoryVisibility": "private",
     "languages": [
       "Python",
       "QML"
     ],
     "tags": [],
+    "contact": {
+      "email": "shareit@cdc.gov"
+    },
     "date": {
       "created": "2025-06-11T16:39:11+00:00",
       "lastModified": "2025-06-26T00:29:26+00:00",
-      "metadataLastUpdated": "2025-07-09T15-05-27"
+      "metadataLastUpdated": "2025-07-11T14:36:27.202129+00:00"
     },
     "permissions": {
-      "usageType": "exemptByCIO",
-      "exemptionText": "It's an internal repository.",
-      "licenses": [
-        {
-          "name": "Apache License 2.0"
-        }
-      ]
-    },
-    "contact": {
-      "email": "shareit@cdc.gov",
-      "name": "Centers for Disease Control and Prevention (CDC)"
+      "usageType": "governmentWideReuse",
+      "licenses": []
     },
     "repo_id": 1000352050,
-    "readme_url": "https://github.com/niosh-mining/elkcreek/blob/main/readme.md",
     "private_id": "github_1000352050",
-    "_url": "https://github.com/niosh-mining/elkcreek"
+    "_url": "https://github.com/niosh-mining/elkcreek",
+    "privateID": "github_1000352050"
   }
 ]
