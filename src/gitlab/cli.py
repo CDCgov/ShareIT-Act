@@ -26,11 +26,22 @@ def main():
   if not access_token:
     print("Error: GitLab token is required. Please provide it by setting the GITLAB_TOKEN environment variable.")
     return
-  gitlab_client = GitlabClient(url=args.url,
+
+  url = os.environ.get('GITLAB_URL', args.url)
+  safe_url = url.replace("https://", "").replace("http://", "").replace("/", "-")
+  print(f"Targeting GitLab URL: {url}")
+  gitlab_client = GitlabClient(url=url,
     token=access_token,
     socks_proxy=args.socks_proxy,
     verify_ssl=not args.no_verify_ssl
   )
+
+  if args.output:
+    output_path = Path(args.output)
+  else:
+    output_path = Path("data/raw") / f"repo-{safe_url}.json"
+    output_path.parent.mkdir(parents=True, exist_ok=True)
+  print(f"Output will be saved to: {output_path}")
 
   if args.group_id:
     print(f"Fetching repositories from GitLab group {args.group_id}...")
@@ -41,14 +52,6 @@ def main():
     print("Fetching repositories from all accessible groups...")
     repos = gitlab_client.get_all_repos()
     print(f"Found {len(repos)} total repositories")
-
-  if args.output:
-    output_path = Path(args.output)
-  else:
-    url = os.environ.get('GITLAB_URL', args.url)
-    safe_url = url.replace("https://", "").replace("http://", "").replace("/", "-")
-    output_path = Path("data/raw") / f"repo-{safe_url}.json"
-    output_path.parent.mkdir(parents=True, exist_ok=True)
 
   with open(output_path, 'w') as f:
     json.dump(repos, f, indent=2)

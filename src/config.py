@@ -4,6 +4,14 @@ from dotenv import load_dotenv
 load_dotenv()
 
 class Config:
+
+  # public default values that don't change
+  DEFAULT_AGENCY_NAME = "CDC"
+  PRIVATE_REPO_CONTACT_EMAIL = "shareit@cdc.gov"
+  DEFAULT_CONTACT_EMAIL = "cdcinfo@cdc.gov"
+  EXEMPTED_NOTICE_PDF_URL = "https://cdcgov.github.io/ShareIT-Act/assets/files/code_exempted.pdf"
+  INSTRUCTIONS_PDF_URL = "https://cdcgov.github.io/ShareIT-Act/assets/files/instructions.pdf"
+
   def credentials(self):
     app_id = os.environ.get('GH_APP_ID', '0')
     installation_id = os.environ.get('GH_APP_INSTALLATION_ID', '0')
