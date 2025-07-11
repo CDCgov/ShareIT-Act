@@ -17,15 +17,22 @@ class Combine:
       return None
 
     combined_data = []
+
+    # We generate the code.json file based on a list of raw data files
+    # with the expectation that each file contains a list of objects
+    # If it doesn't meet this expectation, we skip the file and log an error
     for file_path in json_files:
       print(f"Reading {file_path.name}")
       try:
         with open(file_path, 'r') as f:
           data = json.load(f)
-          if isinstance(data, list):
-            combined_data.extend(data)
-          else:
-            combined_data.append(data)
+          if not isinstance(data, list):
+            print(f"Error: {file_path.name} does not contain a list of objects, skipping")
+            continue
+          for obj in data:
+            if isinstance(obj, dict) and "description" not in obj:
+              obj["description"] = ""
+            combined_data.append(obj)
       except json.JSONDecodeError:
         print(f"Error: {file_path.name} is not valid JSON, skipping")
       except Exception as e:
