@@ -27,7 +27,7 @@
     "date": {
       "created": "2016-02-17T14:09:13+00:00",
       "lastModified": "2025-05-19T17:36:28+00:00",
-      "metadataLastUpdated": "2025-07-11T14:16:30.600274+00:00"
+      "metadataLastUpdated": "2025-07-15T20:28:47.214108+00:00"
     },
     "permissions": {
       "usageType": "openSource",
@@ -60,7 +60,7 @@
     "date": {
       "created": "2016-02-17T14:18:24+00:00",
       "lastModified": "2016-02-01T19:41:26+00:00",
-      "metadataLastUpdated": "2025-07-11T14:16:32.523674+00:00"
+      "metadataLastUpdated": "2025-07-15T20:28:49.147860+00:00"
     },
     "permissions": {
       "usageType": "openSource",
@@ -96,7 +96,7 @@
     "date": {
       "created": "2016-03-18T17:35:22+00:00",
       "lastModified": "2019-12-06T03:04:06+00:00",
-      "metadataLastUpdated": "2025-07-11T14:16:34.462428+00:00"
+      "metadataLastUpdated": "2025-07-15T20:28:51.130777+00:00"
     },
     "permissions": {
       "usageType": "openSource",
@@ -139,7 +139,7 @@
     "date": {
       "created": "2016-05-13T13:44:14+00:00",
       "lastModified": "2022-06-10T19:32:46+00:00",
-      "metadataLastUpdated": "2025-07-11T14:16:36.344026+00:00"
+      "metadataLastUpdated": "2025-07-15T20:28:53.040430+00:00"
     },
     "permissions": {
       "usageType": "openSource",
@@ -172,7 +172,7 @@
     "date": {
       "created": "2016-05-20T19:47:36+00:00",
       "lastModified": "2020-05-22T15:10:11+00:00",
-      "metadataLastUpdated": "2025-07-11T14:16:38.188636+00:00"
+      "metadataLastUpdated": "2025-07-15T20:28:54.887455+00:00"
     },
     "permissions": {
       "usageType": "openSource",
@@ -207,7 +207,7 @@
     "date": {
       "created": "2016-08-08T15:29:27+00:00",
       "lastModified": "2021-06-18T14:14:25+00:00",
-      "metadataLastUpdated": "2025-07-11T14:16:40.052225+00:00"
+      "metadataLastUpdated": "2025-07-15T20:28:56.793285+00:00"
     },
     "permissions": {
       "usageType": "openSource",
@@ -247,7 +247,7 @@
     "date": {
       "created": "2016-09-19T19:28:16+00:00",
       "lastModified": "2020-09-09T10:57:30+00:00",
-      "metadataLastUpdated": "2025-07-11T14:16:41.943102+00:00"
+      "metadataLastUpdated": "2025-07-15T20:28:58.690186+00:00"
     },
     "permissions": {
       "usageType": "openSource",
@@ -280,7 +280,7 @@
     "date": {
       "created": "2016-11-30T14:12:24+00:00",
       "lastModified": "2016-11-30T15:37:20+00:00",
-      "metadataLastUpdated": "2025-07-11T14:16:43.801172+00:00"
+      "metadataLastUpdated": "2025-07-15T20:29:00.507104+00:00"
     },
     "permissions": {
       "usageType": "openSource",
@@ -313,7 +313,7 @@
     "date": {
       "created": "2017-01-11T15:39:43+00:00",
       "lastModified": "2017-04-19T20:37:08+00:00",
-      "metadataLastUpdated": "2025-07-11T14:16:45.600051+00:00"
+      "metadataLastUpdated": "2025-07-15T20:29:02.385040+00:00"
     },
     "permissions": {
       "usageType": "openSource",
@@ -348,7 +348,7 @@
     "date": {
       "created": "2017-02-25T21:34:45+00:00",
       "lastModified": "2019-03-14T17:03:08+00:00",
-      "metadataLastUpdated": "2025-07-11T14:16:47.391277+00:00"
+      "metadataLastUpdated": "2025-07-15T20:29:04.265922+00:00"
     },
     "permissions": {
       "usageType": "openSource",
@@ -383,7 +383,7 @@
     "date": {
       "created": "2017-02-25T21:41:15+00:00",
       "lastModified": "2017-03-01T01:58:25+00:00",
-      "metadataLastUpdated": "2025-07-11T14:16:49.257174+00:00"
+      "metadataLastUpdated": "2025-07-15T20:29:06.287300+00:00"
     },
     "permissions": {
       "usageType": "openSource",
@@ -449,7 +449,7 @@
     "date": {
       "created": "2017-04-10T16:37:57+00:00",
       "lastModified": "2018-12-12T15:43:11+00:00",
-      "metadataLastUpdated": "2025-07-11T14:16:51.218129+00:00"
+      "metadataLastUpdated": "2025-07-15T20:29:08.267935+00:00"
     },
     "permissions": {
       "usageType": "openSource",
@@ -487,7 +487,7 @@
     "date": {
       "created": "2017-04-10T19:52:29+00:00",
       "lastModified": "2018-08-30T22:34:33+00:00",
-      "metadataLastUpdated": "2025-07-11T14:16:53.015618+00:00"
+      "metadataLastUpdated": "2025-07-15T20:29:10.304779+00:00"
     },
     "permissions": {
       "usageType": "openSource",
@@ -523,7 +523,7 @@
     "date": {
       "created": "2017-04-10T19:54:12+00:00",
       "lastModified": "2017-07-12T20:07:21+00:00",
-      "metadataLastUpdated": "2025-07-11T14:16:54.809561+00:00"
+      "metadataLastUpdated": "2025-07-15T20:29:12.269979+00:00"
     },
     "permissions": {
       "usageType": "openSource",
@@ -559,7 +559,7 @@
     "date": {
       "created": "2017-05-30T18:31:12+00:00",
       "lastModified": "2017-09-29T13:07:58+00:00",
-      "metadataLastUpdated": "2025-07-11T14:16:56.600484+00:00"
+      "metadataLastUpdated": "2025-07-15T20:29:14.210949+00:00"
     },
     "permissions": {
       "usageType": "openSource",
@@ -595,7 +595,7 @@
     "date": {
       "created": "2017-06-21T18:08:16+00:00",
       "lastModified": "2020-06-29T04:36:28+00:00",
-      "metadataLastUpdated": "2025-07-11T14:16:58.463901+00:00"
+      "metadataLastUpdated": "2025-07-15T20:29:16.194818+00:00"
     },
     "permissions": {
       "usageType": "openSource",
@@ -632,7 +632,7 @@
     "date": {
       "created": "2017-06-27T18:31:04+00:00",
       "lastModified": "2018-09-12T18:08:17+00:00",
-      "metadataLastUpdated": "2025-07-11T14:17:00.289864+00:00"
+      "metadataLastUpdated": "2025-07-15T20:29:18.136079+00:00"
     },
     "permissions": {
       "usageType": "openSource",
@@ -672,7 +672,7 @@
     "date": {
       "created": "2017-08-24T13:06:42+00:00",
       "lastModified": "2017-09-28T09:25:16+00:00",
-      "metadataLastUpdated": "2025-07-11T14:17:02.106234+00:00"
+      "metadataLastUpdated": "2025-07-15T20:29:20.018878+00:00"
     },
     "permissions": {
       "usageType": "openSource",
@@ -707,7 +707,7 @@
     "date": {
       "created": "2017-09-01T18:51:18+00:00",
       "lastModified": "2017-12-19T15:40:21+00:00",
-      "metadataLastUpdated": "2025-07-11T14:17:03.938224+00:00"
+      "metadataLastUpdated": "2025-07-15T20:29:21.949444+00:00"
     },
     "permissions": {
       "usageType": "openSource",
@@ -743,7 +743,7 @@
     "date": {
       "created": "2017-09-29T13:22:09+00:00",
       "lastModified": "2018-09-14T19:23:59+00:00",
-      "metadataLastUpdated": "2025-07-11T14:17:05.765258+00:00"
+      "metadataLastUpdated": "2025-07-15T20:29:23.840424+00:00"
     },
     "permissions": {
       "usageType": "governmentWideReuse",
@@ -772,7 +772,7 @@
     "date": {
       "created": "2017-09-29T13:27:13+00:00",
       "lastModified": "2017-10-16T21:04:35+00:00",
-      "metadataLastUpdated": "2025-07-11T14:17:07.674467+00:00"
+      "metadataLastUpdated": "2025-07-15T20:29:25.795176+00:00"
     },
     "permissions": {
       "usageType": "governmentWideReuse",
@@ -803,7 +803,7 @@
     "date": {
       "created": "2017-09-29T13:30:02+00:00",
       "lastModified": "2017-10-18T18:55:16+00:00",
-      "metadataLastUpdated": "2025-07-11T14:17:09.526861+00:00"
+      "metadataLastUpdated": "2025-07-15T20:29:27.680586+00:00"
     },
     "permissions": {
       "usageType": "governmentWideReuse",
@@ -832,7 +832,7 @@
     "date": {
       "created": "2017-09-29T13:31:27+00:00",
       "lastModified": "2017-10-18T22:49:16+00:00",
-      "metadataLastUpdated": "2025-07-11T14:17:11.391529+00:00"
+      "metadataLastUpdated": "2025-07-15T20:29:29.637243+00:00"
     },
     "permissions": {
       "usageType": "governmentWideReuse",
@@ -861,7 +861,7 @@
     "date": {
       "created": "2017-09-29T13:34:30+00:00",
       "lastModified": "2017-10-18T22:55:24+00:00",
-      "metadataLastUpdated": "2025-07-11T14:17:13.249233+00:00"
+      "metadataLastUpdated": "2025-07-15T20:29:31.522108+00:00"
     },
     "permissions": {
       "usageType": "governmentWideReuse",
@@ -892,7 +892,7 @@
     "date": {
       "created": "2017-09-29T13:35:20+00:00",
       "lastModified": "2017-12-05T16:47:06+00:00",
-      "metadataLastUpdated": "2025-07-11T14:17:15.182558+00:00"
+      "metadataLastUpdated": "2025-07-15T20:29:33.487123+00:00"
     },
     "permissions": {
       "usageType": "governmentWideReuse",
@@ -923,7 +923,7 @@
     "date": {
       "created": "2017-09-29T13:35:57+00:00",
       "lastModified": "2017-12-05T16:16:14+00:00",
-      "metadataLastUpdated": "2025-07-11T14:17:17.093220+00:00"
+      "metadataLastUpdated": "2025-07-15T20:29:35.378893+00:00"
     },
     "permissions": {
       "usageType": "governmentWideReuse",
@@ -952,7 +952,7 @@
     "date": {
       "created": "2017-09-29T13:36:31+00:00",
       "lastModified": "2017-11-16T04:29:12+00:00",
-      "metadataLastUpdated": "2025-07-11T14:17:18.977058+00:00"
+      "metadataLastUpdated": "2025-07-15T20:29:37.277439+00:00"
     },
     "permissions": {
       "usageType": "governmentWideReuse",
@@ -981,7 +981,7 @@
     "date": {
       "created": "2017-09-29T13:37:12+00:00",
       "lastModified": "2017-11-15T20:52:39+00:00",
-      "metadataLastUpdated": "2025-07-11T14:17:20.834286+00:00"
+      "metadataLastUpdated": "2025-07-15T20:29:39.176927+00:00"
     },
     "permissions": {
       "usageType": "governmentWideReuse",
@@ -1010,7 +1010,7 @@
     "date": {
       "created": "2017-09-29T13:38:13+00:00",
       "lastModified": "2017-10-19T17:52:27+00:00",
-      "metadataLastUpdated": "2025-07-11T14:17:22.715474+00:00"
+      "metadataLastUpdated": "2025-07-15T20:29:41.126409+00:00"
     },
     "permissions": {
       "usageType": "governmentWideReuse",
@@ -1039,7 +1039,7 @@
     "date": {
       "created": "2017-09-29T13:39:10+00:00",
       "lastModified": "2017-10-25T19:15:06+00:00",
-      "metadataLastUpdated": "2025-07-11T14:17:24.519832+00:00"
+      "metadataLastUpdated": "2025-07-15T20:29:43.018307+00:00"
     },
     "permissions": {
       "usageType": "governmentWideReuse",
@@ -1068,7 +1068,7 @@
     "date": {
       "created": "2017-09-29T13:39:37+00:00",
       "lastModified": "2017-10-19T17:32:32+00:00",
-      "metadataLastUpdated": "2025-07-11T14:17:26.334350+00:00"
+      "metadataLastUpdated": "2025-07-15T20:29:44.912508+00:00"
     },
     "permissions": {
       "usageType": "governmentWideReuse",
@@ -1097,7 +1097,7 @@
     "date": {
       "created": "2017-10-30T13:47:58+00:00",
       "lastModified": "2017-12-04T02:30:14+00:00",
-      "metadataLastUpdated": "2025-07-11T14:17:28.279577+00:00"
+      "metadataLastUpdated": "2025-07-15T20:29:46.855637+00:00"
     },
     "permissions": {
       "usageType": "openSource",
@@ -1136,7 +1136,7 @@
     "date": {
       "created": "2017-11-27T19:39:08+00:00",
       "lastModified": "2017-12-09T00:15:41+00:00",
-      "metadataLastUpdated": "2025-07-11T14:17:30.134342+00:00"
+      "metadataLastUpdated": "2025-07-15T20:29:48.821983+00:00"
     },
     "permissions": {
       "usageType": "openSource",
@@ -1175,7 +1175,7 @@
     "date": {
       "created": "2017-11-28T12:10:17+00:00",
       "lastModified": "2017-12-06T21:21:31+00:00",
-      "metadataLastUpdated": "2025-07-11T14:17:31.985417+00:00"
+      "metadataLastUpdated": "2025-07-15T20:29:50.735578+00:00"
     },
     "permissions": {
       "usageType": "openSource",
@@ -1213,7 +1213,7 @@
     "date": {
       "created": "2017-11-28T12:11:30+00:00",
       "lastModified": "2017-12-06T03:27:34+00:00",
-      "metadataLastUpdated": "2025-07-11T14:17:33.806892+00:00"
+      "metadataLastUpdated": "2025-07-15T20:29:52.624736+00:00"
     },
     "permissions": {
       "usageType": "openSource",
@@ -1251,7 +1251,7 @@
     "date": {
       "created": "2017-11-28T12:12:37+00:00",
       "lastModified": "2017-12-03T15:52:29+00:00",
-      "metadataLastUpdated": "2025-07-11T14:17:35.757878+00:00"
+      "metadataLastUpdated": "2025-07-15T20:29:54.469439+00:00"
     },
     "permissions": {
       "usageType": "openSource",
@@ -1293,7 +1293,7 @@
     "date": {
       "created": "2017-11-28T12:13:41+00:00",
       "lastModified": "2017-12-10T21:51:24+00:00",
-      "metadataLastUpdated": "2025-07-11T14:17:37.715716+00:00"
+      "metadataLastUpdated": "2025-07-15T20:29:56.467540+00:00"
     },
     "permissions": {
       "usageType": "openSource",
@@ -1330,7 +1330,7 @@
     "date": {
       "created": "2017-11-28T12:14:28+00:00",
       "lastModified": "2018-03-17T12:16:26+00:00",
-      "metadataLastUpdated": "2025-07-11T14:17:39.515899+00:00"
+      "metadataLastUpdated": "2025-07-15T20:29:58.330481+00:00"
     },
     "permissions": {
       "usageType": "openSource",
@@ -1367,7 +1367,7 @@
     "date": {
       "created": "2017-11-28T12:15:20+00:00",
       "lastModified": "2017-12-04T14:44:51+00:00",
-      "metadataLastUpdated": "2025-07-11T14:17:41.330189+00:00"
+      "metadataLastUpdated": "2025-07-15T20:30:00.211086+00:00"
     },
     "permissions": {
       "usageType": "openSource",
@@ -1405,7 +1405,7 @@
     "date": {
       "created": "2017-11-28T12:16:11+00:00",
       "lastModified": "2017-12-06T04:55:27+00:00",
-      "metadataLastUpdated": "2025-07-11T14:17:43.149365+00:00"
+      "metadataLastUpdated": "2025-07-15T20:30:02.188328+00:00"
     },
     "permissions": {
       "usageType": "openSource",
@@ -1444,7 +1444,7 @@
     "date": {
       "created": "2017-11-28T12:16:58+00:00",
       "lastModified": "2018-07-31T18:14:13+00:00",
-      "metadataLastUpdated": "2025-07-11T14:17:45.041870+00:00"
+      "metadataLastUpdated": "2025-07-15T20:30:04.129553+00:00"
     },
     "permissions": {
       "usageType": "openSource",
@@ -1479,7 +1479,7 @@
     "date": {
       "created": "2017-12-06T16:46:57+00:00",
       "lastModified": "2023-08-25T19:57:42+00:00",
-      "metadataLastUpdated": "2025-07-11T14:17:46.822716+00:00"
+      "metadataLastUpdated": "2025-07-15T20:30:06.003598+00:00"
     },
     "permissions": {
       "usageType": "governmentWideReuse",
@@ -1510,7 +1510,7 @@
     "date": {
       "created": "2017-12-12T19:54:01+00:00",
       "lastModified": "2020-07-22T17:46:23+00:00",
-      "metadataLastUpdated": "2025-07-11T14:17:48.717509+00:00"
+      "metadataLastUpdated": "2025-07-15T20:30:07.947646+00:00"
     },
     "permissions": {
       "usageType": "openSource",
@@ -1549,7 +1549,7 @@
     "date": {
       "created": "2017-12-25T13:53:12+00:00",
       "lastModified": "2018-07-31T18:14:44+00:00",
-      "metadataLastUpdated": "2025-07-11T14:17:50.533104+00:00"
+      "metadataLastUpdated": "2025-07-15T20:30:09.853273+00:00"
     },
     "permissions": {
       "usageType": "openSource",
@@ -1584,7 +1584,7 @@
     "date": {
       "created": "2018-01-18T15:39:50+00:00",
       "lastModified": "2019-12-12T19:13:06+00:00",
-      "metadataLastUpdated": "2025-07-11T14:17:52.350706+00:00"
+      "metadataLastUpdated": "2025-07-15T20:30:11.755945+00:00"
     },
     "permissions": {
       "usageType": "openSource",
@@ -1620,7 +1620,7 @@
     "date": {
       "created": "2018-02-07T17:29:33+00:00",
       "lastModified": "2020-10-15T17:50:16+00:00",
-      "metadataLastUpdated": "2025-07-11T14:17:54.157175+00:00"
+      "metadataLastUpdated": "2025-07-15T20:30:13.719481+00:00"
     },
     "permissions": {
       "usageType": "openSource",
@@ -1657,7 +1657,7 @@
     "date": {
       "created": "2018-02-07T20:31:06+00:00",
       "lastModified": "2024-02-27T18:25:26+00:00",
-      "metadataLastUpdated": "2025-07-11T14:17:56.068245+00:00"
+      "metadataLastUpdated": "2025-07-15T20:30:15.639870+00:00"
     },
     "permissions": {
       "usageType": "openSource",
@@ -1692,7 +1692,7 @@
     "date": {
       "created": "2018-03-05T16:26:44+00:00",
       "lastModified": "2018-03-30T13:04:45+00:00",
-      "metadataLastUpdated": "2025-07-11T14:17:57.920250+00:00"
+      "metadataLastUpdated": "2025-07-15T20:30:17.543622+00:00"
     },
     "permissions": {
       "usageType": "governmentWideReuse",
@@ -1725,7 +1725,7 @@
     "date": {
       "created": "2018-03-19T20:35:49+00:00",
       "lastModified": "2018-03-19T20:36:25+00:00",
-      "metadataLastUpdated": "2025-07-11T14:17:59.783422+00:00"
+      "metadataLastUpdated": "2025-07-15T20:30:19.394572+00:00"
     },
     "permissions": {
       "usageType": "governmentWideReuse",
@@ -1756,7 +1756,7 @@
     "date": {
       "created": "2018-03-28T02:31:16+00:00",
       "lastModified": "2018-03-28T02:42:25+00:00",
-      "metadataLastUpdated": "2025-07-11T14:18:01.645598+00:00"
+      "metadataLastUpdated": "2025-07-15T20:30:21.347638+00:00"
     },
     "permissions": {
       "usageType": "governmentWideReuse",
@@ -1785,7 +1785,7 @@
     "date": {
       "created": "2018-03-30T19:45:48+00:00",
       "lastModified": "2018-04-04T04:02:05+00:00",
-      "metadataLastUpdated": "2025-07-11T14:18:03.426644+00:00"
+      "metadataLastUpdated": "2025-07-15T20:30:23.246190+00:00"
     },
     "permissions": {
       "usageType": "openSource",
@@ -1818,7 +1818,7 @@
     "date": {
       "created": "2018-04-03T00:41:29+00:00",
       "lastModified": "2018-11-09T14:49:11+00:00",
-      "metadataLastUpdated": "2025-07-11T14:18:05.232286+00:00"
+      "metadataLastUpdated": "2025-07-15T20:30:25.174928+00:00"
     },
     "permissions": {
       "usageType": "governmentWideReuse",
@@ -1855,7 +1855,7 @@
     "date": {
       "created": "2018-04-03T00:54:18+00:00",
       "lastModified": "2023-03-02T07:44:40+00:00",
-      "metadataLastUpdated": "2025-07-11T14:18:07.106504+00:00"
+      "metadataLastUpdated": "2025-07-15T20:30:27.091359+00:00"
     },
     "permissions": {
       "usageType": "openSource",
@@ -1890,7 +1890,7 @@
     "date": {
       "created": "2018-04-03T01:04:02+00:00",
       "lastModified": "2018-10-30T22:42:17+00:00",
-      "metadataLastUpdated": "2025-07-11T14:18:08.927681+00:00"
+      "metadataLastUpdated": "2025-07-15T20:30:29.070412+00:00"
     },
     "permissions": {
       "usageType": "openSource",
@@ -1926,7 +1926,7 @@
     "date": {
       "created": "2018-04-03T14:24:21+00:00",
       "lastModified": "2019-02-13T20:03:19+00:00",
-      "metadataLastUpdated": "2025-07-11T14:18:10.728453+00:00"
+      "metadataLastUpdated": "2025-07-15T20:30:30.950311+00:00"
     },
     "permissions": {
       "usageType": "openSource",
@@ -1961,7 +1961,7 @@
     "date": {
       "created": "2018-04-03T14:35:29+00:00",
       "lastModified": "2018-09-25T20:03:09+00:00",
-      "metadataLastUpdated": "2025-07-11T14:18:12.549903+00:00"
+      "metadataLastUpdated": "2025-07-15T20:30:32.843622+00:00"
     },
     "permissions": {
       "usageType": "openSource",
@@ -2000,7 +2000,7 @@
     "date": {
       "created": "2018-04-03T14:53:25+00:00",
       "lastModified": "2019-01-03T23:57:34+00:00",
-      "metadataLastUpdated": "2025-07-11T14:18:14.328157+00:00"
+      "metadataLastUpdated": "2025-07-15T20:30:34.724073+00:00"
     },
     "permissions": {
       "usageType": "openSource",
@@ -2038,7 +2038,7 @@
     "date": {
       "created": "2018-04-03T15:08:52+00:00",
       "lastModified": "2019-01-03T17:41:14+00:00",
-      "metadataLastUpdated": "2025-07-11T14:18:16.121290+00:00"
+      "metadataLastUpdated": "2025-07-15T20:30:36.566191+00:00"
     },
     "permissions": {
       "usageType": "openSource",
@@ -2076,7 +2076,7 @@
     "date": {
       "created": "2018-04-03T15:11:30+00:00",
       "lastModified": "2019-01-03T17:10:17+00:00",
-      "metadataLastUpdated": "2025-07-11T14:18:17.985018+00:00"
+      "metadataLastUpdated": "2025-07-15T20:30:38.484574+00:00"
     },
     "permissions": {
       "usageType": "openSource",
@@ -2114,7 +2114,7 @@
     "date": {
       "created": "2018-04-03T15:13:57+00:00",
       "lastModified": "2019-01-03T17:54:35+00:00",
-      "metadataLastUpdated": "2025-07-11T14:18:19.828226+00:00"
+      "metadataLastUpdated": "2025-07-15T20:30:40.398052+00:00"
     },
     "permissions": {
       "usageType": "openSource",
@@ -2153,7 +2153,7 @@
     "date": {
       "created": "2018-04-03T15:15:23+00:00",
       "lastModified": "2020-06-18T17:23:35+00:00",
-      "metadataLastUpdated": "2025-07-11T14:18:21.656193+00:00"
+      "metadataLastUpdated": "2025-07-15T20:30:42.365486+00:00"
     },
     "permissions": {
       "usageType": "openSource",
@@ -2192,7 +2192,7 @@
     "date": {
       "created": "2018-04-03T15:18:26+00:00",
       "lastModified": "2019-01-03T17:42:55+00:00",
-      "metadataLastUpdated": "2025-07-11T14:18:23.445106+00:00"
+      "metadataLastUpdated": "2025-07-15T20:30:44.196540+00:00"
     },
     "permissions": {
       "usageType": "openSource",
@@ -2231,7 +2231,7 @@
     "date": {
       "created": "2018-04-03T15:20:56+00:00",
       "lastModified": "2019-02-13T20:02:21+00:00",
-      "metadataLastUpdated": "2025-07-11T14:18:25.223389+00:00"
+      "metadataLastUpdated": "2025-07-15T20:30:46.116598+00:00"
     },
     "permissions": {
       "usageType": "openSource",
@@ -2269,7 +2269,7 @@
     "date": {
       "created": "2018-04-03T15:22:44+00:00",
       "lastModified": "2019-01-03T18:07:59+00:00",
-      "metadataLastUpdated": "2025-07-11T14:18:27.076736+00:00"
+      "metadataLastUpdated": "2025-07-15T20:30:48.071028+00:00"
     },
     "permissions": {
       "usageType": "openSource",
@@ -2306,7 +2306,7 @@
     "date": {
       "created": "2018-04-06T15:09:16+00:00",
       "lastModified": "2018-08-23T13:13:30+00:00",
-      "metadataLastUpdated": "2025-07-11T14:18:28.959444+00:00"
+      "metadataLastUpdated": "2025-07-15T20:30:49.995456+00:00"
     },
     "permissions": {
       "usageType": "openSource",
@@ -2339,7 +2339,7 @@
     "date": {
       "created": "2018-04-16T14:50:29+00:00",
       "lastModified": "2019-01-16T23:35:45+00:00",
-      "metadataLastUpdated": "2025-07-11T14:18:30.736294+00:00"
+      "metadataLastUpdated": "2025-07-15T20:30:51.844715+00:00"
     },
     "permissions": {
       "usageType": "governmentWideReuse",
@@ -2368,7 +2368,7 @@
     "date": {
       "created": "2018-06-21T15:19:28+00:00",
       "lastModified": "2018-06-27T16:48:07+00:00",
-      "metadataLastUpdated": "2025-07-11T14:18:32.532095+00:00"
+      "metadataLastUpdated": "2025-07-15T20:30:53.712382+00:00"
     },
     "permissions": {
       "usageType": "governmentWideReuse",
@@ -2408,7 +2408,7 @@
     "date": {
       "created": "2018-08-08T18:13:48+00:00",
       "lastModified": "2024-03-21T16:06:54+00:00",
-      "metadataLastUpdated": "2025-07-11T14:18:34.451227+00:00"
+      "metadataLastUpdated": "2025-07-15T20:30:55.633005+00:00"
     },
     "permissions": {
       "usageType": "openSource",
@@ -2446,7 +2446,7 @@
     "date": {
       "created": "2018-08-09T13:55:42+00:00",
       "lastModified": "2019-01-03T19:07:28+00:00",
-      "metadataLastUpdated": "2025-07-11T14:18:36.271173+00:00"
+      "metadataLastUpdated": "2025-07-15T20:30:57.530667+00:00"
     },
     "permissions": {
       "usageType": "openSource",
@@ -2484,7 +2484,7 @@
     "date": {
       "created": "2018-08-09T14:18:02+00:00",
       "lastModified": "2019-01-03T19:24:09+00:00",
-      "metadataLastUpdated": "2025-07-11T14:18:38.198246+00:00"
+      "metadataLastUpdated": "2025-07-15T20:30:59.538914+00:00"
     },
     "permissions": {
       "usageType": "openSource",
@@ -2522,7 +2522,7 @@
     "date": {
       "created": "2018-08-09T14:25:21+00:00",
       "lastModified": "2018-11-23T16:33:01+00:00",
-      "metadataLastUpdated": "2025-07-11T14:18:40.020615+00:00"
+      "metadataLastUpdated": "2025-07-15T20:31:01.413437+00:00"
     },
     "permissions": {
       "usageType": "openSource",
@@ -2555,7 +2555,7 @@
     "date": {
       "created": "2018-08-09T14:44:43+00:00",
       "lastModified": "2018-08-09T14:46:02+00:00",
-      "metadataLastUpdated": "2025-07-11T14:18:41.800489+00:00"
+      "metadataLastUpdated": "2025-07-15T20:31:03.282778+00:00"
     },
     "permissions": {
       "usageType": "governmentWideReuse",
@@ -2586,7 +2586,7 @@
     "date": {
       "created": "2018-09-06T17:57:49+00:00",
       "lastModified": "2018-09-25T20:10:50+00:00",
-      "metadataLastUpdated": "2025-07-11T14:18:43.628811+00:00"
+      "metadataLastUpdated": "2025-07-15T20:31:05.176400+00:00"
     },
     "permissions": {
       "usageType": "openSource",
@@ -2619,7 +2619,7 @@
     "date": {
       "created": "2018-10-04T18:04:10+00:00",
       "lastModified": "2018-10-24T18:36:24+00:00",
-      "metadataLastUpdated": "2025-07-11T14:18:45.508018+00:00"
+      "metadataLastUpdated": "2025-07-15T20:31:07.080530+00:00"
     },
     "permissions": {
       "usageType": "governmentWideReuse",
@@ -2655,7 +2655,7 @@
     "date": {
       "created": "2018-10-31T18:38:26+00:00",
       "lastModified": "2018-11-13T18:06:04+00:00",
-      "metadataLastUpdated": "2025-07-11T14:18:47.335372+00:00"
+      "metadataLastUpdated": "2025-07-15T20:31:09.096316+00:00"
     },
     "permissions": {
       "usageType": "openSource",
@@ -2691,7 +2691,7 @@
     "date": {
       "created": "2018-11-01T14:31:18+00:00",
       "lastModified": "2019-04-18T18:58:40+00:00",
-      "metadataLastUpdated": "2025-07-11T14:18:49.184633+00:00"
+      "metadataLastUpdated": "2025-07-15T20:31:11.010442+00:00"
     },
     "permissions": {
       "usageType": "openSource",
@@ -2727,7 +2727,7 @@
     "date": {
       "created": "2018-11-01T19:10:54+00:00",
       "lastModified": "2019-02-05T23:13:41+00:00",
-      "metadataLastUpdated": "2025-07-11T14:18:51.021099+00:00"
+      "metadataLastUpdated": "2025-07-15T20:31:12.990950+00:00"
     },
     "permissions": {
       "usageType": "governmentWideReuse",
@@ -2759,7 +2759,7 @@
     "date": {
       "created": "2018-11-05T17:26:14+00:00",
       "lastModified": "2018-11-05T17:45:09+00:00",
-      "metadataLastUpdated": "2025-07-11T14:18:52.792257+00:00"
+      "metadataLastUpdated": "2025-07-15T20:31:14.912893+00:00"
     },
     "permissions": {
       "usageType": "openSource",
@@ -2799,7 +2799,7 @@
     "date": {
       "created": "2018-11-13T17:16:31+00:00",
       "lastModified": "2019-01-03T19:29:35+00:00",
-      "metadataLastUpdated": "2025-07-11T14:18:54.640270+00:00"
+      "metadataLastUpdated": "2025-07-15T20:31:16.827027+00:00"
     },
     "permissions": {
       "usageType": "governmentWideReuse",
@@ -2832,7 +2832,7 @@
     "date": {
       "created": "2018-11-13T22:00:07+00:00",
       "lastModified": "2019-08-20T20:14:05+00:00",
-      "metadataLastUpdated": "2025-07-11T14:18:56.459225+00:00"
+      "metadataLastUpdated": "2025-07-15T20:31:18.676597+00:00"
     },
     "permissions": {
       "usageType": "governmentWideReuse",
@@ -2866,7 +2866,7 @@
     "date": {
       "created": "2018-12-04T17:21:36+00:00",
       "lastModified": "2025-05-20T17:58:19+00:00",
-      "metadataLastUpdated": "2025-07-11T14:18:58.419012+00:00"
+      "metadataLastUpdated": "2025-07-15T20:31:20.587275+00:00"
     },
     "permissions": {
       "usageType": "openSource",
@@ -2903,7 +2903,7 @@
     "date": {
       "created": "2018-12-07T21:26:41+00:00",
       "lastModified": "2019-01-03T21:44:56+00:00",
-      "metadataLastUpdated": "2025-07-11T14:19:00.248089+00:00"
+      "metadataLastUpdated": "2025-07-15T20:31:22.551340+00:00"
     },
     "permissions": {
       "usageType": "openSource",
@@ -2938,7 +2938,7 @@
     "date": {
       "created": "2018-12-14T18:42:08+00:00",
       "lastModified": "2020-09-15T17:05:50+00:00",
-      "metadataLastUpdated": "2025-07-11T14:19:02.137740+00:00"
+      "metadataLastUpdated": "2025-07-15T20:31:24.427280+00:00"
     },
     "permissions": {
       "usageType": "openSource",
@@ -2971,7 +2971,7 @@
     "date": {
       "created": "2018-12-20T19:24:00+00:00",
       "lastModified": "2018-12-20T19:24:02+00:00",
-      "metadataLastUpdated": "2025-07-11T14:19:03.933219+00:00"
+      "metadataLastUpdated": "2025-07-15T20:31:26.330214+00:00"
     },
     "permissions": {
       "usageType": "openSource",
@@ -3006,7 +3006,7 @@
     "date": {
       "created": "2019-01-03T16:56:49+00:00",
       "lastModified": "2019-08-05T20:49:59+00:00",
-      "metadataLastUpdated": "2025-07-11T14:19:05.938775+00:00"
+      "metadataLastUpdated": "2025-07-15T20:31:28.289243+00:00"
     },
     "permissions": {
       "usageType": "openSource",
@@ -3042,7 +3042,7 @@
     "date": {
       "created": "2019-01-14T14:54:51+00:00",
       "lastModified": "2025-05-20T13:40:10+00:00",
-      "metadataLastUpdated": "2025-07-11T14:19:07.784097+00:00"
+      "metadataLastUpdated": "2025-07-15T20:31:30.231177+00:00"
     },
     "permissions": {
       "usageType": "openSource",
@@ -3078,7 +3078,7 @@
     "date": {
       "created": "2019-01-17T16:46:37+00:00",
       "lastModified": "2022-02-02T20:42:10+00:00",
-      "metadataLastUpdated": "2025-07-11T14:19:09.729521+00:00"
+      "metadataLastUpdated": "2025-07-15T20:31:32.138210+00:00"
     },
     "permissions": {
       "usageType": "openSource",
@@ -3117,7 +3117,7 @@
     "date": {
       "created": "2019-03-07T21:52:06+00:00",
       "lastModified": "2019-03-08T00:10:37+00:00",
-      "metadataLastUpdated": "2025-07-11T14:19:11.589575+00:00"
+      "metadataLastUpdated": "2025-07-15T20:31:34.030497+00:00"
     },
     "permissions": {
       "usageType": "openSource",
@@ -3152,7 +3152,7 @@
     "date": {
       "created": "2019-03-18T20:45:08+00:00",
       "lastModified": "2019-05-01T02:21:44+00:00",
-      "metadataLastUpdated": "2025-07-11T14:19:13.363147+00:00"
+      "metadataLastUpdated": "2025-07-15T20:31:35.972386+00:00"
     },
     "permissions": {
       "usageType": "openSource",
@@ -3195,7 +3195,7 @@
     "date": {
       "created": "2019-03-19T16:38:08+00:00",
       "lastModified": "2020-05-20T22:29:16+00:00",
-      "metadataLastUpdated": "2025-07-11T14:19:15.784837+00:00"
+      "metadataLastUpdated": "2025-07-15T20:31:37.954493+00:00"
     },
     "permissions": {
       "usageType": "openSource",
@@ -3232,7 +3232,7 @@
     "date": {
       "created": "2019-04-17T16:17:24+00:00",
       "lastModified": "2019-04-17T16:22:15+00:00",
-      "metadataLastUpdated": "2025-07-11T14:19:17.554683+00:00"
+      "metadataLastUpdated": "2025-07-15T20:31:39.797772+00:00"
     },
     "permissions": {
       "usageType": "openSource",
@@ -3268,7 +3268,7 @@
     "date": {
       "created": "2019-04-23T15:07:04+00:00",
       "lastModified": "2019-04-30T17:49:11+00:00",
-      "metadataLastUpdated": "2025-07-11T14:19:19.484741+00:00"
+      "metadataLastUpdated": "2025-07-15T20:31:41.748728+00:00"
     },
     "permissions": {
       "usageType": "openSource",
@@ -3305,7 +3305,7 @@
     "date": {
       "created": "2019-05-15T20:06:25+00:00",
       "lastModified": "2023-11-03T20:29:54+00:00",
-      "metadataLastUpdated": "2025-07-11T14:19:21.355610+00:00"
+      "metadataLastUpdated": "2025-07-15T20:31:43.658965+00:00"
     },
     "permissions": {
       "usageType": "openSource",
@@ -3340,7 +3340,7 @@
     "date": {
       "created": "2019-05-24T20:01:04+00:00",
       "lastModified": "2019-05-24T20:02:16+00:00",
-      "metadataLastUpdated": "2025-07-11T14:19:23.161103+00:00"
+      "metadataLastUpdated": "2025-07-15T20:31:45.621305+00:00"
     },
     "permissions": {
       "usageType": "openSource",
@@ -3376,7 +3376,7 @@
     "date": {
       "created": "2019-06-13T14:52:59+00:00",
       "lastModified": "2020-07-30T19:24:54+00:00",
-      "metadataLastUpdated": "2025-07-11T14:19:25.049984+00:00"
+      "metadataLastUpdated": "2025-07-15T20:31:47.492741+00:00"
     },
     "permissions": {
       "usageType": "openSource",
@@ -3414,7 +3414,7 @@
     "date": {
       "created": "2019-07-17T18:25:47+00:00",
       "lastModified": "2019-07-18T19:13:28+00:00",
-      "metadataLastUpdated": "2025-07-11T14:19:26.883670+00:00"
+      "metadataLastUpdated": "2025-07-15T20:31:49.362249+00:00"
     },
     "permissions": {
       "usageType": "openSource",
@@ -3450,7 +3450,7 @@
     "date": {
       "created": "2019-07-29T21:14:07+00:00",
       "lastModified": "2019-08-07T14:38:31+00:00",
-      "metadataLastUpdated": "2025-07-11T14:19:28.712080+00:00"
+      "metadataLastUpdated": "2025-07-15T20:31:51.281869+00:00"
     },
     "permissions": {
       "usageType": "openSource",
@@ -3485,7 +3485,7 @@
     "date": {
       "created": "2019-08-07T16:06:23+00:00",
       "lastModified": "2019-08-09T14:08:12+00:00",
-      "metadataLastUpdated": "2025-07-11T14:19:30.553034+00:00"
+      "metadataLastUpdated": "2025-07-15T20:31:53.133995+00:00"
     },
     "permissions": {
       "usageType": "openSource",
@@ -3523,7 +3523,7 @@
     "date": {
       "created": "2019-08-21T21:01:42+00:00",
       "lastModified": "2021-05-21T15:49:29+00:00",
-      "metadataLastUpdated": "2025-07-11T14:19:32.303734+00:00"
+      "metadataLastUpdated": "2025-07-15T20:31:55.025044+00:00"
     },
     "permissions": {
       "usageType": "governmentWideReuse",
@@ -3556,7 +3556,7 @@
     "date": {
       "created": "2019-08-26T18:47:03+00:00",
       "lastModified": "2020-12-14T18:20:28+00:00",
-      "metadataLastUpdated": "2025-07-11T14:19:34.162125+00:00"
+      "metadataLastUpdated": "2025-07-15T20:31:56.919461+00:00"
     },
     "permissions": {
       "usageType": "openSource",
@@ -3591,7 +3591,7 @@
     "date": {
       "created": "2019-09-02T17:57:35+00:00",
       "lastModified": "2019-09-02T18:02:47+00:00",
-      "metadataLastUpdated": "2025-07-11T14:19:36.030063+00:00"
+      "metadataLastUpdated": "2025-07-15T20:31:58.845510+00:00"
     },
     "permissions": {
       "usageType": "openSource",
@@ -3638,7 +3638,7 @@
     "date": {
       "created": "2019-09-27T14:18:43+00:00",
       "lastModified": "2022-06-21T22:54:56+00:00",
-      "metadataLastUpdated": "2025-07-11T14:19:37.804972+00:00"
+      "metadataLastUpdated": "2025-07-15T20:32:00.787515+00:00"
     },
     "permissions": {
       "usageType": "governmentWideReuse",
@@ -3677,7 +3677,7 @@
     "date": {
       "created": "2019-10-07T14:07:52+00:00",
       "lastModified": "2020-01-02T13:35:23+00:00",
-      "metadataLastUpdated": "2025-07-11T14:19:39.611277+00:00"
+      "metadataLastUpdated": "2025-07-15T20:32:02.691314+00:00"
     },
     "permissions": {
       "usageType": "governmentWideReuse",
@@ -3722,7 +3722,7 @@
     "date": {
       "created": "2019-12-17T17:07:52+00:00",
       "lastModified": "2025-06-08T22:24:16+00:00",
-      "metadataLastUpdated": "2025-07-11T14:19:41.547464+00:00"
+      "metadataLastUpdated": "2025-07-15T20:32:04.600225+00:00"
     },
     "permissions": {
       "usageType": "openSource",
@@ -3758,7 +3758,7 @@
     "date": {
       "created": "2020-03-04T20:34:57+00:00",
       "lastModified": "2020-05-21T15:16:01+00:00",
-      "metadataLastUpdated": "2025-07-11T14:19:43.373939+00:00"
+      "metadataLastUpdated": "2025-07-15T20:32:06.441315+00:00"
     },
     "permissions": {
       "usageType": "governmentWideReuse",
@@ -3789,7 +3789,7 @@
     "date": {
       "created": "2020-03-18T17:46:29+00:00",
       "lastModified": "2023-04-12T16:22:04+00:00",
-      "metadataLastUpdated": "2025-07-11T14:19:45.233491+00:00"
+      "metadataLastUpdated": "2025-07-15T20:32:08.427434+00:00"
     },
     "permissions": {
       "usageType": "openSource",
@@ -3824,7 +3824,7 @@
     "date": {
       "created": "2020-03-26T16:00:17+00:00",
       "lastModified": "2022-10-04T19:52:25+00:00",
-      "metadataLastUpdated": "2025-07-11T14:19:47.088682+00:00"
+      "metadataLastUpdated": "2025-07-15T20:32:10.380710+00:00"
     },
     "permissions": {
       "usageType": "openSource",
@@ -3860,7 +3860,7 @@
     "date": {
       "created": "2020-03-27T13:17:15+00:00",
       "lastModified": "2020-05-15T19:48:36+00:00",
-      "metadataLastUpdated": "2025-07-11T14:19:48.934948+00:00"
+      "metadataLastUpdated": "2025-07-15T20:32:12.354045+00:00"
     },
     "permissions": {
       "usageType": "openSource",
@@ -3900,7 +3900,7 @@
     "date": {
       "created": "2020-03-28T23:25:47+00:00",
       "lastModified": "2022-11-08T19:51:11+00:00",
-      "metadataLastUpdated": "2025-07-11T14:19:50.793497+00:00"
+      "metadataLastUpdated": "2025-07-15T20:32:14.325403+00:00"
     },
     "permissions": {
       "usageType": "openSource",
@@ -3936,7 +3936,7 @@
     "date": {
       "created": "2020-04-03T13:39:05+00:00",
       "lastModified": "2020-05-11T14:09:40+00:00",
-      "metadataLastUpdated": "2025-07-11T14:19:52.620915+00:00"
+      "metadataLastUpdated": "2025-07-15T20:32:16.175323+00:00"
     },
     "permissions": {
       "usageType": "openSource",
@@ -3973,7 +3973,7 @@
     "date": {
       "created": "2020-04-06T20:50:11+00:00",
       "lastModified": "2022-06-22T23:05:45+00:00",
-      "metadataLastUpdated": "2025-07-11T14:19:54.480718+00:00"
+      "metadataLastUpdated": "2025-07-15T20:32:18.190360+00:00"
     },
     "permissions": {
       "usageType": "openSource",
@@ -4011,7 +4011,7 @@
     "date": {
       "created": "2020-04-06T20:52:14+00:00",
       "lastModified": "2022-09-08T13:48:26+00:00",
-      "metadataLastUpdated": "2025-07-11T14:19:56.284120+00:00"
+      "metadataLastUpdated": "2025-07-15T20:32:20.202672+00:00"
     },
     "permissions": {
       "usageType": "openSource",
@@ -4044,7 +4044,7 @@
     "date": {
       "created": "2020-04-07T16:13:38+00:00",
       "lastModified": "2020-09-08T20:09:38+00:00",
-      "metadataLastUpdated": "2025-07-11T14:19:58.135366+00:00"
+      "metadataLastUpdated": "2025-07-15T20:32:22.226706+00:00"
     },
     "permissions": {
       "usageType": "openSource",
@@ -4086,7 +4086,7 @@
     "date": {
       "created": "2020-04-15T04:10:40+00:00",
       "lastModified": "2021-06-01T19:24:19+00:00",
-      "metadataLastUpdated": "2025-07-11T14:20:00.463255+00:00"
+      "metadataLastUpdated": "2025-07-15T20:32:24.637498+00:00"
     },
     "permissions": {
       "usageType": "openSource",
@@ -4127,7 +4127,7 @@
     "date": {
       "created": "2020-06-26T18:13:46+00:00",
       "lastModified": "2023-01-04T16:24:30+00:00",
-      "metadataLastUpdated": "2025-07-11T14:20:02.279323+00:00"
+      "metadataLastUpdated": "2025-07-15T20:32:26.509502+00:00"
     },
     "permissions": {
       "usageType": "openSource",
@@ -4160,7 +4160,7 @@
     "date": {
       "created": "2020-06-30T18:36:21+00:00",
       "lastModified": "2025-05-02T15:00:18+00:00",
-      "metadataLastUpdated": "2025-07-11T14:20:04.137654+00:00"
+      "metadataLastUpdated": "2025-07-15T20:32:28.361054+00:00"
     },
     "permissions": {
       "usageType": "openSource",
@@ -4201,7 +4201,7 @@
     "date": {
       "created": "2020-07-15T16:59:43+00:00",
       "lastModified": "2023-03-21T16:28:34+00:00",
-      "metadataLastUpdated": "2025-07-11T14:20:05.997482+00:00"
+      "metadataLastUpdated": "2025-07-15T20:32:30.331617+00:00"
     },
     "permissions": {
       "usageType": "openSource",
@@ -4237,7 +4237,7 @@
     "date": {
       "created": "2020-08-12T02:46:24+00:00",
       "lastModified": "2024-08-01T08:13:06+00:00",
-      "metadataLastUpdated": "2025-07-11T14:20:07.822952+00:00"
+      "metadataLastUpdated": "2025-07-15T20:32:32.276936+00:00"
     },
     "permissions": {
       "usageType": "openSource",
@@ -4257,7 +4257,7 @@
     "description": "A Radical Alternative to Conventional Phylogenetic Tree Renderers",
     "version": "N/A",
     "laborHours": 0,
-    "status": "inactive",
+    "status": "development",
     "vcs": "git",
     "homepageURL": "https://cdcgov.github.io/PhysicsTree/",
     "repositoryURL": "https://github.com/CDCgov/PhysicsTree",
@@ -4271,8 +4271,8 @@
     },
     "date": {
       "created": "2020-08-13T02:53:03+00:00",
-      "lastModified": "2022-10-06T15:51:49+00:00",
-      "metadataLastUpdated": "2025-07-11T14:20:09.638547+00:00"
+      "lastModified": "2025-07-13T09:49:03+00:00",
+      "metadataLastUpdated": "2025-07-15T20:32:34.132560+00:00"
     },
     "permissions": {
       "usageType": "openSource",
@@ -4308,7 +4308,7 @@
     "date": {
       "created": "2020-08-24T20:44:22+00:00",
       "lastModified": "2024-05-14T14:34:31+00:00",
-      "metadataLastUpdated": "2025-07-11T14:20:11.518239+00:00"
+      "metadataLastUpdated": "2025-07-15T20:32:36.060154+00:00"
     },
     "permissions": {
       "usageType": "openSource",
@@ -4346,7 +4346,7 @@
     "date": {
       "created": "2020-09-14T18:24:33+00:00",
       "lastModified": "2023-03-15T04:04:03+00:00",
-      "metadataLastUpdated": "2025-07-11T14:20:13.420210+00:00"
+      "metadataLastUpdated": "2025-07-15T20:32:37.998243+00:00"
     },
     "permissions": {
       "usageType": "openSource",
@@ -4383,7 +4383,7 @@
     "date": {
       "created": "2020-09-15T14:05:05+00:00",
       "lastModified": "2022-03-17T19:54:12+00:00",
-      "metadataLastUpdated": "2025-07-11T14:20:15.271067+00:00"
+      "metadataLastUpdated": "2025-07-15T20:32:39.904652+00:00"
     },
     "permissions": {
       "usageType": "openSource",
@@ -4426,7 +4426,7 @@
     "date": {
       "created": "2020-09-17T21:26:41+00:00",
       "lastModified": "2024-07-09T13:43:14+00:00",
-      "metadataLastUpdated": "2025-07-11T14:20:17.085515+00:00"
+      "metadataLastUpdated": "2025-07-15T20:32:41.857859+00:00"
     },
     "permissions": {
       "usageType": "openSource",
@@ -4461,7 +4461,7 @@
     "date": {
       "created": "2020-09-18T16:39:23+00:00",
       "lastModified": "2020-10-20T15:15:21+00:00",
-      "metadataLastUpdated": "2025-07-11T14:20:18.855380+00:00"
+      "metadataLastUpdated": "2025-07-15T20:32:43.812768+00:00"
     },
     "permissions": {
       "usageType": "openSource",
@@ -4496,7 +4496,7 @@
     "date": {
       "created": "2020-09-25T16:22:55+00:00",
       "lastModified": "2020-10-02T18:42:49+00:00",
-      "metadataLastUpdated": "2025-07-11T14:20:20.679292+00:00"
+      "metadataLastUpdated": "2025-07-15T20:32:45.702359+00:00"
     },
     "permissions": {
       "usageType": "openSource",
@@ -4531,7 +4531,7 @@
     "date": {
       "created": "2020-10-07T14:08:04+00:00",
       "lastModified": "2020-10-15T16:16:55+00:00",
-      "metadataLastUpdated": "2025-07-11T14:20:22.462231+00:00"
+      "metadataLastUpdated": "2025-07-15T20:32:47.584627+00:00"
     },
     "permissions": {
       "usageType": "governmentWideReuse",
@@ -4578,8 +4578,8 @@
     },
     "date": {
       "created": "2020-10-08T15:41:03+00:00",
-      "lastModified": "2025-07-10T20:17:13+00:00",
-      "metadataLastUpdated": "2025-07-11T14:20:26.230343+00:00"
+      "lastModified": "2025-07-15T19:39:03+00:00",
+      "metadataLastUpdated": "2025-07-15T20:32:51.454448+00:00"
     },
     "permissions": {
       "usageType": "openSource",
@@ -4612,7 +4612,7 @@
     "date": {
       "created": "2020-10-14T13:13:01+00:00",
       "lastModified": "2020-10-14T13:13:04+00:00",
-      "metadataLastUpdated": "2025-07-11T14:20:28.095859+00:00"
+      "metadataLastUpdated": "2025-07-15T20:32:53.338085+00:00"
     },
     "permissions": {
       "usageType": "openSource",
@@ -4667,8 +4667,8 @@
     },
     "date": {
       "created": "2020-10-15T19:03:50+00:00",
-      "lastModified": "2025-07-10T19:12:03+00:00",
-      "metadataLastUpdated": "2025-07-11T14:20:33.460600+00:00"
+      "lastModified": "2025-07-15T18:09:09+00:00",
+      "metadataLastUpdated": "2025-07-15T20:32:58.812416+00:00"
     },
     "permissions": {
       "usageType": "openSource",
@@ -4704,7 +4704,7 @@
     "date": {
       "created": "2020-10-29T12:20:39+00:00",
       "lastModified": "2021-03-08T15:33:09+00:00",
-      "metadataLastUpdated": "2025-07-11T14:20:35.327850+00:00"
+      "metadataLastUpdated": "2025-07-15T20:33:00.823593+00:00"
     },
     "permissions": {
       "usageType": "openSource",
@@ -4742,8 +4742,8 @@
     },
     "date": {
       "created": "2020-11-17T16:52:27+00:00",
-      "lastModified": "2025-07-08T18:10:17+00:00",
-      "metadataLastUpdated": "2025-07-11T14:20:37.181301+00:00"
+      "lastModified": "2025-07-14T08:19:18+00:00",
+      "metadataLastUpdated": "2025-07-15T20:33:02.699546+00:00"
     },
     "permissions": {
       "usageType": "openSource",
@@ -4776,7 +4776,7 @@
     "date": {
       "created": "2020-12-02T20:05:42+00:00",
       "lastModified": "2024-04-24T18:07:24+00:00",
-      "metadataLastUpdated": "2025-07-11T14:20:39.031043+00:00"
+      "metadataLastUpdated": "2025-07-15T20:33:04.680600+00:00"
     },
     "permissions": {
       "usageType": "openSource",
@@ -4812,7 +4812,7 @@
     "date": {
       "created": "2020-12-10T19:32:37+00:00",
       "lastModified": "2022-12-08T07:37:50+00:00",
-      "metadataLastUpdated": "2025-07-11T14:20:40.882780+00:00"
+      "metadataLastUpdated": "2025-07-15T20:33:06.585100+00:00"
     },
     "permissions": {
       "usageType": "openSource",
@@ -4857,8 +4857,8 @@
     },
     "date": {
       "created": "2020-12-14T16:41:58+00:00",
-      "lastModified": "2025-07-10T21:47:06+00:00",
-      "metadataLastUpdated": "2025-07-11T14:20:47.785153+00:00"
+      "lastModified": "2025-07-14T19:44:31+00:00",
+      "metadataLastUpdated": "2025-07-15T20:33:13.577001+00:00"
     },
     "permissions": {
       "usageType": "openSource",
@@ -4895,7 +4895,7 @@
     "date": {
       "created": "2020-12-15T14:31:42+00:00",
       "lastModified": "2025-03-31T19:13:39+00:00",
-      "metadataLastUpdated": "2025-07-11T14:20:49.626748+00:00"
+      "metadataLastUpdated": "2025-07-15T20:33:15.510981+00:00"
     },
     "permissions": {
       "usageType": "openSource",
@@ -4931,7 +4931,7 @@
     "date": {
       "created": "2021-01-25T18:17:03+00:00",
       "lastModified": "2021-04-08T18:24:12+00:00",
-      "metadataLastUpdated": "2025-07-11T14:20:51.503332+00:00"
+      "metadataLastUpdated": "2025-07-15T20:33:17.421276+00:00"
     },
     "permissions": {
       "usageType": "openSource",
@@ -4968,7 +4968,7 @@
     "date": {
       "created": "2021-02-11T18:33:07+00:00",
       "lastModified": "2022-07-08T13:17:20+00:00",
-      "metadataLastUpdated": "2025-07-11T14:20:53.372566+00:00"
+      "metadataLastUpdated": "2025-07-15T20:33:19.394933+00:00"
     },
     "permissions": {
       "usageType": "openSource",
@@ -5007,7 +5007,7 @@
     "date": {
       "created": "2021-02-22T14:40:40+00:00",
       "lastModified": "2024-02-02T19:43:54+00:00",
-      "metadataLastUpdated": "2025-07-11T14:20:55.247370+00:00"
+      "metadataLastUpdated": "2025-07-15T20:33:21.313115+00:00"
     },
     "permissions": {
       "usageType": "openSource",
@@ -5040,7 +5040,7 @@
     "date": {
       "created": "2021-02-22T15:59:05+00:00",
       "lastModified": "2021-12-03T18:38:33+00:00",
-      "metadataLastUpdated": "2025-07-11T14:20:57.152377+00:00"
+      "metadataLastUpdated": "2025-07-15T20:33:23.250730+00:00"
     },
     "permissions": {
       "usageType": "openSource",
@@ -5075,7 +5075,7 @@
     "date": {
       "created": "2021-02-24T15:13:33+00:00",
       "lastModified": "2023-08-17T19:57:19+00:00",
-      "metadataLastUpdated": "2025-07-11T14:20:59.108029+00:00"
+      "metadataLastUpdated": "2025-07-15T20:33:25.195065+00:00"
     },
     "permissions": {
       "usageType": "openSource",
@@ -5108,7 +5108,7 @@
     "date": {
       "created": "2021-02-24T18:08:13+00:00",
       "lastModified": "2021-12-03T18:40:04+00:00",
-      "metadataLastUpdated": "2025-07-11T14:21:00.975071+00:00"
+      "metadataLastUpdated": "2025-07-15T20:33:27.144207+00:00"
     },
     "permissions": {
       "usageType": "openSource",
@@ -5141,7 +5141,7 @@
     "date": {
       "created": "2021-02-24T18:26:29+00:00",
       "lastModified": "2021-12-03T18:41:15+00:00",
-      "metadataLastUpdated": "2025-07-11T14:21:02.959232+00:00"
+      "metadataLastUpdated": "2025-07-15T20:33:29.047539+00:00"
     },
     "permissions": {
       "usageType": "openSource",
@@ -5174,7 +5174,7 @@
     "date": {
       "created": "2021-03-18T19:16:41+00:00",
       "lastModified": "2021-03-18T19:16:42+00:00",
-      "metadataLastUpdated": "2025-07-11T14:21:04.765451+00:00"
+      "metadataLastUpdated": "2025-07-15T20:33:30.989326+00:00"
     },
     "permissions": {
       "usageType": "openSource",
@@ -5209,7 +5209,7 @@
     "date": {
       "created": "2021-03-24T20:32:33+00:00",
       "lastModified": "2021-04-02T19:49:27+00:00",
-      "metadataLastUpdated": "2025-07-11T14:21:06.760267+00:00"
+      "metadataLastUpdated": "2025-07-15T20:33:32.930100+00:00"
     },
     "permissions": {
       "usageType": "openSource",
@@ -5242,7 +5242,7 @@
     "date": {
       "created": "2021-04-01T19:18:29+00:00",
       "lastModified": "2023-08-29T18:56:31+00:00",
-      "metadataLastUpdated": "2025-07-11T14:21:08.631186+00:00"
+      "metadataLastUpdated": "2025-07-15T20:33:34.823246+00:00"
     },
     "permissions": {
       "usageType": "openSource",
@@ -5275,7 +5275,7 @@
     "date": {
       "created": "2021-04-02T16:55:37+00:00",
       "lastModified": "2021-04-02T16:55:38+00:00",
-      "metadataLastUpdated": "2025-07-11T14:21:10.447919+00:00"
+      "metadataLastUpdated": "2025-07-15T20:33:36.660123+00:00"
     },
     "permissions": {
       "usageType": "openSource",
@@ -5318,7 +5318,7 @@
     "date": {
       "created": "2021-04-07T15:10:03+00:00",
       "lastModified": "2022-06-03T06:09:30+00:00",
-      "metadataLastUpdated": "2025-07-11T14:21:12.274011+00:00"
+      "metadataLastUpdated": "2025-07-15T20:33:38.627228+00:00"
     },
     "permissions": {
       "usageType": "openSource",
@@ -5360,7 +5360,7 @@
     "date": {
       "created": "2021-04-21T15:32:24+00:00",
       "lastModified": "2024-07-21T14:04:00+00:00",
-      "metadataLastUpdated": "2025-07-11T14:21:14.147042+00:00"
+      "metadataLastUpdated": "2025-07-15T20:33:40.494771+00:00"
     },
     "permissions": {
       "usageType": "openSource",
@@ -5395,7 +5395,7 @@
     "date": {
       "created": "2021-05-12T16:40:17+00:00",
       "lastModified": "2025-07-09T15:19:19+00:00",
-      "metadataLastUpdated": "2025-07-11T14:21:15.959823+00:00"
+      "metadataLastUpdated": "2025-07-15T20:33:42.375209+00:00"
     },
     "permissions": {
       "usageType": "openSource",
@@ -5430,7 +5430,7 @@
     "date": {
       "created": "2021-05-17T18:27:24+00:00",
       "lastModified": "2021-05-26T14:29:25+00:00",
-      "metadataLastUpdated": "2025-07-11T14:21:17.983994+00:00"
+      "metadataLastUpdated": "2025-07-15T20:33:44.211721+00:00"
     },
     "permissions": {
       "usageType": "openSource",
@@ -5471,7 +5471,7 @@
     "date": {
       "created": "2021-05-20T18:57:21+00:00",
       "lastModified": "2025-07-08T20:14:44+00:00",
-      "metadataLastUpdated": "2025-07-11T14:21:19.822218+00:00"
+      "metadataLastUpdated": "2025-07-15T20:33:46.205046+00:00"
     },
     "permissions": {
       "usageType": "openSource",
@@ -5511,8 +5511,8 @@
     },
     "date": {
       "created": "2021-05-21T19:00:40+00:00",
-      "lastModified": "2025-06-06T14:11:38+00:00",
-      "metadataLastUpdated": "2025-07-11T14:21:21.719057+00:00"
+      "lastModified": "2025-07-15T13:45:12+00:00",
+      "metadataLastUpdated": "2025-07-15T20:33:48.120321+00:00"
     },
     "permissions": {
       "usageType": "openSource",
@@ -5545,7 +5545,7 @@
     "date": {
       "created": "2021-05-26T17:16:29+00:00",
       "lastModified": "2021-05-26T17:16:31+00:00",
-      "metadataLastUpdated": "2025-07-11T14:21:23.540462+00:00"
+      "metadataLastUpdated": "2025-07-15T20:33:49.952499+00:00"
     },
     "permissions": {
       "usageType": "openSource",
@@ -5580,7 +5580,7 @@
     "date": {
       "created": "2021-06-10T20:35:08+00:00",
       "lastModified": "2021-06-11T17:37:07+00:00",
-      "metadataLastUpdated": "2025-07-11T14:21:25.442644+00:00"
+      "metadataLastUpdated": "2025-07-15T20:33:51.848087+00:00"
     },
     "permissions": {
       "usageType": "governmentWideReuse",
@@ -5609,7 +5609,7 @@
     "date": {
       "created": "2021-07-21T13:37:01+00:00",
       "lastModified": "2024-11-20T15:06:23+00:00",
-      "metadataLastUpdated": "2025-07-11T14:21:27.305939+00:00"
+      "metadataLastUpdated": "2025-07-15T20:33:53.788365+00:00"
     },
     "permissions": {
       "usageType": "openSource",
@@ -5642,7 +5642,7 @@
     "date": {
       "created": "2021-07-21T20:47:41+00:00",
       "lastModified": "2022-09-15T13:38:24+00:00",
-      "metadataLastUpdated": "2025-07-11T14:21:29.135045+00:00"
+      "metadataLastUpdated": "2025-07-15T20:33:55.682026+00:00"
     },
     "permissions": {
       "usageType": "openSource",
@@ -5675,7 +5675,7 @@
     "date": {
       "created": "2021-08-05T14:43:50+00:00",
       "lastModified": "2021-08-05T15:00:01+00:00",
-      "metadataLastUpdated": "2025-07-11T14:21:30.957328+00:00"
+      "metadataLastUpdated": "2025-07-15T20:33:57.532031+00:00"
     },
     "permissions": {
       "usageType": "governmentWideReuse",
@@ -5713,7 +5713,7 @@
     "date": {
       "created": "2021-08-09T18:10:07+00:00",
       "lastModified": "2023-03-23T14:16:44+00:00",
-      "metadataLastUpdated": "2025-07-11T14:21:32.791650+00:00"
+      "metadataLastUpdated": "2025-07-15T20:33:59.402287+00:00"
     },
     "permissions": {
       "usageType": "openSource",
@@ -5768,7 +5768,7 @@
     "date": {
       "created": "2021-08-12T13:18:19+00:00",
       "lastModified": "2025-04-17T13:42:22+00:00",
-      "metadataLastUpdated": "2025-07-11T14:21:34.736619+00:00"
+      "metadataLastUpdated": "2025-07-15T20:34:01.344090+00:00"
     },
     "permissions": {
       "usageType": "openSource",
@@ -5807,7 +5807,7 @@
     "date": {
       "created": "2021-09-08T13:26:15+00:00",
       "lastModified": "2023-01-13T19:30:44+00:00",
-      "metadataLastUpdated": "2025-07-11T14:21:36.608736+00:00"
+      "metadataLastUpdated": "2025-07-15T20:34:03.292066+00:00"
     },
     "permissions": {
       "usageType": "openSource",
@@ -5842,7 +5842,7 @@
     "date": {
       "created": "2021-09-21T13:03:40+00:00",
       "lastModified": "2025-03-11T14:07:51+00:00",
-      "metadataLastUpdated": "2025-07-11T14:21:38.560977+00:00"
+      "metadataLastUpdated": "2025-07-15T20:34:05.156234+00:00"
     },
     "permissions": {
       "usageType": "openSource",
@@ -5883,7 +5883,7 @@
     "date": {
       "created": "2021-10-19T14:42:22+00:00",
       "lastModified": "2025-03-31T16:47:58+00:00",
-      "metadataLastUpdated": "2025-07-11T14:21:40.448059+00:00"
+      "metadataLastUpdated": "2025-07-15T20:34:07.143533+00:00"
     },
     "permissions": {
       "usageType": "openSource",
@@ -5916,7 +5916,7 @@
     "date": {
       "created": "2021-11-02T13:28:52+00:00",
       "lastModified": "2021-11-02T13:28:54+00:00",
-      "metadataLastUpdated": "2025-07-11T14:21:42.256988+00:00"
+      "metadataLastUpdated": "2025-07-15T20:34:09.078488+00:00"
     },
     "permissions": {
       "usageType": "openSource",
@@ -5951,7 +5951,7 @@
     "date": {
       "created": "2021-11-03T19:33:41+00:00",
       "lastModified": "2023-03-02T20:16:13+00:00",
-      "metadataLastUpdated": "2025-07-11T14:21:44.104823+00:00"
+      "metadataLastUpdated": "2025-07-15T20:34:11.045252+00:00"
     },
     "permissions": {
       "usageType": "governmentWideReuse",
@@ -5993,7 +5993,7 @@
     "date": {
       "created": "2021-11-06T07:33:38+00:00",
       "lastModified": "2025-03-05T22:30:55+00:00",
-      "metadataLastUpdated": "2025-07-11T14:21:46.060605+00:00"
+      "metadataLastUpdated": "2025-07-15T20:34:13.020513+00:00"
     },
     "permissions": {
       "usageType": "openSource",
@@ -6031,7 +6031,7 @@
     "date": {
       "created": "2021-11-18T15:17:00+00:00",
       "lastModified": "2022-01-18T15:19:08+00:00",
-      "metadataLastUpdated": "2025-07-11T14:21:47.954571+00:00"
+      "metadataLastUpdated": "2025-07-15T20:34:14.916269+00:00"
     },
     "permissions": {
       "usageType": "governmentWideReuse",
@@ -6062,7 +6062,7 @@
     "date": {
       "created": "2021-11-30T17:50:05+00:00",
       "lastModified": "2022-03-08T15:50:57+00:00",
-      "metadataLastUpdated": "2025-07-11T14:21:49.798281+00:00"
+      "metadataLastUpdated": "2025-07-15T20:34:16.765253+00:00"
     },
     "permissions": {
       "usageType": "openSource",
@@ -6097,7 +6097,7 @@
     "date": {
       "created": "2021-12-08T17:01:03+00:00",
       "lastModified": "2024-09-10T17:38:09+00:00",
-      "metadataLastUpdated": "2025-07-11T14:21:51.661739+00:00"
+      "metadataLastUpdated": "2025-07-15T20:34:18.695043+00:00"
     },
     "permissions": {
       "usageType": "openSource",
@@ -6139,7 +6139,7 @@
     "date": {
       "created": "2021-12-10T21:50:13+00:00",
       "lastModified": "2023-09-23T13:52:46+00:00",
-      "metadataLastUpdated": "2025-07-11T14:21:53.698399+00:00"
+      "metadataLastUpdated": "2025-07-15T20:34:20.847668+00:00"
     },
     "permissions": {
       "usageType": "openSource",
@@ -6203,7 +6203,7 @@
     "date": {
       "created": "2021-12-28T14:32:49+00:00",
       "lastModified": "2024-06-19T00:48:12+00:00",
-      "metadataLastUpdated": "2025-07-11T14:21:55.488288+00:00"
+      "metadataLastUpdated": "2025-07-15T20:34:22.756605+00:00"
     },
     "permissions": {
       "usageType": "openSource",
@@ -6237,8 +6237,8 @@
     },
     "date": {
       "created": "2022-01-11T15:06:59+00:00",
-      "lastModified": "2025-07-10T23:13:16+00:00",
-      "metadataLastUpdated": "2025-07-11T14:21:57.362184+00:00"
+      "lastModified": "2025-07-14T23:13:23+00:00",
+      "metadataLastUpdated": "2025-07-15T20:34:24.731008+00:00"
     },
     "permissions": {
       "usageType": "governmentWideReuse",
@@ -6269,7 +6269,7 @@
     "date": {
       "created": "2022-01-11T15:11:09+00:00",
       "lastModified": "2022-06-15T15:57:31+00:00",
-      "metadataLastUpdated": "2025-07-11T14:21:59.300931+00:00"
+      "metadataLastUpdated": "2025-07-15T20:34:26.671178+00:00"
     },
     "permissions": {
       "usageType": "governmentWideReuse",
@@ -6300,7 +6300,7 @@
     "date": {
       "created": "2022-01-11T15:12:49+00:00",
       "lastModified": "2022-06-15T15:56:18+00:00",
-      "metadataLastUpdated": "2025-07-11T14:22:01.153941+00:00"
+      "metadataLastUpdated": "2025-07-15T20:34:28.532901+00:00"
     },
     "permissions": {
       "usageType": "governmentWideReuse",
@@ -6329,7 +6329,7 @@
     "date": {
       "created": "2022-01-20T18:40:39+00:00",
       "lastModified": "2022-01-20T18:40:41+00:00",
-      "metadataLastUpdated": "2025-07-11T14:22:02.949323+00:00"
+      "metadataLastUpdated": "2025-07-15T20:34:30.380499+00:00"
     },
     "permissions": {
       "usageType": "openSource",
@@ -6368,7 +6368,7 @@
     "date": {
       "created": "2022-01-24T18:57:25+00:00",
       "lastModified": "2025-07-01T18:37:35+00:00",
-      "metadataLastUpdated": "2025-07-11T14:22:04.905622+00:00"
+      "metadataLastUpdated": "2025-07-15T20:34:32.285294+00:00"
     },
     "permissions": {
       "usageType": "openSource",
@@ -6408,7 +6408,7 @@
     "date": {
       "created": "2022-01-26T15:09:52+00:00",
       "lastModified": "2024-04-02T15:48:36+00:00",
-      "metadataLastUpdated": "2025-07-11T14:22:06.706039+00:00"
+      "metadataLastUpdated": "2025-07-15T20:34:34.227189+00:00"
     },
     "permissions": {
       "usageType": "openSource",
@@ -6450,7 +6450,7 @@
     "date": {
       "created": "2022-02-24T16:02:43+00:00",
       "lastModified": "2025-05-18T18:26:47+00:00",
-      "metadataLastUpdated": "2025-07-11T14:22:08.557563+00:00"
+      "metadataLastUpdated": "2025-07-15T20:34:36.217054+00:00"
     },
     "permissions": {
       "usageType": "openSource",
@@ -6488,7 +6488,7 @@
     "date": {
       "created": "2022-04-12T00:25:33+00:00",
       "lastModified": "2025-02-03T15:26:53+00:00",
-      "metadataLastUpdated": "2025-07-11T14:22:10.347156+00:00"
+      "metadataLastUpdated": "2025-07-15T20:34:38.104561+00:00"
     },
     "permissions": {
       "usageType": "governmentWideReuse",
@@ -6517,7 +6517,7 @@
     "date": {
       "created": "2022-04-18T15:36:24+00:00",
       "lastModified": "2022-04-18T15:36:25+00:00",
-      "metadataLastUpdated": "2025-07-11T14:22:12.166620+00:00"
+      "metadataLastUpdated": "2025-07-15T20:34:40.117920+00:00"
     },
     "permissions": {
       "usageType": "openSource",
@@ -6555,7 +6555,7 @@
     "date": {
       "created": "2022-04-27T15:56:43+00:00",
       "lastModified": "2024-04-09T19:28:23+00:00",
-      "metadataLastUpdated": "2025-07-11T14:22:14.029652+00:00"
+      "metadataLastUpdated": "2025-07-15T20:34:42.006301+00:00"
     },
     "permissions": {
       "usageType": "openSource",
@@ -6595,8 +6595,8 @@
     },
     "date": {
       "created": "2022-05-10T20:07:06+00:00",
-      "lastModified": "2025-07-11T00:49:17+00:00",
-      "metadataLastUpdated": "2025-07-11T14:22:15.936097+00:00"
+      "lastModified": "2025-07-15T18:51:45+00:00",
+      "metadataLastUpdated": "2025-07-15T20:34:43.969097+00:00"
     },
     "permissions": {
       "usageType": "openSource",
@@ -6631,7 +6631,7 @@
     "date": {
       "created": "2022-05-11T12:26:02+00:00",
       "lastModified": "2024-08-14T15:39:30+00:00",
-      "metadataLastUpdated": "2025-07-11T14:22:17.772036+00:00"
+      "metadataLastUpdated": "2025-07-15T20:34:45.871778+00:00"
     },
     "permissions": {
       "usageType": "openSource",
@@ -6667,7 +6667,7 @@
     "date": {
       "created": "2022-05-16T20:11:32+00:00",
       "lastModified": "2023-06-28T15:18:02+00:00",
-      "metadataLastUpdated": "2025-07-11T14:22:19.612501+00:00"
+      "metadataLastUpdated": "2025-07-15T20:34:47.775658+00:00"
     },
     "permissions": {
       "usageType": "openSource",
@@ -6700,7 +6700,7 @@
     "date": {
       "created": "2022-05-24T18:58:25+00:00",
       "lastModified": "2022-07-20T15:22:47+00:00",
-      "metadataLastUpdated": "2025-07-11T14:22:21.490083+00:00"
+      "metadataLastUpdated": "2025-07-15T20:34:49.656424+00:00"
     },
     "permissions": {
       "usageType": "openSource",
@@ -6739,7 +6739,7 @@
     "date": {
       "created": "2022-06-07T16:48:18+00:00",
       "lastModified": "2024-01-11T19:01:31+00:00",
-      "metadataLastUpdated": "2025-07-11T14:22:23.315207+00:00"
+      "metadataLastUpdated": "2025-07-15T20:34:51.679746+00:00"
     },
     "permissions": {
       "usageType": "openSource",
@@ -6772,7 +6772,7 @@
     "date": {
       "created": "2022-06-10T21:39:14+00:00",
       "lastModified": "2024-08-02T19:26:12+00:00",
-      "metadataLastUpdated": "2025-07-11T14:22:25.340372+00:00"
+      "metadataLastUpdated": "2025-07-15T20:34:53.622752+00:00"
     },
     "permissions": {
       "usageType": "openSource",
@@ -6811,7 +6811,7 @@
     "date": {
       "created": "2022-07-01T14:09:41+00:00",
       "lastModified": "2025-05-08T13:48:02+00:00",
-      "metadataLastUpdated": "2025-07-11T14:22:27.585868+00:00"
+      "metadataLastUpdated": "2025-07-15T20:34:55.523555+00:00"
     },
     "permissions": {
       "usageType": "governmentWideReuse",
@@ -6843,7 +6843,7 @@
     "date": {
       "created": "2022-07-05T17:36:51+00:00",
       "lastModified": "2025-03-20T20:18:24+00:00",
-      "metadataLastUpdated": "2025-07-11T14:22:29.429660+00:00"
+      "metadataLastUpdated": "2025-07-15T20:34:57.500027+00:00"
     },
     "permissions": {
       "usageType": "openSource",
@@ -6880,7 +6880,7 @@
     "date": {
       "created": "2022-07-05T17:39:04+00:00",
       "lastModified": "2025-04-18T14:49:24+00:00",
-      "metadataLastUpdated": "2025-07-11T14:22:31.424617+00:00"
+      "metadataLastUpdated": "2025-07-15T20:34:59.438497+00:00"
     },
     "permissions": {
       "usageType": "openSource",
@@ -6926,7 +6926,7 @@
     "date": {
       "created": "2022-07-05T17:39:54+00:00",
       "lastModified": "2024-10-02T14:38:21+00:00",
-      "metadataLastUpdated": "2025-07-11T14:22:33.686737+00:00"
+      "metadataLastUpdated": "2025-07-15T20:35:01.726181+00:00"
     },
     "permissions": {
       "usageType": "openSource",
@@ -6963,7 +6963,7 @@
     "date": {
       "created": "2022-07-06T13:48:54+00:00",
       "lastModified": "2023-04-05T13:56:05+00:00",
-      "metadataLastUpdated": "2025-07-11T14:22:35.636307+00:00"
+      "metadataLastUpdated": "2025-07-15T20:35:03.659379+00:00"
     },
     "permissions": {
       "usageType": "openSource",
@@ -6998,7 +6998,7 @@
     "date": {
       "created": "2022-07-11T14:47:37+00:00",
       "lastModified": "2023-02-03T22:49:43+00:00",
-      "metadataLastUpdated": "2025-07-11T14:22:37.537237+00:00"
+      "metadataLastUpdated": "2025-07-15T20:35:05.581552+00:00"
     },
     "permissions": {
       "usageType": "openSource",
@@ -7031,7 +7031,7 @@
     "date": {
       "created": "2022-07-18T15:54:30+00:00",
       "lastModified": "2024-04-08T20:38:24+00:00",
-      "metadataLastUpdated": "2025-07-11T14:22:39.371412+00:00"
+      "metadataLastUpdated": "2025-07-15T20:35:07.507561+00:00"
     },
     "permissions": {
       "usageType": "openSource",
@@ -7068,7 +7068,7 @@
     "date": {
       "created": "2022-07-26T19:02:38+00:00",
       "lastModified": "2023-05-02T00:13:43+00:00",
-      "metadataLastUpdated": "2025-07-11T14:22:41.235848+00:00"
+      "metadataLastUpdated": "2025-07-15T20:35:09.456804+00:00"
     },
     "permissions": {
       "usageType": "openSource",
@@ -7114,20 +7114,20 @@
     "date": {
       "created": "2022-07-26T19:04:23+00:00",
       "lastModified": "2025-06-18T22:43:26+00:00",
-      "metadataLastUpdated": "2025-07-11T14:22:43.889925+00:00"
+      "metadataLastUpdated": "2025-07-15T20:35:12.302764+00:00"
     },
     "permissions": {
-      "usageType": "governmentWideReuse",
+      "usageType": "exemptByCIO",
       "licenses": [
         {
           "name": "Creative Commons Zero v1.0 Universal"
         }
-      ]
+      ],
+      "exemptionText": "Internal repository"
     },
     "repo_id": 518185220,
     "private_id": "github_518185220",
-    "_url": "https://github.com/CDCgov/phdi",
-    "privateID": "github_518185220"
+    "_url": "https://github.com/CDCgov/phdi"
   },
   {
     "name": "tick_surveillance",
@@ -7155,7 +7155,7 @@
     "date": {
       "created": "2022-08-02T20:34:11+00:00",
       "lastModified": "2023-07-25T23:13:04+00:00",
-      "metadataLastUpdated": "2025-07-11T14:22:45.839485+00:00"
+      "metadataLastUpdated": "2025-07-15T20:35:14.185971+00:00"
     },
     "permissions": {
       "usageType": "openSource",
@@ -7214,8 +7214,8 @@
     },
     "date": {
       "created": "2022-08-08T14:55:05+00:00",
-      "lastModified": "2025-07-11T01:39:41+00:00",
-      "metadataLastUpdated": "2025-07-11T14:22:48.128777+00:00"
+      "lastModified": "2025-07-13T14:06:17+00:00",
+      "metadataLastUpdated": "2025-07-15T20:35:16.493477+00:00"
     },
     "permissions": {
       "usageType": "openSource",
@@ -7248,7 +7248,7 @@
     "date": {
       "created": "2022-08-10T18:09:06+00:00",
       "lastModified": "2022-08-22T19:28:35+00:00",
-      "metadataLastUpdated": "2025-07-11T14:22:49.985853+00:00"
+      "metadataLastUpdated": "2025-07-15T20:35:18.368134+00:00"
     },
     "permissions": {
       "usageType": "governmentWideReuse",
@@ -7277,7 +7277,7 @@
     "date": {
       "created": "2022-08-16T13:57:44+00:00",
       "lastModified": "2022-08-16T13:57:46+00:00",
-      "metadataLastUpdated": "2025-07-11T14:22:51.830072+00:00"
+      "metadataLastUpdated": "2025-07-15T20:35:20.211242+00:00"
     },
     "permissions": {
       "usageType": "openSource",
@@ -7319,7 +7319,7 @@
     "date": {
       "created": "2022-08-16T17:18:30+00:00",
       "lastModified": "2025-06-05T23:23:48+00:00",
-      "metadataLastUpdated": "2025-07-11T14:22:54.022012+00:00"
+      "metadataLastUpdated": "2025-07-15T20:35:22.544491+00:00"
     },
     "permissions": {
       "usageType": "openSource",
@@ -7354,7 +7354,7 @@
     "date": {
       "created": "2022-08-16T17:25:02+00:00",
       "lastModified": "2024-02-20T17:16:57+00:00",
-      "metadataLastUpdated": "2025-07-11T14:22:55.857257+00:00"
+      "metadataLastUpdated": "2025-07-15T20:35:24.454526+00:00"
     },
     "permissions": {
       "usageType": "governmentWideReuse",
@@ -7385,7 +7385,7 @@
     "date": {
       "created": "2022-08-23T17:25:17+00:00",
       "lastModified": "2022-09-19T18:40:34+00:00",
-      "metadataLastUpdated": "2025-07-11T14:22:57.643252+00:00"
+      "metadataLastUpdated": "2025-07-15T20:35:26.323225+00:00"
     },
     "permissions": {
       "usageType": "governmentWideReuse",
@@ -7427,8 +7427,8 @@
     },
     "date": {
       "created": "2022-09-01T13:56:01+00:00",
-      "lastModified": "2025-07-10T21:08:34+00:00",
-      "metadataLastUpdated": "2025-07-11T14:23:00.001029+00:00"
+      "lastModified": "2025-07-15T20:25:41+00:00",
+      "metadataLastUpdated": "2025-07-15T20:35:28.629353+00:00"
     },
     "permissions": {
       "usageType": "governmentWideReuse",
@@ -7462,7 +7462,7 @@
     "date": {
       "created": "2022-09-01T13:56:50+00:00",
       "lastModified": "2023-01-09T07:06:27+00:00",
-      "metadataLastUpdated": "2025-07-11T14:23:01.869156+00:00"
+      "metadataLastUpdated": "2025-07-15T20:35:30.489020+00:00"
     },
     "permissions": {
       "usageType": "governmentWideReuse",
@@ -7496,7 +7496,7 @@
     "date": {
       "created": "2022-09-28T15:19:21+00:00",
       "lastModified": "2024-01-16T21:07:51+00:00",
-      "metadataLastUpdated": "2025-07-11T14:23:03.701844+00:00"
+      "metadataLastUpdated": "2025-07-15T20:35:32.307133+00:00"
     },
     "permissions": {
       "usageType": "openSource",
@@ -7536,7 +7536,7 @@
     "date": {
       "created": "2022-09-28T20:11:14+00:00",
       "lastModified": "2025-02-07T15:57:25+00:00",
-      "metadataLastUpdated": "2025-07-11T14:23:05.578216+00:00"
+      "metadataLastUpdated": "2025-07-15T20:35:34.202273+00:00"
     },
     "permissions": {
       "usageType": "openSource",
@@ -7573,7 +7573,7 @@
     "date": {
       "created": "2022-10-03T19:39:57+00:00",
       "lastModified": "2025-02-21T19:40:44+00:00",
-      "metadataLastUpdated": "2025-07-11T14:23:07.506790+00:00"
+      "metadataLastUpdated": "2025-07-15T20:35:36.040064+00:00"
     },
     "permissions": {
       "usageType": "governmentWideReuse",
@@ -7608,16 +7608,16 @@
     "date": {
       "created": "2022-10-19T14:32:34+00:00",
       "lastModified": "2025-07-09T13:14:13+00:00",
-      "metadataLastUpdated": "2025-07-11T14:23:09.394824+00:00"
+      "metadataLastUpdated": "2025-07-15T20:35:38.028522+00:00"
     },
     "permissions": {
-      "usageType": "governmentWideReuse",
-      "licenses": []
+      "usageType": "exemptByCIO",
+      "licenses": [],
+      "exemptionText": "Internal repository"
     },
     "repo_id": 554272069,
     "private_id": "github_554272069",
-    "_url": "https://github.com/CDCgov/NEDSS-DevOpsTools",
-    "privateID": "github_554272069"
+    "_url": "https://github.com/CDCgov/NEDSS-DevOpsTools"
   },
   {
     "name": ".github",
@@ -7638,7 +7638,7 @@
     "date": {
       "created": "2022-11-03T15:33:04+00:00",
       "lastModified": "2022-11-03T16:47:55+00:00",
-      "metadataLastUpdated": "2025-07-11T14:23:11.264915+00:00"
+      "metadataLastUpdated": "2025-07-15T20:35:39.822994+00:00"
     },
     "permissions": {
       "usageType": "openSource",
@@ -7671,7 +7671,7 @@
     "date": {
       "created": "2022-11-03T15:44:55+00:00",
       "lastModified": "2024-06-21T17:48:09+00:00",
-      "metadataLastUpdated": "2025-07-11T14:23:13.335284+00:00"
+      "metadataLastUpdated": "2025-07-15T20:35:41.693264+00:00"
     },
     "permissions": {
       "usageType": "exemptByCIO",
@@ -7680,8 +7680,7 @@
     },
     "repo_id": 561395827,
     "private_id": "github_561395827",
-    "_url": "https://github.com/CDCgov/.github-private",
-    "privateID": "github_561395827"
+    "_url": "https://github.com/CDCgov/.github-private"
   },
   {
     "name": "data-exchange-hl7-dbx",
@@ -7705,7 +7704,7 @@
     "date": {
       "created": "2022-11-07T14:14:26+00:00",
       "lastModified": "2024-09-20T20:02:31+00:00",
-      "metadataLastUpdated": "2025-07-11T14:23:15.232525+00:00"
+      "metadataLastUpdated": "2025-07-15T20:35:43.769672+00:00"
     },
     "permissions": {
       "usageType": "openSource",
@@ -7738,7 +7737,7 @@
     "date": {
       "created": "2022-11-09T20:42:06+00:00",
       "lastModified": "2022-11-09T20:42:08+00:00",
-      "metadataLastUpdated": "2025-07-11T14:23:17.112815+00:00"
+      "metadataLastUpdated": "2025-07-15T20:35:45.712663+00:00"
     },
     "permissions": {
       "usageType": "openSource",
@@ -7771,7 +7770,7 @@
     "date": {
       "created": "2022-11-18T15:38:53+00:00",
       "lastModified": "2022-11-18T15:38:54+00:00",
-      "metadataLastUpdated": "2025-07-11T14:23:18.909800+00:00"
+      "metadataLastUpdated": "2025-07-15T20:35:47.601263+00:00"
     },
     "permissions": {
       "usageType": "openSource",
@@ -7812,7 +7811,7 @@
     "date": {
       "created": "2022-11-30T17:12:42+00:00",
       "lastModified": "2024-07-30T17:18:40+00:00",
-      "metadataLastUpdated": "2025-07-11T14:23:20.723913+00:00"
+      "metadataLastUpdated": "2025-07-15T20:35:49.449051+00:00"
     },
     "permissions": {
       "usageType": "openSource",
@@ -7849,7 +7848,7 @@
     "date": {
       "created": "2022-11-30T17:13:52+00:00",
       "lastModified": "2023-08-22T12:46:23+00:00",
-      "metadataLastUpdated": "2025-07-11T14:23:22.531067+00:00"
+      "metadataLastUpdated": "2025-07-15T20:35:51.298177+00:00"
     },
     "permissions": {
       "usageType": "openSource",
@@ -7882,7 +7881,7 @@
     "date": {
       "created": "2022-11-30T17:14:51+00:00",
       "lastModified": "2022-11-30T17:14:53+00:00",
-      "metadataLastUpdated": "2025-07-11T14:23:24.445805+00:00"
+      "metadataLastUpdated": "2025-07-15T20:35:53.165600+00:00"
     },
     "permissions": {
       "usageType": "openSource",
@@ -7923,7 +7922,7 @@
     "date": {
       "created": "2022-12-15T18:22:31+00:00",
       "lastModified": "2025-03-12T20:53:55+00:00",
-      "metadataLastUpdated": "2025-07-11T14:23:26.285611+00:00"
+      "metadataLastUpdated": "2025-07-15T20:35:55.099603+00:00"
     },
     "permissions": {
       "usageType": "openSource",
@@ -7972,7 +7971,7 @@
     "date": {
       "created": "2022-12-16T17:55:44+00:00",
       "lastModified": "2025-02-04T14:43:59+00:00",
-      "metadataLastUpdated": "2025-07-11T14:23:28.222486+00:00"
+      "metadataLastUpdated": "2025-07-15T20:35:57.118626+00:00"
     },
     "permissions": {
       "usageType": "openSource",
@@ -8012,8 +8011,8 @@
     },
     "date": {
       "created": "2022-12-19T16:48:39+00:00",
-      "lastModified": "2025-07-11T14:07:28+00:00",
-      "metadataLastUpdated": "2025-07-11T14:23:30.072640+00:00"
+      "lastModified": "2025-07-15T18:27:48+00:00",
+      "metadataLastUpdated": "2025-07-15T20:35:59.056727+00:00"
     },
     "permissions": {
       "usageType": "openSource",
@@ -8060,7 +8059,7 @@
     "date": {
       "created": "2022-12-19T16:51:23+00:00",
       "lastModified": "2025-01-31T15:26:46+00:00",
-      "metadataLastUpdated": "2025-07-11T14:23:31.996541+00:00"
+      "metadataLastUpdated": "2025-07-15T20:36:00.913709+00:00"
     },
     "permissions": {
       "usageType": "governmentWideReuse",
@@ -8095,7 +8094,7 @@
     "date": {
       "created": "2023-01-11T17:17:06+00:00",
       "lastModified": "2023-08-30T23:28:00+00:00",
-      "metadataLastUpdated": "2025-07-11T14:23:33.873051+00:00"
+      "metadataLastUpdated": "2025-07-15T20:36:02.806666+00:00"
     },
     "permissions": {
       "usageType": "openSource",
@@ -8135,7 +8134,7 @@
     "date": {
       "created": "2023-01-12T19:39:16+00:00",
       "lastModified": "2023-02-16T14:45:24+00:00",
-      "metadataLastUpdated": "2025-07-11T14:23:35.825027+00:00"
+      "metadataLastUpdated": "2025-07-15T20:36:04.694917+00:00"
     },
     "permissions": {
       "usageType": "openSource",
@@ -8171,7 +8170,7 @@
     "date": {
       "created": "2023-01-18T20:48:07+00:00",
       "lastModified": "2023-05-01T16:02:20+00:00",
-      "metadataLastUpdated": "2025-07-11T14:23:37.632026+00:00"
+      "metadataLastUpdated": "2025-07-15T20:36:06.559652+00:00"
     },
     "permissions": {
       "usageType": "openSource",
@@ -8210,7 +8209,7 @@
     "date": {
       "created": "2023-02-01T17:10:34+00:00",
       "lastModified": "2023-04-25T23:02:47+00:00",
-      "metadataLastUpdated": "2025-07-11T14:23:39.563261+00:00"
+      "metadataLastUpdated": "2025-07-15T20:36:08.440120+00:00"
     },
     "permissions": {
       "usageType": "openSource",
@@ -8252,7 +8251,7 @@
     "date": {
       "created": "2023-02-06T16:19:41+00:00",
       "lastModified": "2025-01-10T20:20:19+00:00",
-      "metadataLastUpdated": "2025-07-11T14:23:41.660283+00:00"
+      "metadataLastUpdated": "2025-07-15T20:36:10.442159+00:00"
     },
     "permissions": {
       "usageType": "openSource",
@@ -8288,7 +8287,7 @@
     "date": {
       "created": "2023-02-07T19:44:56+00:00",
       "lastModified": "2024-12-17T20:17:23+00:00",
-      "metadataLastUpdated": "2025-07-11T14:23:43.656050+00:00"
+      "metadataLastUpdated": "2025-07-15T20:36:12.381325+00:00"
     },
     "permissions": {
       "usageType": "openSource",
@@ -8324,7 +8323,7 @@
     "date": {
       "created": "2023-02-08T14:57:51+00:00",
       "lastModified": "2023-10-06T21:01:37+00:00",
-      "metadataLastUpdated": "2025-07-11T14:23:45.487436+00:00"
+      "metadataLastUpdated": "2025-07-15T20:36:14.235323+00:00"
     },
     "permissions": {
       "usageType": "governmentWideReuse",
@@ -8357,7 +8356,7 @@
     "date": {
       "created": "2023-02-08T15:37:36+00:00",
       "lastModified": "2023-02-15T18:29:08+00:00",
-      "metadataLastUpdated": "2025-07-11T14:23:47.308605+00:00"
+      "metadataLastUpdated": "2025-07-15T20:36:16.211709+00:00"
     },
     "permissions": {
       "usageType": "governmentWideReuse",
@@ -8394,7 +8393,7 @@
     "date": {
       "created": "2023-02-10T17:00:27+00:00",
       "lastModified": "2025-06-10T04:19:03+00:00",
-      "metadataLastUpdated": "2025-07-11T14:23:49.131242+00:00"
+      "metadataLastUpdated": "2025-07-15T20:36:18.135491+00:00"
     },
     "permissions": {
       "usageType": "openSource",
@@ -8433,7 +8432,7 @@
     "date": {
       "created": "2023-02-15T15:55:05+00:00",
       "lastModified": "2023-05-18T14:09:26+00:00",
-      "metadataLastUpdated": "2025-07-11T14:23:50.951537+00:00"
+      "metadataLastUpdated": "2025-07-15T20:36:20.089326+00:00"
     },
     "permissions": {
       "usageType": "openSource",
@@ -8466,7 +8465,7 @@
     "date": {
       "created": "2023-03-07T21:34:36+00:00",
       "lastModified": "2025-07-09T16:44:27+00:00",
-      "metadataLastUpdated": "2025-07-11T14:23:52.761145+00:00"
+      "metadataLastUpdated": "2025-07-15T20:36:22.001997+00:00"
     },
     "permissions": {
       "usageType": "governmentWideReuse",
@@ -8495,7 +8494,7 @@
     "date": {
       "created": "2023-03-07T21:45:24+00:00",
       "lastModified": "2023-12-20T21:59:30+00:00",
-      "metadataLastUpdated": "2025-07-11T14:23:54.643320+00:00"
+      "metadataLastUpdated": "2025-07-15T20:36:24.026586+00:00"
     },
     "permissions": {
       "usageType": "openSource",
@@ -8544,7 +8543,7 @@
     "date": {
       "created": "2023-03-27T15:11:48+00:00",
       "lastModified": "2025-06-18T16:43:55+00:00",
-      "metadataLastUpdated": "2025-07-11T14:23:56.490099+00:00"
+      "metadataLastUpdated": "2025-07-15T20:36:26.086888+00:00"
     },
     "permissions": {
       "usageType": "governmentWideReuse",
@@ -8578,7 +8577,7 @@
     "date": {
       "created": "2023-03-28T19:37:44+00:00",
       "lastModified": "2025-05-29T13:44:11+00:00",
-      "metadataLastUpdated": "2025-07-11T14:23:58.615087+00:00"
+      "metadataLastUpdated": "2025-07-15T20:36:28.089614+00:00"
     },
     "permissions": {
       "usageType": "governmentWideReuse",
@@ -8607,7 +8606,7 @@
     "date": {
       "created": "2023-03-28T20:58:24+00:00",
       "lastModified": "2024-06-13T17:12:45+00:00",
-      "metadataLastUpdated": "2025-07-11T14:24:00.453677+00:00"
+      "metadataLastUpdated": "2025-07-15T20:36:30.208117+00:00"
     },
     "permissions": {
       "usageType": "openSource",
@@ -8649,7 +8648,7 @@
     "date": {
       "created": "2023-04-05T16:04:00+00:00",
       "lastModified": "2024-01-29T20:31:47+00:00",
-      "metadataLastUpdated": "2025-07-11T14:24:02.278349+00:00"
+      "metadataLastUpdated": "2025-07-15T20:36:32.127442+00:00"
     },
     "permissions": {
       "usageType": "governmentWideReuse",
@@ -8683,8 +8682,8 @@
     },
     "date": {
       "created": "2023-04-17T20:03:48+00:00",
-      "lastModified": "2025-07-10T22:26:01+00:00",
-      "metadataLastUpdated": "2025-07-11T14:24:04.536470+00:00"
+      "lastModified": "2025-07-15T20:21:33+00:00",
+      "metadataLastUpdated": "2025-07-15T20:36:34.445441+00:00"
     },
     "permissions": {
       "usageType": "openSource",
@@ -8717,7 +8716,7 @@
     "date": {
       "created": "2023-04-25T14:48:17+00:00",
       "lastModified": "2023-04-25T14:48:19+00:00",
-      "metadataLastUpdated": "2025-07-11T14:24:06.380620+00:00"
+      "metadataLastUpdated": "2025-07-15T20:36:36.369332+00:00"
     },
     "permissions": {
       "usageType": "openSource",
@@ -8757,7 +8756,7 @@
     "date": {
       "created": "2023-05-18T16:37:45+00:00",
       "lastModified": "2024-10-18T13:42:15+00:00",
-      "metadataLastUpdated": "2025-07-11T14:24:08.256034+00:00"
+      "metadataLastUpdated": "2025-07-15T20:36:38.272938+00:00"
     },
     "permissions": {
       "usageType": "openSource",
@@ -8803,7 +8802,7 @@
     "date": {
       "created": "2023-05-23T20:41:57+00:00",
       "lastModified": "2024-07-26T12:04:43+00:00",
-      "metadataLastUpdated": "2025-07-11T14:24:10.109352+00:00"
+      "metadataLastUpdated": "2025-07-15T20:36:40.150793+00:00"
     },
     "permissions": {
       "usageType": "openSource",
@@ -8839,7 +8838,7 @@
     "date": {
       "created": "2023-05-31T15:29:16+00:00",
       "lastModified": "2025-01-31T13:37:48+00:00",
-      "metadataLastUpdated": "2025-07-11T14:24:12.036654+00:00"
+      "metadataLastUpdated": "2025-07-15T20:36:42.034271+00:00"
     },
     "permissions": {
       "usageType": "openSource",
@@ -8876,7 +8875,7 @@
     "date": {
       "created": "2023-06-20T19:06:14+00:00",
       "lastModified": "2025-04-02T15:09:38+00:00",
-      "metadataLastUpdated": "2025-07-11T14:24:13.865510+00:00"
+      "metadataLastUpdated": "2025-07-15T20:36:44.015457+00:00"
     },
     "permissions": {
       "usageType": "openSource",
@@ -8919,8 +8918,8 @@
     },
     "date": {
       "created": "2023-07-03T16:20:32+00:00",
-      "lastModified": "2025-07-09T19:34:00+00:00",
-      "metadataLastUpdated": "2025-07-11T14:24:15.713252+00:00"
+      "lastModified": "2025-07-11T19:14:44+00:00",
+      "metadataLastUpdated": "2025-07-15T20:36:45.975364+00:00"
     },
     "permissions": {
       "usageType": "openSource",
@@ -8958,7 +8957,7 @@
     "date": {
       "created": "2023-07-13T17:58:55+00:00",
       "lastModified": "2024-09-06T14:26:17+00:00",
-      "metadataLastUpdated": "2025-07-11T14:24:17.926865+00:00"
+      "metadataLastUpdated": "2025-07-15T20:36:48.329339+00:00"
     },
     "permissions": {
       "usageType": "openSource",
@@ -8993,7 +8992,7 @@
     "date": {
       "created": "2023-07-19T15:33:30+00:00",
       "lastModified": "2024-08-08T15:03:21+00:00",
-      "metadataLastUpdated": "2025-07-11T14:24:19.750055+00:00"
+      "metadataLastUpdated": "2025-07-15T20:36:50.308725+00:00"
     },
     "permissions": {
       "usageType": "openSource",
@@ -9026,7 +9025,7 @@
     "date": {
       "created": "2023-07-24T13:18:10+00:00",
       "lastModified": "2024-12-18T18:26:00+00:00",
-      "metadataLastUpdated": "2025-07-11T14:24:22.402715+00:00"
+      "metadataLastUpdated": "2025-07-15T20:36:52.983281+00:00"
     },
     "permissions": {
       "usageType": "openSource",
@@ -9059,7 +9058,7 @@
     "date": {
       "created": "2023-08-02T14:20:37+00:00",
       "lastModified": "2023-08-02T14:20:40+00:00",
-      "metadataLastUpdated": "2025-07-11T14:24:24.226039+00:00"
+      "metadataLastUpdated": "2025-07-15T20:36:54.882822+00:00"
     },
     "permissions": {
       "usageType": "openSource",
@@ -9092,7 +9091,7 @@
     "date": {
       "created": "2023-08-02T14:28:34+00:00",
       "lastModified": "2023-08-02T14:28:37+00:00",
-      "metadataLastUpdated": "2025-07-11T14:24:26.112377+00:00"
+      "metadataLastUpdated": "2025-07-15T20:36:56.848886+00:00"
     },
     "permissions": {
       "usageType": "openSource",
@@ -9125,7 +9124,7 @@
     "date": {
       "created": "2023-08-10T20:38:33+00:00",
       "lastModified": "2023-08-10T20:38:35+00:00",
-      "metadataLastUpdated": "2025-07-11T14:24:27.892849+00:00"
+      "metadataLastUpdated": "2025-07-15T20:36:58.736356+00:00"
     },
     "permissions": {
       "usageType": "openSource",
@@ -9167,7 +9166,7 @@
     "date": {
       "created": "2023-08-14T21:15:09+00:00",
       "lastModified": "2024-11-20T21:09:54+00:00",
-      "metadataLastUpdated": "2025-07-11T14:24:29.899375+00:00"
+      "metadataLastUpdated": "2025-07-15T20:37:00.598650+00:00"
     },
     "permissions": {
       "usageType": "openSource",
@@ -9205,7 +9204,7 @@
     "date": {
       "created": "2023-08-15T13:32:08+00:00",
       "lastModified": "2024-10-30T17:37:22+00:00",
-      "metadataLastUpdated": "2025-07-11T14:24:31.919447+00:00"
+      "metadataLastUpdated": "2025-07-15T20:37:02.527073+00:00"
     },
     "permissions": {
       "usageType": "governmentWideReuse",
@@ -9238,8 +9237,8 @@
     },
     "date": {
       "created": "2023-08-16T12:02:52+00:00",
-      "lastModified": "2025-07-10T21:13:11+00:00",
-      "metadataLastUpdated": "2025-07-11T14:24:34.509448+00:00"
+      "lastModified": "2025-07-15T19:29:52+00:00",
+      "metadataLastUpdated": "2025-07-15T20:37:05.475481+00:00"
     },
     "permissions": {
       "usageType": "openSource",
@@ -9276,7 +9275,7 @@
     "date": {
       "created": "2023-08-16T15:48:57+00:00",
       "lastModified": "2023-08-18T12:47:59+00:00",
-      "metadataLastUpdated": "2025-07-11T14:24:36.367088+00:00"
+      "metadataLastUpdated": "2025-07-15T20:37:07.395717+00:00"
     },
     "permissions": {
       "usageType": "openSource",
@@ -9316,7 +9315,7 @@
     "date": {
       "created": "2023-08-17T14:57:39+00:00",
       "lastModified": "2025-07-09T18:28:17+00:00",
-      "metadataLastUpdated": "2025-07-11T14:24:38.228059+00:00"
+      "metadataLastUpdated": "2025-07-15T20:37:09.357088+00:00"
     },
     "permissions": {
       "usageType": "openSource",
@@ -9349,7 +9348,7 @@
     "date": {
       "created": "2023-08-24T20:07:50+00:00",
       "lastModified": "2023-08-24T20:07:52+00:00",
-      "metadataLastUpdated": "2025-07-11T14:24:40.099079+00:00"
+      "metadataLastUpdated": "2025-07-15T20:37:11.431529+00:00"
     },
     "permissions": {
       "usageType": "openSource",
@@ -9385,7 +9384,7 @@
     "date": {
       "created": "2023-08-25T13:05:16+00:00",
       "lastModified": "2024-09-13T18:25:48+00:00",
-      "metadataLastUpdated": "2025-07-11T14:24:41.967555+00:00"
+      "metadataLastUpdated": "2025-07-15T20:37:13.334262+00:00"
     },
     "permissions": {
       "usageType": "governmentWideReuse",
@@ -9416,8 +9415,8 @@
     },
     "date": {
       "created": "2023-10-02T18:48:20+00:00",
-      "lastModified": "2025-07-08T16:03:40+00:00",
-      "metadataLastUpdated": "2025-07-11T14:24:44.205976+00:00"
+      "lastModified": "2025-07-14T19:23:16+00:00",
+      "metadataLastUpdated": "2025-07-15T20:37:15.582186+00:00"
     },
     "permissions": {
       "usageType": "openSource",
@@ -9450,7 +9449,7 @@
     "date": {
       "created": "2023-10-26T14:14:05+00:00",
       "lastModified": "2023-10-26T14:14:08+00:00",
-      "metadataLastUpdated": "2025-07-11T14:24:46.077267+00:00"
+      "metadataLastUpdated": "2025-07-15T20:37:17.726906+00:00"
     },
     "permissions": {
       "usageType": "exemptByCIO",
@@ -9463,8 +9462,7 @@
     },
     "repo_id": 710348755,
     "private_id": "github_710348755",
-    "_url": "https://github.com/CDCgov/AtlasPlus",
-    "privateID": "github_710348755"
+    "_url": "https://github.com/CDCgov/AtlasPlus"
   },
   {
     "name": "polkapox",
@@ -9489,8 +9487,8 @@
     },
     "date": {
       "created": "2023-10-26T23:09:48+00:00",
-      "lastModified": "2025-07-10T13:51:55+00:00",
-      "metadataLastUpdated": "2025-07-11T14:24:47.962648+00:00"
+      "lastModified": "2025-07-15T13:55:20+00:00",
+      "metadataLastUpdated": "2025-07-15T20:37:19.625280+00:00"
     },
     "permissions": {
       "usageType": "openSource",
@@ -9529,7 +9527,7 @@
     "date": {
       "created": "2023-10-31T13:27:30+00:00",
       "lastModified": "2025-02-18T09:07:34+00:00",
-      "metadataLastUpdated": "2025-07-11T14:24:49.870278+00:00"
+      "metadataLastUpdated": "2025-07-15T20:37:21.503943+00:00"
     },
     "permissions": {
       "usageType": "openSource",
@@ -9571,7 +9569,7 @@
     "date": {
       "created": "2023-11-01T13:06:24+00:00",
       "lastModified": "2025-07-02T20:59:12+00:00",
-      "metadataLastUpdated": "2025-07-11T14:24:51.836339+00:00"
+      "metadataLastUpdated": "2025-07-15T20:37:23.427578+00:00"
     },
     "permissions": {
       "usageType": "openSource",
@@ -9612,7 +9610,7 @@
     "date": {
       "created": "2023-11-02T15:08:02+00:00",
       "lastModified": "2023-12-04T21:25:58+00:00",
-      "metadataLastUpdated": "2025-07-11T14:24:53.725607+00:00"
+      "metadataLastUpdated": "2025-07-15T20:37:25.358663+00:00"
     },
     "permissions": {
       "usageType": "openSource",
@@ -9654,7 +9652,7 @@
     "date": {
       "created": "2023-11-02T15:10:31+00:00",
       "lastModified": "2023-11-14T00:53:19+00:00",
-      "metadataLastUpdated": "2025-07-11T14:24:55.650774+00:00"
+      "metadataLastUpdated": "2025-07-15T20:37:27.299080+00:00"
     },
     "permissions": {
       "usageType": "openSource",
@@ -9689,7 +9687,7 @@
     "date": {
       "created": "2023-11-02T21:21:58+00:00",
       "lastModified": "2024-11-10T16:07:16+00:00",
-      "metadataLastUpdated": "2025-07-11T14:24:57.503418+00:00"
+      "metadataLastUpdated": "2025-07-15T20:37:29.198430+00:00"
     },
     "permissions": {
       "usageType": "openSource",
@@ -9728,7 +9726,7 @@
     "date": {
       "created": "2023-11-20T19:16:00+00:00",
       "lastModified": "2025-07-08T17:56:56+00:00",
-      "metadataLastUpdated": "2025-07-11T14:24:59.284871+00:00"
+      "metadataLastUpdated": "2025-07-15T20:37:31.060172+00:00"
     },
     "permissions": {
       "usageType": "openSource",
@@ -9773,7 +9771,7 @@
     "date": {
       "created": "2023-11-20T19:23:03+00:00",
       "lastModified": "2024-12-10T14:57:39+00:00",
-      "metadataLastUpdated": "2025-07-11T14:25:01.117375+00:00"
+      "metadataLastUpdated": "2025-07-15T20:37:33.039469+00:00"
     },
     "permissions": {
       "usageType": "openSource",
@@ -9806,7 +9804,7 @@
     "date": {
       "created": "2023-12-14T15:36:10+00:00",
       "lastModified": "2024-02-20T17:20:14+00:00",
-      "metadataLastUpdated": "2025-07-11T14:25:03.004159+00:00"
+      "metadataLastUpdated": "2025-07-15T20:37:34.939748+00:00"
     },
     "permissions": {
       "usageType": "exemptByCIO",
@@ -9819,8 +9817,7 @@
     },
     "repo_id": 731665557,
     "private_id": "github_731665557",
-    "_url": "https://github.com/CDCgov/AMD-PGCoE",
-    "privateID": "github_731665557"
+    "_url": "https://github.com/CDCgov/AMD-PGCoE"
   },
   {
     "name": "cfa-data-cache",
@@ -9841,7 +9838,7 @@
     "date": {
       "created": "2023-12-22T13:36:03+00:00",
       "lastModified": "2023-12-22T13:36:05+00:00",
-      "metadataLastUpdated": "2025-07-11T14:25:04.861028+00:00"
+      "metadataLastUpdated": "2025-07-15T20:37:36.897456+00:00"
     },
     "permissions": {
       "usageType": "exemptByCIO",
@@ -9854,8 +9851,7 @@
     },
     "repo_id": 734739798,
     "private_id": "github_734739798",
-    "_url": "https://github.com/CDCgov/cfa-data-cache",
-    "privateID": "github_734739798"
+    "_url": "https://github.com/CDCgov/cfa-data-cache"
   },
   {
     "name": "VaccinePriceList",
@@ -9879,7 +9875,7 @@
     "date": {
       "created": "2024-01-08T14:50:28+00:00",
       "lastModified": "2025-02-27T14:50:31+00:00",
-      "metadataLastUpdated": "2025-07-11T14:25:06.714233+00:00"
+      "metadataLastUpdated": "2025-07-15T20:37:38.814413+00:00"
     },
     "permissions": {
       "usageType": "openSource",
@@ -9915,7 +9911,7 @@
     "date": {
       "created": "2024-01-08T21:41:17+00:00",
       "lastModified": "2024-11-24T05:45:16+00:00",
-      "metadataLastUpdated": "2025-07-11T14:25:08.563064+00:00"
+      "metadataLastUpdated": "2025-07-15T20:37:40.689924+00:00"
     },
     "permissions": {
       "usageType": "openSource",
@@ -9954,20 +9950,20 @@
     "date": {
       "created": "2024-01-16T13:19:04+00:00",
       "lastModified": "2024-01-22T06:29:56+00:00",
-      "metadataLastUpdated": "2025-07-11T14:25:10.458953+00:00"
+      "metadataLastUpdated": "2025-07-15T20:37:42.592267+00:00"
     },
     "permissions": {
-      "usageType": "governmentWideReuse",
+      "usageType": "exemptByCIO",
       "licenses": [
         {
           "name": "Apache License 2.0"
         }
-      ]
+      ],
+      "exemptionText": "Internal repository"
     },
     "repo_id": 744016245,
     "private_id": "github_744016245",
-    "_url": "https://github.com/CDCgov/nf-pass",
-    "privateID": "github_744016245"
+    "_url": "https://github.com/CDCgov/nf-pass"
   },
   {
     "name": "nf-core-pass",
@@ -9999,21 +9995,21 @@
     },
     "date": {
       "created": "2024-01-16T13:19:59+00:00",
-      "lastModified": "2025-07-10T20:17:58+00:00",
-      "metadataLastUpdated": "2025-07-11T14:25:12.382344+00:00"
+      "lastModified": "2025-07-14T14:14:34+00:00",
+      "metadataLastUpdated": "2025-07-15T20:37:44.579659+00:00"
     },
     "permissions": {
-      "usageType": "governmentWideReuse",
+      "usageType": "exemptByCIO",
       "licenses": [
         {
           "name": "Apache License 2.0"
         }
-      ]
+      ],
+      "exemptionText": "Internal repository"
     },
     "repo_id": 744016612,
     "private_id": "github_744016612",
-    "_url": "https://github.com/CDCgov/nf-core-pass",
-    "privateID": "github_744016612"
+    "_url": "https://github.com/CDCgov/nf-core-pass"
   },
   {
     "name": "pass-portal",
@@ -10039,16 +10035,16 @@
     "date": {
       "created": "2024-01-16T13:21:16+00:00",
       "lastModified": "2024-03-11T14:29:08+00:00",
-      "metadataLastUpdated": "2025-07-11T14:25:14.262777+00:00"
+      "metadataLastUpdated": "2025-07-15T20:37:46.532854+00:00"
     },
     "permissions": {
-      "usageType": "governmentWideReuse",
-      "licenses": []
+      "usageType": "exemptByCIO",
+      "licenses": [],
+      "exemptionText": "Internal repository"
     },
     "repo_id": 744017137,
     "private_id": "github_744017137",
-    "_url": "https://github.com/CDCgov/pass-portal",
-    "privateID": "github_744017137"
+    "_url": "https://github.com/CDCgov/pass-portal"
   },
   {
     "name": "wastewater-informed-covid-forecasting",
@@ -10073,8 +10069,8 @@
     },
     "date": {
       "created": "2024-01-17T20:32:20+00:00",
-      "lastModified": "2025-07-11T06:11:32+00:00",
-      "metadataLastUpdated": "2025-07-11T14:25:16.069578+00:00"
+      "lastModified": "2025-07-14T19:23:25+00:00",
+      "metadataLastUpdated": "2025-07-15T20:37:48.484855+00:00"
     },
     "permissions": {
       "usageType": "openSource",
@@ -10107,7 +10103,7 @@
     "date": {
       "created": "2024-01-23T20:18:04+00:00",
       "lastModified": "2024-01-23T20:18:07+00:00",
-      "metadataLastUpdated": "2025-07-11T14:25:17.973150+00:00"
+      "metadataLastUpdated": "2025-07-15T20:37:50.451225+00:00"
     },
     "permissions": {
       "usageType": "exemptByCIO",
@@ -10120,8 +10116,7 @@
     },
     "repo_id": 747381454,
     "private_id": "github_747381454",
-    "_url": "https://github.com/CDCgov/dieudonne",
-    "privateID": "github_747381454"
+    "_url": "https://github.com/CDCgov/dieudonne"
   },
   {
     "name": "geocoding",
@@ -10142,7 +10137,7 @@
     "date": {
       "created": "2024-01-25T22:44:33+00:00",
       "lastModified": "2024-01-25T22:44:35+00:00",
-      "metadataLastUpdated": "2025-07-11T14:25:19.792646+00:00"
+      "metadataLastUpdated": "2025-07-15T20:37:52.525139+00:00"
     },
     "permissions": {
       "usageType": "openSource",
@@ -10180,7 +10175,7 @@
     "date": {
       "created": "2024-02-05T14:27:53+00:00",
       "lastModified": "2025-06-06T02:26:15+00:00",
-      "metadataLastUpdated": "2025-07-11T14:25:21.812969+00:00"
+      "metadataLastUpdated": "2025-07-15T20:37:54.369698+00:00"
     },
     "permissions": {
       "usageType": "openSource",
@@ -10222,8 +10217,8 @@
     },
     "date": {
       "created": "2024-02-15T13:55:19+00:00",
-      "lastModified": "2025-07-07T22:00:00+00:00",
-      "metadataLastUpdated": "2025-07-11T14:25:23.716562+00:00"
+      "lastModified": "2025-07-14T19:28:37+00:00",
+      "metadataLastUpdated": "2025-07-15T20:37:56.305943+00:00"
     },
     "permissions": {
       "usageType": "openSource",
@@ -10265,7 +10260,7 @@
     "date": {
       "created": "2024-02-28T19:42:07+00:00",
       "lastModified": "2025-04-18T18:13:24+00:00",
-      "metadataLastUpdated": "2025-07-11T14:25:25.562918+00:00"
+      "metadataLastUpdated": "2025-07-15T20:37:58.293221+00:00"
     },
     "permissions": {
       "usageType": "governmentWideReuse",
@@ -10301,8 +10296,8 @@
     },
     "date": {
       "created": "2024-03-06T12:52:39+00:00",
-      "lastModified": "2025-07-10T16:53:20+00:00",
-      "metadataLastUpdated": "2025-07-11T14:25:27.457139+00:00"
+      "lastModified": "2025-07-15T16:19:07+00:00",
+      "metadataLastUpdated": "2025-07-15T20:38:00.202813+00:00"
     },
     "permissions": {
       "usageType": "openSource",
@@ -10342,7 +10337,7 @@
     "date": {
       "created": "2024-03-12T17:59:55+00:00",
       "lastModified": "2025-07-09T16:58:28+00:00",
-      "metadataLastUpdated": "2025-07-11T14:25:29.309669+00:00"
+      "metadataLastUpdated": "2025-07-15T20:38:02.155481+00:00"
     },
     "permissions": {
       "usageType": "openSource",
@@ -10380,7 +10375,7 @@
     "date": {
       "created": "2024-03-18T16:27:38+00:00",
       "lastModified": "2025-04-29T18:25:49+00:00",
-      "metadataLastUpdated": "2025-07-11T14:25:31.184288+00:00"
+      "metadataLastUpdated": "2025-07-15T20:38:04.030343+00:00"
     },
     "permissions": {
       "usageType": "openSource",
@@ -10422,7 +10417,7 @@
     "date": {
       "created": "2024-03-25T16:17:13+00:00",
       "lastModified": "2024-03-28T13:44:11+00:00",
-      "metadataLastUpdated": "2025-07-11T14:25:33.044308+00:00"
+      "metadataLastUpdated": "2025-07-15T20:38:05.899616+00:00"
     },
     "permissions": {
       "usageType": "openSource",
@@ -10455,7 +10450,7 @@
     "date": {
       "created": "2024-04-02T13:05:21+00:00",
       "lastModified": "2025-07-08T17:12:21+00:00",
-      "metadataLastUpdated": "2025-07-11T14:25:34.980032+00:00"
+      "metadataLastUpdated": "2025-07-15T20:38:07.727668+00:00"
     },
     "permissions": {
       "usageType": "openSource",
@@ -10488,7 +10483,7 @@
     "date": {
       "created": "2024-04-04T12:36:42+00:00",
       "lastModified": "2024-04-04T12:36:45+00:00",
-      "metadataLastUpdated": "2025-07-11T14:25:36.875459+00:00"
+      "metadataLastUpdated": "2025-07-15T20:38:09.627882+00:00"
     },
     "permissions": {
       "usageType": "openSource",
@@ -10523,8 +10518,8 @@
     },
     "date": {
       "created": "2024-04-07T06:06:37+00:00",
-      "lastModified": "2025-06-30T20:01:13+00:00",
-      "metadataLastUpdated": "2025-07-11T14:25:38.827960+00:00"
+      "lastModified": "2025-07-15T18:55:05+00:00",
+      "metadataLastUpdated": "2025-07-15T20:38:11.578917+00:00"
     },
     "permissions": {
       "usageType": "openSource",
@@ -10559,7 +10554,7 @@
     "date": {
       "created": "2024-04-16T14:41:26+00:00",
       "lastModified": "2024-10-31T15:48:38+00:00",
-      "metadataLastUpdated": "2025-07-11T14:25:40.673314+00:00"
+      "metadataLastUpdated": "2025-07-15T20:38:13.515521+00:00"
     },
     "permissions": {
       "usageType": "openSource",
@@ -10597,7 +10592,7 @@
     "date": {
       "created": "2024-04-16T15:03:36+00:00",
       "lastModified": "2024-04-22T19:13:28+00:00",
-      "metadataLastUpdated": "2025-07-11T14:25:42.508980+00:00"
+      "metadataLastUpdated": "2025-07-15T20:38:15.440995+00:00"
     },
     "permissions": {
       "usageType": "openSource",
@@ -10632,7 +10627,7 @@
     "date": {
       "created": "2024-04-18T13:27:50+00:00",
       "lastModified": "2025-07-08T14:37:41+00:00",
-      "metadataLastUpdated": "2025-07-11T14:25:44.383507+00:00"
+      "metadataLastUpdated": "2025-07-15T20:38:17.387400+00:00"
     },
     "permissions": {
       "usageType": "openSource",
@@ -10675,7 +10670,7 @@
     "date": {
       "created": "2024-04-18T13:28:56+00:00",
       "lastModified": "2025-06-04T14:26:52+00:00",
-      "metadataLastUpdated": "2025-07-11T14:25:46.215708+00:00"
+      "metadataLastUpdated": "2025-07-15T20:38:19.337114+00:00"
     },
     "permissions": {
       "usageType": "openSource",
@@ -10714,7 +10709,7 @@
     "date": {
       "created": "2024-04-18T13:32:08+00:00",
       "lastModified": "2025-02-18T09:06:11+00:00",
-      "metadataLastUpdated": "2025-07-11T14:25:48.012019+00:00"
+      "metadataLastUpdated": "2025-07-15T20:38:21.254682+00:00"
     },
     "permissions": {
       "usageType": "openSource",
@@ -10749,7 +10744,7 @@
     "date": {
       "created": "2024-04-30T13:33:00+00:00",
       "lastModified": "2024-05-15T13:57:33+00:00",
-      "metadataLastUpdated": "2025-07-11T14:25:49.844789+00:00"
+      "metadataLastUpdated": "2025-07-15T20:38:23.144513+00:00"
     },
     "permissions": {
       "usageType": "openSource",
@@ -10786,7 +10781,7 @@
     "date": {
       "created": "2024-04-30T13:35:51+00:00",
       "lastModified": "2025-06-16T22:30:36+00:00",
-      "metadataLastUpdated": "2025-07-11T14:25:51.741260+00:00"
+      "metadataLastUpdated": "2025-07-15T20:38:25.042120+00:00"
     },
     "permissions": {
       "usageType": "openSource",
@@ -10819,7 +10814,7 @@
     "date": {
       "created": "2024-05-06T20:17:46+00:00",
       "lastModified": "2024-07-18T13:25:59+00:00",
-      "metadataLastUpdated": "2025-07-11T14:25:53.611009+00:00"
+      "metadataLastUpdated": "2025-07-15T20:38:26.949400+00:00"
     },
     "permissions": {
       "usageType": "openSource",
@@ -10864,7 +10859,7 @@
     "date": {
       "created": "2024-05-07T17:11:27+00:00",
       "lastModified": "2025-04-14T18:24:43+00:00",
-      "metadataLastUpdated": "2025-07-11T14:25:55.401602+00:00"
+      "metadataLastUpdated": "2025-07-15T20:38:28.859012+00:00"
     },
     "permissions": {
       "usageType": "governmentWideReuse",
@@ -10900,7 +10895,7 @@
     "date": {
       "created": "2024-05-14T17:07:56+00:00",
       "lastModified": "2025-02-07T17:27:41+00:00",
-      "metadataLastUpdated": "2025-07-11T14:25:57.223034+00:00"
+      "metadataLastUpdated": "2025-07-15T20:38:30.862858+00:00"
     },
     "permissions": {
       "usageType": "openSource",
@@ -10935,7 +10930,7 @@
     "date": {
       "created": "2024-05-14T18:07:00+00:00",
       "lastModified": "2025-07-09T13:15:26+00:00",
-      "metadataLastUpdated": "2025-07-11T14:25:59.148199+00:00"
+      "metadataLastUpdated": "2025-07-15T20:38:32.702261+00:00"
     },
     "permissions": {
       "usageType": "openSource",
@@ -10970,7 +10965,7 @@
     "date": {
       "created": "2024-05-14T18:36:22+00:00",
       "lastModified": "2024-08-05T20:14:01+00:00",
-      "metadataLastUpdated": "2025-07-11T14:26:01.067909+00:00"
+      "metadataLastUpdated": "2025-07-15T20:38:34.552511+00:00"
     },
     "permissions": {
       "usageType": "openSource",
@@ -11008,7 +11003,7 @@
     "date": {
       "created": "2024-05-20T02:04:55+00:00",
       "lastModified": "2025-01-22T18:38:14+00:00",
-      "metadataLastUpdated": "2025-07-11T14:26:02.965805+00:00"
+      "metadataLastUpdated": "2025-07-15T20:38:36.496212+00:00"
     },
     "permissions": {
       "usageType": "openSource",
@@ -11041,7 +11036,7 @@
     "date": {
       "created": "2024-05-24T16:30:47+00:00",
       "lastModified": "2024-08-14T14:02:55+00:00",
-      "metadataLastUpdated": "2025-07-11T14:26:04.756475+00:00"
+      "metadataLastUpdated": "2025-07-15T20:38:38.410746+00:00"
     },
     "permissions": {
       "usageType": "openSource",
@@ -11078,7 +11073,7 @@
     "date": {
       "created": "2024-05-24T17:28:14+00:00",
       "lastModified": "2025-07-10T20:34:27+00:00",
-      "metadataLastUpdated": "2025-07-11T14:26:06.716041+00:00"
+      "metadataLastUpdated": "2025-07-15T20:38:40.335397+00:00"
     },
     "permissions": {
       "usageType": "openSource",
@@ -11111,7 +11106,7 @@
     "date": {
       "created": "2024-05-24T19:27:18+00:00",
       "lastModified": "2024-05-24T20:23:59+00:00",
-      "metadataLastUpdated": "2025-07-11T14:26:08.550351+00:00"
+      "metadataLastUpdated": "2025-07-15T20:38:42.251325+00:00"
     },
     "permissions": {
       "usageType": "openSource",
@@ -11144,7 +11139,7 @@
     "date": {
       "created": "2024-06-07T19:01:53+00:00",
       "lastModified": "2024-06-07T19:01:55+00:00",
-      "metadataLastUpdated": "2025-07-11T14:26:10.409064+00:00"
+      "metadataLastUpdated": "2025-07-15T20:38:44.145934+00:00"
     },
     "permissions": {
       "usageType": "openSource",
@@ -11183,7 +11178,7 @@
     "date": {
       "created": "2024-06-07T19:09:46+00:00",
       "lastModified": "2024-07-18T01:27:39+00:00",
-      "metadataLastUpdated": "2025-07-11T14:26:12.729405+00:00"
+      "metadataLastUpdated": "2025-07-15T20:38:46.000644+00:00"
     },
     "permissions": {
       "usageType": "openSource",
@@ -11218,7 +11213,7 @@
     "date": {
       "created": "2024-06-12T14:42:06+00:00",
       "lastModified": "2025-03-14T14:43:31+00:00",
-      "metadataLastUpdated": "2025-07-11T14:26:14.557842+00:00"
+      "metadataLastUpdated": "2025-07-15T20:38:47.946114+00:00"
     },
     "permissions": {
       "usageType": "openSource",
@@ -11252,8 +11247,8 @@
     },
     "date": {
       "created": "2024-06-19T23:02:32+00:00",
-      "lastModified": "2025-07-07T19:51:13+00:00",
-      "metadataLastUpdated": "2025-07-11T14:26:16.440495+00:00"
+      "lastModified": "2025-07-14T19:23:23+00:00",
+      "metadataLastUpdated": "2025-07-15T20:38:49.846221+00:00"
     },
     "permissions": {
       "usageType": "governmentWideReuse",
@@ -11285,7 +11280,7 @@
     "date": {
       "created": "2024-06-20T12:54:30+00:00",
       "lastModified": "2024-11-26T17:37:43+00:00",
-      "metadataLastUpdated": "2025-07-11T14:26:18.273890+00:00"
+      "metadataLastUpdated": "2025-07-15T20:38:51.748099+00:00"
     },
     "permissions": {
       "usageType": "openSource",
@@ -11329,7 +11324,7 @@
     "date": {
       "created": "2024-06-25T18:31:46+00:00",
       "lastModified": "2024-12-28T23:18:55+00:00",
-      "metadataLastUpdated": "2025-07-11T14:26:20.149810+00:00"
+      "metadataLastUpdated": "2025-07-15T20:38:53.715247+00:00"
     },
     "permissions": {
       "usageType": "openSource",
@@ -11364,7 +11359,7 @@
     "date": {
       "created": "2024-06-25T20:48:12+00:00",
       "lastModified": "2025-05-12T22:17:53+00:00",
-      "metadataLastUpdated": "2025-07-11T14:26:21.980862+00:00"
+      "metadataLastUpdated": "2025-07-15T20:38:55.639890+00:00"
     },
     "permissions": {
       "usageType": "openSource",
@@ -11403,7 +11398,7 @@
     "date": {
       "created": "2024-06-26T20:50:58+00:00",
       "lastModified": "2025-01-28T19:53:01+00:00",
-      "metadataLastUpdated": "2025-07-11T14:26:23.837598+00:00"
+      "metadataLastUpdated": "2025-07-15T20:38:57.564649+00:00"
     },
     "permissions": {
       "usageType": "openSource",
@@ -11441,8 +11436,8 @@
     },
     "date": {
       "created": "2024-06-28T18:26:48+00:00",
-      "lastModified": "2025-07-11T14:16:20+00:00",
-      "metadataLastUpdated": "2025-07-11T14:26:25.679293+00:00"
+      "lastModified": "2025-07-15T20:27:43+00:00",
+      "metadataLastUpdated": "2025-07-15T20:38:59.410457+00:00"
     },
     "permissions": {
       "usageType": "openSource",
@@ -11484,7 +11479,7 @@
     "date": {
       "created": "2024-07-02T06:44:02+00:00",
       "lastModified": "2024-08-05T17:02:56+00:00",
-      "metadataLastUpdated": "2025-07-11T14:26:27.588660+00:00"
+      "metadataLastUpdated": "2025-07-15T20:39:01.355417+00:00"
     },
     "permissions": {
       "usageType": "openSource",
@@ -11520,8 +11515,8 @@
     },
     "date": {
       "created": "2024-07-03T19:14:11+00:00",
-      "lastModified": "2025-07-10T23:21:31+00:00",
-      "metadataLastUpdated": "2025-07-11T14:26:29.471212+00:00"
+      "lastModified": "2025-07-14T23:21:54+00:00",
+      "metadataLastUpdated": "2025-07-15T20:39:03.234211+00:00"
     },
     "permissions": {
       "usageType": "openSource",
@@ -11557,7 +11552,7 @@
     "date": {
       "created": "2024-07-03T20:22:26+00:00",
       "lastModified": "2024-07-16T18:26:21+00:00",
-      "metadataLastUpdated": "2025-07-11T14:26:31.278381+00:00"
+      "metadataLastUpdated": "2025-07-15T20:39:05.175917+00:00"
     },
     "permissions": {
       "usageType": "openSource",
@@ -11590,7 +11585,7 @@
     "date": {
       "created": "2024-07-05T19:56:22+00:00",
       "lastModified": "2024-07-05T19:56:23+00:00",
-      "metadataLastUpdated": "2025-07-11T14:26:33.236829+00:00"
+      "metadataLastUpdated": "2025-07-15T20:39:07.036484+00:00"
     },
     "permissions": {
       "usageType": "openSource",
@@ -11628,7 +11623,7 @@
     "date": {
       "created": "2024-07-05T20:03:59+00:00",
       "lastModified": "2025-05-19T16:47:53+00:00",
-      "metadataLastUpdated": "2025-07-11T14:26:35.162471+00:00"
+      "metadataLastUpdated": "2025-07-15T20:39:08.993161+00:00"
     },
     "permissions": {
       "usageType": "openSource",
@@ -11666,7 +11661,7 @@
     "date": {
       "created": "2024-07-05T20:06:31+00:00",
       "lastModified": "2025-06-25T17:43:00+00:00",
-      "metadataLastUpdated": "2025-07-11T14:26:36.987679+00:00"
+      "metadataLastUpdated": "2025-07-15T20:39:10.889108+00:00"
     },
     "permissions": {
       "usageType": "openSource",
@@ -11699,7 +11694,7 @@
     "date": {
       "created": "2024-07-08T16:07:28+00:00",
       "lastModified": "2024-07-08T16:07:30+00:00",
-      "metadataLastUpdated": "2025-07-11T14:26:38.845002+00:00"
+      "metadataLastUpdated": "2025-07-15T20:39:12.747182+00:00"
     },
     "permissions": {
       "usageType": "openSource",
@@ -11737,7 +11732,7 @@
     "date": {
       "created": "2024-07-09T13:17:54+00:00",
       "lastModified": "2024-11-25T12:56:57+00:00",
-      "metadataLastUpdated": "2025-07-11T14:26:40.750171+00:00"
+      "metadataLastUpdated": "2025-07-15T20:39:14.670392+00:00"
     },
     "permissions": {
       "usageType": "openSource",
@@ -11781,7 +11776,7 @@
     "date": {
       "created": "2024-07-12T19:02:06+00:00",
       "lastModified": "2025-02-06T15:33:53+00:00",
-      "metadataLastUpdated": "2025-07-11T14:26:42.698863+00:00"
+      "metadataLastUpdated": "2025-07-15T20:39:16.581231+00:00"
     },
     "permissions": {
       "usageType": "openSource",
@@ -11817,7 +11812,7 @@
     "date": {
       "created": "2024-07-17T15:14:28+00:00",
       "lastModified": "2025-01-15T21:39:31+00:00",
-      "metadataLastUpdated": "2025-07-11T14:26:44.451063+00:00"
+      "metadataLastUpdated": "2025-07-15T20:39:18.482517+00:00"
     },
     "permissions": {
       "usageType": "openSource",
@@ -11852,7 +11847,7 @@
     "date": {
       "created": "2024-07-17T15:17:24+00:00",
       "lastModified": "2025-01-10T19:34:03+00:00",
-      "metadataLastUpdated": "2025-07-11T14:26:46.296859+00:00"
+      "metadataLastUpdated": "2025-07-15T20:39:20.371528+00:00"
     },
     "permissions": {
       "usageType": "openSource",
@@ -11887,7 +11882,7 @@
     "date": {
       "created": "2024-07-17T15:20:11+00:00",
       "lastModified": "2024-11-15T14:57:01+00:00",
-      "metadataLastUpdated": "2025-07-11T14:26:48.176510+00:00"
+      "metadataLastUpdated": "2025-07-15T20:39:22.260638+00:00"
     },
     "permissions": {
       "usageType": "openSource",
@@ -11920,7 +11915,7 @@
     "date": {
       "created": "2024-07-17T18:09:08+00:00",
       "lastModified": "2025-04-17T16:00:31+00:00",
-      "metadataLastUpdated": "2025-07-11T14:26:50.029263+00:00"
+      "metadataLastUpdated": "2025-07-15T20:39:24.236637+00:00"
     },
     "permissions": {
       "usageType": "openSource",
@@ -11958,8 +11953,8 @@
     },
     "date": {
       "created": "2024-07-17T18:41:38+00:00",
-      "lastModified": "2025-07-08T22:26:43+00:00",
-      "metadataLastUpdated": "2025-07-11T14:26:51.947695+00:00"
+      "lastModified": "2025-07-11T15:10:31+00:00",
+      "metadataLastUpdated": "2025-07-15T20:39:26.095228+00:00"
     },
     "permissions": {
       "usageType": "openSource",
@@ -11998,8 +11993,8 @@
     },
     "date": {
       "created": "2024-07-19T15:56:55+00:00",
-      "lastModified": "2025-07-10T18:07:51+00:00",
-      "metadataLastUpdated": "2025-07-11T14:26:53.851186+00:00"
+      "lastModified": "2025-07-15T18:25:29+00:00",
+      "metadataLastUpdated": "2025-07-15T20:39:28.001119+00:00"
     },
     "permissions": {
       "usageType": "openSource",
@@ -12034,7 +12029,7 @@
     "date": {
       "created": "2024-07-19T17:19:26+00:00",
       "lastModified": "2024-09-11T15:36:26+00:00",
-      "metadataLastUpdated": "2025-07-11T14:26:55.686895+00:00"
+      "metadataLastUpdated": "2025-07-15T20:39:29.905319+00:00"
     },
     "permissions": {
       "usageType": "openSource",
@@ -12071,7 +12066,7 @@
     "date": {
       "created": "2024-07-22T16:19:00+00:00",
       "lastModified": "2025-03-06T03:58:05+00:00",
-      "metadataLastUpdated": "2025-07-11T14:26:57.537701+00:00"
+      "metadataLastUpdated": "2025-07-15T20:39:31.823241+00:00"
     },
     "permissions": {
       "usageType": "openSource",
@@ -12106,7 +12101,7 @@
     "date": {
       "created": "2024-07-24T17:53:19+00:00",
       "lastModified": "2024-11-26T15:53:35+00:00",
-      "metadataLastUpdated": "2025-07-11T14:26:59.381375+00:00"
+      "metadataLastUpdated": "2025-07-15T20:39:33.636365+00:00"
     },
     "permissions": {
       "usageType": "openSource",
@@ -12142,7 +12137,7 @@
     "date": {
       "created": "2024-07-24T18:01:28+00:00",
       "lastModified": "2025-06-26T19:05:54+00:00",
-      "metadataLastUpdated": "2025-07-11T14:27:01.233787+00:00"
+      "metadataLastUpdated": "2025-07-15T20:39:35.490814+00:00"
     },
     "permissions": {
       "usageType": "openSource",
@@ -12177,20 +12172,20 @@
     "date": {
       "created": "2024-07-25T14:25:02+00:00",
       "lastModified": "2024-08-07T16:10:01+00:00",
-      "metadataLastUpdated": "2025-07-11T14:27:03.050310+00:00"
+      "metadataLastUpdated": "2025-07-15T20:39:37.401793+00:00"
     },
     "permissions": {
-      "usageType": "governmentWideReuse",
+      "usageType": "exemptByCIO",
       "licenses": [
         {
           "name": "Apache License 2.0"
         }
-      ]
+      ],
+      "exemptionText": "Internal repository"
     },
     "repo_id": 833679586,
     "private_id": "github_833679586",
-    "_url": "https://github.com/CDCgov/cruise_discussions",
-    "privateID": "github_833679586"
+    "_url": "https://github.com/CDCgov/cruise_discussions"
   },
   {
     "name": "dog_project",
@@ -12214,20 +12209,20 @@
     "date": {
       "created": "2024-07-25T17:03:39+00:00",
       "lastModified": "2024-10-25T22:26:38+00:00",
-      "metadataLastUpdated": "2025-07-11T14:27:04.902193+00:00"
+      "metadataLastUpdated": "2025-07-15T20:39:39.395351+00:00"
     },
     "permissions": {
-      "usageType": "governmentWideReuse",
+      "usageType": "exemptByCIO",
       "licenses": [
         {
           "name": "Apache License 2.0"
         }
-      ]
+      ],
+      "exemptionText": "Internal repository"
     },
     "repo_id": 833748855,
     "private_id": "github_833748855",
-    "_url": "https://github.com/CDCgov/dog_project",
-    "privateID": "github_833748855"
+    "_url": "https://github.com/CDCgov/dog_project"
   },
   {
     "name": "cfa-epinow2-pipeline",
@@ -12253,8 +12248,8 @@
     },
     "date": {
       "created": "2024-08-02T20:31:21+00:00",
-      "lastModified": "2025-07-11T12:14:46+00:00",
-      "metadataLastUpdated": "2025-07-11T14:27:06.785152+00:00"
+      "lastModified": "2025-07-15T18:45:41+00:00",
+      "metadataLastUpdated": "2025-07-15T20:39:41.240340+00:00"
     },
     "permissions": {
       "usageType": "openSource",
@@ -12290,7 +12285,7 @@
     "date": {
       "created": "2024-08-06T13:41:34+00:00",
       "lastModified": "2025-05-16T13:09:25+00:00",
-      "metadataLastUpdated": "2025-07-11T14:27:08.876161+00:00"
+      "metadataLastUpdated": "2025-07-15T20:39:43.128587+00:00"
     },
     "permissions": {
       "usageType": "openSource",
@@ -12326,7 +12321,7 @@
     "date": {
       "created": "2024-08-06T13:45:02+00:00",
       "lastModified": "2025-04-04T17:31:39+00:00",
-      "metadataLastUpdated": "2025-07-11T14:27:10.791002+00:00"
+      "metadataLastUpdated": "2025-07-15T20:39:45.084494+00:00"
     },
     "permissions": {
       "usageType": "openSource",
@@ -12363,7 +12358,7 @@
     "date": {
       "created": "2024-08-06T13:45:24+00:00",
       "lastModified": "2024-08-23T12:59:57+00:00",
-      "metadataLastUpdated": "2025-07-11T14:27:12.682724+00:00"
+      "metadataLastUpdated": "2025-07-15T20:39:46.904295+00:00"
     },
     "permissions": {
       "usageType": "openSource",
@@ -12399,7 +12394,7 @@
     "date": {
       "created": "2024-08-06T13:45:43+00:00",
       "lastModified": "2024-11-01T20:26:01+00:00",
-      "metadataLastUpdated": "2025-07-11T14:27:14.615005+00:00"
+      "metadataLastUpdated": "2025-07-15T20:39:48.742140+00:00"
     },
     "permissions": {
       "usageType": "openSource",
@@ -12434,7 +12429,7 @@
     "date": {
       "created": "2024-08-08T19:33:26+00:00",
       "lastModified": "2024-08-21T20:13:34+00:00",
-      "metadataLastUpdated": "2025-07-11T14:27:16.527229+00:00"
+      "metadataLastUpdated": "2025-07-15T20:39:50.671655+00:00"
     },
     "permissions": {
       "usageType": "openSource",
@@ -12469,7 +12464,7 @@
     "date": {
       "created": "2024-08-08T19:37:29+00:00",
       "lastModified": "2024-08-14T17:35:01+00:00",
-      "metadataLastUpdated": "2025-07-11T14:27:18.349968+00:00"
+      "metadataLastUpdated": "2025-07-15T20:39:52.525721+00:00"
     },
     "permissions": {
       "usageType": "openSource",
@@ -12508,7 +12503,7 @@
     "date": {
       "created": "2024-08-12T17:47:46+00:00",
       "lastModified": "2024-11-06T22:47:12+00:00",
-      "metadataLastUpdated": "2025-07-11T14:27:20.316308+00:00"
+      "metadataLastUpdated": "2025-07-15T20:39:54.399130+00:00"
     },
     "permissions": {
       "usageType": "openSource",
@@ -12548,7 +12543,7 @@
     "date": {
       "created": "2024-08-14T19:21:34+00:00",
       "lastModified": "2024-12-24T00:12:30+00:00",
-      "metadataLastUpdated": "2025-07-11T14:27:22.243653+00:00"
+      "metadataLastUpdated": "2025-07-15T20:39:56.292902+00:00"
     },
     "permissions": {
       "usageType": "openSource",
@@ -12583,7 +12578,7 @@
     "date": {
       "created": "2024-08-14T20:22:34+00:00",
       "lastModified": "2024-09-26T13:49:43+00:00",
-      "metadataLastUpdated": "2025-07-11T14:27:24.075490+00:00"
+      "metadataLastUpdated": "2025-07-15T20:39:58.133324+00:00"
     },
     "permissions": {
       "usageType": "governmentWideReuse",
@@ -12617,8 +12612,8 @@
     },
     "date": {
       "created": "2024-08-19T23:44:18+00:00",
-      "lastModified": "2025-07-10T15:00:04+00:00",
-      "metadataLastUpdated": "2025-07-11T14:27:26.063577+00:00"
+      "lastModified": "2025-07-14T20:39:01+00:00",
+      "metadataLastUpdated": "2025-07-15T20:39:59.966317+00:00"
     },
     "permissions": {
       "usageType": "openSource",
@@ -12660,7 +12655,7 @@
     "date": {
       "created": "2024-08-20T14:17:26+00:00",
       "lastModified": "2024-12-09T15:38:34+00:00",
-      "metadataLastUpdated": "2025-07-11T14:27:27.930554+00:00"
+      "metadataLastUpdated": "2025-07-15T20:40:02.069029+00:00"
     },
     "permissions": {
       "usageType": "openSource",
@@ -12676,11 +12671,11 @@
   },
   {
     "name": "pvivax_ampliseq_analysis",
-    "organization": "CDC",
+    "organization": "NCEZID",
     "description": "",
-    "version": "N/A",
+    "version": "Beta",
     "laborHours": 0,
-    "status": "development",
+    "status": "maintained",
     "vcs": "git",
     "homepageURL": "",
     "repositoryURL": "https://github.com/CDCgov/pvivax_ampliseq_analysis",
@@ -12694,12 +12689,12 @@
     ],
     "tags": [],
     "contact": {
-      "email": "malarialab@cdc.gov;nsk9@cdc.gov;quh7@cdc.gov"
+      "email": "malarialab@cdc.gov;ncezid_shareit@cdc.gov;nsk9@cdc.gov;quh7@cdc.gov"
     },
     "date": {
       "created": "2024-08-20T16:58:51+00:00",
-      "lastModified": "2024-08-26T13:13:53+00:00",
-      "metadataLastUpdated": "2025-07-11T14:27:29.784148+00:00"
+      "lastModified": "2025-07-15T13:27:48+00:00",
+      "metadataLastUpdated": "2025-07-15T20:40:04.020726+00:00"
     },
     "permissions": {
       "usageType": "openSource",
@@ -12751,7 +12746,7 @@
     "date": {
       "created": "2024-08-20T17:14:13+00:00",
       "lastModified": "2025-07-10T12:58:03+00:00",
-      "metadataLastUpdated": "2025-07-11T14:27:31.672875+00:00"
+      "metadataLastUpdated": "2025-07-15T20:40:05.997175+00:00"
     },
     "permissions": {
       "usageType": "openSource",
@@ -12786,7 +12781,7 @@
     "date": {
       "created": "2024-08-30T15:12:50+00:00",
       "lastModified": "2024-09-15T14:28:22+00:00",
-      "metadataLastUpdated": "2025-07-11T14:27:33.587405+00:00"
+      "metadataLastUpdated": "2025-07-15T20:40:08.061802+00:00"
     },
     "permissions": {
       "usageType": "openSource",
@@ -12827,8 +12822,8 @@
     },
     "date": {
       "created": "2024-09-04T15:05:14+00:00",
-      "lastModified": "2025-07-10T15:28:08+00:00",
-      "metadataLastUpdated": "2025-07-11T14:27:35.563525+00:00"
+      "lastModified": "2025-07-15T05:45:49+00:00",
+      "metadataLastUpdated": "2025-07-15T20:40:10.050433+00:00"
     },
     "permissions": {
       "usageType": "openSource",
@@ -12861,7 +12856,7 @@
     "date": {
       "created": "2024-09-05T22:17:21+00:00",
       "lastModified": "2024-09-09T19:26:40+00:00",
-      "metadataLastUpdated": "2025-07-11T14:27:37.460452+00:00"
+      "metadataLastUpdated": "2025-07-15T20:40:11.984143+00:00"
     },
     "permissions": {
       "usageType": "openSource",
@@ -12898,7 +12893,7 @@
     "date": {
       "created": "2024-09-05T22:28:32+00:00",
       "lastModified": "2025-03-06T04:09:51+00:00",
-      "metadataLastUpdated": "2025-07-11T14:27:39.355228+00:00"
+      "metadataLastUpdated": "2025-07-15T20:40:13.911935+00:00"
     },
     "permissions": {
       "usageType": "openSource",
@@ -12934,7 +12929,7 @@
     "date": {
       "created": "2024-09-09T18:00:24+00:00",
       "lastModified": "2024-09-09T18:09:13+00:00",
-      "metadataLastUpdated": "2025-07-11T14:27:41.267626+00:00"
+      "metadataLastUpdated": "2025-07-15T20:40:15.788692+00:00"
     },
     "permissions": {
       "usageType": "openSource",
@@ -12969,8 +12964,8 @@
     },
     "date": {
       "created": "2024-09-09T21:05:02+00:00",
-      "lastModified": "2025-07-05T17:02:11+00:00",
-      "metadataLastUpdated": "2025-07-11T14:27:43.075320+00:00"
+      "lastModified": "2025-07-12T19:43:20+00:00",
+      "metadataLastUpdated": "2025-07-15T20:40:17.867436+00:00"
     },
     "permissions": {
       "usageType": "openSource",
@@ -13015,7 +13010,7 @@
     "date": {
       "created": "2024-09-10T19:10:48+00:00",
       "lastModified": "2025-07-10T18:55:29+00:00",
-      "metadataLastUpdated": "2025-07-11T14:27:44.886089+00:00"
+      "metadataLastUpdated": "2025-07-15T20:40:19.791128+00:00"
     },
     "permissions": {
       "usageType": "governmentWideReuse",
@@ -13046,7 +13041,7 @@
     "date": {
       "created": "2024-09-11T14:35:36+00:00",
       "lastModified": "2025-04-16T22:26:42+00:00",
-      "metadataLastUpdated": "2025-07-11T14:27:46.760234+00:00"
+      "metadataLastUpdated": "2025-07-15T20:40:21.757636+00:00"
     },
     "permissions": {
       "usageType": "governmentWideReuse",
@@ -13082,7 +13077,7 @@
     "date": {
       "created": "2024-09-11T15:00:56+00:00",
       "lastModified": "2025-06-18T17:51:57+00:00",
-      "metadataLastUpdated": "2025-07-11T14:27:48.591988+00:00"
+      "metadataLastUpdated": "2025-07-15T20:40:23.575020+00:00"
     },
     "permissions": {
       "usageType": "openSource",
@@ -13118,8 +13113,8 @@
     },
     "date": {
       "created": "2024-09-17T13:51:35+00:00",
-      "lastModified": "2025-07-01T17:48:45+00:00",
-      "metadataLastUpdated": "2025-07-11T14:27:50.507441+00:00"
+      "lastModified": "2025-07-15T19:34:16+00:00",
+      "metadataLastUpdated": "2025-07-15T20:40:25.454594+00:00"
     },
     "permissions": {
       "usageType": "openSource",
@@ -13153,8 +13148,8 @@
     },
     "date": {
       "created": "2024-09-17T22:29:57+00:00",
-      "lastModified": "2025-07-10T20:41:53+00:00",
-      "metadataLastUpdated": "2025-07-11T14:27:52.367438+00:00"
+      "lastModified": "2025-07-14T22:11:14+00:00",
+      "metadataLastUpdated": "2025-07-15T20:40:27.400355+00:00"
     },
     "permissions": {
       "usageType": "openSource",
@@ -13189,7 +13184,7 @@
     "date": {
       "created": "2024-09-18T16:14:19+00:00",
       "lastModified": "2025-07-08T17:58:16+00:00",
-      "metadataLastUpdated": "2025-07-11T14:27:54.200208+00:00"
+      "metadataLastUpdated": "2025-07-15T20:40:29.249945+00:00"
     },
     "permissions": {
       "usageType": "openSource",
@@ -13224,7 +13219,7 @@
     "date": {
       "created": "2024-09-18T21:58:12+00:00",
       "lastModified": "2025-05-27T15:32:52+00:00",
-      "metadataLastUpdated": "2025-07-11T14:27:56.138239+00:00"
+      "metadataLastUpdated": "2025-07-15T20:40:31.276739+00:00"
     },
     "permissions": {
       "usageType": "openSource",
@@ -13266,7 +13261,7 @@
     "date": {
       "created": "2024-09-30T19:23:06+00:00",
       "lastModified": "2025-06-05T19:50:22+00:00",
-      "metadataLastUpdated": "2025-07-11T14:27:58.047064+00:00"
+      "metadataLastUpdated": "2025-07-15T20:40:33.216817+00:00"
     },
     "permissions": {
       "usageType": "openSource",
@@ -13305,7 +13300,7 @@
     "date": {
       "created": "2024-10-01T17:14:27+00:00",
       "lastModified": "2025-05-20T19:52:27+00:00",
-      "metadataLastUpdated": "2025-07-11T14:27:59.912296+00:00"
+      "metadataLastUpdated": "2025-07-15T20:40:35.090033+00:00"
     },
     "permissions": {
       "usageType": "openSource",
@@ -13347,7 +13342,7 @@
     "date": {
       "created": "2024-10-03T13:52:08+00:00",
       "lastModified": "2025-04-28T15:46:57+00:00",
-      "metadataLastUpdated": "2025-07-11T14:28:01.806063+00:00"
+      "metadataLastUpdated": "2025-07-15T20:40:37.094144+00:00"
     },
     "permissions": {
       "usageType": "governmentWideReuse",
@@ -13376,7 +13371,7 @@
     "date": {
       "created": "2024-10-03T18:30:56+00:00",
       "lastModified": "2024-11-21T16:39:51+00:00",
-      "metadataLastUpdated": "2025-07-11T14:28:03.661107+00:00"
+      "metadataLastUpdated": "2025-07-15T20:40:39.003030+00:00"
     },
     "permissions": {
       "usageType": "openSource",
@@ -13411,7 +13406,7 @@
     "date": {
       "created": "2024-10-07T17:22:26+00:00",
       "lastModified": "2025-05-07T16:10:31+00:00",
-      "metadataLastUpdated": "2025-07-11T14:28:05.506372+00:00"
+      "metadataLastUpdated": "2025-07-15T20:40:40.886418+00:00"
     },
     "permissions": {
       "usageType": "openSource",
@@ -13448,7 +13443,7 @@
     "date": {
       "created": "2024-10-09T16:31:13+00:00",
       "lastModified": "2025-02-11T17:29:09+00:00",
-      "metadataLastUpdated": "2025-07-11T14:28:07.344026+00:00"
+      "metadataLastUpdated": "2025-07-15T20:40:42.789436+00:00"
     },
     "permissions": {
       "usageType": "openSource",
@@ -13495,8 +13490,8 @@
     },
     "date": {
       "created": "2024-10-10T21:21:31+00:00",
-      "lastModified": "2025-07-11T13:55:02+00:00",
-      "metadataLastUpdated": "2025-07-11T14:28:09.259814+00:00"
+      "lastModified": "2025-07-15T20:11:13+00:00",
+      "metadataLastUpdated": "2025-07-15T20:40:44.716082+00:00"
     },
     "permissions": {
       "usageType": "openSource",
@@ -13531,7 +13526,7 @@
     "date": {
       "created": "2024-10-11T17:11:23+00:00",
       "lastModified": "2025-01-24T17:53:38+00:00",
-      "metadataLastUpdated": "2025-07-11T14:28:11.146494+00:00"
+      "metadataLastUpdated": "2025-07-15T20:40:46.592123+00:00"
     },
     "permissions": {
       "usageType": "governmentWideReuse",
@@ -13561,8 +13556,8 @@
     },
     "date": {
       "created": "2024-10-11T20:02:21+00:00",
-      "lastModified": "2025-07-02T12:32:28+00:00",
-      "metadataLastUpdated": "2025-07-11T14:28:12.948888+00:00"
+      "lastModified": "2025-07-14T17:37:07+00:00",
+      "metadataLastUpdated": "2025-07-15T20:40:48.520298+00:00"
     },
     "permissions": {
       "usageType": "openSource",
@@ -13595,7 +13590,7 @@
     "date": {
       "created": "2024-10-11T20:05:19+00:00",
       "lastModified": "2024-10-11T20:05:21+00:00",
-      "metadataLastUpdated": "2025-07-11T14:28:14.851196+00:00"
+      "metadataLastUpdated": "2025-07-15T20:40:50.421100+00:00"
     },
     "permissions": {
       "usageType": "openSource",
@@ -13631,7 +13626,7 @@
     "date": {
       "created": "2024-10-17T16:31:10+00:00",
       "lastModified": "2024-11-22T21:09:53+00:00",
-      "metadataLastUpdated": "2025-07-11T14:28:16.743026+00:00"
+      "metadataLastUpdated": "2025-07-15T20:40:52.334041+00:00"
     },
     "permissions": {
       "usageType": "openSource",
@@ -13664,7 +13659,7 @@
     "date": {
       "created": "2024-10-24T19:18:25+00:00",
       "lastModified": "2024-10-25T18:39:56+00:00",
-      "metadataLastUpdated": "2025-07-11T14:28:18.579984+00:00"
+      "metadataLastUpdated": "2025-07-15T20:40:54.218890+00:00"
     },
     "permissions": {
       "usageType": "openSource",
@@ -13700,7 +13695,7 @@
     "date": {
       "created": "2024-10-29T20:15:19+00:00",
       "lastModified": "2025-06-30T19:27:45+00:00",
-      "metadataLastUpdated": "2025-07-11T14:28:20.846871+00:00"
+      "metadataLastUpdated": "2025-07-15T20:40:56.241900+00:00"
     },
     "permissions": {
       "usageType": "openSource",
@@ -13733,7 +13728,7 @@
     "date": {
       "created": "2024-10-29T20:18:51+00:00",
       "lastModified": "2024-10-29T20:18:54+00:00",
-      "metadataLastUpdated": "2025-07-11T14:28:22.763949+00:00"
+      "metadataLastUpdated": "2025-07-15T20:40:58.251144+00:00"
     },
     "permissions": {
       "usageType": "openSource",
@@ -13766,7 +13761,7 @@
     "date": {
       "created": "2024-10-29T20:19:43+00:00",
       "lastModified": "2024-10-29T20:19:45+00:00",
-      "metadataLastUpdated": "2025-07-11T14:28:24.586590+00:00"
+      "metadataLastUpdated": "2025-07-15T20:41:00.217318+00:00"
     },
     "permissions": {
       "usageType": "openSource",
@@ -13801,7 +13796,7 @@
     "date": {
       "created": "2024-10-30T14:39:31+00:00",
       "lastModified": "2025-06-19T04:09:42+00:00",
-      "metadataLastUpdated": "2025-07-11T14:28:26.454261+00:00"
+      "metadataLastUpdated": "2025-07-15T20:41:02.104244+00:00"
     },
     "permissions": {
       "usageType": "openSource",
@@ -13834,7 +13829,7 @@
     "date": {
       "created": "2024-10-31T15:59:22+00:00",
       "lastModified": "2024-10-31T15:59:25+00:00",
-      "metadataLastUpdated": "2025-07-11T14:28:28.356025+00:00"
+      "metadataLastUpdated": "2025-07-15T20:41:03.994329+00:00"
     },
     "permissions": {
       "usageType": "openSource",
@@ -13867,7 +13862,7 @@
     "date": {
       "created": "2024-10-31T16:26:58+00:00",
       "lastModified": "2024-10-31T16:27:01+00:00",
-      "metadataLastUpdated": "2025-07-11T14:28:30.217812+00:00"
+      "metadataLastUpdated": "2025-07-15T20:41:05.855539+00:00"
     },
     "permissions": {
       "usageType": "openSource",
@@ -13902,7 +13897,7 @@
     "date": {
       "created": "2024-10-31T16:47:41+00:00",
       "lastModified": "2025-03-25T22:21:45+00:00",
-      "metadataLastUpdated": "2025-07-11T14:28:32.031495+00:00"
+      "metadataLastUpdated": "2025-07-15T20:41:07.684039+00:00"
     },
     "permissions": {
       "usageType": "openSource",
@@ -13937,8 +13932,8 @@
     },
     "date": {
       "created": "2024-10-31T19:00:57+00:00",
-      "lastModified": "2025-07-09T22:41:22+00:00",
-      "metadataLastUpdated": "2025-07-11T14:28:33.900705+00:00"
+      "lastModified": "2025-07-15T15:09:06+00:00",
+      "metadataLastUpdated": "2025-07-15T20:41:09.583912+00:00"
     },
     "permissions": {
       "usageType": "openSource",
@@ -13973,7 +13968,7 @@
     "date": {
       "created": "2024-11-06T21:06:54+00:00",
       "lastModified": "2025-06-19T04:11:32+00:00",
-      "metadataLastUpdated": "2025-07-11T14:28:35.772748+00:00"
+      "metadataLastUpdated": "2025-07-15T20:41:11.615545+00:00"
     },
     "permissions": {
       "usageType": "openSource",
@@ -14011,8 +14006,8 @@
     },
     "date": {
       "created": "2024-11-15T17:17:14+00:00",
-      "lastModified": "2025-07-11T00:57:47+00:00",
-      "metadataLastUpdated": "2025-07-11T14:28:37.606168+00:00"
+      "lastModified": "2025-07-15T17:41:46+00:00",
+      "metadataLastUpdated": "2025-07-15T20:41:13.537114+00:00"
     },
     "permissions": {
       "usageType": "openSource",
@@ -14047,8 +14042,8 @@
     },
     "date": {
       "created": "2024-11-20T18:11:19+00:00",
-      "lastModified": "2025-07-09T22:50:07+00:00",
-      "metadataLastUpdated": "2025-07-11T14:28:39.472338+00:00"
+      "lastModified": "2025-07-11T18:09:21+00:00",
+      "metadataLastUpdated": "2025-07-15T20:41:15.417006+00:00"
     },
     "permissions": {
       "usageType": "openSource",
@@ -14083,8 +14078,8 @@
     },
     "date": {
       "created": "2024-11-20T18:34:18+00:00",
-      "lastModified": "2025-07-11T14:05:43+00:00",
-      "metadataLastUpdated": "2025-07-11T14:28:41.283587+00:00"
+      "lastModified": "2025-07-15T19:04:09+00:00",
+      "metadataLastUpdated": "2025-07-15T20:41:17.323131+00:00"
     },
     "permissions": {
       "usageType": "openSource",
@@ -14120,16 +14115,16 @@
     "date": {
       "created": "2024-11-21T19:29:22+00:00",
       "lastModified": "2025-06-30T17:14:15+00:00",
-      "metadataLastUpdated": "2025-07-11T14:28:43.297588+00:00"
+      "metadataLastUpdated": "2025-07-15T20:41:19.246098+00:00"
     },
     "permissions": {
-      "usageType": "governmentWideReuse",
-      "licenses": []
+      "usageType": "exemptByCIO",
+      "licenses": [],
+      "exemptionText": "Internal repository"
     },
     "repo_id": 892258043,
     "private_id": "github_892258043",
-    "_url": "https://github.com/CDCgov/GenAIMeta",
-    "privateID": "github_892258043"
+    "_url": "https://github.com/CDCgov/GenAIMeta"
   },
   {
     "name": "RadiationPreparedness",
@@ -14150,7 +14145,7 @@
     "date": {
       "created": "2024-11-22T15:21:53+00:00",
       "lastModified": "2025-01-07T14:35:38+00:00",
-      "metadataLastUpdated": "2025-07-11T14:28:45.105471+00:00"
+      "metadataLastUpdated": "2025-07-15T20:41:21.115241+00:00"
     },
     "permissions": {
       "usageType": "openSource",
@@ -14186,7 +14181,7 @@
     "date": {
       "created": "2024-11-22T16:43:19+00:00",
       "lastModified": "2025-06-19T04:40:28+00:00",
-      "metadataLastUpdated": "2025-07-11T14:28:47.076174+00:00"
+      "metadataLastUpdated": "2025-07-15T20:41:23.083443+00:00"
     },
     "permissions": {
       "usageType": "openSource",
@@ -14223,7 +14218,7 @@
     "date": {
       "created": "2024-11-22T16:43:44+00:00",
       "lastModified": "2025-06-19T04:40:45+00:00",
-      "metadataLastUpdated": "2025-07-11T14:28:48.843779+00:00"
+      "metadataLastUpdated": "2025-07-15T20:41:25.036978+00:00"
     },
     "permissions": {
       "usageType": "openSource",
@@ -14262,7 +14257,7 @@
     "date": {
       "created": "2024-11-22T20:27:08+00:00",
       "lastModified": "2025-06-09T14:52:09+00:00",
-      "metadataLastUpdated": "2025-07-11T14:28:50.819623+00:00"
+      "metadataLastUpdated": "2025-07-15T20:41:26.904451+00:00"
     },
     "permissions": {
       "usageType": "openSource",
@@ -14297,7 +14292,7 @@
     "date": {
       "created": "2024-12-04T18:23:57+00:00",
       "lastModified": "2025-05-21T19:44:45+00:00",
-      "metadataLastUpdated": "2025-07-11T14:28:52.713064+00:00"
+      "metadataLastUpdated": "2025-07-15T20:41:28.781355+00:00"
     },
     "permissions": {
       "usageType": "governmentWideReuse",
@@ -14341,7 +14336,7 @@
     "date": {
       "created": "2024-12-05T20:09:48+00:00",
       "lastModified": "2025-02-26T14:59:45+00:00",
-      "metadataLastUpdated": "2025-07-11T14:28:54.665745+00:00"
+      "metadataLastUpdated": "2025-07-15T20:41:30.686245+00:00"
     },
     "permissions": {
       "usageType": "openSource",
@@ -14376,7 +14371,7 @@
     "date": {
       "created": "2024-12-11T16:16:03+00:00",
       "lastModified": "2024-12-12T12:58:16+00:00",
-      "metadataLastUpdated": "2025-07-11T14:28:56.539038+00:00"
+      "metadataLastUpdated": "2025-07-15T20:41:32.571017+00:00"
     },
     "permissions": {
       "usageType": "openSource",
@@ -14413,7 +14408,7 @@
     "date": {
       "created": "2024-12-16T21:22:07+00:00",
       "lastModified": "2025-07-09T00:10:22+00:00",
-      "metadataLastUpdated": "2025-07-11T14:28:58.433296+00:00"
+      "metadataLastUpdated": "2025-07-15T20:41:34.535148+00:00"
     },
     "permissions": {
       "usageType": "openSource",
@@ -14449,7 +14444,7 @@
     "date": {
       "created": "2024-12-18T17:47:54+00:00",
       "lastModified": "2025-06-19T04:42:13+00:00",
-      "metadataLastUpdated": "2025-07-11T14:29:00.270310+00:00"
+      "metadataLastUpdated": "2025-07-15T20:41:36.492266+00:00"
     },
     "permissions": {
       "usageType": "openSource",
@@ -14484,7 +14479,7 @@
     "date": {
       "created": "2024-12-20T18:58:51+00:00",
       "lastModified": "2025-01-15T18:26:56+00:00",
-      "metadataLastUpdated": "2025-07-11T14:29:02.112278+00:00"
+      "metadataLastUpdated": "2025-07-15T20:41:38.372506+00:00"
     },
     "permissions": {
       "usageType": "openSource",
@@ -14520,7 +14515,7 @@
     "date": {
       "created": "2025-01-10T22:06:43+00:00",
       "lastModified": "2025-01-13T02:13:01+00:00",
-      "metadataLastUpdated": "2025-07-11T14:29:03.995545+00:00"
+      "metadataLastUpdated": "2025-07-15T20:41:40.333927+00:00"
     },
     "permissions": {
       "usageType": "openSource",
@@ -14553,7 +14548,7 @@
     "date": {
       "created": "2025-01-14T20:58:29+00:00",
       "lastModified": "2025-07-10T14:52:59+00:00",
-      "metadataLastUpdated": "2025-07-11T14:29:05.923395+00:00"
+      "metadataLastUpdated": "2025-07-15T20:41:42.176179+00:00"
     },
     "permissions": {
       "usageType": "openSource",
@@ -14593,8 +14588,8 @@
     },
     "date": {
       "created": "2025-01-15T20:47:29+00:00",
-      "lastModified": "2025-07-11T14:03:56+00:00",
-      "metadataLastUpdated": "2025-07-11T14:29:07.891490+00:00"
+      "lastModified": "2025-07-11T16:11:24+00:00",
+      "metadataLastUpdated": "2025-07-15T20:41:44.234070+00:00"
     },
     "permissions": {
       "usageType": "openSource",
@@ -14629,7 +14624,7 @@
     "date": {
       "created": "2025-01-21T18:50:39+00:00",
       "lastModified": "2025-02-12T20:23:31+00:00",
-      "metadataLastUpdated": "2025-07-11T14:29:09.781198+00:00"
+      "metadataLastUpdated": "2025-07-15T20:41:46.166031+00:00"
     },
     "permissions": {
       "usageType": "openSource",
@@ -14662,7 +14657,7 @@
     "date": {
       "created": "2025-01-21T19:10:20+00:00",
       "lastModified": "2025-06-12T08:48:05+00:00",
-      "metadataLastUpdated": "2025-07-11T14:29:11.679471+00:00"
+      "metadataLastUpdated": "2025-07-15T20:41:48.159488+00:00"
     },
     "permissions": {
       "usageType": "openSource",
@@ -14697,7 +14692,7 @@
     "date": {
       "created": "2025-01-21T20:57:57+00:00",
       "lastModified": "2025-05-23T12:02:48+00:00",
-      "metadataLastUpdated": "2025-07-11T14:29:13.531172+00:00"
+      "metadataLastUpdated": "2025-07-15T20:41:50.044760+00:00"
     },
     "permissions": {
       "usageType": "governmentWideReuse",
@@ -14736,8 +14731,8 @@
     },
     "date": {
       "created": "2025-01-27T17:26:11+00:00",
-      "lastModified": "2025-07-11T14:12:17+00:00",
-      "metadataLastUpdated": "2025-07-11T14:29:15.444961+00:00"
+      "lastModified": "2025-07-15T19:40:00+00:00",
+      "metadataLastUpdated": "2025-07-15T20:41:51.919564+00:00"
     },
     "permissions": {
       "usageType": "openSource",
@@ -14770,7 +14765,7 @@
     "date": {
       "created": "2025-01-27T21:17:26+00:00",
       "lastModified": "2025-01-28T00:51:13+00:00",
-      "metadataLastUpdated": "2025-07-11T14:29:17.306112+00:00"
+      "metadataLastUpdated": "2025-07-15T20:41:53.853666+00:00"
     },
     "permissions": {
       "usageType": "governmentWideReuse",
@@ -14801,7 +14796,7 @@
     "date": {
       "created": "2025-02-05T15:53:51+00:00",
       "lastModified": "2025-06-12T16:17:04+00:00",
-      "metadataLastUpdated": "2025-07-11T14:29:19.247638+00:00"
+      "metadataLastUpdated": "2025-07-15T20:41:55.823357+00:00"
     },
     "permissions": {
       "usageType": "openSource",
@@ -14838,7 +14833,7 @@
     "date": {
       "created": "2025-02-12T04:33:08+00:00",
       "lastModified": "2025-04-07T17:53:55+00:00",
-      "metadataLastUpdated": "2025-07-11T14:29:21.056608+00:00"
+      "metadataLastUpdated": "2025-07-15T20:41:57.708481+00:00"
     },
     "permissions": {
       "usageType": "openSource",
@@ -14874,7 +14869,7 @@
     "date": {
       "created": "2025-02-18T03:22:12+00:00",
       "lastModified": "2025-06-24T10:39:02+00:00",
-      "metadataLastUpdated": "2025-07-11T14:29:22.953909+00:00"
+      "metadataLastUpdated": "2025-07-15T20:41:59.601807+00:00"
     },
     "permissions": {
       "usageType": "openSource",
@@ -14907,7 +14902,7 @@
     "date": {
       "created": "2025-02-18T21:24:41+00:00",
       "lastModified": "2025-02-18T21:24:44+00:00",
-      "metadataLastUpdated": "2025-07-11T14:29:24.797323+00:00"
+      "metadataLastUpdated": "2025-07-15T20:42:01.594248+00:00"
     },
     "permissions": {
       "usageType": "openSource",
@@ -14946,7 +14941,7 @@
     "date": {
       "created": "2025-02-18T21:27:16+00:00",
       "lastModified": "2025-07-09T20:11:20+00:00",
-      "metadataLastUpdated": "2025-07-11T14:29:26.646687+00:00"
+      "metadataLastUpdated": "2025-07-15T20:42:03.591031+00:00"
     },
     "permissions": {
       "usageType": "openSource",
@@ -14984,7 +14979,7 @@
     "date": {
       "created": "2025-02-18T21:36:10+00:00",
       "lastModified": "2025-06-27T19:09:37+00:00",
-      "metadataLastUpdated": "2025-07-11T14:29:28.453863+00:00"
+      "metadataLastUpdated": "2025-07-15T20:42:05.700609+00:00"
     },
     "permissions": {
       "usageType": "openSource",
@@ -15022,7 +15017,7 @@
     "date": {
       "created": "2025-02-19T18:42:18+00:00",
       "lastModified": "2025-05-29T14:45:10+00:00",
-      "metadataLastUpdated": "2025-07-11T14:29:30.300467+00:00"
+      "metadataLastUpdated": "2025-07-15T20:42:07.666268+00:00"
     },
     "permissions": {
       "usageType": "openSource",
@@ -15059,7 +15054,7 @@
     "date": {
       "created": "2025-02-21T00:40:33+00:00",
       "lastModified": "2025-06-06T04:06:25+00:00",
-      "metadataLastUpdated": "2025-07-11T14:29:32.155839+00:00"
+      "metadataLastUpdated": "2025-07-15T20:42:09.612806+00:00"
     },
     "permissions": {
       "usageType": "openSource",
@@ -15099,7 +15094,7 @@
     "date": {
       "created": "2025-02-21T15:41:03+00:00",
       "lastModified": "2025-06-11T15:34:16+00:00",
-      "metadataLastUpdated": "2025-07-11T14:29:33.983333+00:00"
+      "metadataLastUpdated": "2025-07-15T20:42:11.563983+00:00"
     },
     "permissions": {
       "usageType": "openSource",
@@ -15135,7 +15130,7 @@
     "date": {
       "created": "2025-02-24T20:43:05+00:00",
       "lastModified": "2025-06-04T17:00:11+00:00",
-      "metadataLastUpdated": "2025-07-11T14:29:35.935177+00:00"
+      "metadataLastUpdated": "2025-07-15T20:42:13.431373+00:00"
     },
     "permissions": {
       "usageType": "openSource",
@@ -15175,7 +15170,7 @@
     "date": {
       "created": "2025-02-24T20:45:43+00:00",
       "lastModified": "2025-06-11T17:08:29+00:00",
-      "metadataLastUpdated": "2025-07-11T14:29:37.888455+00:00"
+      "metadataLastUpdated": "2025-07-15T20:42:15.453636+00:00"
     },
     "permissions": {
       "usageType": "openSource",
@@ -15210,16 +15205,16 @@
     "date": {
       "created": "2025-02-26T19:46:28+00:00",
       "lastModified": "2025-05-14T23:30:06+00:00",
-      "metadataLastUpdated": "2025-07-11T14:29:39.787705+00:00"
+      "metadataLastUpdated": "2025-07-15T20:42:17.396973+00:00"
     },
     "permissions": {
-      "usageType": "governmentWideReuse",
-      "licenses": []
+      "usageType": "exemptByCIO",
+      "licenses": [],
+      "exemptionText": "Internal repository"
     },
     "repo_id": 939595631,
     "private_id": "github_939595631",
-    "_url": "https://github.com/CDCgov/github-user-management",
-    "privateID": "github_939595631"
+    "_url": "https://github.com/CDCgov/github-user-management"
   },
   {
     "name": "reedfrost",
@@ -15242,8 +15237,8 @@
     },
     "date": {
       "created": "2025-02-27T19:46:14+00:00",
-      "lastModified": "2025-07-10T18:07:31+00:00",
-      "metadataLastUpdated": "2025-07-11T14:29:41.659825+00:00"
+      "lastModified": "2025-07-15T19:35:11+00:00",
+      "metadataLastUpdated": "2025-07-15T20:42:19.276137+00:00"
     },
     "permissions": {
       "usageType": "openSource",
@@ -15279,7 +15274,7 @@
     "date": {
       "created": "2025-02-28T20:37:53+00:00",
       "lastModified": "2025-07-01T17:44:04+00:00",
-      "metadataLastUpdated": "2025-07-11T14:29:43.507940+00:00"
+      "metadataLastUpdated": "2025-07-15T20:42:21.270032+00:00"
     },
     "permissions": {
       "usageType": "openSource",
@@ -15313,8 +15308,8 @@
     },
     "date": {
       "created": "2025-03-03T18:48:36+00:00",
-      "lastModified": "2025-07-10T17:37:30+00:00",
-      "metadataLastUpdated": "2025-07-11T14:29:45.386432+00:00"
+      "lastModified": "2025-07-15T17:49:41+00:00",
+      "metadataLastUpdated": "2025-07-15T20:42:23.154528+00:00"
     },
     "permissions": {
       "usageType": "openSource",
@@ -15346,8 +15341,8 @@
     },
     "date": {
       "created": "2025-03-04T18:25:29+00:00",
-      "lastModified": "2025-07-10T20:42:06+00:00",
-      "metadataLastUpdated": "2025-07-11T14:29:47.228034+00:00"
+      "lastModified": "2025-07-14T23:49:09+00:00",
+      "metadataLastUpdated": "2025-07-15T20:42:25.096073+00:00"
     },
     "permissions": {
       "usageType": "openSource",
@@ -15382,7 +15377,7 @@
     "date": {
       "created": "2025-03-13T13:25:20+00:00",
       "lastModified": "2025-04-21T15:49:24+00:00",
-      "metadataLastUpdated": "2025-07-11T14:29:49.148043+00:00"
+      "metadataLastUpdated": "2025-07-15T20:42:26.993249+00:00"
     },
     "permissions": {
       "usageType": "openSource",
@@ -15421,7 +15416,7 @@
     "date": {
       "created": "2025-03-21T17:24:33+00:00",
       "lastModified": "2025-07-08T20:24:35+00:00",
-      "metadataLastUpdated": "2025-07-11T14:29:50.999795+00:00"
+      "metadataLastUpdated": "2025-07-15T20:42:28.865088+00:00"
     },
     "permissions": {
       "usageType": "openSource",
@@ -15454,6 +15449,7 @@
       "CSS",
       "SCSS",
       "JavaScript",
+      "Just",
       "HTML"
     ],
     "tags": [],
@@ -15462,8 +15458,8 @@
     },
     "date": {
       "created": "2025-03-22T05:33:21+00:00",
-      "lastModified": "2025-07-10T20:04:46+00:00",
-      "metadataLastUpdated": "2025-07-11T14:29:52.840727+00:00"
+      "lastModified": "2025-07-15T19:50:29+00:00",
+      "metadataLastUpdated": "2025-07-15T20:42:30.750566+00:00"
     },
     "permissions": {
       "usageType": "openSource",
@@ -15503,7 +15499,7 @@
     "date": {
       "created": "2025-03-28T20:42:07+00:00",
       "lastModified": "2025-04-29T18:40:33+00:00",
-      "metadataLastUpdated": "2025-07-11T14:29:54.786974+00:00"
+      "metadataLastUpdated": "2025-07-15T20:42:32.722195+00:00"
     },
     "permissions": {
       "usageType": "openSource",
@@ -15538,7 +15534,7 @@
     "date": {
       "created": "2025-03-31T14:07:15+00:00",
       "lastModified": "2025-04-25T12:29:06+00:00",
-      "metadataLastUpdated": "2025-07-11T14:29:56.565414+00:00"
+      "metadataLastUpdated": "2025-07-15T20:42:34.669304+00:00"
     },
     "permissions": {
       "usageType": "openSource",
@@ -15573,7 +15569,7 @@
     "date": {
       "created": "2025-04-03T17:48:10+00:00",
       "lastModified": "2025-06-26T18:38:44+00:00",
-      "metadataLastUpdated": "2025-07-11T14:29:58.435976+00:00"
+      "metadataLastUpdated": "2025-07-15T20:42:36.541422+00:00"
     },
     "permissions": {
       "usageType": "openSource",
@@ -15591,7 +15587,7 @@
     "name": "neissflow",
     "organization": "CDC",
     "description": "Nextflow pipeline for Neisseria gonorrhoeae isolate analysis",
-    "version": "2.0.0",
+    "version": "2.0.1",
     "laborHours": 0,
     "status": "development",
     "vcs": "git",
@@ -15599,8 +15595,8 @@
     "repositoryURL": "https://github.com/CDCgov/neissflow",
     "repositoryVisibility": "public",
     "languages": [
-      "Nextflow",
       "Perl",
+      "Nextflow",
       "Python",
       "Shell",
       "HTML",
@@ -15612,8 +15608,8 @@
     },
     "date": {
       "created": "2025-04-08T04:56:46+00:00",
-      "lastModified": "2025-06-13T20:08:00+00:00",
-      "metadataLastUpdated": "2025-07-11T14:30:00.266589+00:00"
+      "lastModified": "2025-07-11T17:07:01+00:00",
+      "metadataLastUpdated": "2025-07-15T20:42:38.545051+00:00"
     },
     "permissions": {
       "usageType": "openSource",
@@ -15652,8 +15648,8 @@
     },
     "date": {
       "created": "2025-04-09T14:49:36+00:00",
-      "lastModified": "2025-07-10T13:56:04+00:00",
-      "metadataLastUpdated": "2025-07-11T14:30:02.185084+00:00"
+      "lastModified": "2025-07-15T20:04:56+00:00",
+      "metadataLastUpdated": "2025-07-15T20:42:40.503172+00:00"
     },
     "permissions": {
       "usageType": "openSource",
@@ -15688,7 +15684,7 @@
     "date": {
       "created": "2025-04-10T14:52:55+00:00",
       "lastModified": "2025-06-17T17:43:23+00:00",
-      "metadataLastUpdated": "2025-07-11T14:30:04.094076+00:00"
+      "metadataLastUpdated": "2025-07-15T20:42:42.884623+00:00"
     },
     "permissions": {
       "usageType": "openSource",
@@ -15725,8 +15721,8 @@
     },
     "date": {
       "created": "2025-04-15T14:38:33+00:00",
-      "lastModified": "2025-07-11T14:12:46+00:00",
-      "metadataLastUpdated": "2025-07-11T14:30:05.960335+00:00"
+      "lastModified": "2025-07-15T20:25:16+00:00",
+      "metadataLastUpdated": "2025-07-15T20:42:44.779546+00:00"
     },
     "permissions": {
       "usageType": "openSource",
@@ -15759,7 +15755,7 @@
     "date": {
       "created": "2025-04-21T15:41:41+00:00",
       "lastModified": "2025-04-21T15:41:43+00:00",
-      "metadataLastUpdated": "2025-07-11T14:30:07.867618+00:00"
+      "metadataLastUpdated": "2025-07-15T20:42:46.707331+00:00"
     },
     "permissions": {
       "usageType": "openSource",
@@ -15797,7 +15793,7 @@
     "date": {
       "created": "2025-04-21T17:10:03+00:00",
       "lastModified": "2025-06-25T17:55:55+00:00",
-      "metadataLastUpdated": "2025-07-11T14:30:09.707227+00:00"
+      "metadataLastUpdated": "2025-07-15T20:42:48.584771+00:00"
     },
     "permissions": {
       "usageType": "openSource",
@@ -15833,8 +15829,8 @@
     },
     "date": {
       "created": "2025-04-24T05:07:16+00:00",
-      "lastModified": "2025-04-24T16:38:01+00:00",
-      "metadataLastUpdated": "2025-07-11T14:30:11.521202+00:00"
+      "lastModified": "2025-07-15T12:52:48+00:00",
+      "metadataLastUpdated": "2025-07-15T20:42:50.543029+00:00"
     },
     "permissions": {
       "usageType": "governmentWideReuse",
@@ -15865,8 +15861,8 @@
     },
     "date": {
       "created": "2025-04-29T19:01:00+00:00",
-      "lastModified": "2025-07-09T17:15:32+00:00",
-      "metadataLastUpdated": "2025-07-11T14:30:13.369837+00:00"
+      "lastModified": "2025-07-15T19:20:29+00:00",
+      "metadataLastUpdated": "2025-07-15T20:42:52.523669+00:00"
     },
     "permissions": {
       "usageType": "openSource",
@@ -15907,7 +15903,7 @@
     "date": {
       "created": "2025-05-02T22:56:40+00:00",
       "lastModified": "2025-05-30T18:10:35+00:00",
-      "metadataLastUpdated": "2025-07-11T14:30:15.433977+00:00"
+      "metadataLastUpdated": "2025-07-15T20:42:54.497963+00:00"
     },
     "permissions": {
       "usageType": "openSource",
@@ -15943,7 +15939,7 @@
     "date": {
       "created": "2025-05-13T17:23:13+00:00",
       "lastModified": "2025-06-05T18:28:35+00:00",
-      "metadataLastUpdated": "2025-07-11T14:30:17.353050+00:00"
+      "metadataLastUpdated": "2025-07-15T20:42:56.398082+00:00"
     },
     "permissions": {
       "usageType": "openSource",
@@ -15978,7 +15974,7 @@
     "date": {
       "created": "2025-05-14T18:13:16+00:00",
       "lastModified": "2025-05-28T20:18:09+00:00",
-      "metadataLastUpdated": "2025-07-11T14:30:19.272263+00:00"
+      "metadataLastUpdated": "2025-07-15T20:42:58.300734+00:00"
     },
     "permissions": {
       "usageType": "openSource",
@@ -16011,7 +16007,7 @@
     "date": {
       "created": "2025-05-20T02:37:50+00:00",
       "lastModified": "2025-05-20T02:37:53+00:00",
-      "metadataLastUpdated": "2025-07-11T14:30:21.081316+00:00"
+      "metadataLastUpdated": "2025-07-15T20:43:00.228703+00:00"
     },
     "permissions": {
       "usageType": "openSource",
@@ -16044,7 +16040,7 @@
     "date": {
       "created": "2025-05-28T01:22:35+00:00",
       "lastModified": "2025-05-28T01:22:37+00:00",
-      "metadataLastUpdated": "2025-07-11T14:30:22.939992+00:00"
+      "metadataLastUpdated": "2025-07-15T20:43:02.153680+00:00"
     },
     "permissions": {
       "usageType": "openSource",
@@ -16077,7 +16073,7 @@
     "date": {
       "created": "2025-05-30T12:43:30+00:00",
       "lastModified": "2025-05-30T12:43:32+00:00",
-      "metadataLastUpdated": "2025-07-11T14:30:24.841369+00:00"
+      "metadataLastUpdated": "2025-07-15T20:43:04.108624+00:00"
     },
     "permissions": {
       "usageType": "exemptByCIO",
@@ -16090,8 +16086,7 @@
     },
     "repo_id": 993231138,
     "private_id": "github_993231138",
-    "_url": "https://github.com/CDCgov/carlen_git_training_please_delete_me",
-    "privateID": "github_993231138"
+    "_url": "https://github.com/CDCgov/carlen_git_training_please_delete_me"
   },
   {
     "name": "routes",
@@ -16115,7 +16110,7 @@
     "date": {
       "created": "2025-06-05T13:04:39+00:00",
       "lastModified": "2025-06-25T15:02:56+00:00",
-      "metadataLastUpdated": "2025-07-11T14:30:26.696101+00:00"
+      "metadataLastUpdated": "2025-07-15T20:43:05.998739+00:00"
     },
     "permissions": {
       "usageType": "openSource",
@@ -16153,7 +16148,7 @@
     "date": {
       "created": "2025-06-05T15:59:06+00:00",
       "lastModified": "2025-07-10T20:40:44+00:00",
-      "metadataLastUpdated": "2025-07-11T14:30:28.629455+00:00"
+      "metadataLastUpdated": "2025-07-15T20:43:08.324245+00:00"
     },
     "permissions": {
       "usageType": "openSource",
@@ -16186,7 +16181,7 @@
     "date": {
       "created": "2025-06-09T19:40:35+00:00",
       "lastModified": "2025-06-10T11:16:28+00:00",
-      "metadataLastUpdated": "2025-07-11T14:30:30.485412+00:00"
+      "metadataLastUpdated": "2025-07-15T20:43:10.200293+00:00"
     },
     "permissions": {
       "usageType": "openSource",
@@ -16227,7 +16222,7 @@
     "date": {
       "created": "2025-06-11T21:34:13+00:00",
       "lastModified": "2025-06-17T19:24:46+00:00",
-      "metadataLastUpdated": "2025-07-11T14:30:32.424929+00:00"
+      "metadataLastUpdated": "2025-07-15T20:43:12.123394+00:00"
     },
     "permissions": {
       "usageType": "openSource",
@@ -16266,8 +16261,8 @@
     },
     "date": {
       "created": "2025-06-13T14:46:07+00:00",
-      "lastModified": "2025-07-07T02:29:17+00:00",
-      "metadataLastUpdated": "2025-07-11T14:30:34.365253+00:00"
+      "lastModified": "2025-07-14T02:36:28+00:00",
+      "metadataLastUpdated": "2025-07-15T20:43:13.993881+00:00"
     },
     "permissions": {
       "usageType": "openSource",
@@ -16307,7 +16302,7 @@
     "date": {
       "created": "2025-06-16T21:35:13+00:00",
       "lastModified": "2025-06-18T13:53:15+00:00",
-      "metadataLastUpdated": "2025-07-11T14:30:36.211884+00:00"
+      "metadataLastUpdated": "2025-07-15T20:43:15.905668+00:00"
     },
     "permissions": {
       "usageType": "openSource",
@@ -16342,8 +16337,8 @@
     },
     "date": {
       "created": "2025-06-17T14:24:26+00:00",
-      "lastModified": "2025-07-10T12:38:13+00:00",
-      "metadataLastUpdated": "2025-07-11T14:30:38.115314+00:00"
+      "lastModified": "2025-07-15T19:24:17+00:00",
+      "metadataLastUpdated": "2025-07-15T20:43:17.793272+00:00"
     },
     "permissions": {
       "usageType": "openSource",
@@ -16379,7 +16374,7 @@
     "date": {
       "created": "2025-06-18T12:34:33+00:00",
       "lastModified": "2025-06-18T12:41:22+00:00",
-      "metadataLastUpdated": "2025-07-11T14:30:39.968342+00:00"
+      "metadataLastUpdated": "2025-07-15T20:43:19.710791+00:00"
     },
     "permissions": {
       "usageType": "openSource",
@@ -16412,7 +16407,7 @@
     "date": {
       "created": "2025-06-26T18:22:45+00:00",
       "lastModified": "2025-06-26T18:22:48+00:00",
-      "metadataLastUpdated": "2025-07-11T14:30:41.835000+00:00"
+      "metadataLastUpdated": "2025-07-15T20:43:21.695016+00:00"
     },
     "permissions": {
       "usageType": "openSource",
@@ -16444,8 +16439,8 @@
     },
     "date": {
       "created": "2025-07-07T15:31:18+00:00",
-      "lastModified": "2025-07-08T17:48:51+00:00",
-      "metadataLastUpdated": "2025-07-11T14:30:43.618870+00:00"
+      "lastModified": "2025-07-14T21:50:25+00:00",
+      "metadataLastUpdated": "2025-07-15T20:43:23.649245+00:00"
     },
     "permissions": {
       "usageType": "openSource",
@@ -16477,8 +16472,8 @@
     },
     "date": {
       "created": "2025-07-07T19:13:11+00:00",
-      "lastModified": "2025-07-09T16:09:17+00:00",
-      "metadataLastUpdated": "2025-07-11T14:30:45.456740+00:00"
+      "lastModified": "2025-07-15T20:12:29+00:00",
+      "metadataLastUpdated": "2025-07-15T20:43:25.681653+00:00"
     },
     "permissions": {
       "usageType": "openSource",
@@ -16511,7 +16506,7 @@
     "date": {
       "created": "2025-07-08T15:30:56+00:00",
       "lastModified": "2025-07-08T15:30:58+00:00",
-      "metadataLastUpdated": "2025-07-11T14:30:47.271490+00:00"
+      "metadataLastUpdated": "2025-07-15T20:43:27.584566+00:00"
     },
     "permissions": {
       "usageType": "openSource",
@@ -16524,5 +16519,71 @@
     "repo_id": 1016166415,
     "private_id": "github_1016166415",
     "_url": "https://github.com/CDCgov/nccdphp-drh-mmria"
+  },
+  {
+    "name": "Databricks_Schema_Analysis",
+    "organization": "CDC",
+    "description": "",
+    "version": "N/A",
+    "laborHours": 0,
+    "status": "development",
+    "vcs": "git",
+    "homepageURL": "",
+    "repositoryURL": "https://github.com/CDCgov/Databricks_Schema_Analysis",
+    "repositoryVisibility": "public",
+    "languages": [],
+    "tags": [],
+    "contact": {
+      "email": "cdcinfo@cdc.gov"
+    },
+    "date": {
+      "created": "2025-07-11T18:07:15+00:00",
+      "lastModified": "2025-07-11T18:07:17+00:00",
+      "metadataLastUpdated": "2025-07-15T20:43:29.477762+00:00"
+    },
+    "permissions": {
+      "usageType": "openSource",
+      "licenses": [
+        {
+          "name": "Apache License 2.0"
+        }
+      ]
+    },
+    "repo_id": 1018164740,
+    "private_id": "github_1018164740",
+    "_url": "https://github.com/CDCgov/Databricks_Schema_Analysis"
+  },
+  {
+    "name": "dibbs-text-to-code",
+    "organization": "CDC",
+    "description": "",
+    "version": "N/A",
+    "laborHours": 0,
+    "status": "development",
+    "vcs": "git",
+    "homepageURL": "",
+    "repositoryURL": "https://github.com/CDCgov/dibbs-text-to-code",
+    "repositoryVisibility": "public",
+    "languages": [],
+    "tags": [],
+    "contact": {
+      "email": "cdcinfo@cdc.gov"
+    },
+    "date": {
+      "created": "2025-07-14T18:51:24+00:00",
+      "lastModified": "2025-07-15T17:43:39+00:00",
+      "metadataLastUpdated": "2025-07-15T20:43:31.350628+00:00"
+    },
+    "permissions": {
+      "usageType": "openSource",
+      "licenses": [
+        {
+          "name": "Apache License 2.0"
+        }
+      ]
+    },
+    "repo_id": 1019713814,
+    "private_id": "github_1019713814",
+    "_url": "https://github.com/CDCgov/dibbs-text-to-code"
   }
 ]
