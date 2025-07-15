@@ -33,7 +33,7 @@
     "date": {
       "created": "2012-06-05T19:35:07+00:00",
       "lastModified": "2014-12-03T13:05:38+00:00",
-      "metadataLastUpdated": "2025-07-11T14:31:11.032253+00:00"
+      "metadataLastUpdated": "2025-07-15T20:43:48.106923+00:00"
     },
     "permissions": {
       "usageType": "governmentWideReuse",
@@ -64,7 +64,7 @@
     "date": {
       "created": "2012-06-05T19:38:12+00:00",
       "lastModified": "2013-11-06T15:52:07+00:00",
-      "metadataLastUpdated": "2025-07-11T14:31:13.443010+00:00"
+      "metadataLastUpdated": "2025-07-15T20:43:50.130522+00:00"
     },
     "permissions": {
       "usageType": "governmentWideReuse",
@@ -93,7 +93,7 @@
     "date": {
       "created": "2012-11-29T20:04:37+00:00",
       "lastModified": "2014-04-03T16:04:25+00:00",
-      "metadataLastUpdated": "2025-07-11T14:31:15.872618+00:00"
+      "metadataLastUpdated": "2025-07-15T20:43:52.112932+00:00"
     },
     "permissions": {
       "usageType": "governmentWideReuse",
@@ -126,7 +126,7 @@
     "date": {
       "created": "2012-11-29T22:12:18+00:00",
       "lastModified": "2013-10-01T18:52:27+00:00",
-      "metadataLastUpdated": "2025-07-11T14:31:18.337110+00:00"
+      "metadataLastUpdated": "2025-07-15T20:43:54.143820+00:00"
     },
     "permissions": {
       "usageType": "governmentWideReuse",
@@ -158,7 +158,7 @@
     "date": {
       "created": "2012-11-29T22:40:03+00:00",
       "lastModified": "2016-11-15T19:09:54+00:00",
-      "metadataLastUpdated": "2025-07-11T14:31:20.731958+00:00"
+      "metadataLastUpdated": "2025-07-15T20:43:56.161239+00:00"
     },
     "permissions": {
       "usageType": "governmentWideReuse",
@@ -196,7 +196,7 @@
     "date": {
       "created": "2012-11-29T22:56:50+00:00",
       "lastModified": "2014-02-25T15:54:08+00:00",
-      "metadataLastUpdated": "2025-07-11T14:31:23.135635+00:00"
+      "metadataLastUpdated": "2025-07-15T20:43:58.160088+00:00"
     },
     "permissions": {
       "usageType": "governmentWideReuse",
@@ -227,7 +227,7 @@
     "date": {
       "created": "2012-11-30T14:34:34+00:00",
       "lastModified": "2012-11-30T14:46:24+00:00",
-      "metadataLastUpdated": "2025-07-11T14:31:25.762385+00:00"
+      "metadataLastUpdated": "2025-07-15T20:44:00.164746+00:00"
     },
     "permissions": {
       "usageType": "governmentWideReuse",
@@ -258,7 +258,7 @@
     "date": {
       "created": "2012-11-30T14:51:50+00:00",
       "lastModified": "2014-10-15T14:30:54+00:00",
-      "metadataLastUpdated": "2025-07-11T14:31:28.153859+00:00"
+      "metadataLastUpdated": "2025-07-15T20:44:02.209295+00:00"
     },
     "permissions": {
       "usageType": "openSource",
@@ -296,7 +296,7 @@
     "date": {
       "created": "2012-11-30T16:10:06+00:00",
       "lastModified": "2015-04-02T14:34:20+00:00",
-      "metadataLastUpdated": "2025-07-11T14:31:30.515114+00:00"
+      "metadataLastUpdated": "2025-07-15T20:44:04.219457+00:00"
     },
     "permissions": {
       "usageType": "governmentWideReuse",
@@ -327,7 +327,7 @@
     "date": {
       "created": "2012-11-30T16:34:49+00:00",
       "lastModified": "2012-11-30T16:44:27+00:00",
-      "metadataLastUpdated": "2025-07-11T14:31:32.909049+00:00"
+      "metadataLastUpdated": "2025-07-15T20:44:06.320979+00:00"
     },
     "permissions": {
       "usageType": "governmentWideReuse",
@@ -358,7 +358,7 @@
     "date": {
       "created": "2012-11-30T16:39:16+00:00",
       "lastModified": "2012-11-30T16:50:13+00:00",
-      "metadataLastUpdated": "2025-07-11T14:31:35.383062+00:00"
+      "metadataLastUpdated": "2025-07-15T20:44:08.381812+00:00"
     },
     "permissions": {
       "usageType": "governmentWideReuse",
@@ -387,7 +387,7 @@
     "date": {
       "created": "2012-11-30T17:01:59+00:00",
       "lastModified": "2012-11-30T17:12:24+00:00",
-      "metadataLastUpdated": "2025-07-11T14:31:37.939957+00:00"
+      "metadataLastUpdated": "2025-07-15T20:44:10.413097+00:00"
     },
     "permissions": {
       "usageType": "openSource",
@@ -422,7 +422,7 @@
     "date": {
       "created": "2012-11-30T17:22:21+00:00",
       "lastModified": "2012-11-30T17:26:49+00:00",
-      "metadataLastUpdated": "2025-07-11T14:31:40.313548+00:00"
+      "metadataLastUpdated": "2025-07-15T20:44:12.420459+00:00"
     },
     "permissions": {
       "usageType": "governmentWideReuse",
@@ -453,7 +453,7 @@
     "date": {
       "created": "2012-11-30T17:27:56+00:00",
       "lastModified": "2013-08-14T13:06:31+00:00",
-      "metadataLastUpdated": "2025-07-11T14:31:42.728113+00:00"
+      "metadataLastUpdated": "2025-07-15T20:44:14.433701+00:00"
     },
     "permissions": {
       "usageType": "openSource",
@@ -486,7 +486,7 @@
     "date": {
       "created": "2012-11-30T17:37:52+00:00",
       "lastModified": "2012-11-30T18:09:03+00:00",
-      "metadataLastUpdated": "2025-07-11T14:31:45.102099+00:00"
+      "metadataLastUpdated": "2025-07-15T20:44:16.496306+00:00"
     },
     "permissions": {
       "usageType": "openSource",
@@ -522,7 +522,7 @@
     "date": {
       "created": "2012-11-30T18:00:43+00:00",
       "lastModified": "2014-10-15T18:30:43+00:00",
-      "metadataLastUpdated": "2025-07-11T14:31:47.550429+00:00"
+      "metadataLastUpdated": "2025-07-15T20:44:18.611115+00:00"
     },
     "permissions": {
       "usageType": "openSource",
@@ -557,7 +557,7 @@
     "date": {
       "created": "2012-11-30T18:14:34+00:00",
       "lastModified": "2014-10-15T12:35:31+00:00",
-      "metadataLastUpdated": "2025-07-11T14:31:49.926831+00:00"
+      "metadataLastUpdated": "2025-07-15T20:44:20.664483+00:00"
     },
     "permissions": {
       "usageType": "openSource",
@@ -593,7 +593,7 @@
     "date": {
       "created": "2012-11-30T18:27:23+00:00",
       "lastModified": "2013-08-14T12:43:25+00:00",
-      "metadataLastUpdated": "2025-07-11T14:31:52.457537+00:00"
+      "metadataLastUpdated": "2025-07-15T20:44:22.617215+00:00"
     },
     "permissions": {
       "usageType": "openSource",
@@ -628,7 +628,7 @@
     "date": {
       "created": "2012-11-30T18:37:54+00:00",
       "lastModified": "2013-08-23T21:53:30+00:00",
-      "metadataLastUpdated": "2025-07-11T14:31:54.841654+00:00"
+      "metadataLastUpdated": "2025-07-15T20:44:24.604819+00:00"
     },
     "permissions": {
       "usageType": "governmentWideReuse",
@@ -660,7 +660,7 @@
     "date": {
       "created": "2012-11-30T18:44:05+00:00",
       "lastModified": "2013-08-23T21:56:14+00:00",
-      "metadataLastUpdated": "2025-07-11T14:31:57.204952+00:00"
+      "metadataLastUpdated": "2025-07-15T20:44:26.623967+00:00"
     },
     "permissions": {
       "usageType": "openSource",
@@ -699,7 +699,7 @@
     "date": {
       "created": "2012-11-30T18:48:12+00:00",
       "lastModified": "2012-11-30T18:59:31+00:00",
-      "metadataLastUpdated": "2025-07-11T14:31:59.608324+00:00"
+      "metadataLastUpdated": "2025-07-15T20:44:28.680040+00:00"
     },
     "permissions": {
       "usageType": "governmentWideReuse",
@@ -731,7 +731,7 @@
     "date": {
       "created": "2012-12-07T00:59:52+00:00",
       "lastModified": "2014-03-31T21:41:48+00:00",
-      "metadataLastUpdated": "2025-07-11T14:32:02.093056+00:00"
+      "metadataLastUpdated": "2025-07-15T20:44:30.727422+00:00"
     },
     "permissions": {
       "usageType": "governmentWideReuse",
@@ -763,7 +763,7 @@
     "date": {
       "created": "2013-03-21T13:47:43+00:00",
       "lastModified": "2014-04-15T20:30:09+00:00",
-      "metadataLastUpdated": "2025-07-11T14:32:04.470002+00:00"
+      "metadataLastUpdated": "2025-07-15T20:44:32.698615+00:00"
     },
     "permissions": {
       "usageType": "governmentWideReuse",
@@ -794,7 +794,7 @@
     "date": {
       "created": "2013-07-03T14:27:21+00:00",
       "lastModified": "2014-05-02T15:22:51+00:00",
-      "metadataLastUpdated": "2025-07-11T14:32:06.937504+00:00"
+      "metadataLastUpdated": "2025-07-15T20:44:34.716191+00:00"
     },
     "permissions": {
       "usageType": "governmentWideReuse",
@@ -825,7 +825,7 @@
     "date": {
       "created": "2013-08-28T20:17:24+00:00",
       "lastModified": "2014-10-15T11:56:45+00:00",
-      "metadataLastUpdated": "2025-07-11T14:32:09.415504+00:00"
+      "metadataLastUpdated": "2025-07-15T20:44:36.735837+00:00"
     },
     "permissions": {
       "usageType": "governmentWideReuse",
@@ -857,7 +857,7 @@
     "date": {
       "created": "2013-11-01T14:24:46+00:00",
       "lastModified": "2017-12-29T14:09:49+00:00",
-      "metadataLastUpdated": "2025-07-11T14:32:11.911727+00:00"
+      "metadataLastUpdated": "2025-07-15T20:44:38.777706+00:00"
     },
     "permissions": {
       "usageType": "governmentWideReuse",
@@ -898,7 +898,7 @@
     "date": {
       "created": "2014-06-30T14:18:42+00:00",
       "lastModified": "2014-06-30T14:40:06+00:00",
-      "metadataLastUpdated": "2025-07-11T14:32:14.290051+00:00"
+      "metadataLastUpdated": "2025-07-15T20:44:40.778800+00:00"
     },
     "permissions": {
       "usageType": "governmentWideReuse",
@@ -932,7 +932,7 @@
     "date": {
       "created": "2014-06-30T15:07:44+00:00",
       "lastModified": "2019-07-26T16:53:53+00:00",
-      "metadataLastUpdated": "2025-07-11T14:32:16.712517+00:00"
+      "metadataLastUpdated": "2025-07-15T20:44:42.909026+00:00"
     },
     "permissions": {
       "usageType": "governmentWideReuse",
@@ -963,7 +963,7 @@
     "date": {
       "created": "2014-07-14T14:01:29+00:00",
       "lastModified": "2017-10-19T21:07:53+00:00",
-      "metadataLastUpdated": "2025-07-11T14:32:19.121587+00:00"
+      "metadataLastUpdated": "2025-07-15T20:44:45.116398+00:00"
     },
     "permissions": {
       "usageType": "governmentWideReuse",
@@ -998,7 +998,7 @@
     "date": {
       "created": "2014-08-07T18:52:52+00:00",
       "lastModified": "2017-12-29T14:10:55+00:00",
-      "metadataLastUpdated": "2025-07-11T14:32:21.546203+00:00"
+      "metadataLastUpdated": "2025-07-15T20:44:47.110726+00:00"
     },
     "permissions": {
       "usageType": "governmentWideReuse",
@@ -1030,7 +1030,7 @@
     "date": {
       "created": "2014-08-27T11:11:44+00:00",
       "lastModified": "2014-08-27T11:20:59+00:00",
-      "metadataLastUpdated": "2025-07-11T14:32:23.987237+00:00"
+      "metadataLastUpdated": "2025-07-15T20:44:49.159329+00:00"
     },
     "permissions": {
       "usageType": "governmentWideReuse",
@@ -1062,7 +1062,7 @@
     "date": {
       "created": "2014-08-28T14:11:35+00:00",
       "lastModified": "2018-12-10T14:56:55+00:00",
-      "metadataLastUpdated": "2025-07-11T14:32:26.520226+00:00"
+      "metadataLastUpdated": "2025-07-15T20:44:51.147372+00:00"
     },
     "permissions": {
       "usageType": "governmentWideReuse",
@@ -1094,7 +1094,7 @@
     "date": {
       "created": "2014-10-08T15:36:36+00:00",
       "lastModified": "2014-10-10T14:59:13+00:00",
-      "metadataLastUpdated": "2025-07-11T14:32:28.979776+00:00"
+      "metadataLastUpdated": "2025-07-15T20:44:53.220281+00:00"
     },
     "permissions": {
       "usageType": "governmentWideReuse",
@@ -1128,7 +1128,7 @@
     "date": {
       "created": "2014-10-22T18:55:48+00:00",
       "lastModified": "2016-05-16T19:02:19+00:00",
-      "metadataLastUpdated": "2025-07-11T14:32:31.373204+00:00"
+      "metadataLastUpdated": "2025-07-15T20:44:55.236451+00:00"
     },
     "permissions": {
       "usageType": "openSource",
@@ -1165,7 +1165,7 @@
     "date": {
       "created": "2014-10-22T19:25:32+00:00",
       "lastModified": "2014-11-12T16:47:21+00:00",
-      "metadataLastUpdated": "2025-07-11T14:32:33.935152+00:00"
+      "metadataLastUpdated": "2025-07-15T20:44:57.344531+00:00"
     },
     "permissions": {
       "usageType": "openSource",
@@ -1200,7 +1200,7 @@
     "date": {
       "created": "2014-11-29T14:37:39+00:00",
       "lastModified": "2016-02-01T18:23:50+00:00",
-      "metadataLastUpdated": "2025-07-11T14:32:36.378373+00:00"
+      "metadataLastUpdated": "2025-07-15T20:44:59.369760+00:00"
     },
     "permissions": {
       "usageType": "governmentWideReuse",
@@ -1231,7 +1231,7 @@
     "date": {
       "created": "2014-12-03T18:43:45+00:00",
       "lastModified": "2014-12-03T19:28:08+00:00",
-      "metadataLastUpdated": "2025-07-11T14:32:38.731535+00:00"
+      "metadataLastUpdated": "2025-07-15T20:45:01.406197+00:00"
     },
     "permissions": {
       "usageType": "governmentWideReuse",
@@ -1262,7 +1262,7 @@
     "date": {
       "created": "2014-12-04T17:30:18+00:00",
       "lastModified": "2014-12-05T14:16:44+00:00",
-      "metadataLastUpdated": "2025-07-11T14:32:41.137909+00:00"
+      "metadataLastUpdated": "2025-07-15T20:45:03.442519+00:00"
     },
     "permissions": {
       "usageType": "governmentWideReuse",
@@ -1295,7 +1295,7 @@
     "date": {
       "created": "2014-12-16T13:55:53+00:00",
       "lastModified": "2014-12-17T12:21:48+00:00",
-      "metadataLastUpdated": "2025-07-11T14:32:43.508492+00:00"
+      "metadataLastUpdated": "2025-07-15T20:45:05.476502+00:00"
     },
     "permissions": {
       "usageType": "governmentWideReuse",
@@ -1328,7 +1328,7 @@
     "date": {
       "created": "2015-01-23T17:56:32+00:00",
       "lastModified": "2016-01-11T22:38:39+00:00",
-      "metadataLastUpdated": "2025-07-11T14:32:46.063469+00:00"
+      "metadataLastUpdated": "2025-07-15T20:45:07.426811+00:00"
     },
     "permissions": {
       "usageType": "governmentWideReuse",
@@ -1361,7 +1361,7 @@
     "date": {
       "created": "2015-04-06T12:54:20+00:00",
       "lastModified": "2017-10-05T11:02:25+00:00",
-      "metadataLastUpdated": "2025-07-11T14:32:48.447002+00:00"
+      "metadataLastUpdated": "2025-07-15T20:45:09.481501+00:00"
     },
     "permissions": {
       "usageType": "governmentWideReuse",
@@ -1395,7 +1395,7 @@
     "date": {
       "created": "2015-04-08T18:41:42+00:00",
       "lastModified": "2015-04-13T16:24:10+00:00",
-      "metadataLastUpdated": "2025-07-11T14:32:50.825043+00:00"
+      "metadataLastUpdated": "2025-07-15T20:45:11.471544+00:00"
     },
     "permissions": {
       "usageType": "openSource",
@@ -1430,7 +1430,7 @@
     "date": {
       "created": "2015-04-14T19:50:22+00:00",
       "lastModified": "2015-04-16T23:57:41+00:00",
-      "metadataLastUpdated": "2025-07-11T14:32:53.232312+00:00"
+      "metadataLastUpdated": "2025-07-15T20:45:13.507563+00:00"
     },
     "permissions": {
       "usageType": "openSource",
@@ -1467,7 +1467,7 @@
     "date": {
       "created": "2015-04-15T15:00:39+00:00",
       "lastModified": "2016-10-17T14:41:50+00:00",
-      "metadataLastUpdated": "2025-07-11T14:32:55.651938+00:00"
+      "metadataLastUpdated": "2025-07-15T20:45:15.535003+00:00"
     },
     "permissions": {
       "usageType": "openSource",
@@ -1503,7 +1503,7 @@
     "date": {
       "created": "2015-07-09T20:14:43+00:00",
       "lastModified": "2015-07-17T19:03:09+00:00",
-      "metadataLastUpdated": "2025-07-11T14:32:58.076367+00:00"
+      "metadataLastUpdated": "2025-07-15T20:45:17.556908+00:00"
     },
     "permissions": {
       "usageType": "governmentWideReuse",
@@ -1536,7 +1536,7 @@
     "date": {
       "created": "2015-07-20T19:58:42+00:00",
       "lastModified": "2015-07-20T20:01:25+00:00",
-      "metadataLastUpdated": "2025-07-11T14:33:00.544526+00:00"
+      "metadataLastUpdated": "2025-07-15T20:45:19.569549+00:00"
     },
     "permissions": {
       "usageType": "openSource",
@@ -1573,7 +1573,7 @@
     "date": {
       "created": "2015-08-05T18:26:19+00:00",
       "lastModified": "2017-10-03T18:32:00+00:00",
-      "metadataLastUpdated": "2025-07-11T14:33:02.976424+00:00"
+      "metadataLastUpdated": "2025-07-15T20:45:21.640814+00:00"
     },
     "permissions": {
       "usageType": "openSource",
@@ -1609,7 +1609,7 @@
     "date": {
       "created": "2015-08-10T21:45:57+00:00",
       "lastModified": "2015-08-21T15:12:16+00:00",
-      "metadataLastUpdated": "2025-07-11T14:33:05.318412+00:00"
+      "metadataLastUpdated": "2025-07-15T20:45:23.636189+00:00"
     },
     "permissions": {
       "usageType": "governmentWideReuse",
@@ -1641,7 +1641,7 @@
     "date": {
       "created": "2015-08-31T18:29:35+00:00",
       "lastModified": "2016-10-31T20:17:11+00:00",
-      "metadataLastUpdated": "2025-07-11T14:33:07.677367+00:00"
+      "metadataLastUpdated": "2025-07-15T20:45:25.709472+00:00"
     },
     "permissions": {
       "usageType": "governmentWideReuse",
@@ -1674,7 +1674,7 @@
     "date": {
       "created": "2015-09-21T18:25:23+00:00",
       "lastModified": "2017-06-13T15:59:38+00:00",
-      "metadataLastUpdated": "2025-07-11T14:33:10.138905+00:00"
+      "metadataLastUpdated": "2025-07-15T20:45:27.747266+00:00"
     },
     "permissions": {
       "usageType": "openSource",
@@ -1709,7 +1709,7 @@
     "date": {
       "created": "2015-10-15T15:51:37+00:00",
       "lastModified": "2017-01-31T19:48:46+00:00",
-      "metadataLastUpdated": "2025-07-11T14:33:12.657642+00:00"
+      "metadataLastUpdated": "2025-07-15T20:45:29.759646+00:00"
     },
     "permissions": {
       "usageType": "openSource",
@@ -1746,7 +1746,7 @@
     "date": {
       "created": "2016-01-21T15:44:52+00:00",
       "lastModified": "2016-01-21T20:21:45+00:00",
-      "metadataLastUpdated": "2025-07-11T14:33:15.056422+00:00"
+      "metadataLastUpdated": "2025-07-15T20:45:31.842090+00:00"
     },
     "permissions": {
       "usageType": "governmentWideReuse",
@@ -1777,7 +1777,7 @@
     "date": {
       "created": "2016-01-21T17:30:37+00:00",
       "lastModified": "2016-01-21T17:38:48+00:00",
-      "metadataLastUpdated": "2025-07-11T14:33:17.445691+00:00"
+      "metadataLastUpdated": "2025-07-15T20:45:33.887335+00:00"
     },
     "permissions": {
       "usageType": "governmentWideReuse",
@@ -1810,7 +1810,7 @@
     "date": {
       "created": "2016-01-27T21:39:36+00:00",
       "lastModified": "2016-01-28T17:04:57+00:00",
-      "metadataLastUpdated": "2025-07-11T14:33:19.772660+00:00"
+      "metadataLastUpdated": "2025-07-15T20:45:35.931505+00:00"
     },
     "permissions": {
       "usageType": "governmentWideReuse",
@@ -1844,7 +1844,7 @@
     "date": {
       "created": "2016-02-22T20:43:13+00:00",
       "lastModified": "2016-02-23T15:33:29+00:00",
-      "metadataLastUpdated": "2025-07-11T14:33:22.103180+00:00"
+      "metadataLastUpdated": "2025-07-15T20:45:37.949321+00:00"
     },
     "permissions": {
       "usageType": "governmentWideReuse",
@@ -1878,7 +1878,7 @@
     "date": {
       "created": "2016-03-25T14:56:18+00:00",
       "lastModified": "2016-10-17T17:43:33+00:00",
-      "metadataLastUpdated": "2025-07-11T14:33:24.534427+00:00"
+      "metadataLastUpdated": "2025-07-15T20:45:40.008878+00:00"
     },
     "permissions": {
       "usageType": "openSource",
@@ -1914,7 +1914,7 @@
     "date": {
       "created": "2016-04-14T12:11:13+00:00",
       "lastModified": "2016-05-19T20:31:58+00:00",
-      "metadataLastUpdated": "2025-07-11T14:33:26.906518+00:00"
+      "metadataLastUpdated": "2025-07-15T20:45:41.968271+00:00"
     },
     "permissions": {
       "usageType": "governmentWideReuse",
@@ -1945,7 +1945,7 @@
     "date": {
       "created": "2016-04-21T15:14:54+00:00",
       "lastModified": "2016-04-22T19:30:39+00:00",
-      "metadataLastUpdated": "2025-07-11T14:33:29.274870+00:00"
+      "metadataLastUpdated": "2025-07-15T20:45:44.000929+00:00"
     },
     "permissions": {
       "usageType": "openSource",
@@ -1980,7 +1980,7 @@
     "date": {
       "created": "2016-05-04T19:14:58+00:00",
       "lastModified": "2016-05-11T13:00:54+00:00",
-      "metadataLastUpdated": "2025-07-11T14:33:31.601086+00:00"
+      "metadataLastUpdated": "2025-07-15T20:45:46.021272+00:00"
     },
     "permissions": {
       "usageType": "governmentWideReuse",
@@ -2011,7 +2011,7 @@
     "date": {
       "created": "2016-05-06T19:02:27+00:00",
       "lastModified": "2016-05-09T19:07:29+00:00",
-      "metadataLastUpdated": "2025-07-11T14:33:33.948428+00:00"
+      "metadataLastUpdated": "2025-07-15T20:45:48.014456+00:00"
     },
     "permissions": {
       "usageType": "openSource",
@@ -2044,7 +2044,7 @@
     "date": {
       "created": "2016-05-11T15:42:38+00:00",
       "lastModified": "2016-05-27T17:04:27+00:00",
-      "metadataLastUpdated": "2025-07-11T14:33:36.392726+00:00"
+      "metadataLastUpdated": "2025-07-15T20:45:50.028302+00:00"
     },
     "permissions": {
       "usageType": "governmentWideReuse",
@@ -2075,7 +2075,7 @@
     "date": {
       "created": "2016-06-03T13:01:49+00:00",
       "lastModified": "2016-06-03T13:04:06+00:00",
-      "metadataLastUpdated": "2025-07-11T14:33:38.824059+00:00"
+      "metadataLastUpdated": "2025-07-15T20:45:52.080683+00:00"
     },
     "permissions": {
       "usageType": "governmentWideReuse",
@@ -2108,7 +2108,7 @@
     "date": {
       "created": "2016-06-13T15:03:19+00:00",
       "lastModified": "2018-02-06T21:35:16+00:00",
-      "metadataLastUpdated": "2025-07-11T14:33:41.192528+00:00"
+      "metadataLastUpdated": "2025-07-15T20:45:54.163007+00:00"
     },
     "permissions": {
       "usageType": "governmentWideReuse",
@@ -2141,7 +2141,7 @@
     "date": {
       "created": "2016-07-04T19:19:59+00:00",
       "lastModified": "2017-10-03T19:32:07+00:00",
-      "metadataLastUpdated": "2025-07-11T14:33:43.649483+00:00"
+      "metadataLastUpdated": "2025-07-15T20:45:56.237006+00:00"
     },
     "permissions": {
       "usageType": "governmentWideReuse",
@@ -2174,7 +2174,7 @@
     "date": {
       "created": "2016-08-24T18:30:13+00:00",
       "lastModified": "2017-11-17T15:40:38+00:00",
-      "metadataLastUpdated": "2025-07-11T14:33:46.062430+00:00"
+      "metadataLastUpdated": "2025-07-15T20:45:58.193293+00:00"
     },
     "permissions": {
       "usageType": "governmentWideReuse",
@@ -2205,7 +2205,7 @@
     "date": {
       "created": "2016-09-16T12:00:56+00:00",
       "lastModified": "2016-09-16T12:01:29+00:00",
-      "metadataLastUpdated": "2025-07-11T14:33:48.425894+00:00"
+      "metadataLastUpdated": "2025-07-15T20:46:00.171371+00:00"
     },
     "permissions": {
       "usageType": "governmentWideReuse",
@@ -2236,7 +2236,7 @@
     "date": {
       "created": "2016-11-01T02:43:02+00:00",
       "lastModified": "2016-11-02T14:09:25+00:00",
-      "metadataLastUpdated": "2025-07-11T14:33:50.819771+00:00"
+      "metadataLastUpdated": "2025-07-15T20:46:02.318670+00:00"
     },
     "permissions": {
       "usageType": "openSource",
@@ -2273,7 +2273,7 @@
     "date": {
       "created": "2016-11-07T17:12:56+00:00",
       "lastModified": "2016-11-14T21:39:55+00:00",
-      "metadataLastUpdated": "2025-07-11T14:33:53.094614+00:00"
+      "metadataLastUpdated": "2025-07-15T20:46:04.423699+00:00"
     },
     "permissions": {
       "usageType": "governmentWideReuse",
@@ -2304,7 +2304,7 @@
     "date": {
       "created": "2016-11-14T19:13:45+00:00",
       "lastModified": "2016-11-16T16:25:55+00:00",
-      "metadataLastUpdated": "2025-07-11T14:33:55.535805+00:00"
+      "metadataLastUpdated": "2025-07-15T20:46:06.410274+00:00"
     },
     "permissions": {
       "usageType": "governmentWideReuse",
@@ -2337,7 +2337,7 @@
     "date": {
       "created": "2016-11-28T15:58:36+00:00",
       "lastModified": "2018-10-07T21:56:54+00:00",
-      "metadataLastUpdated": "2025-07-11T14:33:57.943478+00:00"
+      "metadataLastUpdated": "2025-07-15T20:46:08.425442+00:00"
     },
     "permissions": {
       "usageType": "governmentWideReuse",
@@ -2370,7 +2370,7 @@
     "date": {
       "created": "2016-11-28T18:33:49+00:00",
       "lastModified": "2018-06-19T18:34:24+00:00",
-      "metadataLastUpdated": "2025-07-11T14:34:00.345084+00:00"
+      "metadataLastUpdated": "2025-07-15T20:46:10.469740+00:00"
     },
     "permissions": {
       "usageType": "governmentWideReuse",
@@ -2403,7 +2403,7 @@
     "date": {
       "created": "2016-11-30T21:35:09+00:00",
       "lastModified": "2017-09-25T18:48:12+00:00",
-      "metadataLastUpdated": "2025-07-11T14:34:02.805840+00:00"
+      "metadataLastUpdated": "2025-07-15T20:46:12.448826+00:00"
     },
     "permissions": {
       "usageType": "governmentWideReuse",
@@ -2436,7 +2436,7 @@
     "date": {
       "created": "2017-01-27T17:15:22+00:00",
       "lastModified": "2017-02-09T19:47:15+00:00",
-      "metadataLastUpdated": "2025-07-11T14:34:05.209299+00:00"
+      "metadataLastUpdated": "2025-07-15T20:46:14.440939+00:00"
     },
     "permissions": {
       "usageType": "openSource",
@@ -2471,7 +2471,7 @@
     "date": {
       "created": "2017-01-27T21:08:33+00:00",
       "lastModified": "2019-07-23T20:13:15+00:00",
-      "metadataLastUpdated": "2025-07-11T14:34:07.580548+00:00"
+      "metadataLastUpdated": "2025-07-15T20:46:16.460565+00:00"
     },
     "permissions": {
       "usageType": "governmentWideReuse",
@@ -2502,7 +2502,7 @@
     "date": {
       "created": "2017-03-24T22:17:42+00:00",
       "lastModified": "2017-03-27T19:08:09+00:00",
-      "metadataLastUpdated": "2025-07-11T14:34:10.061859+00:00"
+      "metadataLastUpdated": "2025-07-15T20:46:18.468960+00:00"
     },
     "permissions": {
       "usageType": "governmentWideReuse",
@@ -2534,7 +2534,7 @@
     "date": {
       "created": "2017-04-04T18:48:37+00:00",
       "lastModified": "2017-05-19T19:06:29+00:00",
-      "metadataLastUpdated": "2025-07-11T14:34:12.489323+00:00"
+      "metadataLastUpdated": "2025-07-15T20:46:20.562180+00:00"
     },
     "permissions": {
       "usageType": "governmentWideReuse",
@@ -2569,7 +2569,7 @@
     "date": {
       "created": "2017-06-12T19:28:22+00:00",
       "lastModified": "2017-06-15T14:19:20+00:00",
-      "metadataLastUpdated": "2025-07-11T14:34:14.876016+00:00"
+      "metadataLastUpdated": "2025-07-15T20:46:22.614366+00:00"
     },
     "permissions": {
       "usageType": "governmentWideReuse",
@@ -2602,7 +2602,7 @@
     "date": {
       "created": "2017-06-30T15:44:00+00:00",
       "lastModified": "2017-08-03T01:37:12+00:00",
-      "metadataLastUpdated": "2025-07-11T14:34:17.262385+00:00"
+      "metadataLastUpdated": "2025-07-15T20:46:24.630845+00:00"
     },
     "permissions": {
       "usageType": "governmentWideReuse",
@@ -2634,7 +2634,7 @@
     "date": {
       "created": "2017-08-28T13:10:01+00:00",
       "lastModified": "2017-11-29T16:49:02+00:00",
-      "metadataLastUpdated": "2025-07-11T14:34:19.593877+00:00"
+      "metadataLastUpdated": "2025-07-15T20:46:26.651963+00:00"
     },
     "permissions": {
       "usageType": "openSource",
@@ -2672,7 +2672,7 @@
     "date": {
       "created": "2017-10-13T13:27:29+00:00",
       "lastModified": "2017-11-01T13:31:35+00:00",
-      "metadataLastUpdated": "2025-07-11T14:34:22.077474+00:00"
+      "metadataLastUpdated": "2025-07-15T20:46:28.710619+00:00"
     },
     "permissions": {
       "usageType": "governmentWideReuse",
@@ -2705,7 +2705,7 @@
     "date": {
       "created": "2017-12-22T16:04:37+00:00",
       "lastModified": "2017-12-22T20:06:25+00:00",
-      "metadataLastUpdated": "2025-07-11T14:34:24.487452+00:00"
+      "metadataLastUpdated": "2025-07-15T20:46:30.722749+00:00"
     },
     "permissions": {
       "usageType": "governmentWideReuse",
@@ -2742,7 +2742,7 @@
     "date": {
       "created": "2021-08-20T14:06:34+00:00",
       "lastModified": "2023-01-11T18:30:57+00:00",
-      "metadataLastUpdated": "2025-07-11T14:34:26.922594+00:00"
+      "metadataLastUpdated": "2025-07-15T20:46:32.781403+00:00"
     },
     "permissions": {
       "usageType": "governmentWideReuse",

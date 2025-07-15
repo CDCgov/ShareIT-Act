@@ -18,7 +18,7 @@
     "date": {
       "created": "2017-12-09T00:13:21+00:00",
       "lastModified": "2021-07-02T17:09:06+00:00",
-      "metadataLastUpdated": "2025-07-11T14:35:07.863199+00:00"
+      "metadataLastUpdated": "2025-07-15T20:46:49.768159+00:00"
     },
     "permissions": {
       "usageType": "governmentWideReuse",
@@ -65,7 +65,7 @@
     "date": {
       "created": "2018-05-04T16:15:09+00:00",
       "lastModified": "2022-06-27T18:53:32+00:00",
-      "metadataLastUpdated": "2025-07-11T14:35:10.336467+00:00"
+      "metadataLastUpdated": "2025-07-15T20:46:51.939008+00:00"
     },
     "permissions": {
       "usageType": "governmentWideReuse",
@@ -94,7 +94,7 @@
     "date": {
       "created": "2018-06-14T18:43:00+00:00",
       "lastModified": "2018-06-16T00:35:15+00:00",
-      "metadataLastUpdated": "2025-07-11T14:35:12.787234+00:00"
+      "metadataLastUpdated": "2025-07-15T20:46:54.524872+00:00"
     },
     "permissions": {
       "usageType": "exemptByCIO",
@@ -103,8 +103,7 @@
     },
     "repo_id": 137395932,
     "private_id": "github_137395932",
-    "_url": "https://github.com/niosh-mining/FOS-Deadweight-Ground-Support-Design-",
-    "privateID": "github_137395932"
+    "_url": "https://github.com/niosh-mining/FOS-Deadweight-Ground-Support-Design-"
   },
   {
     "name": "fast",
@@ -127,7 +126,7 @@
     "date": {
       "created": "2018-07-20T16:27:27+00:00",
       "lastModified": "2021-06-04T15:39:11+00:00",
-      "metadataLastUpdated": "2025-07-11T14:35:15.254277+00:00"
+      "metadataLastUpdated": "2025-07-15T20:46:56.768871+00:00"
     },
     "permissions": {
       "usageType": "governmentWideReuse",
@@ -163,7 +162,7 @@
     "date": {
       "created": "2018-10-25T20:13:13+00:00",
       "lastModified": "2025-06-11T16:36:10+00:00",
-      "metadataLastUpdated": "2025-07-11T14:35:17.725052+00:00"
+      "metadataLastUpdated": "2025-07-15T20:46:58.914230+00:00"
     },
     "permissions": {
       "usageType": "openSource",
@@ -198,7 +197,7 @@
     "date": {
       "created": "2020-02-21T01:24:19+00:00",
       "lastModified": "2020-07-09T16:39:38+00:00",
-      "metadataLastUpdated": "2025-07-11T14:35:20.209843+00:00"
+      "metadataLastUpdated": "2025-07-15T20:47:01.135650+00:00"
     },
     "permissions": {
       "usageType": "openSource",
@@ -233,16 +232,16 @@
     "date": {
       "created": "2020-06-02T18:43:03+00:00",
       "lastModified": "2020-07-16T07:35:01+00:00",
-      "metadataLastUpdated": "2025-07-11T14:35:22.730447+00:00"
+      "metadataLastUpdated": "2025-07-15T20:47:03.348102+00:00"
     },
     "permissions": {
-      "usageType": "governmentWideReuse",
-      "licenses": []
+      "usageType": "exemptByCIO",
+      "licenses": [],
+      "exemptionText": "Internal repository"
     },
     "repo_id": 268881270,
     "private_id": "github_268881270",
-    "_url": "https://github.com/niosh-mining/heatstresspvt",
-    "privateID": "github_268881270"
+    "_url": "https://github.com/niosh-mining/heatstresspvt"
   },
   {
     "name": "seisdev",
@@ -265,16 +264,16 @@
     "date": {
       "created": "2020-10-26T16:21:38+00:00",
       "lastModified": "2021-05-17T22:00:23+00:00",
-      "metadataLastUpdated": "2025-07-11T14:35:25.261176+00:00"
+      "metadataLastUpdated": "2025-07-15T20:47:05.563953+00:00"
     },
     "permissions": {
-      "usageType": "governmentWideReuse",
-      "licenses": []
+      "usageType": "exemptByCIO",
+      "licenses": [],
+      "exemptionText": "Internal repository"
     },
     "repo_id": 307433752,
     "private_id": "github_307433752",
-    "_url": "https://github.com/niosh-mining/seisdev",
-    "privateID": "github_307433752"
+    "_url": "https://github.com/niosh-mining/seisdev"
   },
   {
     "name": "fis",
@@ -298,20 +297,20 @@
     "date": {
       "created": "2021-02-25T21:30:48+00:00",
       "lastModified": "2024-03-05T00:50:32+00:00",
-      "metadataLastUpdated": "2025-07-11T14:35:27.773411+00:00"
+      "metadataLastUpdated": "2025-07-15T20:47:07.757248+00:00"
     },
     "permissions": {
-      "usageType": "governmentWideReuse",
+      "usageType": "exemptByCIO",
       "licenses": [
         {
           "name": "Other"
         }
-      ]
+      ],
+      "exemptionText": "Internal repository"
     },
     "repo_id": 342384265,
     "private_id": "github_342384265",
-    "_url": "https://github.com/niosh-mining/fis",
-    "privateID": "github_342384265"
+    "_url": "https://github.com/niosh-mining/fis"
   },
   {
     "name": "seiscraft",
@@ -334,20 +333,20 @@
     "date": {
       "created": "2021-02-25T21:33:09+00:00",
       "lastModified": "2022-04-26T20:02:28+00:00",
-      "metadataLastUpdated": "2025-07-11T14:35:30.209447+00:00"
+      "metadataLastUpdated": "2025-07-15T20:47:10.025705+00:00"
     },
     "permissions": {
-      "usageType": "governmentWideReuse",
+      "usageType": "exemptByCIO",
       "licenses": [
         {
           "name": "Other"
         }
-      ]
+      ],
+      "exemptionText": "Internal repository"
     },
     "repo_id": 342384839,
     "private_id": "github_342384839",
-    "_url": "https://github.com/niosh-mining/seiscraft",
-    "privateID": "github_342384839"
+    "_url": "https://github.com/niosh-mining/seiscraft"
   },
   {
     "name": "fisdata",
@@ -368,7 +367,7 @@
     "date": {
       "created": "2021-06-28T18:43:53+00:00",
       "lastModified": "2021-07-02T17:02:35+00:00",
-      "metadataLastUpdated": "2025-07-11T14:35:32.745109+00:00"
+      "metadataLastUpdated": "2025-07-15T20:47:12.206134+00:00"
     },
     "permissions": {
       "usageType": "governmentWideReuse",
@@ -405,16 +404,16 @@
     "date": {
       "created": "2021-10-22T12:39:18+00:00",
       "lastModified": "2023-03-16T17:45:12+00:00",
-      "metadataLastUpdated": "2025-07-11T14:35:35.268663+00:00"
+      "metadataLastUpdated": "2025-07-15T20:47:14.397760+00:00"
     },
     "permissions": {
-      "usageType": "governmentWideReuse",
-      "licenses": []
+      "usageType": "exemptByCIO",
+      "licenses": [],
+      "exemptionText": "Internal repository"
     },
     "repo_id": 420093487,
     "private_id": "github_420093487",
-    "_url": "https://github.com/niosh-mining/evade",
-    "privateID": "github_420093487"
+    "_url": "https://github.com/niosh-mining/evade"
   },
   {
     "name": "spick",
@@ -445,16 +444,16 @@
     "date": {
       "created": "2023-05-11T17:11:45+00:00",
       "lastModified": "2025-05-12T22:18:10+00:00",
-      "metadataLastUpdated": "2025-07-11T14:35:37.740572+00:00"
+      "metadataLastUpdated": "2025-07-15T20:47:16.605146+00:00"
     },
     "permissions": {
-      "usageType": "governmentWideReuse",
-      "licenses": []
+      "usageType": "exemptByCIO",
+      "licenses": [],
+      "exemptionText": "Internal repository"
     },
     "repo_id": 639542816,
     "private_id": "github_639542816",
-    "_url": "https://github.com/niosh-mining/spick",
-    "privateID": "github_639542816"
+    "_url": "https://github.com/niosh-mining/spick"
   },
   {
     "name": "pytaska",
@@ -478,20 +477,20 @@
     "date": {
       "created": "2024-08-21T22:46:55+00:00",
       "lastModified": "2025-03-19T18:58:15+00:00",
-      "metadataLastUpdated": "2025-07-11T14:35:40.210636+00:00"
+      "metadataLastUpdated": "2025-07-15T20:47:18.799909+00:00"
     },
     "permissions": {
-      "usageType": "governmentWideReuse",
+      "usageType": "exemptByCIO",
       "licenses": [
         {
           "name": "Other"
         }
-      ]
+      ],
+      "exemptionText": "Internal repository"
     },
     "repo_id": 845773819,
     "private_id": "github_845773819",
-    "_url": "https://github.com/niosh-mining/pytaska",
-    "privateID": "github_845773819"
+    "_url": "https://github.com/niosh-mining/pytaska"
   },
   {
     "name": "coalpick",
@@ -515,20 +514,20 @@
     "date": {
       "created": "2024-11-05T23:27:41+00:00",
       "lastModified": "2025-01-28T20:37:17+00:00",
-      "metadataLastUpdated": "2025-07-11T14:35:42.654509+00:00"
+      "metadataLastUpdated": "2025-07-15T20:47:21.035126+00:00"
     },
     "permissions": {
-      "usageType": "governmentWideReuse",
+      "usageType": "exemptByCIO",
       "licenses": [
         {
           "name": "GNU General Public License v3.0"
         }
-      ]
+      ],
+      "exemptionText": "Internal repository"
     },
     "repo_id": 883982911,
     "private_id": "github_883982911",
-    "_url": "https://github.com/niosh-mining/coalpick",
-    "privateID": "github_883982911"
+    "_url": "https://github.com/niosh-mining/coalpick"
   },
   {
     "name": "imspy",
@@ -552,20 +551,20 @@
     "date": {
       "created": "2025-03-25T23:36:23+00:00",
       "lastModified": "2025-06-18T17:57:54+00:00",
-      "metadataLastUpdated": "2025-07-11T14:35:45.120308+00:00"
+      "metadataLastUpdated": "2025-07-15T20:47:23.285039+00:00"
     },
     "permissions": {
-      "usageType": "governmentWideReuse",
+      "usageType": "exemptByCIO",
       "licenses": [
         {
           "name": "Other"
         }
-      ]
+      ],
+      "exemptionText": "Internal repository"
     },
     "repo_id": 954986555,
     "private_id": "github_954986555",
-    "_url": "https://github.com/niosh-mining/imspy",
-    "privateID": "github_954986555"
+    "_url": "https://github.com/niosh-mining/imspy"
   },
   {
     "name": "srpo",
@@ -588,20 +587,20 @@
     "date": {
       "created": "2025-04-23T22:13:53+00:00",
       "lastModified": "2025-04-23T22:14:03+00:00",
-      "metadataLastUpdated": "2025-07-11T14:35:47.526453+00:00"
+      "metadataLastUpdated": "2025-07-15T20:47:25.444516+00:00"
     },
     "permissions": {
-      "usageType": "governmentWideReuse",
+      "usageType": "exemptByCIO",
       "licenses": [
         {
           "name": "Other"
         }
-      ]
+      ],
+      "exemptionText": "Internal repository"
     },
     "repo_id": 971673709,
     "private_id": "github_971673709",
-    "_url": "https://github.com/niosh-mining/srpo",
-    "privateID": "github_971673709"
+    "_url": "https://github.com/niosh-mining/srpo"
   },
   {
     "name": "pypoinverse",
@@ -627,16 +626,16 @@
     "date": {
       "created": "2025-04-23T22:16:00+00:00",
       "lastModified": "2025-04-23T22:16:28+00:00",
-      "metadataLastUpdated": "2025-07-11T14:35:50.054427+00:00"
+      "metadataLastUpdated": "2025-07-15T20:47:27.712429+00:00"
     },
     "permissions": {
-      "usageType": "governmentWideReuse",
-      "licenses": []
+      "usageType": "exemptByCIO",
+      "licenses": [],
+      "exemptionText": "Internal repository"
     },
     "repo_id": 971674454,
     "private_id": "github_971674454",
-    "_url": "https://github.com/niosh-mining/pypoinverse",
-    "privateID": "github_971674454"
+    "_url": "https://github.com/niosh-mining/pypoinverse"
   },
   {
     "name": "fanopy",
@@ -659,20 +658,20 @@
     "date": {
       "created": "2025-04-23T22:18:27+00:00",
       "lastModified": "2025-04-23T22:18:57+00:00",
-      "metadataLastUpdated": "2025-07-11T14:35:52.581563+00:00"
+      "metadataLastUpdated": "2025-07-15T20:47:29.842902+00:00"
     },
     "permissions": {
-      "usageType": "governmentWideReuse",
+      "usageType": "exemptByCIO",
       "licenses": [
         {
           "name": "Other"
         }
-      ]
+      ],
+      "exemptionText": "Internal repository"
     },
     "repo_id": 971675249,
     "private_id": "github_971675249",
-    "_url": "https://github.com/niosh-mining/fanopy",
-    "privateID": "github_971675249"
+    "_url": "https://github.com/niosh-mining/fanopy"
   },
   {
     "name": "archiver",
@@ -695,16 +694,16 @@
     "date": {
       "created": "2025-04-23T22:23:43+00:00",
       "lastModified": "2025-04-23T22:24:01+00:00",
-      "metadataLastUpdated": "2025-07-11T14:35:55.047783+00:00"
+      "metadataLastUpdated": "2025-07-15T20:47:32.008468+00:00"
     },
     "permissions": {
-      "usageType": "governmentWideReuse",
-      "licenses": []
+      "usageType": "exemptByCIO",
+      "licenses": [],
+      "exemptionText": "Internal repository"
     },
     "repo_id": 971676922,
     "private_id": "github_971676922",
-    "_url": "https://github.com/niosh-mining/archiver",
-    "privateID": "github_971676922"
+    "_url": "https://github.com/niosh-mining/archiver"
   },
   {
     "name": "nllpy",
@@ -730,16 +729,16 @@
     "date": {
       "created": "2025-04-23T22:24:55+00:00",
       "lastModified": "2025-04-23T23:12:20+00:00",
-      "metadataLastUpdated": "2025-07-11T14:35:57.532250+00:00"
+      "metadataLastUpdated": "2025-07-15T20:47:34.191767+00:00"
     },
     "permissions": {
-      "usageType": "governmentWideReuse",
-      "licenses": []
+      "usageType": "exemptByCIO",
+      "licenses": [],
+      "exemptionText": "Internal repository"
     },
     "repo_id": 971677350,
     "private_id": "github_971677350",
-    "_url": "https://github.com/niosh-mining/nllpy",
-    "privateID": "github_971677350"
+    "_url": "https://github.com/niosh-mining/nllpy"
   },
   {
     "name": "yodel",
@@ -762,20 +761,20 @@
     "date": {
       "created": "2025-04-23T22:26:21+00:00",
       "lastModified": "2025-04-23T22:26:42+00:00",
-      "metadataLastUpdated": "2025-07-11T14:35:59.934239+00:00"
+      "metadataLastUpdated": "2025-07-15T20:47:36.363999+00:00"
     },
     "permissions": {
-      "usageType": "governmentWideReuse",
+      "usageType": "exemptByCIO",
       "licenses": [
         {
           "name": "Other"
         }
-      ]
+      ],
+      "exemptionText": "Internal repository"
     },
     "repo_id": 971677789,
     "private_id": "github_971677789",
-    "_url": "https://github.com/niosh-mining/yodel",
-    "privateID": "github_971677789"
+    "_url": "https://github.com/niosh-mining/yodel"
   },
   {
     "name": "sviz",
@@ -801,16 +800,16 @@
     "date": {
       "created": "2025-04-23T23:12:00+00:00",
       "lastModified": "2025-04-23T23:12:46+00:00",
-      "metadataLastUpdated": "2025-07-11T14:36:02.407158+00:00"
+      "metadataLastUpdated": "2025-07-15T20:47:38.596319+00:00"
     },
     "permissions": {
-      "usageType": "governmentWideReuse",
-      "licenses": []
+      "usageType": "exemptByCIO",
+      "licenses": [],
+      "exemptionText": "Internal repository"
     },
     "repo_id": 971692454,
     "private_id": "github_971692454",
-    "_url": "https://github.com/niosh-mining/sviz",
-    "privateID": "github_971692454"
+    "_url": "https://github.com/niosh-mining/sviz"
   },
   {
     "name": "seisflow",
@@ -834,16 +833,16 @@
     "date": {
       "created": "2025-04-23T23:15:36+00:00",
       "lastModified": "2025-04-23T23:16:24+00:00",
-      "metadataLastUpdated": "2025-07-11T14:36:04.840605+00:00"
+      "metadataLastUpdated": "2025-07-15T20:47:40.795773+00:00"
     },
     "permissions": {
-      "usageType": "governmentWideReuse",
-      "licenses": []
+      "usageType": "exemptByCIO",
+      "licenses": [],
+      "exemptionText": "Internal repository"
     },
     "repo_id": 971693543,
     "private_id": "github_971693543",
-    "_url": "https://github.com/niosh-mining/seisflow",
-    "privateID": "github_971693543"
+    "_url": "https://github.com/niosh-mining/seisflow"
   },
   {
     "name": "swave",
@@ -867,16 +866,16 @@
     "date": {
       "created": "2025-04-23T23:19:53+00:00",
       "lastModified": "2025-04-23T23:20:19+00:00",
-      "metadataLastUpdated": "2025-07-11T14:36:07.379310+00:00"
+      "metadataLastUpdated": "2025-07-15T20:47:43.061784+00:00"
     },
     "permissions": {
-      "usageType": "governmentWideReuse",
-      "licenses": []
+      "usageType": "exemptByCIO",
+      "licenses": [],
+      "exemptionText": "Internal repository"
     },
     "repo_id": 971694745,
     "private_id": "github_971694745",
-    "_url": "https://github.com/niosh-mining/swave",
-    "privateID": "github_971694745"
+    "_url": "https://github.com/niosh-mining/swave"
   },
   {
     "name": "nllpy_kedro",
@@ -901,16 +900,16 @@
     "date": {
       "created": "2025-04-23T23:20:53+00:00",
       "lastModified": "2025-04-23T23:25:44+00:00",
-      "metadataLastUpdated": "2025-07-11T14:36:09.864682+00:00"
+      "metadataLastUpdated": "2025-07-15T20:47:45.270668+00:00"
     },
     "permissions": {
-      "usageType": "governmentWideReuse",
-      "licenses": []
+      "usageType": "exemptByCIO",
+      "licenses": [],
+      "exemptionText": "Internal repository"
     },
     "repo_id": 971694998,
     "private_id": "github_971694998",
-    "_url": "https://github.com/niosh-mining/nllpy_kedro",
-    "privateID": "github_971694998"
+    "_url": "https://github.com/niosh-mining/nllpy_kedro"
   },
   {
     "name": "focpy",
@@ -934,16 +933,16 @@
     "date": {
       "created": "2025-04-23T23:21:50+00:00",
       "lastModified": "2025-04-23T23:22:22+00:00",
-      "metadataLastUpdated": "2025-07-11T14:36:12.432742+00:00"
+      "metadataLastUpdated": "2025-07-15T20:47:47.464487+00:00"
     },
     "permissions": {
-      "usageType": "governmentWideReuse",
-      "licenses": []
+      "usageType": "exemptByCIO",
+      "licenses": [],
+      "exemptionText": "Internal repository"
     },
     "repo_id": 971695276,
     "private_id": "github_971695276",
-    "_url": "https://github.com/niosh-mining/focpy",
-    "privateID": "github_971695276"
+    "_url": "https://github.com/niosh-mining/focpy"
   },
   {
     "name": "magpy",
@@ -967,16 +966,16 @@
     "date": {
       "created": "2025-04-23T23:24:06+00:00",
       "lastModified": "2025-04-23T23:24:48+00:00",
-      "metadataLastUpdated": "2025-07-11T14:36:14.973683+00:00"
+      "metadataLastUpdated": "2025-07-15T20:47:49.655119+00:00"
     },
     "permissions": {
-      "usageType": "governmentWideReuse",
-      "licenses": []
+      "usageType": "exemptByCIO",
+      "licenses": [],
+      "exemptionText": "Internal repository"
     },
     "repo_id": 971695958,
     "private_id": "github_971695958",
-    "_url": "https://github.com/niosh-mining/magpy",
-    "privateID": "github_971695958"
+    "_url": "https://github.com/niosh-mining/magpy"
   },
   {
     "name": "pygrid",
@@ -999,16 +998,16 @@
     "date": {
       "created": "2025-04-23T23:28:02+00:00",
       "lastModified": "2025-04-23T23:32:18+00:00",
-      "metadataLastUpdated": "2025-07-11T14:36:17.488471+00:00"
+      "metadataLastUpdated": "2025-07-15T20:47:51.834122+00:00"
     },
     "permissions": {
-      "usageType": "governmentWideReuse",
-      "licenses": []
+      "usageType": "exemptByCIO",
+      "licenses": [],
+      "exemptionText": "Internal repository"
     },
     "repo_id": 971697135,
     "private_id": "github_971697135",
-    "_url": "https://github.com/niosh-mining/pygrid",
-    "privateID": "github_971697135"
+    "_url": "https://github.com/niosh-mining/pygrid"
   },
   {
     "name": "seistats",
@@ -1031,16 +1030,16 @@
     "date": {
       "created": "2025-04-23T23:42:19+00:00",
       "lastModified": "2025-04-23T23:43:17+00:00",
-      "metadataLastUpdated": "2025-07-11T14:36:19.877310+00:00"
+      "metadataLastUpdated": "2025-07-15T20:47:54.045544+00:00"
     },
     "permissions": {
-      "usageType": "governmentWideReuse",
-      "licenses": []
+      "usageType": "exemptByCIO",
+      "licenses": [],
+      "exemptionText": "Internal repository"
     },
     "repo_id": 971701124,
     "private_id": "github_971701124",
-    "_url": "https://github.com/niosh-mining/seistats",
-    "privateID": "github_971701124"
+    "_url": "https://github.com/niosh-mining/seistats"
   },
   {
     "name": "seisutils",
@@ -1064,16 +1063,16 @@
     "date": {
       "created": "2025-04-24T00:03:52+00:00",
       "lastModified": "2025-04-24T00:04:43+00:00",
-      "metadataLastUpdated": "2025-07-11T14:36:22.387314+00:00"
+      "metadataLastUpdated": "2025-07-15T20:47:56.261948+00:00"
     },
     "permissions": {
-      "usageType": "governmentWideReuse",
-      "licenses": []
+      "usageType": "exemptByCIO",
+      "licenses": [],
+      "exemptionText": "Internal repository"
     },
     "repo_id": 971707359,
     "private_id": "github_971707359",
-    "_url": "https://github.com/niosh-mining/seisutils",
-    "privateID": "github_971707359"
+    "_url": "https://github.com/niosh-mining/seisutils"
   },
   {
     "name": "elkshake",
@@ -1098,16 +1097,16 @@
     "date": {
       "created": "2025-06-03T00:05:37+00:00",
       "lastModified": "2025-06-04T21:13:54+00:00",
-      "metadataLastUpdated": "2025-07-11T14:36:24.807786+00:00"
+      "metadataLastUpdated": "2025-07-15T20:47:58.399640+00:00"
     },
     "permissions": {
-      "usageType": "governmentWideReuse",
-      "licenses": []
+      "usageType": "exemptByCIO",
+      "licenses": [],
+      "exemptionText": "Internal repository"
     },
     "repo_id": 995081181,
     "private_id": "github_995081181",
-    "_url": "https://github.com/niosh-mining/elkshake",
-    "privateID": "github_995081181"
+    "_url": "https://github.com/niosh-mining/elkshake"
   },
   {
     "name": "elkcreek",
@@ -1131,15 +1130,15 @@
     "date": {
       "created": "2025-06-11T16:39:11+00:00",
       "lastModified": "2025-06-26T00:29:26+00:00",
-      "metadataLastUpdated": "2025-07-11T14:36:27.202129+00:00"
+      "metadataLastUpdated": "2025-07-15T20:48:00.550984+00:00"
     },
     "permissions": {
-      "usageType": "governmentWideReuse",
-      "licenses": []
+      "usageType": "exemptByCIO",
+      "licenses": [],
+      "exemptionText": "Internal repository"
     },
     "repo_id": 1000352050,
     "private_id": "github_1000352050",
-    "_url": "https://github.com/niosh-mining/elkcreek",
-    "privateID": "github_1000352050"
+    "_url": "https://github.com/niosh-mining/elkcreek"
   }
 ]
