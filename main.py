@@ -8,6 +8,7 @@ from src.repository import Repository
 from src.sanitize import Sanitizer
 from src.combine import Combine
 
+from concurrent.futures import ThreadPoolExecutor, as_completed
 from datetime import datetime
 from pathlib import Path
 
@@ -75,6 +76,9 @@ def generate_privateid_csv(code_json_path, csv_path):
       writer.writerow(row)
   print(f"CSV mapping written to {csv_path}")
 
+def sanitize_repo(sanitizer, repo):
+  return sanitizer.get_repository_metadata(repo)
+
 ###############################################################
 ## The intention is to provide a simple interface to update
 ## us with existing repositories in a Github organization, and
@@ -127,7 +131,7 @@ def main():
 
   if args.repo_id:
     repo_id = args.repo_id
-    repo = Repository().get_repo_by_id(credentials, repo_id)
+    repo = Repository(credentials).get_repo_by_id(repo_id)
     if not repo:
       print(f"Repository with id {repo_id} not found.")
       sys.exit(1)
@@ -142,12 +146,16 @@ def main():
     print(f"Completed processing at {now}")
     return
 
-  repos = Repository().get_repos(credentials)
+  repos = Repository(credentials).get_repos()
   sanitized_data = []
-  for repo in repos:
-    data = sanitizer.get_repository_metadata(repo)
-    if data:
-      sanitized_data.append(data)
+  MAX_THREADS = 4
+
+  with ThreadPoolExecutor(max_workers=MAX_THREADS) as executor:
+    futures = [executor.submit(sanitize_repo, sanitizer, repo) for repo in repos]
+    for future in as_completed(futures):
+      data = future.result()
+      if data:
+        sanitized_data.append(data)
   output_dir = Path(credentials["raw_data_dir"])
   output_dir.mkdir(parents=True, exist_ok=True)
   output_file = output_dir / f"repo-{org_name}.json"
