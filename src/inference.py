@@ -186,6 +186,8 @@ class Inference:
       return usage_type, justification, url
 
     # 3. Default for private/internal repos
-    usage_type = "governmentWideReuse"
+    usage_type = self.EXEMPT_BY_CIO
+    justification = "Internal repository"
     url = config.INSTRUCTIONS_PDF_URL
-    return usage_type, None, url
+    return usage_type, justification, url
+
