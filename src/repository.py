@@ -26,3 +26,12 @@ class Repository:
       org.get_repos(type='all')
     )
     return repos
+
+  def get_repo_by_id(self, credentials, repo_id):
+    g = self.authenticate(credentials)
+    try:
+      repo = g.get_repo(int(repo_id))
+      return repo
+    except Exception as e:
+      print(f"Repository with id {repo_id} not found: {e}")
+      return None

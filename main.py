@@ -86,6 +86,7 @@ def main():
   parser.add_argument('--output', help='Output directory path')
   parser.add_argument('--combine', action='store_true', help='Combine all JSON files in data/raw directory')
   parser.add_argument('--generate-csv', action='store_true', help='Generate privateid_mapping.csv from code.json')
+  parser.add_argument('--repo-id', help='Run inference for a single repo ID and output one file')
   args = parser.parse_args()
 
   now = datetime.now().strftime("%Y-%m-%dT%H-%M-%S")
@@ -122,9 +123,26 @@ def main():
     credentials['raw_data_dir'] = str(Path(__file__).parent.absolute() / 'data/raw')
   print(f'Raw data directory: {credentials["raw_data_dir"]}')
   org_name = credentials.get('github_org', '')
-  repos = Repository().get_repos(credentials)
-
   sanitizer = Sanitizer()
+
+  if args.repo_id:
+    repo_id = args.repo_id
+    repo = Repository().get_repo_by_id(credentials, repo_id)
+    if not repo:
+      print(f"Repository with id {repo_id} not found.")
+      sys.exit(1)
+    data = sanitizer.get_repository_metadata(repo)
+    output_dir = Path(credentials["raw_data_dir"])
+    output_dir.mkdir(parents=True, exist_ok=True)
+    output_file = output_dir / f"repo-{repo_id}.json"
+    with open(output_file, 'w') as f:
+      json.dump(data, f, indent=2)
+    print(f"Single repository metadata saved to {output_file}")
+    now = datetime.now().strftime("%Y-%m-%dT%H-%M-%S")
+    print(f"Completed processing at {now}")
+    return
+
+  repos = Repository().get_repos(credentials)
   sanitized_data = []
   for repo in repos:
     data = sanitizer.get_repository_metadata(repo)

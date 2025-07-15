@@ -88,9 +88,6 @@ class Sanitizer:
       if exemption_text:
         metadata["permissions"]["exemptionText"] = exemption_text
 
-      if repo.private:
-        metadata["privateID"] = f"github_{repo.id}"
-
       return metadata
 
     except Exception as e:

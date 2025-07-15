@@ -196,7 +196,7 @@
             <div id="loader"></div>
             <p id="loadingStatus" class="mt-4 text-gray-600 font-medium">Loading metadata...</p>
         </div>
-        
+
         <!-- Table container enables "last resort" scrolling on very small screens -->
         <div id="tableContainer" class="hidden bg-white p-4 rounded-lg shadow-md">
             <table id="metadataTable" class="display" style="width:100%">
@@ -256,7 +256,7 @@ Exemption Justification: This code is used only within CDC infrastructure.</code
                 </div>
                 <p>Once you commit this change to your repository's default branch, the metadata will be automatically updated during the next scan cycle.</p>
                 <p class="mt-4">
-                    For a complete list of available markers and more detailed guidance, please see the 
+                    For a complete list of available markers and more detailed guidance, please see the
                     <a href="https://docs.cdc.gov/docs/ea/codeshare/implementation-guide#-built-in-exemption-tagging" target="_blank" rel="noopener noreferrer" class="text-blue-600 hover:underline">CDC Metadata Implementation Guide</a>.
                 </p>
             </div>
@@ -274,8 +274,8 @@ Exemption Justification: This code is used only within CDC infrastructure.</code
 // CONFIGURATION
 // =================================================================================
 const CODE_JSON_PATH = './catalog/code.json';
-const GITHUB_REPO_URL = 'https://github.com/CDCgov/ShareIT-Act'; 
-const GITHUB_FILE_PATH = 'docs/catalog/code.json';  
+const GITHUB_REPO_URL = 'https://github.com/CDCgov/ShareIT-Act';
+const GITHUB_FILE_PATH = 'docs/catalog/code.json';
 const ENABLE_ISSUE_SUGGESTION = false; // Set to true to show the "Suggest Other Change" button
 // =================================================================================
 
@@ -339,12 +339,12 @@ $(document).ready(function() {
                 const contact = getNestedValue(release, 'contact.email', getNestedValue(release, 'contact', 'N/A'));
                 const usageType = getNestedValue(release, 'permissions.usageType', '');
                 const exemption = (usageType && !['governmentWideReuse', 'openSource'].includes(usageType)) ? usageType : '';
-                
+
                 const repoURL = getNestedValue(release, 'repositoryURL', '');
-                const privateId = getNestedValue(release, 'privateID', ''); // Directly use 'privateID'
+                const privateId = getNestedValue(release, 'private_id', ''); // Directly use 'private_id'
                 const repoVisibility = getNestedValue(release, 'repositoryVisibility', '').toLowerCase();
                 const readmeUrl = getNestedValue(release, 'readme_url', '');
-                
+
                 let isPublic = (usageType === 'openSource' || (repoURL && !repoURL.includes('ShareIT-Act/assets/'))) ? 'Y' : 'N';
 
                 let platform = 'Unknown';
@@ -467,7 +467,7 @@ $(document).ready(function() {
             closeModal();
         }
     });
-    
+
     $('.modal').on('click', function(event) {
         if (event.target === this) {
             closeModal();
