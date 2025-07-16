@@ -1,41 +1,5 @@
 [
   {
-    "name": "ETORRS",
-    "organization": "CDC",
-    "description": "",
-    "version": "N/A",
-    "laborHours": 0,
-    "status": "inactive",
-    "vcs": "git",
-    "homepageURL": "",
-    "repositoryURL": "https://cdcgov.github.io/ShareIT-Act/assets/files/instructions.pdf",
-    "repositoryVisibility": "private",
-    "languages": [
-      "JavaScript",
-      "C#",
-      "HTML",
-      "ASP.NET",
-      "CSS"
-    ],
-    "tags": [],
-    "contact": {
-      "email": "shareit@cdc.gov"
-    },
-    "date": {
-      "created": "2018-04-02T11:07:22+00:00",
-      "lastModified": "2022-08-19T06:57:46+00:00",
-      "metadataLastUpdated": "2025-07-15T20:25:30.546052+00:00"
-    },
-    "permissions": {
-      "usageType": "exemptByCIO",
-      "licenses": [],
-      "exemptionText": "Internal repository"
-    },
-    "repo_id": 127745175,
-    "private_id": "github_127745175",
-    "_url": "https://github.com/CDC-HIS/ETORRS"
-  },
-  {
     "name": "EMR-ART-Artifacts",
     "organization": "CDC",
     "description": "",
@@ -71,7 +35,7 @@
     "date": {
       "created": "2020-09-02T12:02:10+00:00",
       "lastModified": "2022-08-19T10:53:30+00:00",
-      "metadataLastUpdated": "2025-07-15T20:25:32.492037+00:00"
+      "metadataLastUpdated": "2025-07-15T23:46:28.247824+00:00"
     },
     "permissions": {
       "usageType": "exemptByCIO",
@@ -81,6 +45,42 @@
     "repo_id": 292270940,
     "private_id": "github_292270940",
     "_url": "https://github.com/CDC-HIS/EMR-ART-Artifacts"
+  },
+  {
+    "name": "ETORRS",
+    "organization": "CDC",
+    "description": "",
+    "version": "N/A",
+    "laborHours": 0,
+    "status": "inactive",
+    "vcs": "git",
+    "homepageURL": "",
+    "repositoryURL": "https://cdcgov.github.io/ShareIT-Act/assets/files/instructions.pdf",
+    "repositoryVisibility": "private",
+    "languages": [
+      "JavaScript",
+      "C#",
+      "HTML",
+      "ASP.NET",
+      "CSS"
+    ],
+    "tags": [],
+    "contact": {
+      "email": "shareit@cdc.gov"
+    },
+    "date": {
+      "created": "2018-04-02T11:07:22+00:00",
+      "lastModified": "2022-08-19T06:57:46+00:00",
+      "metadataLastUpdated": "2025-07-15T23:46:28.267888+00:00"
+    },
+    "permissions": {
+      "usageType": "exemptByCIO",
+      "licenses": [],
+      "exemptionText": "Internal repository"
+    },
+    "repo_id": 127745175,
+    "private_id": "github_127745175",
+    "_url": "https://github.com/CDC-HIS/ETORRS"
   },
   {
     "name": "MPI",
@@ -101,7 +101,7 @@
     "date": {
       "created": "2021-11-12T06:45:32+00:00",
       "lastModified": "2022-08-19T10:58:23+00:00",
-      "metadataLastUpdated": "2025-07-15T20:25:34.437910+00:00"
+      "metadataLastUpdated": "2025-07-15T23:46:28.309383+00:00"
     },
     "permissions": {
       "usageType": "exemptByCIO",
@@ -137,7 +137,7 @@
     "date": {
       "created": "2021-11-12T06:47:28+00:00",
       "lastModified": "2022-08-19T09:11:50+00:00",
-      "metadataLastUpdated": "2025-07-15T20:25:36.484578+00:00"
+      "metadataLastUpdated": "2025-07-15T23:46:28.311810+00:00"
     },
     "permissions": {
       "usageType": "exemptByCIO",
@@ -147,6 +147,44 @@
     "repo_id": 427260096,
     "private_id": "github_427260096",
     "_url": "https://github.com/CDC-HIS/CDR"
+  },
+  {
+    "name": "openmrs-esm-ethiohri",
+    "organization": "CDC",
+    "description": "A custom microfrontend for Ethiopia's integration into OHRI",
+    "version": "1.0.1",
+    "laborHours": 0,
+    "status": "development",
+    "vcs": "git",
+    "homepageURL": "",
+    "repositoryURL": "https://github.com/CDC-HIS/openmrs-esm-ethiohri",
+    "repositoryVisibility": "public",
+    "languages": [
+      "TypeScript",
+      "SCSS",
+      "JavaScript",
+      "Shell"
+    ],
+    "tags": [],
+    "contact": {
+      "email": "cdcinfo@cdc.gov"
+    },
+    "date": {
+      "created": "2022-05-03T08:03:32+00:00",
+      "lastModified": "2025-07-11T09:34:58+00:00",
+      "metadataLastUpdated": "2025-07-15T23:46:30.144453+00:00"
+    },
+    "permissions": {
+      "usageType": "openSource",
+      "licenses": [
+        {
+          "name": "Other"
+        }
+      ]
+    },
+    "repo_id": 488124581,
+    "private_id": "github_488124581",
+    "_url": "https://github.com/CDC-HIS/openmrs-esm-ethiohri"
   },
   {
     "name": "files-and-resources",
@@ -167,7 +205,7 @@
     "date": {
       "created": "2022-04-28T13:42:15+00:00",
       "lastModified": "2022-05-06T07:53:54+00:00",
-      "metadataLastUpdated": "2025-07-15T20:25:38.518720+00:00"
+      "metadataLastUpdated": "2025-07-15T23:46:30.168269+00:00"
     },
     "permissions": {
       "usageType": "exemptByCIO",
@@ -197,7 +235,7 @@
     "date": {
       "created": "2022-05-02T21:25:58+00:00",
       "lastModified": "2022-05-03T15:42:35+00:00",
-      "metadataLastUpdated": "2025-07-15T20:25:40.493297+00:00"
+      "metadataLastUpdated": "2025-07-15T23:46:30.225357+00:00"
     },
     "permissions": {
       "usageType": "exemptByCIO",
@@ -211,44 +249,6 @@
     "repo_id": 487995273,
     "private_id": "github_487995273",
     "_url": "https://github.com/CDC-HIS/ETHIOHRI-Milestones-and-Issues"
-  },
-  {
-    "name": "openmrs-esm-ethiohri",
-    "organization": "CDC",
-    "description": "A custom microfrontend for Ethiopia's integration into OHRI",
-    "version": "1.0.1",
-    "laborHours": 0,
-    "status": "development",
-    "vcs": "git",
-    "homepageURL": "",
-    "repositoryURL": "https://github.com/CDC-HIS/openmrs-esm-ethiohri",
-    "repositoryVisibility": "public",
-    "languages": [
-      "TypeScript",
-      "SCSS",
-      "JavaScript",
-      "Shell"
-    ],
-    "tags": [],
-    "contact": {
-      "email": "cdcinfo@cdc.gov"
-    },
-    "date": {
-      "created": "2022-05-03T08:03:32+00:00",
-      "lastModified": "2025-07-11T09:34:58+00:00",
-      "metadataLastUpdated": "2025-07-15T20:25:42.405414+00:00"
-    },
-    "permissions": {
-      "usageType": "openSource",
-      "licenses": [
-        {
-          "name": "Other"
-        }
-      ]
-    },
-    "repo_id": 488124581,
-    "private_id": "github_488124581",
-    "_url": "https://github.com/CDC-HIS/openmrs-esm-ethiohri"
   },
   {
     "name": "ephi_cbs_redcap",
@@ -284,7 +284,7 @@
     "date": {
       "created": "2022-08-19T07:10:31+00:00",
       "lastModified": "2022-08-19T07:27:59+00:00",
-      "metadataLastUpdated": "2025-07-15T20:25:44.322147+00:00"
+      "metadataLastUpdated": "2025-07-15T23:46:30.261764+00:00"
     },
     "permissions": {
       "usageType": "exemptByCIO",
@@ -294,41 +294,6 @@
     "repo_id": 526500351,
     "private_id": "github_526500351",
     "_url": "https://github.com/CDC-HIS/ephi_cbs_redcap"
-  },
-  {
-    "name": "sms_service",
-    "organization": "CDC",
-    "description": "",
-    "version": "N/A",
-    "laborHours": 0,
-    "status": "inactive",
-    "vcs": "git",
-    "homepageURL": "",
-    "repositoryURL": "https://cdcgov.github.io/ShareIT-Act/assets/files/instructions.pdf",
-    "repositoryVisibility": "private",
-    "languages": [
-      "C#",
-      "NSIS",
-      "TSQL",
-      "Batchfile"
-    ],
-    "tags": [],
-    "contact": {
-      "email": "shareit@cdc.gov"
-    },
-    "date": {
-      "created": "2022-08-19T09:12:53+00:00",
-      "lastModified": "2022-08-19T10:43:39+00:00",
-      "metadataLastUpdated": "2025-07-15T20:25:46.259639+00:00"
-    },
-    "permissions": {
-      "usageType": "exemptByCIO",
-      "licenses": [],
-      "exemptionText": "Internal repository"
-    },
-    "repo_id": 526538677,
-    "private_id": "github_526538677",
-    "_url": "https://github.com/CDC-HIS/sms_service"
   },
   {
     "name": "lcbs_services",
@@ -353,7 +318,7 @@
     "date": {
       "created": "2022-08-19T10:44:41+00:00",
       "lastModified": "2022-08-19T10:52:31+00:00",
-      "metadataLastUpdated": "2025-07-15T20:25:48.351923+00:00"
+      "metadataLastUpdated": "2025-07-15T23:46:32.021168+00:00"
     },
     "permissions": {
       "usageType": "exemptByCIO",
@@ -387,7 +352,7 @@
     "date": {
       "created": "2022-11-29T07:01:48+00:00",
       "lastModified": "2025-07-14T12:43:15+00:00",
-      "metadataLastUpdated": "2025-07-15T20:25:50.276585+00:00"
+      "metadataLastUpdated": "2025-07-15T23:46:32.135558+00:00"
     },
     "permissions": {
       "usageType": "governmentWideReuse",
@@ -421,7 +386,7 @@
     "date": {
       "created": "2023-04-18T08:02:43+00:00",
       "lastModified": "2024-05-31T07:03:03+00:00",
-      "metadataLastUpdated": "2025-07-15T20:25:52.214636+00:00"
+      "metadataLastUpdated": "2025-07-15T23:46:32.194923+00:00"
     },
     "permissions": {
       "usageType": "exemptByCIO",
@@ -435,6 +400,41 @@
     "repo_id": 629388328,
     "private_id": "github_629388328",
     "_url": "https://github.com/CDC-HIS/Openmrs-Reporting"
+  },
+  {
+    "name": "sms_service",
+    "organization": "CDC",
+    "description": "",
+    "version": "N/A",
+    "laborHours": 0,
+    "status": "inactive",
+    "vcs": "git",
+    "homepageURL": "",
+    "repositoryURL": "https://cdcgov.github.io/ShareIT-Act/assets/files/instructions.pdf",
+    "repositoryVisibility": "private",
+    "languages": [
+      "C#",
+      "NSIS",
+      "TSQL",
+      "Batchfile"
+    ],
+    "tags": [],
+    "contact": {
+      "email": "shareit@cdc.gov"
+    },
+    "date": {
+      "created": "2022-08-19T09:12:53+00:00",
+      "lastModified": "2022-08-19T10:43:39+00:00",
+      "metadataLastUpdated": "2025-07-15T23:46:32.291073+00:00"
+    },
+    "permissions": {
+      "usageType": "exemptByCIO",
+      "licenses": [],
+      "exemptionText": "Internal repository"
+    },
+    "repo_id": 526538677,
+    "private_id": "github_526538677",
+    "_url": "https://github.com/CDC-HIS/sms_service"
   },
   {
     "name": "openmrs-module-ethiohrireports",
@@ -457,7 +457,7 @@
     "date": {
       "created": "2023-05-18T12:43:25+00:00",
       "lastModified": "2023-05-18T12:46:22+00:00",
-      "metadataLastUpdated": "2025-07-15T20:25:54.036303+00:00"
+      "metadataLastUpdated": "2025-07-15T23:46:33.844671+00:00"
     },
     "permissions": {
       "usageType": "governmentWideReuse",
@@ -495,7 +495,7 @@
     "date": {
       "created": "2023-09-22T06:32:26+00:00",
       "lastModified": "2023-09-25T07:43:24+00:00",
-      "metadataLastUpdated": "2025-07-15T20:25:56.055052+00:00"
+      "metadataLastUpdated": "2025-07-15T23:46:34.057909+00:00"
     },
     "permissions": {
       "usageType": "exemptByCIO",
@@ -531,7 +531,7 @@
     "date": {
       "created": "2024-03-21T08:18:46+00:00",
       "lastModified": "2024-03-22T08:27:48+00:00",
-      "metadataLastUpdated": "2025-07-15T20:25:58.035490+00:00"
+      "metadataLastUpdated": "2025-07-15T23:46:34.147674+00:00"
     },
     "permissions": {
       "usageType": "exemptByCIO",
@@ -567,7 +567,7 @@
     "date": {
       "created": "2024-03-27T08:54:37+00:00",
       "lastModified": "2024-04-04T05:20:06+00:00",
-      "metadataLastUpdated": "2025-07-15T20:26:00.036165+00:00"
+      "metadataLastUpdated": "2025-07-15T23:46:34.207774+00:00"
     },
     "permissions": {
       "usageType": "exemptByCIO",
@@ -599,7 +599,7 @@
     "date": {
       "created": "2024-04-08T13:54:02+00:00",
       "lastModified": "2024-04-23T10:53:12+00:00",
-      "metadataLastUpdated": "2025-07-15T20:26:02.043602+00:00"
+      "metadataLastUpdated": "2025-07-15T23:46:35.792751+00:00"
     },
     "permissions": {
       "usageType": "exemptByCIO",
@@ -631,7 +631,7 @@
     "date": {
       "created": "2024-07-17T09:06:42+00:00",
       "lastModified": "2024-07-30T06:37:15+00:00",
-      "metadataLastUpdated": "2025-07-15T20:26:03.957003+00:00"
+      "metadataLastUpdated": "2025-07-15T23:46:35.937234+00:00"
     },
     "permissions": {
       "usageType": "openSource",
@@ -644,45 +644,6 @@
     "repo_id": 829925207,
     "private_id": "github_829925207",
     "_url": "https://github.com/CDC-HIS/eip-openmrs-redcap"
-  },
-  {
-    "name": "eip-ettors-openmrs",
-    "organization": "CDC",
-    "description": "Apache Camel routes that integrates ETTORS and OpenMRS",
-    "version": "N/A",
-    "laborHours": 0,
-    "status": "development",
-    "vcs": "git",
-    "homepageURL": "",
-    "repositoryURL": "https://github.com/CDC-HIS/eip-ettors-openmrs",
-    "repositoryVisibility": "public",
-    "languages": [
-      "Java"
-    ],
-    "tags": [
-      "camel",
-      "fhir",
-      "integrations"
-    ],
-    "contact": {
-      "email": "cdcinfo@cdc.gov"
-    },
-    "date": {
-      "created": "2024-07-17T11:02:56+00:00",
-      "lastModified": "2024-07-25T07:55:11+00:00",
-      "metadataLastUpdated": "2025-07-15T20:26:05.792466+00:00"
-    },
-    "permissions": {
-      "usageType": "openSource",
-      "licenses": [
-        {
-          "name": "Apache License 2.0"
-        }
-      ]
-    },
-    "repo_id": 829971966,
-    "private_id": "github_829971966",
-    "_url": "https://github.com/CDC-HIS/eip-ettors-openmrs"
   },
   {
     "name": "openmrs-esm-ethio-emr",
@@ -709,7 +670,7 @@
     "date": {
       "created": "2024-07-25T11:25:29+00:00",
       "lastModified": "2024-07-25T11:28:19+00:00",
-      "metadataLastUpdated": "2025-07-15T20:26:07.652400+00:00"
+      "metadataLastUpdated": "2025-07-15T23:46:35.956219+00:00"
     },
     "permissions": {
       "usageType": "openSource",
@@ -722,6 +683,45 @@
     "repo_id": 833600060,
     "private_id": "github_833600060",
     "_url": "https://github.com/CDC-HIS/openmrs-esm-ethio-emr"
+  },
+  {
+    "name": "eip-ettors-openmrs",
+    "organization": "CDC",
+    "description": "Apache Camel routes that integrates ETTORS and OpenMRS",
+    "version": "N/A",
+    "laborHours": 0,
+    "status": "development",
+    "vcs": "git",
+    "homepageURL": "",
+    "repositoryURL": "https://github.com/CDC-HIS/eip-ettors-openmrs",
+    "repositoryVisibility": "public",
+    "languages": [
+      "Java"
+    ],
+    "tags": [
+      "camel",
+      "fhir",
+      "integrations"
+    ],
+    "contact": {
+      "email": "cdcinfo@cdc.gov"
+    },
+    "date": {
+      "created": "2024-07-17T11:02:56+00:00",
+      "lastModified": "2024-07-25T07:55:11+00:00",
+      "metadataLastUpdated": "2025-07-15T23:46:36.142295+00:00"
+    },
+    "permissions": {
+      "usageType": "openSource",
+      "licenses": [
+        {
+          "name": "Apache License 2.0"
+        }
+      ]
+    },
+    "repo_id": 829971966,
+    "private_id": "github_829971966",
+    "_url": "https://github.com/CDC-HIS/eip-ettors-openmrs"
   },
   {
     "name": "openmrs-esm-ethio-hiv",
@@ -748,7 +748,7 @@
     "date": {
       "created": "2024-07-25T11:55:23+00:00",
       "lastModified": "2024-10-22T17:20:35+00:00",
-      "metadataLastUpdated": "2025-07-15T20:26:09.572766+00:00"
+      "metadataLastUpdated": "2025-07-15T23:46:37.560624+00:00"
     },
     "permissions": {
       "usageType": "openSource",
@@ -785,7 +785,7 @@
     "date": {
       "created": "2024-08-12T06:29:34+00:00",
       "lastModified": "2025-07-11T08:28:36+00:00",
-      "metadataLastUpdated": "2025-07-15T20:26:11.408007+00:00"
+      "metadataLastUpdated": "2025-07-15T23:46:37.710313+00:00"
     },
     "permissions": {
       "usageType": "openSource",
@@ -820,7 +820,7 @@
     "date": {
       "created": "2024-10-30T05:42:10+00:00",
       "lastModified": "2025-06-05T14:17:26+00:00",
-      "metadataLastUpdated": "2025-07-15T20:26:13.360288+00:00"
+      "metadataLastUpdated": "2025-07-15T23:46:37.919825+00:00"
     },
     "permissions": {
       "usageType": "exemptByCIO",
@@ -856,7 +856,7 @@
     "date": {
       "created": "2024-11-05T07:46:00+00:00",
       "lastModified": "2024-12-24T15:04:10+00:00",
-      "metadataLastUpdated": "2025-07-15T20:26:15.172282+00:00"
+      "metadataLastUpdated": "2025-07-15T23:46:37.920054+00:00"
     },
     "permissions": {
       "usageType": "openSource",
@@ -891,7 +891,7 @@
     "date": {
       "created": "2024-11-05T08:06:24+00:00",
       "lastModified": "2025-07-15T13:53:04+00:00",
-      "metadataLastUpdated": "2025-07-15T20:26:17.164456+00:00"
+      "metadataLastUpdated": "2025-07-15T23:46:39.519782+00:00"
     },
     "permissions": {
       "usageType": "exemptByCIO",
@@ -923,7 +923,7 @@
     "date": {
       "created": "2024-11-06T13:14:55+00:00",
       "lastModified": "2025-05-19T14:10:48+00:00",
-      "metadataLastUpdated": "2025-07-15T20:26:18.996079+00:00"
+      "metadataLastUpdated": "2025-07-15T23:46:39.569547+00:00"
     },
     "permissions": {
       "usageType": "governmentWideReuse",
@@ -932,6 +932,36 @@
     "repo_id": 884276147,
     "private_id": "github_884276147",
     "_url": "https://github.com/CDC-HIS/data-import-tool"
+  },
+  {
+    "name": "EthiOhri-Integration",
+    "organization": "CDC",
+    "description": "Essential Configurations and Guidelines for Systems Integrating with Ethiohri.",
+    "version": "N/A",
+    "laborHours": 0,
+    "status": "development",
+    "vcs": "git",
+    "homepageURL": "",
+    "repositoryURL": "https://cdcgov.github.io/ShareIT-Act/assets/files/code_exempted.pdf",
+    "repositoryVisibility": "private",
+    "languages": [],
+    "tags": [],
+    "contact": {
+      "email": "shareit@cdc.gov"
+    },
+    "date": {
+      "created": "2024-11-21T07:06:34+00:00",
+      "lastModified": "2025-03-10T09:15:24+00:00",
+      "metadataLastUpdated": "2025-07-15T23:46:39.838752+00:00"
+    },
+    "permissions": {
+      "usageType": "exemptByCIO",
+      "licenses": [],
+      "exemptionText": "Repository contains no code or only non-code assets like documentation and configuration."
+    },
+    "repo_id": 891908090,
+    "private_id": "github_891908090",
+    "_url": "https://github.com/CDC-HIS/EthiOhri-Integration"
   },
   {
     "name": "auto-cleanup",
@@ -956,7 +986,7 @@
     "date": {
       "created": "2024-11-20T07:07:15+00:00",
       "lastModified": "2024-11-20T07:10:05+00:00",
-      "metadataLastUpdated": "2025-07-15T20:26:20.967227+00:00"
+      "metadataLastUpdated": "2025-07-15T23:46:39.914894+00:00"
     },
     "permissions": {
       "usageType": "exemptByCIO",
@@ -966,36 +996,6 @@
     "repo_id": 891347930,
     "private_id": "github_891347930",
     "_url": "https://github.com/CDC-HIS/auto-cleanup"
-  },
-  {
-    "name": "EthiOhri-Integration",
-    "organization": "CDC",
-    "description": "Essential Configurations and Guidelines for Systems Integrating with Ethiohri.",
-    "version": "N/A",
-    "laborHours": 0,
-    "status": "development",
-    "vcs": "git",
-    "homepageURL": "",
-    "repositoryURL": "https://cdcgov.github.io/ShareIT-Act/assets/files/code_exempted.pdf",
-    "repositoryVisibility": "private",
-    "languages": [],
-    "tags": [],
-    "contact": {
-      "email": "shareit@cdc.gov"
-    },
-    "date": {
-      "created": "2024-11-21T07:06:34+00:00",
-      "lastModified": "2025-03-10T09:15:24+00:00",
-      "metadataLastUpdated": "2025-07-15T20:26:22.972234+00:00"
-    },
-    "permissions": {
-      "usageType": "exemptByCIO",
-      "licenses": [],
-      "exemptionText": "Repository contains no code or only non-code assets like documentation and configuration."
-    },
-    "repo_id": 891908090,
-    "private_id": "github_891908090",
-    "_url": "https://github.com/CDC-HIS/EthiOhri-Integration"
   },
   {
     "name": "datagrip",
@@ -1019,7 +1019,7 @@
     "date": {
       "created": "2024-11-28T07:30:35+00:00",
       "lastModified": "2025-04-23T14:00:52+00:00",
-      "metadataLastUpdated": "2025-07-15T20:26:24.912223+00:00"
+      "metadataLastUpdated": "2025-07-15T23:46:41.431522+00:00"
     },
     "permissions": {
       "usageType": "exemptByCIO",
@@ -1051,7 +1051,7 @@
     "date": {
       "created": "2024-11-29T09:17:52+00:00",
       "lastModified": "2025-01-28T11:24:38+00:00",
-      "metadataLastUpdated": "2025-07-15T20:26:26.936077+00:00"
+      "metadataLastUpdated": "2025-07-15T23:46:41.483737+00:00"
     },
     "permissions": {
       "usageType": "exemptByCIO",
@@ -1083,7 +1083,7 @@
     "date": {
       "created": "2024-12-09T13:59:33+00:00",
       "lastModified": "2025-06-30T07:43:43+00:00",
-      "metadataLastUpdated": "2025-07-15T20:26:28.772281+00:00"
+      "metadataLastUpdated": "2025-07-15T23:46:41.611910+00:00"
     },
     "permissions": {
       "usageType": "governmentWideReuse",
@@ -1114,7 +1114,7 @@
     "date": {
       "created": "2024-12-18T07:46:01+00:00",
       "lastModified": "2025-01-23T07:09:34+00:00",
-      "metadataLastUpdated": "2025-07-15T20:26:30.748324+00:00"
+      "metadataLastUpdated": "2025-07-15T23:46:41.729754+00:00"
     },
     "permissions": {
       "usageType": "exemptByCIO",
@@ -1150,7 +1150,7 @@
     "date": {
       "created": "2024-12-19T07:15:49+00:00",
       "lastModified": "2025-01-03T09:07:52+00:00",
-      "metadataLastUpdated": "2025-07-15T20:26:32.619679+00:00"
+      "metadataLastUpdated": "2025-07-15T23:46:43.257394+00:00"
     },
     "permissions": {
       "usageType": "openSource",
@@ -1189,7 +1189,7 @@
     "date": {
       "created": "2025-01-01T07:17:50+00:00",
       "lastModified": "2025-01-15T12:59:02+00:00",
-      "metadataLastUpdated": "2025-07-15T20:26:34.531613+00:00"
+      "metadataLastUpdated": "2025-07-15T23:46:43.345305+00:00"
     },
     "permissions": {
       "usageType": "openSource",
@@ -1224,7 +1224,7 @@
     "date": {
       "created": "2025-01-17T12:11:37+00:00",
       "lastModified": "2025-04-25T07:04:47+00:00",
-      "metadataLastUpdated": "2025-07-15T20:26:36.652215+00:00"
+      "metadataLastUpdated": "2025-07-15T23:46:43.560155+00:00"
     },
     "permissions": {
       "usageType": "exemptByCIO",
@@ -1260,7 +1260,7 @@
     "date": {
       "created": "2025-02-25T10:00:21+00:00",
       "lastModified": "2025-02-25T10:09:27+00:00",
-      "metadataLastUpdated": "2025-07-15T20:26:38.510908+00:00"
+      "metadataLastUpdated": "2025-07-15T23:46:43.588737+00:00"
     },
     "permissions": {
       "usageType": "openSource",
@@ -1299,7 +1299,7 @@
     "date": {
       "created": "2025-03-04T06:55:58+00:00",
       "lastModified": "2025-07-15T13:53:53+00:00",
-      "metadataLastUpdated": "2025-07-15T20:26:40.479277+00:00"
+      "metadataLastUpdated": "2025-07-15T23:46:45.126907+00:00"
     },
     "permissions": {
       "usageType": "exemptByCIO",
@@ -1335,7 +1335,7 @@
     "date": {
       "created": "2025-03-04T11:26:22+00:00",
       "lastModified": "2025-03-21T11:05:46+00:00",
-      "metadataLastUpdated": "2025-07-15T20:26:42.423114+00:00"
+      "metadataLastUpdated": "2025-07-15T23:46:45.279593+00:00"
     },
     "permissions": {
       "usageType": "exemptByCIO",
@@ -1367,7 +1367,7 @@
     "date": {
       "created": "2025-03-18T07:23:33+00:00",
       "lastModified": "2025-04-25T07:06:41+00:00",
-      "metadataLastUpdated": "2025-07-15T20:26:44.391241+00:00"
+      "metadataLastUpdated": "2025-07-15T23:46:45.438295+00:00"
     },
     "permissions": {
       "usageType": "exemptByCIO",
@@ -1399,7 +1399,7 @@
     "date": {
       "created": "2025-03-27T11:17:15+00:00",
       "lastModified": "2025-04-07T12:58:43+00:00",
-      "metadataLastUpdated": "2025-07-15T20:26:46.343529+00:00"
+      "metadataLastUpdated": "2025-07-15T23:46:45.513475+00:00"
     },
     "permissions": {
       "usageType": "exemptByCIO",
@@ -1429,7 +1429,7 @@
     "date": {
       "created": "2025-04-03T13:42:47+00:00",
       "lastModified": "2025-04-03T14:06:43+00:00",
-      "metadataLastUpdated": "2025-07-15T20:26:48.311741+00:00"
+      "metadataLastUpdated": "2025-07-15T23:46:47.095583+00:00"
     },
     "permissions": {
       "usageType": "exemptByCIO",
@@ -1465,7 +1465,7 @@
     "date": {
       "created": "2025-04-15T06:21:27+00:00",
       "lastModified": "2025-07-01T14:01:43+00:00",
-      "metadataLastUpdated": "2025-07-15T20:26:50.286071+00:00"
+      "metadataLastUpdated": "2025-07-15T23:46:47.236882+00:00"
     },
     "permissions": {
       "usageType": "exemptByCIO",
@@ -1501,7 +1501,7 @@
     "date": {
       "created": "2025-04-23T08:00:27+00:00",
       "lastModified": "2025-06-26T13:51:29+00:00",
-      "metadataLastUpdated": "2025-07-15T20:26:52.284867+00:00"
+      "metadataLastUpdated": "2025-07-15T23:46:47.314716+00:00"
     },
     "permissions": {
       "usageType": "exemptByCIO",
@@ -1533,7 +1533,7 @@
     "date": {
       "created": "2025-05-13T06:07:58+00:00",
       "lastModified": "2025-07-15T13:56:30+00:00",
-      "metadataLastUpdated": "2025-07-15T20:26:54.297589+00:00"
+      "metadataLastUpdated": "2025-07-15T23:46:47.459537+00:00"
     },
     "permissions": {
       "usageType": "exemptByCIO",
@@ -1569,7 +1569,7 @@
     "date": {
       "created": "2025-05-16T08:57:55+00:00",
       "lastModified": "2025-05-26T12:07:57+00:00",
-      "metadataLastUpdated": "2025-07-15T20:26:56.245291+00:00"
+      "metadataLastUpdated": "2025-07-15T23:46:49.000506+00:00"
     },
     "permissions": {
       "usageType": "exemptByCIO",
@@ -1609,7 +1609,7 @@
     "date": {
       "created": "2025-05-23T06:41:46+00:00",
       "lastModified": "2025-06-12T08:02:50+00:00",
-      "metadataLastUpdated": "2025-07-15T20:26:58.193631+00:00"
+      "metadataLastUpdated": "2025-07-15T23:46:49.142458+00:00"
     },
     "permissions": {
       "usageType": "exemptByCIO",
@@ -1645,7 +1645,7 @@
     "date": {
       "created": "2025-06-03T12:47:26+00:00",
       "lastModified": "2025-06-03T12:49:37+00:00",
-      "metadataLastUpdated": "2025-07-15T20:27:00.146335+00:00"
+      "metadataLastUpdated": "2025-07-15T23:46:49.277227+00:00"
     },
     "permissions": {
       "usageType": "exemptByCIO",
@@ -1681,7 +1681,7 @@
     "date": {
       "created": "2025-06-26T08:53:58+00:00",
       "lastModified": "2025-07-14T11:25:16+00:00",
-      "metadataLastUpdated": "2025-07-15T20:27:02.131033+00:00"
+      "metadataLastUpdated": "2025-07-15T23:46:49.371616+00:00"
     },
     "permissions": {
       "usageType": "exemptByCIO",
@@ -1717,7 +1717,7 @@
     "date": {
       "created": "2025-07-03T08:29:07+00:00",
       "lastModified": "2025-07-03T08:36:17+00:00",
-      "metadataLastUpdated": "2025-07-15T20:27:04.109097+00:00"
+      "metadataLastUpdated": "2025-07-15T23:46:50.913024+00:00"
     },
     "permissions": {
       "usageType": "exemptByCIO",

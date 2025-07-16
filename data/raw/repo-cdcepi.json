@@ -1,41 +1,5 @@
 [
   {
-    "name": "zika",
-    "organization": "CDC",
-    "description": "Data repository of publicly available Zika data",
-    "version": "2017.5.29",
-    "laborHours": 0,
-    "status": "inactive",
-    "vcs": "git",
-    "homepageURL": "",
-    "repositoryURL": "https://github.com/cdcepi/zika",
-    "repositoryVisibility": "public",
-    "languages": [
-      "HTML",
-      "R"
-    ],
-    "tags": [],
-    "contact": {
-      "email": "cdcinfo@cdc.gov"
-    },
-    "date": {
-      "created": "2016-02-17T19:01:38+00:00",
-      "lastModified": "2019-08-07T20:34:46+00:00",
-      "metadataLastUpdated": "2025-07-15T20:27:18.863010+00:00"
-    },
-    "permissions": {
-      "usageType": "openSource",
-      "licenses": [
-        {
-          "name": "Apache License 2.0"
-        }
-      ]
-    },
-    "repo_id": 51947303,
-    "private_id": "github_51947303",
-    "_url": "https://github.com/cdcepi/zika"
-  },
-  {
     "name": "cdcepi.github.io",
     "organization": "CDC",
     "description": "",
@@ -58,7 +22,7 @@
     "date": {
       "created": "2016-03-08T17:37:48+00:00",
       "lastModified": "2019-12-27T16:35:10+00:00",
-      "metadataLastUpdated": "2025-07-15T20:27:20.836490+00:00"
+      "metadataLastUpdated": "2025-07-15T23:47:08.589595+00:00"
     },
     "permissions": {
       "usageType": "openSource",
@@ -73,17 +37,18 @@
     "_url": "https://github.com/cdcepi/cdcepi.github.io"
   },
   {
-    "name": "flu-tools-2015-16",
+    "name": "zika",
     "organization": "CDC",
-    "description": "Tools for calculating scores for the 2015/16 influenza forecasting challenge",
-    "version": "N/A",
+    "description": "Data repository of publicly available Zika data",
+    "version": "2017.5.29",
     "laborHours": 0,
     "status": "inactive",
     "vcs": "git",
     "homepageURL": "",
-    "repositoryURL": "https://github.com/cdcepi/flu-tools-2015-16",
+    "repositoryURL": "https://github.com/cdcepi/zika",
     "repositoryVisibility": "public",
     "languages": [
+      "HTML",
       "R"
     ],
     "tags": [],
@@ -91,17 +56,21 @@
       "email": "cdcinfo@cdc.gov"
     },
     "date": {
-      "created": "2016-09-06T12:59:22+00:00",
-      "lastModified": "2017-10-30T12:40:46+00:00",
-      "metadataLastUpdated": "2025-07-15T20:27:22.830996+00:00"
+      "created": "2016-02-17T19:01:38+00:00",
+      "lastModified": "2019-08-07T20:34:46+00:00",
+      "metadataLastUpdated": "2025-07-15T23:47:08.614351+00:00"
     },
     "permissions": {
-      "usageType": "governmentWideReuse",
-      "licenses": []
+      "usageType": "openSource",
+      "licenses": [
+        {
+          "name": "Apache License 2.0"
+        }
+      ]
     },
-    "repo_id": 67508440,
-    "private_id": "github_67508440",
-    "_url": "https://github.com/cdcepi/flu-tools-2015-16"
+    "repo_id": 51947303,
+    "private_id": "github_51947303",
+    "_url": "https://github.com/cdcepi/zika"
   },
   {
     "name": "FluSight_ensemble",
@@ -124,7 +93,7 @@
     "date": {
       "created": "2016-09-23T15:07:10+00:00",
       "lastModified": "2017-01-17T18:27:18+00:00",
-      "metadataLastUpdated": "2025-07-15T20:27:24.863064+00:00"
+      "metadataLastUpdated": "2025-07-15T23:47:08.624640+00:00"
     },
     "permissions": {
       "usageType": "openSource",
@@ -139,37 +108,35 @@
     "_url": "https://github.com/cdcepi/FluSight_ensemble"
   },
   {
-    "name": "FluSight-forecasts",
+    "name": "flu-tools-2015-16",
     "organization": "CDC",
-    "description": "FluSight Forecast Submissions",
+    "description": "Tools for calculating scores for the 2015/16 influenza forecasting challenge",
     "version": "N/A",
     "laborHours": 0,
-    "status": "development",
+    "status": "inactive",
     "vcs": "git",
     "homepageURL": "",
-    "repositoryURL": "https://github.com/cdcepi/FluSight-forecasts",
+    "repositoryURL": "https://github.com/cdcepi/flu-tools-2015-16",
     "repositoryVisibility": "public",
-    "languages": [],
+    "languages": [
+      "R"
+    ],
     "tags": [],
     "contact": {
-      "email": "flucontest@cdc.gov"
+      "email": "cdcinfo@cdc.gov"
     },
     "date": {
-      "created": "2016-09-30T16:20:47+00:00",
-      "lastModified": "2024-04-22T20:29:51+00:00",
-      "metadataLastUpdated": "2025-07-15T20:27:26.843716+00:00"
+      "created": "2016-09-06T12:59:22+00:00",
+      "lastModified": "2017-10-30T12:40:46+00:00",
+      "metadataLastUpdated": "2025-07-15T23:47:08.640827+00:00"
     },
     "permissions": {
-      "usageType": "openSource",
-      "licenses": [
-        {
-          "name": "Creative Commons Attribution 4.0 International"
-        }
-      ]
+      "usageType": "governmentWideReuse",
+      "licenses": []
     },
-    "repo_id": 69682577,
-    "private_id": "github_69682577",
-    "_url": "https://github.com/cdcepi/FluSight-forecasts"
+    "repo_id": 67508440,
+    "private_id": "github_67508440",
+    "_url": "https://github.com/cdcepi/flu-tools-2015-16"
   },
   {
     "name": "web_tracker",
@@ -190,7 +157,7 @@
     "date": {
       "created": "2016-12-07T14:58:07+00:00",
       "lastModified": "2017-11-28T15:56:54+00:00",
-      "metadataLastUpdated": "2025-07-15T20:27:28.867641+00:00"
+      "metadataLastUpdated": "2025-07-15T23:47:10.619937+00:00"
     },
     "permissions": {
       "usageType": "governmentWideReuse",
@@ -199,6 +166,39 @@
     "repo_id": 75846371,
     "private_id": "github_75846371",
     "_url": "https://github.com/cdcepi/web_tracker"
+  },
+  {
+    "name": "FluSight-forecasts",
+    "organization": "CDC",
+    "description": "FluSight Forecast Submissions",
+    "version": "N/A",
+    "laborHours": 0,
+    "status": "development",
+    "vcs": "git",
+    "homepageURL": "",
+    "repositoryURL": "https://github.com/cdcepi/FluSight-forecasts",
+    "repositoryVisibility": "public",
+    "languages": [],
+    "tags": [],
+    "contact": {
+      "email": "flucontest@cdc.gov"
+    },
+    "date": {
+      "created": "2016-09-30T16:20:47+00:00",
+      "lastModified": "2024-04-22T20:29:51+00:00",
+      "metadataLastUpdated": "2025-07-15T23:47:10.621014+00:00"
+    },
+    "permissions": {
+      "usageType": "openSource",
+      "licenses": [
+        {
+          "name": "Creative Commons Attribution 4.0 International"
+        }
+      ]
+    },
+    "repo_id": 69682577,
+    "private_id": "github_69682577",
+    "_url": "https://github.com/cdcepi/FluSight-forecasts"
   },
   {
     "name": "State_FluSight_Forecasts",
@@ -219,7 +219,7 @@
     "date": {
       "created": "2017-10-23T15:48:19+00:00",
       "lastModified": "2022-09-02T15:20:33+00:00",
-      "metadataLastUpdated": "2025-07-15T20:27:30.901221+00:00"
+      "metadataLastUpdated": "2025-07-15T23:47:10.647261+00:00"
     },
     "permissions": {
       "usageType": "openSource",
@@ -252,7 +252,7 @@
     "date": {
       "created": "2017-12-12T14:26:11+00:00",
       "lastModified": "2022-09-01T17:54:19+00:00",
-      "metadataLastUpdated": "2025-07-15T20:27:32.917058+00:00"
+      "metadataLastUpdated": "2025-07-15T23:47:10.664246+00:00"
     },
     "permissions": {
       "usageType": "openSource",
@@ -265,6 +265,35 @@
     "repo_id": 113999925,
     "private_id": "github_113999925",
     "_url": "https://github.com/cdcepi/Hospitalization-Forecasts"
+  },
+  {
+    "name": "dengue-forecasting-project-2015",
+    "organization": "CDC",
+    "description": "Dengue Forecasting Project Data Repository",
+    "version": "1.0",
+    "laborHours": 0,
+    "status": "inactive",
+    "vcs": "git",
+    "homepageURL": "",
+    "repositoryURL": "https://github.com/cdcepi/dengue-forecasting-project-2015",
+    "repositoryVisibility": "public",
+    "languages": [],
+    "tags": [],
+    "contact": {
+      "email": "cdcinfo@cdc.gov"
+    },
+    "date": {
+      "created": "2019-10-25T13:55:38+00:00",
+      "lastModified": "2019-10-25T16:01:28+00:00",
+      "metadataLastUpdated": "2025-07-15T23:47:12.653223+00:00"
+    },
+    "permissions": {
+      "usageType": "governmentWideReuse",
+      "licenses": []
+    },
+    "repo_id": 217545215,
+    "private_id": "github_217545215",
+    "_url": "https://github.com/cdcepi/dengue-forecasting-project-2015"
   },
   {
     "name": "predx",
@@ -287,7 +316,7 @@
     "date": {
       "created": "2019-03-08T15:13:15+00:00",
       "lastModified": "2020-12-04T14:12:57+00:00",
-      "metadataLastUpdated": "2025-07-15T20:27:34.914757+00:00"
+      "metadataLastUpdated": "2025-07-15T23:47:12.677572+00:00"
     },
     "permissions": {
       "usageType": "governmentWideReuse",
@@ -316,7 +345,7 @@
     "date": {
       "created": "2019-10-18T16:32:08+00:00",
       "lastModified": "2020-03-10T16:01:05+00:00",
-      "metadataLastUpdated": "2025-07-15T20:27:36.918707+00:00"
+      "metadataLastUpdated": "2025-07-15T23:47:12.699111+00:00"
     },
     "permissions": {
       "usageType": "governmentWideReuse",
@@ -325,35 +354,6 @@
     "repo_id": 216065891,
     "private_id": "github_216065891",
     "_url": "https://github.com/cdcepi/DoD_Influenza_Forecasts"
-  },
-  {
-    "name": "dengue-forecasting-project-2015",
-    "organization": "CDC",
-    "description": "Dengue Forecasting Project Data Repository",
-    "version": "1.0",
-    "laborHours": 0,
-    "status": "inactive",
-    "vcs": "git",
-    "homepageURL": "",
-    "repositoryURL": "https://github.com/cdcepi/dengue-forecasting-project-2015",
-    "repositoryVisibility": "public",
-    "languages": [],
-    "tags": [],
-    "contact": {
-      "email": "cdcinfo@cdc.gov"
-    },
-    "date": {
-      "created": "2019-10-25T13:55:38+00:00",
-      "lastModified": "2019-10-25T16:01:28+00:00",
-      "metadataLastUpdated": "2025-07-15T20:27:38.937065+00:00"
-    },
-    "permissions": {
-      "usageType": "governmentWideReuse",
-      "licenses": []
-    },
-    "repo_id": 217545215,
-    "private_id": "github_217545215",
-    "_url": "https://github.com/cdcepi/dengue-forecasting-project-2015"
   },
   {
     "name": "COVID-19-ILI-forecasting",
@@ -377,7 +377,7 @@
     "date": {
       "created": "2020-03-11T21:50:06+00:00",
       "lastModified": "2020-05-20T00:46:14+00:00",
-      "metadataLastUpdated": "2025-07-15T20:27:40.974200+00:00"
+      "metadataLastUpdated": "2025-07-15T23:47:13.228560+00:00"
     },
     "permissions": {
       "usageType": "governmentWideReuse",
@@ -406,7 +406,7 @@
     "date": {
       "created": "2020-05-21T12:56:31+00:00",
       "lastModified": "2023-04-17T18:39:13+00:00",
-      "metadataLastUpdated": "2025-07-15T20:27:43.114964+00:00"
+      "metadataLastUpdated": "2025-07-15T23:47:14.621215+00:00"
     },
     "permissions": {
       "usageType": "governmentWideReuse",
@@ -415,6 +415,37 @@
     "repo_id": 265848645,
     "private_id": "github_265848645",
     "_url": "https://github.com/cdcepi/COVID-19-Forecasts"
+  },
+  {
+    "name": "Nursing-home-SARS-CoV-2-testing-model",
+    "organization": "CDC",
+    "description": "Code for nursing home COVID-19 outbreak and non-outbreak testing modeling",
+    "version": "N/A",
+    "laborHours": 0,
+    "status": "inactive",
+    "vcs": "git",
+    "homepageURL": "",
+    "repositoryURL": "https://github.com/cdcepi/Nursing-home-SARS-CoV-2-testing-model",
+    "repositoryVisibility": "public",
+    "languages": [
+      "R"
+    ],
+    "tags": [],
+    "contact": {
+      "email": "cdcinfo@cdc.gov"
+    },
+    "date": {
+      "created": "2021-01-28T21:24:22+00:00",
+      "lastModified": "2021-01-28T21:54:21+00:00",
+      "metadataLastUpdated": "2025-07-15T23:47:14.679322+00:00"
+    },
+    "permissions": {
+      "usageType": "governmentWideReuse",
+      "licenses": []
+    },
+    "repo_id": 333959020,
+    "private_id": "github_333959020",
+    "_url": "https://github.com/cdcepi/Nursing-home-SARS-CoV-2-testing-model"
   },
   {
     "name": "FluCode",
@@ -438,7 +469,7 @@
     "date": {
       "created": "2020-08-03T16:11:06+00:00",
       "lastModified": "2023-06-14T11:59:39+00:00",
-      "metadataLastUpdated": "2025-07-15T20:27:45.089356+00:00"
+      "metadataLastUpdated": "2025-07-15T23:47:14.683671+00:00"
     },
     "permissions": {
       "usageType": "governmentWideReuse",
@@ -447,37 +478,6 @@
     "repo_id": 284746405,
     "private_id": "github_284746405",
     "_url": "https://github.com/cdcepi/FluCode"
-  },
-  {
-    "name": "Nursing-home-SARS-CoV-2-testing-model",
-    "organization": "CDC",
-    "description": "Code for nursing home COVID-19 outbreak and non-outbreak testing modeling",
-    "version": "N/A",
-    "laborHours": 0,
-    "status": "inactive",
-    "vcs": "git",
-    "homepageURL": "",
-    "repositoryURL": "https://github.com/cdcepi/Nursing-home-SARS-CoV-2-testing-model",
-    "repositoryVisibility": "public",
-    "languages": [
-      "R"
-    ],
-    "tags": [],
-    "contact": {
-      "email": "cdcinfo@cdc.gov"
-    },
-    "date": {
-      "created": "2021-01-28T21:24:22+00:00",
-      "lastModified": "2021-01-28T21:54:21+00:00",
-      "metadataLastUpdated": "2025-07-15T20:27:47.067429+00:00"
-    },
-    "permissions": {
-      "usageType": "governmentWideReuse",
-      "licenses": []
-    },
-    "repo_id": 333959020,
-    "private_id": "github_333959020",
-    "_url": "https://github.com/cdcepi/Nursing-home-SARS-CoV-2-testing-model"
   },
   {
     "name": "ACIP-SARS-CoV-2-Vaccine-Modeling",
@@ -500,7 +500,7 @@
     "date": {
       "created": "2021-02-23T20:00:39+00:00",
       "lastModified": "2021-02-23T20:50:17+00:00",
-      "metadataLastUpdated": "2025-07-15T20:27:49.116365+00:00"
+      "metadataLastUpdated": "2025-07-15T23:47:15.256154+00:00"
     },
     "permissions": {
       "usageType": "governmentWideReuse",
@@ -531,7 +531,7 @@
     "date": {
       "created": "2021-03-05T21:47:07+00:00",
       "lastModified": "2021-03-26T19:30:17+00:00",
-      "metadataLastUpdated": "2025-07-15T20:27:51.042198+00:00"
+      "metadataLastUpdated": "2025-07-15T23:47:16.572984+00:00"
     },
     "permissions": {
       "usageType": "governmentWideReuse",
@@ -540,41 +540,6 @@
     "repo_id": 344942253,
     "private_id": "github_344942253",
     "_url": "https://github.com/cdcepi/COVID-19-traveler-model"
-  },
-  {
-    "name": "Flusight-forecast-data",
-    "organization": "CDC",
-    "description": "",
-    "version": "2.0",
-    "laborHours": 0,
-    "status": "development",
-    "vcs": "git",
-    "homepageURL": "",
-    "repositoryURL": "https://github.com/cdcepi/Flusight-forecast-data",
-    "repositoryVisibility": "public",
-    "languages": [
-      "R"
-    ],
-    "tags": [],
-    "contact": {
-      "email": "cdcinfo@cdc.gov"
-    },
-    "date": {
-      "created": "2021-10-19T20:18:53+00:00",
-      "lastModified": "2024-07-08T14:34:10+00:00",
-      "metadataLastUpdated": "2025-07-15T20:27:53.147020+00:00"
-    },
-    "permissions": {
-      "usageType": "openSource",
-      "licenses": [
-        {
-          "name": "Other"
-        }
-      ]
-    },
-    "repo_id": 419078676,
-    "private_id": "github_419078676",
-    "_url": "https://github.com/cdcepi/Flusight-forecast-data"
   },
   {
     "name": "Flusight-baseline",
@@ -597,7 +562,7 @@
     "date": {
       "created": "2022-01-06T15:52:59+00:00",
       "lastModified": "2025-05-29T16:25:47+00:00",
-      "metadataLastUpdated": "2025-07-15T20:27:55.152481+00:00"
+      "metadataLastUpdated": "2025-07-15T23:47:16.675775+00:00"
     },
     "permissions": {
       "usageType": "governmentWideReuse",
@@ -606,6 +571,41 @@
     "repo_id": 445225597,
     "private_id": "github_445225597",
     "_url": "https://github.com/cdcepi/Flusight-baseline"
+  },
+  {
+    "name": "Flusight-forecast-data",
+    "organization": "CDC",
+    "description": "",
+    "version": "2.0",
+    "laborHours": 0,
+    "status": "development",
+    "vcs": "git",
+    "homepageURL": "",
+    "repositoryURL": "https://github.com/cdcepi/Flusight-forecast-data",
+    "repositoryVisibility": "public",
+    "languages": [
+      "R"
+    ],
+    "tags": [],
+    "contact": {
+      "email": "cdcinfo@cdc.gov"
+    },
+    "date": {
+      "created": "2021-10-19T20:18:53+00:00",
+      "lastModified": "2024-07-08T14:34:10+00:00",
+      "metadataLastUpdated": "2025-07-15T23:47:16.701455+00:00"
+    },
+    "permissions": {
+      "usageType": "openSource",
+      "licenses": [
+        {
+          "name": "Other"
+        }
+      ]
+    },
+    "repo_id": 419078676,
+    "private_id": "github_419078676",
+    "_url": "https://github.com/cdcepi/Flusight-forecast-data"
   },
   {
     "name": "Flusight-ensemble",
@@ -628,7 +628,7 @@
     "date": {
       "created": "2022-01-06T15:53:27+00:00",
       "lastModified": "2025-05-29T11:23:18+00:00",
-      "metadataLastUpdated": "2025-07-15T20:27:57.118572+00:00"
+      "metadataLastUpdated": "2025-07-15T23:47:17.270301+00:00"
     },
     "permissions": {
       "usageType": "governmentWideReuse",
@@ -657,7 +657,7 @@
     "date": {
       "created": "2022-03-29T01:26:52+00:00",
       "lastModified": "2024-03-22T14:58:08+00:00",
-      "metadataLastUpdated": "2025-07-15T20:27:59.147329+00:00"
+      "metadataLastUpdated": "2025-07-15T23:47:18.599187+00:00"
     },
     "permissions": {
       "usageType": "openSource",
@@ -670,35 +670,6 @@
     "repo_id": 475236978,
     "private_id": "github_475236978",
     "_url": "https://github.com/cdcepi/WNV-forecast-data-2022"
-  },
-  {
-    "name": "WNV-forecast-project-2020",
-    "organization": "CDC",
-    "description": "",
-    "version": "N/A",
-    "laborHours": 0,
-    "status": "inactive",
-    "vcs": "git",
-    "homepageURL": "",
-    "repositoryURL": "https://github.com/cdcepi/WNV-forecast-project-2020",
-    "repositoryVisibility": "public",
-    "languages": [],
-    "tags": [],
-    "contact": {
-      "email": "cdcinfo@cdc.gov"
-    },
-    "date": {
-      "created": "2022-07-11T17:04:46+00:00",
-      "lastModified": "2022-07-21T18:41:54+00:00",
-      "metadataLastUpdated": "2025-07-15T20:28:01.139029+00:00"
-    },
-    "permissions": {
-      "usageType": "governmentWideReuse",
-      "licenses": []
-    },
-    "repo_id": 512842654,
-    "private_id": "github_512842654",
-    "_url": "https://github.com/cdcepi/WNV-forecast-project-2020"
   },
   {
     "name": "Aedes-forecast-project-2019-2020",
@@ -719,7 +690,7 @@
     "date": {
       "created": "2022-07-20T20:50:14+00:00",
       "lastModified": "2023-01-23T12:37:56+00:00",
-      "metadataLastUpdated": "2025-07-15T20:28:03.193475+00:00"
+      "metadataLastUpdated": "2025-07-15T23:47:18.668439+00:00"
     },
     "permissions": {
       "usageType": "governmentWideReuse",
@@ -728,6 +699,35 @@
     "repo_id": 516130822,
     "private_id": "github_516130822",
     "_url": "https://github.com/cdcepi/Aedes-forecast-project-2019-2020"
+  },
+  {
+    "name": "WNV-forecast-project-2020",
+    "organization": "CDC",
+    "description": "",
+    "version": "N/A",
+    "laborHours": 0,
+    "status": "inactive",
+    "vcs": "git",
+    "homepageURL": "",
+    "repositoryURL": "https://github.com/cdcepi/WNV-forecast-project-2020",
+    "repositoryVisibility": "public",
+    "languages": [],
+    "tags": [],
+    "contact": {
+      "email": "cdcinfo@cdc.gov"
+    },
+    "date": {
+      "created": "2022-07-11T17:04:46+00:00",
+      "lastModified": "2022-07-21T18:41:54+00:00",
+      "metadataLastUpdated": "2025-07-15T23:47:18.733261+00:00"
+    },
+    "permissions": {
+      "usageType": "governmentWideReuse",
+      "licenses": []
+    },
+    "repo_id": 512842654,
+    "private_id": "github_512842654",
+    "_url": "https://github.com/cdcepi/WNV-forecast-project-2020"
   },
   {
     "name": "DoD-CLI-forecast-data",
@@ -748,7 +748,7 @@
     "date": {
       "created": "2022-09-27T13:42:35+00:00",
       "lastModified": "2022-10-28T14:16:49+00:00",
-      "metadataLastUpdated": "2025-07-15T20:28:05.251134+00:00"
+      "metadataLastUpdated": "2025-07-15T23:47:19.331975+00:00"
     },
     "permissions": {
       "usageType": "openSource",
@@ -781,7 +781,7 @@
     "date": {
       "created": "2022-12-20T15:44:02+00:00",
       "lastModified": "2023-10-30T18:09:03+00:00",
-      "metadataLastUpdated": "2025-07-15T20:28:07.334304+00:00"
+      "metadataLastUpdated": "2025-07-15T23:47:20.577845+00:00"
     },
     "permissions": {
       "usageType": "openSource",
@@ -816,7 +816,7 @@
     "date": {
       "created": "2023-01-27T16:03:26+00:00",
       "lastModified": "2024-01-10T14:26:36+00:00",
-      "metadataLastUpdated": "2025-07-15T20:28:09.323190+00:00"
+      "metadataLastUpdated": "2025-07-15T23:47:20.683547+00:00"
     },
     "permissions": {
       "usageType": "governmentWideReuse",
@@ -847,7 +847,7 @@
     "date": {
       "created": "2023-09-05T14:14:07+00:00",
       "lastModified": "2025-07-09T18:22:15+00:00",
-      "metadataLastUpdated": "2025-07-15T20:28:11.339979+00:00"
+      "metadataLastUpdated": "2025-07-15T23:47:20.727487+00:00"
     },
     "permissions": {
       "usageType": "openSource",
@@ -883,7 +883,7 @@
     "date": {
       "created": "2023-10-24T12:44:03+00:00",
       "lastModified": "2025-06-18T14:31:35+00:00",
-      "metadataLastUpdated": "2025-07-15T20:28:13.389638+00:00"
+      "metadataLastUpdated": "2025-07-15T23:47:21.399477+00:00"
     },
     "permissions": {
       "usageType": "openSource",
@@ -919,7 +919,7 @@
     "date": {
       "created": "2024-03-13T12:46:53+00:00",
       "lastModified": "2024-12-31T14:51:33+00:00",
-      "metadataLastUpdated": "2025-07-15T20:28:15.526190+00:00"
+      "metadataLastUpdated": "2025-07-15T23:47:22.580995+00:00"
     },
     "permissions": {
       "usageType": "openSource",
@@ -954,7 +954,7 @@
     "date": {
       "created": "2024-08-16T20:03:50+00:00",
       "lastModified": "2024-11-12T14:45:38+00:00",
-      "metadataLastUpdated": "2025-07-15T20:28:17.501278+00:00"
+      "metadataLastUpdated": "2025-07-15T23:47:22.684195+00:00"
     },
     "permissions": {
       "usageType": "governmentWideReuse",
