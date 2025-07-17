@@ -33,7 +33,7 @@
     "date": {
       "created": "2012-06-05T19:35:07+00:00",
       "lastModified": "2014-12-03T13:05:38+00:00",
-      "metadataLastUpdated": "2025-07-15T23:52:25.035821+00:00"
+      "metadataLastUpdated": "2025-07-17T20:36:34.862320+00:00"
     },
     "permissions": {
       "usageType": "governmentWideReuse",
@@ -64,7 +64,7 @@
     "date": {
       "created": "2012-06-05T19:38:12+00:00",
       "lastModified": "2013-11-06T15:52:07+00:00",
-      "metadataLastUpdated": "2025-07-15T23:52:25.069536+00:00"
+      "metadataLastUpdated": "2025-07-17T20:36:34.899526+00:00"
     },
     "permissions": {
       "usageType": "governmentWideReuse",
@@ -97,7 +97,7 @@
     "date": {
       "created": "2012-11-29T22:12:18+00:00",
       "lastModified": "2013-10-01T18:52:27+00:00",
-      "metadataLastUpdated": "2025-07-15T23:52:25.103312+00:00"
+      "metadataLastUpdated": "2025-07-17T20:36:34.910010+00:00"
     },
     "permissions": {
       "usageType": "governmentWideReuse",
@@ -126,7 +126,7 @@
     "date": {
       "created": "2012-11-29T20:04:37+00:00",
       "lastModified": "2014-04-03T16:04:25+00:00",
-      "metadataLastUpdated": "2025-07-15T23:52:25.106992+00:00"
+      "metadataLastUpdated": "2025-07-17T20:36:34.917814+00:00"
     },
     "permissions": {
       "usageType": "governmentWideReuse",
@@ -157,7 +157,7 @@
     "date": {
       "created": "2012-11-30T14:51:50+00:00",
       "lastModified": "2014-10-15T14:30:54+00:00",
-      "metadataLastUpdated": "2025-07-15T23:52:27.618577+00:00"
+      "metadataLastUpdated": "2025-07-17T20:36:37.439459+00:00"
     },
     "permissions": {
       "usageType": "openSource",
@@ -170,6 +170,37 @@
     "repo_id": 6940591,
     "private_id": "github_6940591",
     "_url": "https://github.com/informaticslab/clip"
+  },
+  {
+    "name": "phtweet",
+    "organization": "CDC",
+    "description": "Twitter monitoring for public health situational awareness.",
+    "version": "N/A",
+    "laborHours": 0,
+    "status": "archived",
+    "vcs": "git",
+    "homepageURL": "",
+    "repositoryURL": "https://github.com/informaticslab/phtweet",
+    "repositoryVisibility": "public",
+    "languages": [
+      "Java"
+    ],
+    "tags": [],
+    "contact": {
+      "email": "cdcinfo@cdc.gov"
+    },
+    "date": {
+      "created": "2012-11-30T14:34:34+00:00",
+      "lastModified": "2012-11-30T14:46:24+00:00",
+      "metadataLastUpdated": "2025-07-17T20:36:37.476786+00:00"
+    },
+    "permissions": {
+      "usageType": "governmentWideReuse",
+      "licenses": []
+    },
+    "repo_id": 6940340,
+    "private_id": "github_6940340",
+    "_url": "https://github.com/informaticslab/phtweet"
   },
   {
     "name": "ptt-advisor",
@@ -193,7 +224,7 @@
     "date": {
       "created": "2012-11-29T22:40:03+00:00",
       "lastModified": "2016-11-15T19:09:54+00:00",
-      "metadataLastUpdated": "2025-07-15T23:52:27.641589+00:00"
+      "metadataLastUpdated": "2025-07-17T20:36:37.486646+00:00"
     },
     "permissions": {
       "usageType": "governmentWideReuse",
@@ -202,37 +233,6 @@
     "repo_id": 6929805,
     "private_id": "github_6929805",
     "_url": "https://github.com/informaticslab/ptt-advisor"
-  },
-  {
-    "name": "phtweet",
-    "organization": "CDC",
-    "description": "Twitter monitoring for public health situational awareness.",
-    "version": "N/A",
-    "laborHours": 0,
-    "status": "archived",
-    "vcs": "git",
-    "homepageURL": "",
-    "repositoryURL": "https://github.com/informaticslab/phtweet",
-    "repositoryVisibility": "public",
-    "languages": [
-      "Java"
-    ],
-    "tags": [],
-    "contact": {
-      "email": "cdcinfo@cdc.gov"
-    },
-    "date": {
-      "created": "2012-11-30T14:34:34+00:00",
-      "lastModified": "2012-11-30T14:46:24+00:00",
-      "metadataLastUpdated": "2025-07-15T23:52:27.666540+00:00"
-    },
-    "permissions": {
-      "usageType": "governmentWideReuse",
-      "licenses": []
-    },
-    "repo_id": 6940340,
-    "private_id": "github_6940340",
-    "_url": "https://github.com/informaticslab/phtweet"
   },
   {
     "name": "shirly",
@@ -262,7 +262,7 @@
     "date": {
       "created": "2012-11-29T22:56:50+00:00",
       "lastModified": "2014-02-25T15:54:08+00:00",
-      "metadataLastUpdated": "2025-07-15T23:52:27.674869+00:00"
+      "metadataLastUpdated": "2025-07-17T20:36:37.547143+00:00"
     },
     "permissions": {
       "usageType": "governmentWideReuse",
@@ -293,7 +293,7 @@
     "date": {
       "created": "2012-11-30T16:34:49+00:00",
       "lastModified": "2012-11-30T16:44:27+00:00",
-      "metadataLastUpdated": "2025-07-15T23:52:30.182743+00:00"
+      "metadataLastUpdated": "2025-07-17T20:36:39.998802+00:00"
     },
     "permissions": {
       "usageType": "governmentWideReuse",
@@ -324,7 +324,7 @@
     "date": {
       "created": "2012-11-30T16:39:16+00:00",
       "lastModified": "2012-11-30T16:50:13+00:00",
-      "metadataLastUpdated": "2025-07-15T23:52:30.218313+00:00"
+      "metadataLastUpdated": "2025-07-17T20:36:40.033994+00:00"
     },
     "permissions": {
       "usageType": "governmentWideReuse",
@@ -358,7 +358,7 @@
     "date": {
       "created": "2012-11-30T16:10:06+00:00",
       "lastModified": "2015-04-02T14:34:20+00:00",
-      "metadataLastUpdated": "2025-07-15T23:52:30.219270+00:00"
+      "metadataLastUpdated": "2025-07-17T20:36:40.040808+00:00"
     },
     "permissions": {
       "usageType": "governmentWideReuse",
@@ -387,7 +387,7 @@
     "date": {
       "created": "2012-11-30T17:01:59+00:00",
       "lastModified": "2012-11-30T17:12:24+00:00",
-      "metadataLastUpdated": "2025-07-15T23:52:30.263698+00:00"
+      "metadataLastUpdated": "2025-07-17T20:36:40.134857+00:00"
     },
     "permissions": {
       "usageType": "openSource",
@@ -422,7 +422,7 @@
     "date": {
       "created": "2012-11-30T17:22:21+00:00",
       "lastModified": "2012-11-30T17:26:49+00:00",
-      "metadataLastUpdated": "2025-07-15T23:52:32.762045+00:00"
+      "metadataLastUpdated": "2025-07-17T20:36:42.623068+00:00"
     },
     "permissions": {
       "usageType": "governmentWideReuse",
@@ -431,6 +431,41 @@
     "repo_id": 6942778,
     "private_id": "github_6942778",
     "_url": "https://github.com/informaticslab/nomenclature"
+  },
+  {
+    "name": "toxguide",
+    "organization": "CDC",
+    "description": "Toxic Substance Quick Reference Guides for the iPhone Prototype",
+    "version": "N/A",
+    "laborHours": 0,
+    "status": "archived",
+    "vcs": "git",
+    "homepageURL": "",
+    "repositoryURL": "https://github.com/informaticslab/toxguide",
+    "repositoryVisibility": "public",
+    "languages": [
+      "Objective-C"
+    ],
+    "tags": [],
+    "contact": {
+      "email": "cdcinfo@cdc.gov"
+    },
+    "date": {
+      "created": "2012-11-30T17:27:56+00:00",
+      "lastModified": "2013-08-14T13:06:31+00:00",
+      "metadataLastUpdated": "2025-07-17T20:36:42.624696+00:00"
+    },
+    "permissions": {
+      "usageType": "openSource",
+      "licenses": [
+        {
+          "name": "Apache License 2.0"
+        }
+      ]
+    },
+    "repo_id": 6942855,
+    "private_id": "github_6942855",
+    "_url": "https://github.com/informaticslab/toxguide"
   },
   {
     "name": "mmwr-nav",
@@ -454,7 +489,7 @@
     "date": {
       "created": "2012-11-30T18:00:43+00:00",
       "lastModified": "2014-10-15T18:30:43+00:00",
-      "metadataLastUpdated": "2025-07-15T23:52:32.839787+00:00"
+      "metadataLastUpdated": "2025-07-17T20:36:42.690355+00:00"
     },
     "permissions": {
       "usageType": "openSource",
@@ -467,41 +502,6 @@
     "repo_id": 6943309,
     "private_id": "github_6943309",
     "_url": "https://github.com/informaticslab/mmwr-nav"
-  },
-  {
-    "name": "toxguide",
-    "organization": "CDC",
-    "description": "Toxic Substance Quick Reference Guides for the iPhone Prototype",
-    "version": "N/A",
-    "laborHours": 0,
-    "status": "archived",
-    "vcs": "git",
-    "homepageURL": "",
-    "repositoryURL": "https://github.com/informaticslab/toxguide",
-    "repositoryVisibility": "public",
-    "languages": [
-      "Objective-C"
-    ],
-    "tags": [],
-    "contact": {
-      "email": "cdcinfo@cdc.gov"
-    },
-    "date": {
-      "created": "2012-11-30T17:27:56+00:00",
-      "lastModified": "2013-08-14T13:06:31+00:00",
-      "metadataLastUpdated": "2025-07-15T23:52:32.879917+00:00"
-    },
-    "permissions": {
-      "usageType": "openSource",
-      "licenses": [
-        {
-          "name": "Apache License 2.0"
-        }
-      ]
-    },
-    "repo_id": 6942855,
-    "private_id": "github_6942855",
-    "_url": "https://github.com/informaticslab/toxguide"
   },
   {
     "name": "phix",
@@ -522,7 +522,7 @@
     "date": {
       "created": "2012-11-30T17:37:52+00:00",
       "lastModified": "2012-11-30T18:09:03+00:00",
-      "metadataLastUpdated": "2025-07-15T23:52:32.918491+00:00"
+      "metadataLastUpdated": "2025-07-17T20:36:42.772414+00:00"
     },
     "permissions": {
       "usageType": "openSource",
@@ -535,41 +535,6 @@
     "repo_id": 6943004,
     "private_id": "github_6943004",
     "_url": "https://github.com/informaticslab/phix"
-  },
-  {
-    "name": "mmwr-map",
-    "organization": "CDC",
-    "description": "MMWR Map Navigator Prototype",
-    "version": "N/A",
-    "laborHours": 0,
-    "status": "archived",
-    "vcs": "git",
-    "homepageURL": "",
-    "repositoryURL": "https://github.com/informaticslab/mmwr-map",
-    "repositoryVisibility": "public",
-    "languages": [
-      "Objective-C"
-    ],
-    "tags": [],
-    "contact": {
-      "email": "cdcinfo@cdc.gov"
-    },
-    "date": {
-      "created": "2012-11-30T18:14:34+00:00",
-      "lastModified": "2014-10-15T12:35:31+00:00",
-      "metadataLastUpdated": "2025-07-15T23:52:35.301237+00:00"
-    },
-    "permissions": {
-      "usageType": "openSource",
-      "licenses": [
-        {
-          "name": "Apache License 2.0"
-        }
-      ]
-    },
-    "repo_id": 6943480,
-    "private_id": "github_6943480",
-    "_url": "https://github.com/informaticslab/mmwr-map"
   },
   {
     "name": "respguide",
@@ -593,7 +558,7 @@
     "date": {
       "created": "2012-11-30T18:27:23+00:00",
       "lastModified": "2013-08-14T12:43:25+00:00",
-      "metadataLastUpdated": "2025-07-15T23:52:35.482868+00:00"
+      "metadataLastUpdated": "2025-07-17T20:36:45.124125+00:00"
     },
     "permissions": {
       "usageType": "openSource",
@@ -606,6 +571,41 @@
     "repo_id": 6943667,
     "private_id": "github_6943667",
     "_url": "https://github.com/informaticslab/respguide"
+  },
+  {
+    "name": "mmwr-map",
+    "organization": "CDC",
+    "description": "MMWR Map Navigator Prototype",
+    "version": "N/A",
+    "laborHours": 0,
+    "status": "archived",
+    "vcs": "git",
+    "homepageURL": "",
+    "repositoryURL": "https://github.com/informaticslab/mmwr-map",
+    "repositoryVisibility": "public",
+    "languages": [
+      "Objective-C"
+    ],
+    "tags": [],
+    "contact": {
+      "email": "cdcinfo@cdc.gov"
+    },
+    "date": {
+      "created": "2012-11-30T18:14:34+00:00",
+      "lastModified": "2014-10-15T12:35:31+00:00",
+      "metadataLastUpdated": "2025-07-17T20:36:45.202532+00:00"
+    },
+    "permissions": {
+      "usageType": "openSource",
+      "licenses": [
+        {
+          "name": "Apache License 2.0"
+        }
+      ]
+    },
+    "repo_id": 6943480,
+    "private_id": "github_6943480",
+    "_url": "https://github.com/informaticslab/mmwr-map"
   },
   {
     "name": "std1",
@@ -628,7 +628,7 @@
     "date": {
       "created": "2012-11-30T18:37:54+00:00",
       "lastModified": "2013-08-23T21:53:30+00:00",
-      "metadataLastUpdated": "2025-07-15T23:52:35.493643+00:00"
+      "metadataLastUpdated": "2025-07-17T20:36:45.291987+00:00"
     },
     "permissions": {
       "usageType": "governmentWideReuse",
@@ -660,7 +660,7 @@
     "date": {
       "created": "2012-11-30T18:44:05+00:00",
       "lastModified": "2013-08-23T21:56:14+00:00",
-      "metadataLastUpdated": "2025-07-15T23:52:35.540258+00:00"
+      "metadataLastUpdated": "2025-07-17T20:36:45.328786+00:00"
     },
     "permissions": {
       "usageType": "openSource",
@@ -699,7 +699,7 @@
     "date": {
       "created": "2012-11-30T18:48:12+00:00",
       "lastModified": "2012-11-30T18:59:31+00:00",
-      "metadataLastUpdated": "2025-07-15T23:52:37.897456+00:00"
+      "metadataLastUpdated": "2025-07-17T20:36:47.681840+00:00"
     },
     "permissions": {
       "usageType": "governmentWideReuse",
@@ -731,7 +731,7 @@
     "date": {
       "created": "2012-12-07T00:59:52+00:00",
       "lastModified": "2014-03-31T21:41:48+00:00",
-      "metadataLastUpdated": "2025-07-15T23:52:38.016138+00:00"
+      "metadataLastUpdated": "2025-07-17T20:36:47.741799+00:00"
     },
     "permissions": {
       "usageType": "governmentWideReuse",
@@ -763,7 +763,7 @@
     "date": {
       "created": "2013-03-21T13:47:43+00:00",
       "lastModified": "2014-04-15T20:30:09+00:00",
-      "metadataLastUpdated": "2025-07-15T23:52:38.103551+00:00"
+      "metadataLastUpdated": "2025-07-17T20:36:47.792501+00:00"
     },
     "permissions": {
       "usageType": "governmentWideReuse",
@@ -794,7 +794,7 @@
     "date": {
       "created": "2013-07-03T14:27:21+00:00",
       "lastModified": "2014-05-02T15:22:51+00:00",
-      "metadataLastUpdated": "2025-07-15T23:52:38.105185+00:00"
+      "metadataLastUpdated": "2025-07-17T20:36:47.927737+00:00"
     },
     "permissions": {
       "usageType": "governmentWideReuse",
@@ -825,7 +825,7 @@
     "date": {
       "created": "2013-08-28T20:17:24+00:00",
       "lastModified": "2014-10-15T11:56:45+00:00",
-      "metadataLastUpdated": "2025-07-15T23:52:40.587508+00:00"
+      "metadataLastUpdated": "2025-07-17T20:36:50.263446+00:00"
     },
     "permissions": {
       "usageType": "governmentWideReuse",
@@ -834,6 +834,47 @@
     "repo_id": 12443639,
     "private_id": "github_12443639",
     "_url": "https://github.com/informaticslab/bluebird"
+  },
+  {
+    "name": "lydia-jqm",
+    "organization": "CDC",
+    "description": "Second generation STD mobile app using jQuery Mobile",
+    "version": "N/A",
+    "laborHours": 0,
+    "status": "archived",
+    "vcs": "git",
+    "homepageURL": "",
+    "repositoryURL": "https://github.com/informaticslab/lydia-jqm",
+    "repositoryVisibility": "public",
+    "languages": [
+      "JavaScript",
+      "Java",
+      "CSS",
+      "Objective-C",
+      "Python",
+      "D",
+      "Shell",
+      "C++",
+      "C#",
+      "AppleScript",
+      "C"
+    ],
+    "tags": [],
+    "contact": {
+      "email": "cdcinfo@cdc.gov"
+    },
+    "date": {
+      "created": "2014-06-30T14:18:42+00:00",
+      "lastModified": "2014-06-30T14:40:06+00:00",
+      "metadataLastUpdated": "2025-07-17T20:36:50.287779+00:00"
+    },
+    "permissions": {
+      "usageType": "governmentWideReuse",
+      "licenses": []
+    },
+    "repo_id": 21353662,
+    "private_id": "github_21353662",
+    "_url": "https://github.com/informaticslab/lydia-jqm"
   },
   {
     "name": "photon",
@@ -857,7 +898,7 @@
     "date": {
       "created": "2013-11-01T14:24:46+00:00",
       "lastModified": "2017-12-29T14:09:49+00:00",
-      "metadataLastUpdated": "2025-07-15T23:52:40.613367+00:00"
+      "metadataLastUpdated": "2025-07-17T20:36:50.335668+00:00"
     },
     "permissions": {
       "usageType": "governmentWideReuse",
@@ -891,7 +932,7 @@
     "date": {
       "created": "2014-06-30T15:07:44+00:00",
       "lastModified": "2019-07-26T16:53:53+00:00",
-      "metadataLastUpdated": "2025-07-15T23:52:40.687448+00:00"
+      "metadataLastUpdated": "2025-07-17T20:36:50.488579+00:00"
     },
     "permissions": {
       "usageType": "governmentWideReuse",
@@ -900,47 +941,6 @@
     "repo_id": 21355363,
     "private_id": "github_21355363",
     "_url": "https://github.com/informaticslab/lydia-droid"
-  },
-  {
-    "name": "lydia-jqm",
-    "organization": "CDC",
-    "description": "Second generation STD mobile app using jQuery Mobile",
-    "version": "N/A",
-    "laborHours": 0,
-    "status": "archived",
-    "vcs": "git",
-    "homepageURL": "",
-    "repositoryURL": "https://github.com/informaticslab/lydia-jqm",
-    "repositoryVisibility": "public",
-    "languages": [
-      "JavaScript",
-      "Java",
-      "CSS",
-      "Objective-C",
-      "Python",
-      "D",
-      "Shell",
-      "C++",
-      "C#",
-      "AppleScript",
-      "C"
-    ],
-    "tags": [],
-    "contact": {
-      "email": "cdcinfo@cdc.gov"
-    },
-    "date": {
-      "created": "2014-06-30T14:18:42+00:00",
-      "lastModified": "2014-06-30T14:40:06+00:00",
-      "metadataLastUpdated": "2025-07-15T23:52:40.699695+00:00"
-    },
-    "permissions": {
-      "usageType": "governmentWideReuse",
-      "licenses": []
-    },
-    "repo_id": 21353662,
-    "private_id": "github_21353662",
-    "_url": "https://github.com/informaticslab/lydia-jqm"
   },
   {
     "name": "lydia-py",
@@ -963,7 +963,7 @@
     "date": {
       "created": "2014-07-14T14:01:29+00:00",
       "lastModified": "2017-10-19T21:07:53+00:00",
-      "metadataLastUpdated": "2025-07-15T23:52:43.203900+00:00"
+      "metadataLastUpdated": "2025-07-17T20:36:52.832602+00:00"
     },
     "permissions": {
       "usageType": "governmentWideReuse",
@@ -995,7 +995,7 @@
     "date": {
       "created": "2014-08-27T11:11:44+00:00",
       "lastModified": "2014-08-27T11:20:59+00:00",
-      "metadataLastUpdated": "2025-07-15T23:52:43.207712+00:00"
+      "metadataLastUpdated": "2025-07-17T20:36:52.894064+00:00"
     },
     "permissions": {
       "usageType": "governmentWideReuse",
@@ -1030,7 +1030,7 @@
     "date": {
       "created": "2014-08-07T18:52:52+00:00",
       "lastModified": "2017-12-29T14:10:55+00:00",
-      "metadataLastUpdated": "2025-07-15T23:52:43.227952+00:00"
+      "metadataLastUpdated": "2025-07-17T20:36:52.909366+00:00"
     },
     "permissions": {
       "usageType": "governmentWideReuse",
@@ -1062,7 +1062,7 @@
     "date": {
       "created": "2014-08-28T14:11:35+00:00",
       "lastModified": "2018-12-10T14:56:55+00:00",
-      "metadataLastUpdated": "2025-07-15T23:52:43.366725+00:00"
+      "metadataLastUpdated": "2025-07-17T20:36:53.090299+00:00"
     },
     "permissions": {
       "usageType": "governmentWideReuse",
@@ -1071,6 +1071,38 @@
     "repo_id": 23430336,
     "private_id": "github_23430336",
     "_url": "https://github.com/informaticslab/photon-droid"
+  },
+  {
+    "name": "ebolocatemp-ios",
+    "organization": "CDC",
+    "description": "",
+    "version": "N/A",
+    "laborHours": 0,
+    "status": "archived",
+    "vcs": "git",
+    "homepageURL": "",
+    "repositoryURL": "https://github.com/informaticslab/ebolocatemp-ios",
+    "repositoryVisibility": "public",
+    "languages": [
+      "Objective-C",
+      "C"
+    ],
+    "tags": [],
+    "contact": {
+      "email": "cdcinfo@cdc.gov"
+    },
+    "date": {
+      "created": "2014-10-08T15:36:36+00:00",
+      "lastModified": "2014-10-10T14:59:13+00:00",
+      "metadataLastUpdated": "2025-07-17T20:36:55.409867+00:00"
+    },
+    "permissions": {
+      "usageType": "governmentWideReuse",
+      "licenses": []
+    },
+    "repo_id": 24947470,
+    "private_id": "github_24947470",
+    "_url": "https://github.com/informaticslab/ebolocatemp-ios"
   },
   {
     "name": "cardboard",
@@ -1096,7 +1128,7 @@
     "date": {
       "created": "2014-10-22T18:55:48+00:00",
       "lastModified": "2016-05-16T19:02:19+00:00",
-      "metadataLastUpdated": "2025-07-15T23:52:45.819030+00:00"
+      "metadataLastUpdated": "2025-07-17T20:36:55.509824+00:00"
     },
     "permissions": {
       "usageType": "openSource",
@@ -1133,7 +1165,7 @@
     "date": {
       "created": "2014-10-22T19:25:32+00:00",
       "lastModified": "2014-11-12T16:47:21+00:00",
-      "metadataLastUpdated": "2025-07-15T23:52:45.826081+00:00"
+      "metadataLastUpdated": "2025-07-17T20:36:55.573979+00:00"
     },
     "permissions": {
       "usageType": "openSource",
@@ -1168,7 +1200,7 @@
     "date": {
       "created": "2014-11-29T14:37:39+00:00",
       "lastModified": "2016-02-01T18:23:50+00:00",
-      "metadataLastUpdated": "2025-07-15T23:52:45.922718+00:00"
+      "metadataLastUpdated": "2025-07-17T20:36:55.651866+00:00"
     },
     "permissions": {
       "usageType": "governmentWideReuse",
@@ -1177,69 +1209,6 @@
     "repo_id": 27304714,
     "private_id": "github_27304714",
     "_url": "https://github.com/informaticslab/sitemon"
-  },
-  {
-    "name": "ebolocatemp-ios",
-    "organization": "CDC",
-    "description": "",
-    "version": "N/A",
-    "laborHours": 0,
-    "status": "archived",
-    "vcs": "git",
-    "homepageURL": "",
-    "repositoryURL": "https://github.com/informaticslab/ebolocatemp-ios",
-    "repositoryVisibility": "public",
-    "languages": [
-      "Objective-C",
-      "C"
-    ],
-    "tags": [],
-    "contact": {
-      "email": "cdcinfo@cdc.gov"
-    },
-    "date": {
-      "created": "2014-10-08T15:36:36+00:00",
-      "lastModified": "2014-10-10T14:59:13+00:00",
-      "metadataLastUpdated": "2025-07-15T23:52:45.929401+00:00"
-    },
-    "permissions": {
-      "usageType": "governmentWideReuse",
-      "licenses": []
-    },
-    "repo_id": 24947470,
-    "private_id": "github_24947470",
-    "_url": "https://github.com/informaticslab/ebolocatemp-ios"
-  },
-  {
-    "name": "umlsoapjava",
-    "organization": "CDC",
-    "description": "Library for connecting to UMLS metathesaurus in Java",
-    "version": "N/A",
-    "laborHours": 0,
-    "status": "archived",
-    "vcs": "git",
-    "homepageURL": "",
-    "repositoryURL": "https://github.com/informaticslab/umlsoapjava",
-    "repositoryVisibility": "public",
-    "languages": [
-      "Java"
-    ],
-    "tags": [],
-    "contact": {
-      "email": "cdcinfo@cdc.gov"
-    },
-    "date": {
-      "created": "2014-12-04T17:30:18+00:00",
-      "lastModified": "2014-12-05T14:16:44+00:00",
-      "metadataLastUpdated": "2025-07-15T23:52:48.416852+00:00"
-    },
-    "permissions": {
-      "usageType": "governmentWideReuse",
-      "licenses": []
-    },
-    "repo_id": 27551723,
-    "private_id": "github_27551723",
-    "_url": "https://github.com/informaticslab/umlsoapjava"
   },
   {
     "name": "umlsoapnode",
@@ -1262,7 +1231,7 @@
     "date": {
       "created": "2014-12-03T18:43:45+00:00",
       "lastModified": "2014-12-03T19:28:08+00:00",
-      "metadataLastUpdated": "2025-07-15T23:52:48.434916+00:00"
+      "metadataLastUpdated": "2025-07-17T20:36:57.900865+00:00"
     },
     "permissions": {
       "usageType": "governmentWideReuse",
@@ -1273,37 +1242,35 @@
     "_url": "https://github.com/informaticslab/umlsoapnode"
   },
   {
-    "name": "wp-applab",
+    "name": "umlsoapjava",
     "organization": "CDC",
-    "description": "WordPress version of App Lab",
+    "description": "Library for connecting to UMLS metathesaurus in Java",
     "version": "N/A",
     "laborHours": 0,
     "status": "archived",
     "vcs": "git",
     "homepageURL": "",
-    "repositoryURL": "https://github.com/informaticslab/wp-applab",
+    "repositoryURL": "https://github.com/informaticslab/umlsoapjava",
     "repositoryVisibility": "public",
     "languages": [
-      "PHP",
-      "CSS",
-      "Shell"
+      "Java"
     ],
     "tags": [],
     "contact": {
       "email": "cdcinfo@cdc.gov"
     },
     "date": {
-      "created": "2015-01-23T17:56:32+00:00",
-      "lastModified": "2016-01-11T22:38:39+00:00",
-      "metadataLastUpdated": "2025-07-15T23:52:48.545838+00:00"
+      "created": "2014-12-04T17:30:18+00:00",
+      "lastModified": "2014-12-05T14:16:44+00:00",
+      "metadataLastUpdated": "2025-07-17T20:36:58.108559+00:00"
     },
     "permissions": {
       "usageType": "governmentWideReuse",
       "licenses": []
     },
-    "repo_id": 29745261,
-    "private_id": "github_29745261",
-    "_url": "https://github.com/informaticslab/wp-applab"
+    "repo_id": 27551723,
+    "private_id": "github_27551723",
+    "_url": "https://github.com/informaticslab/umlsoapjava"
   },
   {
     "name": "applab",
@@ -1328,7 +1295,7 @@
     "date": {
       "created": "2014-12-16T13:55:53+00:00",
       "lastModified": "2014-12-17T12:21:48+00:00",
-      "metadataLastUpdated": "2025-07-15T23:52:48.582717+00:00"
+      "metadataLastUpdated": "2025-07-17T20:36:58.134040+00:00"
     },
     "permissions": {
       "usageType": "governmentWideReuse",
@@ -1337,6 +1304,39 @@
     "repo_id": 28089221,
     "private_id": "github_28089221",
     "_url": "https://github.com/informaticslab/applab"
+  },
+  {
+    "name": "wp-applab",
+    "organization": "CDC",
+    "description": "WordPress version of App Lab",
+    "version": "N/A",
+    "laborHours": 0,
+    "status": "archived",
+    "vcs": "git",
+    "homepageURL": "",
+    "repositoryURL": "https://github.com/informaticslab/wp-applab",
+    "repositoryVisibility": "public",
+    "languages": [
+      "PHP",
+      "CSS",
+      "Shell"
+    ],
+    "tags": [],
+    "contact": {
+      "email": "cdcinfo@cdc.gov"
+    },
+    "date": {
+      "created": "2015-01-23T17:56:32+00:00",
+      "lastModified": "2016-01-11T22:38:39+00:00",
+      "metadataLastUpdated": "2025-07-17T20:36:58.216364+00:00"
+    },
+    "permissions": {
+      "usageType": "governmentWideReuse",
+      "licenses": []
+    },
+    "repo_id": 29745261,
+    "private_id": "github_29745261",
+    "_url": "https://github.com/informaticslab/wp-applab"
   },
   {
     "name": "lifeguard",
@@ -1361,7 +1361,7 @@
     "date": {
       "created": "2015-04-06T12:54:20+00:00",
       "lastModified": "2017-10-05T11:02:25+00:00",
-      "metadataLastUpdated": "2025-07-15T23:52:51.051039+00:00"
+      "metadataLastUpdated": "2025-07-17T20:37:00.492638+00:00"
     },
     "permissions": {
       "usageType": "governmentWideReuse",
@@ -1370,6 +1370,41 @@
     "repo_id": 33481843,
     "private_id": "github_33481843",
     "_url": "https://github.com/informaticslab/lifeguard"
+  },
+  {
+    "name": "deathreport-android",
+    "organization": "CDC",
+    "description": "Death reporting reference app for Android",
+    "version": "N/A",
+    "laborHours": 0,
+    "status": "archived",
+    "vcs": "git",
+    "homepageURL": "",
+    "repositoryURL": "https://github.com/informaticslab/deathreport-android",
+    "repositoryVisibility": "public",
+    "languages": [
+      "Java"
+    ],
+    "tags": [],
+    "contact": {
+      "email": "cdcinfo@cdc.gov"
+    },
+    "date": {
+      "created": "2015-04-14T19:50:22+00:00",
+      "lastModified": "2015-04-16T23:57:41+00:00",
+      "metadataLastUpdated": "2025-07-17T20:37:00.675372+00:00"
+    },
+    "permissions": {
+      "usageType": "openSource",
+      "licenses": [
+        {
+          "name": "Apache License 2.0"
+        }
+      ]
+    },
+    "repo_id": 33953454,
+    "private_id": "github_33953454",
+    "_url": "https://github.com/informaticslab/deathreport-android"
   },
   {
     "name": "commSphere-yo",
@@ -1395,7 +1430,7 @@
     "date": {
       "created": "2015-04-08T18:41:42+00:00",
       "lastModified": "2015-04-13T16:24:10+00:00",
-      "metadataLastUpdated": "2025-07-15T23:52:51.055917+00:00"
+      "metadataLastUpdated": "2025-07-17T20:37:00.691185+00:00"
     },
     "permissions": {
       "usageType": "openSource",
@@ -1408,41 +1443,6 @@
     "repo_id": 33625272,
     "private_id": "github_33625272",
     "_url": "https://github.com/informaticslab/commSphere-yo"
-  },
-  {
-    "name": "deathreport-android",
-    "organization": "CDC",
-    "description": "Death reporting reference app for Android",
-    "version": "N/A",
-    "laborHours": 0,
-    "status": "archived",
-    "vcs": "git",
-    "homepageURL": "",
-    "repositoryURL": "https://github.com/informaticslab/deathreport-android",
-    "repositoryVisibility": "public",
-    "languages": [
-      "Java"
-    ],
-    "tags": [],
-    "contact": {
-      "email": "cdcinfo@cdc.gov"
-    },
-    "date": {
-      "created": "2015-04-14T19:50:22+00:00",
-      "lastModified": "2015-04-16T23:57:41+00:00",
-      "metadataLastUpdated": "2025-07-15T23:52:51.132539+00:00"
-    },
-    "permissions": {
-      "usageType": "openSource",
-      "licenses": [
-        {
-          "name": "Apache License 2.0"
-        }
-      ]
-    },
-    "repo_id": 33953454,
-    "private_id": "github_33953454",
-    "_url": "https://github.com/informaticslab/deathreport-android"
   },
   {
     "name": "commsphere",
@@ -1467,7 +1467,7 @@
     "date": {
       "created": "2015-04-15T15:00:39+00:00",
       "lastModified": "2016-10-17T14:41:50+00:00",
-      "metadataLastUpdated": "2025-07-15T23:52:51.204713+00:00"
+      "metadataLastUpdated": "2025-07-17T20:37:00.776776+00:00"
     },
     "permissions": {
       "usageType": "openSource",
@@ -1503,7 +1503,7 @@
     "date": {
       "created": "2015-07-09T20:14:43+00:00",
       "lastModified": "2015-07-17T19:03:09+00:00",
-      "metadataLastUpdated": "2025-07-15T23:52:53.646769+00:00"
+      "metadataLastUpdated": "2025-07-17T20:37:03.006260+00:00"
     },
     "permissions": {
       "usageType": "governmentWideReuse",
@@ -1536,7 +1536,7 @@
     "date": {
       "created": "2015-07-20T19:58:42+00:00",
       "lastModified": "2015-07-20T20:01:25+00:00",
-      "metadataLastUpdated": "2025-07-15T23:52:53.687826+00:00"
+      "metadataLastUpdated": "2025-07-17T20:37:03.264570+00:00"
     },
     "permissions": {
       "usageType": "openSource",
@@ -1549,6 +1549,38 @@
     "repo_id": 39405526,
     "private_id": "github_39405526",
     "_url": "https://github.com/informaticslab/iiu-mean-boilerplate"
+  },
+  {
+    "name": "umlsite",
+    "organization": "CDC",
+    "description": "An apache tomcat/maven for accessing the UMLS Metathesaurus.",
+    "version": "N/A",
+    "laborHours": 0,
+    "status": "archived",
+    "vcs": "git",
+    "homepageURL": "",
+    "repositoryURL": "https://github.com/informaticslab/umlsite",
+    "repositoryVisibility": "public",
+    "languages": [
+      "Java",
+      "CSS"
+    ],
+    "tags": [],
+    "contact": {
+      "email": "cdcinfo@cdc.gov"
+    },
+    "date": {
+      "created": "2015-08-10T21:45:57+00:00",
+      "lastModified": "2015-08-21T15:12:16+00:00",
+      "metadataLastUpdated": "2025-07-17T20:37:03.393593+00:00"
+    },
+    "permissions": {
+      "usageType": "governmentWideReuse",
+      "licenses": []
+    },
+    "repo_id": 40507746,
+    "private_id": "github_40507746",
+    "_url": "https://github.com/informaticslab/umlsite"
   },
   {
     "name": "mmwrcase",
@@ -1573,7 +1605,7 @@
     "date": {
       "created": "2015-08-05T18:26:19+00:00",
       "lastModified": "2017-10-03T18:32:00+00:00",
-      "metadataLastUpdated": "2025-07-15T23:52:53.745067+00:00"
+      "metadataLastUpdated": "2025-07-17T20:37:03.398100+00:00"
     },
     "permissions": {
       "usageType": "openSource",
@@ -1586,38 +1618,6 @@
     "repo_id": 40262092,
     "private_id": "github_40262092",
     "_url": "https://github.com/informaticslab/mmwrcase"
-  },
-  {
-    "name": "umlsite",
-    "organization": "CDC",
-    "description": "An apache tomcat/maven for accessing the UMLS Metathesaurus.",
-    "version": "N/A",
-    "laborHours": 0,
-    "status": "archived",
-    "vcs": "git",
-    "homepageURL": "",
-    "repositoryURL": "https://github.com/informaticslab/umlsite",
-    "repositoryVisibility": "public",
-    "languages": [
-      "Java",
-      "CSS"
-    ],
-    "tags": [],
-    "contact": {
-      "email": "cdcinfo@cdc.gov"
-    },
-    "date": {
-      "created": "2015-08-10T21:45:57+00:00",
-      "lastModified": "2015-08-21T15:12:16+00:00",
-      "metadataLastUpdated": "2025-07-15T23:52:53.904833+00:00"
-    },
-    "permissions": {
-      "usageType": "governmentWideReuse",
-      "licenses": []
-    },
-    "repo_id": 40507746,
-    "private_id": "github_40507746",
-    "_url": "https://github.com/informaticslab/umlsite"
   },
   {
     "name": "anubis",
@@ -1641,7 +1641,7 @@
     "date": {
       "created": "2015-08-31T18:29:35+00:00",
       "lastModified": "2016-10-31T20:17:11+00:00",
-      "metadataLastUpdated": "2025-07-15T23:52:56.229989+00:00"
+      "metadataLastUpdated": "2025-07-17T20:37:05.609564+00:00"
     },
     "permissions": {
       "usageType": "governmentWideReuse",
@@ -1674,7 +1674,7 @@
     "date": {
       "created": "2015-09-21T18:25:23+00:00",
       "lastModified": "2017-06-13T15:59:38+00:00",
-      "metadataLastUpdated": "2025-07-15T23:52:56.252677+00:00"
+      "metadataLastUpdated": "2025-07-17T20:37:05.800024+00:00"
     },
     "permissions": {
       "usageType": "openSource",
@@ -1709,7 +1709,7 @@
     "date": {
       "created": "2015-10-15T15:51:37+00:00",
       "lastModified": "2017-01-31T19:48:46+00:00",
-      "metadataLastUpdated": "2025-07-15T23:52:56.317362+00:00"
+      "metadataLastUpdated": "2025-07-17T20:37:05.962753+00:00"
     },
     "permissions": {
       "usageType": "openSource",
@@ -1746,7 +1746,7 @@
     "date": {
       "created": "2016-01-21T15:44:52+00:00",
       "lastModified": "2016-01-21T20:21:45+00:00",
-      "metadataLastUpdated": "2025-07-15T23:52:56.481862+00:00"
+      "metadataLastUpdated": "2025-07-17T20:37:06.051988+00:00"
     },
     "permissions": {
       "usageType": "governmentWideReuse",
@@ -1777,7 +1777,7 @@
     "date": {
       "created": "2016-01-21T17:30:37+00:00",
       "lastModified": "2016-01-21T17:38:48+00:00",
-      "metadataLastUpdated": "2025-07-15T23:52:58.823067+00:00"
+      "metadataLastUpdated": "2025-07-17T20:37:08.155751+00:00"
     },
     "permissions": {
       "usageType": "governmentWideReuse",
@@ -1810,7 +1810,7 @@
     "date": {
       "created": "2016-01-27T21:39:36+00:00",
       "lastModified": "2016-01-28T17:04:57+00:00",
-      "metadataLastUpdated": "2025-07-15T23:52:58.843378+00:00"
+      "metadataLastUpdated": "2025-07-17T20:37:08.402437+00:00"
     },
     "permissions": {
       "usageType": "governmentWideReuse",
@@ -1844,7 +1844,7 @@
     "date": {
       "created": "2016-02-22T20:43:13+00:00",
       "lastModified": "2016-02-23T15:33:29+00:00",
-      "metadataLastUpdated": "2025-07-15T23:52:58.907689+00:00"
+      "metadataLastUpdated": "2025-07-17T20:37:08.515496+00:00"
     },
     "permissions": {
       "usageType": "governmentWideReuse",
@@ -1878,7 +1878,7 @@
     "date": {
       "created": "2016-03-25T14:56:18+00:00",
       "lastModified": "2016-10-17T17:43:33+00:00",
-      "metadataLastUpdated": "2025-07-15T23:52:59.076182+00:00"
+      "metadataLastUpdated": "2025-07-17T20:37:08.747604+00:00"
     },
     "permissions": {
       "usageType": "openSource",
@@ -1914,7 +1914,7 @@
     "date": {
       "created": "2016-04-14T12:11:13+00:00",
       "lastModified": "2016-05-19T20:31:58+00:00",
-      "metadataLastUpdated": "2025-07-15T23:53:01.475053+00:00"
+      "metadataLastUpdated": "2025-07-17T20:37:10.835657+00:00"
     },
     "permissions": {
       "usageType": "governmentWideReuse",
@@ -1945,7 +1945,7 @@
     "date": {
       "created": "2016-04-21T15:14:54+00:00",
       "lastModified": "2016-04-22T19:30:39+00:00",
-      "metadataLastUpdated": "2025-07-15T23:53:01.481236+00:00"
+      "metadataLastUpdated": "2025-07-17T20:37:11.018725+00:00"
     },
     "permissions": {
       "usageType": "openSource",
@@ -1980,7 +1980,7 @@
     "date": {
       "created": "2016-05-04T19:14:58+00:00",
       "lastModified": "2016-05-11T13:00:54+00:00",
-      "metadataLastUpdated": "2025-07-15T23:53:01.504244+00:00"
+      "metadataLastUpdated": "2025-07-17T20:37:11.051015+00:00"
     },
     "permissions": {
       "usageType": "governmentWideReuse",
@@ -2011,7 +2011,7 @@
     "date": {
       "created": "2016-05-06T19:02:27+00:00",
       "lastModified": "2016-05-09T19:07:29+00:00",
-      "metadataLastUpdated": "2025-07-15T23:53:01.609495+00:00"
+      "metadataLastUpdated": "2025-07-17T20:37:11.434631+00:00"
     },
     "permissions": {
       "usageType": "openSource",
@@ -2026,35 +2026,33 @@
     "_url": "https://github.com/informaticslab/ServiceDeskJiraDashboardPlugin"
   },
   {
-    "name": "iiu-carekit",
+    "name": "MCMS",
     "organization": "CDC",
-    "description": "Example project for using Apple's CareKit",
+    "description": "The IIU mobile content management system",
     "version": "N/A",
     "laborHours": 0,
     "status": "archived",
     "vcs": "git",
     "homepageURL": "",
-    "repositoryURL": "https://github.com/informaticslab/iiu-carekit",
+    "repositoryURL": "https://github.com/informaticslab/MCMS",
     "repositoryVisibility": "public",
-    "languages": [
-      "Swift"
-    ],
+    "languages": [],
     "tags": [],
     "contact": {
       "email": "cdcinfo@cdc.gov"
     },
     "date": {
-      "created": "2016-06-03T13:01:49+00:00",
-      "lastModified": "2016-06-03T13:04:06+00:00",
-      "metadataLastUpdated": "2025-07-15T23:53:04.033198+00:00"
+      "created": "2016-05-11T15:42:38+00:00",
+      "lastModified": "2016-05-27T17:04:27+00:00",
+      "metadataLastUpdated": "2025-07-17T20:37:13.447592+00:00"
     },
     "permissions": {
       "usageType": "governmentWideReuse",
       "licenses": []
     },
-    "repo_id": 60348004,
-    "private_id": "github_60348004",
-    "_url": "https://github.com/informaticslab/iiu-carekit"
+    "repo_id": 58558313,
+    "private_id": "github_58558313",
+    "_url": "https://github.com/informaticslab/MCMS"
   },
   {
     "name": "zika-risk-assessment",
@@ -2079,7 +2077,7 @@
     "date": {
       "created": "2016-06-13T15:03:19+00:00",
       "lastModified": "2018-02-06T21:35:16+00:00",
-      "metadataLastUpdated": "2025-07-15T23:53:04.065577+00:00"
+      "metadataLastUpdated": "2025-07-17T20:37:13.588472+00:00"
     },
     "permissions": {
       "usageType": "governmentWideReuse",
@@ -2090,33 +2088,35 @@
     "_url": "https://github.com/informaticslab/zika-risk-assessment"
   },
   {
-    "name": "MCMS",
+    "name": "iiu-carekit",
     "organization": "CDC",
-    "description": "The IIU mobile content management system",
+    "description": "Example project for using Apple's CareKit",
     "version": "N/A",
     "laborHours": 0,
     "status": "archived",
     "vcs": "git",
     "homepageURL": "",
-    "repositoryURL": "https://github.com/informaticslab/MCMS",
+    "repositoryURL": "https://github.com/informaticslab/iiu-carekit",
     "repositoryVisibility": "public",
-    "languages": [],
+    "languages": [
+      "Swift"
+    ],
     "tags": [],
     "contact": {
       "email": "cdcinfo@cdc.gov"
     },
     "date": {
-      "created": "2016-05-11T15:42:38+00:00",
-      "lastModified": "2016-05-27T17:04:27+00:00",
-      "metadataLastUpdated": "2025-07-15T23:53:04.176949+00:00"
+      "created": "2016-06-03T13:01:49+00:00",
+      "lastModified": "2016-06-03T13:04:06+00:00",
+      "metadataLastUpdated": "2025-07-17T20:37:13.634562+00:00"
     },
     "permissions": {
       "usageType": "governmentWideReuse",
       "licenses": []
     },
-    "repo_id": 58558313,
-    "private_id": "github_58558313",
-    "_url": "https://github.com/informaticslab/MCMS"
+    "repo_id": 60348004,
+    "private_id": "github_60348004",
+    "_url": "https://github.com/informaticslab/iiu-carekit"
   },
   {
     "name": "yoda",
@@ -2141,7 +2141,7 @@
     "date": {
       "created": "2016-07-04T19:19:59+00:00",
       "lastModified": "2017-10-03T19:32:07+00:00",
-      "metadataLastUpdated": "2025-07-15T23:53:04.324366+00:00"
+      "metadataLastUpdated": "2025-07-17T20:37:14.026322+00:00"
     },
     "permissions": {
       "usageType": "governmentWideReuse",
@@ -2150,37 +2150,6 @@
     "repo_id": 62583431,
     "private_id": "github_62583431",
     "_url": "https://github.com/informaticslab/yoda"
-  },
-  {
-    "name": "STDX",
-    "organization": "CDC",
-    "description": "STD app built with Xamarin",
-    "version": "N/A",
-    "laborHours": 0,
-    "status": "archived",
-    "vcs": "git",
-    "homepageURL": "",
-    "repositoryURL": "https://github.com/informaticslab/STDX",
-    "repositoryVisibility": "public",
-    "languages": [
-      "C#"
-    ],
-    "tags": [],
-    "contact": {
-      "email": "cdcinfo@cdc.gov"
-    },
-    "date": {
-      "created": "2016-09-16T12:00:56+00:00",
-      "lastModified": "2016-09-16T12:01:29+00:00",
-      "metadataLastUpdated": "2025-07-15T23:53:06.578244+00:00"
-    },
-    "permissions": {
-      "usageType": "governmentWideReuse",
-      "licenses": []
-    },
-    "repo_id": 68376216,
-    "private_id": "github_68376216",
-    "_url": "https://github.com/informaticslab/STDX"
   },
   {
     "name": "zika-pregnancy-testing",
@@ -2205,7 +2174,7 @@
     "date": {
       "created": "2016-08-24T18:30:13+00:00",
       "lastModified": "2017-11-17T15:40:38+00:00",
-      "metadataLastUpdated": "2025-07-15T23:53:06.606412+00:00"
+      "metadataLastUpdated": "2025-07-17T20:37:16.100798+00:00"
     },
     "permissions": {
       "usageType": "governmentWideReuse",
@@ -2214,6 +2183,37 @@
     "repo_id": 66489463,
     "private_id": "github_66489463",
     "_url": "https://github.com/informaticslab/zika-pregnancy-testing"
+  },
+  {
+    "name": "STDX",
+    "organization": "CDC",
+    "description": "STD app built with Xamarin",
+    "version": "N/A",
+    "laborHours": 0,
+    "status": "archived",
+    "vcs": "git",
+    "homepageURL": "",
+    "repositoryURL": "https://github.com/informaticslab/STDX",
+    "repositoryVisibility": "public",
+    "languages": [
+      "C#"
+    ],
+    "tags": [],
+    "contact": {
+      "email": "cdcinfo@cdc.gov"
+    },
+    "date": {
+      "created": "2016-09-16T12:00:56+00:00",
+      "lastModified": "2016-09-16T12:01:29+00:00",
+      "metadataLastUpdated": "2025-07-17T20:37:16.173649+00:00"
+    },
+    "permissions": {
+      "usageType": "governmentWideReuse",
+      "licenses": []
+    },
+    "repo_id": 68376216,
+    "private_id": "github_68376216",
+    "_url": "https://github.com/informaticslab/STDX"
   },
   {
     "name": "labmonitor",
@@ -2236,7 +2236,7 @@
     "date": {
       "created": "2016-11-01T02:43:02+00:00",
       "lastModified": "2016-11-02T14:09:25+00:00",
-      "metadataLastUpdated": "2025-07-15T23:53:06.740705+00:00"
+      "metadataLastUpdated": "2025-07-17T20:37:16.254537+00:00"
     },
     "permissions": {
       "usageType": "openSource",
@@ -2273,7 +2273,7 @@
     "date": {
       "created": "2016-11-07T17:12:56+00:00",
       "lastModified": "2016-11-14T21:39:55+00:00",
-      "metadataLastUpdated": "2025-07-15T23:53:06.973219+00:00"
+      "metadataLastUpdated": "2025-07-17T20:37:16.628275+00:00"
     },
     "permissions": {
       "usageType": "governmentWideReuse",
@@ -2282,39 +2282,6 @@
     "repo_id": 73102336,
     "private_id": "github_73102336",
     "_url": "https://github.com/informaticslab/Anubis2"
-  },
-  {
-    "name": "lifeguard-flask",
-    "organization": "CDC",
-    "description": "A Lifeguard backend test server built with Python and Flask",
-    "version": "N/A",
-    "laborHours": 0,
-    "status": "archived",
-    "vcs": "git",
-    "homepageURL": "",
-    "repositoryURL": "https://github.com/informaticslab/lifeguard-flask",
-    "repositoryVisibility": "public",
-    "languages": [
-      "HTML",
-      "Python",
-      "CSS"
-    ],
-    "tags": [],
-    "contact": {
-      "email": "cdcinfo@cdc.gov"
-    },
-    "date": {
-      "created": "2016-11-28T15:58:36+00:00",
-      "lastModified": "2018-10-07T21:56:54+00:00",
-      "metadataLastUpdated": "2025-07-15T23:53:09.164630+00:00"
-    },
-    "permissions": {
-      "usageType": "governmentWideReuse",
-      "licenses": []
-    },
-    "repo_id": 74989305,
-    "private_id": "github_74989305",
-    "_url": "https://github.com/informaticslab/lifeguard-flask"
   },
   {
     "name": "converter",
@@ -2337,7 +2304,7 @@
     "date": {
       "created": "2016-11-14T19:13:45+00:00",
       "lastModified": "2016-11-16T16:25:55+00:00",
-      "metadataLastUpdated": "2025-07-15T23:53:09.186502+00:00"
+      "metadataLastUpdated": "2025-07-17T20:37:18.696618+00:00"
     },
     "permissions": {
       "usageType": "governmentWideReuse",
@@ -2370,7 +2337,7 @@
     "date": {
       "created": "2016-11-28T18:33:49+00:00",
       "lastModified": "2018-06-19T18:34:24+00:00",
-      "metadataLastUpdated": "2025-07-15T23:53:09.523455+00:00"
+      "metadataLastUpdated": "2025-07-17T20:37:18.800543+00:00"
     },
     "permissions": {
       "usageType": "governmentWideReuse",
@@ -2379,6 +2346,39 @@
     "repo_id": 75002609,
     "private_id": "github_75002609",
     "_url": "https://github.com/informaticslab/elastic-showcase"
+  },
+  {
+    "name": "lifeguard-flask",
+    "organization": "CDC",
+    "description": "A Lifeguard backend test server built with Python and Flask",
+    "version": "N/A",
+    "laborHours": 0,
+    "status": "archived",
+    "vcs": "git",
+    "homepageURL": "",
+    "repositoryURL": "https://github.com/informaticslab/lifeguard-flask",
+    "repositoryVisibility": "public",
+    "languages": [
+      "HTML",
+      "Python",
+      "CSS"
+    ],
+    "tags": [],
+    "contact": {
+      "email": "cdcinfo@cdc.gov"
+    },
+    "date": {
+      "created": "2016-11-28T15:58:36+00:00",
+      "lastModified": "2018-10-07T21:56:54+00:00",
+      "metadataLastUpdated": "2025-07-17T20:37:18.851137+00:00"
+    },
+    "permissions": {
+      "usageType": "governmentWideReuse",
+      "licenses": []
+    },
+    "repo_id": 74989305,
+    "private_id": "github_74989305",
+    "_url": "https://github.com/informaticslab/lifeguard-flask"
   },
   {
     "name": "AnubisPWA",
@@ -2403,7 +2403,7 @@
     "date": {
       "created": "2016-11-30T21:35:09+00:00",
       "lastModified": "2017-09-25T18:48:12+00:00",
-      "metadataLastUpdated": "2025-07-15T23:53:09.644031+00:00"
+      "metadataLastUpdated": "2025-07-17T20:37:19.206285+00:00"
     },
     "permissions": {
       "usageType": "governmentWideReuse",
@@ -2412,6 +2412,37 @@
     "repo_id": 75229220,
     "private_id": "github_75229220",
     "_url": "https://github.com/informaticslab/AnubisPWA"
+  },
+  {
+    "name": "mester2-droid",
+    "organization": "CDC",
+    "description": "",
+    "version": "N/A",
+    "laborHours": 0,
+    "status": "archived",
+    "vcs": "git",
+    "homepageURL": "",
+    "repositoryURL": "https://github.com/informaticslab/mester2-droid",
+    "repositoryVisibility": "public",
+    "languages": [
+      "Java"
+    ],
+    "tags": [],
+    "contact": {
+      "email": "cdcinfo@cdc.gov"
+    },
+    "date": {
+      "created": "2017-03-24T22:17:42+00:00",
+      "lastModified": "2017-03-27T19:08:09+00:00",
+      "metadataLastUpdated": "2025-07-17T20:37:21.356368+00:00"
+    },
+    "permissions": {
+      "usageType": "governmentWideReuse",
+      "licenses": []
+    },
+    "repo_id": 86115070,
+    "private_id": "github_86115070",
+    "_url": "https://github.com/informaticslab/mester2-droid"
   },
   {
     "name": "iiu-angular-starter",
@@ -2436,7 +2467,7 @@
     "date": {
       "created": "2017-01-27T17:15:22+00:00",
       "lastModified": "2017-02-09T19:47:15+00:00",
-      "metadataLastUpdated": "2025-07-15T23:53:11.738672+00:00"
+      "metadataLastUpdated": "2025-07-17T20:37:21.412538+00:00"
     },
     "permissions": {
       "usageType": "openSource",
@@ -2471,7 +2502,7 @@
     "date": {
       "created": "2017-01-27T21:08:33+00:00",
       "lastModified": "2019-07-23T20:13:15+00:00",
-      "metadataLastUpdated": "2025-07-15T23:53:11.780722+00:00"
+      "metadataLastUpdated": "2025-07-17T20:37:21.563626+00:00"
     },
     "permissions": {
       "usageType": "governmentWideReuse",
@@ -2480,37 +2511,6 @@
     "repo_id": 80246090,
     "private_id": "github_80246090",
     "_url": "https://github.com/informaticslab/mester2"
-  },
-  {
-    "name": "mester2-droid",
-    "organization": "CDC",
-    "description": "",
-    "version": "N/A",
-    "laborHours": 0,
-    "status": "archived",
-    "vcs": "git",
-    "homepageURL": "",
-    "repositoryURL": "https://github.com/informaticslab/mester2-droid",
-    "repositoryVisibility": "public",
-    "languages": [
-      "Java"
-    ],
-    "tags": [],
-    "contact": {
-      "email": "cdcinfo@cdc.gov"
-    },
-    "date": {
-      "created": "2017-03-24T22:17:42+00:00",
-      "lastModified": "2017-03-27T19:08:09+00:00",
-      "metadataLastUpdated": "2025-07-15T23:53:12.149404+00:00"
-    },
-    "permissions": {
-      "usageType": "governmentWideReuse",
-      "licenses": []
-    },
-    "repo_id": 86115070,
-    "private_id": "github_86115070",
-    "_url": "https://github.com/informaticslab/mester2-droid"
   },
   {
     "name": "pytron",
@@ -2534,7 +2534,7 @@
     "date": {
       "created": "2017-04-04T18:48:37+00:00",
       "lastModified": "2017-05-19T19:06:29+00:00",
-      "metadataLastUpdated": "2025-07-15T23:53:12.257751+00:00"
+      "metadataLastUpdated": "2025-07-17T20:37:21.795066+00:00"
     },
     "permissions": {
       "usageType": "governmentWideReuse",
@@ -2543,39 +2543,6 @@
     "repo_id": 87223358,
     "private_id": "github_87223358",
     "_url": "https://github.com/informaticslab/pytron"
-  },
-  {
-    "name": "science-clips-search",
-    "organization": "CDC",
-    "description": "",
-    "version": "N/A",
-    "laborHours": 0,
-    "status": "archived",
-    "vcs": "git",
-    "homepageURL": "",
-    "repositoryURL": "https://github.com/informaticslab/science-clips-search",
-    "repositoryVisibility": "public",
-    "languages": [
-      "HTML",
-      "JavaScript",
-      "CSS"
-    ],
-    "tags": [],
-    "contact": {
-      "email": "cdcinfo@cdc.gov"
-    },
-    "date": {
-      "created": "2017-06-30T15:44:00+00:00",
-      "lastModified": "2017-08-03T01:37:12+00:00",
-      "metadataLastUpdated": "2025-07-15T23:53:14.292004+00:00"
-    },
-    "permissions": {
-      "usageType": "governmentWideReuse",
-      "licenses": []
-    },
-    "repo_id": 95902600,
-    "private_id": "github_95902600",
-    "_url": "https://github.com/informaticslab/science-clips-search"
   },
   {
     "name": "appl-py-dock",
@@ -2602,7 +2569,7 @@
     "date": {
       "created": "2017-06-12T19:28:22+00:00",
       "lastModified": "2017-06-15T14:19:20+00:00",
-      "metadataLastUpdated": "2025-07-15T23:53:14.295722+00:00"
+      "metadataLastUpdated": "2025-07-17T20:37:23.914915+00:00"
     },
     "permissions": {
       "usageType": "governmentWideReuse",
@@ -2611,6 +2578,39 @@
     "repo_id": 94132780,
     "private_id": "github_94132780",
     "_url": "https://github.com/informaticslab/appl-py-dock"
+  },
+  {
+    "name": "science-clips-search",
+    "organization": "CDC",
+    "description": "",
+    "version": "N/A",
+    "laborHours": 0,
+    "status": "archived",
+    "vcs": "git",
+    "homepageURL": "",
+    "repositoryURL": "https://github.com/informaticslab/science-clips-search",
+    "repositoryVisibility": "public",
+    "languages": [
+      "HTML",
+      "JavaScript",
+      "CSS"
+    ],
+    "tags": [],
+    "contact": {
+      "email": "cdcinfo@cdc.gov"
+    },
+    "date": {
+      "created": "2017-06-30T15:44:00+00:00",
+      "lastModified": "2017-08-03T01:37:12+00:00",
+      "metadataLastUpdated": "2025-07-17T20:37:23.953704+00:00"
+    },
+    "permissions": {
+      "usageType": "governmentWideReuse",
+      "licenses": []
+    },
+    "repo_id": 95902600,
+    "private_id": "github_95902600",
+    "_url": "https://github.com/informaticslab/science-clips-search"
   },
   {
     "name": "esquire-frontend",
@@ -2634,7 +2634,7 @@
     "date": {
       "created": "2017-08-28T13:10:01+00:00",
       "lastModified": "2017-11-29T16:49:02+00:00",
-      "metadataLastUpdated": "2025-07-15T23:53:14.777517+00:00"
+      "metadataLastUpdated": "2025-07-17T20:37:24.310158+00:00"
     },
     "permissions": {
       "usageType": "openSource",
@@ -2672,7 +2672,7 @@
     "date": {
       "created": "2017-10-13T13:27:29+00:00",
       "lastModified": "2017-11-01T13:31:35+00:00",
-      "metadataLastUpdated": "2025-07-15T23:53:14.792729+00:00"
+      "metadataLastUpdated": "2025-07-17T20:37:24.369609+00:00"
     },
     "permissions": {
       "usageType": "governmentWideReuse",
@@ -2709,7 +2709,7 @@
     "date": {
       "created": "2021-08-20T14:06:34+00:00",
       "lastModified": "2023-01-11T18:30:57+00:00",
-      "metadataLastUpdated": "2025-07-15T23:53:16.839187+00:00"
+      "metadataLastUpdated": "2025-07-17T20:37:26.479446+00:00"
     },
     "permissions": {
       "usageType": "governmentWideReuse",
@@ -2742,7 +2742,7 @@
     "date": {
       "created": "2017-12-22T16:04:37+00:00",
       "lastModified": "2017-12-22T20:06:25+00:00",
-      "metadataLastUpdated": "2025-07-15T23:53:16.875617+00:00"
+      "metadataLastUpdated": "2025-07-17T20:37:26.551540+00:00"
     },
     "permissions": {
       "usageType": "governmentWideReuse",
