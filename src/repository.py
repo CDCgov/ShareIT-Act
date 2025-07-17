@@ -33,7 +33,7 @@ class Repository:
     return repos
 
   def get_repo_by_id(self, repo_id):
-    g = self.authenticate(self.credentials)
+    g = self.authenticate()
     try:
       repo = g.get_repo(int(repo_id))
       return repo
