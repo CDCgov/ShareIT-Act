@@ -33,6 +33,6 @@ class Organization():
       "opa": "Office of Policy, Performance, and Evaluation (OPA)",
       "ophdst": "Office of Public Health Data, Surveillance, and Technology (OPHDST)",
       "ostlts": "Office of State, Tribal, Local and Territorial Support (OSTLTS)",
-      "owcd": "Office of Women’s Health and Health Equity (OWHD)"
+      "owcd": "Office of Women's Health and Health Equity (OWHD)"
     }
     return orgs
