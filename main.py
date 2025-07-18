@@ -22,15 +22,6 @@ def generate_privateid_csv(code_json_path, csv_path):
   with open(code_json_path, "r") as f:
     code_data = json.load(f)
 
-  existing_ids = set()
-  rows = []
-  if csv_path.exists():
-    with open(csv_path, "r", newline='') as f:
-      reader = csv.DictReader(f, delimiter=',')
-      for row in reader:
-        existing_ids.add(row["PrivateID"])
-        rows.append(row)
-
   new_rows = []
   for repo in code_data.get('projects', []):
     if not isinstance(repo, dict):
@@ -38,11 +29,7 @@ def generate_privateid_csv(code_json_path, csv_path):
     repo_id = repo.get("repo_id")
     if not repo_id:
       continue
-    private_id = f"github_{repo_id}"
-    if private_id in existing_ids:
-      continue
-    if repo.get("platform", "") == "AzureDevOps":
-      private_id = f"azuredevops_{repo_id}"
+    private_id = repo.get("private_id","")
     repo_url = repo.get("repositoryURL", "")
     repo_name = repo_url.rstrip("/").split("/")[-1]
     org = repo.get("organization", "") or (repo_url.rstrip("/").split("/")[-2] if "/" in repo_url else "")
@@ -70,8 +57,6 @@ def generate_privateid_csv(code_json_path, csv_path):
   with open(csv_path, "w", newline='') as f:
     writer = csv.DictWriter(f, fieldnames=fieldnames, delimiter=',')
     writer.writeheader()
-    for row in rows:
-      writer.writerow(row)
     for row in new_rows:
       writer.writerow(row)
   print(f"CSV mapping written to {csv_path}")
