@@ -89,6 +89,8 @@ def main():
   parser = argparse.ArgumentParser(description='Process GitHub organization')
   parser.add_argument('--output', help='Output directory path')
   parser.add_argument('--combine', action='store_true', help='Combine all JSON files in data/raw directory')
+  parser.add_argument('--filter', action='store_true', help='Filter repositories by criteria, only used with --combine')
+  parser.add_argument('--public-only', action='store_true', help='Filter repositories by public repositories, only used with --combine')
   parser.add_argument('--generate-csv', action='store_true', help='Generate privateid_mapping.csv from code.json')
   parser.add_argument('--repo-id', help='Run inference for a single repo ID and output one file')
   args = parser.parse_args()
@@ -96,7 +98,27 @@ def main():
   now = datetime.now().strftime("%Y-%m-%dT%H-%M-%S")
   print(f"Process starting: {now}")
 
-  if args.combine:
+  if args.combine and args.filter:
+    credentials = Config().credentials()
+    input_dir = credentials.get('raw_data_dir', 'data/raw')
+    if input_dir == 'data/raw':
+      input_dir = str(Path(__file__).parent.absolute() / 'data/raw')
+    Combine().combine_json_files_with_filter(input_dir, args.output)
+    now = datetime.now().strftime("%Y-%m-%dT%H-%M-%S")
+    print(f"Completed processing at {now}")
+    return
+
+  elif args.combine and args.public_only:
+    credentials = Config().credentials()
+    input_dir = credentials.get('raw_data_dir', 'data/raw')
+    if input_dir == 'data/raw':
+      input_dir = str(Path(__file__).parent.absolute() / 'data/raw')
+    Combine().combine_json_files_with_public(input_dir, args.output)
+    now = datetime.now().strftime("%Y-%m-%dT%H-%M-%S")
+    print(f"Completed processing at {now}")
+    return
+
+  elif args.combine and not args.filter and not args.public_only:
     credentials = Config().credentials()
     input_dir = credentials.get('raw_data_dir', 'data/raw')
     if input_dir == 'data/raw':
