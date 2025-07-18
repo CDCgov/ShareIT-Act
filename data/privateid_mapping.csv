@@ -20042,3 +20042,6 @@ azuredevops_8458028b-4e83-4204-ae93-a288d31045f3,DRH_PRAMS_DataDashboard,https:/
 azuredevops_519ea298-75f0-48de-9647-ed06fcf32d4d,-retired-state-data-admin,https://devops2.cdc.gov/ado/NCCDPHP_Apps_Dev/DPH_BRFSS_State_Data/_git/-retired-state-data-admin,_git,shareit@cdc.gov,2025-07-15T20:11:03.360789
 azuredevops_42cc1e16-f9f7-47c1-a78b-6c89c98c85e2,Test_MSF_Agile,https://devops2.cdc.gov/ado/NCCDPHP_Apps_Dev/Test_MSF_Agile/_git/Test_MSF_Agile,_git,shareit@cdc.gov,2025-07-15T20:11:03.360793
 azuredevops_373ef55f-0ee1-424d-a20e-5d5684dc86b9,powercat-code-components.git,https://devops2.cdc.gov/ado/NCCDPHP_Apps_Dev/DCPC_SPFX/_git/powercat-code-components.git,_git,shareit@cdc.gov,2025-07-15T20:11:03.360796
+github_1017556196,MFIREServer,https://github.com/CDCgov/MFIREServer,CDC,cdcinfo@cdc.gov,2025-07-18T16:29:21.624700
+github_1018164740,Databricks_Schema_Analysis,https://github.com/CDCgov/Databricks_Schema_Analysis,CDC,cdcinfo@cdc.gov,2025-07-18T16:29:21.624726
+github_1019713814,dibbs-text-to-code,https://github.com/CDCgov/dibbs-text-to-code,CDC,cdcinfo@cdc.gov,2025-07-18T16:29:21.624732
