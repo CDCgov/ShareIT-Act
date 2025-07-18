@@ -8,7 +8,7 @@ on:
       - "data/raw/**"
   workflow_dispatch:
   schedule:
-    - cron: '0 13 * * 6' # https://crontab.guru/#0_13_*_*_6
+    - cron: "0 13 * * 6" # https://crontab.guru/#0_13_*_*_6
 
 concurrency:
   group: ${{ github.workflow }}
@@ -32,7 +32,7 @@ jobs:
 
       - name: Running combine script to create code.json
         run: |
-          uv run python main.py --combine --output data/
+          uv run python main.py --combine --public --output data/
 
       - name: Upload code.json file
         uses: actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02 # v4.6.2
