@@ -12,6 +12,30 @@ from concurrent.futures import ThreadPoolExecutor, as_completed
 from datetime import datetime
 from pathlib import Path
 
+def get_raw_information(raw_info_path):
+  raw_dir = Path(raw_info_path).parent / "raw"
+  raw_dir = Path(raw_dir)
+  raw_info = {}
+  for json_file in raw_dir.glob("*.json"):
+    try:
+      with open(json_file, "r") as f:
+        data = json.load(f)
+        for repo in data:
+          private_id = repo.get("private_id")
+          name = repo.get("name","")
+          repo_url = repo.get("repositoryURL", "")
+          org = repo.get("organization", "")
+          contact = repo.get("contact", {})
+          raw_info[private_id] = {
+            "RepositoryName": name,
+            "RepositoryURL": repo_url,
+            "Organization": org,
+            "ContactEmail": contact.get("email", "")
+          }
+    except Exception as e:
+      print(f"Error reading {json_file}: {e}")
+  return raw_info
+
 def generate_privateid_csv(code_json_path, csv_path):
   code_json_path = Path(code_json_path)
   csv_path = Path(csv_path)
@@ -23,26 +47,15 @@ def generate_privateid_csv(code_json_path, csv_path):
     code_data = json.load(f)
 
   new_rows = []
+  info = get_raw_information(code_json_path)
+  print(len(info))
   for repo in code_data.get('projects', []):
-    if not isinstance(repo, dict):
-      continue
-    repo_id = repo.get("repo_id")
-    if not repo_id:
-      continue
     private_id = repo.get("private_id","")
-    repo_url = repo.get("repositoryURL", "")
-    repo_name = repo_url.rstrip("/").split("/")[-1]
-    org = repo.get("organization", "") or (repo_url.rstrip("/").split("/")[-2] if "/" in repo_url else "")
-    contact_emails = ""
-    contact = repo.get("contact", {})
-    if isinstance(contact, dict):
-      emails = []
-      for v in contact.values():
-        if isinstance(v, str) and "@" in v:
-          emails.append(v)
-        elif isinstance(v, list):
-          emails.extend([e for e in v if "@" in e])
-      contact_emails = ",".join(emails)
+    repo_info = info.get(private_id, {})
+    repo_name = repo_info.get("RepositoryName", "")
+    repo_url = repo_info.get("RepositoryURL", "")
+    org = repo_info.get("Organization", "")
+    contact_emails = repo_info.get("ContactEmail", "")
     date_added = datetime.now().isoformat()
     new_rows.append({
       "PrivateID": private_id,
@@ -117,7 +130,8 @@ def main():
     output_dir = Path(args.output) if args.output else Path(__file__).parent / "data"
     code_json_path = output_dir / "code.json"
     csv_path = output_dir / "privateid_mapping.csv"
-    print(code_json_path, csv_path)
+    print(f"Code JSON path: {code_json_path}")
+    print(f"CSV path: {csv_path}")
     generate_privateid_csv(code_json_path, csv_path)
     return
 
