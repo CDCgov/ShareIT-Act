@@ -20,7 +20,7 @@
     "date": {
       "created": "2022-04-21T13:08:30+00:00",
       "lastModified": "2022-04-25T17:42:26+00:00",
-      "metadataLastUpdated": "2025-07-19T03:26:56.142295+00:00"
+      "metadataLastUpdated": "2025-07-23T16:01:23.374729+00:00"
     },
     "permissions": {
       "usageType": "openSource",
@@ -33,39 +33,6 @@
     "repo_id": 484055614,
     "private_id": "github_484055614",
     "_url": "https://github.com/cdcai/zsl-vaccine"
-  },
-  {
-    "name": "cfa",
-    "organization": "CDC",
-    "description": "",
-    "version": "N/A",
-    "laborHours": 0,
-    "status": "development",
-    "vcs": "git",
-    "homepageURL": "",
-    "repositoryURL": "https://github.com/cdcai/cfa",
-    "repositoryVisibility": "public",
-    "languages": [],
-    "tags": [],
-    "contact": {
-      "email": "cdcinfo@cdc.gov"
-    },
-    "date": {
-      "created": "2023-08-16T17:36:17+00:00",
-      "lastModified": "2023-08-16T17:36:19+00:00",
-      "metadataLastUpdated": "2025-07-19T03:26:56.156053+00:00"
-    },
-    "permissions": {
-      "usageType": "openSource",
-      "licenses": [
-        {
-          "name": "Apache License 2.0"
-        }
-      ]
-    },
-    "repo_id": 679373832,
-    "private_id": "github_679373832",
-    "_url": "https://github.com/cdcai/cfa"
   },
   {
     "name": "premier_analysis",
@@ -96,7 +63,7 @@
     "date": {
       "created": "2020-10-01T18:19:43+00:00",
       "lastModified": "2025-04-29T16:41:18+00:00",
-      "metadataLastUpdated": "2025-07-19T03:26:56.172402+00:00"
+      "metadataLastUpdated": "2025-07-23T16:01:23.385102+00:00"
     },
     "permissions": {
       "usageType": "governmentWideReuse",
@@ -105,6 +72,39 @@
     "repo_id": 300380501,
     "private_id": "github_300380501",
     "_url": "https://github.com/cdcai/premier_analysis"
+  },
+  {
+    "name": "cfa",
+    "organization": "CDC",
+    "description": "",
+    "version": "N/A",
+    "laborHours": 0,
+    "status": "development",
+    "vcs": "git",
+    "homepageURL": "",
+    "repositoryURL": "https://github.com/cdcai/cfa",
+    "repositoryVisibility": "public",
+    "languages": [],
+    "tags": [],
+    "contact": {
+      "email": "cdcinfo@cdc.gov"
+    },
+    "date": {
+      "created": "2023-08-16T17:36:17+00:00",
+      "lastModified": "2023-08-16T17:36:19+00:00",
+      "metadataLastUpdated": "2025-07-23T16:01:23.400577+00:00"
+    },
+    "permissions": {
+      "usageType": "openSource",
+      "licenses": [
+        {
+          "name": "Apache License 2.0"
+        }
+      ]
+    },
+    "repo_id": 679373832,
+    "private_id": "github_679373832",
+    "_url": "https://github.com/cdcai/cfa"
   },
   {
     "name": "cfa_vap_access_instructions",
@@ -125,7 +125,7 @@
     "date": {
       "created": "2023-11-02T16:15:10+00:00",
       "lastModified": "2024-02-15T16:58:48+00:00",
-      "metadataLastUpdated": "2025-07-19T03:26:56.191959+00:00"
+      "metadataLastUpdated": "2025-07-23T16:01:23.559675+00:00"
     },
     "permissions": {
       "usageType": "exemptByCIO",
@@ -135,42 +135,6 @@
     "repo_id": 713490349,
     "private_id": "github_713490349",
     "_url": "https://github.com/cdcai/cfa_vap_access_instructions"
-  },
-  {
-    "name": "cdc-journal-embeddings",
-    "organization": "Centers for Disease Control and Prevention (CDC)",
-    "description": "Mixtral 8x7B - LangChain - ChromaDB -powered model informed from CDC publications",
-    "version": "N/A",
-    "laborHours": 0,
-    "status": "development",
-    "vcs": "git",
-    "homepageURL": "",
-    "repositoryURL": "https://cdcgov.github.io/ShareIT-Act/assets/files/instructions.pdf",
-    "repositoryVisibility": "private",
-    "languages": [
-      "Python"
-    ],
-    "tags": [],
-    "contact": {
-      "email": "shareit@cdc.gov"
-    },
-    "date": {
-      "created": "2023-12-19T20:38:19+00:00",
-      "lastModified": "2024-06-07T14:56:58+00:00",
-      "metadataLastUpdated": "2025-07-19T03:26:58.820054+00:00"
-    },
-    "permissions": {
-      "usageType": "exemptByCIO",
-      "licenses": [
-        {
-          "name": "Apache License 2.0"
-        }
-      ],
-      "exemptionText": "Internal repository"
-    },
-    "repo_id": 733658002,
-    "private_id": "github_733658002",
-    "_url": "https://github.com/cdcai/cdc-journal-embeddings"
   },
   {
     "name": "agents",
@@ -197,8 +161,8 @@
     },
     "date": {
       "created": "2024-05-30T18:46:29+00:00",
-      "lastModified": "2025-07-17T20:40:44+00:00",
-      "metadataLastUpdated": "2025-07-19T03:26:58.841472+00:00"
+      "lastModified": "2025-07-21T16:50:31+00:00",
+      "metadataLastUpdated": "2025-07-23T16:01:25.615839+00:00"
     },
     "permissions": {
       "usageType": "governmentWideReuse",
@@ -209,9 +173,9 @@
     "_url": "https://github.com/cdcai/agents"
   },
   {
-    "name": "webster",
-    "organization": "CDC",
-    "description": "Streamlit app for using LLMs to create data dictionaries",
+    "name": "cdc-journal-embeddings",
+    "organization": "Centers for Disease Control and Prevention (CDC)",
+    "description": "Mixtral 8x7B - LangChain - ChromaDB -powered model informed from CDC publications",
     "version": "N/A",
     "laborHours": 0,
     "status": "development",
@@ -227,9 +191,9 @@
       "email": "shareit@cdc.gov"
     },
     "date": {
-      "created": "2024-06-04T14:00:46+00:00",
-      "lastModified": "2025-05-20T14:50:49+00:00",
-      "metadataLastUpdated": "2025-07-19T03:26:58.863640+00:00"
+      "created": "2023-12-19T20:38:19+00:00",
+      "lastModified": "2024-06-07T14:56:58+00:00",
+      "metadataLastUpdated": "2025-07-23T16:01:25.680996+00:00"
     },
     "permissions": {
       "usageType": "exemptByCIO",
@@ -240,9 +204,9 @@
       ],
       "exemptionText": "Internal repository"
     },
-    "repo_id": 810341058,
-    "private_id": "github_810341058",
-    "_url": "https://github.com/cdcai/webster"
+    "repo_id": 733658002,
+    "private_id": "github_733658002",
+    "_url": "https://github.com/cdcai/cdc-journal-embeddings"
   },
   {
     "name": "outbreak_thematic_analysis",
@@ -266,7 +230,7 @@
     "date": {
       "created": "2024-02-23T19:20:44+00:00",
       "lastModified": "2025-05-01T14:11:01+00:00",
-      "metadataLastUpdated": "2025-07-19T03:26:58.873452+00:00"
+      "metadataLastUpdated": "2025-07-23T16:01:25.855767+00:00"
     },
     "permissions": {
       "usageType": "exemptByCIO",
@@ -276,6 +240,107 @@
     "repo_id": 762435314,
     "private_id": "github_762435314",
     "_url": "https://github.com/cdcai/outbreak_thematic_analysis"
+  },
+  {
+    "name": "webster",
+    "organization": "CDC",
+    "description": "Streamlit app for using LLMs to create data dictionaries",
+    "version": "N/A",
+    "laborHours": 0,
+    "status": "development",
+    "vcs": "git",
+    "homepageURL": "",
+    "repositoryURL": "https://cdcgov.github.io/ShareIT-Act/assets/files/instructions.pdf",
+    "repositoryVisibility": "private",
+    "languages": [
+      "Python"
+    ],
+    "tags": [],
+    "contact": {
+      "email": "shareit@cdc.gov"
+    },
+    "date": {
+      "created": "2024-06-04T14:00:46+00:00",
+      "lastModified": "2025-05-20T14:50:49+00:00",
+      "metadataLastUpdated": "2025-07-23T16:01:26.019381+00:00"
+    },
+    "permissions": {
+      "usageType": "exemptByCIO",
+      "licenses": [
+        {
+          "name": "Apache License 2.0"
+        }
+      ],
+      "exemptionText": "Internal repository"
+    },
+    "repo_id": 810341058,
+    "private_id": "github_810341058",
+    "_url": "https://github.com/cdcai/webster"
+  },
+  {
+    "name": "sdoh_prediction",
+    "organization": "CDC",
+    "description": "",
+    "version": "N/A",
+    "laborHours": 0,
+    "status": "development",
+    "vcs": "git",
+    "homepageURL": "",
+    "repositoryURL": "https://cdcgov.github.io/ShareIT-Act/assets/files/instructions.pdf",
+    "repositoryVisibility": "private",
+    "languages": [
+      "Python"
+    ],
+    "tags": [],
+    "contact": {
+      "email": "shareit@cdc.gov"
+    },
+    "date": {
+      "created": "2024-12-06T16:53:22+00:00",
+      "lastModified": "2024-12-06T16:54:34+00:00",
+      "metadataLastUpdated": "2025-07-23T16:01:27.979451+00:00"
+    },
+    "permissions": {
+      "usageType": "exemptByCIO",
+      "licenses": [],
+      "exemptionText": "Internal repository"
+    },
+    "repo_id": 899625434,
+    "private_id": "github_899625434",
+    "_url": "https://github.com/cdcai/sdoh_prediction"
+  },
+  {
+    "name": "NEISS-CADES-ML",
+    "organization": "CDC",
+    "description": "ML Project using data from the National Electronic Injury Surveillance System-Cooperative Adverse Drug Event Surveillance",
+    "version": "N/A",
+    "laborHours": 0,
+    "status": "development",
+    "vcs": "git",
+    "homepageURL": "",
+    "repositoryURL": "https://cdcgov.github.io/ShareIT-Act/assets/files/instructions.pdf",
+    "repositoryVisibility": "private",
+    "languages": [
+      "Python",
+      "R"
+    ],
+    "tags": [],
+    "contact": {
+      "email": "shareit@cdc.gov"
+    },
+    "date": {
+      "created": "2024-09-12T16:06:55+00:00",
+      "lastModified": "2025-07-22T15:01:32+00:00",
+      "metadataLastUpdated": "2025-07-23T16:01:27.987075+00:00"
+    },
+    "permissions": {
+      "usageType": "exemptByCIO",
+      "licenses": [],
+      "exemptionText": "Internal repository"
+    },
+    "repo_id": 856464136,
+    "private_id": "github_856464136",
+    "_url": "https://github.com/cdcai/NEISS-CADES-ML"
   },
   {
     "name": "analysis-bertopic-cdc-publications",
@@ -304,7 +369,7 @@
     "date": {
       "created": "2025-03-05T15:53:31+00:00",
       "lastModified": "2025-03-11T12:16:14+00:00",
-      "metadataLastUpdated": "2025-07-19T03:27:01.500675+00:00"
+      "metadataLastUpdated": "2025-07-23T16:01:28.130156+00:00"
     },
     "permissions": {
       "usageType": "openSource",
@@ -339,7 +404,7 @@
     "date": {
       "created": "2025-04-28T23:54:42+00:00",
       "lastModified": "2025-05-16T14:22:50+00:00",
-      "metadataLastUpdated": "2025-07-19T03:27:01.514853+00:00"
+      "metadataLastUpdated": "2025-07-23T16:01:28.383391+00:00"
     },
     "permissions": {
       "usageType": "exemptByCIO",
@@ -349,71 +414,6 @@
     "repo_id": 974538105,
     "private_id": "github_974538105",
     "_url": "https://github.com/cdcai/EIP_Agentic_RAG"
-  },
-  {
-    "name": "sdoh_prediction",
-    "organization": "CDC",
-    "description": "",
-    "version": "N/A",
-    "laborHours": 0,
-    "status": "development",
-    "vcs": "git",
-    "homepageURL": "",
-    "repositoryURL": "https://cdcgov.github.io/ShareIT-Act/assets/files/instructions.pdf",
-    "repositoryVisibility": "private",
-    "languages": [
-      "Python"
-    ],
-    "tags": [],
-    "contact": {
-      "email": "shareit@cdc.gov"
-    },
-    "date": {
-      "created": "2024-12-06T16:53:22+00:00",
-      "lastModified": "2024-12-06T16:54:34+00:00",
-      "metadataLastUpdated": "2025-07-19T03:27:01.555731+00:00"
-    },
-    "permissions": {
-      "usageType": "exemptByCIO",
-      "licenses": [],
-      "exemptionText": "Internal repository"
-    },
-    "repo_id": 899625434,
-    "private_id": "github_899625434",
-    "_url": "https://github.com/cdcai/sdoh_prediction"
-  },
-  {
-    "name": "NEISS-CADES-ML",
-    "organization": "CDC",
-    "description": "ML Project using data from the National Electronic Injury Surveillance System-Cooperative Adverse Drug Event Surveillance",
-    "version": "N/A",
-    "laborHours": 0,
-    "status": "development",
-    "vcs": "git",
-    "homepageURL": "",
-    "repositoryURL": "https://cdcgov.github.io/ShareIT-Act/assets/files/instructions.pdf",
-    "repositoryVisibility": "private",
-    "languages": [
-      "Python",
-      "R"
-    ],
-    "tags": [],
-    "contact": {
-      "email": "shareit@cdc.gov"
-    },
-    "date": {
-      "created": "2024-09-12T16:06:55+00:00",
-      "lastModified": "2025-05-07T17:43:41+00:00",
-      "metadataLastUpdated": "2025-07-19T03:27:01.586968+00:00"
-    },
-    "permissions": {
-      "usageType": "exemptByCIO",
-      "licenses": [],
-      "exemptionText": "Internal repository"
-    },
-    "repo_id": 856464136,
-    "private_id": "github_856464136",
-    "_url": "https://github.com/cdcai/NEISS-CADES-ML"
   },
   {
     "name": "vaers_meddra",
@@ -436,7 +436,7 @@
     "date": {
       "created": "2025-05-06T17:00:52+00:00",
       "lastModified": "2025-06-25T15:36:17+00:00",
-      "metadataLastUpdated": "2025-07-19T03:27:04.144516+00:00"
+      "metadataLastUpdated": "2025-07-23T16:01:30.214828+00:00"
     },
     "permissions": {
       "usageType": "exemptByCIO",
@@ -469,7 +469,7 @@
     "date": {
       "created": "2025-05-20T16:51:15+00:00",
       "lastModified": "2025-05-20T19:13:36+00:00",
-      "metadataLastUpdated": "2025-07-19T03:27:04.331454+00:00"
+      "metadataLastUpdated": "2025-07-23T16:01:30.236082+00:00"
     },
     "permissions": {
       "usageType": "exemptByCIO",
