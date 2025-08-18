@@ -31,9 +31,9 @@ We expect project teams and internal [Centers, Institutes, and Offices (CIOs)](h
 
 ## Review Metadata
 
-To ease the reviewing of metadata, we provide a [CDC Metadata Browser](https://cdcgov.github.io/ShareIT-Act/index.html) to go through an existing code.json file.
+To ease the reviewing of metadata, we provide a [CDC Metadata Browser](https://scaling-telegram-16jg4n5.pages.github.io/) to go through an existing code.json file.
 
-1. Open the latest **[CDC Metadata Browser](https://cdcgov.github.io/ShareIT-Act/index.html)** file published in this repository.
+1. Open the latest **[CDC Metadata Browser](https://scaling-telegram-16jg4n5.pages.github.io/)** file published in this repository.
 2. Search by:
    - Repository name
    - Org or CDC program
@@ -74,7 +74,7 @@ This is the **most direct and permanent method** for correcting your **Organizat
 
 For changes to any other metadata field, you can suggest an update by creating a GitHub issue directly from the browser.
 
-1. Open the **[CDC Metadata Browser](https://cdcgov.github.io/ShareIT-Act/index.html)**.
+1. Open the **[CDC Metadata Browser](https://scaling-telegram-16jg4n5.pages.github.io/)**.
 
 2. Search for your repository and click the **"Details"** button.
 
