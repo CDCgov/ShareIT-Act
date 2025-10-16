@@ -115,7 +115,7 @@ class Combine:
       "measurementType": {
           "method": "projects"
       },
-      "projects": combined_data
+      "releases": combined_data
     }
 
     with open(output_file, 'w') as f:
@@ -173,7 +173,7 @@ class Combine:
       "measurementType": {
           "method": "projects"
       },
-      "projects": combined_data
+      "releases": combined_data
     }
 
     with open(output_file, 'w') as f:
@@ -231,7 +231,7 @@ class Combine:
       "measurementType": {
           "method": "projects"
       },
-      "projects": combined_data
+      "releases": combined_data
     }
 
     with open(output_file, 'w') as f:
