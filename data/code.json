@@ -4,7 +4,7 @@
   "measurementType": {
     "method": "projects"
   },
-  "projects": [
+  "releases": [
     {
       "name": "cdcgov.github.io",
       "organization": "CDC",
