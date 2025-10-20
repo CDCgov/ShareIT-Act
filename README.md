@@ -7,6 +7,5 @@ This repository contains public assets related to the implementation of  [H.R.95
 
 [Centers for Disease Control and Prevention (CDC)](https://www.cdc.gov) is an [operating division (OpDiv)](https://www.hhs.gov/about/agencies/hhs-agencies-and-offices/index.html) of [Department of Health and Human Services (HHS)](https://www.hhs.gov/).
 
-To adhere to [H.R.9566 - SHARE IT Act](https://www.congress.gov/bill/118th-congress/house-bill/9566), we produce a [code.json](./data/code.json) file in accordance to [HHS's code.json](https://www.hhs.gov/code.json) to eventually follow [Centers for Medicare & Medicaid Services (CMS)](https://github.com/DSACMS/gov-codejson/blob/main/docs/metadata.md)'s 
 
-Email [shareit@cdc.gov](mailto:shareit@cdc.gov?subject=Feedback) for help or clarification.
+Email [shareit@cdc.gov](mailto:shareit@cdc.gov?subject=Feedback) for help.
