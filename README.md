@@ -3,7 +3,7 @@
 
 # Overview
 
-This repository is contains public assets related to the  implementation of  [H.R.9566 - SHARE IT Act](https://www.congress.gov/bill/118th-congress/house-bill/9566) for [Centers for Disease Control and Prevention (CDC)](https://www.cdc.gov) with the intention to share code with other federal agencies and general public.
+This repository contains public assets related to the implementation of  [H.R.9566 - SHARE IT Act](https://www.congress.gov/bill/118th-congress/house-bill/9566) for [Centers for Disease Control and Prevention (CDC)](https://www.cdc.gov) with the intention to share code with other federal agencies and general public.
 
 [Centers for Disease Control and Prevention (CDC)](https://www.cdc.gov) is an [operating division (OpDiv)](https://www.hhs.gov/about/agencies/hhs-agencies-and-offices/index.html) of [Department of Health and Human Services (HHS)](https://www.hhs.gov/).
 
