@@ -4,11 +4,9 @@
 # Share IT Act – Public Assets & Notice
 
 This repository contains the public components supporting CDC’s implementation of  
-**[H.R. 9566 – SHARE IT Act](https://www.congress.gov/bill/118th-congress/house-bill/9566)**  
-for the **[Centers for Disease Control and Prevention (CDC)](https://www.cdc.gov)**.
+**[H.R. 9566 – SHARE IT Act](https://www.congress.gov/bill/118th-congress/house-bill/9566)** for the **[Centers for Disease Control and Prevention (CDC)](https://www.cdc.gov)**.
 
-CDC is an [operating division (OpDiv)](https://www.hhs.gov/about/agencies/hhs-agencies-and-offices/index.html) of the  
-U.S. **Department of Health and Human Services (HHS)**.
+CDC is an [operating division (OpDiv)](https://www.hhs.gov/about/agencies/hhs-agencies-and-offices/index.html) of the U.S. **Department of Health and Human Services (HHS)**.
 
 ---
 
